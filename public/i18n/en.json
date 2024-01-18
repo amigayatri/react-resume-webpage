@@ -1,0 +1,111 @@
+{
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+		"subheading": "Front-end web developer"
+	},
+    "menu" : {
+        "languages": {
+            "en": "English",
+            "pt": "Brazilian Portuguese"
+        },
+        "theme": {
+            "change": "Change website theme"
+        }
+    },
+    "contacts": {
+        "alt" : {
+            "linkedin": "Linkedin Icon",
+            "mail": "E-mail Icon",
+            "site": "A Website Icon",
+            "phone": "Phone Icon" 
+        }
+    },
+    "summary": {
+        "text": "Graduated in Computer Science, has four years of experience in web development, mainly as a Front-end Developer. Extensive experience with React and WordPress, among other programming languages and frameworks. Also interested in web accessibility."
+    },
+    "sections": {
+        "education": {
+            "title": "Education",
+            "items": {
+                "grad": { 
+                    "text": "B.Sc. Computer Science at Universidade de São Paulo, São Carlos - SP, Brazil (February/2017, December/2022)"
+                }
+            }
+        },
+        "experience" : {
+            "title": "Professional Experience", 
+            "items": {
+                "techviz": { 
+                    "text": "Developer at TechViz. (July/2023, Now)", 
+                    "subitem": "Using React, Next.js, Svelte, StyledComponents and TypeScript in projects."
+                },
+                "encora": {
+                    "text": "Developer at Encora Brazil. (February/2022, November/2022)", 
+                    "subitem": "Using React, Vue.js and Laravel in projects"
+                },
+                "raccoon": {
+                    "text": "Front-end Developer at Raccoon.Monks. (August/2020, February/2022)", 
+                    "subitem": "Using React, WordPress, AMP, Next.js, PHP, HTML, Javascript and SCSS in projects. Also acting as leader of the developers guild, leading knowledge exchange meetings and training interns."                }, 
+                "partenero": {
+                    "text": "Full Stack Intern at Partenero. (February/2020, June/2020)", 
+                    "subitem": "Using Firebase and Ember"
+                },
+                "liven": {
+                    "text": "Front-end Mobile Intern at Liven. (September/2019, December/2019)", 
+                    "subitem": "Using React and React Native in projects"
+                }
+            }
+        },
+        "languages" : {
+            "title": "Languages",
+            "items": {
+                "pt": { 
+                    "text": "Native Brazilian Portuguese"
+                },
+                "en": {
+                    "text": "Advanced English"
+                }
+            }
+        },
+        "technologies" : {
+            "title": "Technologies", 
+            "items": {
+                "webbasics": { 
+                    "text": "Javascript, HTML and CSS"
+                },
+                "javascript": {
+                    "text": "React, SCSS, Styled Components, Next.js, AMP, React Native, Vue.js and Svelte"
+                },
+                "php" : {
+                    "text": "WordPress, PHP and Laravel"
+                },
+                "basics": {
+                    "text": "Linux and GIT"
+                }
+            }
+        },
+        "projects" : {
+            "title": "Projects and Activities", 
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx 'Introduction to Web Accessibility' course (September and October/2022)"
+                },
+                "shehacks": {
+                    "text": "1st place (out of 20 groups) at SheHacks 2019, a Hackathon by Facebook (September/2019)"
+                },
+                "principia": {
+                    "text": "Volunteer tutor to robotics classes in public schools by “Principia - Robôs na Escola” (February/2019 to July/2019)"
+                },
+                "vemPraUSP": {
+                    "text": "Volunteer tutor at “Vem Pra USP!”, an Online Scratch and App Inventor course for public high school students (October/2019)"
+                },
+                "pet": {
+                    "text": "Volunteer tutor twice at Basic Computer Skills Course for Seniors (March/2018 to May/2018 and September/2018 to November/2018)"
+                }
+            }
+        }
+    },
+    "footer": {
+        "text": "Developed by"
+    }
+}
