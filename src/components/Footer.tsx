@@ -7,6 +7,11 @@ const FooterWrapper = styled.footer`
     width: 100%;
     padding: 16px;
     text-align: center;
+
+    
+    @media print {
+        display: none;
+    }
 `;
 
 export const Footer = () => {

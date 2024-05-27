@@ -7,11 +7,14 @@ export const GlobalStyle = createGlobalStyle`
         --container: 32px;
 
         @media (min-width: 1024px) {
-            --container: 128px;
+            --container: calc((100% - 700px)/ 2);
         }
-        @media (min-width: 1600px) {
-            --container: calc((100% - 1000)/ 2);
+
+        @media print {
+            --container: 32px;
         }
+
+        background-color: ${({ theme }) => theme.primary};
     }
 
     body {

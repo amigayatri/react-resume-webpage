@@ -17,7 +17,7 @@ export const sections = [
     },
     {
         name: "experience",
-        items: ["techviz", "encora", "raccoon", "partenero", "liven"],
+        items: ["atip","techviz", "encora", "raccoon", "partenero", "liven"],
         subitem: true
     },
     {

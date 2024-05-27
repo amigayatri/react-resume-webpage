@@ -11,6 +11,10 @@ const MenuWrapper = styled.nav`
   align-items: center;
   justify-content: flex-end;
   height: 40px;
+
+  @media print {
+    display: none;
+  }
 `;
 
 const LanguageSelect = styled.select`

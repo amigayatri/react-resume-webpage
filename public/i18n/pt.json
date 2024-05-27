@@ -35,8 +35,12 @@
         "experience" : {
             "title": "Experiência Profissional",
             "items": {
+                "atip": { 
+                    "text": "Desenvolvedora na Atip (parceria com a Pepsico). (Março/2024, Atualmente)", 
+                    "subitem": "Utilizando React, Next.js, StyledComponents e TypeScript nos projetos, trabalhando com o time mexicano da Pepsico."
+                },
                 "techviz": { 
-                    "text": "Desenvolvedora na TechViz. (Julho/2023, Atualmente)",
+                    "text": "Desenvolvedora na TechViz. (Julho/2023, Fevereiro/2024)",
                     "subitem": "Utilizando React, Next.js, Svelte, StyledComponents e TypeScript nos projetos." 
                 },
                 "encora": {
