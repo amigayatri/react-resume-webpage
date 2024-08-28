@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Header } from "./components/resume//Header";
-import { Footer } from "./components/global/Footer";
+import { Colors } from "./pages/Colors";
+import { Footer } from "./components/global/Footer/Footer";
 import { GlobalStyle } from "./Global";
-import { Menu } from "./components/global/Menu";
+import { Menu } from "./components/global/Menu/Menu";
 import {ThemeProvider} from "styled-components";
-import { lightTheme, darkTheme } from "./components/global/Themes"
+import { lightTheme, darkTheme } from "./components/Themes/Themes"
 import { useState } from "react";
 
 const App = () => {
@@ -20,9 +20,9 @@ const App = () => {
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <GlobalStyle />
         <Menu changeTheme={themeToggler} theme={theme} />
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/colors/" element={<Colors />} />
         </Routes>
         <Footer />
       </ThemeProvider>

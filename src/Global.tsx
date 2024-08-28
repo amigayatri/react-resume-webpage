@@ -2,12 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --color-background: #e5e5e5;
-        --color-primary: #000000;
         --container: 32px;
+        --color-container: 32px;
 
         @media (min-width: 1024px) {
             --container: calc((100% - 700px)/ 2);
+            --color-container: 64px;
         }
 
         @media print {

@@ -112,5 +112,38 @@
     },
     "footer": {
         "text": "Desenvolvido por"
+    },
+    "colors" : {
+        "header" : {
+            "title" : "Gerador de Variação de Cores",
+            "summary": "Cria variações da cor para preto e branco, o número padrão de variações é 10 em cada direção, mas pode ser alterado"
+        },
+        "addColor" : {
+            "title": "Adicionar cor",
+            "buttons" : {
+                "addMany" : {
+                    "hidden": "Adicionar várias cores",
+                    "showing": "Esconder input de lista"
+                },
+                "addOne" : {
+                    "hidden": "Adicionar uma cor",
+                    "showing": "Esconder seletor de cor"
+                },
+                "changeSteps": {
+                    "hidden": "Alterar número de variações",
+                    "showing": "Parar de alterar número de variações"
+                }
+            }
+        },
+        "colorList" : {
+            "title" : "Cores adicionadas",
+            "summary" : {
+                "empty" : "Você não tem nenhuma cor adicionada",
+                "nonEmpty" : "Clique para remover"
+            }
+        },
+        "variations" : {
+            "title" : "Variações"
+        }
     }
 }

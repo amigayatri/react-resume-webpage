@@ -1,0 +1,83 @@
+#color-text {
+    background-color: transparent;
+    color: #FFCCCC;
+    resize: none;
+    width: 100%;
+    text-transform: uppercase;
+    border-color: #FFCCCC;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#color-selector {
+    background-color: #FFB2B2;
+    border: none;
+    border-radius: 4px;
+    height: 64px;
+    width: 128px;
+}
+
+#change-steps {
+    background-color: #111111;
+    font-size: 24px;
+    color: #FFB2B2;
+    padding: 8px;
+    border: 1px solid #FFB2B2;
+}
+
+#list {
+    padding: 8px 0;
+}
+
+#list code {
+    font-size: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    min-height: 72px;
+    padding-top: 8px;
+}
+
+button {
+    background-color: #191919;
+    color: #FFCCCC;
+    border: 1px solid #FFCCCC;
+    font-family: "Fira Code", monospace;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.variation-list {
+    display: flex;
+    margin: 0 -32px;
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.variation-list h3 {
+    font-family: "Fira Code", monospace;
+}
+
+.shade {
+    display: block;
+    height: 80px;
+    min-width: 64px;
+    flex: 1;
+    position: relative;
+}
+
+.shade code {
+    background-color: #000000;
+    color: #FFB2B2;
+    width: 100%;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
