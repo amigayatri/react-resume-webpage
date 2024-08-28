@@ -1,5 +1,5 @@
-import { Section } from "../components/Section";
-import { Summary } from "../components/Summary";
+import { Section } from "../components/resume/Section";
+import { Summary } from "../components/resume/Summary";
 import { sections } from "../constants";
 
 export const Home = () => {

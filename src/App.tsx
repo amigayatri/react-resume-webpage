@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
+import { Header } from "./components/resume//Header";
+import { Footer } from "./components/global/Footer";
 import { GlobalStyle } from "./Global";
-import { Menu } from "./components/Menu";
+import { Menu } from "./components/global/Menu";
 import {ThemeProvider} from "styled-components";
-import { lightTheme, darkTheme } from "./components/Themes"
+import { lightTheme, darkTheme } from "./components/global/Themes"
 import { useState } from "react";
 
 const App = () => {

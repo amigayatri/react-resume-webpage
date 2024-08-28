@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { LANGUAGES } from "../constants/index";
+import { LANGUAGES } from "../../constants/index";
 import styled from "styled-components";
 
 const MenuWrapper = styled.nav`

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
-import { contacts } from "../constants";
+import { contacts } from "../../constants";
 
 const Wrapper = styled.div`
     background-color: ${({ theme }) => theme.background};
