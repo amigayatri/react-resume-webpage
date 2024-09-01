@@ -1,9 +1,9 @@
 import styled from "styled-components"
 
 export const MenuWrapper = styled.nav`
-	background-color: #000000;
-	color: #e5e5e5;
-	padding: 4px var(--container);
+	background-color: #212117;
+	color: #f7f7f7;
+	padding: 8px var(--container);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -17,9 +17,9 @@ export const MenuWrapper = styled.nav`
 
 export const LanguageSelect = styled.select`
 	font-size: 1.25rem;
-	background-color: #000000;
-	color: #e5e5e5;
-	border-color: #000000;
+	background-color: #212117;
+	color: #f7f7f7;
+	border-color: #212117;
 `
 
 export const IconWrapper = styled.span`
@@ -43,7 +43,7 @@ export const ToggleWrapper = styled.div`
 	height: 32px;
 	position: relative;
 	background-color: ${({ theme }) => theme.background};
-	border: solid 2px #727272;
+	border: solid 2px #74705D;
 	border-radius: 16px;
 	margin-left: 16px;
 `

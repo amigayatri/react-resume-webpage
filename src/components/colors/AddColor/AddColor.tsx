@@ -50,7 +50,7 @@ export const AddColor = () => {
 			</ButtonWrapper>
 			<InputWrapper>
 				{showColorSelector && <ColorSelector defaultValue="#666666" type="color" />}
-				{showColorTextInput && <ColorTextInput rows={3}></ColorTextInput>}
+				{showColorTextInput && <ColorTextInput></ColorTextInput>}
 				{showChangeSteps && (
 					<ChangeSteps min={2} max={32} defaultValue={10} type="number" step={1} />
 				)}
