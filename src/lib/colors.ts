@@ -1,148 +1,85 @@
-let variationSteps = 10
-class Color {
+export let variationSteps = 10
+
+interface RGB {
+    red: number;
+    green: number;
+    blue: number;
+}
+
+interface mapFNType {
+    args: {key: keyof RGB, value: number, idx: number};
+    fn: (key: keyof RGB, value: number, idx: number) => number;
+}
+
+const min = 0, max = 255
+export class Color {
     code: string
     variations: Set<string>
-    min: number
-    max: number 
-    red: number 
-    green: number 
-    blue: number 
+    #rgb: RGB 
     constructor(code: string) {
         this.code = code.substring(1).toUpperCase()
         this.variations = new Set()
-        const [r, g, b] = this.#convertFromHexCode(code)
-        this.min = Math.min(r, g, b)
-        this.max = Math.max(r, g, b)
-        this.red = r
-        this.green = g
-        this.blue = b
-        this.#generateValueVariations()
-        this.#generateSaturationVariations()
-        this.generateShades()
+        this.#rgb = this.#convertFromHexCode(code)
+        this.#generateShadeCodes()
     }
 
     #convertFromHexCode (hexaCode: string) {
         const hexToInt = (color: string) => parseInt(color, 16)
         const hArr = hexaCode.split('')
-        const r = hexToInt(hArr[1]+hArr[2]), g = hexToInt(hArr[3]+hArr[4]), b = hexToInt(hArr[5]+hArr[6])
-        return [r, g, b]
+        const red = hexToInt(hArr[1]+hArr[2])
+        const green = hexToInt(hArr[3]+hArr[4])
+        const blue = hexToInt(hArr[5]+hArr[6])
+        return {red, green, blue}
     }
 
-    #generateHex = (red:number, green:number, blue:number) => {
+    #generateHex = (color: RGB) => {
         const intToHex = (color: number) => color < 16 ? '0' + color.toString(16) : color.toString(16)
-        const hex = ['#', intToHex(red), intToHex(green), intToHex(blue)]
+        const hex = [
+            '#', 
+            intToHex(color.red), 
+            intToHex(color.green), 
+            intToHex(color.blue)
+        ]
         return hex.join('')
     }
 
-    #generateSaturationVariations = () => {
-        const max = 255
-        const maxDiff = (color:number) => (max-color)/variationSteps
-        const redDiff = maxDiff(this.red), blueDiff = maxDiff(this.blue), greenDiff = maxDiff(this.green)
+    #mapRGB = (mapFN : mapFNType['fn'], idx?: number) => {
+        const newRGB : Partial<RGB> = {}
+        Object.entries(this.#rgb).forEach(
+            ([key, value]) => newRGB[key as keyof RGB] = mapFN(key as keyof RGB, value, idx == undefined ? -1 : idx)
+        )
+        return newRGB as RGB
+    }
+
+    #generateVariations = (fnDiff: mapFNType['fn'], startVal?: number) => {
+        const diff : RGB = this.#mapRGB(fnDiff)
+        const getNew: mapFNType['fn'] = (key: keyof RGB, _value : number, idx: number) => {
+            const idxDiff = Math.trunc(idx*diff[key])
+            if (startVal !== undefined) return startVal + idxDiff
+            return this.#rgb[key] + idxDiff
+        }
         for (let i = 0; i <= variationSteps; i++) {
-            const redNew = this.red + Math.trunc(i*redDiff)
-            const greenNew = this.green + Math.trunc(i*greenDiff)
-            const blueNew = this.blue + Math.trunc(i*blueDiff)
-            const hex = this.#generateHex(redNew, greenNew, blueNew).toUpperCase()
+            const newColor : RGB = this.#mapRGB(getNew, i)
+            const hex = this.#generateHex(newColor).toUpperCase()
             this.variations.add(hex)
         }
     }
 
-    #generateValueVariations = () => {
-        const min = 0
-        const minDiff = (color: number) => (color-min)/variationSteps
-        const redDiff = minDiff(this.red), blueDiff = minDiff(this.blue), greenDiff = minDiff(this.green)
-        for (let i = 0; i < variationSteps; i++) {
-            const redNew = min + Math.trunc(i*redDiff)
-            const greenNew = min + Math.trunc(i*greenDiff)
-            const blueNew = min + Math.trunc(i*blueDiff)
-            const hex = this.#generateHex(redNew, greenNew, blueNew).toUpperCase()
-            this.variations.add(hex)
-        }
-    }
-    generateArray = () => {
-        return Array.from(this.variations)
-    }
-
-    generateShades () {
-        const section = document.getElementById('color-variations')
-        const oldSelf = document.getElementById('var-'+this.code)
-        if (oldSelf != null) oldSelf.remove()
-        const generateShades = () => {
-            const shades = []
-            const createShade = (code:string) => `<li class="shade" style=" background-color: ${code};"><code>${code}</code></li>`
-            for (const color of this.variations) {
-                shades.push(createShade(color))
-            }
-            return shades.join('')
-        }
-        const generateSection = () => {
-            return (`
-                <div id="var-${this.code}" class="color-wrapper">
-                    <h3 style="color: ${this.code};">#${this.code}</h3>
-                    <ul class="variation-list">
-                        ${generateShades()}
-                    </ul>
-                </div>
-            `)
-        }
-        section.insertAdjacentHTML('afterbegin', generateSection())
+    #generateShadeCodes = () => {
+        const valueDiff = (_key : keyof RGB, value: number) => (value-min)/variationSteps
+        this.#generateVariations(valueDiff, min)
+        const saturationDiff = (_key: keyof RGB, value: number) => (max-value)/variationSteps
+        this.#generateVariations(saturationDiff)
     }
 
     regenerateVariations = () => {
         this.variations.clear()
-        this.#generateValueVariations()
-        this.#generateSaturationVariations()
-        this.generateShades()
+        this.#generateShadeCodes()
     }
 }
 
+export const regex = new RegExp(/^#([A-Fa-f0-9]{6})$/);
 
-
-const colors = new Map()
-
-const regenerateAll = () => {
-    for (const color of colors.values()) {
-        color.regenerateVariations()
-    }
-}
-
-const removeColor = (color:string) => {
-    const base = document.getElementById(`base-${color}`)
-    const vars = document.getElementById(`var-${color}`)
-    base.remove()
-    vars.remove()
-    colors.delete('#'+color)
-    if (colors.size == 0) {
-        const summary = document.getElementById('summary-list')
-        summary.innerText = summaryText.empty
-    }
-}
-
-const addColor = (color:string) => {
-    color = color.toUpperCase()
-    if (colors.has(color)) return
-    colors.set(color, new Color(color))
-    const list = document.getElementById('list')
-    const newBaseColor = (code) => { return `<code id="base-${code}" onClick="removeColor('${code}')">#${code}</code>`}
-    list.insertAdjacentHTML('afterbegin', newBaseColor(color.substring(1)))
-    if (colors.size == 1) {
-        const summary = document.getElementById('summary-list')
-        summary.innerText = summaryText.nonEmpty
-    }
-}
-
-const regex = new RegExp(/^#([A-Fa-f0-9]{6})$/);
-
-const addList = (list:string) => {
-    const toAdd = list.toUpperCase().split(' ')
-    for (let colorCode of toAdd) {
-        if (regex.test(colorCode)) {
-            addColor(colorCode)
-        }
-    }
-}
-
-const changeSteps = (newSteps: number) => {
+export const changeSteps = (newSteps: number) => {
     variationSteps = newSteps
-    if (colors.size > 0) regenerateAll()
 }

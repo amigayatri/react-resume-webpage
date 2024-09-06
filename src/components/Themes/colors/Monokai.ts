@@ -11,13 +11,13 @@ export const MonokaiTheme = {
 			transparentGray: "#555449b3"
 		},
 		base: {
-			blue: "#67d8ef",
 			red: "#f83535",
-			pink: "#f92472",
-			purple: "#ac80ff",
-			green: "#a6e22c",
+			orange: "#fd9621",
 			yellow: "#f4cd04",
-			orange: "#fd9621"
+			green: "#a6e22c",
+			blue: "#67d8ef",
+			purple: "#ac80ff",
+			pink: "#f92472"
 		}
 	},
 	fonts: {

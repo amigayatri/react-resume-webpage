@@ -141,8 +141,8 @@
                 "nonEmpty" : "Click to remove"
             }
         },
-        "variations" : {
-            "title" : "Variations"
+        "shades" : {
+            "title" : "Shades"
         }
     }
 }

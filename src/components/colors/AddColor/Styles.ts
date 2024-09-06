@@ -30,6 +30,7 @@ export const ColorSelector = styled.input`
 	height: 128px;
 	width: 128px;
 	padding: 8px;
+	cursor: pointer;
 	font-family: ${({ theme }) => theme.fonts.body}, ${({ theme }) => theme.fonts.backup};
 `
 
@@ -55,4 +56,4 @@ export const ChangeSteps = styled.input`
 	border-radius: 4px;
 	border: 2px solid ${({ theme }) => theme.primary};
 	font-family: ${({ theme }) => theme.fonts.body}, ${({ theme }) => theme.fonts.backup};
-`
+	`

@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
             --container: 32px;
         }
 
-        background-color: ${({ theme }) => theme.primary};
+        background-color: #212117;
     }
 
     body {
