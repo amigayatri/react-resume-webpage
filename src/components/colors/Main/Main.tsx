@@ -35,8 +35,8 @@ export const Main = ( ) => {
         if (!updatedList) setUpdatedList(true)
         if (colors.size == 0) return []
         const res = []
-        for (const {code} of colors.values()) {
-            res.push({remove: (code: string) => removeColor(code), code})
+        for (const color of colors.values()) {
+            res.push({color: {code: color.code, inverse: color.palette.inverse}, remove: (code: string) => removeColor(code)})
         }
         return res
     }

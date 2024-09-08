@@ -1,4 +1,4 @@
-import { RGB } from "./rgb";
+import { RGB, generateHex } from "./rgb";
 
 interface HSL {
     hue: number;
@@ -83,5 +83,5 @@ export const getComplementaryColor = (color: RGB) => {
         saturation: hsl.saturation,
         luminosity: hsl.luminosity
     }
-    return getRGBfromHSL(complementaryHSL)
+    return generateHex(getRGBfromHSL(complementaryHSL))
 }

@@ -1,8 +1,8 @@
-import { ColorTag, Wrapper, ColorSquare } from "./Styles"
+import { ColorTag, Wrapper } from "./Styles"
 
-export const ColorItem = (props: {code: string, remove: (code: string) => void, border: string}) => {
-    return <Wrapper $border={props.border} onClick={() => props.remove(props.code)}>
-        <ColorSquare $code={props.code} />
-        <ColorTag $code={props.code}>{props.code}</ColorTag>
+export const ColorItem = (props: {color: {code: string, inverse: string}, remove: (code: string) => void}) => {
+    const {code, inverse} = props.color
+    return <Wrapper $inverse={code} $code={inverse} onClick={() => props.remove(code)}>
+        <ColorTag>{code}</ColorTag>
     </Wrapper>
 }

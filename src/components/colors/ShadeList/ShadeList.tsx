@@ -12,7 +12,7 @@ export const ShadeList = (props: { regenerate: () => Color[], updatedList: boole
 			<SectionTitle>{t("colors.shades.title")}</SectionTitle>
             <SubHeading>{t("colors.shades.summary")}</SubHeading>
             <ListWrapper>
-                {list.map((color) => <ShadeSubSection color={color}/>)}
+                {list.map((color, idx) => <ShadeSubSection key={`shade-${idx}-${color.code}`} color={color}/>)}
             </ListWrapper>
         </Wrapper>
 	)

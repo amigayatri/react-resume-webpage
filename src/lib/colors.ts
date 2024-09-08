@@ -1,51 +1,37 @@
 export let variationSteps = 10
 
-import { RGB, getInverse, getRGBFromHex, generateHex, getDiffColors, Black, White, mapRGB } from "./rgb"
+import { RGB, SimpleColor, getInverse, getRGBFromHex, shadeGenerator } from "./rgb"
 import { getComplementaryColor } from "./hsl"
 interface Palette {
-    complementary ?: RGB;
-    inverse ?: RGB;
+    complementary : string;
+    inverse : string;
 }
 
-interface SimpleColor {
-    code: string;
-    inverse: string;
-}
+const BLACK = '#000000', WHITE = '#FFFFFF'
 export class Color {
     code: string
-    variations: Set<SimpleColor>
-    palette: Palette = {}
+    variations: Map<string, SimpleColor> = new Map()
+    palette: Palette = {complementary: '', inverse: ''}
     #rgb: RGB
     
     constructor(code: string) {
         this.code = code.toUpperCase()
-        this.variations = new Set()
         this.#rgb = getRGBFromHex(code)
         this.palette = this.#generatePalette()
         this.#generateShadeCodes()
     }
 
-    #generateVariations = (diff: RGB, start: RGB) => {
-        const getNew = (key: keyof RGB, idx: number) => {
-            const keyDiff = diff[key]/variationSteps
-            const idxDiff = Math.trunc(idx*keyDiff)
-            return start[key] + idxDiff
-        }
+    #generateVariations = (start: string, end: string) => {
+        const sg = shadeGenerator(start, end, variationSteps)
         for (let i = 0; i <= variationSteps; i++) {
-            const newColor : RGB = mapRGB(this.#rgb, getNew, i)
-            const simple : SimpleColor = {
-                code: generateHex(newColor),
-                inverse: generateHex(getInverse(newColor))
-            }
-            this.variations.add(simple)
+            const newColor : SimpleColor = sg.get(i)
+            this.variations.set(newColor.code, newColor)
         }
     }
 
     #generateShadeCodes = () => {
-        const valueDiff = getDiffColors(this.#rgb, White)
-        this.#generateVariations(valueDiff, White)
-        const saturationDiff = getDiffColors(Black, this.#rgb)
-        this.#generateVariations(saturationDiff, this.#rgb)
+        this.#generateVariations(WHITE, this.code)
+        this.#generateVariations(this.code, BLACK)
     }
 
     #generatePalette = () => {
