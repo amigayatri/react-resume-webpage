@@ -20,7 +20,7 @@ export const Main = ( ) => {
 
     const removeColor = (code: string) => {
         const colorsSet = colors        
-        colorsSet.delete('#'+code)
+        colorsSet.delete(code)
         setColors(colorsSet)
         setUpdatedList(false)
     }

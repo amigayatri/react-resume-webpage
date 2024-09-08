@@ -143,7 +143,8 @@
             }
         },
         "shades" : {
-            "title" : "Tons"
+            "title" : "Tons",
+            "summary": "Clique para copiar o código!"
         }
     }
 }

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
-import { Wrapper, SubHeading, ListWrapper } from "./Styles"
-import { SectionTitle } from "../Main/Styles"
+import { Wrapper, ListWrapper } from "./Styles"
+import { SectionTitle, SubHeading } from "../Main/Styles"
 import { MonokaiTheme } from "../../Themes/colors/Monokai"
 import { ColorItem } from "../ColorItem/ColorItem"
 
@@ -11,7 +11,7 @@ export const ColorList = (props: { regenerate: () => {remove: (code: string) => 
     const list = props.regenerate()
     const printColor = (remove: (code: string) => void, code: string , idx: number) => {
         const tagIdx = idx % colorOptions.length
-        return <ColorItem remove={remove} code={code} tagColor={colorOptions[tagIdx]}/>
+        return <ColorItem remove={remove} code={code} border={colorOptions[tagIdx]}/>
     }
 	return (
 		<Wrapper>

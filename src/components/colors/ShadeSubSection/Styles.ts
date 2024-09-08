@@ -7,6 +7,8 @@ export const Wrapper = styled.div`
 export const ShadesWrapper = styled.div`
     display: flex;
     overflow-x: scroll;
+    height: 80px;
+    padding: 0 8px 16px;
 `
 
 export const ShadeTitle = styled.h3`

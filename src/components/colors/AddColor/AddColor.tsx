@@ -37,6 +37,14 @@ export const AddColor = (props: { add: (arg0: string) => void; regenerate: () =>
 		<Wrapper>
 			<SectionTitle>{t("colors.addColor.title")}</SectionTitle>
 			<ButtonWrapper>
+			<Button
+					hidden={(showColorTextInput || showChangeSteps)}
+					onClick={() => handleShow(!showColorSelector, setShowColorSelector)}
+				>
+					{showColorSelector
+						? t("colors.addColor.buttons.addOne.showing")
+						: t("colors.addColor.buttons.addOne.hidden")}
+				</Button>
 				<Button
 					hidden={(showColorSelector || showChangeSteps)}
 					onClick={() => handleShow(!showColorTextInput, setShowColorTextInput)}
@@ -44,14 +52,6 @@ export const AddColor = (props: { add: (arg0: string) => void; regenerate: () =>
 					{showColorTextInput
 						? t("colors.addColor.buttons.addMany.showing")
 						: t("colors.addColor.buttons.addMany.hidden")}
-				</Button>
-				<Button
-					hidden={(showColorTextInput || showChangeSteps)}
-					onClick={() => handleShow(!showColorSelector, setShowColorSelector)}
-				>
-					{showColorSelector
-						? t("colors.addColor.buttons.addOne.showing")
-						: t("colors.addColor.buttons.addOne.hidden")}
 				</Button>
 				<Button
 					hidden = {(showColorSelector || showColorTextInput)}

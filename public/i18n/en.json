@@ -142,7 +142,8 @@
             }
         },
         "shades" : {
-            "title" : "Shades"
+            "title" : "Shades",
+            "summary": "Click to copy the color!"
         }
     }
 }

@@ -1,75 +1,58 @@
 export let variationSteps = 10
 
-interface RGB {
-    red: number;
-    green: number;
-    blue: number;
+import { RGB, getInverse, getRGBFromHex, generateHex, getDiffColors, Black, White, mapRGB } from "./rgb"
+import { getComplementaryColor } from "./hsl"
+interface Palette {
+    complementary ?: RGB;
+    inverse ?: RGB;
 }
 
-interface mapFNType {
-    args: {key: keyof RGB, value: number, idx: number};
-    fn: (key: keyof RGB, value: number, idx: number) => number;
+interface SimpleColor {
+    code: string;
+    inverse: string;
 }
-
-const min = 0, max = 255
 export class Color {
     code: string
-    variations: Set<string>
-    #rgb: RGB 
+    variations: Set<SimpleColor>
+    palette: Palette = {}
+    #rgb: RGB
+    
     constructor(code: string) {
-        this.code = code.substring(1).toUpperCase()
+        this.code = code.toUpperCase()
         this.variations = new Set()
-        this.#rgb = this.#convertFromHexCode(code)
+        this.#rgb = getRGBFromHex(code)
+        this.palette = this.#generatePalette()
         this.#generateShadeCodes()
     }
 
-    #convertFromHexCode (hexaCode: string) {
-        const hexToInt = (color: string) => parseInt(color, 16)
-        const hArr = hexaCode.split('')
-        const red = hexToInt(hArr[1]+hArr[2])
-        const green = hexToInt(hArr[3]+hArr[4])
-        const blue = hexToInt(hArr[5]+hArr[6])
-        return {red, green, blue}
-    }
-
-    #generateHex = (color: RGB) => {
-        const intToHex = (color: number) => color < 16 ? '0' + color.toString(16) : color.toString(16)
-        const hex = [
-            '#', 
-            intToHex(color.red), 
-            intToHex(color.green), 
-            intToHex(color.blue)
-        ]
-        return hex.join('')
-    }
-
-    #mapRGB = (mapFN : mapFNType['fn'], idx?: number) => {
-        const newRGB : Partial<RGB> = {}
-        Object.entries(this.#rgb).forEach(
-            ([key, value]) => newRGB[key as keyof RGB] = mapFN(key as keyof RGB, value, idx == undefined ? -1 : idx)
-        )
-        return newRGB as RGB
-    }
-
-    #generateVariations = (fnDiff: mapFNType['fn'], startVal?: number) => {
-        const diff : RGB = this.#mapRGB(fnDiff)
-        const getNew: mapFNType['fn'] = (key: keyof RGB, _value : number, idx: number) => {
-            const idxDiff = Math.trunc(idx*diff[key])
-            if (startVal !== undefined) return startVal + idxDiff
-            return this.#rgb[key] + idxDiff
+    #generateVariations = (diff: RGB, start: RGB) => {
+        const getNew = (key: keyof RGB, idx: number) => {
+            const keyDiff = diff[key]/variationSteps
+            const idxDiff = Math.trunc(idx*keyDiff)
+            return start[key] + idxDiff
         }
         for (let i = 0; i <= variationSteps; i++) {
-            const newColor : RGB = this.#mapRGB(getNew, i)
-            const hex = this.#generateHex(newColor).toUpperCase()
-            this.variations.add(hex)
+            const newColor : RGB = mapRGB(this.#rgb, getNew, i)
+            const simple : SimpleColor = {
+                code: generateHex(newColor),
+                inverse: generateHex(getInverse(newColor))
+            }
+            this.variations.add(simple)
         }
     }
 
     #generateShadeCodes = () => {
-        const valueDiff = (_key : keyof RGB, value: number) => (value-min)/variationSteps
-        this.#generateVariations(valueDiff, min)
-        const saturationDiff = (_key: keyof RGB, value: number) => (max-value)/variationSteps
-        this.#generateVariations(saturationDiff)
+        const valueDiff = getDiffColors(this.#rgb, White)
+        this.#generateVariations(valueDiff, White)
+        const saturationDiff = getDiffColors(Black, this.#rgb)
+        this.#generateVariations(saturationDiff, this.#rgb)
+    }
+
+    #generatePalette = () => {
+        return {
+            complementary: getComplementaryColor(this.#rgb),
+            inverse: getInverse(this.#rgb)
+        } as Palette
     }
 
     regenerateVariations = () => {
