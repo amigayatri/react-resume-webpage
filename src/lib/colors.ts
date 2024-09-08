@@ -17,7 +17,8 @@ export class Color {
     constructor(code: string) {
         this.code = code.toUpperCase()
         this.#rgb = getRGBFromHex(code)
-        this.palette = this.#generatePalette()
+        this.palette.inverse = getInverse(this.#rgb)
+        this.palette.complementary = getComplementaryColor(this.#rgb)
         this.#generateShadeCodes()
     }
 
@@ -32,13 +33,6 @@ export class Color {
     #generateShadeCodes = () => {
         this.#generateVariations(WHITE, this.code)
         this.#generateVariations(this.code, BLACK)
-    }
-
-    #generatePalette = () => {
-        return {
-            complementary: getComplementaryColor(this.#rgb),
-            inverse: getInverse(this.#rgb)
-        } as Palette
     }
 
     regenerateVariations = () => {
