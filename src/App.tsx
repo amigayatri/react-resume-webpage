@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Resume } from "./pages/Resume"
 import { Colors } from "./pages/Colors"
-import { Home } from "./pages/Home"
 import { Footer } from "./components/global/Footer/Footer"
 import { GlobalStyle } from "./Global"
 import { Menu } from "./components/global/Menu/Menu"
