@@ -21,7 +21,7 @@ const App = () => {
 				<GlobalStyle />
 				<Menu changeTheme={themeToggler} theme={theme} />
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/" element={<Resume />} />
 					<Route path="/resume/" element={<Resume />} />
 					<Route path="/colors/" element={<Colors />} />
 				</Routes>
