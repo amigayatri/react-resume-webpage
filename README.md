@@ -17,7 +17,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 
 - Home page:
     
-    - Create link to project pages and a simple interface
+    - Improve interface
 - Resume:
 
     - Option to generate pdf
@@ -32,9 +32,6 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 
     - Resume generator
 
-- Other:
-
-    - New icons
 ## Using
 
 **Tech stack:** 
