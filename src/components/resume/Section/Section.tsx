@@ -13,12 +13,12 @@ export const Section = ( props: SectionProps) => {
     const { t } = useTranslation();
     return (
         <Wrapper>
-            <SectionTitle>{t(`sections.${props.section.name}.title`)}</SectionTitle>
+            <SectionTitle>{t(`resume.sections.${props.section.name}.title`)}</SectionTitle>
             <SectionList>
                 {props.section.items.map((item) => {
                     return (<SectionItem key={props.section.name+ "-" + item}>
-                        {t(`sections.${props.section.name}.items.${item}.text`)}
-                        {props.section.subitem && <SubitemText>{t(`sections.${props.section.name}.items.${item}.subitem`)}</SubitemText>}
+                        {t(`resume.sections.${props.section.name}.items.${item}.text`)}
+                        {props.section.subitem && <SubitemText>{t(`resume.sections.${props.section.name}.items.${item}.subitem`)}</SubitemText>}
                     </SectionItem>)
                 })}
             </SectionList>

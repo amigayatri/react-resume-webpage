@@ -4,10 +4,10 @@ export const LANGUAGES = [
 ];
 
 export const contacts = [
-    {icon: {src: "/images/icon-phone.svg", alt: "contacts.alt.phone"}, text: "+55 21 993945805", link: "tel:5521993945805" },
-    {icon: {src: "/images/icon-email.svg", alt: "contacts.alt.mail"}, text: "miragayatri@gmail.com", link: "mailto:miragayatri@gmail.com" },
-    {icon: {src: "/images/icon-linkedin.svg", alt: "contacts.alt.linkedin"}, text: "linkedin.com/in/amiragayatri", link: "https://linkedin.com/in/amiragayatri" },
-    {icon: {src: "/images/icon-website.svg", alt: "contacts.alt.site"}, text: "amiragayatri.dev", link: "https://amiragayatri.dev" }
+    {icon: {id: "phone", alt: "resume.contacts.alt.phone"}, text: "+55 21 993945805", link: "tel:+5521993945805", showOnWeb: true },
+    {icon: {id: "email", alt: "resume.contacts.alt.mail"}, text: "miragayatri@gmail.com", link: "mailto:miragayatri@gmail.com", showOnWeb: true },
+    {icon: {id: "linkedin", alt: "resume.contacts.alt.linkedin"}, text: "linkedin.com/in/amiragayatri", link: "https://linkedin.com/in/amiragayatri", showOnWeb: true },
+    {icon: {id: "website", alt: "resume.contacts.alt.site"}, text: "amiragayatri.dev", link: "https://amiragayatri.dev", showOnWeb: false }
 ]
 
 export const sections = [
@@ -25,7 +25,7 @@ export const sections = [
         items: ["pt", "en"]
     },{
         name: "technologies",
-        items: ["webbasics", "javascript", "php", "basics"]
+        items: ["webbasics", "javascript", "otherframeworks", "php", "basics"]
     },{
         name: "projects",
         items: ["accessibility", "shehacks", "principia", "vemPraUSP", "pet"]

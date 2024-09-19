@@ -13,7 +13,7 @@ export const Toggle = (props: ToggleProps) => {
 	return (
 		<ToggleWrapper
 			tabIndex={0}
-			aria-label={t("menu.theme.change")}
+			aria-label={t("resume.menu.theme.change")}
 			onClick={() => props.changeTheme()}
 			onKeyDown={(e) => e.key === "enter" && props.changeTheme()}
 		>

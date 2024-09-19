@@ -12,3 +12,12 @@ export const FooterWrapper = styled.footer`
         display: none;
     }
 `;
+
+export const Name = styled.span`
+    color: ${({theme}) => theme.secondAccent};
+`
+
+export const Link = styled.a`
+    text-decoration: none;
+    color: ${({theme}) => theme.accent};
+`

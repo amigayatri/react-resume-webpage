@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
-import { FooterWrapper } from "./Styles";
+import { FooterWrapper, Link, Name } from "./Styles";
 
 export const Footer = () => {
   const { t } = useTranslation();
 
     return (
         <FooterWrapper>
-            {t("footer.text")} Amira Gayatri - 2024
+            <Link href="https://github.com/amigayatri/react-resume-webpage">{t("footer.link")}</Link> {t("footer.text")} <Name>Amira Gayatri</Name> - 2024
         </FooterWrapper>
     );
 };

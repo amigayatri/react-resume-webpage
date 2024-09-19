@@ -21,7 +21,7 @@ export const Menu = (props: MenuProps) => {
       <LanguageSelect defaultValue={i18n.language} onChange={onChangeLang}>
         {LANGUAGES.map(({ code }) => (
           <LanguageOption key={code} value={code}>
-            {t(`menu.languages.${code}`)}
+            {t(`resume.menu.languages.${code}`)}
           </LanguageOption>
         ))}
       </LanguageSelect>

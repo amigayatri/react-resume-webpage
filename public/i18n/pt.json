@@ -1,131 +1,140 @@
 {
-    "header": {
-        "name": "Amira Gayatri El Assad Hempel",
-		"subheading": "Desenvolvedora Web Front-end"
-	},
-    "menu" : {
-        "languages": {
-            "en": "Inglês",
-            "pt": "Português Brasileiro"
-        },
-        "theme": {
-            "change": "Mudar tema do site"
-        }
+    "home": {
+
     },
-    "contacts": {
-        "alt" : {
-            "linkedin": "Ícone do Linkedin",
-            "mail": "Ícone de Email",
-            "site": "Ícone de um website",
-            "phone": "Ícone de Telefone" 
-        }
-    },
-    "summary": {
-        "text": "Graduada em Ciência da Computação, atua em desenvolvimento web há cinco anos, principalmente como Front-end. Tem experiência ampla com React e WordPress, entre outras linguagens e frameworks. Interessada também em acessibilidade na web."
-    },
-    "sections": {
-        "education": {
-            "title": "Educação",
-            "items": {
-                "grad": { 
-                    "text": "Bacharelado em Ciências de Computação, ICMC USP (Fevereiro/2017, Dezembro/2022)"
-                }
+    "resume": {
+        "header": {
+            "name": "Amira Gayatri El Assad Hempel",
+            "subheading": "Desenvolvedora Web Front-end"
+        },
+        "menu": {
+            "languages": {
+                "en": "Inglês",
+                "pt": "Português Brasileiro"
+            },
+            "theme": {
+                "change": "Mudar tema do site"
             }
         },
-        "experience" : {
-            "title": "Experiência Profissional",
-            "items": {
-                "atip": { 
-                    "text": "Desenvolvedora na Atip (parceria com a Pepsico). (Março/2024, Atualmente)", 
-                    "subitem": "Utilizando React, Next.js, StyledComponents e TypeScript nos projetos, trabalhando com o time mexicano da Pepsico."
-                },
-                "techviz": { 
-                    "text": "Desenvolvedora na TechViz. (Julho/2023, Fevereiro/2024)",
-                    "subitem": "Utilizando React, Next.js, Svelte, StyledComponents e TypeScript nos projetos." 
-                },
-                "encora": {
-                    "text": "Desenvolvedora na Encora Brasil. (Fevereiro/2022, Novembro/2022)",
-                    "subitem": "Utilizando React, Vue.js e Laravel nos projetos"
-                },
-                "raccoon": {
-                    "text": "Desenvolvedora na Raccoon.Monks. (Agosto/2020, Fevereiro/2022)",
-                    "subitem": "Utilizando React, WordPress, AMP, Next.js, PHP, HTML, Javascript e SCSS nos projetos. Atuando também como líder da guilda de desenvolvedores: guiando reuniões de troca de conhecimento e o treinamento de novos estagiários"
-                }, 
-                "partenero": {
-                    "text": "Estagiária Full Stack na Partenero. (Fevereiro/2020, Junho/2020)",
-                    "subitem": "Utilizando Firebase e Ember"
-                },
-                "liven": {
-                    "text": "Estagiária de Front-end Mobile na Liven. (Setembro/2019, dezembro/2019)",
-                    "subitem": "Utilizando React e React Native nos projetos"
-                }
+        "contacts": {
+            "alt": {
+                "linkedin": "Ícone do Linkedin",
+                "mail": "Ícone de Email",
+                "site": "Ícone de um website",
+                "phone": "Ícone de Telefone"
             }
         },
-        "languages" : {
-            "title": "Idiomas",
-            "items": {
-                "pt": { 
-                    "text": "Português Brasileiro Nativo"
-                },
-                "en": {
-                    "text": "Inglês Avançado"
-                }
-            }
+        "summary": {
+            "text": "Graduada em Ciência da Computação, atua em desenvolvimento web há cinco anos, principalmente como Front-end. Tem experiência ampla com React e WordPress, entre outras linguagens e frameworks. Interessada também em acessibilidade na web."
         },
-        "technologies" : {
-            "title": "Tecnologias",
-            "items": {
-                "webbasics": { 
-                    "text": "Javascript, HTML e CSS"
-                },
-                "javascript": {
-                    "text": "React, SCSS, Styled Components, Next.js, AMP, React Native, Vue.js e Svelte"
-                },
-                "php" : {
-                    "text": "WordPress, PHP e Laravel"
-                },
-                "basics": {
-                    "text": "Linux e GIT"
+        "sections": {
+            "education": {
+                "title": "Educação",
+                "items": {
+                    "grad": {
+                        "text": "Bacharelado em Ciências de Computação, ICMC USP (Fevereiro/2017, Dezembro/2022)"
+                    }
                 }
-            }
-        },
-        "projects" : {
-            "title": "Projetos e Atividades",
-            "items": {
-                "accessibility": {
-                    "text": "Curso de Acessibilidade Web da W3Cx (Setembro e Outubro/2022)"
-                },
-                "shehacks": {
-                    "text": "Participante da equipe ganhadora do Shehacks, hackathon realizada na sede do Facebook (Setembro/2019)"
-                },
-                "principia": {
-                    "text": "Monitora voluntária para ensino de robótica em colégios públicos pelo Principia - Robôs na Escola por um semestre (2019)"
-                },
-                "vemPraUSP": {
-                    "text": "Monitora no programa “Vem Pra USP” de ensino online de programação para alunos do ensino médio de colégios públicos (2019)"
-                },
-                "pet": {
-                    "text": "Monitora no curso de Informática para Idosos do PET Computação por dois semestres (2018)"
+            },
+            "experience": {
+                "title": "Experiência Profissional",
+                "items": {
+                    "atip": {
+                        "text": "Desenvolvedora na Atip (parceria com a Pepsico). (Março/2024, Atualmente)",
+                        "subitem": "Utilizando React, Next.js, StyledComponents e TypeScript nos projetos, trabalhando com o time mexicano da Pepsico."
+                    },
+                    "techviz": {
+                        "text": "Desenvolvedora na TechViz. (Julho/2023, Fevereiro/2024)",
+                        "subitem": "Utilizando React, Next.js, Svelte, StyledComponents e TypeScript nos projetos."
+                    },
+                    "encora": {
+                        "text": "Desenvolvedora na Encora Brasil. (Fevereiro/2022, Novembro/2022)",
+                        "subitem": "Utilizando React, Vue.js e Laravel nos projetos"
+                    },
+                    "raccoon": {
+                        "text": "Desenvolvedora na Raccoon.Monks. (Agosto/2020, Fevereiro/2022)",
+                        "subitem": "Utilizando React, WordPress, AMP, Next.js, PHP, HTML, Javascript e SCSS nos projetos. Atuando também como líder da guilda de desenvolvedores: guiando reuniões de troca de conhecimento e o treinamento de novos estagiários"
+                    },
+                    "partenero": {
+                        "text": "Estagiária Full Stack na Partenero. (Fevereiro/2020, Junho/2020)",
+                        "subitem": "Utilizando Firebase e Ember"
+                    },
+                    "liven": {
+                        "text": "Estagiária de Front-end Mobile na Liven. (Setembro/2019, dezembro/2019)",
+                        "subitem": "Utilizando React e React Native nos projetos"
+                    }
+                }
+            },
+            "languages": {
+                "title": "Idiomas",
+                "items": {
+                    "pt": {
+                        "text": "Português Brasileiro Nativo"
+                    },
+                    "en": {
+                        "text": "Inglês Avançado"
+                    }
+                }
+            },
+            "technologies": {
+                "title": "Tecnologias",
+                "items": {
+                    "webbasics": {
+                        "text": "Javascript, HTML e CSS"
+                    },
+                    "javascript": {
+                        "text": "React, Styled Components e Next.js"
+                    },
+                    "otherframeworks": {
+                        "text": "SCSS, AMP, React Native, Vue.js e Svelte"
+                    },
+                    "php": {
+                        "text": "WordPress, PHP e Laravel"
+                    },
+                    "basics": {
+                        "text": "Linux e GIT"
+                    }
+                }
+            },
+            "projects": {
+                "title": "Projetos e Atividades",
+                "items": {
+                    "accessibility": {
+                        "text": "Curso de Acessibilidade Web da W3Cx (Setembro e Outubro/2022)"
+                    },
+                    "shehacks": {
+                        "text": "Participante da equipe ganhadora do Shehacks, hackathon realizada na sede do Facebook (Setembro/2019)"
+                    },
+                    "principia": {
+                        "text": "Monitora voluntária para ensino de robótica em colégios públicos pelo Principia - Robôs na Escola por um semestre (2019)"
+                    },
+                    "vemPraUSP": {
+                        "text": "Monitora no programa “Vem Pra USP” de ensino online de programação para alunos do ensino médio de colégios públicos (2019)"
+                    },
+                    "pet": {
+                        "text": "Monitora no curso de Informática para Idosos do PET Computação por dois semestres (2018)"
+                    }
                 }
             }
         }
     },
     "footer": {
-        "text": "Desenvolvido por"
+        "linkd": "Desenvolvido",
+        "text": " por"
     },
-    "colors" : {
-        "header" : {
-            "title" : "Gerador de Variação de Cores",
+    "colors": {
+        "header": {
+            "title": "Gerador de Variação de Cores",
             "summary": "Cria variações da cor para preto e branco, o número padrão de variações é 10 em cada direção, mas pode ser alterado"
         },
-        "addColor" : {
+        "addColor": {
             "title": "Adicionar cor",
-            "buttons" : {
-                "addMany" : {
+            "buttons": {
+                "addMany": {
                     "hidden": "Adicionar várias cores",
                     "showing": "Esconder input de lista"
                 },
-                "addOne" : {
+                "addOne": {
                     "hidden": "Adicionar uma cor",
                     "showing": "Esconder seletor de cor"
                 },
@@ -135,15 +144,15 @@
                 }
             }
         },
-        "colorList" : {
-            "title" : "Cores adicionadas",
-            "summary" : {
-                "empty" : "Você não tem nenhuma cor adicionada",
-                "nonEmpty" : "Clique para remover"
+        "colorList": {
+            "title": "Cores adicionadas",
+            "summary": {
+                "empty": "Você não tem nenhuma cor adicionada",
+                "nonEmpty": "Clique para remover"
             }
         },
-        "shades" : {
-            "title" : "Tons",
+        "shades": {
+            "title": "Tons",
             "summary": "Clique para copiar o código!"
         }
     }

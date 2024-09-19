@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { Contacts } from "../Contact/Contact.tsx";
 import { Wrapper, SummaryText } from './Styles.ts';
 
 
@@ -8,8 +7,7 @@ export const Summary = () => {
 
     return (
         <Wrapper>
-            <SummaryText>{t("summary.text")}</SummaryText>
-            <Contacts />
+            <SummaryText>{t("resume.summary.text")}</SummaryText>
         </Wrapper>
     );
 }

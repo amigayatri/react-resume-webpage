@@ -9,7 +9,6 @@ export const MenuWrapper = styled.nav`
 	align-items: center;
 	justify-content: flex-end;
 	height: 40px;
-
 	@media print {
 		display: none;
 	}
@@ -20,6 +19,9 @@ export const LanguageSelect = styled.select`
 	background-color: #212117;
 	color: #f7f7f7;
 	border-color: #212117;
+	@media (max-width: 500px) {
+		max-width: 200px;
+	}
 `
 
 export const IconWrapper = styled.span`

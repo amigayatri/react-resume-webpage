@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Home } from "./pages/Home"
+import { Resume } from "./pages/Resume"
 import { Colors } from "./pages/Colors"
+import { Home } from "./pages/Home"
 import { Footer } from "./components/global/Footer/Footer"
 import { GlobalStyle } from "./Global"
 import { Menu } from "./components/global/Menu/Menu"
@@ -20,7 +21,8 @@ const App = () => {
 				<GlobalStyle />
 				<Menu changeTheme={themeToggler} theme={theme} />
 				<Routes>
-					<Route path="/" element={<Home />} />{" "}
+					<Route path="/" element={<Home />} />
+					<Route path="/resume/" element={<Resume />} />
 					<Route path="/colors/" element={<Colors />} />
 				</Routes>
 				<Footer />

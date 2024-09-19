@@ -1,18 +1,13 @@
-import { Section } from "../components/resume/Section/Section";
-import { Summary } from "../components/resume/Summary/Summary";
-import { sections } from "../constants";
-import { Header } from "../components/resume/Header/Header";
+import { Header } from "../components/colors/Header/Header";
+import { Main } from "../components/colors/Main/Main"
+import { ThemeProvider } from "styled-components";
+import { MonokaiTheme } from "../components/Themes/colors/Monokai";
 
 export const Home = () => {
     return (
-        <>
+        <ThemeProvider theme={MonokaiTheme}>
             <Header />
-            <main>
-                <Summary />
-                {sections.map((section, index) => {
-                    return (<Section key={"section" + index} section={section} />)
-                })}
-            </main>
-        </>
+            <Main />
+        </ThemeProvider>
     );
 };

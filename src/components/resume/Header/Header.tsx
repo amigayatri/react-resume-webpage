@@ -6,8 +6,8 @@ export const Header = () => {
 
     return (
         <HeaderWrapper>
-            <Name>{t("header.name")}</Name>
-            <SubHeading>{t("header.subheading")}</SubHeading>
+            <Name>{t("resume.header.name")}</Name>
+            <SubHeading>{t("resume.header.subheading")}</SubHeading>
         </HeaderWrapper>
     );
 };
