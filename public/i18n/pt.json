@@ -1,6 +1,34 @@
 {
+    "icons": {
+        "alt": {
+            "linkedin": "Ícone do Linkedin",
+            "mail": "Ícone de Email",
+            "site": "Ícone de um website",
+            "phone": "Ícone de Telefone",
+            "light": "Ícone de um sol",
+            "dark": "Ícone de uma lua"
+        }
+    },
     "home": {
-
+        "header": {
+            "name": "Amira Gayatri",
+            "subheading": "Clique na página que quer ver para abrir!"
+        },
+        "pageList": {
+            "home": {
+                "title": "Pagina inicial"
+            },
+            "colors": {
+                "title": "Gerador de tons"
+            },
+            "resume": {
+                "title": "Meu curriculo"
+            }
+        },
+        "externalLinks": {
+            "linkedin": "Linkedin",
+            "github": "Código fonte"
+        }
     },
     "resume": {
         "header": {
@@ -14,14 +42,6 @@
             },
             "theme": {
                 "change": "Mudar tema do site"
-            }
-        },
-        "contacts": {
-            "alt": {
-                "linkedin": "Ícone do Linkedin",
-                "mail": "Ícone de Email",
-                "site": "Ícone de um website",
-                "phone": "Ícone de Telefone"
             }
         },
         "summary": {
