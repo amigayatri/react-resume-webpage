@@ -28,7 +28,7 @@ export const externals: External[] = [
 		}
 	},
 	{
-		path: "github",
+		path: "https://github.com/amigayatri/react-resume-webpage",
 		name: "github",
 		icon: {
 			id: "github",
