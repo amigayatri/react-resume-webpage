@@ -1,6 +1,12 @@
-import { Wrapper, LinkExternal, LinkInternal } from "./Styles"
+import {
+	Wrapper,
+	LinkExternal,
+	LinkInternal,
+	ButtonStyle,
+	Label
+} from "./Styles"
 import { Page, External } from "../../../constants/links"
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next"
 import { SVGIcon } from "../../global/SVGIcon/SVGIcon"
 
 export const PageLink = ({ page }: { page: Page }) => {
@@ -8,9 +14,11 @@ export const PageLink = ({ page }: { page: Page }) => {
 
 	return (
 		<Wrapper>
-			<SVGIcon size={page.icon?.size || 0} id={page.icon?.id || ""} />
 			<LinkInternal to={page.path}>
-				{t(`home.pageList.${page.name}.title`)}
+				<ButtonStyle>
+					<SVGIcon size={page.icon?.size || 0} id={page.icon?.id || ""} />
+					<Label> {t(`home.pageList.${page.name}.title`)}</Label>
+				</ButtonStyle>
 			</LinkInternal>
 		</Wrapper>
 	)
@@ -21,9 +29,11 @@ export const ExternalLink = ({ link }: { link: External }) => {
 
 	return (
 		<Wrapper>
-			<SVGIcon size={link.icon?.size || 0} id={link.icon?.id || ""} />
 			<LinkExternal rel="noopener" target="_blank" href={link.path}>
-				{t(`home.externalLinks.${link.name}`)}
+				<ButtonStyle>
+					<SVGIcon size={link.icon?.size || 0} id={link.icon?.id || ""} />
+					<Label>{t(`home.externalLinks.${link.name}`)}</Label>
+				</ButtonStyle>
 			</LinkExternal>
 		</Wrapper>
 	)

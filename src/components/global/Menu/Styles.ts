@@ -24,28 +24,13 @@ export const LanguageSelect = styled.select`
 	}
 `
 
-export const IconWrapper = styled.span`
-	width: 24px;
-	height: 24px;
-	margin: 2px;
-	display: inline-block;
-	padding: 4px;
-	border-radius: 50%;
-	background-color: ${({ theme }) => theme.primary};
-	z-index: 5;
-
-	&.light {
-		transform: translate(12px);
-	}
-`
-
 export const ToggleWrapper = styled.div`
 	display: flex;
 	width: 44px;
 	height: 32px;
 	position: relative;
-	background-color: ${({ theme }) => theme.background};
-	border: solid 2px #74705D;
+	background-color: #212117;
+	border: solid 2px ${({ theme }) => theme.accent};
 	border-radius: 16px;
 	margin-left: 16px;
 `

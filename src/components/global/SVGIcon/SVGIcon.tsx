@@ -20,14 +20,14 @@ export const SVGIcon = (props: Props) => {
 
 	const showIcon = icons.get(id)
 	const alt = t("icons.alt." + id)
-	let color = "#000000"
+	let color = "#212117"
 	if (showIcon != undefined) {
 		if (resumeIcons.has(id)) {
 			color = i & 1 ? theme.accent : theme.secondAccent
 		} else if (homeIcons.has(id)) {
 			color = theme.secondAccent
-		} else if (id === "light") {
-			color = "#e5e5e5"
+		} else if (id === 'light') {
+			color = "#212117"
 		}
 		return showIcon({ alt, color, size })
 	}
