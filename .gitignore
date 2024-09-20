@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-components/colors/To convert
+favicon-base.svg
 
 node_modules
 dist

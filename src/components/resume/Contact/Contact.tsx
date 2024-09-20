@@ -1,18 +1,15 @@
-import { useTranslation } from "react-i18next";
-import { contacts } from "../../../constants";
+import { contacts } from "../../../constants/contacts";
 import { Wrapper, ContactList, ContactItem, Link } from "./Styles";
-import { ContactIcon } from "./Icons";
+import { SVGIcon } from "../../global/SVGIcon/SVGIcon";
 
 export const Contacts = () => {
-    const { t } = useTranslation();
-
     return (
         <Wrapper>
             <ContactList>
                 {contacts.map((contact, index) => {
                     return (
                     <ContactItem $i={index} $showOnWeb={contact.showOnWeb} key={"contact-" + index}>
-                        <ContactIcon i={index} id={contact.icon.id} alt={t(contact.icon.alt)} />
+                        <SVGIcon size={24} i={index} id={contact.icon.id} />
                         <Link href={contact.link} rel="noopener" target="_blank">{contact.text}</Link>
                     </ContactItem>)
                 })}
