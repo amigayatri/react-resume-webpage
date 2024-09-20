@@ -1,6 +1,6 @@
-import { ToggleWrapper, IconWrapper } from "./Styles"
-import { SunIcon, MoonIcon } from "./Icons"
+import { ToggleWrapper } from "./Styles"
 import { useTranslation } from "react-i18next";
+import { SVGIcon } from "../SVGIcon/SVGIcon";
 
 interface ToggleProps {
 	changeTheme: () => void
@@ -17,10 +17,7 @@ export const Toggle = (props: ToggleProps) => {
 			onClick={() => props.changeTheme()}
 			onKeyDown={(e) => e.key === "enter" && props.changeTheme()}
 		>
-			<IconWrapper className={props.theme === "light" ? "light " : ""}>
-				{props.theme === "dark" && <MoonIcon />}
-				{props.theme === "light" && <SunIcon />}
-			</IconWrapper>
+			<SVGIcon size={16} id={props.theme} />
 		</ToggleWrapper>
 	)
 }

@@ -1,7 +1,7 @@
-import { Header } from "../components/colors/Header/Header";
-import { Main } from "../components/colors/Main/Main"
+import { Header } from "../components/home/Header/Header";
 import { ThemeProvider } from "styled-components";
 import { MonokaiTheme } from "../components/Themes/colors/Monokai";
+import { Main } from "../components/home/Main/Main";
 
 export const Home = () => {
     return (

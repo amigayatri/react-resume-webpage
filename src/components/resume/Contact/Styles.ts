@@ -59,28 +59,19 @@ export const ContactItem = styled.li<{$showOnWeb: boolean, $i: number}>`
         display: flex;
     }
 `
-export const IconWrapper = styled.span`
-    width: 24px;
-    height: 24px;
-    margin: 0 8px;
-`
-
-export const Icon = styled.svg`
-    width: 24px;
-    height: 24px;
-`
 
 export const Link = styled.a`
-    text-decoration: none;
-    color: ${({ theme }) => theme.primary};
-    font-size: 1.125rem;
-    text-wrap: nowrap;
-    margin: 0;
-    max-width: auto;
-    
-    @media (max-width: 400px) {
-        text-wrap: wrap;
-        max-width: 320px;
-        margin: 0 auto;
-    }
+	text-decoration: none;
+	color: ${({ theme }) => theme.primary};
+	font-size: 1.125rem;
+	text-wrap: nowrap;
+	display: inline-block;
+	margin: 0;
+	margin-left: 8px;
+	max-width: auto;
+
+	@media (max-width: 400px) {
+		text-wrap: wrap;
+		max-width: 320px;
+	}
 `
