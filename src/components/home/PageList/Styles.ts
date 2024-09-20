@@ -15,4 +15,11 @@ export const ListWrapper = styled.ul`
 	@media (max-width: 500px) {
 		grid-template-columns: 1fr;
 	}
+	@media (min-width: 768px) {
+		width: 672px;
+		margin: 0 auto;
+	}
+	@media (min-width: 1366px) {
+		width: 984px;
+	}
 `

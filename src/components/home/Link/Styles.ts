@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 export const Wrapper = styled.li`
 	margin: 0 auto;
-	@media (min-width: 1024px) {
-		width: 320px;
+	width: 100%;
+	@media (min-width: 768px) {
 	}
 	@media (min-width: 1366px) {
 		width: 480px;
@@ -39,4 +39,5 @@ export const LinkInternal = styled(Link)`
 
 export const Label = styled.span`
 	text-align: center;
+	margin-left: 8px;
 `
