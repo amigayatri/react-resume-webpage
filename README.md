@@ -20,7 +20,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
         - Some interfaces needing to be extracted
         - Libs needing optimizations
         - Mobile menu
-        = MediaQuery theme
+        - MediaQuery theme
         - Media hook
 
 - Home page:
