@@ -1,11 +1,12 @@
 import { BrowserRouter} from "react-router-dom"
-import { Footer } from "./components/global/Footer/Footer"
-import { GlobalStyle } from "./Global"
-import { Menu } from "./components/global/Menu/Menu"
+import Footer from "./components/common/Footer"
+import GlobalStyle from "./Global.styled"
+import Menu from "./components/common/Menu/Menu"
 import { ThemeProvider } from "styled-components"
-import { lightTheme, darkTheme } from "./components/Themes/Themes"
+import DefaultDark from "./themes/DefaultDark"
+import DefaultLight from "./themes/DefaultLight"
 import { useState } from "react"
-import Router from "./pages/Router"
+import Router from "./Router"
 
 const App = () => {
 	const [theme, setTheme] = useState("light")
@@ -15,7 +16,7 @@ const App = () => {
 
 	return (
 		<BrowserRouter>
-			<ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+			<ThemeProvider theme={theme === "light" ? DefaultLight : DefaultDark}>
 				<GlobalStyle />
 				<Menu changeTheme={themeToggler} theme={theme} />
 				<Router />

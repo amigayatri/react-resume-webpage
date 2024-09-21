@@ -1,4 +1,11 @@
 {
+    "paths": {
+        "title": {
+            "home": "Homepage",
+            "resume": "Currículo",
+            "colors": "Variações de cores"
+        }
+    },
     "icons": {
         "alt": {
             "linkedin": "Ícone do Linkedin",

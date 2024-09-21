@@ -1,13 +1,6 @@
-import { Icon } from "./index"
+import ContactProps from "../types/ContactProps"
 
-interface Contact {
-	text: string
-	icon: Icon
-	link: string
-	showOnWeb: boolean
-}
-
-export const contacts: Contact[] = [
+export const contacts: ContactProps[] = [
 	{
 		icon: { id: "phone", size: 24 },
 		text: "+55 21 993945805",

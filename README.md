@@ -15,6 +15,14 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
     A project to generate color variations to black and white, and easy copying the color codes
 ## Roadmap
 
+- Common:
+    - Finish refactoring
+        - Some interfaces needing to be extracted
+        - Libs needing optimizations
+        - Mobile menu
+        = MediaQuery theme
+        - Media hook
+
 - Home page:
     
     - Improve interface
