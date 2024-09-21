@@ -1,0 +1,78 @@
+{
+  "component": {
+    "default": {
+      "customTemplates": {
+        "component": "src/components/templates/index.tsx",
+        "style": "src/components/templates/TemplateName.styled.ts"
+      },
+      "customDirectory": "TemplateName",
+      "path": "src/components",
+      "withIndex": false,
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": true,
+      "withTest": false
+    },
+    "hook": {
+      "customDirectory": "useTemplateName",
+      "customTemplates": {
+        "component": "src/hooks/templates/index.tsx"
+      },
+      "path": "src/hooks",
+      "withIndex": false,
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false
+    },
+    "icon": {
+      "customTemplates": {
+        "component": "src/icons/TemplateName.tsx"
+      },
+      "path": "src/icons",
+      "withIndex": false,
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false
+    },
+    "page": {
+      "customTemplates": {
+        "component": "src/pages/templates/index.tsx",
+        "props": "src/pages/templates/TemplateName.props.tsx"
+      },
+      "path": "src/pages",
+      "withIndex": false,
+      "withLazy": false,
+      "withProps": true,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false
+    },
+    "theme": {
+      "customTemplates": {
+        "component": "src/themes/templates/index.ts"
+      },
+      "path": "src/themes",
+      "withIndex": false,
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false
+    },
+    "interfaces": {
+      "customTemplates": {
+        "component": "src/types/TemplateName.ts"
+      },
+      "path": "src/types",
+      "withIndex": false,
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false
+    }
+  },
+  "testLibrary": "None",
+  "usesStyledComponents": true,
+  "usesTypeScript": true
+}
