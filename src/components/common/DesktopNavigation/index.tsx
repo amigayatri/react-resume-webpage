@@ -17,6 +17,7 @@ const DesktopNavigation = () => {
 			/>
 		)
 	}
+	if (activePath === "/") return
 	return (
 		<DesktopNavigationWrapper>
 			{pages.map((page, i) => showItem(page, i))}
