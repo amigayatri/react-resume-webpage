@@ -1,6 +1,6 @@
 import Resume from "."
 
-export const ResumeProps = {
+const ResumeProps = {
 	path: "/resume/",
 	element: <Resume pageId="resume" />,
 	name: "resume",
@@ -10,3 +10,5 @@ export const ResumeProps = {
 	},
 	isHome: false
 }
+
+export default ResumeProps

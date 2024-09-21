@@ -1,24 +1,28 @@
-import useDocumentTitle from "../../hooks/useDocumentTitle"
-import { PageProps } from "../../constants/links"
 import { ThemeProvider } from "styled-components"
+import Contacts from "../../components/resume/Contact"
+import Header from "../../components/resume/Header"
+import Section from "../../components/resume/Section"
+import Summary from "../../components/resume/Summary"
+import sections from "../../constants/sections"
+import useDocumentTitle from "../../hooks/useDocumentTitle"
 import Monokai from "../../themes/Monokai"
-import Contacts from "../../components/resume/Contact/Contact"
-import { Section } from "../../components/resume/Section/Section"
-import { Summary } from "../../components/resume/Summary/Summary"
-import { Header } from "../../components/resume/Header/Header"
-import { sections } from "../../constants"
+import PageIdProps from "../../types/PageIdProps"
+import SectionProps from "../../types/SectionProps"
 
-const Resume = ({ pageId }: PageProps) => {
+const Resume = ({ pageId }: PageIdProps) => {
 	useDocumentTitle(pageId)
+
+	const showQuestion = (section: SectionProps, index: number) => {
+		return <Section key={"section" + index} section={section} />
+	}
+
 	return (
 		<ThemeProvider theme={Monokai}>
 			<Header />
 			<main>
 				<Contacts />
 				<Summary />
-				{sections.map((section, index) => {
-					return <Section key={"section" + index} section={section} />
-				})}
+				{sections.map((section, index) => showQuestion(section, index))}
 			</main>
 		</ThemeProvider>
 	)

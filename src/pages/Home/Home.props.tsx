@@ -1,7 +1,7 @@
 import Home from "."
 
-export const HomeProps = {
-	path: "/home/",
+const HomeProps = {
+	path: "/",
 	element: <Home pageId="home" />,
 	name: "home",
 	icon: {
@@ -10,3 +10,5 @@ export const HomeProps = {
 	},
 	isHome: true
 }
+
+export default HomeProps

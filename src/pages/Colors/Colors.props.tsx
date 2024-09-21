@@ -1,6 +1,6 @@
 import Colors from "."
 
-export const ColorPageProps = {
+const ColorsProps = {
 	path: "/colors/",
 	element: <Colors pageId="colors" />,
 	name: "colors",
@@ -10,3 +10,5 @@ export const ColorPageProps = {
 	},
 	isHome: false
 }
+
+export default ColorsProps

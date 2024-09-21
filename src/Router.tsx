@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom"
-import { pages, Page } from "../constants/links"
+import pages from "./constants/pages"
+import PageProps from "./types/PageProps"
 
 const Router = () => {
-	const showPage = (page: Page) => {
+	const showPage = (page: PageProps) => {
 		return (
 			<Route
 				key={"route-" + page.name}

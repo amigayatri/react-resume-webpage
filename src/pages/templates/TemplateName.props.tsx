@@ -1,6 +1,6 @@
 import TemplateName from "."
 
-export const TemplateNameProps = {
+const TemplateNameProps = {
 	path: "/templatename/",
 	element: <TemplateName pageId="templatename" />,
 	name: "templatename",
@@ -10,3 +10,5 @@ export const TemplateNameProps = {
 	},
 	isHome: false
 }
+
+export default TemplateNameProps

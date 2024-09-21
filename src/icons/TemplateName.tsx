@@ -1,11 +1,11 @@
-import { ToggleIconWrapper, Icon } from "./Styles"
+import { IconWrapper, Icon } from "./Styles"
 import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
 const TemplateName = (props: SVGProps) => {
 	const { color, alt, size } = props
 	return (
-		<ToggleIconWrapper $isLight={false}>
+		<IconWrapper>
 			<Icon
 				$size={size}
 				role="img"
@@ -15,7 +15,7 @@ const TemplateName = (props: SVGProps) => {
 			>
 				<title>{alt}</title>
 			</Icon>
-		</ToggleIconWrapper>
+		</IconWrapper>
 	)
 }
 

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 import { LanguageSelectInput, LanguageOption } from "./LanguageSelect.styled"
-import { LANGUAGES } from "../../../constants"
+import { languages } from "../../../constants/languages"
 
 const LanguageSelect = () => {
 	const { i18n, t } = useTranslation()
@@ -10,7 +10,7 @@ const LanguageSelect = () => {
 	}
 	return (
 		<LanguageSelectInput defaultValue={i18n.language} onChange={onChangeLang}>
-			{LANGUAGES.map(({ code }) => (
+			{languages.map(({ code }) => (
 				<LanguageOption key={code} value={code}>
 					{t(`resume.menu.languages.${code}`)}
 				</LanguageOption>

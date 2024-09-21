@@ -1,12 +1,12 @@
 import { BrowserRouter} from "react-router-dom"
-import { Footer } from "./components/global/Footer"
-import { GlobalStyle } from "./Global"
-import { Menu } from "./components/global/Menu/Menu"
+import Footer from "./components/common/Footer"
+import GlobalStyle from "./Global.styled"
+import Menu from "./components/common/Menu/Menu"
 import { ThemeProvider } from "styled-components"
 import DefaultDark from "./themes/DefaultDark"
 import DefaultLight from "./themes/DefaultLight"
 import { useState } from "react"
-import Router from "./pages/Router"
+import Router from "./Router"
 
 const App = () => {
 	const [theme, setTheme] = useState("light")

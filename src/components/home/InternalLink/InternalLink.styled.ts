@@ -1,6 +1,7 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
-export const ExternalLinkTag = styled.a`
+export const InternalLinkTag = styled(Link)`
 	color: ${({ theme }) => theme.background};
 	text-decoration: none;
 	font-size: 1.25rem;
