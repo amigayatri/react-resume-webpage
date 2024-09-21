@@ -1,9 +1,12 @@
-import { Home } from "../pages/Home"
-import { Resume } from "../pages/Resume"
-import { Colors } from "../pages/Colors"
+import Home from "../pages/Home"
+import Resume from "../pages/Resume"
+import Colors from "../pages/Colors"
 import { ReactElement } from "react"
 import { Icon } from "./index"
 
+export interface PageProps {
+	pageId: string
+}
 export interface Page {
 	path: string
 	element: ReactElement
@@ -12,13 +15,13 @@ export interface Page {
 	icon?: Icon
 }
 
-export interface External {
+export interface ExternalLinkProps {
 	path: string
 	name: string
 	icon: Icon
 }
 
-export const externals: External[] = [
+export const externals: ExternalLinkProps[] = [
 	{
 		path: "https://linkedin.com/in/amiragayatri",
 		name: "linkedin",
@@ -40,13 +43,13 @@ export const externals: External[] = [
 export const pages: Page[] = [
 	{
 		path: "/",
-		element: <Home />,
+		element: <Home pageId="home" />,
 		name: "home",
 		isHome: true
 	},
 	{
 		path: "/resume/",
-		element: <Resume />,
+		element: <Resume pageId="resume" />,
 		name: "resume",
 		icon: {
 			id: "resume",
@@ -56,7 +59,7 @@ export const pages: Page[] = [
 	},
 	{
 		path: "/colors/",
-		element: <Colors />,
+		element: <Colors pageId="colors" />,
 		name: "colors",
 		icon: {
 			id: "palette",

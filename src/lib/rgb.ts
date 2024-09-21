@@ -1,12 +1,11 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 export interface RGB {
 	red: number
 	green: number
 	blue: number
 }
 export interface SimpleColor {
-    code: string;
-    inverse: string;
+	code: string
+	inverse: string
 }
 
 export const getRGBFromHex = (hexaCode: string) => {
@@ -36,7 +35,7 @@ const mapRGB = (
 	idx: number | boolean
 ) => {
 	const newRGB: Partial<RGB> = {}
-	if (typeof idx == 'boolean') {
+	if (typeof idx == "boolean") {
 		Object.entries(base).forEach(
 			([key]) => (newRGB[key as keyof RGB] = mapFN(key as keyof RGB, 1))
 		)
@@ -58,7 +57,7 @@ export const getDiffColors = (firstColor: RGB, secondColor: RGB) => {
 
 const divide = (color: RGB, steps: number) => {
 	const divideKey = (key: keyof RGB, _idx: number) => {
-		return Math.trunc(color[key]/steps)
+		return Math.trunc(color[key] / steps)
 	}
 	return mapRGB(color, divideKey, false)
 }
@@ -68,16 +67,21 @@ export const getInverse = (color: RGB) => {
 	const invertKey = (key: keyof RGB, _idx: number) => {
 		return maxVal - color[key]
 	}
-	const inverseRGB =  mapRGB(color, invertKey, false)
+	const inverseRGB = mapRGB(color, invertKey, false)
 	return generateHex(inverseRGB)
 }
 
-export const shadeGenerator = (startHex: string, endHex: string, steps: number) => {
-	const start = getRGBFromHex(startHex), end = getRGBFromHex(endHex)
+export const shadeGenerator = (
+	startHex: string,
+	endHex: string,
+	steps: number
+) => {
+	const start = getRGBFromHex(startHex),
+		end = getRGBFromHex(endHex)
 	const diff = getDiffColors(end, start)
 	const stepDiff = divide(diff, steps)
 	const getNew = (key: keyof RGB, i: number) => {
-		const keyDiff = i*stepDiff[key]
+		const keyDiff = i * stepDiff[key]
 		return start[key] + keyDiff
 	}
 	return {
@@ -90,4 +94,3 @@ export const shadeGenerator = (startHex: string, endHex: string, steps: number) 
 		}
 	}
 }
-

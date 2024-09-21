@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     :root {
         --container: 32px;
         --color-container: 32px;
@@ -35,6 +35,5 @@ export const GlobalStyle = createGlobalStyle`
     img {
 	    object-fit: contain;
     }
-`;
-
-
+`
+export default GlobalStyle
