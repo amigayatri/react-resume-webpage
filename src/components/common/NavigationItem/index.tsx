@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { LinkWrapper, LinkNav } from "./NavigationMenu.styled"
+import { LinkWrapper, LinkNav } from "./NavigationItem.styled"
 
 interface NavigationProps {
 	name: string

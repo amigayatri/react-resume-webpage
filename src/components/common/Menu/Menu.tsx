@@ -1,4 +1,4 @@
-import NavigationMenu from "../Navigation"
+import DesktopNavigation from "../DesktopNavigation"
 import { MenuWrapper, SettingsWrapper } from "./Styles"
 import Toggle from "../Toggle"
 import LanguageSelect from "../LanguageSelect"
@@ -11,7 +11,7 @@ interface MenuProps {
 const Menu = (props: MenuProps) => {
 	return (
 		<MenuWrapper>
-			<NavigationMenu />
+			<DesktopNavigation />
 			<SettingsWrapper>
 				<LanguageSelect />
 				<Toggle changeTheme={props.changeTheme} theme={props.theme} />

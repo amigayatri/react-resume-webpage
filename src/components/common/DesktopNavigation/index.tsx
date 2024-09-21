@@ -1,10 +1,10 @@
-import { DesktopWrapper } from "./NavigationMenu.styled"
-import NavigationItem from "./MenuItem"
 import { useLocation } from "react-router-dom"
-import PageProps from "../../../types/PageProps"
 import pages from "../../../constants/pages"
+import PageProps from "../../../types/PageProps"
+import NavigationItem from "../NavigationItem"
+import { DesktopNavigationWrapper } from "./DesktopNavigation.styled"
 
-const NavigationMenu = () => {
+const DesktopNavigation = () => {
 	const location = useLocation()
 	const activePath = location.pathname
 	const showItem = (page: PageProps, index: number) => {
@@ -18,8 +18,10 @@ const NavigationMenu = () => {
 		)
 	}
 	return (
-		<DesktopWrapper>{pages.map((page, i) => showItem(page, i))}</DesktopWrapper>
+		<DesktopNavigationWrapper>
+			{pages.map((page, i) => showItem(page, i))}
+		</DesktopNavigationWrapper>
 	)
 }
 
-export default NavigationMenu
+export default DesktopNavigation
