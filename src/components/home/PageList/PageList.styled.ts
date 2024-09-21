@@ -19,7 +19,7 @@ export const ListWrapper = styled.ul`
 		width: 672px;
 		margin: 0 auto;
 	}
-	@media (min-width: 1366px) {
+	@media (min-width: 1024px) {
 		width: 984px;
 	}
 `
