@@ -1,10 +1,7 @@
-import IconProps from "./IconProps"
-import { ReactElement } from "react"
-
 export default interface PageProps {
 	path: string
-	element: ReactElement
-	name: string
+	element: ({ page }: { page: PageProps }) => JSX.Element
+	id: string
 	isHome: boolean
-	icon?: IconProps
+	icon: string
 }

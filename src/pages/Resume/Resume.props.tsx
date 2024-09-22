@@ -1,13 +1,11 @@
 import Resume from "."
+import PageProps from "../../types/PageProps"
 
-const ResumeProps = {
+const ResumeProps: PageProps = {
 	path: "/resume/",
-	element: <Resume pageId="resume" />,
-	name: "resume",
-	icon: {
-		id: "resume",
-		size: 48
-	},
+	element: Resume,
+	id: "resume",
+	icon: "resume",
 	isHome: false
 }
 

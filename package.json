@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "comp": "npx generate-react-cli component",
     "component": "npx generate-react-cli component",
-    "hook": "npx generate-react-cli component --type=hook --flat",
+    "hook": "npx generate-react-cli component --type=hook",
     "icon": "npx generate-react-cli component --type=icon --flat",
     "page": "npx generate-react-cli component --type=page",
     "theme": "npx generate-react-cli component --type=theme --flat",

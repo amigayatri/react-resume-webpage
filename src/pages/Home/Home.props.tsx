@@ -1,13 +1,11 @@
 import Home from "."
+import PageProps from "../../types/PageProps"
 
-const HomeProps = {
+const HomeProps: PageProps = {
 	path: "/",
-	element: <Home pageId="home" />,
-	name: "home",
-	icon: {
-		id: "home",
-		size: 48
-	},
+	element: Home,
+	id: "home",
+	icon: "home",
 	isHome: true
 }
 

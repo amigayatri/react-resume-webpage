@@ -27,7 +27,7 @@
     },
     "icon": {
       "customTemplates": {
-        "component": "src/icons/TemplateName.tsx"
+        "component": "src/icons/TemplateNameIcon.tsx"
       },
       "path": "src/icons",
       "withIndex": false,
@@ -51,7 +51,7 @@
     },
     "theme": {
       "customTemplates": {
-        "component": "src/themes/templates/index.ts"
+        "component": "src/themes/TemplateName.ts"
       },
       "path": "src/themes",
       "withIndex": false,
@@ -62,7 +62,7 @@
     },
     "interfaces": {
       "customTemplates": {
-        "component": "src/types/TemplateName.ts"
+        "component": "src/types/TemplateNameProps.ts"
       },
       "path": "src/types",
       "withIndex": false,

@@ -2,14 +2,14 @@ import { IconWrapper, Icon } from "./Styles"
 import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
-const TemplateName = (props: SVGProps) => {
-	const { color, alt, size } = props
+const TemplateNameIcon = (props: SVGProps) => {
+	const { alt, size } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
 				role="img"
-				fill={color}
+				fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 			>
@@ -19,4 +19,4 @@ const TemplateName = (props: SVGProps) => {
 	)
 }
 
-export default TemplateName
+export default TemplateNameIcon

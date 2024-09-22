@@ -3,13 +3,13 @@ import SVGProps from "../types/SVGProps"
 
 //Windows-2 on Icon-pack
 const WebsiteIcon = (props: SVGProps) => {
-	const { color, alt, size } = props
+	const { alt, size } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
 				role="img"
-				fill={color}
+				fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 			>

@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "languages": {
+      "ar-LB": "عربي لبناني",
+      "ar": "اللغة العربية الفصحى الحديثة",
+      "bn": "البنغالية",
+      "de": "الألمانية",
+      "el": "اليونانية",
+      "en": "إنجليزي",
+      "es": "الاسبانية / القشتالية",
+      "fr": "فرنسي",
+      "gn": "الغواراني",
+      "hi": "الهندية",
+      "it": "ايطالي",
+      "ja": "اليابانية",
+      "la": "اللاتينية",
+      "pa": "البنجابية",
+      "pt-BR": "البرتغالية البرازيلية",
+      "zh": "الصينية",
+      "ru": "الروسية"
+    },
+    "theme": {
+      "change": "تغيير موضوع الموقع"
+    }
+  },
+  "paths": {
+    "title": {
+      "home": "الصفحة الرئيسية",
+      "resume": "سيرة ذاتية",
+      "colors": "اختلافات اللون",
+      "extralanguages": "لغات اضافية"
+    }
+  },
+  "icons": {
+    "alt": {
+      "linkedin": "أيقونة لينكدإن",
+      "mail": "أيقونة البريد الإلكتروني",
+      "website": "أيقونة الموقع",
+      "phone": "أيقونة الهاتف",
+      "light": "أيقونة الشمس",
+      "dark": "أيقونة القمر",
+      "code": "رمز اثنين من الأقواس المتعرجة",
+      "download": "أيقونة تحميل الوثيقة",
+      "email": "رمز البريد",
+      "github": "أيقونة جيثب",
+      "palette": "أيقونة لوحة الألوان",
+      "resume": "رمز الشخص",
+      "home": "رمز المنزل",
+      "external": "رمز الارتباط الخارجي"
+    }
+  },
+  "home": {
+    "header": {
+      "name": "أميرة غاياتري",
+      "subheading": "انقر على الصفحة التي تريد رؤيتها لفتحها!"
+    },
+    "pageList": {
+      "home": {
+        "title": "الصفحة الرئيسية"
+      },
+      "colors": {
+        "title": "مولد الظل"
+      },
+      "resume": {
+        "title": "سيرتي الذاتية"
+      },
+      "extralanguages": {
+        "title": "لغات اضافية"
+      }
+    },
+    "externalLinks": {
+      "linkedin": "ينكدين",
+      "github": "كود المصدر"
+    }
+  },
+  "resume": {
+    "header": {
+      "name": "أميرة غاياتري الأسد همبل",
+      "subheading": "مطور ويب للواجهة الأمامية"
+    },
+    "summary": {
+      "text": "تخرج في علوم الكمبيوتر، ولديه خمس سنوات من الخبرة في تطوير الويب، بشكل أساسي كمطور للواجهة الأمامية. "
+    },
+    "sections": {
+      "education": {
+        "title": "تعليم",
+        "items": {
+          "grad": {
+            "text": "بكالوريوس العلوم. "
+          }
+        }
+      },
+      "experience": {
+        "title": "الخبرة المهنية",
+        "items": {
+          "atip": {
+            "text": "مطور في Atip (شريك بيبسيكو). ",
+            "subitem": "استخدام React وNext.js وStyledComponents وTypeScript في المشاريع، والعمل مع فريق Pepsico المكسيكي."
+          },
+          "techviz": {
+            "text": "المطور في TechViz. ",
+            "subitem": "استخدام React وNext.js وSvelte وStyledComponents وTypeScript في المشاريع."
+          },
+          "encora": {
+            "text": "المطور في Encora البرازيل. ",
+            "subitem": "استخدام React وVue.js وLaravel في المشاريع"
+          },
+          "raccoon": {
+            "text": "مطور الواجهة الأمامية في Raccoon.Monks. ",
+            "subitem": "استخدام React وWordPress وAMP وNext.js وPHP وHTML وJavascript وSCSS في المشاريع. "
+          },
+          "partenero": {
+            "text": "متدرب Full Stack في Partenero. ",
+            "subitem": "باستخدام Firebase وEmber"
+          },
+          "liven": {
+            "text": "المتدرب المحمول الأمامي في Liven. ",
+            "subitem": "استخدام React وReact Native في المشاريع"
+          }
+        }
+      },
+      "languages": {
+        "title": "اللغات",
+        "items": {
+          "pt": {
+            "text": "البرتغالية البرازيلية الأصلية"
+          },
+          "en": {
+            "text": "اللغة الإنجليزية المتقدمة"
+          }
+        }
+      },
+      "technologies": {
+        "title": "التقنيات",
+        "items": {
+          "webbasics": {
+            "text": "جافا سكريبت، HTML وCSS"
+          },
+          "javascript": {
+            "text": "React والمكونات المصممة وNext.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS وAMP وReact Native وVue.js وSvelte"
+          },
+          "php": {
+            "text": "ووردبريس، PHP، ولارافيل"
+          },
+          "basics": {
+            "text": "لينكس وجيت"
+          }
+        }
+      },
+      "projects": {
+        "title": "المشاريع والأنشطة",
+        "items": {
+          "accessibility": {
+            "text": "دورة W3Cx \"مقدمة حول إمكانية الوصول إلى الويب\" (سبتمبر وأكتوبر/2022)"
+          },
+          "shehacks": {
+            "text": "المركز الأول (من 20 مجموعة) في SheHacks 2019، Hackathon بواسطة Facebook (سبتمبر/2019)"
+          },
+          "principia": {
+            "text": "مدرس متطوع لفصول الروبوتات في المدارس العامة من قبل \"Principia - Robôs na Escola\" (فبراير/2019 إلى يوليو/2019)"
+          },
+          "vemPraUSP": {
+            "text": "مدرس متطوع في \"Vem Pra USP!\"، دورة Scratch and App Inventor عبر الإنترنت لطلاب المدارس الثانوية العامة (أكتوبر/2019)"
+          },
+          "pet": {
+            "text": "مدرس متطوع مرتين في دورة مهارات الكمبيوتر الأساسية لكبار السن (مارس/2018 إلى مايو/2018 وسبتمبر/2018 إلى نوفمبر/2018)"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "link": "متطور",
+    "text": " بواسطة"
+  },
+  "colors": {
+    "header": {
+      "title": "مولد اختلاف اللون",
+      "summary": "إنشاء تنوعات لونية للأبيض والأسود، العدد الافتراضي للتنويعات هو 10 في كل اتجاه، ولكن يمكن تغييره"
+    },
+    "addColor": {
+      "title": "أضف اللون",
+      "buttons": {
+        "addMany": {
+          "hidden": "أضف أكثر من واحد",
+          "showing": "إخفاء إدخال النص"
+        },
+        "addOne": {
+          "hidden": "أضف واحدة",
+          "showing": "إخفاء محدد اللون"
+        },
+        "changeSteps": {
+          "hidden": "تغيير رقم الاختلاف",
+          "showing": "توقف عن تغيير أرقام التباين"
+        }
+      }
+    },
+    "colorList": {
+      "title": "الألوان المضافة",
+      "summary": {
+        "empty": "لم تقم بإضافة أي لون بعد",
+        "nonEmpty": "انقر لإزالة"
+      }
+    },
+    "shades": {
+      "title": "ظلال",
+      "summary": "انقر لنسخ اللون!"
+    }
+  },
+  "extralanguages": {
+    "title": "لغات اضافية",
+    "summary": "تم إنشاء خيارات اللغة هذه باستخدام مترجم آلي للتدريب على استخدام i18n-next"
+  }
+}

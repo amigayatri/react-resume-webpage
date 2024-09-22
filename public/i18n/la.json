@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "languages": {
+      "ar-LB": "Lebanese Arabic",
+      "ar": "Latin Modern Arabic",
+      "bn": "Bengalica",
+      "de": "German",
+      "el": "Greek",
+      "en": "Anglicus",
+      "es": "Spanish/Castilian",
+      "fr": "Gallica",
+      "gn": "Guarani",
+      "hi": "Hindi",
+      "it": "Italian",
+      "ja": "Iaponica",
+      "la": "Latinus",
+      "pa": "Punjabi",
+      "pt-BR": "Brazilian Portuguese",
+      "zh": "Seres",
+      "ru": "russian"
+    },
+    "theme": {
+      "change": "Mutatio website theme"
+    }
+  },
+  "paths": {
+    "title": {
+      "home": "Protocollum",
+      "resume": "Proin",
+      "colors": "Color variationum",
+      "extralanguages": "Extra linguas"
+    }
+  },
+  "icons": {
+    "alt": {
+      "linkedin": "Linkedin Icon",
+      "mail": "E-mail Icon",
+      "website": "A Website Icon",
+      "phone": "Phone Icon",
+      "light": "Sol Icon",
+      "dark": "Luna Icon",
+      "code": "Duo uncis crispus icon",
+      "download": "Documenti download icon",
+      "email": "Icon mail",
+      "github": "GitHub icon",
+      "palette": "Color palette icon",
+      "resume": "Persona icon",
+      "home": "Domum icon",
+      "external": "Externe paginae symbolum"
+    }
+  },
+  "home": {
+    "header": {
+      "name": "Amira Gayatri",
+      "subheading": "Click in pagina videre vis ut eam aperi!"
+    },
+    "pageList": {
+      "home": {
+        "title": "Home page"
+      },
+      "colors": {
+        "title": "umbra generantis"
+      },
+      "resume": {
+        "title": "Meum Proin"
+      },
+      "extralanguages": {
+        "title": "Extra linguas"
+      }
+    },
+    "externalLinks": {
+      "linkedin": "Linkedin",
+      "github": "Source codice"
+    }
+  },
+  "resume": {
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Elit ante-finem textus"
+    },
+    "summary": {
+      "text": "Lectus in Computer Scientia, quinque annos experientiae in evolutione interreti habet, maxime ut ante-finem Developer. "
+    },
+    "sections": {
+      "education": {
+        "title": "Education",
+        "items": {
+          "grad": {
+            "text": "B.Sc. "
+          }
+        }
+      },
+      "experience": {
+        "title": "Experientia professionales",
+        "items": {
+          "atip": {
+            "text": "Elit at Atip (Pepsico socium). ",
+            "subitem": "Using React, Next.js, StyledComponents et TypeScript in inceptis, operando cum quadrigis mexicani Pepsico."
+          },
+          "techviz": {
+            "text": "Elit at justo laoreet. ",
+            "subitem": "Using React, Next.js, Svelte, StyledComponents et TypeScript in inceptis."
+          },
+          "encora": {
+            "text": "Elit in Encora Brasiliae. ",
+            "subitem": "Using React, Vue.js et Laravel in inceptis"
+          },
+          "raccoon": {
+            "text": "Ante-finem Developer at Raccoon.Monks. ",
+            "subitem": "Using React, WordPress, AMP, Next.js, PHP, HTML, Javascript et SCSS in inceptis. "
+          },
+          "partenero": {
+            "text": "Full Stack Intern at Partenero. ",
+            "subitem": "Per Firebase et Quatuor Temporum"
+          },
+          "liven": {
+            "text": "Ante-finem Mobile Intern at Liven. ",
+            "subitem": "Using React ac Reat Accuratissima Totius in projects"
+          }
+        }
+      },
+      "languages": {
+        "title": "Linguae",
+        "items": {
+          "pt": {
+            "text": "Patria Brazilian Portuguese"
+          },
+          "en": {
+            "text": "Provectus English"
+          }
+        }
+      },
+      "technologies": {
+        "title": "Technologies",
+        "items": {
+          "webbasics": {
+            "text": "Javascript, HTML et CSS"
+          },
+          "javascript": {
+            "text": "React, Styled Components et Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Nativum, Vue.js et Svelte"
+          },
+          "php": {
+            "text": "WordPress, PHP and Laravel"
+          },
+          "basics": {
+            "text": "Linux et GIT"
+          }
+        }
+      },
+      "projects": {
+        "title": "Incepta et Operationes",
+        "items": {
+          "accessibility": {
+            "text": "W3Cx 'Introductio ad Web Accessibility' cursum (Septembris et Octobre/2022)"
+          },
+          "shehacks": {
+            "text": "Locus 1 (ex 20 coetibus) apud SheHacks MMXIX, Hackathon per Facebook (September/2019)"
+          },
+          "principia": {
+            "text": "Tutor voluntarius ad classes roboticas in scholis publicis per \"Principia - Robôs na Escola\" (Febr./2019 ad Iulii/2019)"
+          },
+          "vemPraUSP": {
+            "text": "Voluntarius paedagogus \"Vem Pra USP\", an Online Scratch et App Inventor cursum publicae scholae studentium (Octobris/2019)"
+          },
+          "pet": {
+            "text": "Voluntarius tutor bis in Basic Computer Skills cursus pro Senioribus (March/2018 ad Maium/2018 et Septembri/2018 ad Novembrem/2018)"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "link": "Developed",
+    "text": " by"
+  },
+  "colors": {
+    "header": {
+      "title": "Color variatio generantis",
+      "summary": "Variationes colorum nigrum et album creat, numerus variationum defectus in utraque parte 10 est, sed mutari potest"
+    },
+    "addColor": {
+      "title": "Adde color",
+      "buttons": {
+        "addMany": {
+          "hidden": "Adde plus quam unum",
+          "showing": "Celare textum input"
+        },
+        "addOne": {
+          "hidden": "Adde unum",
+          "showing": "Color electrix celare"
+        },
+        "changeSteps": {
+          "hidden": "Mutatio variation numerus",
+          "showing": "Mutantur numero nolite variation"
+        }
+      }
+    },
+    "colorList": {
+      "title": "additae coloribus",
+      "summary": {
+        "empty": "Non tamen ullus color addere",
+        "nonEmpty": "Click to remove"
+      }
+    },
+    "shades": {
+      "title": "Umbrae",
+      "summary": "Click to effingo color!"
+    }
+  },
+  "extralanguages": {
+    "title": "Extra linguas",
+    "summary": "Hae optiones linguae latinae cum interpres latae sententiae generatae sunt, ad usum i18n-sequentium instituendi"
+  }
+}

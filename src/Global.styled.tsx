@@ -1,20 +1,21 @@
 import { createGlobalStyle } from "styled-components";
+import media from "./constants/medias"
 
 const GlobalStyle = createGlobalStyle`
     :root {
         --container: 32px;
         --color-container: 32px;
 
-        @media (min-width: 1024px) {
+        ${media.min.md} {
             --container: calc((100% - 700px)/ 2);
             --color-container: 64px;
         }
 
-        @media print {
+        ${media.print} {
             --container: 32px;
         }
 
-        background-color: #212117;
+        background-color: ${({ theme }) => theme.black};
     }
 
     body {
@@ -27,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     * {
 	    box-sizing: border-box;
 	    font-family: 'Fira Code', monospace;
-        @media print {
+        ${media.print} {
             font-family: 'Noto Sans', sans-serif;
         }
 

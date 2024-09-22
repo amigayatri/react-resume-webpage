@@ -2,25 +2,25 @@ import ContactProps from "../types/ContactProps"
 
 export const contacts: ContactProps[] = [
 	{
-		icon: { id: "phone", size: 24 },
+		icon: "phone",
 		text: "+55 21 993945805",
 		link: "tel:+5521993945805",
 		showOnWeb: true
 	},
 	{
-		icon: { id: "email", size: 24 },
+		icon: "email",
 		text: "miragayatri@gmail.com",
 		link: "mailto:miragayatri@gmail.com",
 		showOnWeb: true
 	},
 	{
-		icon: { id: "linkedin", size: 24 },
+		icon: "linkedin",
 		text: "linkedin.com/in/amiragayatri",
 		link: "https://linkedin.com/in/amiragayatri",
 		showOnWeb: true
 	},
 	{
-		icon: { id: "website", size: 24 },
+		icon: "website",
 		text: "amiragayatri.dev",
 		link: "https://amiragayatri.dev",
 		showOnWeb: false

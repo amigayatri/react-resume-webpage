@@ -4,11 +4,12 @@ import PageProps from "./types/PageProps"
 
 const Router = () => {
 	const showPage = (page: PageProps) => {
+		const PageElement = page.element
 		return (
 			<Route
-				key={"route-" + page.name}
+				key={"route-" + page.id}
 				path={page.path}
-				element={page.element}
+				element={<PageElement page={page} />}
 			/>
 		)
 	}

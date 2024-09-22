@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const IconWrapper = styled.span``
+export const IconWrapper = styled.div`
+	line-height: 1;
+	height: fit-content;
+	width: fit-content;
+`
 export const ToggleIconWrapper = styled.span<{ $isLight: boolean }>`
 	width: 24px;
 	height: 24px;
@@ -13,7 +17,9 @@ export const ToggleIconWrapper = styled.span<{ $isLight: boolean }>`
 	transform: ${({ $isLight }) => ($isLight ? "translate(12px)" : "none")};
 `
 
-export const Icon = styled.svg<{$size: number}>`
-    width: ${({ $size }) => $size + 'px'};
-    height: ${({ $size }) => $size + 'px'};
+export const Icon = styled.svg<{ $size: number }>`
+	display: block;
+	width: ${({ $size }) => $size + "px"};
+	height: ${({ $size }) => $size + "px"};
+	transition: ${({ theme }) => theme.transition};
 `

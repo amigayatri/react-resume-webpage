@@ -9,20 +9,25 @@ import PhoneIcon from "../icons/PhoneIcon"
 import SunIcon from "../icons/SunIcon"
 import WebsiteIcon from "../icons/WebsiteIcon"
 import CodeIcon from "../icons/CodeIcon"
+import HomeIcon from "../icons/HomeIcon"
+import ExternalIcon from "../icons/ExternalIcon"
+import TranslateIcon from "../icons/TranslateIcon"
 
 const icons = new Map([
 	["code", CodeIcon],
+	["dark", MoonIcon],
 	["download", DownloadIcon],
 	["email", EmailIcon],
+	["external", ExternalIcon],
 	["github", GithubIcon],
-	["linkedin", LinkedinIcon],
-	["linkedinH", LinkedinIcon],
-	["dark", MoonIcon],
-	["palette", PaletteIcon],
-	["resume", PersonIcon],
+	["home", HomeIcon],
 	["light", SunIcon],
+	["linkedin", LinkedinIcon],
+	["palette", PaletteIcon],
+	["phone", PhoneIcon],
+	["resume", PersonIcon],
 	["website", WebsiteIcon],
-	["phone", PhoneIcon]
+	["translate", TranslateIcon]
 ])
 
 export default icons

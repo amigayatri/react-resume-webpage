@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "../../../constants/medias"
 
 export const Wrapper = styled.section`
 	padding: 32px 0;
@@ -12,14 +13,14 @@ export const ListWrapper = styled.ul`
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 32px;
 	grid-template-rows: 1fr;
-	@media (max-width: 500px) {
+	${media.max.sm} {
 		grid-template-columns: 1fr;
 	}
-	@media (min-width: 768px) {
+	${media.min.md} {
 		width: 672px;
 		margin: 0 auto;
 	}
-	@media (min-width: 1366px) {
+	${media.min.lg} {
 		width: 984px;
 	}
 `

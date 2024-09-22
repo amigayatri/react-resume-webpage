@@ -1,13 +1,11 @@
 import TemplateName from "."
+import PageProps from "../../types/PageProps"
 
-const TemplateNameProps = {
+const TemplateNameProps: PageProps = {
 	path: "/templatename/",
-	element: <TemplateName pageId="templatename" />,
-	name: "templatename",
-	icon: {
-		id: "templatename",
-		size: 48
-	},
+	element: TemplateName,
+	id: "templatename",
+	icon: "templatename",
 	isHome: false
 }
 

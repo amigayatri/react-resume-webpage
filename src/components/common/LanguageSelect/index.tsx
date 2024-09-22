@@ -1,18 +1,29 @@
 import { useTranslation } from "react-i18next"
 import { LanguageSelectInput, LanguageOption } from "./LanguageSelect.styled"
-import { languages } from "../../../constants/languages"
+import LanguageProps from "../../../types/LanguageProps"
+interface LanguageSelectProps {
+	languages: LanguageProps[]
+	isExtra?: boolean
+}
 
-const LanguageSelect = () => {
+const LanguageSelect = ({
+	languages,
+	isExtra = false
+}: LanguageSelectProps) => {
 	const { i18n, t } = useTranslation()
 	const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
-		const lang_code = e.target.value
-		i18n.changeLanguage(lang_code)
+		const langCode = e.target.value
+		i18n.changeLanguage(langCode)
 	}
 	return (
-		<LanguageSelectInput defaultValue={i18n.language} onChange={onChangeLang}>
-			{languages.map(({ code }) => (
-				<LanguageOption key={code} value={code}>
-					{t(`resume.menu.languages.${code}`)}
+		<LanguageSelectInput
+			$maxWidth={isExtra ? "100%" : "200px"}
+			defaultValue={i18n.language}
+			onChange={onChangeLang}
+		>
+			{languages.map(({ code, name }) => (
+				<LanguageOption key={(isExtra ? "extra-" : "nav-") + code} value={code}>
+					{t(`menu.languages.${code}`)} {isExtra && "(" + name + ")"}
 				</LanguageOption>
 			))}
 		</LanguageSelectInput>
