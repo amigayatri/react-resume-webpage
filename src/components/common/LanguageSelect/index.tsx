@@ -14,6 +14,7 @@ const LanguageSelect = ({
 	const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
 		const langCode = e.target.value
 		i18n.changeLanguage(langCode)
+		document.documentElement.setAttribute("lang", langCode)
 	}
 	return (
 		<LanguageSelectInput
