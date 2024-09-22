@@ -1,13 +1,11 @@
 import Colors from "."
+import PageProps from "../../types/PageProps"
 
-const ColorsProps = {
+const ColorsProps: PageProps = {
 	path: "/colors/",
-	element: <Colors pageId="colors" />,
-	name: "colors",
-	icon: {
-		id: "palette",
-		size: 48
-	},
+	element: Colors,
+	id: "colors",
+	icon: "palette",
 	isHome: false
 }
 

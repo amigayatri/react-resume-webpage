@@ -9,7 +9,6 @@ interface ToggleProps {
 
 const Toggle = (props: ToggleProps) => {
 	const { t } = useTranslation()
-
 	return (
 		<ToggleWrapper
 			tabIndex={0}

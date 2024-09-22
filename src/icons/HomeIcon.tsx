@@ -1,8 +1,8 @@
 import { IconWrapper, Icon } from "./Styles"
 import SVGProps from "../types/SVGProps"
 
-//Mail-line on pack
-const EmailIcon = (props: SVGProps) => {
+//Comment icon name (and pack if it changes)
+const HomeIcon = (props: SVGProps) => {
 	const { alt, size } = props
 	return (
 		<IconWrapper>
@@ -14,10 +14,11 @@ const EmailIcon = (props: SVGProps) => {
 				viewBox="0 0 24 24"
 			>
 				<title>{alt}</title>
-				<path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path>
+
+				<path d="M19 21H5C4.44772 21 4 20.5523 4 20V11L1 11L11.3273 1.6115C11.7087 1.26475 12.2913 1.26475 12.6727 1.6115L23 11L20 11V20C20 20.5523 19.5523 21 19 21ZM6 19H18V9.15745L12 3.7029L6 9.15745V19Z"></path>
 			</Icon>
 		</IconWrapper>
 	)
 }
 
-export default EmailIcon
+export default HomeIcon

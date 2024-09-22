@@ -12,7 +12,7 @@ const LanguageSelect = () => {
 		<LanguageSelectInput defaultValue={i18n.language} onChange={onChangeLang}>
 			{languages.map(({ code }) => (
 				<LanguageOption key={code} value={code}>
-					{t(`resume.menu.languages.${code}`)}
+					{t(`languages.${code}`)}
 				</LanguageOption>
 			))}
 		</LanguageSelectInput>

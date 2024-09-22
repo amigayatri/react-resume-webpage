@@ -4,6 +4,7 @@ import SVGIcon from "../../../icons/SVGIcon"
 import ContactProps from "../../../types/ContactProps"
 
 const Contacts = () => {
+
 	const showContactInfo = (contact: ContactProps, index: number) => {
 		return (
 			<ContactItem
@@ -11,7 +12,7 @@ const Contacts = () => {
 				$showOnWeb={contact.showOnWeb}
 				key={"contact-" + index}
 			>
-				<SVGIcon size={24} i={index} id={contact.icon.id} />
+				<SVGIcon size={24} id={contact.icon} />
 				<Link href={contact.link} rel="noopener" target="_blank">
 					{contact.text}
 				</Link>

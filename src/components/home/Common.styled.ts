@@ -1,10 +1,12 @@
 import styled from "styled-components"
+import media from "../../constants/medias"
 
 export const Wrapper = styled.li`
 	margin: 0 auto;
 	width: 100%;
+	height: 100%;
 
-	@media (min-width: 1366px) {
+	${media.min.lg} {
 		width: 480px;
 	}
 `
@@ -16,13 +18,15 @@ export const ButtonStyle = styled.div`
 	padding: 24px 32px;
 	border-radius: 16px;
 	background-color: ${({ theme }) => theme.accent};
+	height: 100%;
+	transition: ${({ theme }) => theme.transition};
 
-	@media (max-width: 1024px) {
+	${media.max.md} {
 		flex-direction: column;
 	}
 `
 
 export const Label = styled.span`
 	text-align: center;
-	margin-left: 8px;
+	margin: 8px;
 `

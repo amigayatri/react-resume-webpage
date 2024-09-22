@@ -6,10 +6,10 @@ export const HeaderWrapper = styled.header`
 `;
 
 export const Name = styled.h1`
-    font-family: 'Fira code', monospace;
-    color: #F92472;
-    margin: 0;
-    line-height: 1;
+	font-family: "Fira code", monospace;
+	color: ${({ theme }) => theme.colors.base.pink};
+	margin: 0;
+	line-height: 1;
 `
 
 export const SubHeading = styled.h2`

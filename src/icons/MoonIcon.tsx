@@ -3,13 +3,13 @@ import SVGProps from "../types/SVGProps"
 
 //Moon-clear-line on pack
 const MoonIcon = (props: SVGProps) => {
-	const { color, alt, size } = props
+	const { alt, size } = props
 	return (
 		<ToggleIconWrapper $isLight>
 			<Icon
 				$size={size}
 				role="img"
-				fill={color}
+				fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 			>

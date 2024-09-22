@@ -1,19 +1,25 @@
 import { useTranslation } from "react-i18next"
-import { LinkWrapper, LinkNav } from "./NavigationItem.styled"
+import { useLocation } from "react-router-dom"
+import SVGIcon from "../../../icons/SVGIcon"
+import PageProps from "../../../types/PageProps"
+import {
+	ContentWrapper,
+	Label,
+	LinkWrapper,
+	UnderLine
+} from "./NavigationItem.styled"
 
-interface NavigationProps {
-	name: string
-	path: string
-	isActive: boolean
-}
-
-const NavigationItem = ({ name, path, isActive }: NavigationProps) => {
+const NavigationItem = ({ page }: { page: PageProps }) => {
 	const { t } = useTranslation()
+	const { pathname } = useLocation()
+	const isActive = pathname === page.path
 	return (
-		<LinkWrapper>
-			<LinkNav to={path} $isActive={isActive}>
-				{t("paths.title.".concat(name))}
-			</LinkNav>
+		<LinkWrapper $isActive={isActive}>
+			<ContentWrapper to={page.path}>
+				<SVGIcon id={page.icon} size={24} />
+				<Label>{t("paths.title.".concat(page.id))}</Label>
+			</ContentWrapper>
+			<UnderLine />
 		</LinkWrapper>
 	)
 }

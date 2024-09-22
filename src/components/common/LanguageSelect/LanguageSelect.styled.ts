@@ -1,11 +1,12 @@
 import styled from "styled-components"
+import media from "../../../constants/medias"
 
 export const LanguageSelectInput = styled.select`
 	font-size: 1.25rem;
-	background-color: #212117;
-	color: #f7f7f7;
-	border-color: #212117;
-	@media (max-width: 800px) {
+	background-color: ${({ theme }) => theme.black};
+	color: ${({ theme }) => theme.white};
+	border-color: ${({ theme }) => theme.black};
+	${media.max.md} {
 		max-width: 200px;
 	}
 `

@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "../../../constants/medias"
 
 export const Wrapper = styled.div`
 	background-color: ${({ theme }) => theme.background};
@@ -7,7 +8,7 @@ export const Wrapper = styled.div`
 	width: fit-content;
 	margin: 0 auto 16px;
 
-	@media (max-width: 1024px) {
+	${media.max.md} {
 		transform: none;
 		margin: 0 var(--container) 8px;
 	}
@@ -20,34 +21,35 @@ export const ContactList = styled.ul`
 	display: flex;
 	flex-direction: row;
 
-	@media (max-width: 1024px) {
+	${media.max.md} {
 		position: relative;
 		flex-direction: column;
 	}
 
-	@media print {
+	${media.print} {
 		position: relative;
 		flex-direction: column;
 	}
 `
 
 export const ContactItem = styled.li<{ $showOnWeb: boolean; $i: number }>`
-	display: ${(props) => (props.$showOnWeb ? "flex" : "none")};
+	display: ${({ $showOnWeb }) => ($showOnWeb ? "flex" : "none")};
 	margin-left: 32px;
 	border: 1px solid
-		${(props) => (props.$i & 1 ? props.theme.secondAccent : props.theme.accent)};
+		${({ $i, theme }) => ($i & 1 ? theme.secondAccent : theme.accent)};
+	color: ${({ $i, theme }) => ($i & 1 ? theme.accent : theme.secondAccent)};
 	padding: 4px 8px;
 	border-radius: 8px;
 	max-width: fit-content;
 
-	@media (min-width: 1024px) {
+	${media.min.md} {
 		justify-content: flex-start;
 		align-items: center;
 		&:first-of-type {
 			margin-left: 0;
 		}
 	}
-	@media (max-width: 1024px) {
+	${media.max.md} {
 		margin: 8px 0;
 		justify-content: flex-start;
 		align-items: flex-start;
@@ -56,7 +58,7 @@ export const ContactItem = styled.li<{ $showOnWeb: boolean; $i: number }>`
 		}
 	}
 
-	@media print {
+	${media.print} {
 		display: flex;
 	}
 `
@@ -71,7 +73,7 @@ export const Link = styled.a`
 	margin-left: 8px;
 	max-width: auto;
 
-	@media (max-width: 400px) {
+	${media.max.xs} {
 		text-wrap: wrap;
 		max-width: 320px;
 	}

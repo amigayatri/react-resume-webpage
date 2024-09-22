@@ -10,8 +10,8 @@ const InternalLink = ({ page }: { page: PageProps }) => {
 	return (
 		<InternalLinkTag to={page.path}>
 			<ButtonStyle>
-				<SVGIcon size={page.icon?.size || 0} id={page.icon?.id || ""} />
-				<Label> {t(`home.pageList.${page.name}.title`)}</Label>
+				<SVGIcon size={48} id={page.icon} />
+				<Label> {t(`home.pageList.${page.id}.title`)}</Label>
 			</ButtonStyle>
 		</InternalLinkTag>
 	)

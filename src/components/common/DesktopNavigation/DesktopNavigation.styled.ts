@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "../../../constants/medias"
 
 export const DesktopNavigationWrapper = styled.ul`
 	display: flex;
@@ -7,7 +8,7 @@ export const DesktopNavigationWrapper = styled.ul`
 	justify-content: space-between;
 	padding-left: 0;
 
-	@media (max-width: 768px) {
+	${media.max.md} {
 		display: none;
 	}
 `

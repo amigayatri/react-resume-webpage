@@ -1,8 +1,11 @@
+import Named from "./Named"
+
 const DefaultLight = {
-	primary: "#212117",
-	background: "#F7F7F7",
-	accent: "#F92472",
-	secondAccent: "#67D8EF"
+	primary: Named.black,
+	background: Named.white,
+	accent: Named.pink,
+	secondAccent: Named.blue,
+	transition: Named.transition
 }
 
 export default DefaultLight

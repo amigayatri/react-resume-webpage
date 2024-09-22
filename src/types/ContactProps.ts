@@ -1,8 +1,6 @@
-import IconProps from "./IconProps"
-
 export default interface ContactProps {
 	text: string
-	icon: IconProps
+	icon: string
 	link: string
 	showOnWeb: boolean
 }

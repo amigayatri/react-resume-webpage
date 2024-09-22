@@ -1,17 +1,15 @@
 import useDocumentTitle from "../../hooks/useDocumentTitle"
-import { ThemeProvider } from "styled-components"
-import Monokai from "../../themes/Monokai"
 import Header from "../../components/colors/Header"
 import Main from "../../components/colors/Main"
-import PageIdProps from "../../types/PageIdProps"
+import PageElementProps from "../../types/PageElementProps"
 
-const Colors = ({ pageId }: PageIdProps) => {
-	useDocumentTitle(pageId)
+const Colors = ({ page }: PageElementProps) => {
+	useDocumentTitle(page.id)
 	return (
-		<ThemeProvider theme={Monokai}>
+		<>
 			<Header />
 			<Main />
-		</ThemeProvider>
+		</>
 	)
 }
 
