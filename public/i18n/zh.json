@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "languages": {
+      "ar-LB": "黎巴嫩 阿拉伯语",
+      "ar": "标准现代阿拉伯语",
+      "bn": "孟加拉",
+      "de": "德语",
+      "el": "希腊语",
+      "en": "英语",
+      "es": "西班牙语/卡斯蒂利亚语",
+      "fr": "法语",
+      "gn": "瓜拉尼语",
+      "hi": "印地语",
+      "it": "意大利语",
+      "ja": "日本人",
+      "la": "拉丁",
+      "pa": "旁遮普语",
+      "pt-BR": "巴西葡萄牙语",
+      "zh": "中国人",
+      "ru": "俄语"
+    },
+    "theme": {
+      "change": "更改网站主题"
+    }
+  },
+  "paths": {
+    "title": {
+      "home": "主页",
+      "resume": "恢复",
+      "colors": "颜色变化",
+      "extralanguages": "额外语言"
+    }
+  },
+  "icons": {
+    "alt": {
+      "linkedin": "领英图标",
+      "mail": "电子邮件图标",
+      "website": "网站图标",
+      "phone": "电话图标",
+      "light": "太阳图标",
+      "dark": "月亮图标",
+      "code": "两个大括号图标",
+      "download": "文档下载图标",
+      "email": "邮件图标",
+      "github": "GitHub 图标",
+      "palette": "调色板图标",
+      "resume": "人图标",
+      "home": "主页图标",
+      "external": "外部链接符号"
+    }
+  },
+  "home": {
+    "header": {
+      "name": "阿米拉·加亚特里",
+      "subheading": "点击您想查看的页面即可打开它！"
+    },
+    "pageList": {
+      "home": {
+        "title": "主页"
+      },
+      "colors": {
+        "title": "阴影发生器"
+      },
+      "resume": {
+        "title": "我的简历"
+      },
+      "extralanguages": {
+        "title": "额外语言"
+      }
+    },
+    "externalLinks": {
+      "linkedin": "领英",
+      "github": "源代码"
+    }
+  },
+  "resume": {
+    "header": {
+      "name": "阿米拉·加亚特里·阿萨德·亨佩尔",
+      "subheading": "前端网页开发人员"
+    },
+    "summary": {
+      "text": "计算机科学专业毕业，拥有五年 Web 开发经验，主要担任前端开发人员。"
+    },
+    "sections": {
+      "education": {
+        "title": "教育",
+        "items": {
+          "grad": {
+            "text": "理学学士"
+          }
+        }
+      },
+      "experience": {
+        "title": "专业经验",
+        "items": {
+          "atip": {
+            "text": "Atip（百事可乐合作伙伴）的开发人员。 ",
+            "subitem": "在项目中使用 React、Next.js、StyledComponents 和 TypeScript，与墨西哥 Pepsico 团队合作。"
+          },
+          "techviz": {
+            "text": "TechViz 的开发人员。 ",
+            "subitem": "在项目中使用 React、Next.js、Svelte、StyledComponents 和 TypeScript。"
+          },
+          "encora": {
+            "text": "巴西 Encora 的开发商。 ",
+            "subitem": "在项目中使用 React、Vue.js 和 Laravel"
+          },
+          "raccoon": {
+            "text": "Raccoon.Monks 的前端开发人员。 ",
+            "subitem": "在项目中使用 React、WordPress、AMP、Next.js、PHP、HTML、Javascript 和 SCSS。"
+          },
+          "partenero": {
+            "text": "Partenero 的全栈实习生。 ",
+            "subitem": "使用 Firebase 和 Ember"
+          },
+          "liven": {
+            "text": "Liven 的前端移动实习生。 ",
+            "subitem": "在项目中使用 React 和 React Native"
+          }
+        }
+      },
+      "languages": {
+        "title": "语言",
+        "items": {
+          "pt": {
+            "text": "母语巴西葡萄牙语"
+          },
+          "en": {
+            "text": "高级英语"
+          }
+        }
+      },
+      "technologies": {
+        "title": "技术",
+        "items": {
+          "webbasics": {
+            "text": "JavaScript、HTML 和 CSS"
+          },
+          "javascript": {
+            "text": "React、样式化组件和 Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS、AMP、React Native、Vue.js 和 Svelte"
+          },
+          "php": {
+            "text": "WordPress、PHP 和 Laravel"
+          },
+          "basics": {
+            "text": "Linux 和 GIT"
+          }
+        }
+      },
+      "projects": {
+        "title": "项目和活动",
+        "items": {
+          "accessibility": {
+            "text": "W3Cx“网页辅助功能简介”课程（2022 年 9 月和 10 月）"
+          },
+          "shehacks": {
+            "text": "在 Facebook 举办的黑客马拉松 SheHacks 2019 上获得第一名（共 20 组）（2019 年 9 月）"
+          },
+          "principia": {
+            "text": "“Principia - Robôs na Escola”公立学校机器人课程的志愿者导师（2019 年 2 月至 2019 年 7 月）"
+          },
+          "vemPraUSP": {
+            "text": "“Vem Pra USP!” 的志愿者导师，这是一门针对公立高中生的在线 Scratch 和 App Inventor 课程（2019 年 10 月）"
+          },
+          "pet": {
+            "text": "两次担任老年人计算机基础技能课程的志愿者导师（2018年3月至2018年5月和2018年9月至2018年11月）"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "link": "发达",
+    "text": " 经过"
+  },
+  "colors": {
+    "header": {
+      "title": "颜色变化发生器",
+      "summary": "创建黑色和白色的颜色变化，每个方向的默认变化数量为 10，但可以更改"
+    },
+    "addColor": {
+      "title": "添加颜色",
+      "buttons": {
+        "addMany": {
+          "hidden": "添加多个",
+          "showing": "隐藏文本输入"
+        },
+        "addOne": {
+          "hidden": "添加一个",
+          "showing": "隐藏颜色选择器"
+        },
+        "changeSteps": {
+          "hidden": "更改变体编号",
+          "showing": "停止更改变体编号"
+        }
+      }
+    },
+    "colorList": {
+      "title": "添加了颜色",
+      "summary": {
+        "empty": "您还没有添加任何颜色",
+        "nonEmpty": "点击删除"
+      }
+    },
+    "shades": {
+      "title": "色调",
+      "summary": "点击复制颜色！"
+    }
+  },
+  "extralanguages": {
+    "title": "额外语言",
+    "summary": "这些语言选项是使用自动翻译器生成的，用于训练 i18n-next 的使用"
+  }
+}

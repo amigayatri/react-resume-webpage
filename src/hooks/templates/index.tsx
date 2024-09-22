@@ -1,3 +1,3 @@
-const TemplateName = () => {}
+const useTemplateName = () => {}
 
-export default TemplateName
+export default useTemplateName

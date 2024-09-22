@@ -1,7 +1,7 @@
 import { IconWrapper, Icon } from "./Styles"
 import SVGProps from "../types/SVGProps"
 
-//Comment icon name (and pack if it changes)
+//external-link-line
 const ExternalIcon = (props: SVGProps) => {
 	const { alt, size } = props
 	return (

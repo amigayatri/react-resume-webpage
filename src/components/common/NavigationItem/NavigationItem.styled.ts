@@ -1,9 +1,16 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
+import media from "../../../constants/medias"
 
 export const Label = styled.span`
 	margin-left: 4px;
 	text-wrap: nowrap;
+	${media.max.sm} {
+		display: inline-block;
+		width: 0;
+		overflow: hidden;
+		transition: ${({ theme }) => theme.transition};
+	}
 `
 
 export const UnderLine = styled.div`
@@ -49,6 +56,11 @@ export const LinkWrapper = styled.li<{ $isActive: boolean }>`
 		& ${UnderLine} {
 			height: 2px;
 			width: 100%;
+		}
+		${media.max.sm} {
+			& ${Label} {
+				width: 96px;
+			}
 		}
 	}
 `

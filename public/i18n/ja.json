@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "languages": {
+      "ar-LB": "レバノン語アラビア語",
+      "ar": "標準現代アラビア語",
+      "bn": "ベンガル語",
+      "de": "ドイツ語",
+      "el": "ギリシャ語",
+      "en": "英語",
+      "es": "スペイン語/カスティーリャ語",
+      "fr": "フランス語",
+      "gn": "グアラニー語",
+      "hi": "ヒンディー語",
+      "it": "イタリア語",
+      "ja": "日本語",
+      "la": "ラテン",
+      "pa": "パンジャブ語",
+      "pt-BR": "ブラジル系ポルトガル語",
+      "zh": "中国語",
+      "ru": "ロシア"
+    },
+    "theme": {
+      "change": "ウェブサイトのテーマを変更する"
+    }
+  },
+  "paths": {
+    "title": {
+      "home": "ホームページ",
+      "resume": "再開する",
+      "colors": "カラーバリエーション",
+      "extralanguages": "追加の言語"
+    }
+  },
+  "icons": {
+    "alt": {
+      "linkedin": "リンクトインのアイコン",
+      "mail": "電子メールアイコン",
+      "website": "ウェブサイトのアイコン",
+      "phone": "電話アイコン",
+      "light": "太陽のアイコン",
+      "dark": "月のアイコン",
+      "code": "2 つの中括弧のアイコン",
+      "download": "ドキュメントダウンロードアイコン",
+      "email": "メールアイコン",
+      "github": "GitHub アイコン",
+      "palette": "カラーパレットアイコン",
+      "resume": "人のアイコン",
+      "home": "ホームアイコン",
+      "external": "外部リンク記号"
+    }
+  },
+  "home": {
+    "header": {
+      "name": "アミラ・ガヤトリ",
+      "subheading": "見たいページをクリックして開いてください！"
+    },
+    "pageList": {
+      "home": {
+        "title": "ホームページ"
+      },
+      "colors": {
+        "title": "シェードジェネレーター"
+      },
+      "resume": {
+        "title": "私の履歴書"
+      },
+      "extralanguages": {
+        "title": "追加の言語"
+      }
+    },
+    "externalLinks": {
+      "linkedin": "リンクトイン",
+      "github": "ソースコード"
+    }
+  },
+  "resume": {
+    "header": {
+      "name": "アミラ・ガヤトリ・エル・アサド・ヘンペル",
+      "subheading": "フロントエンドWeb開発者"
+    },
+    "summary": {
+      "text": "コンピューター サイエンスを卒業し、主にフロントエンド開発者として Web 開発に 5 年間の経験があります。 "
+    },
+    "sections": {
+      "education": {
+        "title": "教育",
+        "items": {
+          "grad": {
+            "text": "理学士"
+          }
+        }
+      },
+      "experience": {
+        "title": "専門的な経験",
+        "items": {
+          "atip": {
+            "text": "Atip の開発者 (ペプシコのパートナー)。 ",
+            "subitem": "プロジェクトで React、Next.js、StyledComponents、TypeScript を使用し、メキシコのペプシコ チームと協力しています。"
+          },
+          "techviz": {
+            "text": "TechViz の開発者。 ",
+            "subitem": "プロジェクトでの React、Next.js、Svelte、StyledComponents、TypeScript の使用。"
+          },
+          "encora": {
+            "text": "Encora ブラジルの開発者。 ",
+            "subitem": "プロジェクトでの React、Vue.js、Laravel の使用"
+          },
+          "raccoon": {
+            "text": "Raccoon.Monks のフロントエンド開発者。 ",
+            "subitem": "プロジェクトで React、WordPress、AMP、Next.js、PHP、HTML、JavaScript、SCSS を使用する。"
+          },
+          "partenero": {
+            "text": "パルテネロのフルスタックインターン。 ",
+            "subitem": "Firebase と Ember の使用"
+          },
+          "liven": {
+            "text": "Liven のフロントエンド モバイル インターン。 ",
+            "subitem": "プロジェクトでの React と React Native の使用"
+          }
+        }
+      },
+      "languages": {
+        "title": "言語",
+        "items": {
+          "pt": {
+            "text": "ブラジル系ポルトガル語ネイティブ"
+          },
+          "en": {
+            "text": "上級英語"
+          }
+        }
+      },
+      "technologies": {
+        "title": "テクノロジー",
+        "items": {
+          "webbasics": {
+            "text": "JavaScript、HTML、CSS"
+          },
+          "javascript": {
+            "text": "React、スタイル付きコンポーネント、Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS、AMP、React Native、Vue.js、Svelte"
+          },
+          "php": {
+            "text": "WordPress、PHP、Laravel"
+          },
+          "basics": {
+            "text": "Linux と GIT"
+          }
+        }
+      },
+      "projects": {
+        "title": "プロジェクトと活動",
+        "items": {
+          "accessibility": {
+            "text": "W3Cx「Web アクセシビリティ入門」コース (2022 年 9 月と 10 月)"
+          },
+          "shehacks": {
+            "text": "Facebookのハッカソン「SheHacks 2019」で1位（20グループ中）（2019年9月）"
+          },
+          "principia": {
+            "text": "「Principia - Robôs na Escola」による公立学校のロボット教室のボランティア講師（2019年2月～2019年7月）"
+          },
+          "vemPraUSP": {
+            "text": "公立高校生向けオンラインScratch・App Inventorコース「Vem Pra USP!」ボランティア講師（2019年10月）"
+          },
+          "pet": {
+            "text": "シニア向けパソコン基礎講座のボランティア講師２回（2018年3月～2018年5月、2018年9月～2018年11月）"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "link": "発展した",
+    "text": " による"
+  },
+  "colors": {
+    "header": {
+      "title": "カラーバリエーションジェネレーター",
+      "summary": "黒と白のカラー バリエーションを作成します。デフォルトのバリエーション数は各方向に 10 ですが、変更できます。"
+    },
+    "addColor": {
+      "title": "色を追加する",
+      "buttons": {
+        "addMany": {
+          "hidden": "複数追加",
+          "showing": "テキスト入力を非表示にする"
+        },
+        "addOne": {
+          "hidden": "1 つ追加",
+          "showing": "カラーセレクターを非表示にする"
+        },
+        "changeSteps": {
+          "hidden": "バリエーション番号変更",
+          "showing": "バリエーション番号の変更をやめる"
+        }
+      }
+    },
+    "colorList": {
+      "title": "追加された色",
+      "summary": {
+        "empty": "まだ色を追加していません",
+        "nonEmpty": "クリックして削除します"
+      }
+    },
+    "shades": {
+      "title": "シェード",
+      "summary": "クリックして色をコピーしてください!"
+    }
+  },
+  "extralanguages": {
+    "title": "追加の言語",
+    "summary": "これらの言語オプションは、i18n-next の使用をトレーニングするために、自動翻訳機能を使用して生成されました。"
+  }
+}

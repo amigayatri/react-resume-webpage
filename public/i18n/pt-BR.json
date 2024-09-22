@@ -1,19 +1,52 @@
 {
+    "menu": {
+        "languages": {
+            "ar-LB": "Árabe libanês",
+            "ar": "Árabe clássico",
+            "bn": "Bengali",
+            "de": "Alemão",
+            "el": "Grego",
+            "en": "Inglês",
+            "es": "Espanhol/castelhano",
+            "fr": "Francês",
+            "gn": "Guarani",
+            "hi": "Hindi",
+            "it": "Italiano",
+            "ja": "Japônes",
+            "la": "Latim",
+            "pa": "Punjabi",
+            "pt-BR": "Português Brasileiro",
+            "ru": "Russo",
+            "zh": "Chinês"
+        },
+        "theme": {
+            "change": "Mudar tema do site"
+        }
+    },
     "paths": {
         "title": {
-            "home": "Homepage",
+            "home": "Página inicial",
             "resume": "Currículo",
-            "colors": "Variações de cores"
+            "colors": "Variações de cores",
+            "extralanguages": "Línguas extras"
         }
     },
     "icons": {
         "alt": {
+            "code": "Ícone com duas chaves",
+            "dark": "Ícone de uma lua",
+            "download": "ícone de download de documento",
+            "email": "Ícone de email",
+            "external": "Simbolo de link externo",
+            "github": "Ícone do github",
+            "home": "Ícone de uma casa",
+            "light": "Ícone de um sol",
             "linkedin": "Ícone do Linkedin",
             "mail": "Ícone de Email",
-            "site": "Ícone de um website",
+            "palette": "Ícone de uma paleta de cores",
             "phone": "Ícone de Telefone",
-            "light": "Ícone de um sol",
-            "dark": "Ícone de uma lua"
+            "resume": "Ícone de uma pessoa",
+            "website": "Ícone de um website"
         }
     },
     "home": {
@@ -30,6 +63,9 @@
             },
             "resume": {
                 "title": "Meu curriculo"
+            },
+            "extralanguages": {
+                "title": "Línguas extras"
             }
         },
         "externalLinks": {
@@ -41,15 +77,6 @@
         "header": {
             "name": "Amira Gayatri El Assad Hempel",
             "subheading": "Desenvolvedora Web Front-end"
-        },
-        "menu": {
-            "languages": {
-                "en": "Inglês",
-                "pt": "Português Brasileiro"
-            },
-            "theme": {
-                "change": "Mudar tema do site"
-            }
         },
         "summary": {
             "text": "Graduada em Ciência da Computação, atua em desenvolvimento web há cinco anos, principalmente como Front-end. Tem experiência ampla com React e WordPress, entre outras linguagens e frameworks. Interessada também em acessibilidade na web."
@@ -146,7 +173,7 @@
         }
     },
     "footer": {
-        "linkd": "Desenvolvido",
+        "link": "Desenvolvido",
         "text": " por"
     },
     "colors": {
@@ -182,5 +209,9 @@
             "title": "Tons",
             "summary": "Clique para copiar o código!"
         }
+    },
+    "extralanguages": {
+        "title": "Línguas extras",
+        "summary": "Estas opções de idiomas foram geradas com um tradutor automático, para treinar a utilização do i18n-next"
     }
 }

@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "languages": {
+      "ar-LB": "Λιβανέζικα αραβικά",
+      "ar": "Τυπικά σύγχρονα αραβικά",
+      "bn": "Μπενγκάλι",
+      "de": "Γερμανός",
+      "el": "ελληνικά",
+      "en": "αγγλικός",
+      "es": "Ισπανικά/Καστιλιάνικα",
+      "fr": "Γάλλος",
+      "gn": "Γκουαρανί",
+      "hi": "Χίντι",
+      "it": "ιταλικά",
+      "ja": "Ιαπωνικά",
+      "la": "λατινικά",
+      "pa": "Παντζάμπι",
+      "pt-BR": "Πορτογάλοι Βραζιλίας",
+      "zh": "κινέζικα",
+      "ru": "ρωσικός"
+    },
+    "theme": {
+      "change": "Αλλαγή θέματος ιστότοπου"
+    }
+  },
+  "paths": {
+    "title": {
+      "home": "Αρχική σελίδα",
+      "resume": "Περίληψη",
+      "colors": "Παραλλαγές χρώματος",
+      "extralanguages": "Επιπλέον γλώσσες"
+    }
+  },
+  "icons": {
+    "alt": {
+      "linkedin": "Εικονίδιο Linkedin",
+      "mail": "Εικονίδιο ηλεκτρονικού ταχυδρομείου",
+      "website": "Ένα εικονίδιο ιστότοπου",
+      "phone": "Εικονίδιο τηλεφώνου",
+      "light": "Εικονίδιο ήλιου",
+      "dark": "Φεγγάρι εικονίδιο",
+      "code": "Εικονίδιο δύο σγουρά παρενθέσεις",
+      "download": "Εικονίδιο λήψης εγγράφου",
+      "email": "Εικονίδιο αλληλογραφίας",
+      "github": "Εικονίδιο GitHub",
+      "palette": "Εικονίδιο παλέτας χρωμάτων",
+      "resume": "εικονίδιο προσώπου",
+      "home": "Αρχική εικόνα",
+      "external": "Σύμβολο εξωτερικού συνδέσμου"
+    }
+  },
+  "home": {
+    "header": {
+      "name": "Amira Gayatri",
+      "subheading": "Κάντε κλικ στη σελίδα που θέλετε να δείτε για να την ανοίξετε!"
+    },
+    "pageList": {
+      "home": {
+        "title": "Αρχική σελίδα"
+      },
+      "colors": {
+        "title": "Γεννήτρια σκίασης"
+      },
+      "resume": {
+        "title": "Το βιογραφικό μου"
+      },
+      "extralanguages": {
+        "title": "Επιπλέον γλώσσες"
+      }
+    },
+    "externalLinks": {
+      "linkedin": "Linkedin",
+      "github": "Πηγαίος κώδικας"
+    }
+  },
+  "resume": {
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Εμπρός προγραμματιστής ιστού"
+    },
+    "summary": {
+      "text": "Πτυχιούχος Πληροφορικής, έχει πενταετή εμπειρία στην ανάπτυξη ιστοσελίδων, κυρίως ως Front-end Developer. "
+    },
+    "sections": {
+      "education": {
+        "title": "Εκπαίδευση",
+        "items": {
+          "grad": {
+            "text": "B.Sc. "
+          }
+        }
+      },
+      "experience": {
+        "title": "Επαγγελματική Εμπειρία",
+        "items": {
+          "atip": {
+            "text": "Προγραμματιστής στην Atip (συνεργάτης Pepsico). ",
+            "subitem": "Χρησιμοποιώντας React, Next.js, StyledComponents και TypeScript σε έργα, σε συνεργασία με την ομάδα της μεξικάνικης Pepsico."
+          },
+          "techviz": {
+            "text": "Προγραμματιστής στο TechViz. ",
+            "subitem": "Χρήση React, Next.js, Svelte, StyledComponents και TypeScript σε έργα."
+          },
+          "encora": {
+            "text": "Προγραμματιστής στην Encora Brazil. ",
+            "subitem": "Χρήση React, Vue.js και Laravel σε έργα"
+          },
+          "raccoon": {
+            "text": "Προγραμματιστής Front-end στο Raccoon.Monks. ",
+            "subitem": "Χρήση React, WordPress, AMP, Next.js, PHP, HTML, Javascript και SCSS σε έργα. "
+          },
+          "partenero": {
+            "text": "Full Stack Intern στο Partenero. ",
+            "subitem": "Χρήση Firebase και Ember"
+          },
+          "liven": {
+            "text": "Front-end Mobile Intern στο Liven. ",
+            "subitem": "Χρήση React και React Native σε έργα"
+          }
+        }
+      },
+      "languages": {
+        "title": "Γλώσσες",
+        "items": {
+          "pt": {
+            "text": "Ιθαγενείς Πορτογάλοι Βραζιλίας"
+          },
+          "en": {
+            "text": "Προχωρημένα Αγγλικά"
+          }
+        }
+      },
+      "technologies": {
+        "title": "τεχνολογίες",
+        "items": {
+          "webbasics": {
+            "text": "Javascript, HTML και CSS"
+          },
+          "javascript": {
+            "text": "React, Styled Components και Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Native, Vue.js και Svelte"
+          },
+          "php": {
+            "text": "WordPress, PHP και Laravel"
+          },
+          "basics": {
+            "text": "Linux και GIT"
+          }
+        }
+      },
+      "projects": {
+        "title": "Έργα και Δραστηριότητες",
+        "items": {
+          "accessibility": {
+            "text": "Μάθημα W3Cx «Εισαγωγή στην Προσβασιμότητα στον Ιστό» (Σεπτέμβριος και Οκτώβριος/2022)"
+          },
+          "shehacks": {
+            "text": "1η θέση (από 20 ομάδες) στο SheHacks 2019, ένα Hackathon από το Facebook (Σεπτέμβριος/2019)"
+          },
+          "principia": {
+            "text": "Εθελοντής δάσκαλος σε μαθήματα ρομποτικής σε δημόσια σχολεία από το «Principia - Robôs na Escola» (Φεβρουάριος/2019 έως Ιούλιος/2019)"
+          },
+          "vemPraUSP": {
+            "text": "Εθελοντής δάσκαλος στο «Vem Pra USP!», ένα διαδικτυακό μάθημα Scratch and App Inventor για μαθητές δημόσιου λυκείου (Οκτώβριος/2019)"
+          },
+          "pet": {
+            "text": "Εθελοντής δάσκαλος δύο φορές στο μάθημα βασικών δεξιοτήτων υπολογιστή για ηλικιωμένους (Μάρτιος/2018 έως Μάιος/2018 και Σεπτέμβριος/2018 έως Νοέμβριος/2018)"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "link": "Αναπτηγμένος",
+    "text": " με"
+  },
+  "colors": {
+    "header": {
+      "title": "Γεννήτρια χρωματικής παραλλαγής",
+      "summary": "Δημιουργεί χρωματικές παραλλαγές για ασπρόμαυρο, ο προεπιλεγμένος αριθμός παραλλαγών είναι 10 σε κάθε κατεύθυνση, αλλά μπορεί να αλλάξει"
+    },
+    "addColor": {
+      "title": "Προσθέστε χρώμα",
+      "buttons": {
+        "addMany": {
+          "hidden": "Προσθέστε περισσότερα από ένα",
+          "showing": "Απόκρυψη εισαγωγής κειμένου"
+        },
+        "addOne": {
+          "hidden": "Προσθέστε ένα",
+          "showing": "Απόκρυψη επιλογέα χρώματος"
+        },
+        "changeSteps": {
+          "hidden": "Αλλαγή αριθμού παραλλαγής",
+          "showing": "Διακοπή αλλαγής αριθμών παραλλαγής"
+        }
+      }
+    },
+    "colorList": {
+      "title": "Προστέθηκαν χρώματα",
+      "summary": {
+        "empty": "Δεν έβαλες ακόμα χρώμα",
+        "nonEmpty": "Κάντε κλικ για κατάργηση"
+      }
+    },
+    "shades": {
+      "title": "Αποχρώσεις",
+      "summary": "Κάντε κλικ για να αντιγράψετε το χρώμα!"
+    }
+  },
+  "extralanguages": {
+    "title": "Επιπλέον γλώσσες",
+    "summary": "Αυτές οι επιλογές γλώσσας δημιουργήθηκαν με έναν αυτόματο μεταφραστή, για την εκπαίδευση στη χρήση του i18n-next"
+  }
+}

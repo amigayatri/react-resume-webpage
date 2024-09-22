@@ -1,7 +1,7 @@
 import { IconWrapper, Icon } from "./Styles"
 import SVGProps from "../types/SVGProps"
 
-//Comment icon name (and pack if it changes)
+//home-2-line
 const HomeIcon = (props: SVGProps) => {
 	const { alt, size } = props
 	return (

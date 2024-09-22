@@ -1,7 +1,9 @@
-import DesktopNavigation from "../DesktopNavigation"
+import Navigation from "../Navigation"
 import { MenuWrapper, SettingsWrapper } from "./Menu.styled"
 import Toggle from "../Toggle"
 import LanguageSelect from "../LanguageSelect"
+import languages from "../../../constants/languages"
+
 interface MenuProps {
 	changeTheme: () => void
 	theme: string
@@ -10,9 +12,9 @@ interface MenuProps {
 const Menu = ({ changeTheme, theme }: MenuProps) => {
 	return (
 		<MenuWrapper>
-			<DesktopNavigation />
+			<Navigation />
 			<SettingsWrapper>
-				<LanguageSelect />
+				<LanguageSelect languages={languages} />
 				<Toggle changeTheme={changeTheme} theme={theme} />
 			</SettingsWrapper>
 		</MenuWrapper>

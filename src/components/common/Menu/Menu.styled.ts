@@ -4,12 +4,18 @@ import media from "../../../constants/medias"
 export const MenuWrapper = styled.nav`
 	background-color: ${({ theme }) => theme.black};
 	color: ${({ theme }) => theme.white};
-	padding: 8px var(--container);
+	padding: 8px var(--color-container);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	height: 40px;
+	position: relative;
+	${media.max.md} {
+		padding-bottom: 40px;
+		height: 80px;
+	}
+
 	${media.print} {
 		display: none;
 	}

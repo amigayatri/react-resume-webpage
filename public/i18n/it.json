@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "languages": {
+      "ar-LB": "Arabo libanese",
+      "ar": "Arabo moderno standard",
+      "bn": "bengalese",
+      "de": "tedesco",
+      "el": "greco",
+      "en": "Inglese",
+      "es": "spagnolo/castigliano",
+      "fr": "francese",
+      "gn": "Guarani",
+      "hi": "hindi",
+      "it": "Italiano",
+      "ja": "giapponese",
+      "la": "latino",
+      "pa": "Punjabi",
+      "pt-BR": "Portoghese brasiliano",
+      "zh": "cinese",
+      "ru": "russo"
+    },
+    "theme": {
+      "change": "Cambia il tema del sito web"
+    }
+  },
+  "paths": {
+    "title": {
+      "home": "Home page",
+      "resume": "Riprendere",
+      "colors": "Variazioni di colore",
+      "extralanguages": "Lingue aggiuntive"
+    }
+  },
+  "icons": {
+    "alt": {
+      "linkedin": "Icona di Linkedin",
+      "mail": "Icona di posta elettronica",
+      "website": "Un'icona del sito Web",
+      "phone": "Icona del telefono",
+      "light": "Icona del sole",
+      "dark": "Icona della luna",
+      "code": "Icona con due parentesi graffe",
+      "download": "Icona di download del documento",
+      "email": "Icona della posta",
+      "github": "Icona di GitHub",
+      "palette": "Icona della tavolozza dei colori",
+      "resume": "Icona della persona",
+      "home": "Icona domestica",
+      "external": "Simbolo del collegamento esterno"
+    }
+  },
+  "home": {
+    "header": {
+      "name": "Amira Gayatri",
+      "subheading": "Clicca sulla pagina che vuoi vedere per aprirla!"
+    },
+    "pageList": {
+      "home": {
+        "title": "Pagina iniziale"
+      },
+      "colors": {
+        "title": "Generatore di ombre"
+      },
+      "resume": {
+        "title": "Il mio curriculum"
+      },
+      "extralanguages": {
+        "title": "Lingue aggiuntive"
+      }
+    },
+    "externalLinks": {
+      "linkedin": "Linkedin",
+      "github": "Codice sorgente"
+    }
+  },
+  "resume": {
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Sviluppatore web front-end"
+    },
+    "summary": {
+      "text": "Laureato in Informatica, ha cinque anni di esperienza nello sviluppo web, principalmente come sviluppatore front-end. "
+    },
+    "sections": {
+      "education": {
+        "title": "Istruzione",
+        "items": {
+          "grad": {
+            "text": "B.Sc. "
+          }
+        }
+      },
+      "experience": {
+        "title": "Esperienza professionale",
+        "items": {
+          "atip": {
+            "text": "Sviluppatore presso Atip (partner Pepsico). ",
+            "subitem": "Utilizzo di React, Next.js, StyledComponents e TypeScript nei progetti, lavorando con il team messicano di Pepsico."
+          },
+          "techviz": {
+            "text": "Sviluppatore presso TechViz. ",
+            "subitem": "Utilizzo di React, Next.js, Svelte, StyledComponents e TypeScript nei progetti."
+          },
+          "encora": {
+            "text": "Sviluppatore presso Encora Brasile. ",
+            "subitem": "Utilizzo di React, Vue.js e Laravel nei progetti"
+          },
+          "raccoon": {
+            "text": "Sviluppatore front-end presso Raccoon.Monks. ",
+            "subitem": "Utilizzo di React, WordPress, AMP, Next.js, PHP, HTML, Javascript e SCSS nei progetti. "
+          },
+          "partenero": {
+            "text": "Stagista Full Stack presso Partenero. ",
+            "subitem": "Utilizzo di Firebase ed Ember"
+          },
+          "liven": {
+            "text": "Stagista mobile front-end presso Liven. ",
+            "subitem": "Utilizzo di React e React Native nei progetti"
+          }
+        }
+      },
+      "languages": {
+        "title": "Lingue",
+        "items": {
+          "pt": {
+            "text": "Portoghese brasiliano nativo"
+          },
+          "en": {
+            "text": "Inglese avanzato"
+          }
+        }
+      },
+      "technologies": {
+        "title": "Tecnologie",
+        "items": {
+          "webbasics": {
+            "text": "Javascript, HTML e CSS"
+          },
+          "javascript": {
+            "text": "React, Componenti con stile e Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Native, Vue.js e Svelte"
+          },
+          "php": {
+            "text": "WordPress, PHP e Laravel"
+          },
+          "basics": {
+            "text": "Linux e GIT"
+          }
+        }
+      },
+      "projects": {
+        "title": "Progetti e attività",
+        "items": {
+          "accessibility": {
+            "text": "Corso W3Cx \"Introduzione all'accessibilità web\" (settembre e ottobre/2022)"
+          },
+          "shehacks": {
+            "text": "1° posto (su 20 gruppi) a SheHacks 2019, un Hackathon di Facebook (settembre/2019)"
+          },
+          "principia": {
+            "text": "Tutor volontario ai corsi di robotica nelle scuole pubbliche di “Principia - Robôs na Escola” (da febbraio/2019 a luglio/2019)"
+          },
+          "vemPraUSP": {
+            "text": "Tutor volontario presso “Vem Pra USP!”, corso online di Scratch e App Inventor per studenti delle scuole superiori pubbliche (ottobre/2019)"
+          },
+          "pet": {
+            "text": "Tutor volontario due volte al corso di competenze informatiche di base per anziani (da marzo/2018 a maggio/2018 e da settembre/2018 a novembre/2018)"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "link": "Sviluppato",
+    "text": " di"
+  },
+  "colors": {
+    "header": {
+      "title": "Generatore di variazioni di colore",
+      "summary": "Crea variazioni di colore per il bianco e nero, il numero predefinito di variazioni è 10 in ciascuna direzione, ma può essere modificato"
+    },
+    "addColor": {
+      "title": "Aggiungi colore",
+      "buttons": {
+        "addMany": {
+          "hidden": "Aggiungine più di uno",
+          "showing": "Nascondi l'immissione di testo"
+        },
+        "addOne": {
+          "hidden": "Aggiungine uno",
+          "showing": "Nascondi il selettore dei colori"
+        },
+        "changeSteps": {
+          "hidden": "Modificare il numero di variazione",
+          "showing": "Smetti di cambiare i numeri di variazione"
+        }
+      }
+    },
+    "colorList": {
+      "title": "Colori aggiunti",
+      "summary": {
+        "empty": "Non hai ancora aggiunto alcun colore",
+        "nonEmpty": "Fare clic per rimuovere"
+      }
+    },
+    "shades": {
+      "title": "Sfumature",
+      "summary": "Clicca per copiare il colore!"
+    }
+  },
+  "extralanguages": {
+    "title": "Lingue aggiuntive",
+    "summary": "Queste opzioni linguistiche sono state generate con un traduttore automatico, per addestrare all'uso di i18n-next"
+  }
+}
