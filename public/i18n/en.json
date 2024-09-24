@@ -28,7 +28,8 @@
       "home": "Homepage",
       "resume": "Resume",
       "colors": "Colors",
-      "extralanguages": "Extra languages"
+      "extralanguages": "Extra languages",
+      "leetcode": "LeetCode"
     }
   },
   "icons": {
@@ -41,6 +42,7 @@
       "dark": "Moon Icon",
       "code": "Two curly brackets icon",
       "download": "Document download icon",
+      "leetcode": "LeetCode icon",
       "email": "Mail icon",
       "github": "GitHub icon",
       "palette": "Color palette icon",
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "Extra languages"
+      },
+      "leetcode": {
+        "title": "LeetCode Stats"
       }
     },
     "externalLinks": {

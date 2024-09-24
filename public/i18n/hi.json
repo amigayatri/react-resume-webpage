@@ -28,7 +28,8 @@
       "home": "मुखपृष्ठ",
       "resume": "फिर शुरू करना",
       "colors": "रंग भिन्नता",
-      "extralanguages": "अतिरिक्त भाषाएँ"
+      "extralanguages": "अतिरिक्त भाषाएँ",
+      "leetcode": "लीटकोड"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "रंग पैलेट आइकन",
       "resume": "व्यक्ति चिह्न",
       "home": "होम आइकन",
-      "external": "बाहरी लिंक प्रतीक"
+      "external": "बाहरी लिंक प्रतीक",
+      "leetcode": "लीटकोड आइकन"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "अतिरिक्त भाषाएँ"
+      },
+      "leetcode": {
+        "title": "लीटकोड आँकड़े"
       }
     },
     "externalLinks": {

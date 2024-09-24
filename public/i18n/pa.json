@@ -28,7 +28,8 @@
       "home": "ਹੋਮਪੇਜ",
       "resume": "ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ",
       "colors": "ਰੰਗ ਭਿੰਨਤਾਵਾਂ",
-      "extralanguages": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ"
+      "extralanguages": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ",
+      "leetcode": "ਲੀਟਕੋਡ"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "ਰੰਗ ਪੈਲੇਟ ਪ੍ਰਤੀਕ",
       "resume": "ਵਿਅਕਤੀ ਪ੍ਰਤੀਕ",
       "home": "ਹੋਮ ਆਈਕਨ",
-      "external": "ਬਾਹਰੀ ਲਿੰਕ ਚਿੰਨ੍ਹ"
+      "external": "ਬਾਹਰੀ ਲਿੰਕ ਚਿੰਨ੍ਹ",
+      "leetcode": "LeetCode ਆਈਕਨ"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ"
+      },
+      "leetcode": {
+        "title": "LeetCode ਅੰਕੜੇ"
       }
     },
     "externalLinks": {

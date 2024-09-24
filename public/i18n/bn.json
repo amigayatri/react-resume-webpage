@@ -28,7 +28,8 @@
       "home": "হোমপেজ",
       "resume": "পুনরায় শুরু করুন",
       "colors": "রঙের বৈচিত্র",
-      "extralanguages": "অতিরিক্ত ভাষা"
+      "extralanguages": "অতিরিক্ত ভাষা",
+      "leetcode": "লিটকোড"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "রঙ প্যালেট আইকন",
       "resume": "ব্যক্তি আইকন",
       "home": "হোম আইকন",
-      "external": "বাহ্যিক লিঙ্ক প্রতীক"
+      "external": "বাহ্যিক লিঙ্ক প্রতীক",
+      "leetcode": "LeetCode আইকন"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "অতিরিক্ত ভাষা"
+      },
+      "leetcode": {
+        "title": "LeetCode পরিসংখ্যান"
       }
     },
     "externalLinks": {

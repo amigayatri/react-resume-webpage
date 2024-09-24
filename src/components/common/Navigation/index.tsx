@@ -4,7 +4,7 @@ import NavigationItem from "../NavigationItem"
 import { NavigationWrapper } from "./Navigation.styled"
 import PageProps from "../../../types/PageProps"
 
-const hidden = new Set(["extralanguages"])
+const hidden = new Set(["extralanguages", "leetcode"])
 
 const filtered: PageProps[] = []
 pages.forEach((page) => {

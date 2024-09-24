@@ -2,7 +2,7 @@ import styled from "styled-components"
 import LanguageSelect from "../../common/LanguageSelect"
 import media from "../../../constants/medias"
 
-export const MainWrapper = styled.section`
+export const MainWrapper = styled.main`
 	height: calc(100vh - 94px);
 	display: flex;
 	align-items: center;

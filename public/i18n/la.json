@@ -28,7 +28,8 @@
       "home": "Protocollum",
       "resume": "Proin",
       "colors": "Color variationum",
-      "extralanguages": "Extra linguas"
+      "extralanguages": "Extra linguas",
+      "leetcode": "LeetCode"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "Color palette icon",
       "resume": "Persona icon",
       "home": "Domum icon",
-      "external": "Externe paginae symbolum"
+      "external": "Externe paginae symbolum",
+      "leetcode": "LeetCode icon"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "Extra linguas"
+      },
+      "leetcode": {
+        "title": "LeetCode Stats"
       }
     },
     "externalLinks": {

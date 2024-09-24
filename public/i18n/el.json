@@ -28,7 +28,8 @@
       "home": "Αρχική σελίδα",
       "resume": "Περίληψη",
       "colors": "Παραλλαγές χρώματος",
-      "extralanguages": "Επιπλέον γλώσσες"
+      "extralanguages": "Επιπλέον γλώσσες",
+      "leetcode": "LeetCode"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "Εικονίδιο παλέτας χρωμάτων",
       "resume": "εικονίδιο προσώπου",
       "home": "Αρχική εικόνα",
-      "external": "Σύμβολο εξωτερικού συνδέσμου"
+      "external": "Σύμβολο εξωτερικού συνδέσμου",
+      "leetcode": "Εικονίδιο LeetCode"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "Επιπλέον γλώσσες"
+      },
+      "leetcode": {
+        "title": "Στατιστικά LeetCode"
       }
     },
     "externalLinks": {
