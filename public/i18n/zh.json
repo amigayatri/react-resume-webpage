@@ -28,7 +28,8 @@
       "home": "主页",
       "resume": "恢复",
       "colors": "颜色变化",
-      "extralanguages": "额外语言"
+      "extralanguages": "额外语言",
+      "leetcode": "Leet代码"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "调色板图标",
       "resume": "人图标",
       "home": "主页图标",
-      "external": "外部链接符号"
+      "external": "外部链接符号",
+      "leetcode": "LeetCode 图标"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "额外语言"
+      },
+      "leetcode": {
+        "title": "LeetCode 统计"
       }
     },
     "externalLinks": {

@@ -28,7 +28,8 @@
       "home": "Página principal",
       "resume": "Reanudar",
       "colors": "variaciones de color",
-      "extralanguages": "Idiomas adicionales"
+      "extralanguages": "Idiomas adicionales",
+      "leetcode": "LeetCode"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "Icono de paleta de colores",
       "resume": "Icono de persona",
       "home": "Icono de inicio",
-      "external": "Símbolo de enlace externo"
+      "external": "Símbolo de enlace externo",
+      "leetcode": "Icono de LeetCode"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "Idiomas adicionales"
+      },
+      "leetcode": {
+        "title": "Estadísticas de LeetCode"
       }
     },
     "externalLinks": {

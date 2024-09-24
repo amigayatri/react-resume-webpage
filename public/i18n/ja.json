@@ -28,7 +28,8 @@
       "home": "ホームページ",
       "resume": "再開する",
       "colors": "カラーバリエーション",
-      "extralanguages": "追加の言語"
+      "extralanguages": "追加の言語",
+      "leetcode": "リートコード"
     }
   },
   "icons": {
@@ -46,7 +47,8 @@
       "palette": "カラーパレットアイコン",
       "resume": "人のアイコン",
       "home": "ホームアイコン",
-      "external": "外部リンク記号"
+      "external": "外部リンク記号",
+      "leetcode": "リートコードのアイコン"
     }
   },
   "home": {
@@ -66,6 +68,9 @@
       },
       "extralanguages": {
         "title": "追加の言語"
+      },
+      "leetcode": {
+        "title": "LeetCodeの統計"
       }
     },
     "externalLinks": {
