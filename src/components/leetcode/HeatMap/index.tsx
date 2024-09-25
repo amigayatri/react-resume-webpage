@@ -33,8 +33,9 @@ const HeatMap = ({ calendar }: HeatMapProps) => {
 		const halfMax = Math.floor(maxColor / 2)
 		const toUse = []
 		for (let i = half - halfMax; i <= half + halfMax + (maxColor & 1); i++) {
-			toUse.push(colorsArr.at(-i))
+			toUse.push(colorsArr[i])
 		}
+		toUse.reverse()
 		setZeroColor(colorsArr[half + halfMax + (maxColor & 1) + 1])
 		for (let [month, daysInMonth] of daysByMonth) {
 			const withColor = []
