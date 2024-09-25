@@ -51,7 +51,8 @@ export const LinkWrapper = styled.li<{ $isActive: boolean }>`
 	&:first-of-type {
 		margin-left: 0;
 	}
-	&:hover {
+	&:hover,
+	&:focus {
 		color: ${({ theme }) => theme.accent};
 		& ${UnderLine} {
 			height: 2px;

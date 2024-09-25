@@ -13,12 +13,12 @@ interface ProfileProps {
 const Profile = ({ name, profile }: ProfileProps) => {
 	return (
 		<ProfileWrapper>
+			<Name>{name}</Name>
 			<IDWrapper
 				rel="noopener"
 				target="_blank"
 				href={"http://leetcode.com/u/" + profile.username}
 			>
-				<Name>{name}</Name>
 				<Username>({profile.username})</Username>
 				<SVGIcon id="external" size={24} />
 			</IDWrapper>

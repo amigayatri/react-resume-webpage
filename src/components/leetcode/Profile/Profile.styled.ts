@@ -3,6 +3,12 @@ import media from "../../../constants/medias"
 
 export const ProfileWrapper = styled.section`
 	padding: 0 var(--container);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	${media.max.md} {
+		flex-direction: column;
+	}
 `
 
 export const IDWrapper = styled.a`
@@ -11,9 +17,12 @@ export const IDWrapper = styled.a`
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	width: 100%;
+	width: fit-content;
+	margin-left: 16px;
+
 	${media.max.md} {
-		flex-direction: column;
+		margin-left: 0;
+		margin-top: 16px;
 	}
 `
 
@@ -21,15 +30,11 @@ export const Name = styled.h1`
 	font-size: 2rem;
 	color: ${({ theme }) => theme.accent};
 	margin: 0;
+	text-align: center;
 `
 export const Username = styled.h1`
 	font-size: 1.75rem;
+	text-align: center;
 	color: ${({ theme }) => theme.secondAccent};
 	margin: 0;
-	margin-left: 16px;
-
-	${media.max.md} {
-		margin-left: 0;
-		margin-top: 16px;
-	}
 `

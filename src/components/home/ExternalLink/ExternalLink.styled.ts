@@ -10,7 +10,8 @@ export const ExternalLinkTag = styled.a`
 	width: 100%;
 	transition: ${({ theme }) => theme.transition};
 
-	&:hover {
+	&:hover,
+	&:focus {
 		color: ${({ theme }) => theme.accent};
 
 		${ButtonStyle} {

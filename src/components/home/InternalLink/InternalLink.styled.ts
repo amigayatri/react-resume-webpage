@@ -15,7 +15,8 @@ export const InternalLinkTag = styled(Link)`
 		fill: ${({ theme }) => theme.secondAccent};
 	}
 
-	&:hover {
+	&:hover,
+	&:focus {
 		color: ${({ theme }) => theme.accent};
 
 		${ButtonStyle} {

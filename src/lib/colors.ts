@@ -33,6 +33,7 @@ export class Color {
     #generateShadeCodes = () => {
         this.#generateVariations(WHITE, this.code)
         this.#generateVariations(this.code, BLACK)
+        this.variations.set(BLACK, { code: BLACK, inverse: WHITE })
     }
 
     regenerateVariations = () => {
