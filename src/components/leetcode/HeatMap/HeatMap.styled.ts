@@ -7,7 +7,7 @@ export const HeatMapWrapper = styled.section`
 	${media.max.sm} {
 		grid-template-columns: repeat(1, 1fr);
 	}
-	${media.max.lg} {
+	${media.max.xl} {
 		grid-template-columns: repeat(2, 1fr);
 	}
 `
