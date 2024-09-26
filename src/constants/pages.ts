@@ -9,8 +9,8 @@ export const pages: PageProps[] = [HomeProps, ResumeProps]
 
 export const extraPages: PageProps[] = [
 	ColorsProps,
-	ExtraLanguagesProps,
-	LeetcodeProps
+	ExtraLanguagesProps
+	//LeetcodeProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]
