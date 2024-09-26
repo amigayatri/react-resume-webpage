@@ -5,10 +5,12 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --container: 32px;
         --color-container: 32px;
+        --fullpage: calc(100vh - 134px);
 
         ${media.min.md} {
             --container: calc((100% - 700px)/ 2);
             --color-container: 64px;
+            --fullpage: calc(100vh - 94px);
         }
 
         ${media.print} {

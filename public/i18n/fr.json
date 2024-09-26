@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Pas trouvé",
       "home": "Page d'accueil",
       "resume": "CV",
       "colors": "Variations de couleurs",
       "extralanguages": "Langues supplémentaires",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Page en maintenance"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "Icône de courrier électronique",
       "website": "Une icône de site Web",
       "phone": "Icône de téléphone",
-      "light": "Icône Soleil",
-      "dark": "Icône de la lune",
       "code": "Icône de deux accolades",
       "download": "Icône de téléchargement de documents",
       "email": "Icône de courrier",
       "github": "Icône GitHub",
       "palette": "Icône de la palette de couleurs",
-      "resume": "Icône de personne",
       "home": "Icône Accueil",
       "external": "Symbole de lien externe",
-      "leetcode": "Icône LeetCode"
+      "leetcode": "Icône LeetCode",
+      "moon": "Icône de la lune",
+      "sun": "Icône Soleil",
+      "person": "Icône de personne"
     }
   },
   "home": {
@@ -229,5 +231,9 @@
       "medium": "Moyen",
       "title": "Questions résolues"
     }
+  },
+  "errors": {
+    "404": "Page introuvable !",
+    "maintenance": "Page en maintenance !"
   }
 }

@@ -25,30 +25,32 @@
   },
   "paths": {
     "title": {
+      "404": "Não encontrado",
       "home": "Página inicial",
       "resume": "Currículo",
       "colors": "Variações de cores",
       "extralanguages": "Línguas extras",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Página em manutenção"
     }
   },
   "icons": {
     "alt": {
       "code": "Ícone com duas chaves",
-      "dark": "Ícone de uma lua",
       "download": "ícone de download de documento",
       "email": "Ícone de email",
       "external": "Simbolo de link externo",
       "github": "Ícone do github",
       "home": "Ícone de uma casa",
       "leetcode": "Ícone do LeetCode",
-      "light": "Ícone de um sol",
       "linkedin": "Ícone do Linkedin",
       "mail": "Ícone de Email",
       "palette": "Ícone de uma paleta de cores",
       "phone": "Ícone de Telefone",
-      "resume": "Ícone de uma pessoa",
-      "website": "Ícone de um website"
+      "website": "Ícone de um website",
+      "moon": "Ícone de uma lua",
+      "sun": "Ícone de um sol",
+      "person": "Ícone de uma pessoa"
     }
   },
   "home": {
@@ -229,5 +231,9 @@
     "heatmap": {
       "title": "Submissões no LeetCode"
     }
+  },
+  "errors": {
+    "404": "Página não encontrada!",
+    "maintenance": "Página em manutenção!"
   }
 }

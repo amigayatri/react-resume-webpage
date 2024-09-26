@@ -12,11 +12,11 @@ const Toggle = (props: ToggleProps) => {
 	return (
 		<ToggleWrapper
 			tabIndex={0}
-			aria-label={t("resume.menu.theme.change")}
+			aria-label={t("menu.theme.change")}
 			onClick={() => props.changeTheme()}
 			onKeyDown={(e) => e.key === "enter" && props.changeTheme()}
 		>
-			<SVGIcon size={16} id={props.theme} />
+			<SVGIcon size={16} id={props.theme === "light" ? "moon" : "sun"} />
 		</ToggleWrapper>
 	)
 }

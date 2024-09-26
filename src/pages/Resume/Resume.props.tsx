@@ -5,7 +5,7 @@ const ResumeProps: PageProps = {
 	path: "/resume/",
 	element: Resume,
 	id: "resume",
-	icon: "resume",
+	icon: "person",
 	isHome: false
 }
 
