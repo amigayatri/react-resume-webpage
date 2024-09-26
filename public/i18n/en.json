@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode Submissions"
+      "title": "LeetCode Submissions",
+      "reverse": {
+        "true": "Oldest date first",
+        "false": "Newest date first"
+      }
     },
     "questions": {
       "easy": "Easy",

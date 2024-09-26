@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCodeの提出"
+      "title": "LeetCodeの提出",
+      "reverse": {
+        "false": "最新の日付が最初",
+        "true": "最も古い日付が最初"
+      }
     },
     "questions": {
       "easy": "簡単",

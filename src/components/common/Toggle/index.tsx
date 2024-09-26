@@ -1,22 +1,25 @@
 import { ToggleWrapper } from "./Toggle.styled"
-import { useTranslation } from "react-i18next"
 import SVGIcon from "../../../icons/SVGIcon"
+import ToggleProps from "../../../types/ToggleProps"
 
-interface ToggleProps {
-	changeTheme: () => void
-	theme: string
-}
-
-const Toggle = (props: ToggleProps) => {
-	const { t } = useTranslation()
+const Toggle = ({ state, icon, stateChangeFN, ariaLabel }: ToggleProps) => {
 	return (
 		<ToggleWrapper
 			tabIndex={0}
-			aria-label={t("resume.menu.theme.change")}
-			onClick={() => props.changeTheme()}
-			onKeyDown={(e) => e.key === "enter" && props.changeTheme()}
+			aria-label={ariaLabel}
+			onClick={() => stateChangeFN()}
+			onKeyDown={(e) => e.key === "enter" && stateChangeFN()}
 		>
-			<SVGIcon size={16} id={props.theme} />
+			{icon.shouldChange ? (
+				<SVGIcon
+					size={16}
+					id={
+						state === icon.trueValAsStr ? icon.options.true : icon.options.false
+					}
+				/>
+			) : (
+				<SVGIcon size={16} id={icon.id} />
+			)}
 		</ToggleWrapper>
 	)
 }

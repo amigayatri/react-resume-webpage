@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "Υποβολές LeetCode"
+      "title": "Υποβολές LeetCode",
+      "reverse": {
+        "false": "Πρώτα η νεότερη ημερομηνία",
+        "true": "Πρώτα το παλαιότερο ραντεβού"
+      }
     },
     "questions": {
       "easy": "Εύκολος",

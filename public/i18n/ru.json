@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "Представления LeetCode"
+      "title": "Представления LeetCode",
+      "reverse": {
+        "false": "Сначала самая новая дата",
+        "true": "Сначала самая старая дата"
+      }
     },
     "questions": {
       "easy": "Легкий",

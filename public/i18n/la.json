@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode Submissionibus"
+      "title": "LeetCode Submissionibus",
+      "reverse": {
+        "false": "Novissima date primum",
+        "true": "Seniorem date primum"
+      }
     },
     "questions": {
       "easy": "Securus",

@@ -227,7 +227,11 @@
       "hard": "Difícil"
     },
     "heatmap": {
-      "title": "Submissões no LeetCode"
+      "title": "Submissões no LeetCode",
+      "reverse": {
+        "false": "Mais recente primeiro",
+        "true": "Mais antiga primeiro"
+      }
     }
   }
 }

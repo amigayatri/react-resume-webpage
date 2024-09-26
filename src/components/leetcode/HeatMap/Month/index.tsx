@@ -1,20 +1,33 @@
 import { useEffect, useState } from "react"
 import DayProps from "../../../../types/DayProps"
-import { MonthWrapper, DaysWrapper } from "./Month.styled"
+import {
+	MonthWrapper,
+	DaysWrapper,
+	MonthName,
+	MonthStartChar
+} from "./Month.styled"
 import Day from "../Day"
 import MonthProps from "../../../../types/MonthProps"
 import { useTranslation } from "react-i18next"
 
 const emptyDays: DayProps[] = []
 
-const Month = ({ days, zeroColor }: MonthProps) => {
+interface MonthObjProps extends MonthProps {
+	reverse: boolean
+	simple: boolean
+	zeroColor: string
+}
+
+const Month = ({ days, zeroColor, reverse, simple }: MonthObjProps) => {
 	const [allDays, setAllDays] = useState(emptyDays)
-	const [monthName, setMonthName] = useState("")
+	const [monthLong, setMonthLong] = useState("")
+	const [monthNarrow, setMonthNarrow] = useState("")
 	const { i18n } = useTranslation()
 	useEffect(() => {
 		const today = new Date()
 		const firstDay = days[0].day
-		setMonthName(firstDay.toLocaleString(i18n.language, { month: "long" }))
+		setMonthLong(firstDay.toLocaleString(i18n.language, { month: "long" }))
+		setMonthNarrow(firstDay.toLocaleString(i18n.language, { month: "narrow" }))
 		const monthNum = firstDay.getMonth()
 		const yearNum = firstDay.getFullYear()
 		const lastDayNum =
@@ -38,16 +51,18 @@ const Month = ({ days, zeroColor }: MonthProps) => {
 				daysArr.push(daysInMonth.get(i))
 			}
 		}
+		reverse && daysArr.reverse()
 		setAllDays(daysArr)
-	}, [])
-	console.log(zeroColor)
+	}, [reverse])
 	return (
 		<MonthWrapper>
-			<h1>{monthName}</h1>
-			<DaysWrapper>
+			{!simple && <MonthName>{monthLong}</MonthName>}
+			<DaysWrapper $isSimple={simple}>
+				<MonthStartChar>{monthNarrow}</MonthStartChar>
 				{allDays.map(({ day, color, exercises }) => (
 					<Day
-						key={`heatmap-${monthName}-${day.getDate()}`}
+						simple={simple}
+						key={`heatmap-${monthNarrow}-${day.getDate()}`}
 						day={day}
 						color={color}
 						exercises={exercises}

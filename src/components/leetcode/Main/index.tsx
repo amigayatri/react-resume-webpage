@@ -18,12 +18,12 @@ const Main = ({ user }: MainProps) => {
 			setData(useFormatData(user, response))
 		})
 	}, [])
-	if (data.profile.ranking === -1)
-		return (
-			<MainWrapper>
-				<Loading type="pacman" />
-			</MainWrapper>
-		)
+	//if (data.profile.ranking === -1)
+	// return (
+	// 	<MainWrapper>
+	// 		<Loading type="pacman" />
+	// 	</MainWrapper>
+	// )
 	return (
 		<MainWrapper>
 			<Profile name="Amira Gayatri" profile={data.profile} />

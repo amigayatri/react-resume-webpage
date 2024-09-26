@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode 提交"
+      "title": "LeetCode 提交",
+      "reverse": {
+        "false": "最新日期优先",
+        "true": "最旧的日期在前"
+      }
     },
     "questions": {
       "easy": "简单的",

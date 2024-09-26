@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "التقديمات LeetCode"
+      "title": "التقديمات LeetCode",
+      "reverse": {
+        "false": "أحدث تاريخ أولا",
+        "true": "أقدم تاريخ أولا"
+      }
     },
     "questions": {
       "easy": "سهل",

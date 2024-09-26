@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "Invii LeetCode"
+      "title": "Invii LeetCode",
+      "reverse": {
+        "false": "Prima la data più recente",
+        "true": "Prima la data più vecchia"
+      }
     },
     "questions": {
       "easy": "Facile",

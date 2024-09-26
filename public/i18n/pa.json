@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode ਅਧੀਨਗੀ"
+      "title": "LeetCode ਅਧੀਨਗੀ",
+      "reverse": {
+        "false": "ਸਭ ਤੋਂ ਨਵੀਂ ਤਾਰੀਖ ਪਹਿਲਾਂ",
+        "true": "ਸਭ ਤੋਂ ਪੁਰਾਣੀ ਤਾਰੀਖ ਪਹਿਲਾਂ"
+      }
     },
     "questions": {
       "easy": "ਆਸਾਨ",

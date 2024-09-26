@@ -23,6 +23,14 @@ let zeroColor = "#000000"
 
 const HeatMap = ({ calendar }: HeatMapProps) => {
 	const [months, setMonths] = useState(emptyMonths)
+	const [reverse, setReverse] = useState(false)
+	const [simple, setSimple] = useState(false)
+	const changeOrder = () => {
+		setReverse(!reverse)
+	}
+	const changeMode = () => {
+		setSimple(!simple)
+	}
 	useEffect(() => {
 		const daysByMonth = new Map()
 		for (let [day, excercises] of Object.entries(calendar)) {
@@ -59,17 +67,23 @@ const HeatMap = ({ calendar }: HeatMapProps) => {
 		const monthObjArr: MonthProps[] = []
 		for (let month = minMonth; month <= maxMonth; month++) {
 			if (daysByMonth.has(month)) {
-				monthObjArr.push({ zeroColor, days: daysByMonth.get(month) })
+				monthObjArr.push({ days: daysByMonth.get(month) })
 			} else {
-				monthObjArr.push({ zeroColor, days: emptyDays })
+				monthObjArr.push({ days: emptyDays })
 			}
 		}
 		setMonths(monthObjArr)
 	}, [])
 	const showMonths = () => {
-		return months.map(({ days, zeroColor }, i) => {
+		return months.map(({ days }, i) => {
 			return (
-				<Month days={days} zeroColor={zeroColor} key={"heatmap-month-" + i} />
+				<Month
+					days={days}
+					simple={simple}
+					reverse={reverse}
+					zeroColor={zeroColor}
+					key={"heatmap-month-" + i}
+				/>
 			)
 		})
 	}
@@ -82,8 +96,12 @@ const HeatMap = ({ calendar }: HeatMapProps) => {
 	} else {
 		return (
 			<HeatMapWrapper>
-				<Header />
-				{showMonths()}
+				<Header
+					reverse={reverse}
+					changeStyle={changeMode}
+					changeOrder={changeOrder}
+				/>
+				{reverse ? showMonths().reverse() : showMonths()}
 			</HeatMapWrapper>
 		)
 	}

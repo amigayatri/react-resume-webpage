@@ -221,7 +221,11 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode Ñembohasapyre"
+      "title": "LeetCode Ñembohasapyre",
+      "reverse": {
+        "false": "Fecha ipyahuvéva raẽ",
+        "true": "Fecha itujavéva primero"
+      }
     },
     "questions": {
       "easy": "Hasy'ỹ",

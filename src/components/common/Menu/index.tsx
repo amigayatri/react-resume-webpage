@@ -15,7 +15,9 @@ const Menu = ({ changeTheme, theme }: MenuProps) => {
 			<Navigation />
 			<SettingsWrapper>
 				<LanguageSelect languages={languages} />
-				<Toggle changeTheme={changeTheme} theme={theme} />
+				{
+					//<Toggle changeTheme={changeTheme} theme={theme} />
+				}
 			</SettingsWrapper>
 		</MenuWrapper>
 	)
