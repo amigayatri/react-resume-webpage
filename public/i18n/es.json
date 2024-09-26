@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Extraviado",
       "home": "Página principal",
       "resume": "Reanudar",
       "colors": "variaciones de color",
       "extralanguages": "Idiomas adicionales",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Página en mantenimiento"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "Icono de correo electrónico",
       "website": "Un icono de sitio web",
       "phone": "Icono de teléfono",
-      "light": "Icono del sol",
-      "dark": "Icono de luna",
       "code": "Icono de dos llaves",
       "download": "Icono de descarga de documentos",
       "email": "icono de correo",
       "github": "icono de GitHub",
       "palette": "Icono de paleta de colores",
-      "resume": "Icono de persona",
       "home": "Icono de inicio",
       "external": "Símbolo de enlace externo",
-      "leetcode": "Icono de LeetCode"
+      "leetcode": "Icono de LeetCode",
+      "moon": "Icono de luna",
+      "sun": "Icono del sol",
+      "person": "Icono de persona"
     }
   },
   "home": {
@@ -229,5 +231,9 @@
       "medium": "Medio",
       "title": "Preguntas resueltas"
     }
+  },
+  "errors": {
+    "404": "¡Página no encontrada!",
+    "maintenance": "¡La página está en mantenimiento!"
   }
 }
