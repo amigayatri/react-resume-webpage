@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
-import pages from "./constants/pages"
 import PageProps from "./types/PageProps"
+import { allPages } from "./constants/pages"
 
 const Router = () => {
 	const showPage = (page: PageProps) => {
@@ -13,6 +13,6 @@ const Router = () => {
 			/>
 		)
 	}
-	return <Routes>{pages.map((page) => showPage(page))}</Routes>
+	return <Routes>{allPages.map((page) => showPage(page))}</Routes>
 }
 export default Router

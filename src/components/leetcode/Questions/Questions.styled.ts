@@ -12,12 +12,17 @@ export const QuestionsWrapper = styled.section`
 	}
 `
 
+export const TotalWrapper = styled.div``
+
 export const QuestionsDetailsWrapper = styled.div`
 	width: 100%;
 	margin-left: 64px;
-
+	max-width: 500px;
 	${media.max.md} {
-		margin-left: 0;
-		margin-top: 32px;
+		margin: 32px auto 0;
 	}
+`
+
+export const Title = styled.h2`
+	color: ${({ theme }) => theme.colors.base.pink};
 `

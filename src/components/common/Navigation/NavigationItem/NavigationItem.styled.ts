@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import media from "../../../constants/medias"
+import media from "../../../../constants/medias"
 
 export const Label = styled.span`
 	margin-left: 4px;

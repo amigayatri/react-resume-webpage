@@ -218,5 +218,16 @@
   "extralanguages": {
     "title": "Extra linguas",
     "summary": "Hae optiones linguae latinae cum interpres latae sententiae generatae sunt, ad usum i18n-sequentium instituendi"
+  },
+  "leetcode": {
+    "heatmap": {
+      "title": "LeetCode Submissionibus"
+    },
+    "questions": {
+      "easy": "Securus",
+      "hard": "Difficilis",
+      "medium": "Medium",
+      "title": "Solvitur quaestiones"
+    }
   }
 }

@@ -2,25 +2,23 @@ import { Wrapper, ListWrapper } from "./PageList.styled"
 import ExternalLink from "../ExternalLink"
 import InternalLink from "../InternalLink"
 import externals from "../../../constants/externals"
-import pages from "../../../constants/pages"
 import PageProps from "../../../types/PageProps"
 import ExternalLinkProps from "../../../types/ExternalLinkProps"
+import { allPages } from "../../../constants/pages"
 
 const PageList = () => {
-	const createLink = (page: PageProps, i: number) => {
-		if (page.isHome) return
-		return <InternalLink key={"page-item-number-" + i} page={page} />
-	}
-	const createExternalLink = (external: ExternalLinkProps, i: number) => {
-		return <ExternalLink link={external} key={"external-item-number-" + i} />
-	}
 	return (
 		<Wrapper>
 			<ListWrapper>
-				{pages.map((page, index) => createLink(page, index))}
-				{externals.map((external, index) =>
-					createExternalLink(external, index)
+				{allPages.map(
+					(page: PageProps, index: number) =>
+						!page.isHome && (
+							<InternalLink key={"page-item-number-" + index} page={page} />
+						)
 				)}
+				{externals.map((external: ExternalLinkProps, index: number) => (
+					<ExternalLink link={external} key={"external-item-number-" + index} />
+				))}
 			</ListWrapper>
 		</Wrapper>
 	)

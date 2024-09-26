@@ -218,5 +218,16 @@
   "extralanguages": {
     "title": "Ñe’ẽ extra",
     "summary": "Ko’ã ñe’ẽ jeporavorã ojejapo peteĩ ñe’ẽasahára ijeheguigua rupive, oñembokatupyry hag̃ua i18n-next jeporu"
+  },
+  "leetcode": {
+    "heatmap": {
+      "title": "LeetCode Ñembohasapyre"
+    },
+    "questions": {
+      "easy": "Hasy'ỹ",
+      "hard": "Hasy",
+      "medium": "Mbyte",
+      "title": "Porandu oñesolusiona va’ekue"
+    }
   }
 }

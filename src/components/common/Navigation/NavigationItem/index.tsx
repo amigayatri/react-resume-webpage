@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"
 import { useLocation } from "react-router-dom"
-import SVGIcon from "../../../icons/SVGIcon"
-import PageProps from "../../../types/PageProps"
+import SVGIcon from "../../../../icons/SVGIcon"
+import PageProps from "../../../../types/PageProps"
 import {
 	ContentWrapper,
 	Label,

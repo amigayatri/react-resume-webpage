@@ -218,5 +218,16 @@
   "extralanguages": {
     "title": "追加の言語",
     "summary": "これらの言語オプションは、i18n-next の使用をトレーニングするために、自動翻訳機能を使用して生成されました。"
+  },
+  "leetcode": {
+    "heatmap": {
+      "title": "LeetCodeの提出"
+    },
+    "questions": {
+      "easy": "簡単",
+      "hard": "難しい",
+      "medium": "中くらい",
+      "title": "解決された質問"
+    }
   }
 }

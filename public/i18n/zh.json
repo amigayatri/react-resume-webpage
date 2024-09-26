@@ -218,5 +218,16 @@
   "extralanguages": {
     "title": "额外语言",
     "summary": "这些语言选项是使用自动翻译器生成的，用于训练 i18n-next 的使用"
+  },
+  "leetcode": {
+    "heatmap": {
+      "title": "LeetCode 提交"
+    },
+    "questions": {
+      "easy": "简单的",
+      "hard": "难的",
+      "medium": "中等的",
+      "title": "已解决的问题"
+    }
   }
 }

@@ -3,7 +3,9 @@ import { HeatMapWrapper } from "./HeatMap.styled"
 import Loading from "../../common/Loading"
 import { Color } from "../../../lib/colors"
 import Month from "./Month"
+import MonthProps from "../../../types/MonthProps"
 import DayProps from "../../../types/DayProps"
+import Header from "./Header"
 
 interface HeatMapProps {
 	calendar: {
@@ -11,14 +13,16 @@ interface HeatMapProps {
 	}
 }
 
+const emptyMonths: MonthProps[] = []
+const emptyDays: DayProps[] = []
 const possibleColors = new Color("#f92472")
 const colorsArr = Array.from(possibleColors.variations.keys())
 const half = Math.floor(colorsArr.length / 2)
 let max = -1
+let zeroColor = "#000000"
 
 const HeatMap = ({ calendar }: HeatMapProps) => {
-	const [months, setMonths] = useState(new Map<number, DayProps[]>())
-	const [zeroColor, setZeroColor] = useState("#000000")
+	const [months, setMonths] = useState(emptyMonths)
 	useEffect(() => {
 		const daysByMonth = new Map()
 		for (let [day, excercises] of Object.entries(calendar)) {
@@ -36,7 +40,9 @@ const HeatMap = ({ calendar }: HeatMapProps) => {
 			toUse.push(colorsArr[i])
 		}
 		toUse.reverse()
-		setZeroColor(colorsArr[half + halfMax + (maxColor & 1) + 1])
+		zeroColor = colorsArr[half + halfMax + (maxColor & 1) + 1]
+		let minMonth = 13,
+			maxMonth = -1
 		for (let [month, daysInMonth] of daysByMonth) {
 			const withColor = []
 			for (let [day, exercises] of daysInMonth) {
@@ -46,31 +52,40 @@ const HeatMap = ({ calendar }: HeatMapProps) => {
 					color: toUse[Math.floor(exercises / 10)]
 				})
 			}
+			if (month < minMonth) minMonth = month
+			if (month > maxMonth) maxMonth = month
 			daysByMonth.set(month, withColor)
 		}
-		setMonths(daysByMonth)
+		const monthObjArr: MonthProps[] = []
+		for (let month = minMonth; month <= maxMonth; month++) {
+			if (daysByMonth.has(month)) {
+				monthObjArr.push({ zeroColor, days: daysByMonth.get(month) })
+			} else {
+				monthObjArr.push({ zeroColor, days: emptyDays })
+			}
+		}
+		setMonths(monthObjArr)
 	}, [])
 	const showMonths = () => {
-		const monthObjArr = []
-		for (const [month, days] of months.entries()) {
-			monthObjArr.push(
-				<Month
-					zeroColor={zeroColor}
-					key={"heatmap-month-" + month}
-					days={days}
-				/>
+		return months.map(({ days, zeroColor }, i) => {
+			return (
+				<Month days={days} zeroColor={zeroColor} key={"heatmap-month-" + i} />
 			)
-		}
-		return monthObjArr
+		})
 	}
-	if (months.size === 0) {
+	if (months.length === 0) {
 		return (
 			<HeatMapWrapper>
 				<Loading type="pacman" />
 			</HeatMapWrapper>
 		)
 	} else {
-		return <HeatMapWrapper>{showMonths()}</HeatMapWrapper>
+		return (
+			<HeatMapWrapper>
+				<Header />
+				{showMonths()}
+			</HeatMapWrapper>
+		)
 	}
 }
 

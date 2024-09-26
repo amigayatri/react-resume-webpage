@@ -218,5 +218,16 @@
   "extralanguages": {
     "title": "لغات اضافية",
     "summary": "تم إنشاء خيارات اللغة هذه باستخدام مترجم آلي للتدريب على استخدام i18n-next"
+  },
+  "leetcode": {
+    "heatmap": {
+      "title": "التقديمات LeetCode"
+    },
+    "questions": {
+      "easy": "سهل",
+      "hard": "صعب",
+      "medium": "واسطة",
+      "title": "أسئلة محلولة"
+    }
   }
 }

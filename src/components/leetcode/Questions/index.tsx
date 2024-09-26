@@ -1,7 +1,13 @@
-import { QuestionsWrapper, QuestionsDetailsWrapper } from "./Questions.styled"
+import {
+	QuestionsWrapper,
+	QuestionsDetailsWrapper,
+	Title,
+	TotalWrapper
+} from "./Questions.styled"
 import ProgressProps from "../../../types/ProgressProps"
 import Progress from "../Progress"
 import { useTheme } from "styled-components"
+import { useTranslation } from "react-i18next"
 
 interface QuestionsProps {
 	questions: {
@@ -21,31 +27,35 @@ const Questions = ({ questions }: QuestionsProps) => {
 	const green = monokaiBase.green
 	const orange = monokaiBase.orange
 	const red = monokaiBase.red
+	const { t } = useTranslation()
 	return (
 		<QuestionsWrapper>
-			<Progress
-				color={{ done: pink, total: totalColor }}
-				title="Total"
-				progress={total}
-				type="circle"
-				size={256}
-			/>
+			<TotalWrapper>
+				<Progress
+					color={{ done: pink, total: totalColor }}
+					title=""
+					progress={total}
+					type="circle"
+					size={256}
+				/>
+				<Title>{t("leetcode.questions.title")}</Title>
+			</TotalWrapper>
 			<QuestionsDetailsWrapper>
 				<Progress
 					color={{ done: green, total: totalColor }}
-					title="Easy"
+					title={t("leetcode.questions.easy")}
 					progress={easy}
 					type="bar"
 				/>
 				<Progress
 					color={{ done: orange, total: totalColor }}
-					title="Medium"
+					title={t("leetcode.questions.medium")}
 					progress={medium}
 					type="bar"
 				/>
 				<Progress
 					color={{ done: red, total: totalColor }}
-					title="Hard"
+					title={t("leetcode.questions.hard")}
 					progress={hard}
 					type="bar"
 				/>

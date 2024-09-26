@@ -218,5 +218,16 @@
   "extralanguages": {
     "title": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ",
     "summary": "ਇਹ ਭਾਸ਼ਾ ਵਿਕਲਪ ਇੱਕ ਆਟੋਮੈਟਿਕ ਅਨੁਵਾਦਕ ਨਾਲ ਤਿਆਰ ਕੀਤੇ ਗਏ ਸਨ, i18n-next ਦੀ ਵਰਤੋਂ ਨੂੰ ਸਿਖਲਾਈ ਦੇਣ ਲਈ"
+  },
+  "leetcode": {
+    "heatmap": {
+      "title": "LeetCode ਅਧੀਨਗੀ"
+    },
+    "questions": {
+      "easy": "ਆਸਾਨ",
+      "hard": "ਔਖਾ",
+      "medium": "ਦਰਮਿਆਨਾ",
+      "title": "ਸਵਾਲ ਹੱਲ ਕੀਤੇ"
+    }
   }
 }

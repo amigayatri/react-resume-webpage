@@ -32,7 +32,7 @@ export const Name = styled.h1`
 	margin: 0;
 	text-align: center;
 `
-export const Username = styled.h1`
+export const Username = styled.h2`
 	font-size: 1.75rem;
 	text-align: center;
 	color: ${({ theme }) => theme.secondAccent};
