@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Not found",
       "home": "Homepage",
       "resume": "Resume",
       "colors": "Colors",
       "extralanguages": "Extra languages",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Page going under maintenance"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "E-mail Icon",
       "website": "A Website Icon",
       "phone": "Phone Icon",
-      "light": "Sun Icon",
-      "dark": "Moon Icon",
       "code": "Two curly brackets icon",
       "download": "Document download icon",
       "leetcode": "LeetCode icon",
       "email": "Mail icon",
       "github": "GitHub icon",
       "palette": "Color palette icon",
-      "resume": "Person icon",
       "home": "Home icon",
-      "external": "External link symbol"
+      "external": "External link symbol",
+      "moon": "Moon Icon",
+      "sun": "Sun Icon",
+      "person": "Person icon"
     }
   },
   "home": {
@@ -233,5 +235,9 @@
       "medium": "Medium",
       "title": "Solved questions"
     }
+  },
+  "errors": {
+    "404": "Page not found!",
+    "maintenance": "Page going under maintenance!"
   }
 }

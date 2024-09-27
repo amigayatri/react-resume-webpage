@@ -1,35 +1,51 @@
+import BrokenLinkIcon from "../icons/BrokenLinkIcon"
+import BugIcon from "../icons/BugIcon"
+import CodeIcon from "../icons/CodeIcon"
 import DownloadIcon from "../icons/DownloadIcon"
 import EmailIcon from "../icons/EmailIcon"
+import ErrorIcon from "../icons/ErrorIcon"
+import ExternalIcon from "../icons/ExternalIcon"
+import GitBranchIcon from "../icons/GitBranchIcon"
 import GithubIcon from "../icons/GithubIcon"
+import HomeIcon from "../icons/HomeIcon"
+import LeetCodeIcon from "../icons/LeetCodeIcon"
 import LinkedinIcon from "../icons/LinkedinIcon"
 import MoonIcon from "../icons/MoonIcon"
 import PaletteIcon from "../icons/PaletteIcon"
 import PersonIcon from "../icons/PersonIcon"
 import PhoneIcon from "../icons/PhoneIcon"
 import SunIcon from "../icons/SunIcon"
-import WebsiteIcon from "../icons/WebsiteIcon"
-import CodeIcon from "../icons/CodeIcon"
-import HomeIcon from "../icons/HomeIcon"
-import ExternalIcon from "../icons/ExternalIcon"
+import TemplateNameIcon from "../icons/TemplateNameIcon"
+import TerminalErrorIcon from "../icons/TerminalErrorIcon"
+import TerminalIcon from "../icons/TerminalIcon"
+import ToolsIcon from "../icons/ToolsIcon"
 import TranslateIcon from "../icons/TranslateIcon"
-import LeetCodeIcon from "../icons/LeetCodeIcon"
+import WebsiteIcon from "../icons/WebsiteIcon"
 
 const icons = new Map([
-	["code", CodeIcon],
-	["dark", MoonIcon],
-	["download", DownloadIcon],
-	["email", EmailIcon],
-	["external", ExternalIcon],
-	["github", GithubIcon],
-	["home", HomeIcon],
-	["light", SunIcon],
-	["linkedin", LinkedinIcon],
-	["palette", PaletteIcon],
-	["phone", PhoneIcon],
-	["resume", PersonIcon],
-	["website", WebsiteIcon],
-	["translate", TranslateIcon],
-	["leetcode", LeetCodeIcon]
+    ["brokenlink", BrokenLinkIcon],
+    ["bug", BugIcon],
+    ["code", CodeIcon],
+    ["download", DownloadIcon],
+    ["email", EmailIcon],
+    ["error", ErrorIcon],
+    ["external", ExternalIcon],
+    ["gitbranch", GitBranchIcon],
+    ["github", GithubIcon],
+    ["home", HomeIcon],
+    ["leetcode", LeetCodeIcon],
+    ["linkedin", LinkedinIcon],
+    ["moon", MoonIcon],
+    ["palette", PaletteIcon],
+    ["person", PersonIcon],
+    ["phone", PhoneIcon],
+    ["sun", SunIcon],
+    ["templatename", TemplateNameIcon],
+    ["terminalerror", TerminalErrorIcon],
+    ["terminal", TerminalIcon],
+    ["tools", ToolsIcon],
+    ["translate", TranslateIcon],
+    ["website", WebsiteIcon]
 ])
 
 export default icons

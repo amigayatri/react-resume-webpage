@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Nicht gefunden",
       "home": "Homepage",
       "resume": "Wieder aufnehmen",
       "colors": "Farbvariationen",
       "extralanguages": "Zusätzliche Sprachen",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Die Seite wird derzeit gewartet"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "E-Mail-Symbol",
       "website": "Ein Website-Symbol",
       "phone": "Telefonsymbol",
-      "light": "Sonnensymbol",
-      "dark": "Mond-Symbol",
       "code": "Symbol mit zwei geschweiften Klammern",
       "download": "Symbol zum Herunterladen von Dokumenten",
       "email": "Mail-Symbol",
       "github": "GitHub-Symbol",
       "palette": "Symbol für die Farbpalette",
-      "resume": "Personensymbol",
       "home": "Home-Symbol",
       "external": "Symbol für externen Link",
-      "leetcode": "LeetCode-Symbol"
+      "leetcode": "LeetCode-Symbol",
+      "moon": "Mond-Symbol",
+      "sun": "Sonnensymbol",
+      "person": "Personensymbol"
     }
   },
   "home": {
@@ -233,5 +235,9 @@
       "medium": "Medium",
       "title": "Gelöste Fragen"
     }
+  },
+  "errors": {
+    "404": "Seite nicht gefunden!",
+    "maintenance": "Seite wird gewartet!"
   }
 }

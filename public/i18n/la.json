@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Non inveni",
       "home": "Protocollum",
       "resume": "Proin",
       "colors": "Color variationum",
       "extralanguages": "Extra linguas",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Page ire sub tutela"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "E-mail Icon",
       "website": "A Website Icon",
       "phone": "Phone Icon",
-      "light": "Sol Icon",
-      "dark": "Luna Icon",
       "code": "Duo uncis crispus icon",
       "download": "Documenti download icon",
       "email": "Icon mail",
       "github": "GitHub icon",
       "palette": "Color palette icon",
-      "resume": "Persona icon",
       "home": "Domum icon",
       "external": "Externe paginae symbolum",
-      "leetcode": "LeetCode icon"
+      "leetcode": "LeetCode icon",
+      "moon": "Luna Icon",
+      "sun": "Sol Icon",
+      "person": "Persona icon"
     }
   },
   "home": {
@@ -233,5 +235,9 @@
       "medium": "Medium",
       "title": "Solvitur quaestiones"
     }
+  },
+  "errors": {
+    "404": "Page not found!",
+    "maintenance": "Pagina sub tutela futura!"
   }
 }

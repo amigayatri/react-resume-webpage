@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Ndojejuhúi",
       "home": "Página principal",
       "resume": "Moñepyrũjey",
       "colors": "Umi sa’y iñambuéva",
       "extralanguages": "Ñe’ẽ extra",
-      "leetcode": "LeetCode rehegua"
+      "leetcode": "LeetCode rehegua",
+      "maintenance": "Página ohóva mantenimiento guýpe"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "Correo electrónico Icono rehegua",
       "website": "Peteĩ Icono Página Web rehegua",
       "phone": "Teléfono Icono rehegua",
-      "light": "Kuarahy Icono",
-      "dark": "Jasy Icono",
       "code": "Mokõi soporte rizado icono",
       "download": "Kuatia ñemboguejyha techaukaha",
       "email": "Correo rehegua icono",
       "github": "GitHub techaukaha",
       "palette": "Icono paleta de color rehegua",
-      "resume": "Tapicha icono",
       "home": "Hogar icono",
       "external": "Símbolo enlace okapegua",
-      "leetcode": "LeetCode techaukaha"
+      "leetcode": "LeetCode techaukaha",
+      "moon": "Jasy Icono",
+      "sun": "Kuarahy Icono",
+      "person": "Tapicha icono"
     }
   },
   "home": {
@@ -233,5 +235,9 @@
       "medium": "Mbyte",
       "title": "Porandu oñesolusiona va’ekue"
     }
+  },
+  "errors": {
+    "404": "¡Página ndojejuhúi!",
+    "maintenance": "¡Página ohóva mantenimiento guýpe!"
   }
 }

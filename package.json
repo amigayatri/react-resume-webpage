@@ -14,7 +14,8 @@
     "icon": "npx generate-react-cli component --type=icon --flat",
     "page": "npx generate-react-cli component --type=page",
     "theme": "npx generate-react-cli component --type=theme --flat",
-    "type": "npx generate-react-cli component --type=interfaces --flat"
+    "type": "npx generate-react-cli component --type=interfaces --flat",
+    "update": "node .\\aux-files\\generate-icon-map.cjs"
   },
   "dependencies": {
     "@fileforge/client": "^0.1.18",

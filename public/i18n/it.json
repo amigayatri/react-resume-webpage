@@ -25,11 +25,13 @@
   },
   "paths": {
     "title": {
+      "404": "Non trovato",
       "home": "Home page",
       "resume": "Riprendere",
       "colors": "Variazioni di colore",
       "extralanguages": "Lingue aggiuntive",
-      "leetcode": "LeetCode"
+      "leetcode": "LeetCode",
+      "maintenance": "Pagina in manutenzione"
     }
   },
   "icons": {
@@ -38,17 +40,17 @@
       "mail": "Icona di posta elettronica",
       "website": "Un'icona del sito Web",
       "phone": "Icona del telefono",
-      "light": "Icona del sole",
-      "dark": "Icona della luna",
       "code": "Icona con due parentesi graffe",
       "download": "Icona di download del documento",
       "email": "Icona della posta",
       "github": "Icona di GitHub",
       "palette": "Icona della tavolozza dei colori",
-      "resume": "Icona della persona",
       "home": "Icona domestica",
       "external": "Simbolo del collegamento esterno",
-      "leetcode": "Icona LeetCode"
+      "leetcode": "Icona LeetCode",
+      "moon": "Icona della luna",
+      "sun": "Icona del sole",
+      "person": "Icona della persona"
     }
   },
   "home": {
@@ -233,5 +235,9 @@
       "medium": "Medio",
       "title": "Domande risolte"
     }
+  },
+  "errors": {
+    "404": "Pagina non trovata!",
+    "maintenance": "Pagina in manutenzione!"
   }
 }
