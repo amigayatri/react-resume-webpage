@@ -5,8 +5,7 @@ import SVGIcon from "../../../icons/SVGIcon"
 const ErrorMessage = ({ message }: ErrorProps) => {
 	return (
 		<ErrorMessageWrapper>
-			<SVGIcon size={64} id="terminal" />
-			<SVGIcon size={48} id="error" />
+			<SVGIcon size={80} id="terminalerror" />
 			<Message>{message}</Message>
 		</ErrorMessageWrapper>
 	)
