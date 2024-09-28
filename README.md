@@ -15,14 +15,17 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
     A project to generate color variations to black and white, and easy copying the color codes
 
 - Extra languages
+
     A project done to better understand translation and the react i18n lib, with automated translations to fourteen more languages
 
 - LeetCode Stats Page
+
      A (WIP) project to show my progress on LeetCode, with the total number of solved problems and a heatmap of daily activity (with two display modes). Currently going under maintenance as the API previously used is not working, I'm updating to use GraphQL
 
 ## Roadmap
 
 - Common:
+
      - Libs needing optimizations
      - Mobile menu
  
@@ -43,6 +46,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
     - Improve interface
 
 - LeetCode:
+
     - Fix the request to use GraphQL directly from the LeetCode API. 
     - Finish the second display mode of the heatmap
 
