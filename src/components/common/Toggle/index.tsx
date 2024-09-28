@@ -16,7 +16,7 @@ const Toggle = (props: ToggleProps) => {
 			onClick={() => props.changeTheme()}
 			onKeyDown={(e) => e.key === "enter" && props.changeTheme()}
 		>
-			<SVGIcon size={16} id={props.theme === "light" ? "moon" : "sun"} />
+			<SVGIcon size={16} id={props.theme === "light" ? "sun": "moon" } />
 		</ToggleWrapper>
 	)
 }
