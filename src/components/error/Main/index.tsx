@@ -1,4 +1,9 @@
-import { MainWrapper, IconsWrapper } from "./Main.styled"
+import {
+	MainWrapper,
+	IconsWrapper,
+	BlueWrapper,
+	PinkWrapper
+} from "./Main.styled"
 import ErrorMessage from "../ErrorMessage"
 import { useTranslation } from "react-i18next"
 import { ReactElement } from "react"
@@ -18,7 +23,19 @@ const Main = ({ children, messageId }: MainProps) => {
 						if (typeof child === "string") return child
 						const ElChild = child.type
 						const { props } = child
-						return <ElChild key={messageId + "-child-" + i} {...props} />
+						if ((i & 1) === 0) {
+							return (
+								<BlueWrapper>
+									<ElChild key={messageId + "-child-" + i} {...props} />
+								</BlueWrapper>
+							)
+						} else {
+							return (
+								<PinkWrapper>
+									<ElChild key={messageId + "-child-" + i} {...props} />
+								</PinkWrapper>
+							)
+						}
 					})}
 				</IconsWrapper>
 			)}

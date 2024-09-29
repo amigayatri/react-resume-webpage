@@ -1,35 +1,27 @@
-import { ThemeToggleWrapper } from "./ThemeToggle.styled"
-import ToggleProps from "../../../../types/ToggleProps"
+import Toggle from "../../Toggle"
+import { useTranslation } from "react-i18next"
 
-interface ThemeToggleProps extends ToggleProps {
-	state: string
+interface ThemeToggleProps {
+	theme: string
+	changeTheme: () => void
 }
 
-const ThemeToggle = () => {
+const ThemeToggle = ({ theme, changeTheme }: ThemeToggleProps) => {
+	const { t } = useTranslation()
+	const iconSettings = {
+		id: "sun",
+		trueValAsStr: "light",
+		shouldChange: true,
+		options: { true: "sun", false: "moon" }
+	}
 	return (
-		<ThemeToggleWrapper>
-			<h1>ThemeToggle component</h1>
-		</ThemeToggleWrapper>
+		<Toggle
+			icon={iconSettings}
+			state={theme}
+			stateChangeFN={changeTheme}
+			ariaLabel={t("menu.theme.change")}
+		/>
 	)
 }
 
 export default ThemeToggle
-import { ToggleWrapper } from "./Toggle.styled"
-import { useTranslation } from "react-i18next"
-import SVGIcon from "../../../icons/SVGIcon"
-
-const Toggle = ({ ariaLabel, state, stateChangeFN }: ToggleProps) => {
-	const { t } = useTranslation()
-	return (
-		<ToggleWrapper
-			tabIndex={0}
-			aria-label={t("resume.menu.theme.change")}
-			onClick={() => props.changeTheme()}
-			onKeyDown={(e) => e.key === "enter" && props.changeTheme()}
-		>
-			<SVGIcon size={16} id={props.theme} />
-		</ToggleWrapper>
-	)
-}
-
-export default Toggle

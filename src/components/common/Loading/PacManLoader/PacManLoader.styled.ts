@@ -1,4 +1,9 @@
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
+
+import {
+	BallAnimation,
+	PacManAnimation
+} from "../../../../themes/animations/pacman"
 
 const value = 32
 const unit = "px"
@@ -7,28 +12,11 @@ const colors = {
 	balls: ["#f83535", "#fd9621", "#f4cd04", "#a6e22c", "#67d8ef", "#ac80ff"]
 }
 
-const BallAnimation = keyframes`
-    75% {opacity: 0.7}
-    100% {transform: translate(${value * -6 + unit})}
-`
-
 export const PacManLoaderWrapper = styled.span`
 	height: ${value * 2 + unit};
 	width: ${value * 3 + unit};
 	position: relative;
 `
-
-const PacAnimation = keyframes`
-    0% {transform: rotate(0deg)}
-    50% {transform: rotate(-44deg)}
-`
-
-const ManAnimation = keyframes`
-    0% {transform: rotate(0deg)}
-    50% {transform: rotate(44deg)}
-`
-
-const PacManAnimation = [PacAnimation, ManAnimation]
 
 export const PacMan = styled.span<{ $i: number }>`
 	width: 0;
