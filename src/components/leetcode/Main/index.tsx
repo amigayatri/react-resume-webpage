@@ -1,36 +1,36 @@
 import { MainWrapper } from "./Main.styled"
 import { useEffect, useState } from "react"
-import useGetLeetCodeData from "../../../hooks/useGetLeetCodeData"
-import useFormatData from "../../../hooks/useFormatData"
 import Profile from "../Profile"
 import Questions from "../Questions"
 import Loading from "../../common/Loading"
 import HeatMap from "../HeatMap"
+import { LeetCode } from "../../../api/LeetCode"
 
 interface MainProps {
 	user: string
 }
 
 const Main = ({ user }: MainProps) => {
-	const [data, setData] = useState(useFormatData(user, null))
+	const [leetcode, setLeetcode] = useState(new LeetCode(" "))
 	useEffect(() => {
-		useGetLeetCodeData(user).then((response) => {
-			setData(useFormatData(user, response))
-		})
+		const lc = new LeetCode(user)
+		setLeetcode(lc)
 	}, [])
-	//if (data.profile.ranking === -1)
-	// return (
-	// 	<MainWrapper>
-	// 		<Loading type="pacman" />
-	// 	</MainWrapper>
-	// )
-	return (
-		<MainWrapper>
-			<Profile name="Amira Gayatri" profile={data.profile} />
-			<Questions questions={data.questions} />
-			<HeatMap calendar={data.calendar} />
-		</MainWrapper>
-	)
+	if (leetcode.user === " ") {
+		return (
+			<MainWrapper>
+				<Loading type="pacman" />
+			</MainWrapper>
+		)
+	} else {
+		return (
+			<MainWrapper>
+				<Profile leetcode={leetcode} />
+				<Questions leetcode={leetcode} />
+				<HeatMap leetcode={leetcode} />
+			</MainWrapper>
+		)
+	}
 }
 
 export default Main

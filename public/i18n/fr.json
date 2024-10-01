@@ -227,6 +227,10 @@
       "reverse": {
         "false": "Date la plus récente en premier",
         "true": "Date la plus ancienne en premier"
+      },
+      "mode": {
+        "false": "Mode simple",
+        "true": "Mode détail"
       }
     },
     "questions": {

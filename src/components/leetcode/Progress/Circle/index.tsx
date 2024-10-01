@@ -2,12 +2,13 @@ import {
 	Circle,
 	CircleInfo,
 	CircleDoneLabel,
-	CircleTotalLabel
+	CircleTotalLabel,
+	CircleTitle
 } from "./Circle.styled"
 import {
 	ProgressWrapper,
-	ProgressTitle,
-	ProgressDefault
+	ProgressDefault,
+	TitleWrapper
 } from "../Progress.styled"
 import ProgressBarProps from "../../../../types/ProgressBarProps"
 
@@ -15,7 +16,6 @@ const ProgressCircle = ({ title, progress, color, size }: ProgressBarProps) => {
 	const { done, total } = progress
 	return (
 		<ProgressWrapper>
-			<ProgressTitle $hide>{title}</ProgressTitle>
 			<Circle
 				tabIndex={0}
 				$size={size}
@@ -28,6 +28,9 @@ const ProgressCircle = ({ title, progress, color, size }: ProgressBarProps) => {
 					<CircleTotalLabel>{total}</CircleTotalLabel>
 				</CircleInfo>
 			</Circle>
+			<TitleWrapper>
+				<CircleTitle $color={color.done}>{title}</CircleTitle>
+			</TitleWrapper>
 		</ProgressWrapper>
 	)
 }

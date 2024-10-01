@@ -9,4 +9,5 @@ export const HeatMapWrapper = styled.section`
 	border-width: 2px;
 	border-style: solid;
 	padding: 16px;
+	border-radius: 16px;
 `

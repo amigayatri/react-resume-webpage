@@ -4,6 +4,8 @@ export const HeaderWrapper = styled.div``
 
 export const Title = styled.h2`
 	margin: 0;
+	color: ${({ theme }) => theme.accent};
+	font-weight: 700;
 `
 
 export const ButtonsWrapper = styled.div`
@@ -12,4 +14,5 @@ export const ButtonsWrapper = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 8px;
 `

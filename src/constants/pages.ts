@@ -17,7 +17,7 @@ export const extraPages: PageProps[] = [
 
 export const allPages: PageProps[] = [...pages, ...extraPages]
 
-export const underMaintenance = [LeetcodeProps.path]
+export const underMaintenance = []
 
 export const errorPages = {
 	notFound: NotFoundProps,

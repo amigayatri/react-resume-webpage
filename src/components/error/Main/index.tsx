@@ -25,14 +25,14 @@ const Main = ({ children, messageId }: MainProps) => {
 						const { props } = child
 						if ((i & 1) === 0) {
 							return (
-								<BlueWrapper>
-									<ElChild key={messageId + "-child-" + i} {...props} />
+								<BlueWrapper key={messageId + "-child-" + i}>
+									<ElChild {...props} />
 								</BlueWrapper>
 							)
 						} else {
 							return (
-								<PinkWrapper>
-									<ElChild key={messageId + "-child-" + i} {...props} />
+								<PinkWrapper key={messageId + "-child-" + i}>
+									<ElChild {...props} />
 								</PinkWrapper>
 							)
 						}

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Label } from "../Progress.styled"
+import { Label, ProgressTitle } from "../Progress.styled"
 
 export const CircleInfo = styled.span`
 	color: ${({ theme }) => theme.primary};
@@ -63,4 +63,9 @@ export const CircleDoneLabel = styled(Label)`
 
 export const CircleTotalLabel = styled(Label)`
 	border-top: 2px solid ${({ $color, theme }) => $color || theme.primary};
+`
+
+export const CircleTitle = styled(ProgressTitle)<{ $color: string }>`
+	color: ${({ $color, theme }) => $color || theme.accent};
+	text-wrap: nowrap;
 `

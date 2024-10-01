@@ -6,14 +6,20 @@ interface HeatmapHeaderProps {
 	changeOrder: () => void
 	changeStyle: () => void
 	reverse: boolean
+	simple: boolean
 }
 
-const Header = ({ changeOrder, reverse, changeStyle }: HeatmapHeaderProps) => {
+const Header = ({
+	changeOrder,
+	reverse,
+	simple,
+	changeStyle
+}: HeatmapHeaderProps) => {
 	const { t } = useTranslation()
 	return (
 		<HeaderWrapper>
 			<ButtonsWrapper>
-				<Button fn={changeStyle} txt="Simple mode" />
+				<Button fn={changeStyle} txt={t("leetcode.heatmap.mode." + simple)} />
 				<Button
 					fn={changeOrder}
 					txt={t("leetcode.heatmap.reverse." + reverse)}

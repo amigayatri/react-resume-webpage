@@ -233,6 +233,10 @@
       "reverse": {
         "false": "Mais recente primeiro",
         "true": "Mais antiga primeiro"
+      },
+      "mode": {
+        "false": "Modo Simples",
+        "true": "Modo detalhado"
       }
     }
   },

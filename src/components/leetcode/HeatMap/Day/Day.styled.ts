@@ -22,9 +22,9 @@ export const DayWrapper = styled.span`
 export const SimpleDay = styled.span<{ $color: string }>`
 	display: inline-block;
 	background-color: ${({ $color }) => $color || "#000000"};
-	height: 8px;
-	width: 8px;
-	border-radius: 4px;
+	height: 12px;
+	width: 12px;
+	border-radius: 6px;
 `
 
 export const ContentWrapper = styled.span`

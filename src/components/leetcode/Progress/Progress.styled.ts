@@ -20,10 +20,33 @@ export const ProgressTitle = styled.h2<{ $hide?: boolean }>`
 	transition: ${({ theme }) => theme.transition};
 	opacity: 0.2;
 `
+
+export const Subtitle = styled.span`
+	margin: 8px 0;
+	font-size: 1.125rem;
+	display: inline-block;
+	font-weight: 100;
+	transition: ${({ theme }) => theme.transition};
+	opacity: 0.2;
+`
+
+export const TitleWrapper = styled.div``
+
 export const ProgressWrapper = styled.div`
 	position: relative;
 
-	&:hover > ${ProgressTitle}, &:focus > ${ProgressTitle} {
+	&:hover
+		> ${TitleWrapper}
+		> ${ProgressTitle},
+		&:focus
+		> ${TitleWrapper}
+		> ${ProgressTitle},
+		&:hover
+		> ${TitleWrapper}
+		> ${Subtitle},
+		&:focus
+		> ${TitleWrapper}
+		> ${Subtitle} {
 		font-weight: 500;
 		opacity: 1;
 	}

@@ -227,6 +227,10 @@
       "reverse": {
         "false": "Novissima date primum",
         "true": "Seniorem date primum"
+      },
+      "mode": {
+        "false": "Simple Modus",
+        "true": "Detail modus"
       }
     },
     "questions": {

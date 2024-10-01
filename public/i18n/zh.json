@@ -227,6 +227,10 @@
       "reverse": {
         "false": "最新日期优先",
         "true": "最旧的日期在前"
+      },
+      "mode": {
+        "false": "简单模式",
+        "true": "细节模式"
       }
     },
     "questions": {

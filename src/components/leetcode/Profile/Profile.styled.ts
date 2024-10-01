@@ -18,12 +18,6 @@ export const IDWrapper = styled.a`
 	align-items: center;
 	text-decoration: none;
 	width: fit-content;
-	margin-left: 16px;
-
-	${media.max.md} {
-		margin-left: 0;
-		margin-top: 16px;
-	}
 `
 
 export const Name = styled.h1`
@@ -37,4 +31,12 @@ export const Username = styled.h2`
 	text-align: center;
 	color: ${({ theme }) => theme.secondAccent};
 	margin: 0;
+`
+
+export const FlagWrapper = styled.div`
+	font-size: 1.5rem;
+	margin: 0 16px;
+	${media.max.md} {
+		margin: 16px 0;
+	}
 `
