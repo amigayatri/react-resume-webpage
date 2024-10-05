@@ -101,23 +101,23 @@
         "title": "Experiencia profesional",
         "items": {
           "atip": {
-            "text": "Desarrollador en Atip (socio de Pepsico). ",
+            "text": "Desarrollador front-end en Atip (Pepsico Partner).",
             "subitem": "Usando React, Next.js, StyledComponents y TypeScript en proyectos, trabajando con el equipo mexicano de Pepsico."
           },
           "techviz": {
-            "text": "Desarrollador en TechViz. ",
+            "text": "Líder tecnológico en TechViz.",
             "subitem": "Usando React, Next.js, Svelte, StyledComponents y TypeScript en proyectos."
           },
           "encora": {
-            "text": "Desarrollador en Encora Brasil. ",
+            "text": "Desarrollador front-end en Encora Brasil.",
             "subitem": "Usando React, Vue.js y Laravel en proyectos"
           },
           "raccoon": {
-            "text": "Desarrollador front-end en Raccoon.Monks. ",
+            "text": "Desarrollador front-end en Raccoon.Monks.",
             "subitem": "Usando React, WordPress, AMP, Next.js, PHP, HTML, Javascript y SCSS en proyectos. "
           },
           "partenero": {
-            "text": "Practicante Full Stack en Partenero. ",
+            "text": "Practicante full-stack en Partenero.",
             "subitem": "Usando Firebase y Ember"
           },
           "liven": {
@@ -161,22 +161,25 @@
         "title": "Proyectos y Actividades",
         "items": {
           "accessibility": {
-            "text": "Curso W3Cx 'Introducción a la Accesibilidad Web' (septiembre y octubre/2022)"
+            "text": "Curso de Accesibilidad Web W3Cx"
           },
           "shehacks": {
-            "text": "1er lugar (de 20 grupos) en SheHacks 2019, un Hackathon de Facebook (septiembre/2019)"
+            "text": "Participante del equipo ganador (entre 20 equipos) de Shehacks, hackathon realizado en la sede de Facebook"
           },
           "principia": {
-            "text": "Tutor voluntario de clases de robótica en escuelas públicas de “Principia - Robôs na Escola” (febrero/2019 a julio/2019)"
+            "text": "Monitor voluntario para la enseñanza de robótica en escuelas públicas a través de \"Principia - Robots en la Escuela\" durante un semestre"
           },
           "vemPraUSP": {
-            "text": "Tutor voluntario en “Vem Pra USP!”, curso online de Scratch y App Inventor para estudiantes de secundaria pública (octubre/2019)"
+            "text": "Monitorea el programa de enseñanza de programación en línea “Vem Pra USP” para estudiantes de secundaria de escuelas públicas"
           },
           "pet": {
-            "text": "Tutor voluntario dos veces en Curso Básico de Informática para Personas Mayores (marzo/2018 a mayo/2018 y septiembre/2018 a noviembre/2018)"
+            "text": "Monitor en el curso de Informática para Personas Mayores del PET Computação durante dos semestres"
           }
         }
       }
+    },
+    "dates": {
+      "now": "Ahora"
     }
   },
   "footer": {

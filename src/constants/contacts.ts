@@ -23,6 +23,6 @@ export const contacts: ContactProps[] = [
 		icon: "website",
 		text: "amiragayatri.dev",
 		link: "https://amiragayatri.dev",
-		showOnWeb: false
+		showOnWeb: true
 	}
 ]

@@ -101,23 +101,23 @@
         "title": "الخبرة المهنية",
         "items": {
           "atip": {
-            "text": "مطور في Atip (شريك بيبسيكو). ",
+            "text": "مطور الواجهة الأمامية في Atip (شريك Pepsico).",
             "subitem": "استخدام React وNext.js وStyledComponents وTypeScript في المشاريع، والعمل مع فريق Pepsico المكسيكي."
           },
           "techviz": {
-            "text": "المطور في TechViz. ",
+            "text": "قائد التكنولوجيا في TechViz.",
             "subitem": "استخدام React وNext.js وSvelte وStyledComponents وTypeScript في المشاريع."
           },
           "encora": {
-            "text": "المطور في Encora البرازيل. ",
+            "text": "مطور الواجهة الأمامية في Encora البرازيل.",
             "subitem": "استخدام React وVue.js وLaravel في المشاريع"
           },
           "raccoon": {
-            "text": "مطور الواجهة الأمامية في Raccoon.Monks. ",
+            "text": "مطور الواجهة الأمامية في Raccoon.Monks.",
             "subitem": "استخدام React وWordPress وAMP وNext.js وPHP وHTML وJavascript وSCSS في المشاريع. "
           },
           "partenero": {
-            "text": "متدرب Full Stack في Partenero. ",
+            "text": "متدرب كامل في Partenero.",
             "subitem": "باستخدام Firebase وEmber"
           },
           "liven": {
@@ -161,22 +161,25 @@
         "title": "المشاريع والأنشطة",
         "items": {
           "accessibility": {
-            "text": "دورة W3Cx \"مقدمة حول إمكانية الوصول إلى الويب\" (سبتمبر وأكتوبر/2022)"
+            "text": "دورة إمكانية الوصول إلى الويب W3Cx"
           },
           "shehacks": {
-            "text": "المركز الأول (من 20 مجموعة) في SheHacks 2019، Hackathon بواسطة Facebook (سبتمبر/2019)"
+            "text": "مشارك في الفريق الفائز (من بين 20 فريق) في هاكاثون Shehacks الذي أقيم في مقر الفيسبوك"
           },
           "principia": {
-            "text": "مدرس متطوع لفصول الروبوتات في المدارس العامة من قبل \"Principia - Robôs na Escola\" (فبراير/2019 إلى يوليو/2019)"
+            "text": "رصد متطوع لتدريس الروبوتات في المدارس الحكومية من خلال \"المبادئ - الروبوتات في المدرسة\" لمدة فصل دراسي واحد"
           },
           "vemPraUSP": {
-            "text": "مدرس متطوع في \"Vem Pra USP!\"، دورة Scratch and App Inventor عبر الإنترنت لطلاب المدارس الثانوية العامة (أكتوبر/2019)"
+            "text": "يراقب برنامج تعليم البرمجة عبر الإنترنت \"Vem Pra USP\" لطلاب المدارس الثانوية من المدارس العامة"
           },
           "pet": {
-            "text": "مدرس متطوع مرتين في دورة مهارات الكمبيوتر الأساسية لكبار السن (مارس/2018 إلى مايو/2018 وسبتمبر/2018 إلى نوفمبر/2018)"
+            "text": "مراقبة دورة علوم الكمبيوتر لكبار السن في PET Computação لمدة فصلين دراسيين"
           }
         }
       }
+    },
+    "dates": {
+      "now": "الآن"
     }
   },
   "footer": {

@@ -21,6 +21,8 @@ export const SectionItem = styled.li`
     margin-top: 8px;
 `
 
+export const DateWrapper = styled.span``
+
 export const SubitemText = styled.p`
     font-size: 1rem;
     display: block;

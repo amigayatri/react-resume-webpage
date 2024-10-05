@@ -101,23 +101,23 @@
         "title": "Experiencia Profesional rehegua",
         "items": {
           "atip": {
-            "text": "Desarrollador Atip-pe (Pepsico socio). ",
+            "text": "Desarrollador front-end Atip (Pepsico Partner)-pe.",
             "subitem": "Oipurúvo React, Next.js, StyledComponents ha TypeScript umi tembiaporãme, ombaꞌapóva Pepsico equipo mexicano ndive."
           },
           "techviz": {
-            "text": "Ñemoheñói TechViz-pe. ",
+            "text": "Tech Lead TechViz-pe.",
             "subitem": "Oipurúvo React, Next.js, Svelte, StyledComponents ha TypeScript umi tembiaporãme."
           },
           "encora": {
-            "text": "Desarrollador Encora Brasil-pe. ",
+            "text": "Desarrollador front-end Encora Brasil-pe.",
             "subitem": "Oipurúvo React, Vue.js ha Laravel umi tembiaporãme"
           },
           "raccoon": {
-            "text": "Desarrollador Front-end-pegua Raccoon.Monks-pe. ",
+            "text": "Desarrollador front-end Raccoon.Monks-pe.",
             "subitem": "React, WordPress, AMP, Next.js, PHP, HTML, Javascript ha SCSS jepuru tembiaporãme. "
           },
           "partenero": {
-            "text": "Pasante Pila Completa Partenero-pe. ",
+            "text": "Pasante pila completa Partenero-pe.",
             "subitem": "Firebase ha Ember jepuru"
           },
           "liven": {
@@ -161,22 +161,25 @@
         "title": "Tembiaporã ha Tembiaporã",
         "items": {
           "accessibility": {
-            "text": "W3Cx mbo’esyry ‘Introducción a la Accesibilidad Web’ (septiembre ha octubre/2022)"
+            "text": "W3Cx Web Accesibilidad Mbo’esyry"
           },
           "shehacks": {
-            "text": "1o tenda (20 aty apytégui) SheHacks 2019-pe, peteĩ Hackathon Facebook rupive (septiembre/2019)"
+            "text": "Participante equipo ganador (20 equipo apytépe) Shehacks, hackathon oñemotenondéva sede Facebook-pe"
           },
           "principia": {
-            "text": "Tutor voluntario umi clase robótica mbo'ehao público-pe “Principia - Robôs na Escola” rupive (febrero/2019 guive julio/2019 peve)"
+            "text": "Monitor voluntario mbo'epy robótica mbo'ehao público-pe \"Principia - Robots en Escuela\" rupive peteî semestre"
           },
           "vemPraUSP": {
-            "text": "Tutor voluntario “Vem Pra USP!”, peteî curso Online Scratch and App Inventor temimbo'e secundaria pública-pe guarã (octubre/2019)"
+            "text": "Ojesareko programa de enseñanza programación en línea “Vem Pra USP” umi temimbo'e secundaria mbo'ehao público-gua"
           },
           "pet": {
-            "text": "Tutor voluntario mokõi jey Curso Básico de Habilidades Informáticas para Mayores (marzo/2018 guive mayo/2018 peve ha setiembre/2018 guive noviembre/2018 peve)"
+            "text": "Monitor mbo'esyry Informática-pe guarã umi Anciano-pe guarã PET Computação-pe mokõi semestre pukukue"
           }
         }
       }
+    },
+    "dates": {
+      "now": "Ko'ág̃a"
     }
   },
   "footer": {

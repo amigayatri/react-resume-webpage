@@ -12,6 +12,11 @@ export const Wrapper = styled.div`
 		transform: none;
 		margin: 0 var(--container) 8px;
 	}
+
+	${media.print} {
+		padding-bottom: 32px 0;
+		margin: 0 var(--container);
+	}
 `
 
 export const ContactList = styled.ul`
@@ -22,11 +27,6 @@ export const ContactList = styled.ul`
 	flex-direction: row;
 
 	${media.max.md} {
-		position: relative;
-		flex-direction: column;
-	}
-
-	${media.print} {
 		position: relative;
 		flex-direction: column;
 	}
