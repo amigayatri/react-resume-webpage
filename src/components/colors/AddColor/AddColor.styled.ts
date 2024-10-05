@@ -6,7 +6,9 @@ export const Wrapper = styled.section`
 `
 
 export const ButtonWrapper = styled.div`
-	${media.min.md} {
+	flex-direction: row;
+
+	${media.max.sm} {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -26,6 +28,8 @@ export const Button = styled.button`
 	font-weight: 700;
 	cursor: pointer;
 	text-align: left;
+	display: inline-block;
+	max-width: 256px;
 `
 
 export const InputWrapper = styled.div`
