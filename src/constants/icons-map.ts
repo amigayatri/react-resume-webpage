@@ -15,7 +15,6 @@ import PaletteIcon from "../icons/PaletteIcon"
 import PersonIcon from "../icons/PersonIcon"
 import PhoneIcon from "../icons/PhoneIcon"
 import SunIcon from "../icons/SunIcon"
-import TemplateNameIcon from "../icons/TemplateNameIcon"
 import TerminalErrorIcon from "../icons/TerminalErrorIcon"
 import TerminalIcon from "../icons/TerminalIcon"
 import ToolsIcon from "../icons/ToolsIcon"
@@ -40,7 +39,6 @@ const icons = new Map([
     ["person", PersonIcon],
     ["phone", PhoneIcon],
     ["sun", SunIcon],
-    ["templatename", TemplateNameIcon],
     ["terminalerror", TerminalErrorIcon],
     ["terminal", TerminalIcon],
     ["tools", ToolsIcon],
