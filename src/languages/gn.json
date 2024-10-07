@@ -50,7 +50,8 @@
       "leetcode": "LeetCode techaukaha",
       "moon": "Jasy Icono",
       "sun": "Kuarahy Icono",
-      "person": "Tapicha icono"
+      "person": "Tapicha icono",
+      "more": "Hetave página icono"
     }
   },
   "home": {
@@ -183,8 +184,7 @@
     }
   },
   "footer": {
-    "link": "Guerojera",
-    "text": " rupi"
+    "text": "Omoheñóiva {{name}}."
   },
   "colors": {
     "header": {

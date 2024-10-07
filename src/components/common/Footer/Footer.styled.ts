@@ -22,3 +22,10 @@ export const Link = styled.a`
     text-decoration: none;
     color: ${({theme}) => theme.accent};
 `
+
+export const FooterContent = styled.div<{ $isRTL: boolean }>`
+	display: flex;
+	flex-direction: ${({ $isRTL }) => ($isRTL ? "row-reverse" : "row")};
+	max-width: fit-content;
+	margin: 0 auto;
+`

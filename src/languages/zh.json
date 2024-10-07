@@ -50,7 +50,8 @@
       "leetcode": "LeetCode 图标",
       "moon": "月亮图标",
       "sun": "太阳图标",
-      "person": "人图标"
+      "person": "人图标",
+      "more": "更多页面图标"
     }
   },
   "home": {
@@ -183,8 +184,7 @@
     }
   },
   "footer": {
-    "link": "发达",
-    "text": " 经过"
+    "text": "由 {{name}} 开发"
   },
   "colors": {
     "header": {

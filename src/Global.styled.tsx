@@ -1,7 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 import media from "./constants/medias"
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle<{
+	$isRTL: boolean
+	$isAmplified: boolean
+}>`
     :root {
         --container: 32px;
         --color-container: 32px;
@@ -24,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         background-color: ${({ theme }) => theme.background};
         color: ${({ theme }) => theme.primary};
-        font-size: 16px;
+        font-size: ${({ $isAmplified }) => ($isAmplified ? "20px" : "16px")} ;
     }
 
     * {

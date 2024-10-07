@@ -15,6 +15,6 @@ export const Wrapper = styled.li<{$code: string, $inverse: string}>`
 `
 
 export const ColorTag = styled.code`
-    font-weight: 700;
-    font-size: 24px;
+	font-weight: 700;
+	font-size: 1.5rem;
 `

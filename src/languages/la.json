@@ -50,7 +50,8 @@
       "leetcode": "LeetCode icon",
       "moon": "Luna Icon",
       "sun": "Sol Icon",
-      "person": "Persona icon"
+      "person": "Persona icon",
+      "more": "Plures paginae icon"
     }
   },
   "home": {
@@ -183,8 +184,7 @@
     }
   },
   "footer": {
-    "link": "Developed",
-    "text": " by"
+    "text": "Evolvit {name}}"
   },
   "colors": {
     "header": {
