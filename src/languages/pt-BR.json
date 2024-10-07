@@ -183,8 +183,8 @@
     }
   },
   "footer": {
-    "link": "Desenvolvido",
-    "text": " por"
+    "text": " por",
+    "link": "Desenvolvido"
   },
   "colors": {
     "header": {

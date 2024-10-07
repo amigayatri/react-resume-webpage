@@ -1,7 +1,7 @@
 const toRemove = ["update-options.cjs", "index.ts"]
 
 const fs = require("fs")
-const translatePath = "./src/languages"
+const translatePath = "./public/i18n/"
 const languageFiles = fs.readdirSync(translatePath)
 const langsFilesSet = new Set(languageFiles)
 for (const filename of toRemove) {
@@ -32,7 +32,7 @@ const text = [
 	"export default resources"
 ].join("\n")
 
-fs.writeFile("./src/languages/index.ts", text, (error) => {
+fs.writeFile(translatePath + "index.ts", text, (error) => {
 	if (error) {
 		console.error(error)
 		return
