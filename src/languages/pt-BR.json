@@ -50,7 +50,8 @@
       "website": "Ícone de um website",
       "moon": "Ícone de uma lua",
       "sun": "Ícone de um sol",
-      "person": "Ícone de uma pessoa"
+      "person": "Ícone de uma pessoa",
+      "more": "Ícone de mais páginas"
     }
   },
   "home": {
@@ -183,8 +184,7 @@
     }
   },
   "footer": {
-    "text": " por",
-    "link": "Desenvolvido"
+    "text": "Desenvolvido por {{name}}"
   },
   "colors": {
     "header": {

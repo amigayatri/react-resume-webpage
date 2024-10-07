@@ -50,7 +50,8 @@
       "leetcode": "Icono de LeetCode",
       "moon": "Icono de luna",
       "sun": "Icono del sol",
-      "person": "Icono de persona"
+      "person": "Icono de persona",
+      "more": "Icono de más páginas"
     }
   },
   "home": {
@@ -183,8 +184,7 @@
     }
   },
   "footer": {
-    "link": "Desarrollado",
-    "text": " por"
+    "text": "Desarrollado por {{name}}"
   },
   "colors": {
     "header": {

@@ -15,12 +15,11 @@ const App = () => {
 	const themeToggler = () => {
 		theme === "light" ? setTheme("dark") : setTheme("light")
 	}
-
 	return (
 		<BrowserRouter>
 			<ThemeProvider theme={theme === "light" ? DefaultLight : DefaultDark}>
 				<ThemeProvider theme={Named}>
-					<GlobalStyle />
+					<GlobalStyle $isAmplified={false} $isRTL={false} />
 					<Menu changeTheme={themeToggler} theme={theme} />
 				</ThemeProvider>
 				<ThemeProvider theme={Monokai}>

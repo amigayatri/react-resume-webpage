@@ -50,7 +50,8 @@
       "external": "External link symbol",
       "moon": "Moon Icon",
       "sun": "Sun Icon",
-      "person": "Person icon"
+      "person": "Person icon",
+      "more": "More pages icon"
     }
   },
   "home": {
@@ -183,8 +184,7 @@
     }
   },
   "footer": {
-    "link": "Developed",
-    "text": " by"
+    "text": "Developed by {{name}}"
   },
   "colors": {
     "header": {

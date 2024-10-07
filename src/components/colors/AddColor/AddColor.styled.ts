@@ -27,7 +27,6 @@ export const Button = styled.button`
 	margin-bottom: 8px;
 	font-weight: 700;
 	cursor: pointer;
-	text-align: left;
 	display: inline-block;
 	max-width: 256px;
 `
@@ -45,7 +44,8 @@ export const ColorSelector = styled.input`
 	width: 128px;
 	padding: 8px;
 	cursor: pointer;
-	font-family: ${({ theme }) => theme.fonts.body}, ${({ theme }) => theme.fonts.backup};
+	font-family: ${({ theme }) => theme.fonts.body},
+		${({ theme }) => theme.fonts.backup};
 `
 
 export const ColorTextInput = styled.textarea`
@@ -59,15 +59,17 @@ export const ColorTextInput = styled.textarea`
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 8px;
-	font-family: ${({ theme }) => theme.fonts.body}, ${({ theme }) => theme.fonts.backup};
+	font-family: ${({ theme }) => theme.fonts.body},
+		${({ theme }) => theme.fonts.backup};
 `
 
 export const ChangeSteps = styled.input`
 	background-color: ${({ theme }) => theme.background};
-	font-size: 24px;
+	font-size: 1.5rem;
 	color: ${({ theme }) => theme.accent};
 	padding: 8px;
 	border-radius: 4px;
 	border: 2px solid ${({ theme }) => theme.primary};
-	font-family: ${({ theme }) => theme.fonts.body}, ${({ theme }) => theme.fonts.backup};
-	`
+	font-family: ${({ theme }) => theme.fonts.body},
+		${({ theme }) => theme.fonts.backup};
+`

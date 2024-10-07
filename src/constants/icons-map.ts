@@ -11,6 +11,7 @@ import HomeIcon from "../icons/HomeIcon"
 import LeetCodeIcon from "../icons/LeetCodeIcon"
 import LinkedinIcon from "../icons/LinkedinIcon"
 import MoonIcon from "../icons/MoonIcon"
+import MoreIcon from "../icons/MoreIcon"
 import PaletteIcon from "../icons/PaletteIcon"
 import PersonIcon from "../icons/PersonIcon"
 import PhoneIcon from "../icons/PhoneIcon"
@@ -35,6 +36,7 @@ const icons = new Map([
     ["leetcode", LeetCodeIcon],
     ["linkedin", LinkedinIcon],
     ["moon", MoonIcon],
+    ["more", MoreIcon],
     ["palette", PaletteIcon],
     ["person", PersonIcon],
     ["phone", PhoneIcon],
