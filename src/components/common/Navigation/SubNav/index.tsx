@@ -4,17 +4,26 @@ import NavigationItem from "../NavigationItem"
 import { SubNavWrapper, ContentWrapper } from "./SubNav.styled"
 import { useState } from "react"
 
-const SubNav = ({ pages }: { pages: PageProps[] }) => {
+const SubNav = ({ pages, isRTL }: { pages: PageProps[]; isRTL: boolean }) => {
 	const [open, setOpen] = useState(false)
 	const openMenu = () => {
 		setOpen(!open)
 	}
 	return (
-		<SubNavWrapper onClick={() => openMenu()} $isOpen={open}>
+		<SubNavWrapper
+			tabIndex={0}
+			onKeyDown={(e) => e.key === "Enter" && openMenu()}
+			onClick={() => openMenu()}
+			$isOpen={open}
+		>
 			<SVGIcon id="more" size={24} />
 			<ContentWrapper>
 				{pages.map((page) => (
-					<NavigationItem key={`nav-link-${page.path}`} page={page} />
+					<NavigationItem
+						isRTL={isRTL}
+						key={`nav-link-${page.path}`}
+						page={page}
+					/>
 				))}
 			</ContentWrapper>
 		</SubNavWrapper>

@@ -4,13 +4,19 @@ import { ButtonStyle, Label } from "../Common.styled"
 import { ExternalLinkTag, LabelWrapper } from "./ExternalLink.styled"
 import ExternalLinkProps from "../../../types/ExternalLinkProps"
 
-const ExternalLink = ({ link }: { link: ExternalLinkProps }) => {
+const ExternalLink = ({
+	link,
+	isRTL
+}: {
+	link: ExternalLinkProps
+	isRTL: boolean
+}) => {
 	const { t } = useTranslation()
 	return (
 		<ExternalLinkTag rel="noopener" target="_blank" href={link.path}>
-			<ButtonStyle>
+			<ButtonStyle $isRTL={isRTL}>
 				<SVGIcon size={48} id={link.icon} />
-				<LabelWrapper>
+				<LabelWrapper $isRTL={isRTL}>
 					<Label>{t(`home.externalLinks.${link.name}`)}</Label>
 					<SVGIcon id="external" size={20} />
 				</LabelWrapper>

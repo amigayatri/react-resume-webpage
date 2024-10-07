@@ -5,17 +5,18 @@ export const Wrapper = styled.section`
 	padding: 32px 0;
 `
 
-export const ButtonWrapper = styled.div`
+export const ButtonWrapper = styled.div<{ $isRTL: boolean }>`
 	flex-direction: row;
 
 	${media.max.sm} {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: ${({ $isRTL }) => ($isRTL ? "flex-end" : "flex-start")};
 	}
 `
 
-export const Button = styled.button`
+export const Button = styled.button<{ $isRTL: boolean }>`
 	background-color: ${({ theme }) => theme.accent};
 	color: ${({ theme }) => theme.background};
 	border: none;
@@ -23,7 +24,8 @@ export const Button = styled.button`
 		${({ theme }) => theme.fonts.backup};
 	padding: 8px 16px;
 	border-radius: 4px;
-	margin-right: 8px;
+	margin-right: ${({ $isRTL }) => ($isRTL ? "0" : "8px")};
+	margin-left: ${({ $isRTL }) => ($isRTL ? "8px" : "0")};
 	margin-bottom: 8px;
 	font-weight: 700;
 	cursor: pointer;

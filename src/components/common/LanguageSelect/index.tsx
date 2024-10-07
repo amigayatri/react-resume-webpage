@@ -16,17 +16,22 @@ const LanguageSelect = ({
 		i18n.changeLanguage(langCode)
 		document.documentElement.setAttribute("lang", langCode)
 	}
+	const notExtra = new Set(["pt-BR", "en"])
+	if (!isExtra && !notExtra.has(i18n.language)) {
+	}
+	const otherLang = !isExtra && !notExtra.has(i18n.language)
 	return (
-		<LanguageSelectInput
-			$maxWidth={isExtra ? "100%" : "200px"}
-			defaultValue={i18n.language}
-			onChange={onChangeLang}
-		>
+		<LanguageSelectInput defaultValue={i18n.language} onChange={onChangeLang}>
 			{languages.map(({ code, name }) => (
 				<LanguageOption key={(isExtra ? "extra-" : "nav-") + code} value={code}>
-					{t(`menu.languages.${code}`)} {isExtra && "(" + name + ")"}
+					{isExtra ? t(`menu.languages.${code}`) + ` (${name})` : name}
 				</LanguageOption>
 			))}
+			{otherLang && (
+				<LanguageOption value={i18n.language}>
+					{t(`menu.languages.${i18n.language}`)}
+				</LanguageOption>
+			)}
 		</LanguageSelectInput>
 	)
 }

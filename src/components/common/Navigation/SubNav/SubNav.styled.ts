@@ -12,6 +12,7 @@ export const ContentWrapper = styled.ul`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
+	transition: ${({ theme }) => theme.transition};
 
 	& ${LinkWrapper} {
 		margin-left: 0;
@@ -24,7 +25,8 @@ export const SubNavWrapper = styled.div<{ $isOpen: boolean }>`
 	position: relative;
 
 	& ${ContentWrapper} {
-		height: ${({ $isOpen }) => ($isOpen ? "140px" : "0px")};
+		height: ${({ $isOpen }) => ($isOpen ? "144px" : "0px")};
+		width: ${({ $isOpen }) => ($isOpen ? "240px" : "0px")};
 		padding: ${({ $isOpen }) => ($isOpen ? "12px" : "0px")};
 	}
 
