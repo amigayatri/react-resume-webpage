@@ -13,7 +13,10 @@ import { SetStateAction, useState } from "react"
 import { changeSteps, regex, variationSteps } from "../../../lib/colors"
 import { getLangDir } from "rtl-detect"
 
-const AddColor = (props: {
+const AddColor = ({
+	add,
+	regenerate
+}: {
 	add: (arg0: string) => void
 	regenerate: () => void
 }) => {
@@ -36,13 +39,13 @@ const AddColor = (props: {
 		const toAdd = list.toUpperCase().split(" ")
 		for (const colorCode of toAdd) {
 			if (regex.test(colorCode)) {
-				props.add(colorCode)
+				add(colorCode)
 			}
 		}
 	}
 	const handleSteps = (newSteps: string) => {
 		changeSteps(Number(newSteps))
-		props.regenerate()
+		regenerate()
 	}
 	const isRTL = getLangDir(i18n.language) === "rtl"
 	return (
@@ -80,7 +83,7 @@ const AddColor = (props: {
 			<InputWrapper>
 				{showColorSelector && (
 					<ColorSelector
-						onChange={(e) => props.add(e.target.value)}
+						onChange={(e) => add(e.target.value)}
 						defaultValue="#666666"
 						type="color"
 					/>

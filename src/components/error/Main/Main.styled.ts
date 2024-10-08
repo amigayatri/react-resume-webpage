@@ -4,7 +4,7 @@ import media from "../../../constants/medias"
 
 export const MainWrapper = styled.section`
 	color: ${({ theme }) => theme.colors.base.pink};
-	background-color: ${({ theme }) => theme.colors.neutral.almostBlack};
+	background-color: ${({ theme }) => theme.background};
 	width: 100%;
 	min-height: var(--fullpage);
 	display: flex;
@@ -13,6 +13,13 @@ export const MainWrapper = styled.section`
 	flex-direction: column;
 	padding: 0 var(--color-container);
 `
+export const BlueWrapper = styled.div`
+	color: ${({ theme }) => theme.accent};
+`
+export const PinkWrapper = styled.div`
+	color: ${({ theme }) => theme.secondAccent};
+`
+
 export const IconsWrapper = styled.div`
 	display: flex;
 	color: ${({ theme }) => theme.colors.base.pink};

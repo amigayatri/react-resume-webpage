@@ -225,8 +225,21 @@
     "summary": "These language options were generated with an automatic translator, to train the use of i18n-next"
   },
   "leetcode": {
+    "badges": {
+      "title": "List of obtained badges",
+      "icon": "Icon for {{BadgeName}} badge",
+      "date": "Date: "
+    },
     "heatmap": {
-      "title": "LeetCode Submissions"
+      "title": "LeetCode Submissions",
+      "reverse": {
+        "true": "Oldest date first",
+        "false": "Newest date first"
+      },
+      "mode": {
+        "true": "Detail mode",
+        "false": "Simple Mode"
+      }
     },
     "questions": {
       "easy": "Easy",

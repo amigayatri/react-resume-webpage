@@ -1,23 +1,34 @@
-import { ProfileWrapper, Name, Username, IDWrapper } from "./Profile.styled"
+import {
+	ProfileWrapper,
+	Name,
+	Username,
+	IDWrapper,
+	FlagWrapper
+} from "./Profile.styled"
 import SVGIcon from "../../../icons/SVGIcon"
+import { useState, useEffect } from "react"
+import { empty } from "../../../api/LeetCode"
+import LeetCodeProps from "../../../types/LeetCodeProps"
+import useGetFlagCountry from "./../../../hooks/useGetFlagCountry/"
 
-interface ProfileProps {
-	name: string
-	profile: {
-		ranking: number
-		acceptanceRate: number
-		username: string
-	}
-}
+const Profile = ({ leetcode }: LeetCodeProps) => {
+	const [profile, setProfile] = useState(empty.profile)
+	const [flag, setFlag] = useState(" ")
 
-const Profile = ({ name, profile }: ProfileProps) => {
+	useEffect(() => {
+		leetcode.getProfile().then((profile) => {
+			setProfile(profile)
+			useGetFlagCountry(profile.country).then((flag) => setFlag(flag))
+		})
+	}, [])
 	return (
 		<ProfileWrapper>
-			<Name>{name}</Name>
+			<Name>{profile.name}</Name>
+			<FlagWrapper>{flag}</FlagWrapper>
 			<IDWrapper
 				rel="noopener"
 				target="_blank"
-				href={"http://leetcode.com/u/" + profile.username}
+				href={"http://leetcode.com/u/" + profile}
 			>
 				<Username>({profile.username})</Username>
 				<SVGIcon id="external" size={24} />

@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode-Einreichungen"
+      "title": "LeetCode-Einreichungen",
+      "reverse": {
+        "false": "Neuestes Datum zuerst",
+        "true": "Ältestes Datum zuerst"
+      },
+      "mode": {
+        "false": "Einfacher Modus",
+        "true": "Detailmodus"
+      }
     },
     "questions": {
       "easy": "Einfach",
       "hard": "Schwierig",
       "medium": "Medium",
       "title": "Gelöste Fragen"
+    },
+    "badges": {
+      "icon": "Symbol für das Abzeichen „{{BadgeName}}“.",
+      "title": "Liste der erhaltenen Abzeichen",
+      "date": "Datum:"
     }
   },
   "errors": {

@@ -1,12 +1,19 @@
 import ErrorProps from "../../../types/ErrorProps"
-import { ErrorMessageWrapper, Message } from "./ErrorMessage.styled"
+import {
+	ErrorMessageWrapper,
+	Message,
+	WritingCursor
+} from "./ErrorMessage.styled"
 import SVGIcon from "../../../icons/SVGIcon"
 
 const ErrorMessage = ({ message }: ErrorProps) => {
 	return (
 		<ErrorMessageWrapper>
 			<SVGIcon size={80} id="terminalerror" />
-			<Message>{message}</Message>
+			<Message>
+				{message}
+				<WritingCursor />
+			</Message>
 		</ErrorMessageWrapper>
 	)
 }

@@ -2,6 +2,7 @@ import { BarWrapper, Bar, BarLabel, BarDoneLabel } from "./Bar.styled"
 import {
 	ProgressWrapper,
 	ProgressTitle,
+	TitleWrapper,
 	ProgressDefault
 } from "../Progress.styled"
 import ProgressBarProps from "../../../../types/ProgressBarProps"
@@ -10,7 +11,9 @@ const ProgressBar = ({ title, progress, color }: ProgressBarProps) => {
 	const { done, total } = progress
 	return (
 		<ProgressWrapper>
-			<ProgressTitle>{title}</ProgressTitle>
+			<TitleWrapper>
+				<ProgressTitle>{title}</ProgressTitle>
+			</TitleWrapper>
 			<BarWrapper tabIndex={0}>
 				<Bar $color={color.total} $percentage={100}></Bar>
 				<BarLabel>{total}</BarLabel>

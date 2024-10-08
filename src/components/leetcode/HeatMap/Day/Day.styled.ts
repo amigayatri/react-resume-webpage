@@ -18,6 +18,15 @@ export const DayWrapper = styled.span`
 		max-height: 40px;
 	}
 `
+
+export const SimpleDay = styled.span<{ $color: string }>`
+	display: inline-block;
+	background-color: ${({ $color }) => $color || "#000000"};
+	height: 12px;
+	width: 12px;
+	border-radius: 6px;
+`
+
 export const ContentWrapper = styled.span`
 	position: relative;
 	transition: ${({ theme }) => theme.transition};

@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "Invii LeetCode"
+      "title": "Invii LeetCode",
+      "reverse": {
+        "false": "Prima la data più recente",
+        "true": "Prima la data più vecchia"
+      },
+      "mode": {
+        "false": "Modalità semplice",
+        "true": "Modalità dettaglio"
+      }
     },
     "questions": {
       "easy": "Facile",
       "hard": "Difficile",
       "medium": "Medio",
       "title": "Domande risolte"
+    },
+    "badges": {
+      "icon": "Icona per il badge {{BadgeName}}",
+      "title": "Elenco dei badge ottenuti",
+      "date": "Data:"
     }
   },
   "errors": {

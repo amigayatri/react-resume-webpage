@@ -232,7 +232,20 @@
       "hard": "Difícil"
     },
     "heatmap": {
-      "title": "Submissões no LeetCode"
+      "title": "Submissões no LeetCode",
+      "reverse": {
+        "false": "Mais recente primeiro",
+        "true": "Mais antiga primeiro"
+      },
+      "mode": {
+        "false": "Modo Simples",
+        "true": "Modo detalhado"
+      }
+    },
+    "badges": {
+      "icon": "Ícone do emblema {{BadgeName}}",
+      "title": "Lista de emblemas obtidos",
+      "date": "Data:"
     }
   },
   "errors": {

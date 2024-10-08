@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "التقديمات LeetCode"
+      "title": "التقديمات LeetCode",
+      "reverse": {
+        "false": "أحدث تاريخ أولا",
+        "true": "أقدم تاريخ أولا"
+      },
+      "mode": {
+        "false": "الوضع البسيط",
+        "true": "وضع التفاصيل"
+      }
     },
     "questions": {
       "easy": "سهل",
       "hard": "صعب",
       "medium": "واسطة",
       "title": "أسئلة محلولة"
+    },
+    "badges": {
+      "icon": "رمز شارة {{BadgeName}}.",
+      "title": "قائمة الشارات التي تم الحصول عليها",
+      "date": "تاريخ:"
     }
   },
   "errors": {

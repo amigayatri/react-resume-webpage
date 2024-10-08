@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode Submissionibus"
+      "title": "LeetCode Submissionibus",
+      "reverse": {
+        "false": "Novissima date primum",
+        "true": "Seniorem date primum"
+      },
+      "mode": {
+        "false": "Simple Modus",
+        "true": "Detail modus"
+      }
     },
     "questions": {
       "easy": "Securus",
       "hard": "Difficilis",
       "medium": "Medium",
       "title": "Solvitur quaestiones"
+    },
+    "badges": {
+      "icon": "Icon pro {{BadgeName}} nota",
+      "title": "Index adeptus insignia",
+      "date": "Date:"
     }
   },
   "errors": {

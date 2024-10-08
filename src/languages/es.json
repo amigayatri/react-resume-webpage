@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "Envíos de LeetCode"
+      "title": "Envíos de LeetCode",
+      "reverse": {
+        "false": "La fecha más reciente primero",
+        "true": "La fecha más antigua primero."
+      },
+      "mode": {
+        "false": "Modo sencillo",
+        "true": "Modo detalle"
+      }
     },
     "questions": {
       "easy": "Fácil",
       "hard": "Difícil",
       "medium": "Medio",
       "title": "Preguntas resueltas"
+    },
+    "badges": {
+      "icon": "Icono de la insignia {{BadgeName}}",
+      "title": "Lista de insignias obtenidas",
+      "date": "Fecha:"
     }
   },
   "errors": {

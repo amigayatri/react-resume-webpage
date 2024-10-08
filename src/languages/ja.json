@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCodeの提出"
+      "title": "LeetCodeの提出",
+      "reverse": {
+        "false": "最新の日付が最初",
+        "true": "最も古い日付が最初"
+      },
+      "mode": {
+        "false": "シンプルモード",
+        "true": "詳細モード"
+      }
     },
     "questions": {
       "easy": "簡単",
       "hard": "難しい",
       "medium": "中くらい",
       "title": "解決された質問"
+    },
+    "badges": {
+      "icon": "{{BadgeName}} バッジのアイコン",
+      "title": "獲得バッジ一覧",
+      "date": "日付："
     }
   },
   "errors": {

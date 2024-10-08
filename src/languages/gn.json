@@ -226,13 +226,26 @@
   },
   "leetcode": {
     "heatmap": {
-      "title": "LeetCode Ñembohasapyre"
+      "title": "LeetCode Ñembohasapyre",
+      "reverse": {
+        "false": "Fecha ipyahuvéva raẽ",
+        "true": "Fecha itujavéva primero"
+      },
+      "mode": {
+        "false": "Modo Simple rehegua",
+        "true": "Modo detalle rehegua"
+      }
     },
     "questions": {
       "easy": "Hasy'ỹ",
       "hard": "Hasy",
       "medium": "Mbyte",
       "title": "Porandu oñesolusiona va’ekue"
+    },
+    "badges": {
+      "icon": "Icono {{BadgeName}} insignia-pe g̃uarã",
+      "title": "Lista umi insignia ojehupytýva rehegua",
+      "date": "Fecha:"
     }
   },
   "errors": {
