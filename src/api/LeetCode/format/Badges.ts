@@ -1,3 +1,5 @@
+import BadgeProps from "../../../types/BadgeProps"
+
 interface RawBadge {
 	id: string
 	displayName: string
@@ -5,13 +7,7 @@ interface RawBadge {
 	creationDate: string
 }
 
-interface Badge {
-	name: string
-	date: Date
-	icon: string
-}
-
-export const emptyBadges: Badge[] = []
+export const emptyBadges: BadgeProps[] = []
 
 interface QueryResult {
 	badges: RawBadge[]
@@ -19,8 +15,10 @@ interface QueryResult {
 
 export const formatBadges = (rawData: QueryResult) => {
 	const { badges } = rawData
-	const formatedBadges: Badge[] = []
+	const formatedBadges: BadgeProps[] = []
+	badges.sort((a, b) => (a.creationDate < b.creationDate ? -1 : 1))
 	badges.forEach((badge: RawBadge) => {
+		console.log(badge.creationDate)
 		formatedBadges.push({
 			name: badge.displayName,
 			icon: badge.icon,

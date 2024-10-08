@@ -5,12 +5,6 @@ import media from "../../../../constants/medias"
 export const Label = styled.span`
 	margin-left: 4px;
 	text-wrap: nowrap;
-	${media.max.sm} {
-		display: inline-block;
-		width: 0;
-		overflow: hidden;
-		transition: ${({ theme }) => theme.transition};
-	}
 `
 
 export const UnderLine = styled.div`
@@ -23,7 +17,7 @@ export const UnderLine = styled.div`
 	transition: ${({ theme }) => theme.transition};
 `
 
-export const ContentWrapper = styled(Link)`
+export const ContentWrapper = styled(Link)<{ $isRTL: boolean }>`
 	text-decoration: none;
 	color: currentColor;
 	line-height: 1;
@@ -32,9 +26,14 @@ export const ContentWrapper = styled(Link)`
 	text-wrap: nowrap;
 	display: block;
 	display: flex;
+	flex-direction: ${({ $isRTL }) => ($isRTL ? "row-reverse" : "row")};
 	align-items: flex-end;
 	justify-content: center;
 	padding: 2px;
+	& ${Label} {
+		margin-left: ${({ $isRTL }) => ($isRTL ? "0" : "8px")};
+		margin-right: ${({ $isRTL }) => ($isRTL ? "8px" : "0")};
+	}
 `
 
 export const LinkWrapper = styled.li<{ $isActive: boolean }>`
@@ -51,17 +50,15 @@ export const LinkWrapper = styled.li<{ $isActive: boolean }>`
 	&:first-of-type {
 		margin-left: 0;
 	}
+	${media.max.md} {
+		margin-left: 0;
+	}
 	&:hover,
 	&:focus {
 		color: ${({ theme }) => theme.accent};
 		& ${UnderLine} {
 			height: 2px;
 			width: 100%;
-		}
-		${media.max.sm} {
-			& ${Label} {
-				width: 96px;
-			}
 		}
 	}
 `

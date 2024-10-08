@@ -11,10 +11,6 @@ export const MenuWrapper = styled.nav`
 	justify-content: space-between;
 	height: 40px;
 	position: relative;
-	${media.max.md} {
-		padding-bottom: 40px;
-		height: 80px;
-	}
 
 	${media.print} {
 		display: none;

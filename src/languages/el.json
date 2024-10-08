@@ -50,7 +50,8 @@
       "leetcode": "Εικονίδιο LeetCode",
       "moon": "Φεγγάρι εικονίδιο",
       "sun": "Εικονίδιο ήλιου",
-      "person": "εικονίδιο προσώπου"
+      "person": "εικονίδιο προσώπου",
+      "more": "Εικονίδιο περισσότερων σελίδων"
     }
   },
   "home": {
@@ -101,23 +102,23 @@
         "title": "Επαγγελματική Εμπειρία",
         "items": {
           "atip": {
-            "text": "Προγραμματιστής στην Atip (συνεργάτης Pepsico). ",
+            "text": "Προγραμματιστής Front-end στην Atip (Pepsico Partner).",
             "subitem": "Χρησιμοποιώντας React, Next.js, StyledComponents και TypeScript σε έργα, σε συνεργασία με την ομάδα της μεξικάνικης Pepsico."
           },
           "techviz": {
-            "text": "Προγραμματιστής στο TechViz. ",
+            "text": "Τεχνικός Υπεύθυνος στο TechViz.",
             "subitem": "Χρήση React, Next.js, Svelte, StyledComponents και TypeScript σε έργα."
           },
           "encora": {
-            "text": "Προγραμματιστής στην Encora Brazil. ",
+            "text": "Προγραμματιστής front-end στην Encora Brazil.",
             "subitem": "Χρήση React, Vue.js και Laravel σε έργα"
           },
           "raccoon": {
-            "text": "Προγραμματιστής Front-end στο Raccoon.Monks. ",
+            "text": "Προγραμματιστής front-end στο Raccoon.Monks.",
             "subitem": "Χρήση React, WordPress, AMP, Next.js, PHP, HTML, Javascript και SCSS σε έργα. "
           },
           "partenero": {
-            "text": "Full Stack Intern στο Partenero. ",
+            "text": "Πλήρης στοίβα ασκούμενος στο Partenero.",
             "subitem": "Χρήση Firebase και Ember"
           },
           "liven": {
@@ -161,27 +162,29 @@
         "title": "Έργα και Δραστηριότητες",
         "items": {
           "accessibility": {
-            "text": "Μάθημα W3Cx «Εισαγωγή στην Προσβασιμότητα στον Ιστό» (Σεπτέμβριος και Οκτώβριος/2022)"
+            "text": "Μάθημα προσβασιμότητας στο Web W3Cx"
           },
           "shehacks": {
-            "text": "1η θέση (από 20 ομάδες) στο SheHacks 2019, ένα Hackathon από το Facebook (Σεπτέμβριος/2019)"
+            "text": "Συμμετέχοντας της νικήτριας ομάδας (μεταξύ 20 ομάδων) του Shehacks, hackathon που πραγματοποιήθηκε στα κεντρικά γραφεία του Facebook"
           },
           "principia": {
-            "text": "Εθελοντής δάσκαλος σε μαθήματα ρομποτικής σε δημόσια σχολεία από το «Principia - Robôs na Escola» (Φεβρουάριος/2019 έως Ιούλιος/2019)"
+            "text": "Εθελοντής παρακολούθησης για διδασκαλία ρομποτικής σε δημόσια σχολεία μέσω του «Principia - Robots at School» για ένα εξάμηνο"
           },
           "vemPraUSP": {
-            "text": "Εθελοντής δάσκαλος στο «Vem Pra USP!», ένα διαδικτυακό μάθημα Scratch and App Inventor για μαθητές δημόσιου λυκείου (Οκτώβριος/2019)"
+            "text": "Παρακολουθεί το διαδικτυακό πρόγραμμα διδασκαλίας προγραμματισμού «Vem Pra USP» για μαθητές γυμνασίου από δημόσια σχολεία"
           },
           "pet": {
-            "text": "Εθελοντής δάσκαλος δύο φορές στο μάθημα βασικών δεξιοτήτων υπολογιστή για ηλικιωμένους (Μάρτιος/2018 έως Μάιος/2018 και Σεπτέμβριος/2018 έως Νοέμβριος/2018)"
+            "text": "Παρακολούθηση στο μάθημα Επιστήμης Υπολογιστών για Ηλικιωμένους στο PET Computação για δύο εξάμηνα"
           }
         }
       }
+    },
+    "dates": {
+      "now": "Τώρα"
     }
   },
   "footer": {
-    "link": "Αναπτηγμένος",
-    "text": " με"
+    "text": "Αναπτύχθηκε από {{name}}"
   },
   "colors": {
     "header": {
@@ -238,6 +241,11 @@
       "hard": "Δύσκολος",
       "medium": "Μέσον",
       "title": "Λυμένες ερωτήσεις"
+    },
+    "badges": {
+      "icon": "Εικονίδιο για το σήμα {{BadgeName}}",
+      "title": "Κατάλογος των ληφθέντων σημάτων",
+      "date": "Ημερομηνία:"
     }
   },
   "errors": {

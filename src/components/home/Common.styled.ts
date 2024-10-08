@@ -11,10 +11,11 @@ export const Wrapper = styled.li`
 	}
 `
 
-export const ButtonStyle = styled.div`
+export const ButtonStyle = styled.div<{ $isRTL: boolean }>`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: ${({ $isRTL }) => ($isRTL ? "row-reverse" : "row")};
 	padding: 24px 32px;
 	border-radius: 16px;
 	background-color: ${({ theme }) => theme.accent};

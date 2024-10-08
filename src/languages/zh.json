@@ -50,7 +50,8 @@
       "leetcode": "LeetCode 图标",
       "moon": "月亮图标",
       "sun": "太阳图标",
-      "person": "人图标"
+      "person": "人图标",
+      "more": "更多页面图标"
     }
   },
   "home": {
@@ -82,7 +83,7 @@
   },
   "resume": {
     "header": {
-      "name": "阿米拉·加亚特里·阿萨德·亨佩尔",
+      "name": "Amira Gayatri El Assad Hempel",
       "subheading": "前端网页开发人员"
     },
     "summary": {
@@ -101,23 +102,23 @@
         "title": "专业经验",
         "items": {
           "atip": {
-            "text": "Atip（百事可乐合作伙伴）的开发人员。 ",
+            "text": "Atip（百事可乐合作伙伴）的前端开发人员。",
             "subitem": "在项目中使用 React、Next.js、StyledComponents 和 TypeScript，与墨西哥 Pepsico 团队合作。"
           },
           "techviz": {
-            "text": "TechViz 的开发人员。 ",
+            "text": "TechViz 的技术主管。",
             "subitem": "在项目中使用 React、Next.js、Svelte、StyledComponents 和 TypeScript。"
           },
           "encora": {
-            "text": "巴西 Encora 的开发商。 ",
+            "text": "Encora Brazil 的前端开发人员。",
             "subitem": "在项目中使用 React、Vue.js 和 Laravel"
           },
           "raccoon": {
-            "text": "Raccoon.Monks 的前端开发人员。 ",
+            "text": "Raccoon.Monks 的前端开发人员。",
             "subitem": "在项目中使用 React、WordPress、AMP、Next.js、PHP、HTML、Javascript 和 SCSS。"
           },
           "partenero": {
-            "text": "Partenero 的全栈实习生。 ",
+            "text": "Partenero 的全栈实习生。",
             "subitem": "使用 Firebase 和 Ember"
           },
           "liven": {
@@ -161,27 +162,29 @@
         "title": "项目和活动",
         "items": {
           "accessibility": {
-            "text": "W3Cx“网页辅助功能简介”课程（2022 年 9 月和 10 月）"
+            "text": "W3Cx 网络无障碍课程"
           },
           "shehacks": {
-            "text": "在 Facebook 举办的黑客马拉松 SheHacks 2019 上获得第一名（共 20 组）（2019 年 9 月）"
+            "text": "在 Facebook 总部举办的黑客松 Shehacks 获胜团队（20 支团队）的参与者"
           },
           "principia": {
-            "text": "“Principia - Robôs na Escola”公立学校机器人课程的志愿者导师（2019 年 2 月至 2019 年 7 月）"
+            "text": "通过“学校机器人原理”为公立学校的机器人教学进行一学期的志愿者监督"
           },
           "vemPraUSP": {
-            "text": "“Vem Pra USP!” 的志愿者导师，这是一门针对公立高中生的在线 Scratch 和 App Inventor 课程（2019 年 10 月）"
+            "text": "监控公立学校高中生的“Vem Pra USP”在线编程教学项目"
           },
           "pet": {
-            "text": "两次担任老年人计算机基础技能课程的志愿者导师（2018年3月至2018年5月和2018年9月至2018年11月）"
+            "text": "在 PET Computação 监督老年人计算机科学课程两个学期"
           }
         }
       }
+    },
+    "dates": {
+      "now": "现在"
     }
   },
   "footer": {
-    "link": "发达",
-    "text": " 经过"
+    "text": "由 {{name}} 开发"
   },
   "colors": {
     "header": {
@@ -238,6 +241,11 @@
       "hard": "难的",
       "medium": "中等的",
       "title": "已解决的问题"
+    },
+    "badges": {
+      "icon": "{{BadgeName}} 徽章的图标",
+      "title": "获得徽章列表",
+      "date": "日期："
     }
   },
   "errors": {

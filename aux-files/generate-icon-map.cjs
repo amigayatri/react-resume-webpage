@@ -1,4 +1,4 @@
-const toExclude = ["Styles.ts", "SVGIcon.tsx", "TemplateName.tsx"]
+const toExclude = ["Styles.ts", "SVGIcon.tsx", "TemplateNameIcon.tsx"]
 
 const fs = require("fs")
 const iconPaths = "./src/icons"

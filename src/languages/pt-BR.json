@@ -50,7 +50,8 @@
       "website": "Ícone de um website",
       "moon": "Ícone de uma lua",
       "sun": "Ícone de um sol",
-      "person": "Ícone de uma pessoa"
+      "person": "Ícone de uma pessoa",
+      "more": "Ícone de mais páginas"
     }
   },
   "home": {
@@ -93,7 +94,7 @@
         "title": "Educação",
         "items": {
           "grad": {
-            "text": "Bacharelado em Ciências de Computação, ICMC USP (Fevereiro/2017, Dezembro/2022)"
+            "text": "Bacharelado em Ciências de Computação, ICMC USP"
           }
         }
       },
@@ -101,27 +102,27 @@
         "title": "Experiência Profissional",
         "items": {
           "atip": {
-            "text": "Desenvolvedora na Atip (parceria com a Pepsico). (Março/2024, Atualmente)",
+            "text": "Desenvolvedora Front-end na Atip (Parceira Pepsico).",
             "subitem": "Utilizando React, Next.js, StyledComponents e TypeScript nos projetos, trabalhando com o time mexicano da Pepsico."
           },
           "techviz": {
-            "text": "Desenvolvedora na TechViz. (Julho/2023, Fevereiro/2024)",
+            "text": "Tech Lead na TechViz.",
             "subitem": "Utilizando React, Next.js, Svelte, StyledComponents e TypeScript nos projetos."
           },
           "encora": {
-            "text": "Desenvolvedora na Encora Brasil. (Fevereiro/2022, Novembro/2022)",
+            "text": "Desenvolvedora Front-end na Encora Brasil.",
             "subitem": "Utilizando React, Vue.js e Laravel nos projetos"
           },
           "raccoon": {
-            "text": "Desenvolvedora na Raccoon.Monks. (Agosto/2020, Fevereiro/2022)",
+            "text": "Desenvolvedora Front-end na Raccoon.Monks.",
             "subitem": "Utilizando React, WordPress, AMP, Next.js, PHP, HTML, Javascript e SCSS nos projetos. Atuando também como líder da guilda de desenvolvedores: guiando reuniões de troca de conhecimento e o treinamento de novos estagiários"
           },
           "partenero": {
-            "text": "Estagiária Full Stack na Partenero. (Fevereiro/2020, Junho/2020)",
+            "text": "Estagiária Full-stack na Partenero.",
             "subitem": "Utilizando Firebase e Ember"
           },
           "liven": {
-            "text": "Estagiária de Front-end Mobile na Liven. (Setembro/2019, dezembro/2019)",
+            "text": "Estagiária Front-end Mobile na Liven.",
             "subitem": "Utilizando React e React Native nos projetos"
           }
         }
@@ -161,27 +162,29 @@
         "title": "Projetos e Atividades",
         "items": {
           "accessibility": {
-            "text": "Curso de Acessibilidade Web da W3Cx (Setembro e Outubro/2022)"
+            "text": "Curso de Acessibilidade Web da W3Cx"
           },
           "shehacks": {
-            "text": "Participante da equipe ganhadora do Shehacks, hackathon realizada na sede do Facebook (Setembro/2019)"
+            "text": "Participante da equipe ganhadora (entre 20 equipes) do Shehacks, hackathon realizada na sede do Facebook"
           },
           "principia": {
-            "text": "Monitora voluntária para ensino de robótica em colégios públicos pelo Principia - Robôs na Escola por um semestre (2019)"
+            "text": "Monitora voluntária para ensino de robótica em colégios públicos pelo \"Principia - Robôs na Escola\" por um semestre"
           },
           "vemPraUSP": {
-            "text": "Monitora no programa “Vem Pra USP” de ensino online de programação para alunos do ensino médio de colégios públicos (2019)"
+            "text": "Monitora no programa “Vem Pra USP” de ensino online de programação para alunos do ensino médio de colégios públicos"
           },
           "pet": {
-            "text": "Monitora no curso de Informática para Idosos do PET Computação por dois semestres (2018)"
+            "text": "Monitora no curso de Informática para Idosos do PET Computação por dois semestres"
           }
         }
       }
+    },
+    "dates": {
+      "now": "Atualmente"
     }
   },
   "footer": {
-    "link": "Desenvolvido",
-    "text": " por"
+    "text": "Desenvolvido por {{name}}"
   },
   "colors": {
     "header": {
@@ -238,6 +241,11 @@
         "false": "Modo Simples",
         "true": "Modo detalhado"
       }
+    },
+    "badges": {
+      "icon": "Ícone do emblema {{BadgeName}}",
+      "title": "Lista de emblemas obtidos",
+      "date": "Data:"
     }
   },
   "errors": {

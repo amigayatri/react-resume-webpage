@@ -50,7 +50,8 @@
       "leetcode": "LeetCode icon",
       "moon": "Luna Icon",
       "sun": "Sol Icon",
-      "person": "Persona icon"
+      "person": "Persona icon",
+      "more": "Plures paginae icon"
     }
   },
   "home": {
@@ -101,23 +102,23 @@
         "title": "Experientia professionales",
         "items": {
           "atip": {
-            "text": "Elit at Atip (Pepsico socium). ",
+            "text": "Ante-finem elit at Atip (Pepsico Partner).",
             "subitem": "Using React, Next.js, StyledComponents et TypeScript in inceptis, operando cum quadrigis mexicani Pepsico."
           },
           "techviz": {
-            "text": "Elit at justo laoreet. ",
+            "text": "Tech Duc ad TechViz.",
             "subitem": "Using React, Next.js, Svelte, StyledComponents et TypeScript in inceptis."
           },
           "encora": {
-            "text": "Elit in Encora Brasiliae. ",
+            "text": "Ante finem elit at Encora Brazil.",
             "subitem": "Using React, Vue.js et Laravel in inceptis"
           },
           "raccoon": {
-            "text": "Ante-finem Developer at Raccoon.Monks. ",
+            "text": "Finis elit ante at Raccoon.Monks.",
             "subitem": "Using React, WordPress, AMP, Next.js, PHP, HTML, Javascript et SCSS in inceptis. "
           },
           "partenero": {
-            "text": "Full Stack Intern at Partenero. ",
+            "text": "Plenus acervus interne apud Partenero.",
             "subitem": "Per Firebase et Quatuor Temporum"
           },
           "liven": {
@@ -161,27 +162,29 @@
         "title": "Incepta et Operationes",
         "items": {
           "accessibility": {
-            "text": "W3Cx 'Introductio ad Web Accessibility' cursum (Septembris et Octobre/2022)"
+            "text": "W3Cx Web Accessibility Course"
           },
           "shehacks": {
-            "text": "Locus 1 (ex 20 coetibus) apud SheHacks MMXIX, Hackathon per Facebook (September/2019)"
+            "text": "Participem turmae victricis (inter XX Partes) Shehacks, hackathon habita apud Facebook praetorium."
           },
           "principia": {
-            "text": "Tutor voluntarius ad classes roboticas in scholis publicis per \"Principia - Robôs na Escola\" (Febr./2019 ad Iulii/2019)"
+            "text": "Monitor voluntarius pro roboticis in scholis publicis tradendis per \"Principia - Robots in Schola\" unius semestri"
           },
           "vemPraUSP": {
-            "text": "Voluntarius paedagogus \"Vem Pra USP\", an Online Scratch et App Inventor cursum publicae scholae studentium (Octobris/2019)"
+            "text": "Monitores \"Vem Pra USP\" programmandi programmatio docendi pro alumnis e scholis publicis"
           },
           "pet": {
-            "text": "Voluntarius tutor bis in Basic Computer Skills cursus pro Senioribus (March/2018 ad Maium/2018 et Septembri/2018 ad Novembrem/2018)"
+            "text": "Monitor in Computacum Scientiarum curriculum pro Senibus ad PET Computacum pro duobus semestris"
           }
         }
       }
+    },
+    "dates": {
+      "now": "Nunc"
     }
   },
   "footer": {
-    "link": "Developed",
-    "text": " by"
+    "text": "Evolvit {name}}"
   },
   "colors": {
     "header": {
@@ -238,6 +241,11 @@
       "hard": "Difficilis",
       "medium": "Medium",
       "title": "Solvitur quaestiones"
+    },
+    "badges": {
+      "icon": "Icon pro {{BadgeName}} nota",
+      "title": "Index adeptus insignia",
+      "date": "Date:"
     }
   },
   "errors": {

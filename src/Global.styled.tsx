@@ -1,16 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 import media from "./constants/medias"
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle<{
+	$isRTL: boolean
+	$isAmplified: boolean
+}>`
     :root {
         --container: 32px;
         --color-container: 32px;
-        --fullpage: calc(100vh - 134px);
+        --fullpage: calc(100vh - 94px);
 
         ${media.min.md} {
             --container: calc((100% - 700px)/ 2);
             --color-container: 64px;
-            --fullpage: calc(100vh - 94px);
         }
 
         ${media.print} {
@@ -24,7 +26,8 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         background-color: ${({ theme }) => theme.background};
         color: ${({ theme }) => theme.primary};
-        font-size: 16px;
+        font-size: ${({ $isAmplified }) => ($isAmplified ? "20px" : "16px")} ;
+        text-align: ${({ $isRTL }) => ($isRTL ? "right" : "left")} ;
     }
 
     * {

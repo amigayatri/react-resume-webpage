@@ -10,4 +10,7 @@ export const HeatMapWrapper = styled.section`
 	border-style: solid;
 	padding: 16px;
 	border-radius: 16px;
+	max-width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
 `

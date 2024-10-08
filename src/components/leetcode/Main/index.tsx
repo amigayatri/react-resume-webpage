@@ -4,6 +4,7 @@ import Profile from "../Profile"
 import Questions from "../Questions"
 import Loading from "../../common/Loading"
 import HeatMap from "../HeatMap"
+import BadgeList from "../BadgeList"
 import { LeetCode } from "../../../api/LeetCode"
 
 interface MainProps {
@@ -27,6 +28,7 @@ const Main = ({ user }: MainProps) => {
 			<MainWrapper>
 				<Profile leetcode={leetcode} />
 				<Questions leetcode={leetcode} />
+				<BadgeList leetcode={leetcode} />
 				<HeatMap leetcode={leetcode} />
 			</MainWrapper>
 		)

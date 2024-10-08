@@ -3,7 +3,6 @@ const useGetFlagCountry = async (countryName: string) => {
 		`https://restcountries.com/v3.1/name/${countryName}?fullText=true`
 	)
 	const [result] = await response.json()
-	console.log(countryName, result)
 	return result.flag
 }
 

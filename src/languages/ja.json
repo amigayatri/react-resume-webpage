@@ -50,7 +50,8 @@
       "leetcode": "リートコードのアイコン",
       "moon": "月のアイコン",
       "sun": "太陽のアイコン",
-      "person": "人のアイコン"
+      "person": "人のアイコン",
+      "more": "「その他のページ」アイコン"
     }
   },
   "home": {
@@ -82,7 +83,7 @@
   },
   "resume": {
     "header": {
-      "name": "アミラ・ガヤトリ・エル・アサド・ヘンペル",
+      "name": "Amira Gayatri El Assad Hempel",
       "subheading": "フロントエンドWeb開発者"
     },
     "summary": {
@@ -101,23 +102,23 @@
         "title": "専門的な経験",
         "items": {
           "atip": {
-            "text": "Atip の開発者 (ペプシコのパートナー)。 ",
+            "text": "Atip (Pepsico Partner) のフロントエンド開発者。",
             "subitem": "プロジェクトで React、Next.js、StyledComponents、TypeScript を使用し、メキシコのペプシコ チームと協力しています。"
           },
           "techviz": {
-            "text": "TechViz の開発者。 ",
+            "text": "TechViz の技術責任者。",
             "subitem": "プロジェクトでの React、Next.js、Svelte、StyledComponents、TypeScript の使用。"
           },
           "encora": {
-            "text": "Encora ブラジルの開発者。 ",
+            "text": "Encora ブラジルのフロントエンド開発者。",
             "subitem": "プロジェクトでの React、Vue.js、Laravel の使用"
           },
           "raccoon": {
-            "text": "Raccoon.Monks のフロントエンド開発者。 ",
+            "text": "Raccoon.Monks のフロントエンド開発者。",
             "subitem": "プロジェクトで React、WordPress、AMP、Next.js、PHP、HTML、JavaScript、SCSS を使用する。"
           },
           "partenero": {
-            "text": "パルテネロのフルスタックインターン。 ",
+            "text": "パルテネロのフルスタックインターン。",
             "subitem": "Firebase と Ember の使用"
           },
           "liven": {
@@ -161,27 +162,29 @@
         "title": "プロジェクトと活動",
         "items": {
           "accessibility": {
-            "text": "W3Cx「Web アクセシビリティ入門」コース (2022 年 9 月と 10 月)"
+            "text": "W3Cx Web アクセシビリティ コース"
           },
           "shehacks": {
-            "text": "Facebookのハッカソン「SheHacks 2019」で1位（20グループ中）（2019年9月）"
+            "text": "Facebook本社で開催されたハッカソン、Shehacksの優勝チーム（20チーム中）の参加者"
           },
           "principia": {
-            "text": "「Principia - Robôs na Escola」による公立学校のロボット教室のボランティア講師（2019年2月～2019年7月）"
+            "text": "「プリンキピア - 学校でのロボット」を通じた公立学校でのロボット教育のボランティアモニターを1学期限定で実施"
           },
           "vemPraUSP": {
-            "text": "公立高校生向けオンラインScratch・App Inventorコース「Vem Pra USP!」ボランティア講師（2019年10月）"
+            "text": "公立高校生向けオンラインプログラミング教育プログラム「Vem Pra USP」をモニター"
           },
           "pet": {
-            "text": "シニア向けパソコン基礎講座のボランティア講師２回（2018年3月～2018年5月、2018年9月～2018年11月）"
+            "text": "PET Computação の高齢者向けコンピュータ サイエンス コースの 2 学期のモニター"
           }
         }
       }
+    },
+    "dates": {
+      "now": "今"
     }
   },
   "footer": {
-    "link": "発展した",
-    "text": " による"
+    "text": "{{name}}によって開発されました"
   },
   "colors": {
     "header": {
@@ -238,6 +241,11 @@
       "hard": "難しい",
       "medium": "中くらい",
       "title": "解決された質問"
+    },
+    "badges": {
+      "icon": "{{BadgeName}} バッジのアイコン",
+      "title": "獲得バッジ一覧",
+      "date": "日付："
     }
   },
   "errors": {

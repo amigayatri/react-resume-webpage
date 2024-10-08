@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
-import { HeaderWrapper, ButtonsWrapper, Title } from "./Header.styled"
+import { HeaderWrapper, ButtonsWrapper } from "./Header.styled"
 import Button from "./Button"
+import { Title } from "../../Common.styled"
 
 interface HeatmapHeaderProps {
 	changeOrder: () => void

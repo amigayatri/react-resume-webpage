@@ -37,6 +37,6 @@ export const FlagWrapper = styled.div`
 	font-size: 1.5rem;
 	margin: 0 16px;
 	${media.max.md} {
-		margin: 16px 0;
+		margin: 8px 0;
 	}
 `

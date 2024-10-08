@@ -14,7 +14,8 @@
     "page": "npx generate-react-cli component --type=page",
     "theme": "npx generate-react-cli component --type=theme --flat",
     "type": "npx generate-react-cli component --type=interfaces --flat",
-    "update": "node .\\aux-files\\generate-icon-map.cjs"
+    "update": "node .\\aux-files\\generate-icon-map.cjs",
+    "langs": "node .\\aux-files\\generate-lang-options.cjs"
   },
   "dependencies": {
     "@fileforge/client": "^0.1.18",
@@ -22,17 +23,20 @@
     "axios": "^1.7.7",
     "generate-react-cli": "^8.4.8",
     "i18next": "^23.7.16",
+    "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
     "react-i18next": "^14.0.0",
     "react-router-dom": "^6.21.2",
+    "rtl-detect": "^1.1.2",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@styled/typescript-styled-plugin": "^1.0.1",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
+    "@types/rtl-detect": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react": "^4.2.1",

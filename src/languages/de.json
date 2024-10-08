@@ -50,7 +50,8 @@
       "leetcode": "LeetCode-Symbol",
       "moon": "Mond-Symbol",
       "sun": "Sonnensymbol",
-      "person": "Personensymbol"
+      "person": "Personensymbol",
+      "more": "Symbol für weitere Seiten"
     }
   },
   "home": {
@@ -101,23 +102,23 @@
         "title": "Berufserfahrung",
         "items": {
           "atip": {
-            "text": "Entwickler bei Atip (Pepsico-Partner). ",
+            "text": "Frontend-Entwickler bei Atip (Pepsico Partner).",
             "subitem": "Verwendung von React, Next.js, StyledComponents und TypeScript in Projekten, Zusammenarbeit mit dem mexikanischen Pepsico-Team."
           },
           "techviz": {
-            "text": "Entwickler bei TechViz. ",
+            "text": "Technischer Leiter bei TechViz.",
             "subitem": "Verwendung von React, Next.js, Svelte, StyledComponents und TypeScript in Projekten."
           },
           "encora": {
-            "text": "Entwickler bei Encora Brasilien. ",
+            "text": "Frontend-Entwickler bei Encora Brasilien.",
             "subitem": "Verwendung von React, Vue.js und Laravel in Projekten"
           },
           "raccoon": {
-            "text": "Frontend-Entwickler bei Raccoon.Monks. ",
+            "text": "Frontend-Entwickler bei Raccoon.Monks.",
             "subitem": "Verwendung von React, WordPress, AMP, Next.js, PHP, HTML, Javascript und SCSS in Projekten. "
           },
           "partenero": {
-            "text": "Full-Stack-Praktikant bei Partenero. ",
+            "text": "Full-Stack-Praktikant bei Partenero.",
             "subitem": "Verwendung von Firebase und Ember"
           },
           "liven": {
@@ -161,27 +162,29 @@
         "title": "Projekte und Aktivitäten",
         "items": {
           "accessibility": {
-            "text": "W3Cx-Kurs „Einführung in die Web-Barrierefreiheit“ (September und Oktober/2022)"
+            "text": "W3Cx-Web-Barrierefreiheitskurs"
           },
           "shehacks": {
-            "text": "1. Platz (von 20 Gruppen) bei SheHacks 2019, einem Hackathon von Facebook (September/2019)"
+            "text": "Teilnehmer des Gewinnerteams (unter 20 Teams) von Shehacks, Hackathon in der Facebook-Zentrale"
           },
           "principia": {
-            "text": "Freiwilliger Tutor für Robotikkurse an öffentlichen Schulen von „Principia – Robôs na Escola“ (Februar/2019 bis Juli/2019)"
+            "text": "Ein Semester lang ehrenamtlicher Beobachter für den Robotikunterricht an öffentlichen Schulen im Rahmen von „Principia – Robots at School“."
           },
           "vemPraUSP": {
-            "text": "Ehrenamtlicher Tutor bei „Vem Pra USP!“, einem Online-Scratch- und App-Erfinderkurs für Schüler öffentlicher weiterführender Schulen (Oktober 2019)"
+            "text": "Überwacht das Online-Programmierlehrprogramm „Vem Pra USP“ für Oberstufenschüler öffentlicher Schulen"
           },
           "pet": {
-            "text": "Zweimal ehrenamtlicher Tutor beim Computer-Grundkurs für Senioren (März/2018 bis Mai/2018 und September/2018 bis November/2018)"
+            "text": "Zwei Semester lang Monitor im Informatikkurs für ältere Menschen an der PET Computação"
           }
         }
       }
+    },
+    "dates": {
+      "now": "Jetzt"
     }
   },
   "footer": {
-    "link": "Entwickelt",
-    "text": " von"
+    "text": "Entwickelt von {{name}}"
   },
   "colors": {
     "header": {
@@ -238,6 +241,11 @@
       "hard": "Schwierig",
       "medium": "Medium",
       "title": "Gelöste Fragen"
+    },
+    "badges": {
+      "icon": "Symbol für das Abzeichen „{{BadgeName}}“.",
+      "title": "Liste der erhaltenen Abzeichen",
+      "date": "Datum:"
     }
   },
   "errors": {

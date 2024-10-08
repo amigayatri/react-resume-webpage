@@ -50,7 +50,8 @@
       "external": "External link symbol",
       "moon": "Moon Icon",
       "sun": "Sun Icon",
-      "person": "Person icon"
+      "person": "Person icon",
+      "more": "More pages icon"
     }
   },
   "home": {
@@ -81,6 +82,9 @@
     }
   },
   "resume": {
+    "dates": {
+      "now": "Now"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Front-end web developer"
@@ -93,7 +97,7 @@
         "title": "Education",
         "items": {
           "grad": {
-            "text": "B.Sc. Computer Science at Universidade de São Paulo, São Carlos - SP, Brazil (February/2017, December/2022)"
+            "text": "B.Sc. Computer Science at Universidade de São Paulo, São Carlos - SP, Brazil"
           }
         }
       },
@@ -101,27 +105,27 @@
         "title": "Professional Experience",
         "items": {
           "atip": {
-            "text": "Developer at Atip (Pepsico partner). (March/2024, Now)",
+            "text": "Front-end developer at Atip (Pepsico Partner).",
             "subitem": "Using React, Next.js, StyledComponents and TypeScript in projects, working with the mexican Pepsico team."
           },
           "techviz": {
-            "text": "Developer at TechViz. (July/2023, February/2024)",
+            "text": "Tech Lead at TechViz.",
             "subitem": "Using React, Next.js, Svelte, StyledComponents and TypeScript in projects."
           },
           "encora": {
-            "text": "Developer at Encora Brazil. (February/2022, November/2022)",
+            "text": "Front-end developer at Encora Brazil.",
             "subitem": "Using React, Vue.js and Laravel in projects"
           },
           "raccoon": {
-            "text": "Front-end Developer at Raccoon.Monks. (August/2020, February/2022)",
-            "subitem": "Using React, WordPress, AMP, Next.js, PHP, HTML, Javascript and SCSS in projects. Also acting as leader of the developers guild, leading knowledge exchange meetings and training interns."
+            "text": "Front-end Developer at Raccoon.Monks.",
+            "subitem": "Using React, WordPress, AMP, Next.js, StyledComponets, PHP, HTML, Javascript and SCSS in projects. Also acting as leader of the developers guild, leading knowledge exchange meetings and training interns."
           },
           "partenero": {
-            "text": "Full Stack Intern at Partenero. (February/2020, June/2020)",
+            "text": "Full-stack intern at Partenero.",
             "subitem": "Using Firebase and Ember"
           },
           "liven": {
-            "text": "Front-end Mobile Intern at Liven. (September/2019, December/2019)",
+            "text": "Front-end Mobile Intern at Liven.",
             "subitem": "Using React and React Native in projects"
           }
         }
@@ -161,27 +165,26 @@
         "title": "Projects and Activities",
         "items": {
           "accessibility": {
-            "text": "W3Cx 'Introduction to Web Accessibility' course (September and October/2022)"
+            "text": "W3Cx Web Accessibility Course"
           },
           "shehacks": {
-            "text": "1st place (out of 20 groups) at SheHacks 2019, a Hackathon by Facebook (September/2019)"
+            "text": "Participant of the winning team (among 20 teams) of Shehacks, hackathon held at Facebook headquarters"
           },
           "principia": {
-            "text": "Volunteer tutor to robotics classes in public schools by “Principia - Robôs na Escola” (February/2019 to July/2019)"
+            "text": "Volunteer monitor for robotics teaching in public schools through \"Principia - Robots at School\" for one semester"
           },
           "vemPraUSP": {
-            "text": "Volunteer tutor at “Vem Pra USP!”, an Online Scratch and App Inventor course for public high school students (October/2019)"
+            "text": "Monitors the “Vem Pra USP” online programming teaching program for high school students from public schools"
           },
           "pet": {
-            "text": "Volunteer tutor twice at Basic Computer Skills Course for Seniors (March/2018 to May/2018 and September/2018 to November/2018)"
+            "text": "Monitor in the Computer Science course for the Elderly at PET Computação for two semesters"
           }
         }
       }
     }
   },
   "footer": {
-    "link": "Developed",
-    "text": " by"
+    "text": "Developed by {{name}}"
   },
   "colors": {
     "header": {
@@ -222,6 +225,11 @@
     "summary": "These language options were generated with an automatic translator, to train the use of i18n-next"
   },
   "leetcode": {
+    "badges": {
+      "title": "List of obtained badges",
+      "icon": "Icon for {{BadgeName}} badge",
+      "date": "Date: "
+    },
     "heatmap": {
       "title": "LeetCode Submissions",
       "reverse": {

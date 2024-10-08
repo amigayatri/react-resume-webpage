@@ -11,12 +11,16 @@ import {
 import { SectionTitle } from "../Common.styled"
 import { SetStateAction, useState } from "react"
 import { changeSteps, regex, variationSteps } from "../../../lib/colors"
+import { getLangDir } from "rtl-detect"
 
-const AddColor = (props: {
+const AddColor = ({
+	add,
+	regenerate
+}: {
 	add: (arg0: string) => void
 	regenerate: () => void
 }) => {
-	const { t } = useTranslation()
+	const { t, i18n } = useTranslation()
 	const [showColorSelector, setShowColorSelector] = useState(false)
 	const [showColorTextInput, setShowColorTextInput] = useState(false)
 	const [showChangeSteps, setShowChangeSteps] = useState(false)
@@ -35,19 +39,21 @@ const AddColor = (props: {
 		const toAdd = list.toUpperCase().split(" ")
 		for (const colorCode of toAdd) {
 			if (regex.test(colorCode)) {
-				props.add(colorCode)
+				add(colorCode)
 			}
 		}
 	}
 	const handleSteps = (newSteps: string) => {
 		changeSteps(Number(newSteps))
-		props.regenerate()
+		regenerate()
 	}
+	const isRTL = getLangDir(i18n.language) === "rtl"
 	return (
 		<Wrapper>
 			<SectionTitle>{t("colors.addColor.title")}</SectionTitle>
-			<ButtonWrapper>
+			<ButtonWrapper $isRTL={isRTL}>
 				<Button
+					$isRTL={isRTL}
 					hidden={showColorTextInput || showChangeSteps}
 					onClick={() => handleShow(!showColorSelector, setShowColorSelector)}
 				>
@@ -56,6 +62,7 @@ const AddColor = (props: {
 						: t("colors.addColor.buttons.addOne.hidden")}
 				</Button>
 				<Button
+					$isRTL={isRTL}
 					hidden={showColorSelector || showChangeSteps}
 					onClick={() => handleShow(!showColorTextInput, setShowColorTextInput)}
 				>
@@ -64,6 +71,7 @@ const AddColor = (props: {
 						: t("colors.addColor.buttons.addMany.hidden")}
 				</Button>
 				<Button
+					$isRTL={isRTL}
 					hidden={showColorSelector || showColorTextInput}
 					onClick={() => handleShow(!showChangeSteps, setShowChangeSteps)}
 				>
@@ -75,7 +83,7 @@ const AddColor = (props: {
 			<InputWrapper>
 				{showColorSelector && (
 					<ColorSelector
-						onChange={(e) => props.add(e.target.value)}
+						onChange={(e) => add(e.target.value)}
 						defaultValue="#666666"
 						type="color"
 					/>
