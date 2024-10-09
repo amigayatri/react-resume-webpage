@@ -16,7 +16,7 @@ interface MainProps {
 const Main = ({ user }: MainProps) => {
 	const [leetcode, setLeetcode] = useState(new LeetCode(" "))
 	useEffect(() => {
-		const lc = new LeetCode(user)
+		const lc = new LeetCode(user, 5)
 		setLeetcode(lc)
 	}, [user])
 	if (leetcode.user === " ") {

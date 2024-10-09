@@ -8,11 +8,11 @@ interface QueryResult {
 	}
 }
 
-export const formatLanguages = (rawData: QueryResult) => {
+export const formatLanguages = (rawData: QueryResult, min: number) => {
 	const languages = rawData.matchedUser.languageProblemCount
 	const relevantLanguages: Language[] = []
 	languages.forEach((lang: Language) => {
-		if (lang.problemsSolved >= 5) {
+		if (lang.problemsSolved >= min) {
 			relevantLanguages.push(lang)
 		}
 	})
