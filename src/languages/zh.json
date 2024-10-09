@@ -1,198 +1,6 @@
 {
-  "menu": {
-    "languages": {
-      "ar-LB": "黎巴嫩 阿拉伯语",
-      "ar": "标准现代阿拉伯语",
-      "bn": "孟加拉",
-      "de": "德语",
-      "el": "希腊语",
-      "en": "英语",
-      "es": "西班牙语/卡斯蒂利亚语",
-      "fr": "法语",
-      "gn": "瓜拉尼语",
-      "hi": "印地语",
-      "it": "意大利语",
-      "ja": "日本人",
-      "la": "拉丁",
-      "pa": "旁遮普语",
-      "pt-BR": "巴西葡萄牙语",
-      "zh": "中国人",
-      "ru": "俄语"
-    },
-    "theme": {
-      "change": "更改网站主题"
-    }
-  },
-  "paths": {
-    "title": {
-      "404": "未找到",
-      "home": "主页",
-      "resume": "恢复",
-      "colors": "颜色变化",
-      "extralanguages": "额外语言",
-      "leetcode": "Leet代码",
-      "maintenance": "页面正在维护中"
-    }
-  },
-  "icons": {
-    "alt": {
-      "linkedin": "领英图标",
-      "mail": "电子邮件图标",
-      "website": "网站图标",
-      "phone": "电话图标",
-      "code": "两个大括号图标",
-      "download": "文档下载图标",
-      "email": "邮件图标",
-      "github": "GitHub 图标",
-      "palette": "调色板图标",
-      "home": "主页图标",
-      "external": "外部链接符号",
-      "leetcode": "LeetCode 图标",
-      "moon": "月亮图标",
-      "sun": "太阳图标",
-      "person": "人图标",
-      "more": "更多页面图标"
-    }
-  },
-  "home": {
-    "header": {
-      "name": "阿米拉·加亚特里",
-      "subheading": "点击您想查看的页面即可打开它！"
-    },
-    "pageList": {
-      "home": {
-        "title": "主页"
-      },
-      "colors": {
-        "title": "阴影发生器"
-      },
-      "resume": {
-        "title": "我的简历"
-      },
-      "extralanguages": {
-        "title": "额外语言"
-      },
-      "leetcode": {
-        "title": "LeetCode 统计"
-      }
-    },
-    "externalLinks": {
-      "linkedin": "领英",
-      "github": "源代码"
-    }
-  },
-  "resume": {
-    "header": {
-      "name": "Amira Gayatri El Assad Hempel",
-      "subheading": "前端网页开发人员"
-    },
-    "summary": {
-      "text": "计算机科学专业毕业，拥有五年 Web 开发经验，主要担任前端开发人员。"
-    },
-    "sections": {
-      "education": {
-        "title": "教育",
-        "items": {
-          "grad": {
-            "text": "理学学士"
-          }
-        }
-      },
-      "experience": {
-        "title": "专业经验",
-        "items": {
-          "atip": {
-            "text": "Atip（百事可乐合作伙伴）的前端开发人员。",
-            "subitem": "在项目中使用 React、Next.js、StyledComponents 和 TypeScript，与墨西哥 Pepsico 团队合作。"
-          },
-          "techviz": {
-            "text": "TechViz 的技术主管。",
-            "subitem": "在项目中使用 React、Next.js、Svelte、StyledComponents 和 TypeScript。"
-          },
-          "encora": {
-            "text": "Encora Brazil 的前端开发人员。",
-            "subitem": "在项目中使用 React、Vue.js 和 Laravel"
-          },
-          "raccoon": {
-            "text": "Raccoon.Monks 的前端开发人员。",
-            "subitem": "在项目中使用 React、WordPress、AMP、Next.js、PHP、HTML、Javascript 和 SCSS。"
-          },
-          "partenero": {
-            "text": "Partenero 的全栈实习生。",
-            "subitem": "使用 Firebase 和 Ember"
-          },
-          "liven": {
-            "text": "Liven 的前端移动实习生。 ",
-            "subitem": "在项目中使用 React 和 React Native"
-          }
-        }
-      },
-      "languages": {
-        "title": "语言",
-        "items": {
-          "pt": {
-            "text": "母语巴西葡萄牙语"
-          },
-          "en": {
-            "text": "高级英语"
-          }
-        }
-      },
-      "technologies": {
-        "title": "技术",
-        "items": {
-          "webbasics": {
-            "text": "JavaScript、HTML 和 CSS"
-          },
-          "javascript": {
-            "text": "React、样式化组件和 Next.js"
-          },
-          "otherframeworks": {
-            "text": "SCSS、AMP、React Native、Vue.js 和 Svelte"
-          },
-          "php": {
-            "text": "WordPress、PHP 和 Laravel"
-          },
-          "basics": {
-            "text": "Linux 和 GIT"
-          }
-        }
-      },
-      "projects": {
-        "title": "项目和活动",
-        "items": {
-          "accessibility": {
-            "text": "W3Cx 网络无障碍课程"
-          },
-          "shehacks": {
-            "text": "在 Facebook 总部举办的黑客松 Shehacks 获胜团队（20 支团队）的参与者"
-          },
-          "principia": {
-            "text": "通过“学校机器人原理”为公立学校的机器人教学进行一学期的志愿者监督"
-          },
-          "vemPraUSP": {
-            "text": "监控公立学校高中生的“Vem Pra USP”在线编程教学项目"
-          },
-          "pet": {
-            "text": "在 PET Computação 监督老年人计算机科学课程两个学期"
-          }
-        }
-      }
-    },
-    "dates": {
-      "now": "现在"
-    }
-  },
-  "footer": {
-    "text": "由 {{name}} 开发"
-  },
   "colors": {
-    "header": {
-      "title": "颜色变化发生器",
-      "summary": "创建黑色和白色的颜色变化，每个方向的默认变化数量为 10，但可以更改"
-    },
     "addColor": {
-      "title": "添加颜色",
       "buttons": {
         "addMany": {
           "hidden": "添加多个",
@@ -206,35 +14,108 @@
           "hidden": "更改变体编号",
           "showing": "停止更改变体编号"
         }
-      }
+      },
+      "title": "添加颜色"
     },
     "colorList": {
-      "title": "添加了颜色",
       "summary": {
         "empty": "您还没有添加任何颜色",
         "nonEmpty": "点击删除"
-      }
+      },
+      "title": "添加了颜色"
+    },
+    "header": {
+      "summary": "创建黑色和白色的颜色变化，每个方向的默认变化数量为 10，但可以更改",
+      "title": "颜色变化发生器"
     },
     "shades": {
-      "title": "色调",
-      "summary": "点击复制颜色！"
+      "summary": "点击复制颜色！",
+      "title": "色调"
     }
   },
+  "errors": {
+    "404": "找不到页面！",
+    "maintenance": "页面正在维护中！"
+  },
   "extralanguages": {
-    "title": "额外语言",
-    "summary": "这些语言选项是使用自动翻译器生成的，用于训练 i18n-next 的使用"
+    "summary": "这些语言选项是使用自动翻译器生成的，用于训练 i18n-next 的使用",
+    "title": "额外语言"
+  },
+  "footer": {
+    "text": "由 {{name}} 开发"
+  },
+  "home": {
+    "externalLinks": {
+      "github": "源代码",
+      "linkedin": "领英"
+    },
+    "header": {
+      "name": "阿米拉·加亚特里",
+      "subheading": "点击您想查看的页面即可打开它！"
+    },
+    "pageList": {
+      "colors": {
+        "title": "阴影发生器"
+      },
+      "extralanguages": {
+        "title": "额外语言"
+      },
+      "home": {
+        "title": "主页"
+      },
+      "leetcode": {
+        "title": "LeetCode 统计"
+      },
+      "resume": {
+        "title": "我的简历"
+      }
+    }
+  },
+  "icons": {
+    "alt": {
+      "code": "两个大括号图标",
+      "download": "文档下载图标",
+      "email": "邮件图标",
+      "external": "外部链接符号",
+      "github": "GitHub 图标",
+      "home": "主页图标",
+      "leetcode": "LeetCode 图标",
+      "linkedin": "领英图标",
+      "mail": "电子邮件图标",
+      "moon": "月亮图标",
+      "more": "更多页面图标",
+      "palette": "调色板图标",
+      "person": "人图标",
+      "phone": "电话图标",
+      "sun": "太阳图标",
+      "website": "网站图标"
+    }
   },
   "leetcode": {
+    "badges": {
+      "date": "日期：",
+      "details": {
+        "false": "点击徽章即可查看详细信息！",
+        "true": "{{BadgeName}}成功获得！"
+      },
+      "icon": "{{BadgeName}} 徽章的图标",
+      "summary": "徽章名称为英文，与 LeetCode 中使用的名称相匹配。",
+      "title": "获得徽章列表"
+    },
     "heatmap": {
-      "title": "LeetCode 提交",
+      "mode": {
+        "false": "简单模式",
+        "true": "细节模式"
+      },
       "reverse": {
         "false": "最新日期优先",
         "true": "最旧的日期在前"
       },
-      "mode": {
-        "false": "简单模式",
-        "true": "细节模式"
-      }
+      "title": "LeetCode 提交"
+    },
+    "languages": {
+      "summary": "这里只列出了完成了 5 个或更多问题的编程语言。\n将鼠标悬停即可查看有多少！",
+      "title": "使用的编程语言"
     },
     "questions": {
       "easy": "简单的",
@@ -242,22 +123,147 @@
       "medium": "中等的",
       "title": "已解决的问题"
     },
-    "badges": {
-      "icon": "{{BadgeName}} 徽章的图标",
-      "title": "获得徽章列表",
-      "date": "日期："
-    },
-    "languages": {
-      "summary": "这里只列出了完成了 5 个或更多问题的编程语言。\n将鼠标悬停即可查看有多少！"
-    },
     "skills": {
       "level": "{{level}} Skills",
       "summary": "LeetCode GraphQL API 中有这样的划分问题，名称没有翻译。",
       "title": "技能清单"
     }
   },
-  "errors": {
-    "404": "找不到页面！",
-    "maintenance": "页面正在维护中！"
+  "menu": {
+    "languages": {
+      "ar": "标准现代阿拉伯语",
+      "ar-LB": "黎巴嫩 阿拉伯语",
+      "bn": "孟加拉",
+      "de": "德语",
+      "el": "希腊语",
+      "en": "英语",
+      "es": "西班牙语/卡斯蒂利亚语",
+      "fr": "法语",
+      "gn": "瓜拉尼语",
+      "hi": "印地语",
+      "it": "意大利语",
+      "ja": "日本人",
+      "la": "拉丁",
+      "pa": "旁遮普语",
+      "pt-BR": "巴西葡萄牙语",
+      "ru": "俄语",
+      "zh": "中国人"
+    },
+    "theme": {
+      "change": "更改网站主题"
+    }
+  },
+  "paths": {
+    "title": {
+      "404": "未找到",
+      "colors": "颜色变化",
+      "extralanguages": "额外语言",
+      "home": "主页",
+      "leetcode": "Leet代码",
+      "maintenance": "页面正在维护中",
+      "resume": "恢复"
+    }
+  },
+  "resume": {
+    "dates": {
+      "now": "现在"
+    },
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "前端网页开发人员"
+    },
+    "sections": {
+      "education": {
+        "items": {
+          "grad": {
+            "text": "理学学士"
+          }
+        },
+        "title": "教育"
+      },
+      "experience": {
+        "items": {
+          "atip": {
+            "subitem": "在项目中使用 React、Next.js、StyledComponents 和 TypeScript，与墨西哥 Pepsico 团队合作。",
+            "text": "Atip（百事可乐合作伙伴）的前端开发人员。"
+          },
+          "encora": {
+            "subitem": "在项目中使用 React、Vue.js 和 Laravel",
+            "text": "Encora Brazil 的前端开发人员。"
+          },
+          "liven": {
+            "subitem": "在项目中使用 React 和 React Native",
+            "text": "Liven 的前端移动实习生。 "
+          },
+          "partenero": {
+            "subitem": "使用 Firebase 和 Ember",
+            "text": "Partenero 的全栈实习生。"
+          },
+          "raccoon": {
+            "subitem": "在项目中使用 React、WordPress、AMP、Next.js、PHP、HTML、Javascript 和 SCSS。",
+            "text": "Raccoon.Monks 的前端开发人员。"
+          },
+          "techviz": {
+            "subitem": "在项目中使用 React、Next.js、Svelte、StyledComponents 和 TypeScript。",
+            "text": "TechViz 的技术主管。"
+          }
+        },
+        "title": "专业经验"
+      },
+      "languages": {
+        "items": {
+          "en": {
+            "text": "高级英语"
+          },
+          "pt": {
+            "text": "母语巴西葡萄牙语"
+          }
+        },
+        "title": "语言"
+      },
+      "projects": {
+        "items": {
+          "accessibility": {
+            "text": "W3Cx 网络无障碍课程"
+          },
+          "pet": {
+            "text": "在 PET Computação 监督老年人计算机科学课程两个学期"
+          },
+          "principia": {
+            "text": "通过“学校机器人原理”为公立学校的机器人教学进行一学期的志愿者监督"
+          },
+          "shehacks": {
+            "text": "在 Facebook 总部举办的黑客松 Shehacks 获胜团队（20 支团队）的参与者"
+          },
+          "vemPraUSP": {
+            "text": "监控公立学校高中生的“Vem Pra USP”在线编程教学项目"
+          }
+        },
+        "title": "项目和活动"
+      },
+      "technologies": {
+        "items": {
+          "basics": {
+            "text": "Linux 和 GIT"
+          },
+          "javascript": {
+            "text": "React、样式化组件和 Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS、AMP、React Native、Vue.js 和 Svelte"
+          },
+          "php": {
+            "text": "WordPress、PHP 和 Laravel"
+          },
+          "webbasics": {
+            "text": "JavaScript、HTML 和 CSS"
+          }
+        },
+        "title": "技术"
+      }
+    },
+    "summary": {
+      "text": "计算机科学专业毕业，拥有五年 Web 开发经验，主要担任前端开发人员。"
+    }
   }
 }

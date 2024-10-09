@@ -1,198 +1,6 @@
 {
-  "menu": {
-    "languages": {
-      "ar-LB": "Λιβανέζικα αραβικά",
-      "ar": "Τυπικά σύγχρονα αραβικά",
-      "bn": "Μπενγκάλι",
-      "de": "Γερμανός",
-      "el": "ελληνικά",
-      "en": "αγγλικός",
-      "es": "Ισπανικά/Καστιλιάνικα",
-      "fr": "Γάλλος",
-      "gn": "Γκουαρανί",
-      "hi": "Χίντι",
-      "it": "ιταλικά",
-      "ja": "Ιαπωνικά",
-      "la": "λατινικά",
-      "pa": "Παντζάμπι",
-      "pt-BR": "Πορτογάλοι Βραζιλίας",
-      "zh": "κινέζικα",
-      "ru": "ρωσικός"
-    },
-    "theme": {
-      "change": "Αλλαγή θέματος ιστότοπου"
-    }
-  },
-  "paths": {
-    "title": {
-      "404": "Δεν βρέθηκε",
-      "home": "Αρχική σελίδα",
-      "resume": "Περίληψη",
-      "colors": "Παραλλαγές χρώματος",
-      "extralanguages": "Επιπλέον γλώσσες",
-      "leetcode": "LeetCode",
-      "maintenance": "Η σελίδα βρίσκεται υπό συντήρηση"
-    }
-  },
-  "icons": {
-    "alt": {
-      "linkedin": "Εικονίδιο Linkedin",
-      "mail": "Εικονίδιο ηλεκτρονικού ταχυδρομείου",
-      "website": "Ένα εικονίδιο ιστότοπου",
-      "phone": "Εικονίδιο τηλεφώνου",
-      "code": "Εικονίδιο δύο σγουρά παρενθέσεις",
-      "download": "Εικονίδιο λήψης εγγράφου",
-      "email": "Εικονίδιο αλληλογραφίας",
-      "github": "Εικονίδιο GitHub",
-      "palette": "Εικονίδιο παλέτας χρωμάτων",
-      "home": "Αρχική εικόνα",
-      "external": "Σύμβολο εξωτερικού συνδέσμου",
-      "leetcode": "Εικονίδιο LeetCode",
-      "moon": "Φεγγάρι εικονίδιο",
-      "sun": "Εικονίδιο ήλιου",
-      "person": "εικονίδιο προσώπου",
-      "more": "Εικονίδιο περισσότερων σελίδων"
-    }
-  },
-  "home": {
-    "header": {
-      "name": "Amira Gayatri",
-      "subheading": "Κάντε κλικ στη σελίδα που θέλετε να δείτε για να την ανοίξετε!"
-    },
-    "pageList": {
-      "home": {
-        "title": "Αρχική σελίδα"
-      },
-      "colors": {
-        "title": "Γεννήτρια σκίασης"
-      },
-      "resume": {
-        "title": "Το βιογραφικό μου"
-      },
-      "extralanguages": {
-        "title": "Επιπλέον γλώσσες"
-      },
-      "leetcode": {
-        "title": "Στατιστικά LeetCode"
-      }
-    },
-    "externalLinks": {
-      "linkedin": "Linkedin",
-      "github": "Πηγαίος κώδικας"
-    }
-  },
-  "resume": {
-    "header": {
-      "name": "Amira Gayatri El Assad Hempel",
-      "subheading": "Εμπρός προγραμματιστής ιστού"
-    },
-    "summary": {
-      "text": "Πτυχιούχος Πληροφορικής, έχει πενταετή εμπειρία στην ανάπτυξη ιστοσελίδων, κυρίως ως Front-end Developer. "
-    },
-    "sections": {
-      "education": {
-        "title": "Εκπαίδευση",
-        "items": {
-          "grad": {
-            "text": "B.Sc. "
-          }
-        }
-      },
-      "experience": {
-        "title": "Επαγγελματική Εμπειρία",
-        "items": {
-          "atip": {
-            "text": "Προγραμματιστής Front-end στην Atip (Pepsico Partner).",
-            "subitem": "Χρησιμοποιώντας React, Next.js, StyledComponents και TypeScript σε έργα, σε συνεργασία με την ομάδα της μεξικάνικης Pepsico."
-          },
-          "techviz": {
-            "text": "Τεχνικός Υπεύθυνος στο TechViz.",
-            "subitem": "Χρήση React, Next.js, Svelte, StyledComponents και TypeScript σε έργα."
-          },
-          "encora": {
-            "text": "Προγραμματιστής front-end στην Encora Brazil.",
-            "subitem": "Χρήση React, Vue.js και Laravel σε έργα"
-          },
-          "raccoon": {
-            "text": "Προγραμματιστής front-end στο Raccoon.Monks.",
-            "subitem": "Χρήση React, WordPress, AMP, Next.js, PHP, HTML, Javascript και SCSS σε έργα. "
-          },
-          "partenero": {
-            "text": "Πλήρης στοίβα ασκούμενος στο Partenero.",
-            "subitem": "Χρήση Firebase και Ember"
-          },
-          "liven": {
-            "text": "Front-end Mobile Intern στο Liven. ",
-            "subitem": "Χρήση React και React Native σε έργα"
-          }
-        }
-      },
-      "languages": {
-        "title": "Γλώσσες",
-        "items": {
-          "pt": {
-            "text": "Ιθαγενείς Πορτογάλοι Βραζιλίας"
-          },
-          "en": {
-            "text": "Προχωρημένα Αγγλικά"
-          }
-        }
-      },
-      "technologies": {
-        "title": "τεχνολογίες",
-        "items": {
-          "webbasics": {
-            "text": "Javascript, HTML και CSS"
-          },
-          "javascript": {
-            "text": "React, Styled Components και Next.js"
-          },
-          "otherframeworks": {
-            "text": "SCSS, AMP, React Native, Vue.js και Svelte"
-          },
-          "php": {
-            "text": "WordPress, PHP και Laravel"
-          },
-          "basics": {
-            "text": "Linux και GIT"
-          }
-        }
-      },
-      "projects": {
-        "title": "Έργα και Δραστηριότητες",
-        "items": {
-          "accessibility": {
-            "text": "Μάθημα προσβασιμότητας στο Web W3Cx"
-          },
-          "shehacks": {
-            "text": "Συμμετέχοντας της νικήτριας ομάδας (μεταξύ 20 ομάδων) του Shehacks, hackathon που πραγματοποιήθηκε στα κεντρικά γραφεία του Facebook"
-          },
-          "principia": {
-            "text": "Εθελοντής παρακολούθησης για διδασκαλία ρομποτικής σε δημόσια σχολεία μέσω του «Principia - Robots at School» για ένα εξάμηνο"
-          },
-          "vemPraUSP": {
-            "text": "Παρακολουθεί το διαδικτυακό πρόγραμμα διδασκαλίας προγραμματισμού «Vem Pra USP» για μαθητές γυμνασίου από δημόσια σχολεία"
-          },
-          "pet": {
-            "text": "Παρακολούθηση στο μάθημα Επιστήμης Υπολογιστών για Ηλικιωμένους στο PET Computação για δύο εξάμηνα"
-          }
-        }
-      }
-    },
-    "dates": {
-      "now": "Τώρα"
-    }
-  },
-  "footer": {
-    "text": "Αναπτύχθηκε από {{name}}"
-  },
   "colors": {
-    "header": {
-      "title": "Γεννήτρια χρωματικής παραλλαγής",
-      "summary": "Δημιουργεί χρωματικές παραλλαγές για ασπρόμαυρο, ο προεπιλεγμένος αριθμός παραλλαγών είναι 10 σε κάθε κατεύθυνση, αλλά μπορεί να αλλάξει"
-    },
     "addColor": {
-      "title": "Προσθέστε χρώμα",
       "buttons": {
         "addMany": {
           "hidden": "Προσθέστε περισσότερα από ένα",
@@ -206,35 +14,108 @@
           "hidden": "Αλλαγή αριθμού παραλλαγής",
           "showing": "Διακοπή αλλαγής αριθμών παραλλαγής"
         }
-      }
+      },
+      "title": "Προσθέστε χρώμα"
     },
     "colorList": {
-      "title": "Προστέθηκαν χρώματα",
       "summary": {
         "empty": "Δεν έβαλες ακόμα χρώμα",
         "nonEmpty": "Κάντε κλικ για κατάργηση"
-      }
+      },
+      "title": "Προστέθηκαν χρώματα"
+    },
+    "header": {
+      "summary": "Δημιουργεί χρωματικές παραλλαγές για ασπρόμαυρο, ο προεπιλεγμένος αριθμός παραλλαγών είναι 10 σε κάθε κατεύθυνση, αλλά μπορεί να αλλάξει",
+      "title": "Γεννήτρια χρωματικής παραλλαγής"
     },
     "shades": {
-      "title": "Αποχρώσεις",
-      "summary": "Κάντε κλικ για να αντιγράψετε το χρώμα!"
+      "summary": "Κάντε κλικ για να αντιγράψετε το χρώμα!",
+      "title": "Αποχρώσεις"
     }
   },
+  "errors": {
+    "404": "Η σελίδα δεν βρέθηκε!",
+    "maintenance": "Η σελίδα τελεί υπό συντήρηση!"
+  },
   "extralanguages": {
-    "title": "Επιπλέον γλώσσες",
-    "summary": "Αυτές οι επιλογές γλώσσας δημιουργήθηκαν με έναν αυτόματο μεταφραστή, για την εκπαίδευση στη χρήση του i18n-next"
+    "summary": "Αυτές οι επιλογές γλώσσας δημιουργήθηκαν με έναν αυτόματο μεταφραστή, για την εκπαίδευση στη χρήση του i18n-next",
+    "title": "Επιπλέον γλώσσες"
+  },
+  "footer": {
+    "text": "Αναπτύχθηκε από {{name}}"
+  },
+  "home": {
+    "externalLinks": {
+      "github": "Πηγαίος κώδικας",
+      "linkedin": "Linkedin"
+    },
+    "header": {
+      "name": "Amira Gayatri",
+      "subheading": "Κάντε κλικ στη σελίδα που θέλετε να δείτε για να την ανοίξετε!"
+    },
+    "pageList": {
+      "colors": {
+        "title": "Γεννήτρια σκίασης"
+      },
+      "extralanguages": {
+        "title": "Επιπλέον γλώσσες"
+      },
+      "home": {
+        "title": "Αρχική σελίδα"
+      },
+      "leetcode": {
+        "title": "Στατιστικά LeetCode"
+      },
+      "resume": {
+        "title": "Το βιογραφικό μου"
+      }
+    }
+  },
+  "icons": {
+    "alt": {
+      "code": "Εικονίδιο δύο σγουρά παρενθέσεις",
+      "download": "Εικονίδιο λήψης εγγράφου",
+      "email": "Εικονίδιο αλληλογραφίας",
+      "external": "Σύμβολο εξωτερικού συνδέσμου",
+      "github": "Εικονίδιο GitHub",
+      "home": "Αρχική εικόνα",
+      "leetcode": "Εικονίδιο LeetCode",
+      "linkedin": "Εικονίδιο Linkedin",
+      "mail": "Εικονίδιο ηλεκτρονικού ταχυδρομείου",
+      "moon": "Φεγγάρι εικονίδιο",
+      "more": "Εικονίδιο περισσότερων σελίδων",
+      "palette": "Εικονίδιο παλέτας χρωμάτων",
+      "person": "εικονίδιο προσώπου",
+      "phone": "Εικονίδιο τηλεφώνου",
+      "sun": "Εικονίδιο ήλιου",
+      "website": "Ένα εικονίδιο ιστότοπου"
+    }
   },
   "leetcode": {
+    "badges": {
+      "date": "Ημερομηνία:",
+      "details": {
+        "false": "Κάντε κλικ σε ένα σήμα για να δείτε λεπτομέρειες!",
+        "true": "Το {{BadgeName}} αποκτήθηκε με επιτυχία!"
+      },
+      "icon": "Εικονίδιο για το σήμα {{BadgeName}}",
+      "summary": "Τα ονόματα των σημάτων είναι στα αγγλικά για να ταιριάζουν με το όνομα που χρησιμοποιείται στο LeetCode.",
+      "title": "Κατάλογος των ληφθέντων σημάτων"
+    },
     "heatmap": {
-      "title": "Υποβολές LeetCode",
+      "mode": {
+        "false": "Απλή λειτουργία",
+        "true": "Λειτουργία λεπτομερειών"
+      },
       "reverse": {
         "false": "Πρώτα η νεότερη ημερομηνία",
         "true": "Πρώτα το παλαιότερο ραντεβού"
       },
-      "mode": {
-        "false": "Απλή λειτουργία",
-        "true": "Λειτουργία λεπτομερειών"
-      }
+      "title": "Υποβολές LeetCode"
+    },
+    "languages": {
+      "summary": "Εδώ αναφέρονται μόνο οι γλώσσες προγραμματισμού που έχουν 5 ή περισσότερα προβλήματα. \nΤοποθετήστε το δείκτη του ποντικιού για να δείτε πόσα!",
+      "title": "Γλώσσες προγραμματισμού που χρησιμοποιούνται"
     },
     "questions": {
       "easy": "Εύκολος",
@@ -242,22 +123,147 @@
       "medium": "Μέσον",
       "title": "Λυμένες ερωτήσεις"
     },
-    "badges": {
-      "icon": "Εικονίδιο για το σήμα {{BadgeName}}",
-      "title": "Κατάλογος των ληφθέντων σημάτων",
-      "date": "Ημερομηνία:"
-    },
-    "languages": {
-      "summary": "Εδώ αναφέρονται μόνο οι γλώσσες προγραμματισμού που έχουν 5 ή περισσότερα προβλήματα. \nΤοποθετήστε το δείκτη του ποντικιού για να δείτε πόσα!"
-    },
     "skills": {
       "level": "{{level}} Skills",
       "summary": "Τα προβλήματα έχουν αυτήν τη διαίρεση στο LeetCode GraphQL API, τα ονόματα δεν μεταφράζονται.",
       "title": "Λίστα δεξιοτήτων"
     }
   },
-  "errors": {
-    "404": "Η σελίδα δεν βρέθηκε!",
-    "maintenance": "Η σελίδα τελεί υπό συντήρηση!"
+  "menu": {
+    "languages": {
+      "ar": "Τυπικά σύγχρονα αραβικά",
+      "ar-LB": "Λιβανέζικα αραβικά",
+      "bn": "Μπενγκάλι",
+      "de": "Γερμανός",
+      "el": "ελληνικά",
+      "en": "αγγλικός",
+      "es": "Ισπανικά/Καστιλιάνικα",
+      "fr": "Γάλλος",
+      "gn": "Γκουαρανί",
+      "hi": "Χίντι",
+      "it": "ιταλικά",
+      "ja": "Ιαπωνικά",
+      "la": "λατινικά",
+      "pa": "Παντζάμπι",
+      "pt-BR": "Πορτογάλοι Βραζιλίας",
+      "ru": "ρωσικός",
+      "zh": "κινέζικα"
+    },
+    "theme": {
+      "change": "Αλλαγή θέματος ιστότοπου"
+    }
+  },
+  "paths": {
+    "title": {
+      "404": "Δεν βρέθηκε",
+      "colors": "Παραλλαγές χρώματος",
+      "extralanguages": "Επιπλέον γλώσσες",
+      "home": "Αρχική σελίδα",
+      "leetcode": "LeetCode",
+      "maintenance": "Η σελίδα βρίσκεται υπό συντήρηση",
+      "resume": "Περίληψη"
+    }
+  },
+  "resume": {
+    "dates": {
+      "now": "Τώρα"
+    },
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Εμπρός προγραμματιστής ιστού"
+    },
+    "sections": {
+      "education": {
+        "items": {
+          "grad": {
+            "text": "B.Sc. "
+          }
+        },
+        "title": "Εκπαίδευση"
+      },
+      "experience": {
+        "items": {
+          "atip": {
+            "subitem": "Χρησιμοποιώντας React, Next.js, StyledComponents και TypeScript σε έργα, σε συνεργασία με την ομάδα της μεξικάνικης Pepsico.",
+            "text": "Προγραμματιστής Front-end στην Atip (Pepsico Partner)."
+          },
+          "encora": {
+            "subitem": "Χρήση React, Vue.js και Laravel σε έργα",
+            "text": "Προγραμματιστής front-end στην Encora Brazil."
+          },
+          "liven": {
+            "subitem": "Χρήση React και React Native σε έργα",
+            "text": "Front-end Mobile Intern στο Liven. "
+          },
+          "partenero": {
+            "subitem": "Χρήση Firebase και Ember",
+            "text": "Πλήρης στοίβα ασκούμενος στο Partenero."
+          },
+          "raccoon": {
+            "subitem": "Χρήση React, WordPress, AMP, Next.js, PHP, HTML, Javascript και SCSS σε έργα. ",
+            "text": "Προγραμματιστής front-end στο Raccoon.Monks."
+          },
+          "techviz": {
+            "subitem": "Χρήση React, Next.js, Svelte, StyledComponents και TypeScript σε έργα.",
+            "text": "Τεχνικός Υπεύθυνος στο TechViz."
+          }
+        },
+        "title": "Επαγγελματική Εμπειρία"
+      },
+      "languages": {
+        "items": {
+          "en": {
+            "text": "Προχωρημένα Αγγλικά"
+          },
+          "pt": {
+            "text": "Ιθαγενείς Πορτογάλοι Βραζιλίας"
+          }
+        },
+        "title": "Γλώσσες"
+      },
+      "projects": {
+        "items": {
+          "accessibility": {
+            "text": "Μάθημα προσβασιμότητας στο Web W3Cx"
+          },
+          "pet": {
+            "text": "Παρακολούθηση στο μάθημα Επιστήμης Υπολογιστών για Ηλικιωμένους στο PET Computação για δύο εξάμηνα"
+          },
+          "principia": {
+            "text": "Εθελοντής παρακολούθησης για διδασκαλία ρομποτικής σε δημόσια σχολεία μέσω του «Principia - Robots at School» για ένα εξάμηνο"
+          },
+          "shehacks": {
+            "text": "Συμμετέχοντας της νικήτριας ομάδας (μεταξύ 20 ομάδων) του Shehacks, hackathon που πραγματοποιήθηκε στα κεντρικά γραφεία του Facebook"
+          },
+          "vemPraUSP": {
+            "text": "Παρακολουθεί το διαδικτυακό πρόγραμμα διδασκαλίας προγραμματισμού «Vem Pra USP» για μαθητές γυμνασίου από δημόσια σχολεία"
+          }
+        },
+        "title": "Έργα και Δραστηριότητες"
+      },
+      "technologies": {
+        "items": {
+          "basics": {
+            "text": "Linux και GIT"
+          },
+          "javascript": {
+            "text": "React, Styled Components και Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Native, Vue.js και Svelte"
+          },
+          "php": {
+            "text": "WordPress, PHP και Laravel"
+          },
+          "webbasics": {
+            "text": "Javascript, HTML και CSS"
+          }
+        },
+        "title": "τεχνολογίες"
+      }
+    },
+    "summary": {
+      "text": "Πτυχιούχος Πληροφορικής, έχει πενταετή εμπειρία στην ανάπτυξη ιστοσελίδων, κυρίως ως Front-end Developer. "
+    }
   }
 }

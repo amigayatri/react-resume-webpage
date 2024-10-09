@@ -1,198 +1,6 @@
 {
-  "menu": {
-    "languages": {
-      "ar-LB": "Árabe libanés rehegua",
-      "ar": "Árabe Moderno Estándar",
-      "bn": "Bengali",
-      "de": "Alemán ñe’ẽ",
-      "el": "Griego ñe’ẽme",
-      "en": "inglés",
-      "es": "Castellano",
-      "fr": "Francés ñe’ẽ",
-      "gn": "guarani",
-      "hi": "Hindi ñe’ẽ",
-      "it": "Italiano ñe’ẽ",
-      "ja": "Japonés ñe’ẽ",
-      "la": "Latino-pe",
-      "pa": "Punjabi ñe’ẽ",
-      "pt-BR": "Portugués brasileño",
-      "zh": "Chino",
-      "ru": "ruso rehegua"
-    },
-    "theme": {
-      "change": "Omoambue página web tema"
-    }
-  },
-  "paths": {
-    "title": {
-      "404": "Ndojejuhúi",
-      "home": "Página principal",
-      "resume": "Moñepyrũjey",
-      "colors": "Umi sa’y iñambuéva",
-      "extralanguages": "Ñe’ẽ extra",
-      "leetcode": "LeetCode rehegua",
-      "maintenance": "Página ohóva mantenimiento guýpe"
-    }
-  },
-  "icons": {
-    "alt": {
-      "linkedin": "Linkedin Icono rehegua",
-      "mail": "Correo electrónico Icono rehegua",
-      "website": "Peteĩ Icono Página Web rehegua",
-      "phone": "Teléfono Icono rehegua",
-      "code": "Mokõi soporte rizado icono",
-      "download": "Kuatia ñemboguejyha techaukaha",
-      "email": "Correo rehegua icono",
-      "github": "GitHub techaukaha",
-      "palette": "Icono paleta de color rehegua",
-      "home": "Hogar icono",
-      "external": "Símbolo enlace okapegua",
-      "leetcode": "LeetCode techaukaha",
-      "moon": "Jasy Icono",
-      "sun": "Kuarahy Icono",
-      "person": "Tapicha icono",
-      "more": "Hetave página icono"
-    }
-  },
-  "home": {
-    "header": {
-      "name": "Amira Gayatri rehegua",
-      "subheading": "¡Emboguejy pe páhina rehechaséva reipeʼa hag̃ua!"
-    },
-    "pageList": {
-      "home": {
-        "title": "Página principal"
-      },
-      "colors": {
-        "title": "Generador de sombra rehegua"
-      },
-      "resume": {
-        "title": "Che currículum"
-      },
-      "extralanguages": {
-        "title": "Ñe’ẽ extra"
-      },
-      "leetcode": {
-        "title": "LeetCode Estadísticas rehegua"
-      }
-    },
-    "externalLinks": {
-      "linkedin": "Linkedin rehegua",
-      "github": "Código fuente rehegua"
-    }
-  },
-  "resume": {
-    "header": {
-      "name": "Amira Gayatri El Assad Hempel",
-      "subheading": "Web moheñóihara tenondegua"
-    },
-    "summary": {
-      "text": "Omohu’ã Informática, oguereko po ary experiencia desarrollo web-pe, principalmente Desarrollador Front-end ramo. "
-    },
-    "sections": {
-      "education": {
-        "title": "Tekombo'e",
-        "items": {
-          "grad": {
-            "text": "B.Sc.-pe. "
-          }
-        }
-      },
-      "experience": {
-        "title": "Experiencia Profesional rehegua",
-        "items": {
-          "atip": {
-            "text": "Desarrollador front-end Atip (Pepsico Partner)-pe.",
-            "subitem": "Oipurúvo React, Next.js, StyledComponents ha TypeScript umi tembiaporãme, ombaꞌapóva Pepsico equipo mexicano ndive."
-          },
-          "techviz": {
-            "text": "Tech Lead TechViz-pe.",
-            "subitem": "Oipurúvo React, Next.js, Svelte, StyledComponents ha TypeScript umi tembiaporãme."
-          },
-          "encora": {
-            "text": "Desarrollador front-end Encora Brasil-pe.",
-            "subitem": "Oipurúvo React, Vue.js ha Laravel umi tembiaporãme"
-          },
-          "raccoon": {
-            "text": "Desarrollador front-end Raccoon.Monks-pe.",
-            "subitem": "React, WordPress, AMP, Next.js, PHP, HTML, Javascript ha SCSS jepuru tembiaporãme. "
-          },
-          "partenero": {
-            "text": "Pasante pila completa Partenero-pe.",
-            "subitem": "Firebase ha Ember jepuru"
-          },
-          "liven": {
-            "text": "Pasante Móvil Front-end-pegua Liven-pe. ",
-            "subitem": "Oipurúvo React ha React Native umi proyecto-pe"
-          }
-        }
-      },
-      "languages": {
-        "title": "Ñe’ẽnguéra",
-        "items": {
-          "pt": {
-            "text": "Nativo brasileño portugués"
-          },
-          "en": {
-            "text": "Inglés avanzado"
-          }
-        }
-      },
-      "technologies": {
-        "title": "Umi tecnología rehegua",
-        "items": {
-          "webbasics": {
-            "text": "Javascript, HTML ha CSS rehegua"
-          },
-          "javascript": {
-            "text": "React, Componentes Estilo ha Next.js"
-          },
-          "otherframeworks": {
-            "text": "SCSS, AMP, React Native, Vue.js ha Svelte rehegua"
-          },
-          "php": {
-            "text": "WordPress, PHP ha Laravel rehegua"
-          },
-          "basics": {
-            "text": "Linux ha GIT rehegua"
-          }
-        }
-      },
-      "projects": {
-        "title": "Tembiaporã ha Tembiaporã",
-        "items": {
-          "accessibility": {
-            "text": "W3Cx Web Accesibilidad Mbo’esyry"
-          },
-          "shehacks": {
-            "text": "Participante equipo ganador (20 equipo apytépe) Shehacks, hackathon oñemotenondéva sede Facebook-pe"
-          },
-          "principia": {
-            "text": "Monitor voluntario mbo'epy robótica mbo'ehao público-pe \"Principia - Robots en Escuela\" rupive peteî semestre"
-          },
-          "vemPraUSP": {
-            "text": "Ojesareko programa de enseñanza programación en línea “Vem Pra USP” umi temimbo'e secundaria mbo'ehao público-gua"
-          },
-          "pet": {
-            "text": "Monitor mbo'esyry Informática-pe guarã umi Anciano-pe guarã PET Computação-pe mokõi semestre pukukue"
-          }
-        }
-      }
-    },
-    "dates": {
-      "now": "Ko'ág̃a"
-    }
-  },
-  "footer": {
-    "text": "Omoheñóiva {{name}}."
-  },
   "colors": {
-    "header": {
-      "title": "Generador de variación de color rehegua",
-      "summary": "Ojapo saꞌi ñemoambue morotĩ ha hũvape g̃uarã, ñemoambue mboajepyréva haꞌehína 10 peteĩteĩva gotyo, ha katu ikatu oñemoambue"
-    },
     "addColor": {
-      "title": "Oñemoĩve sa’y",
       "buttons": {
         "addMany": {
           "hidden": "Oñemoĩve hetave peteĩgui",
@@ -206,35 +14,108 @@
           "hidden": "Omoambue variación número",
           "showing": "Anive remoambue umi número variación rehegua"
         }
-      }
+      },
+      "title": "Oñemoĩve sa’y"
     },
     "colorList": {
-      "title": "Oñemoĩve umi sa’y",
       "summary": {
         "empty": "Nde neremoĩri gueteri mba'eveichagua sa'y",
         "nonEmpty": "Emboguejy eipe’a hag̃ua"
-      }
+      },
+      "title": "Oñemoĩve umi sa’y"
+    },
+    "header": {
+      "summary": "Ojapo saꞌi ñemoambue morotĩ ha hũvape g̃uarã, ñemoambue mboajepyréva haꞌehína 10 peteĩteĩva gotyo, ha katu ikatu oñemoambue",
+      "title": "Generador de variación de color rehegua"
     },
     "shades": {
-      "title": "Sombras rehegua",
-      "summary": "¡Emboguejy ekopia hag̃ua pe kolór!"
+      "summary": "¡Emboguejy ekopia hag̃ua pe kolór!",
+      "title": "Sombras rehegua"
     }
   },
+  "errors": {
+    "404": "¡Página ndojejuhúi!",
+    "maintenance": "¡Página ohóva mantenimiento guýpe!"
+  },
   "extralanguages": {
-    "title": "Ñe’ẽ extra",
-    "summary": "Ko’ã ñe’ẽ jeporavorã ojejapo peteĩ ñe’ẽasahára ijeheguigua rupive, oñembokatupyry hag̃ua i18n-next jeporu"
+    "summary": "Ko’ã ñe’ẽ jeporavorã ojejapo peteĩ ñe’ẽasahára ijeheguigua rupive, oñembokatupyry hag̃ua i18n-next jeporu",
+    "title": "Ñe’ẽ extra"
+  },
+  "footer": {
+    "text": "Omoheñóiva {{name}}."
+  },
+  "home": {
+    "externalLinks": {
+      "github": "Código fuente rehegua",
+      "linkedin": "Linkedin rehegua"
+    },
+    "header": {
+      "name": "Amira Gayatri rehegua",
+      "subheading": "¡Emboguejy pe páhina rehechaséva reipeʼa hag̃ua!"
+    },
+    "pageList": {
+      "colors": {
+        "title": "Generador de sombra rehegua"
+      },
+      "extralanguages": {
+        "title": "Ñe’ẽ extra"
+      },
+      "home": {
+        "title": "Página principal"
+      },
+      "leetcode": {
+        "title": "LeetCode Estadísticas rehegua"
+      },
+      "resume": {
+        "title": "Che currículum"
+      }
+    }
+  },
+  "icons": {
+    "alt": {
+      "code": "Mokõi soporte rizado icono",
+      "download": "Kuatia ñemboguejyha techaukaha",
+      "email": "Correo rehegua icono",
+      "external": "Símbolo enlace okapegua",
+      "github": "GitHub techaukaha",
+      "home": "Hogar icono",
+      "leetcode": "LeetCode techaukaha",
+      "linkedin": "Linkedin Icono rehegua",
+      "mail": "Correo electrónico Icono rehegua",
+      "moon": "Jasy Icono",
+      "more": "Hetave página icono",
+      "palette": "Icono paleta de color rehegua",
+      "person": "Tapicha icono",
+      "phone": "Teléfono Icono rehegua",
+      "sun": "Kuarahy Icono",
+      "website": "Peteĩ Icono Página Web rehegua"
+    }
   },
   "leetcode": {
+    "badges": {
+      "date": "Fecha:",
+      "details": {
+        "false": "¡Emboguejy peteĩ insignia rehecha haĝua umi detalle!",
+        "true": "{{BadgeName}} ojehupyty porã!"
+      },
+      "icon": "Icono {{BadgeName}} insignia-pe g̃uarã",
+      "summary": "Umi insignia réra oĩ inglés-pe ojoaju hag̃ua téra ojeporúva LeetCode-pe.",
+      "title": "Lista umi insignia ojehupytýva rehegua"
+    },
     "heatmap": {
-      "title": "LeetCode Ñembohasapyre",
+      "mode": {
+        "false": "Modo Simple rehegua",
+        "true": "Modo detalle rehegua"
+      },
       "reverse": {
         "false": "Fecha ipyahuvéva raẽ",
         "true": "Fecha itujavéva primero"
       },
-      "mode": {
-        "false": "Modo Simple rehegua",
-        "true": "Modo detalle rehegua"
-      }
+      "title": "LeetCode Ñembohasapyre"
+    },
+    "languages": {
+      "summary": "Umi ñeꞌepykuaa programación rehegua oguerekóva 5 térã hetave apañuãi ojejapóva añoite oñemboheko koꞌape. \n¡Emoĩ nde po rehecha hag̃ua mboypa oĩ!",
+      "title": "Umi ñe’ẽ programación rehegua ojeporúva"
     },
     "questions": {
       "easy": "Hasy'ỹ",
@@ -242,22 +123,147 @@
       "medium": "Mbyte",
       "title": "Porandu oñesolusiona va’ekue"
     },
-    "badges": {
-      "icon": "Icono {{BadgeName}} insignia-pe g̃uarã",
-      "title": "Lista umi insignia ojehupytýva rehegua",
-      "date": "Fecha:"
-    },
-    "languages": {
-      "summary": "Umi ñeꞌepykuaa programación rehegua oguerekóva 5 térã hetave apañuãi ojejapóva añoite oñemboheko koꞌape. \n¡Emoĩ nde po rehecha hag̃ua mboypa oĩ!"
-    },
     "skills": {
       "level": "{{level}} Skills",
       "summary": "Umi apañuãi oguereko ko división LeetCode GraphQL API-pe, umi téra noñembohasái.",
       "title": "Katupyry rehegua lista"
     }
   },
-  "errors": {
-    "404": "¡Página ndojejuhúi!",
-    "maintenance": "¡Página ohóva mantenimiento guýpe!"
+  "menu": {
+    "languages": {
+      "ar": "Árabe Moderno Estándar",
+      "ar-LB": "Árabe libanés rehegua",
+      "bn": "Bengali",
+      "de": "Alemán ñe’ẽ",
+      "el": "Griego ñe’ẽme",
+      "en": "inglés",
+      "es": "Castellano",
+      "fr": "Francés ñe’ẽ",
+      "gn": "guarani",
+      "hi": "Hindi ñe’ẽ",
+      "it": "Italiano ñe’ẽ",
+      "ja": "Japonés ñe’ẽ",
+      "la": "Latino-pe",
+      "pa": "Punjabi ñe’ẽ",
+      "pt-BR": "Portugués brasileño",
+      "ru": "ruso rehegua",
+      "zh": "Chino"
+    },
+    "theme": {
+      "change": "Omoambue página web tema"
+    }
+  },
+  "paths": {
+    "title": {
+      "404": "Ndojejuhúi",
+      "colors": "Umi sa’y iñambuéva",
+      "extralanguages": "Ñe’ẽ extra",
+      "home": "Página principal",
+      "leetcode": "LeetCode rehegua",
+      "maintenance": "Página ohóva mantenimiento guýpe",
+      "resume": "Moñepyrũjey"
+    }
+  },
+  "resume": {
+    "dates": {
+      "now": "Ko'ág̃a"
+    },
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Web moheñóihara tenondegua"
+    },
+    "sections": {
+      "education": {
+        "items": {
+          "grad": {
+            "text": "B.Sc.-pe. "
+          }
+        },
+        "title": "Tekombo'e"
+      },
+      "experience": {
+        "items": {
+          "atip": {
+            "subitem": "Oipurúvo React, Next.js, StyledComponents ha TypeScript umi tembiaporãme, ombaꞌapóva Pepsico equipo mexicano ndive.",
+            "text": "Desarrollador front-end Atip (Pepsico Partner)-pe."
+          },
+          "encora": {
+            "subitem": "Oipurúvo React, Vue.js ha Laravel umi tembiaporãme",
+            "text": "Desarrollador front-end Encora Brasil-pe."
+          },
+          "liven": {
+            "subitem": "Oipurúvo React ha React Native umi proyecto-pe",
+            "text": "Pasante Móvil Front-end-pegua Liven-pe. "
+          },
+          "partenero": {
+            "subitem": "Firebase ha Ember jepuru",
+            "text": "Pasante pila completa Partenero-pe."
+          },
+          "raccoon": {
+            "subitem": "React, WordPress, AMP, Next.js, PHP, HTML, Javascript ha SCSS jepuru tembiaporãme. ",
+            "text": "Desarrollador front-end Raccoon.Monks-pe."
+          },
+          "techviz": {
+            "subitem": "Oipurúvo React, Next.js, Svelte, StyledComponents ha TypeScript umi tembiaporãme.",
+            "text": "Tech Lead TechViz-pe."
+          }
+        },
+        "title": "Experiencia Profesional rehegua"
+      },
+      "languages": {
+        "items": {
+          "en": {
+            "text": "Inglés avanzado"
+          },
+          "pt": {
+            "text": "Nativo brasileño portugués"
+          }
+        },
+        "title": "Ñe’ẽnguéra"
+      },
+      "projects": {
+        "items": {
+          "accessibility": {
+            "text": "W3Cx Web Accesibilidad Mbo’esyry"
+          },
+          "pet": {
+            "text": "Monitor mbo'esyry Informática-pe guarã umi Anciano-pe guarã PET Computação-pe mokõi semestre pukukue"
+          },
+          "principia": {
+            "text": "Monitor voluntario mbo'epy robótica mbo'ehao público-pe \"Principia - Robots en Escuela\" rupive peteî semestre"
+          },
+          "shehacks": {
+            "text": "Participante equipo ganador (20 equipo apytépe) Shehacks, hackathon oñemotenondéva sede Facebook-pe"
+          },
+          "vemPraUSP": {
+            "text": "Ojesareko programa de enseñanza programación en línea “Vem Pra USP” umi temimbo'e secundaria mbo'ehao público-gua"
+          }
+        },
+        "title": "Tembiaporã ha Tembiaporã"
+      },
+      "technologies": {
+        "items": {
+          "basics": {
+            "text": "Linux ha GIT rehegua"
+          },
+          "javascript": {
+            "text": "React, Componentes Estilo ha Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Native, Vue.js ha Svelte rehegua"
+          },
+          "php": {
+            "text": "WordPress, PHP ha Laravel rehegua"
+          },
+          "webbasics": {
+            "text": "Javascript, HTML ha CSS rehegua"
+          }
+        },
+        "title": "Umi tecnología rehegua"
+      }
+    },
+    "summary": {
+      "text": "Omohu’ã Informática, oguereko po ary experiencia desarrollo web-pe, principalmente Desarrollador Front-end ramo. "
+    }
   }
 }

@@ -4,6 +4,7 @@ export const IconWrapper = styled.div`
 	line-height: 1;
 	height: fit-content;
 	width: fit-content;
+	display: inline-block;
 `
 export const ToggleIconWrapper = styled.span<{ $isLight: boolean }>`
 	width: 24px;

@@ -2,14 +2,17 @@ import { BadgeComponentWrapper, BadgeImg } from "./BadgeComponent.styled"
 import BadgeProps from "./../../../../types/BadgeProps"
 import { useTranslation } from "react-i18next"
 
-const BadgeComponent = (badge: BadgeProps) => {
-	const { t, i18n } = useTranslation()
-	const date = badge.date.toLocaleDateString(i18n.language)
+interface BadgeComponentProps {
+	badge: BadgeProps
+	setDetails: (badge: BadgeProps) => void
+}
+
+const BadgeComponent = ({ badge, setDetails }: BadgeComponentProps) => {
+	const { t } = useTranslation()
 	const alt = t("leetcode.badges.icon", { BadgeName: badge.name })
 	return (
-		<BadgeComponentWrapper tabIndex={0}>
+		<BadgeComponentWrapper onClick={() => setDetails(badge)} tabIndex={0}>
 			<BadgeImg src={badge.icon} alt={alt} />
-			{date}
 		</BadgeComponentWrapper>
 	)
 }

@@ -1,198 +1,6 @@
 {
-  "menu": {
-    "languages": {
-      "ar-LB": "árabe libanés",
-      "ar": "Árabe moderno estándar",
-      "bn": "bengalí",
-      "de": "Alemán",
-      "el": "Griego",
-      "en": "Inglés",
-      "es": "español/castellano",
-      "fr": "Francés",
-      "gn": "guaraní",
-      "hi": "hindi",
-      "it": "italiano",
-      "ja": "japonés",
-      "la": "latín",
-      "pa": "punjabi",
-      "pt-BR": "portugués brasileño",
-      "zh": "Chino",
-      "ru": "ruso"
-    },
-    "theme": {
-      "change": "Cambiar tema del sitio web"
-    }
-  },
-  "paths": {
-    "title": {
-      "404": "Extraviado",
-      "home": "Página principal",
-      "resume": "Reanudar",
-      "colors": "variaciones de color",
-      "extralanguages": "Idiomas adicionales",
-      "leetcode": "LeetCode",
-      "maintenance": "Página en mantenimiento"
-    }
-  },
-  "icons": {
-    "alt": {
-      "linkedin": "Icono de Linkedin",
-      "mail": "Icono de correo electrónico",
-      "website": "Un icono de sitio web",
-      "phone": "Icono de teléfono",
-      "code": "Icono de dos llaves",
-      "download": "Icono de descarga de documentos",
-      "email": "icono de correo",
-      "github": "icono de GitHub",
-      "palette": "Icono de paleta de colores",
-      "home": "Icono de inicio",
-      "external": "Símbolo de enlace externo",
-      "leetcode": "Icono de LeetCode",
-      "moon": "Icono de luna",
-      "sun": "Icono del sol",
-      "person": "Icono de persona",
-      "more": "Icono de más páginas"
-    }
-  },
-  "home": {
-    "header": {
-      "name": "Amira Gayatri",
-      "subheading": "¡Haz clic en la página que deseas ver para abrirla!"
-    },
-    "pageList": {
-      "home": {
-        "title": "pagina de inicio"
-      },
-      "colors": {
-        "title": "Generador de sombras"
-      },
-      "resume": {
-        "title": "mi currículum"
-      },
-      "extralanguages": {
-        "title": "Idiomas adicionales"
-      },
-      "leetcode": {
-        "title": "Estadísticas de LeetCode"
-      }
-    },
-    "externalLinks": {
-      "linkedin": "LinkedIn",
-      "github": "código fuente"
-    }
-  },
-  "resume": {
-    "header": {
-      "name": "Amira Gayatri El Assad Hempel",
-      "subheading": "Desarrollador web front-end"
-    },
-    "summary": {
-      "text": "Licenciado en Informática, tiene cinco años de experiencia en desarrollo web, principalmente como Desarrollador Front-end. "
-    },
-    "sections": {
-      "education": {
-        "title": "Educación",
-        "items": {
-          "grad": {
-            "text": "Licenciatura en Ciencias. "
-          }
-        }
-      },
-      "experience": {
-        "title": "Experiencia profesional",
-        "items": {
-          "atip": {
-            "text": "Desarrollador front-end en Atip (Pepsico Partner).",
-            "subitem": "Usando React, Next.js, StyledComponents y TypeScript en proyectos, trabajando con el equipo mexicano de Pepsico."
-          },
-          "techviz": {
-            "text": "Líder tecnológico en TechViz.",
-            "subitem": "Usando React, Next.js, Svelte, StyledComponents y TypeScript en proyectos."
-          },
-          "encora": {
-            "text": "Desarrollador front-end en Encora Brasil.",
-            "subitem": "Usando React, Vue.js y Laravel en proyectos"
-          },
-          "raccoon": {
-            "text": "Desarrollador front-end en Raccoon.Monks.",
-            "subitem": "Usando React, WordPress, AMP, Next.js, PHP, HTML, Javascript y SCSS en proyectos. "
-          },
-          "partenero": {
-            "text": "Practicante full-stack en Partenero.",
-            "subitem": "Usando Firebase y Ember"
-          },
-          "liven": {
-            "text": "Practicante de front-end móvil en Liven. ",
-            "subitem": "Usando React y React Native en proyectos"
-          }
-        }
-      },
-      "languages": {
-        "title": "Idiomas",
-        "items": {
-          "pt": {
-            "text": "Portugués brasileño nativo"
-          },
-          "en": {
-            "text": "Inglés Avanzado"
-          }
-        }
-      },
-      "technologies": {
-        "title": "Tecnologías",
-        "items": {
-          "webbasics": {
-            "text": "Javascript, HTML y CSS"
-          },
-          "javascript": {
-            "text": "React, componentes con estilo y Next.js"
-          },
-          "otherframeworks": {
-            "text": "SCSS, AMP, React Native, Vue.js y Svelte"
-          },
-          "php": {
-            "text": "WordPress, PHP y Laravel"
-          },
-          "basics": {
-            "text": "Linux y GIT"
-          }
-        }
-      },
-      "projects": {
-        "title": "Proyectos y Actividades",
-        "items": {
-          "accessibility": {
-            "text": "Curso de Accesibilidad Web W3Cx"
-          },
-          "shehacks": {
-            "text": "Participante del equipo ganador (entre 20 equipos) de Shehacks, hackathon realizado en la sede de Facebook"
-          },
-          "principia": {
-            "text": "Monitor voluntario para la enseñanza de robótica en escuelas públicas a través de \"Principia - Robots en la Escuela\" durante un semestre"
-          },
-          "vemPraUSP": {
-            "text": "Monitorea el programa de enseñanza de programación en línea “Vem Pra USP” para estudiantes de secundaria de escuelas públicas"
-          },
-          "pet": {
-            "text": "Monitor en el curso de Informática para Personas Mayores del PET Computação durante dos semestres"
-          }
-        }
-      }
-    },
-    "dates": {
-      "now": "Ahora"
-    }
-  },
-  "footer": {
-    "text": "Desarrollado por {{name}}"
-  },
   "colors": {
-    "header": {
-      "title": "Generador de variación de color",
-      "summary": "Crea variaciones de color para blanco y negro, el número predeterminado de variaciones es 10 en cada dirección, pero se puede cambiar"
-    },
     "addColor": {
-      "title": "agregar color",
       "buttons": {
         "addMany": {
           "hidden": "Añadir más de uno",
@@ -206,35 +14,108 @@
           "hidden": "Cambiar número de variación",
           "showing": "Deja de cambiar los números de variación"
         }
-      }
+      },
+      "title": "agregar color"
     },
     "colorList": {
-      "title": "Colores agregados",
       "summary": {
         "empty": "Aún no agregaste ningún color",
         "nonEmpty": "Haga clic para eliminar"
-      }
+      },
+      "title": "Colores agregados"
+    },
+    "header": {
+      "summary": "Crea variaciones de color para blanco y negro, el número predeterminado de variaciones es 10 en cada dirección, pero se puede cambiar",
+      "title": "Generador de variación de color"
     },
     "shades": {
-      "title": "Sombras",
-      "summary": "¡Haga clic para copiar el color!"
+      "summary": "¡Haga clic para copiar el color!",
+      "title": "Sombras"
     }
   },
+  "errors": {
+    "404": "¡Página no encontrada!",
+    "maintenance": "¡La página está en mantenimiento!"
+  },
   "extralanguages": {
-    "title": "Idiomas adicionales",
-    "summary": "Estas opciones de idioma fueron generadas con un traductor automático, para entrenar el uso de i18n-next."
+    "summary": "Estas opciones de idioma fueron generadas con un traductor automático, para entrenar el uso de i18n-next.",
+    "title": "Idiomas adicionales"
+  },
+  "footer": {
+    "text": "Desarrollado por {{name}}"
+  },
+  "home": {
+    "externalLinks": {
+      "github": "código fuente",
+      "linkedin": "LinkedIn"
+    },
+    "header": {
+      "name": "Amira Gayatri",
+      "subheading": "¡Haz clic en la página que deseas ver para abrirla!"
+    },
+    "pageList": {
+      "colors": {
+        "title": "Generador de sombras"
+      },
+      "extralanguages": {
+        "title": "Idiomas adicionales"
+      },
+      "home": {
+        "title": "pagina de inicio"
+      },
+      "leetcode": {
+        "title": "Estadísticas de LeetCode"
+      },
+      "resume": {
+        "title": "mi currículum"
+      }
+    }
+  },
+  "icons": {
+    "alt": {
+      "code": "Icono de dos llaves",
+      "download": "Icono de descarga de documentos",
+      "email": "icono de correo",
+      "external": "Símbolo de enlace externo",
+      "github": "icono de GitHub",
+      "home": "Icono de inicio",
+      "leetcode": "Icono de LeetCode",
+      "linkedin": "Icono de Linkedin",
+      "mail": "Icono de correo electrónico",
+      "moon": "Icono de luna",
+      "more": "Icono de más páginas",
+      "palette": "Icono de paleta de colores",
+      "person": "Icono de persona",
+      "phone": "Icono de teléfono",
+      "sun": "Icono del sol",
+      "website": "Un icono de sitio web"
+    }
   },
   "leetcode": {
+    "badges": {
+      "date": "Fecha:",
+      "details": {
+        "false": "¡Haga clic en una insignia para ver los detalles!",
+        "true": "¡{{BadgeName}} obtenido con éxito!"
+      },
+      "icon": "Icono de la insignia {{BadgeName}}",
+      "summary": "Los nombres de las insignias están en inglés para coincidir con el nombre utilizado en LeetCode.",
+      "title": "Lista de insignias obtenidas"
+    },
     "heatmap": {
-      "title": "Envíos de LeetCode",
+      "mode": {
+        "false": "Modo sencillo",
+        "true": "Modo detalle"
+      },
       "reverse": {
         "false": "La fecha más reciente primero",
         "true": "La fecha más antigua primero."
       },
-      "mode": {
-        "false": "Modo sencillo",
-        "true": "Modo detalle"
-      }
+      "title": "Envíos de LeetCode"
+    },
+    "languages": {
+      "summary": "Aquí solo se enumeran los lenguajes de programación que tienen 5 o más problemas resueltos. \n¡Pasa el cursor para ver cuántos!",
+      "title": "Lenguajes de programación utilizados"
     },
     "questions": {
       "easy": "Fácil",
@@ -242,22 +123,147 @@
       "medium": "Medio",
       "title": "Preguntas resueltas"
     },
-    "badges": {
-      "icon": "Icono de la insignia {{BadgeName}}",
-      "title": "Lista de insignias obtenidas",
-      "date": "Fecha:"
-    },
-    "languages": {
-      "summary": "Aquí solo se enumeran los lenguajes de programación que tienen 5 o más problemas resueltos. \n¡Pasa el cursor para ver cuántos!"
-    },
     "skills": {
       "level": "{{level}} Skills",
       "summary": "Los problemas tienen esta división en LeetCode GraphQL API, los nombres no están traducidos.",
       "title": "Lista de habilidades"
     }
   },
-  "errors": {
-    "404": "¡Página no encontrada!",
-    "maintenance": "¡La página está en mantenimiento!"
+  "menu": {
+    "languages": {
+      "ar": "Árabe moderno estándar",
+      "ar-LB": "árabe libanés",
+      "bn": "bengalí",
+      "de": "Alemán",
+      "el": "Griego",
+      "en": "Inglés",
+      "es": "español/castellano",
+      "fr": "Francés",
+      "gn": "guaraní",
+      "hi": "hindi",
+      "it": "italiano",
+      "ja": "japonés",
+      "la": "latín",
+      "pa": "punjabi",
+      "pt-BR": "portugués brasileño",
+      "ru": "ruso",
+      "zh": "Chino"
+    },
+    "theme": {
+      "change": "Cambiar tema del sitio web"
+    }
+  },
+  "paths": {
+    "title": {
+      "404": "Extraviado",
+      "colors": "variaciones de color",
+      "extralanguages": "Idiomas adicionales",
+      "home": "Página principal",
+      "leetcode": "LeetCode",
+      "maintenance": "Página en mantenimiento",
+      "resume": "Reanudar"
+    }
+  },
+  "resume": {
+    "dates": {
+      "now": "Ahora"
+    },
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Desarrollador web front-end"
+    },
+    "sections": {
+      "education": {
+        "items": {
+          "grad": {
+            "text": "Licenciatura en Ciencias. "
+          }
+        },
+        "title": "Educación"
+      },
+      "experience": {
+        "items": {
+          "atip": {
+            "subitem": "Usando React, Next.js, StyledComponents y TypeScript en proyectos, trabajando con el equipo mexicano de Pepsico.",
+            "text": "Desarrollador front-end en Atip (Pepsico Partner)."
+          },
+          "encora": {
+            "subitem": "Usando React, Vue.js y Laravel en proyectos",
+            "text": "Desarrollador front-end en Encora Brasil."
+          },
+          "liven": {
+            "subitem": "Usando React y React Native en proyectos",
+            "text": "Practicante de front-end móvil en Liven. "
+          },
+          "partenero": {
+            "subitem": "Usando Firebase y Ember",
+            "text": "Practicante full-stack en Partenero."
+          },
+          "raccoon": {
+            "subitem": "Usando React, WordPress, AMP, Next.js, PHP, HTML, Javascript y SCSS en proyectos. ",
+            "text": "Desarrollador front-end en Raccoon.Monks."
+          },
+          "techviz": {
+            "subitem": "Usando React, Next.js, Svelte, StyledComponents y TypeScript en proyectos.",
+            "text": "Líder tecnológico en TechViz."
+          }
+        },
+        "title": "Experiencia profesional"
+      },
+      "languages": {
+        "items": {
+          "en": {
+            "text": "Inglés Avanzado"
+          },
+          "pt": {
+            "text": "Portugués brasileño nativo"
+          }
+        },
+        "title": "Idiomas"
+      },
+      "projects": {
+        "items": {
+          "accessibility": {
+            "text": "Curso de Accesibilidad Web W3Cx"
+          },
+          "pet": {
+            "text": "Monitor en el curso de Informática para Personas Mayores del PET Computação durante dos semestres"
+          },
+          "principia": {
+            "text": "Monitor voluntario para la enseñanza de robótica en escuelas públicas a través de \"Principia - Robots en la Escuela\" durante un semestre"
+          },
+          "shehacks": {
+            "text": "Participante del equipo ganador (entre 20 equipos) de Shehacks, hackathon realizado en la sede de Facebook"
+          },
+          "vemPraUSP": {
+            "text": "Monitorea el programa de enseñanza de programación en línea “Vem Pra USP” para estudiantes de secundaria de escuelas públicas"
+          }
+        },
+        "title": "Proyectos y Actividades"
+      },
+      "technologies": {
+        "items": {
+          "basics": {
+            "text": "Linux y GIT"
+          },
+          "javascript": {
+            "text": "React, componentes con estilo y Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Native, Vue.js y Svelte"
+          },
+          "php": {
+            "text": "WordPress, PHP y Laravel"
+          },
+          "webbasics": {
+            "text": "Javascript, HTML y CSS"
+          }
+        },
+        "title": "Tecnologías"
+      }
+    },
+    "summary": {
+      "text": "Licenciado en Informática, tiene cinco años de experiencia en desarrollo web, principalmente como Desarrollador Front-end. "
+    }
   }
 }

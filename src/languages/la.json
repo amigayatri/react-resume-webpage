@@ -1,198 +1,6 @@
 {
-  "menu": {
-    "languages": {
-      "ar-LB": "Lebanese Arabic",
-      "ar": "Latin Modern Arabic",
-      "bn": "Bengalica",
-      "de": "German",
-      "el": "Greek",
-      "en": "Anglicus",
-      "es": "Spanish/Castilian",
-      "fr": "Gallica",
-      "gn": "Guarani",
-      "hi": "Hindi",
-      "it": "Italian",
-      "ja": "Iaponica",
-      "la": "Latinus",
-      "pa": "Punjabi",
-      "pt-BR": "Brazilian Portuguese",
-      "zh": "Seres",
-      "ru": "russian"
-    },
-    "theme": {
-      "change": "Mutatio website theme"
-    }
-  },
-  "paths": {
-    "title": {
-      "404": "Non inveni",
-      "home": "Protocollum",
-      "resume": "Proin",
-      "colors": "Color variationum",
-      "extralanguages": "Extra linguas",
-      "leetcode": "LeetCode",
-      "maintenance": "Page ire sub tutela"
-    }
-  },
-  "icons": {
-    "alt": {
-      "linkedin": "Linkedin Icon",
-      "mail": "E-mail Icon",
-      "website": "A Website Icon",
-      "phone": "Phone Icon",
-      "code": "Duo uncis crispus icon",
-      "download": "Documenti download icon",
-      "email": "Icon mail",
-      "github": "GitHub icon",
-      "palette": "Color palette icon",
-      "home": "Domum icon",
-      "external": "Externe paginae symbolum",
-      "leetcode": "LeetCode icon",
-      "moon": "Luna Icon",
-      "sun": "Sol Icon",
-      "person": "Persona icon",
-      "more": "Plures paginae icon"
-    }
-  },
-  "home": {
-    "header": {
-      "name": "Amira Gayatri",
-      "subheading": "Click in pagina videre vis ut eam aperi!"
-    },
-    "pageList": {
-      "home": {
-        "title": "Home page"
-      },
-      "colors": {
-        "title": "umbra generantis"
-      },
-      "resume": {
-        "title": "Meum Proin"
-      },
-      "extralanguages": {
-        "title": "Extra linguas"
-      },
-      "leetcode": {
-        "title": "LeetCode Stats"
-      }
-    },
-    "externalLinks": {
-      "linkedin": "Linkedin",
-      "github": "Source codice"
-    }
-  },
-  "resume": {
-    "header": {
-      "name": "Amira Gayatri El Assad Hempel",
-      "subheading": "Elit ante-finem textus"
-    },
-    "summary": {
-      "text": "Lectus in Computer Scientia, quinque annos experientiae in evolutione interreti habet, maxime ut ante-finem Developer. "
-    },
-    "sections": {
-      "education": {
-        "title": "Education",
-        "items": {
-          "grad": {
-            "text": "B.Sc. "
-          }
-        }
-      },
-      "experience": {
-        "title": "Experientia professionales",
-        "items": {
-          "atip": {
-            "text": "Ante-finem elit at Atip (Pepsico Partner).",
-            "subitem": "Using React, Next.js, StyledComponents et TypeScript in inceptis, operando cum quadrigis mexicani Pepsico."
-          },
-          "techviz": {
-            "text": "Tech Duc ad TechViz.",
-            "subitem": "Using React, Next.js, Svelte, StyledComponents et TypeScript in inceptis."
-          },
-          "encora": {
-            "text": "Ante finem elit at Encora Brazil.",
-            "subitem": "Using React, Vue.js et Laravel in inceptis"
-          },
-          "raccoon": {
-            "text": "Finis elit ante at Raccoon.Monks.",
-            "subitem": "Using React, WordPress, AMP, Next.js, PHP, HTML, Javascript et SCSS in inceptis. "
-          },
-          "partenero": {
-            "text": "Plenus acervus interne apud Partenero.",
-            "subitem": "Per Firebase et Quatuor Temporum"
-          },
-          "liven": {
-            "text": "Ante-finem Mobile Intern at Liven. ",
-            "subitem": "Using React ac Reat Accuratissima Totius in projects"
-          }
-        }
-      },
-      "languages": {
-        "title": "Linguae",
-        "items": {
-          "pt": {
-            "text": "Patria Brazilian Portuguese"
-          },
-          "en": {
-            "text": "Provectus English"
-          }
-        }
-      },
-      "technologies": {
-        "title": "Technologies",
-        "items": {
-          "webbasics": {
-            "text": "Javascript, HTML et CSS"
-          },
-          "javascript": {
-            "text": "React, Styled Components et Next.js"
-          },
-          "otherframeworks": {
-            "text": "SCSS, AMP, React Nativum, Vue.js et Svelte"
-          },
-          "php": {
-            "text": "WordPress, PHP and Laravel"
-          },
-          "basics": {
-            "text": "Linux et GIT"
-          }
-        }
-      },
-      "projects": {
-        "title": "Incepta et Operationes",
-        "items": {
-          "accessibility": {
-            "text": "W3Cx Web Accessibility Course"
-          },
-          "shehacks": {
-            "text": "Participem turmae victricis (inter XX Partes) Shehacks, hackathon habita apud Facebook praetorium."
-          },
-          "principia": {
-            "text": "Monitor voluntarius pro roboticis in scholis publicis tradendis per \"Principia - Robots in Schola\" unius semestri"
-          },
-          "vemPraUSP": {
-            "text": "Monitores \"Vem Pra USP\" programmandi programmatio docendi pro alumnis e scholis publicis"
-          },
-          "pet": {
-            "text": "Monitor in Computacum Scientiarum curriculum pro Senibus ad PET Computacum pro duobus semestris"
-          }
-        }
-      }
-    },
-    "dates": {
-      "now": "Nunc"
-    }
-  },
-  "footer": {
-    "text": "Evolvit {name}}"
-  },
   "colors": {
-    "header": {
-      "title": "Color variatio generantis",
-      "summary": "Variationes colorum nigrum et album creat, numerus variationum defectus in utraque parte 10 est, sed mutari potest"
-    },
     "addColor": {
-      "title": "Adde color",
       "buttons": {
         "addMany": {
           "hidden": "Adde plus quam unum",
@@ -206,35 +14,108 @@
           "hidden": "Mutatio variation numerus",
           "showing": "Mutantur numero nolite variation"
         }
-      }
+      },
+      "title": "Adde color"
     },
     "colorList": {
-      "title": "additae coloribus",
       "summary": {
         "empty": "Non tamen ullus color addere",
         "nonEmpty": "Click to remove"
-      }
+      },
+      "title": "additae coloribus"
+    },
+    "header": {
+      "summary": "Variationes colorum nigrum et album creat, numerus variationum defectus in utraque parte 10 est, sed mutari potest",
+      "title": "Color variatio generantis"
     },
     "shades": {
-      "title": "Umbrae",
-      "summary": "Click to effingo color!"
+      "summary": "Click to effingo color!",
+      "title": "Umbrae"
     }
   },
+  "errors": {
+    "404": "Page not found!",
+    "maintenance": "Pagina sub tutela futura!"
+  },
   "extralanguages": {
-    "title": "Extra linguas",
-    "summary": "Hae optiones linguae latinae cum interpres latae sententiae generatae sunt, ad usum i18n-sequentium instituendi"
+    "summary": "Hae optiones linguae latinae cum interpres latae sententiae generatae sunt, ad usum i18n-sequentium instituendi",
+    "title": "Extra linguas"
+  },
+  "footer": {
+    "text": "Evolvit {name}}"
+  },
+  "home": {
+    "externalLinks": {
+      "github": "Source codice",
+      "linkedin": "Linkedin"
+    },
+    "header": {
+      "name": "Amira Gayatri",
+      "subheading": "Click in pagina videre vis ut eam aperi!"
+    },
+    "pageList": {
+      "colors": {
+        "title": "umbra generantis"
+      },
+      "extralanguages": {
+        "title": "Extra linguas"
+      },
+      "home": {
+        "title": "Home page"
+      },
+      "leetcode": {
+        "title": "LeetCode Stats"
+      },
+      "resume": {
+        "title": "Meum Proin"
+      }
+    }
+  },
+  "icons": {
+    "alt": {
+      "code": "Duo uncis crispus icon",
+      "download": "Documenti download icon",
+      "email": "Icon mail",
+      "external": "Externe paginae symbolum",
+      "github": "GitHub icon",
+      "home": "Domum icon",
+      "leetcode": "LeetCode icon",
+      "linkedin": "Linkedin Icon",
+      "mail": "E-mail Icon",
+      "moon": "Luna Icon",
+      "more": "Plures paginae icon",
+      "palette": "Color palette icon",
+      "person": "Persona icon",
+      "phone": "Phone Icon",
+      "sun": "Sol Icon",
+      "website": "A Website Icon"
+    }
   },
   "leetcode": {
+    "badges": {
+      "date": "Date:",
+      "details": {
+        "false": "Click in signum ad singula!",
+        "true": "{{BadgeName}} feliciter obtinuit!"
+      },
+      "icon": "Icon pro {{BadgeName}} nota",
+      "summary": "Insignia nomina in anglicus sunt ut nomen par in LeetCode adhibitum.",
+      "title": "Index adeptus insignia"
+    },
     "heatmap": {
-      "title": "LeetCode Submissionibus",
+      "mode": {
+        "false": "Simple Modus",
+        "true": "Detail modus"
+      },
       "reverse": {
         "false": "Novissima date primum",
         "true": "Seniorem date primum"
       },
-      "mode": {
-        "false": "Simple Modus",
-        "true": "Detail modus"
-      }
+      "title": "LeetCode Submissionibus"
+    },
+    "languages": {
+      "summary": "Solae programmationis linguae quae habent 5 vel plures difficultates agendas hic enumerantur. \nQuot volitant videre!",
+      "title": "Programmatio linguarum usus"
     },
     "questions": {
       "easy": "Securus",
@@ -242,22 +123,147 @@
       "medium": "Medium",
       "title": "Solvitur quaestiones"
     },
-    "badges": {
-      "icon": "Icon pro {{BadgeName}} nota",
-      "title": "Index adeptus insignia",
-      "date": "Date:"
-    },
-    "languages": {
-      "summary": "Solae programmationis linguae quae habent 5 vel plures difficultates agendas hic enumerantur. \nQuot volitant videre!"
-    },
     "skills": {
       "level": "{{level}} Skills",
       "summary": "Problemata hanc divisionem in LeetCode GraphQL API habent, nomina non transferuntur.",
       "title": "Artes List"
     }
   },
-  "errors": {
-    "404": "Page not found!",
-    "maintenance": "Pagina sub tutela futura!"
+  "menu": {
+    "languages": {
+      "ar": "Latin Modern Arabic",
+      "ar-LB": "Lebanese Arabic",
+      "bn": "Bengalica",
+      "de": "German",
+      "el": "Greek",
+      "en": "Anglicus",
+      "es": "Spanish/Castilian",
+      "fr": "Gallica",
+      "gn": "Guarani",
+      "hi": "Hindi",
+      "it": "Italian",
+      "ja": "Iaponica",
+      "la": "Latinus",
+      "pa": "Punjabi",
+      "pt-BR": "Brazilian Portuguese",
+      "ru": "russian",
+      "zh": "Seres"
+    },
+    "theme": {
+      "change": "Mutatio website theme"
+    }
+  },
+  "paths": {
+    "title": {
+      "404": "Non inveni",
+      "colors": "Color variationum",
+      "extralanguages": "Extra linguas",
+      "home": "Protocollum",
+      "leetcode": "LeetCode",
+      "maintenance": "Page ire sub tutela",
+      "resume": "Proin"
+    }
+  },
+  "resume": {
+    "dates": {
+      "now": "Nunc"
+    },
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "Elit ante-finem textus"
+    },
+    "sections": {
+      "education": {
+        "items": {
+          "grad": {
+            "text": "B.Sc. "
+          }
+        },
+        "title": "Education"
+      },
+      "experience": {
+        "items": {
+          "atip": {
+            "subitem": "Using React, Next.js, StyledComponents et TypeScript in inceptis, operando cum quadrigis mexicani Pepsico.",
+            "text": "Ante-finem elit at Atip (Pepsico Partner)."
+          },
+          "encora": {
+            "subitem": "Using React, Vue.js et Laravel in inceptis",
+            "text": "Ante finem elit at Encora Brazil."
+          },
+          "liven": {
+            "subitem": "Using React ac Reat Accuratissima Totius in projects",
+            "text": "Ante-finem Mobile Intern at Liven. "
+          },
+          "partenero": {
+            "subitem": "Per Firebase et Quatuor Temporum",
+            "text": "Plenus acervus interne apud Partenero."
+          },
+          "raccoon": {
+            "subitem": "Using React, WordPress, AMP, Next.js, PHP, HTML, Javascript et SCSS in inceptis. ",
+            "text": "Finis elit ante at Raccoon.Monks."
+          },
+          "techviz": {
+            "subitem": "Using React, Next.js, Svelte, StyledComponents et TypeScript in inceptis.",
+            "text": "Tech Duc ad TechViz."
+          }
+        },
+        "title": "Experientia professionales"
+      },
+      "languages": {
+        "items": {
+          "en": {
+            "text": "Provectus English"
+          },
+          "pt": {
+            "text": "Patria Brazilian Portuguese"
+          }
+        },
+        "title": "Linguae"
+      },
+      "projects": {
+        "items": {
+          "accessibility": {
+            "text": "W3Cx Web Accessibility Course"
+          },
+          "pet": {
+            "text": "Monitor in Computacum Scientiarum curriculum pro Senibus ad PET Computacum pro duobus semestris"
+          },
+          "principia": {
+            "text": "Monitor voluntarius pro roboticis in scholis publicis tradendis per \"Principia - Robots in Schola\" unius semestri"
+          },
+          "shehacks": {
+            "text": "Participem turmae victricis (inter XX Partes) Shehacks, hackathon habita apud Facebook praetorium."
+          },
+          "vemPraUSP": {
+            "text": "Monitores \"Vem Pra USP\" programmandi programmatio docendi pro alumnis e scholis publicis"
+          }
+        },
+        "title": "Incepta et Operationes"
+      },
+      "technologies": {
+        "items": {
+          "basics": {
+            "text": "Linux et GIT"
+          },
+          "javascript": {
+            "text": "React, Styled Components et Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS, AMP, React Nativum, Vue.js et Svelte"
+          },
+          "php": {
+            "text": "WordPress, PHP and Laravel"
+          },
+          "webbasics": {
+            "text": "Javascript, HTML et CSS"
+          }
+        },
+        "title": "Technologies"
+      }
+    },
+    "summary": {
+      "text": "Lectus in Computer Scientia, quinque annos experientiae in evolutione interreti habet, maxime ut ante-finem Developer. "
+    }
   }
 }

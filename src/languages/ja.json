@@ -1,198 +1,6 @@
 {
-  "menu": {
-    "languages": {
-      "ar-LB": "レバノン語アラビア語",
-      "ar": "標準現代アラビア語",
-      "bn": "ベンガル語",
-      "de": "ドイツ語",
-      "el": "ギリシャ語",
-      "en": "英語",
-      "es": "スペイン語/カスティーリャ語",
-      "fr": "フランス語",
-      "gn": "グアラニー語",
-      "hi": "ヒンディー語",
-      "it": "イタリア語",
-      "ja": "日本語",
-      "la": "ラテン",
-      "pa": "パンジャブ語",
-      "pt-BR": "ブラジル系ポルトガル語",
-      "zh": "中国語",
-      "ru": "ロシア"
-    },
-    "theme": {
-      "change": "ウェブサイトのテーマを変更する"
-    }
-  },
-  "paths": {
-    "title": {
-      "404": "見つかりません",
-      "home": "ホームページ",
-      "resume": "再開する",
-      "colors": "カラーバリエーション",
-      "extralanguages": "追加の言語",
-      "leetcode": "リートコード",
-      "maintenance": "ページはメンテナンス中です"
-    }
-  },
-  "icons": {
-    "alt": {
-      "linkedin": "リンクトインのアイコン",
-      "mail": "電子メールアイコン",
-      "website": "ウェブサイトのアイコン",
-      "phone": "電話アイコン",
-      "code": "2 つの中括弧のアイコン",
-      "download": "ドキュメントダウンロードアイコン",
-      "email": "メールアイコン",
-      "github": "GitHub アイコン",
-      "palette": "カラーパレットアイコン",
-      "home": "ホームアイコン",
-      "external": "外部リンク記号",
-      "leetcode": "リートコードのアイコン",
-      "moon": "月のアイコン",
-      "sun": "太陽のアイコン",
-      "person": "人のアイコン",
-      "more": "「その他のページ」アイコン"
-    }
-  },
-  "home": {
-    "header": {
-      "name": "アミラ・ガヤトリ",
-      "subheading": "見たいページをクリックして開いてください！"
-    },
-    "pageList": {
-      "home": {
-        "title": "ホームページ"
-      },
-      "colors": {
-        "title": "シェードジェネレーター"
-      },
-      "resume": {
-        "title": "私の履歴書"
-      },
-      "extralanguages": {
-        "title": "追加の言語"
-      },
-      "leetcode": {
-        "title": "LeetCodeの統計"
-      }
-    },
-    "externalLinks": {
-      "linkedin": "リンクトイン",
-      "github": "ソースコード"
-    }
-  },
-  "resume": {
-    "header": {
-      "name": "Amira Gayatri El Assad Hempel",
-      "subheading": "フロントエンドWeb開発者"
-    },
-    "summary": {
-      "text": "コンピューター サイエンスを卒業し、主にフロントエンド開発者として Web 開発に 5 年間の経験があります。 "
-    },
-    "sections": {
-      "education": {
-        "title": "教育",
-        "items": {
-          "grad": {
-            "text": "理学士"
-          }
-        }
-      },
-      "experience": {
-        "title": "専門的な経験",
-        "items": {
-          "atip": {
-            "text": "Atip (Pepsico Partner) のフロントエンド開発者。",
-            "subitem": "プロジェクトで React、Next.js、StyledComponents、TypeScript を使用し、メキシコのペプシコ チームと協力しています。"
-          },
-          "techviz": {
-            "text": "TechViz の技術責任者。",
-            "subitem": "プロジェクトでの React、Next.js、Svelte、StyledComponents、TypeScript の使用。"
-          },
-          "encora": {
-            "text": "Encora ブラジルのフロントエンド開発者。",
-            "subitem": "プロジェクトでの React、Vue.js、Laravel の使用"
-          },
-          "raccoon": {
-            "text": "Raccoon.Monks のフロントエンド開発者。",
-            "subitem": "プロジェクトで React、WordPress、AMP、Next.js、PHP、HTML、JavaScript、SCSS を使用する。"
-          },
-          "partenero": {
-            "text": "パルテネロのフルスタックインターン。",
-            "subitem": "Firebase と Ember の使用"
-          },
-          "liven": {
-            "text": "Liven のフロントエンド モバイル インターン。 ",
-            "subitem": "プロジェクトでの React と React Native の使用"
-          }
-        }
-      },
-      "languages": {
-        "title": "言語",
-        "items": {
-          "pt": {
-            "text": "ブラジル系ポルトガル語ネイティブ"
-          },
-          "en": {
-            "text": "上級英語"
-          }
-        }
-      },
-      "technologies": {
-        "title": "テクノロジー",
-        "items": {
-          "webbasics": {
-            "text": "JavaScript、HTML、CSS"
-          },
-          "javascript": {
-            "text": "React、スタイル付きコンポーネント、Next.js"
-          },
-          "otherframeworks": {
-            "text": "SCSS、AMP、React Native、Vue.js、Svelte"
-          },
-          "php": {
-            "text": "WordPress、PHP、Laravel"
-          },
-          "basics": {
-            "text": "Linux と GIT"
-          }
-        }
-      },
-      "projects": {
-        "title": "プロジェクトと活動",
-        "items": {
-          "accessibility": {
-            "text": "W3Cx Web アクセシビリティ コース"
-          },
-          "shehacks": {
-            "text": "Facebook本社で開催されたハッカソン、Shehacksの優勝チーム（20チーム中）の参加者"
-          },
-          "principia": {
-            "text": "「プリンキピア - 学校でのロボット」を通じた公立学校でのロボット教育のボランティアモニターを1学期限定で実施"
-          },
-          "vemPraUSP": {
-            "text": "公立高校生向けオンラインプログラミング教育プログラム「Vem Pra USP」をモニター"
-          },
-          "pet": {
-            "text": "PET Computação の高齢者向けコンピュータ サイエンス コースの 2 学期のモニター"
-          }
-        }
-      }
-    },
-    "dates": {
-      "now": "今"
-    }
-  },
-  "footer": {
-    "text": "{{name}}によって開発されました"
-  },
   "colors": {
-    "header": {
-      "title": "カラーバリエーションジェネレーター",
-      "summary": "黒と白のカラー バリエーションを作成します。デフォルトのバリエーション数は各方向に 10 ですが、変更できます。"
-    },
     "addColor": {
-      "title": "色を追加する",
       "buttons": {
         "addMany": {
           "hidden": "複数追加",
@@ -206,35 +14,108 @@
           "hidden": "バリエーション番号変更",
           "showing": "バリエーション番号の変更をやめる"
         }
-      }
+      },
+      "title": "色を追加する"
     },
     "colorList": {
-      "title": "追加された色",
       "summary": {
         "empty": "まだ色を追加していません",
         "nonEmpty": "クリックして削除します"
-      }
+      },
+      "title": "追加された色"
+    },
+    "header": {
+      "summary": "黒と白のカラー バリエーションを作成します。デフォルトのバリエーション数は各方向に 10 ですが、変更できます。",
+      "title": "カラーバリエーションジェネレーター"
     },
     "shades": {
-      "title": "シェード",
-      "summary": "クリックして色をコピーしてください!"
+      "summary": "クリックして色をコピーしてください!",
+      "title": "シェード"
     }
   },
+  "errors": {
+    "404": "ページが見つかりません!",
+    "maintenance": "ページメンテナンス中です！"
+  },
   "extralanguages": {
-    "title": "追加の言語",
-    "summary": "これらの言語オプションは、i18n-next の使用をトレーニングするために、自動翻訳機能を使用して生成されました。"
+    "summary": "これらの言語オプションは、i18n-next の使用をトレーニングするために、自動翻訳機能を使用して生成されました。",
+    "title": "追加の言語"
+  },
+  "footer": {
+    "text": "{{name}}によって開発されました"
+  },
+  "home": {
+    "externalLinks": {
+      "github": "ソースコード",
+      "linkedin": "リンクトイン"
+    },
+    "header": {
+      "name": "アミラ・ガヤトリ",
+      "subheading": "見たいページをクリックして開いてください！"
+    },
+    "pageList": {
+      "colors": {
+        "title": "シェードジェネレーター"
+      },
+      "extralanguages": {
+        "title": "追加の言語"
+      },
+      "home": {
+        "title": "ホームページ"
+      },
+      "leetcode": {
+        "title": "LeetCodeの統計"
+      },
+      "resume": {
+        "title": "私の履歴書"
+      }
+    }
+  },
+  "icons": {
+    "alt": {
+      "code": "2 つの中括弧のアイコン",
+      "download": "ドキュメントダウンロードアイコン",
+      "email": "メールアイコン",
+      "external": "外部リンク記号",
+      "github": "GitHub アイコン",
+      "home": "ホームアイコン",
+      "leetcode": "リートコードのアイコン",
+      "linkedin": "リンクトインのアイコン",
+      "mail": "電子メールアイコン",
+      "moon": "月のアイコン",
+      "more": "「その他のページ」アイコン",
+      "palette": "カラーパレットアイコン",
+      "person": "人のアイコン",
+      "phone": "電話アイコン",
+      "sun": "太陽のアイコン",
+      "website": "ウェブサイトのアイコン"
+    }
   },
   "leetcode": {
+    "badges": {
+      "date": "日付：",
+      "details": {
+        "false": "バッジをクリックすると詳細が表示されます。",
+        "true": "{{BadgeName}} を正常に取得しました!"
+      },
+      "icon": "{{BadgeName}} バッジのアイコン",
+      "summary": "バッジの名前は、LeetCode で使用されている名前と一致するように英語で付けられています。",
+      "title": "獲得バッジ一覧"
+    },
     "heatmap": {
-      "title": "LeetCodeの提出",
+      "mode": {
+        "false": "シンプルモード",
+        "true": "詳細モード"
+      },
       "reverse": {
         "false": "最新の日付が最初",
         "true": "最も古い日付が最初"
       },
-      "mode": {
-        "false": "シンプルモード",
-        "true": "詳細モード"
-      }
+      "title": "LeetCodeの提出"
+    },
+    "languages": {
+      "summary": "ここには、5 つ以上の問題が完了したプログラミング言語のみがリストされています。\nマウスを移動すると、その数が表示されます。",
+      "title": "使用されるプログラミング言語"
     },
     "questions": {
       "easy": "簡単",
@@ -242,22 +123,147 @@
       "medium": "中くらい",
       "title": "解決された質問"
     },
-    "badges": {
-      "icon": "{{BadgeName}} バッジのアイコン",
-      "title": "獲得バッジ一覧",
-      "date": "日付："
-    },
-    "languages": {
-      "summary": "ここには、5 つ以上の問題が完了したプログラミング言語のみがリストされています。\nマウスを移動すると、その数が表示されます。"
-    },
     "skills": {
       "level": "{{level}} Skills",
       "summary": "LeetCode GraphQL API にこの分割があり、名前が翻訳されていない問題があります。",
       "title": "スキル一覧"
     }
   },
-  "errors": {
-    "404": "ページが見つかりません!",
-    "maintenance": "ページメンテナンス中です！"
+  "menu": {
+    "languages": {
+      "ar": "標準現代アラビア語",
+      "ar-LB": "レバノン語アラビア語",
+      "bn": "ベンガル語",
+      "de": "ドイツ語",
+      "el": "ギリシャ語",
+      "en": "英語",
+      "es": "スペイン語/カスティーリャ語",
+      "fr": "フランス語",
+      "gn": "グアラニー語",
+      "hi": "ヒンディー語",
+      "it": "イタリア語",
+      "ja": "日本語",
+      "la": "ラテン",
+      "pa": "パンジャブ語",
+      "pt-BR": "ブラジル系ポルトガル語",
+      "ru": "ロシア",
+      "zh": "中国語"
+    },
+    "theme": {
+      "change": "ウェブサイトのテーマを変更する"
+    }
+  },
+  "paths": {
+    "title": {
+      "404": "見つかりません",
+      "colors": "カラーバリエーション",
+      "extralanguages": "追加の言語",
+      "home": "ホームページ",
+      "leetcode": "リートコード",
+      "maintenance": "ページはメンテナンス中です",
+      "resume": "再開する"
+    }
+  },
+  "resume": {
+    "dates": {
+      "now": "今"
+    },
+    "header": {
+      "name": "Amira Gayatri El Assad Hempel",
+      "subheading": "フロントエンドWeb開発者"
+    },
+    "sections": {
+      "education": {
+        "items": {
+          "grad": {
+            "text": "理学士"
+          }
+        },
+        "title": "教育"
+      },
+      "experience": {
+        "items": {
+          "atip": {
+            "subitem": "プロジェクトで React、Next.js、StyledComponents、TypeScript を使用し、メキシコのペプシコ チームと協力しています。",
+            "text": "Atip (Pepsico Partner) のフロントエンド開発者。"
+          },
+          "encora": {
+            "subitem": "プロジェクトでの React、Vue.js、Laravel の使用",
+            "text": "Encora ブラジルのフロントエンド開発者。"
+          },
+          "liven": {
+            "subitem": "プロジェクトでの React と React Native の使用",
+            "text": "Liven のフロントエンド モバイル インターン。 "
+          },
+          "partenero": {
+            "subitem": "Firebase と Ember の使用",
+            "text": "パルテネロのフルスタックインターン。"
+          },
+          "raccoon": {
+            "subitem": "プロジェクトで React、WordPress、AMP、Next.js、PHP、HTML、JavaScript、SCSS を使用する。",
+            "text": "Raccoon.Monks のフロントエンド開発者。"
+          },
+          "techviz": {
+            "subitem": "プロジェクトでの React、Next.js、Svelte、StyledComponents、TypeScript の使用。",
+            "text": "TechViz の技術責任者。"
+          }
+        },
+        "title": "専門的な経験"
+      },
+      "languages": {
+        "items": {
+          "en": {
+            "text": "上級英語"
+          },
+          "pt": {
+            "text": "ブラジル系ポルトガル語ネイティブ"
+          }
+        },
+        "title": "言語"
+      },
+      "projects": {
+        "items": {
+          "accessibility": {
+            "text": "W3Cx Web アクセシビリティ コース"
+          },
+          "pet": {
+            "text": "PET Computação の高齢者向けコンピュータ サイエンス コースの 2 学期のモニター"
+          },
+          "principia": {
+            "text": "「プリンキピア - 学校でのロボット」を通じた公立学校でのロボット教育のボランティアモニターを1学期限定で実施"
+          },
+          "shehacks": {
+            "text": "Facebook本社で開催されたハッカソン、Shehacksの優勝チーム（20チーム中）の参加者"
+          },
+          "vemPraUSP": {
+            "text": "公立高校生向けオンラインプログラミング教育プログラム「Vem Pra USP」をモニター"
+          }
+        },
+        "title": "プロジェクトと活動"
+      },
+      "technologies": {
+        "items": {
+          "basics": {
+            "text": "Linux と GIT"
+          },
+          "javascript": {
+            "text": "React、スタイル付きコンポーネント、Next.js"
+          },
+          "otherframeworks": {
+            "text": "SCSS、AMP、React Native、Vue.js、Svelte"
+          },
+          "php": {
+            "text": "WordPress、PHP、Laravel"
+          },
+          "webbasics": {
+            "text": "JavaScript、HTML、CSS"
+          }
+        },
+        "title": "テクノロジー"
+      }
+    },
+    "summary": {
+      "text": "コンピューター サイエンスを卒業し、主にフロントエンド開発者として Web 開発に 5 年間の経験があります。 "
+    }
   }
 }
