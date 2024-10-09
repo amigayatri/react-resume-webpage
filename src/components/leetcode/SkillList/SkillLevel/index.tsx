@@ -1,5 +1,10 @@
-import { SkillLevelWrapper, SkillTag, LevelTitle } from "./SkillLevel.styled"
-import { Tag, TagCloud } from "react-tagcloud"
+import {
+	SkillLevelWrapper,
+	SkillTag,
+	LevelTitle,
+	CloudTag
+} from "./SkillLevel.styled"
+import { Tag } from "react-tagcloud"
 
 interface SkillLevelProps {
 	name: string
@@ -37,7 +42,7 @@ const SkillLevel = ({ name, skills }: SkillLevelProps) => {
 	return (
 		<SkillLevelWrapper>
 			<LevelTitle>{name}</LevelTitle>
-			<TagCloud
+			<CloudTag
 				shuffle
 				minSize={16}
 				maxSize={32}

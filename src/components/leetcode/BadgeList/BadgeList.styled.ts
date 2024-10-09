@@ -9,15 +9,14 @@ export const BadgeListWrapper = styled.section`
 
 export const BadgesWrapper = styled.div`
 	display: grid;
-	grid-gap: 32px;
-	grid-template-columns: repeat(4, 96px);
+	grid-template-columns: repeat(4, 128px);
 	margin: 32px auto 0;
 	width: fit-content;
 
 	${media.max.sm} {
-		grid-template-columns: repeat(3, 96px);
+		grid-template-columns: repeat(3, 128px);
 	}
 	${media.max.xs} {
-		grid-template-columns: repeat(2, 96px);
+		grid-template-columns: repeat(2, 128px);
 	}
 `

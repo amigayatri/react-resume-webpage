@@ -9,7 +9,7 @@ export const HeaderWrapper = styled.div`
 	left: 16px;
 
 	${media.max.xs} {
-		height: 160px;
+		height: 196px;
 	}
 `
 

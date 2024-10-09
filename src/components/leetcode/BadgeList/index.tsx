@@ -30,6 +30,7 @@ const BadgeList = ({ leetcode }: LeetCodeProps) => {
 			<BadgesWrapper>
 				{badges.map((badge, idx) => (
 					<BadgeComponent
+						details={detailedBadge}
 						setDetails={(badge) => setDetailedBadge(badge)}
 						key={`badge-number-${idx}`}
 						badge={badge}

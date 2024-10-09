@@ -15,7 +15,7 @@ export const HeatMapWrapper = styled.section`
 	border-radius: 16px;
 	position: relative;
 	${media.max.xs} {
-		padding-top: 160px;
+		padding-top: 196px;
 	}
 `
 
