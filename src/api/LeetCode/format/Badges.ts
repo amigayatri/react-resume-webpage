@@ -18,7 +18,6 @@ export const formatBadges = (rawData: QueryResult) => {
 	const formatedBadges: BadgeProps[] = []
 	badges.sort((a, b) => (a.creationDate < b.creationDate ? -1 : 1))
 	badges.forEach((badge: RawBadge) => {
-		console.log(badge.creationDate)
 		formatedBadges.push({
 			name: badge.displayName,
 			icon: badge.icon,

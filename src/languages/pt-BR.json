@@ -246,6 +246,15 @@
       "icon": "Ícone do emblema {{BadgeName}}",
       "title": "Lista de emblemas obtidos",
       "date": "Data:"
+    },
+    "languages": {
+      "title": "Linguagens de programação utilizadas",
+      "summary": "Apenas as linguagens de programação que possuem 5 ou mais problemas resolvidos estão listadas aqui. \nPasse o mouse para ver quantos!"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "Os problemas têm essa divisão na API do LeetCode de GraphQL, os nomes não estão traduzidos.",
+      "title": "Lista de habilidades"
     }
   },
   "errors": {

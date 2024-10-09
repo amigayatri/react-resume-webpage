@@ -246,6 +246,14 @@
       "icon": "Icono de la insignia {{BadgeName}}",
       "title": "Lista de insignias obtenidas",
       "date": "Fecha:"
+    },
+    "languages": {
+      "summary": "Aquí solo se enumeran los lenguajes de programación que tienen 5 o más problemas resueltos. \n¡Pasa el cursor para ver cuántos!"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "Los problemas tienen esta división en LeetCode GraphQL API, los nombres no están traducidos.",
+      "title": "Lista de habilidades"
     }
   },
   "errors": {

@@ -14,7 +14,7 @@ const colors = {
 
 export const PacManLoaderWrapper = styled.span`
 	height: ${value * 2 + unit};
-	width: ${value * 3 + unit};
+	width: ${value * 6 + unit};
 	position: relative;
 `
 

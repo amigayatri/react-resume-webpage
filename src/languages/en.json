@@ -241,11 +241,20 @@
         "false": "Simple Mode"
       }
     },
+    "languages": {
+      "title": "Programming languages used",
+      "summary": "Only the programming languages that have 5 or more problems done are listed here. Hover to see how many!"
+    },
     "questions": {
       "easy": "Easy",
       "hard": "Difficult",
       "medium": "Medium",
       "title": "Solved questions"
+    },
+    "skills": {
+      "title": "Skills List",
+      "level": "{{level}} Skills",
+      "summary": "The problems have this division in LeetCode GraphQL API, the names are not translated."
     }
   },
   "errors": {

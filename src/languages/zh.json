@@ -246,6 +246,14 @@
       "icon": "{{BadgeName}} 徽章的图标",
       "title": "获得徽章列表",
       "date": "日期："
+    },
+    "languages": {
+      "summary": "这里只列出了完成了 5 个或更多问题的编程语言。\n将鼠标悬停即可查看有多少！"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "LeetCode GraphQL API 中有这样的划分问题，名称没有翻译。",
+      "title": "技能清单"
     }
   },
   "errors": {

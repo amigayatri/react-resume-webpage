@@ -17,7 +17,7 @@ export const TotalWrapper = styled.div``
 export const QuestionsDetailsWrapper = styled.div`
 	width: 100%;
 	margin-left: 64px;
-	max-width: 500px;
+	max-width: var(--max-leetcode);
 	${media.max.md} {
 		margin: 32px auto 0;
 	}
