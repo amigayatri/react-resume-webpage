@@ -20,8 +20,10 @@ export const empty = {
 export class LeetCode {
 	user: string
 	baseURL: string
+	min: number
 
-	constructor(username: string) {
+	constructor(username: string, min?: number) {
+		this.min = min === undefined ? 0 : min
 		this.user = username
 		this.baseURL = useGetCurrentHost()
 	}
@@ -64,7 +66,7 @@ export class LeetCode {
 			`${this.baseURL}/languageStats?username=${this.user}`
 		)
 		const body = await response.json()
-		return formatLanguages(body)
+		return formatLanguages(body, this.min)
 	}
 
 	getQuestions = async () => {
