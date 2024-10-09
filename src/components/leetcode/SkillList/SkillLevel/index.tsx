@@ -1,9 +1,9 @@
 import { SkillLevelWrapper, SkillTag, LevelTitle } from "./SkillLevel.styled"
-import { TagCloud } from "react-tagcloud"
+import { Tag, TagCloud } from "react-tagcloud"
 
 interface SkillLevelProps {
 	name: string
-	skills: any
+	skills: Tag[]
 }
 const rainbow = [
 	"#f92472",
@@ -22,10 +22,9 @@ const getColor = () => {
 
 const customRenderer = (
 	tag: {
-		value: any
+		value: string
 	},
-	size: number,
-	_color: any
+	size: number
 ) => {
 	return (
 		<SkillTag key={tag.value} $color={getColor()} $size={size}>

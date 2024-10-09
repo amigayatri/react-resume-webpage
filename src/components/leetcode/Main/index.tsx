@@ -18,7 +18,7 @@ const Main = ({ user }: MainProps) => {
 	useEffect(() => {
 		const lc = new LeetCode(user)
 		setLeetcode(lc)
-	}, [])
+	}, [user])
 	if (leetcode.user === " ") {
 		return (
 			<MainWrapper>

@@ -10,7 +10,7 @@ const SkillList = ({ leetcode }: LeetCodeProps) => {
 	const [allSkills, setAllSkills] = useState(empty.skills)
 	useEffect(() => {
 		leetcode.getSkills().then((skills) => setAllSkills(skills))
-	}, [])
+	}, [leetcode])
 	const { t } = useTranslation()
 	return (
 		<SkillListWrapper>

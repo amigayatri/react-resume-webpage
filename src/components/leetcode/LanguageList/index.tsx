@@ -19,7 +19,7 @@ const LanguageList = ({ leetcode }: LeetCodeProps) => {
 			}
 			setMax(max)
 		})
-	}, [])
+	}, [leetcode])
 	return (
 		<LanguageListWrapper>
 			<Title>{t("leetcode.languages.title")}</Title>

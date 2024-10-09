@@ -29,7 +29,7 @@ const HeatMap = ({ leetcode }: LeetCodeProps) => {
 	useEffect(() => {
 		const daysByMonth = new Map()
 		leetcode.getCalendar().then((res) => {
-			for (let { date, submissions } of res) {
+			for (const { date, submissions } of res) {
 				const month = date.getMonth()
 				const monthArr = daysByMonth.has(month) ? daysByMonth.get(month) : []
 				monthArr.push([date, submissions])
@@ -46,9 +46,9 @@ const HeatMap = ({ leetcode }: LeetCodeProps) => {
 			zeroColor = colorsArr[half + halfMax + (maxColor & 1) + 1]
 			let minMonth = 13,
 				maxMonth = -1
-			for (let [month, daysInMonth] of daysByMonth) {
+			for (const [month, daysInMonth] of daysByMonth) {
 				const withColor = []
-				for (let [day, exercises] of daysInMonth) {
+				for (const [day, exercises] of daysInMonth) {
 					withColor.push({
 						day,
 						exercises,
@@ -69,7 +69,7 @@ const HeatMap = ({ leetcode }: LeetCodeProps) => {
 			}
 			setMonths(monthObjArr)
 		})
-	}, [])
+	}, [leetcode])
 	const showMonths = () => {
 		return months.map(({ days }, i) => {
 			return (
