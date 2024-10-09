@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle<{
         ${media.min.md} {
             --container: calc((100% - 700px)/ 2);
             --color-container: 64px;
-            --max-leetcode: 720px;
+            --max-leetcode: 640px;
         }
 
         ${media.print} {

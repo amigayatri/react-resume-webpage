@@ -41,7 +41,7 @@ export const DaysWrapper = styled.div<{ $isSimple: boolean }>`
 		grid-template-columns: repeat(7, 56px);
 	}
 	${media.max.sm} {
-		grid-template-columns: repeat(7, 32px);
+		grid-template-columns: repeat(7, 24px);
 	}
 	grid-column-gap: 8px;
 	grid-row-gap: 8px;

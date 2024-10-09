@@ -44,7 +44,7 @@ export const ContentWrapper = styled.span`
 		height: 40px;
 		width: 32px;
 		& ${CalendarSymbolWrapper} {
-			scale: 0.5;
+			scale: 0.4;
 		}
 	}
 
@@ -57,7 +57,7 @@ export const ContentWrapper = styled.span`
 				scale: 0.95;
 			}
 			${media.max.sm} {
-				scale: 0.7;
+				scale: 0.6;
 			}
 
 			& ${Day} {

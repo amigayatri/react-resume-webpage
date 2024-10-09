@@ -1,4 +1,10 @@
+import { TagCloud } from "react-tagcloud"
 import styled from "styled-components"
+
+export const CloudTag = styled(TagCloud)`
+	overflow-x: visible;
+	overflow-y: visible;
+`
 
 export const SkillLevelWrapper = styled.div`
 	max-width: var(--max-leetcode);
@@ -8,8 +14,7 @@ export const SkillLevelWrapper = styled.div`
 export const SkillTag = styled.span<{ $color: string; $size: number }>`
 	font-size: ${({ $size }) => $size}px;
 	color: ${({ $color }) => $color};
-	word-wrap: normal;
-	transition: ${({ theme }) => theme.transition};
+	word-wrap: anywhere;
 	padding: 8px;
 	border-radius: 8px;
 	border: 2px solid transparent;
