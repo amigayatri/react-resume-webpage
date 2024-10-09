@@ -3,11 +3,19 @@ import LeetCodeProps from "./../../../types/LeetCodeProps"
 import { useEffect, useState } from "react"
 import { empty } from "../../../api/LeetCode"
 import BadgeComponent from "./BadgeComponent"
-import { Title } from "../Common.styled"
+import { Summary, Title } from "../Common.styled"
 import { useTranslation } from "react-i18next"
+import DetailedBadge from "./DetailedBadge"
+
+const emptyDetails = {
+	name: "",
+	icon: "",
+	date: new Date()
+}
 
 const BadgeList = ({ leetcode }: LeetCodeProps) => {
 	const [badges, setBadges] = useState(empty.badges)
+	const [detailedBadge, setDetailedBadge] = useState(emptyDetails)
 	useEffect(() => {
 		leetcode.getBadges().then((badges) => {
 			setBadges(badges)
@@ -17,9 +25,15 @@ const BadgeList = ({ leetcode }: LeetCodeProps) => {
 	return (
 		<BadgeListWrapper>
 			<Title>{t("leetcode.badges.title")}</Title>
+			<Summary>{t("leetcode.badges.summary")}</Summary>
+			<DetailedBadge details={detailedBadge} />
 			<BadgesWrapper>
 				{badges.map((badge, idx) => (
-					<BadgeComponent key={`badge-number-${idx}`} {...badge} />
+					<BadgeComponent
+						setDetails={(badge) => setDetailedBadge(badge)}
+						key={`badge-number-${idx}`}
+						badge={badge}
+					/>
 				))}
 			</BadgesWrapper>
 		</BadgeListWrapper>
