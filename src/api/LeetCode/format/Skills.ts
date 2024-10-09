@@ -3,9 +3,9 @@ interface RawSkill {
 	tagName: string
 	tagSlug: string
 }
-import Skill from "../../../types/SkillProps"
+import { Tag } from "react-tagcloud"
 
-export const emptySkills: { name: string; skills: Skill[] }[] = []
+export const emptySkills: Map<string, Tag[]> = new Map()
 
 interface QueryResult {
 	data: {
@@ -29,5 +29,5 @@ export const formatSkills = (rawData: QueryResult) => {
 		}
 		levelList.set(level, skillLevelList)
 	}
-	return Object.fromEntries(levelList.entries())
+	return levelList
 }

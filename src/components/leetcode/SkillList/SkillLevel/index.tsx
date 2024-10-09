@@ -27,7 +27,7 @@ const customRenderer = (
 	size: number
 ) => {
 	return (
-		<SkillTag key={tag.value} $color={getColor()} $size={size}>
+		<SkillTag tabIndex={0} key={tag.value} $color={getColor()} $size={size}>
 			{tag.value}
 		</SkillTag>
 	)
@@ -43,7 +43,6 @@ const SkillLevel = ({ name, skills }: SkillLevelProps) => {
 				maxSize={32}
 				tags={skills}
 				renderer={customRenderer}
-				onClick={(tag) => alert(`'${tag.value}' was selected!`)}
 			/>
 		</SkillLevelWrapper>
 	)

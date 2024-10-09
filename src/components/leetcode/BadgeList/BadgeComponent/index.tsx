@@ -7,7 +7,7 @@ const BadgeComponent = (badge: BadgeProps) => {
 	const date = badge.date.toLocaleDateString(i18n.language)
 	const alt = t("leetcode.badges.icon", { BadgeName: badge.name })
 	return (
-		<BadgeComponentWrapper>
+		<BadgeComponentWrapper tabIndex={0}>
 			<BadgeImg src={badge.icon} alt={alt} />
 			{date}
 		</BadgeComponentWrapper>

@@ -10,13 +10,16 @@ export const SkillTag = styled.span<{ $color: string; $size: number }>`
 	color: ${({ $color }) => $color};
 	word-wrap: normal;
 	transition: ${({ theme }) => theme.transition};
-	scale: 2;
-
+	padding: 8px;
+	border-radius: 8px;
+	border: 2px solid transparent;
+	z-index: 2;
+	position: relative;
 	&:hover,
 	&:focus {
 		background-color: ${({ theme }) => theme.primary};
-		padding: 8px;
-		border-radius: 8px;
+		border-color: ${({ $color }) => $color};
+		z-index: 5;
 	}
 `
 export const LevelTitle = styled.h3`

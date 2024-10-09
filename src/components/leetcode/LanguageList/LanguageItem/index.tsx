@@ -12,7 +12,7 @@ const LanguageItem = ({ lang, max }: LangProp) => {
 	const iconSize = Math.ceil(size * 96) < 16 ? 16 : Math.ceil(size * 96)
 	const fontSize = 2 * size < 1 ? 1 : 2 * size
 	return (
-		<LanguageItemWrapper $iconSize={iconSize} $fontSize={fontSize}>
+		<LanguageItemWrapper tabIndex={0} $iconSize={iconSize} $fontSize={fontSize}>
 			<Item>
 				<ProgrammingIcons id={lang.languageName} size={iconSize} />
 				<Count>{lang.problemsSolved}</Count>
