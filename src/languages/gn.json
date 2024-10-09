@@ -246,6 +246,14 @@
       "icon": "Icono {{BadgeName}} insignia-pe g̃uarã",
       "title": "Lista umi insignia ojehupytýva rehegua",
       "date": "Fecha:"
+    },
+    "languages": {
+      "summary": "Umi ñeꞌepykuaa programación rehegua oguerekóva 5 térã hetave apañuãi ojejapóva añoite oñemboheko koꞌape. \n¡Emoĩ nde po rehecha hag̃ua mboypa oĩ!"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "Umi apañuãi oguereko ko división LeetCode GraphQL API-pe, umi téra noñembohasái.",
+      "title": "Katupyry rehegua lista"
     }
   },
   "errors": {

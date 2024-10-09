@@ -246,6 +246,14 @@
       "icon": "Icône du badge {{BadgeName}}",
       "title": "Liste des badges obtenus",
       "date": "Date:"
+    },
+    "languages": {
+      "summary": "Seuls les langages de programmation qui ont 5 problèmes ou plus résolus sont répertoriés ici. \nPassez la souris pour voir combien !"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "Les problèmes ont cette division dans l'API LeetCode GraphQL, les noms ne sont pas traduits.",
+      "title": "Liste de compétences"
     }
   },
   "errors": {

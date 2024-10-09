@@ -9,10 +9,12 @@ const GlobalStyle = createGlobalStyle<{
         --container: 32px;
         --color-container: 32px;
         --fullpage: calc(100vh - 94px);
+        --max-leetcode: 480px;
 
         ${media.min.md} {
             --container: calc((100% - 700px)/ 2);
             --color-container: 64px;
+            --max-leetcode: 720px;
         }
 
         ${media.print} {

@@ -246,6 +246,14 @@
       "icon": "{{BadgeName}} バッジのアイコン",
       "title": "獲得バッジ一覧",
       "date": "日付："
+    },
+    "languages": {
+      "summary": "ここには、5 つ以上の問題が完了したプログラミング言語のみがリストされています。\nマウスを移動すると、その数が表示されます。"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "LeetCode GraphQL API にこの分割があり、名前が翻訳されていない問題があります。",
+      "title": "スキル一覧"
     }
   },
   "errors": {

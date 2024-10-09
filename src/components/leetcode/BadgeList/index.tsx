@@ -10,12 +10,10 @@ const BadgeList = ({ leetcode }: LeetCodeProps) => {
 	const [badges, setBadges] = useState(empty.badges)
 	useEffect(() => {
 		leetcode.getBadges().then((badges) => {
-			console.log(badges)
 			setBadges(badges)
 		})
 	}, [])
 	const { t } = useTranslation()
-	console.log(badges)
 	return (
 		<BadgeListWrapper>
 			<Title>{t("leetcode.badges.title")}</Title>

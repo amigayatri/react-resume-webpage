@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { HeatMapWrapper } from "./HeatMap.styled"
+import { HeatMapWrapper, CalendarWrapper } from "./HeatMap.styled"
 import Loading from "../../common/Loading"
 import { Color } from "../../../lib/colors"
 import Month from "./Month"
@@ -98,7 +98,9 @@ const HeatMap = ({ leetcode }: LeetCodeProps) => {
 					changeStyle={changeMode}
 					changeOrder={changeOrder}
 				/>
-				{reverse ? showMonths().reverse() : showMonths()}
+				<CalendarWrapper $isSimple={simple}>
+					{reverse ? showMonths().reverse() : showMonths()}
+				</CalendarWrapper>
 			</HeatMapWrapper>
 		)
 	}

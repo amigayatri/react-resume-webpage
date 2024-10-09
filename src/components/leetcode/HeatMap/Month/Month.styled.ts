@@ -38,7 +38,7 @@ export const DaysWrapper = styled.div<{ $isSimple: boolean }>`
 	display: ${({ $isSimple }) => ($isSimple ? "flex" : "grid")};
 	grid-template-columns: repeat(7, 64px);
 	${media.max.md} {
-		grid-template-columns: repeat(7, 48px);
+		grid-template-columns: repeat(7, 56px);
 	}
 	${media.max.sm} {
 		grid-template-columns: repeat(7, 32px);

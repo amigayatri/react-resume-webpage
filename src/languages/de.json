@@ -246,6 +246,14 @@
       "icon": "Symbol für das Abzeichen „{{BadgeName}}“.",
       "title": "Liste der erhaltenen Abzeichen",
       "date": "Datum:"
+    },
+    "languages": {
+      "summary": "Hier werden nur die Programmiersprachen aufgeführt, bei denen 5 oder mehr Probleme gelöst wurden. \nBewegen Sie den Mauszeiger, um zu sehen, wie viele es sind!"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "Die Probleme haben diese Aufteilung in der LeetCode GraphQL API, die Namen werden nicht übersetzt.",
+      "title": "Liste der Fähigkeiten"
     }
   },
   "errors": {

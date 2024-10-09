@@ -2,7 +2,7 @@ import styled from "styled-components"
 import media from "../../../constants/medias"
 
 export const BadgeListWrapper = styled.section`
-	max-width: 480px;
+	max-width: var(--max-leetcode);
 	margin: 0 auto;
 	padding: 32px 0;
 `

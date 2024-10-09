@@ -246,6 +246,14 @@
       "icon": "Icon pro {{BadgeName}} nota",
       "title": "Index adeptus insignia",
       "date": "Date:"
+    },
+    "languages": {
+      "summary": "Solae programmationis linguae quae habent 5 vel plures difficultates agendas hic enumerantur. \nQuot volitant videre!"
+    },
+    "skills": {
+      "level": "{{level}} Skills",
+      "summary": "Problemata hanc divisionem in LeetCode GraphQL API habent, nomina non transferuntur.",
+      "title": "Artes List"
     }
   },
   "errors": {
