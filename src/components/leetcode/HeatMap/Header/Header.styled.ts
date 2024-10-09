@@ -7,6 +7,10 @@ export const HeaderWrapper = styled.div`
 	top: 16px;
 	width: calc(100% - 32px);
 	left: 16px;
+
+	${media.max.xs} {
+		height: 160px;
+	}
 `
 
 export const ButtonsWrapper = styled.div`
