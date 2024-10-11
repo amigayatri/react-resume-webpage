@@ -51,8 +51,8 @@ export const ColorSelector = styled.input`
 `
 
 export const ColorTextInput = styled.textarea`
-	background-color: ${({ theme }) => theme.colors.neutral.almostBlack};
-	color: ${({ theme }) => theme.colors.base.purple};
+	background-color: ${({ theme }) => theme.almostBlack};
+	color: ${({ theme }) => theme.purple};
 	resize: none;
 	width: 100%;
 	height: 128px;

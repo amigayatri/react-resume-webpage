@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>تم التطوير</1> بواسطة <2>{{name}}</2> في {{year}}"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "كود المصدر",
@@ -280,8 +278,20 @@
       "title": "إحصائيات موقع الزوار"
     },
     "git": {
-      "recent": "الالتزامات الأخيرة",
-      "title": "إحصائيات مستودع Git"
+      "graph": {
+        "title": "شهريا {{actionName}}"
+      },
+      "main": {
+        "title": "إحصائيات مستودع Git"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "المزيد عن <1>{{linkName}}</1>",
+        "title": "الالتزامات الأخيرة"
+      }
     }
   }
 }

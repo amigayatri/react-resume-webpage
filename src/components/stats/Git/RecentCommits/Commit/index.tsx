@@ -1,4 +1,4 @@
-import { CommitProps } from "../../../../api/Git/format/RepoCommits"
+import { CommitProps } from "../../../../../api/Git/format/RepoCommits"
 import { CommitWrapper, CommitItem } from "./Commit.styled"
 
 interface CommitElementProps {

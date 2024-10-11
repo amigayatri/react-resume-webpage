@@ -3,7 +3,7 @@ import { Icon } from "../../../icons/Styles"
 import media from "../../../constants/medias"
 
 export const MainWrapper = styled.main`
-	color: ${({ theme }) => theme.colors.base.pink};
+	color: ${({ theme }) => theme.pink};
 	background-color: ${({ theme }) => theme.background};
 	width: 100%;
 	min-height: var(--fullpage);
@@ -22,7 +22,7 @@ export const PinkWrapper = styled.div`
 
 export const IconsWrapper = styled.div`
 	display: flex;
-	color: ${({ theme }) => theme.colors.base.pink};
+	color: ${({ theme }) => theme.pink};
 
 	${media.max.md} {
 		& ${Icon} {

@@ -1,51 +1,35 @@
 import { useEffect, useState } from "react"
-import { GitStatsWrapper } from "./GitStats.styled"
-import GitAPI from "./../../../api/Git/"
-import { CommitProps } from "./../../../api/Git/format/RepoCommits"
-import GitDate from "./GitDate"
+import GitAPI from "../../../api/Git"
+import { CommitProps } from "../../../api/Git/format/RepoCommits"
+import RecentCommits from "./RecentCommits"
 import { Title } from "../Common.styled"
 import { useTranslation } from "react-i18next"
 
 const GitStats = () => {
 	const { t } = useTranslation()
 	const [commits, setCommits] = useState(new Map<string, CommitProps[]>())
-	const [open, setOpen] = useState("")
+	const [more, setMore] = useState("")
+	const [showMore, setShowMore] = useState(true)
 	useEffect(() => {
 		const Git = new GitAPI({ repo: "react-resume-webpage", user: "amigayatri" })
 		Git.getCommitsDate().then((commitList) => {
 			const commitsByDate = new Map<string, CommitProps[]>()
+			if (commitList.length <= 25) setShowMore(false)
 			for (const commit of commitList) {
-				const key = commit.date.toLocaleDateString("UTC", {
-					dateStyle: "short"
-				})
+				const [key] = commit.date.toISOString().split("T")
 				const sameDateCommits = commitsByDate.get(key) || []
 				sameDateCommits.push(commit)
 				commitsByDate.set(key, sameDateCommits)
 			}
 			setCommits(commitsByDate)
+			setMore(Git.link)
 		})
 	}, [])
-	const showDates = () => {
-		const toShow: JSX.Element[] = []
-		commits.forEach((commitList, date) => {
-			toShow.push(
-				<GitDate
-					setOpen={() => {
-						setOpen(date)
-					}}
-					isOpen={open === date}
-					commits={commitList}
-					date={date}
-				/>
-			)
-		})
-		return toShow
-	}
 	return (
-		<GitStatsWrapper>
-			<Title>{t("stats.git.recent")}</Title>
-			{...showDates()}
-		</GitStatsWrapper>
+		<>
+			<Title>{t("stats.git.main.title")}</Title>
+			<RecentCommits moreLink={more} commits={commits} showMore={showMore} />
+		</>
 	)
 }
 

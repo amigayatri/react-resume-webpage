@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>Egressus</1> ab <2>{{name}}</2> apud {{year}}"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "Source codice",
@@ -280,8 +278,20 @@
       "title": "Visitors locus stats"
     },
     "git": {
-      "recent": "Recent committit",
-      "title": "Git repositio stats"
+"graph": {
+  "title": "Monthly {{actionName}}"
+},
+"main": {
+  "title": "Git repositio stats"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "Plura in <1>{{linkName}}</1>",
+        "title": "Recent committit"
+      }
     }
   }
 }

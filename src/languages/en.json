@@ -278,8 +278,20 @@
       "title": "Visitors location stats"
     },
     "git": {
-      "title": "Git's repository stats",
-      "recent": "Recent commits"
+      "graph": {
+        "title": "Monthly {{actionName}}"
+      },
+      "main": {
+        "title": "Git's repository stats"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "More on <1>{{linkName}}</1>",
+        "title": "Recent commits"
+      }
     }
   }
 }

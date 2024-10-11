@@ -44,8 +44,6 @@
   "footer": {
     "text": "<2>{{name}}</2> ਦੁਆਰਾ {{year}} ਨੂੰ <1>ਵਿਕਸਿਤ</1>"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "ਸਰੋਤ ਕੋਡ",
@@ -280,8 +278,20 @@
       "title": "ਵਿਜ਼ਟਰ ਟਿਕਾਣੇ ਦੇ ਅੰਕੜੇ"
     },
     "git": {
-      "recent": "ਹਾਲੀਆ ਵਚਨਬੱਧਤਾਵਾਂ",
-      "title": "Git ਦੇ ਰਿਪੋਜ਼ਟਰੀ ਅੰਕੜੇ"
+"graph": {
+  "title": "ਮਹੀਨਾਵਾਰ {{actionName}}"
+},
+"main": {
+  "title": "Git ਦੇ ਰਿਪੋਜ਼ਟਰੀ ਅੰਕੜੇ"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "<1>{{linkName}}</1> 'ਤੇ ਹੋਰ",
+        "title": "ਹਾਲੀਆ ਵਚਨਬੱਧਤਾਵਾਂ"
+      }
     }
   }
 }
