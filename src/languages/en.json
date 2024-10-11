@@ -276,6 +276,10 @@
       "link": "More stats!",
       "summary": "All these components are displaying stats from the same <1>source</1>.",
       "title": "Visitors location stats"
+    },
+    "git": {
+      "title": "Git's repository stats",
+      "recent": "Recent commits"
     }
   }
 }

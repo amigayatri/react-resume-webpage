@@ -44,6 +44,8 @@
   "footer": {
     "text": "<1>Desarrollado</1> por <2>{{name}}</2> en {{year}}"
   },
+  "git": {
+  },
   "home": {
     "externalLinks": {
       "github": "código fuente",
@@ -276,6 +278,10 @@
       "link": "¡Más estadísticas!",
       "summary": "Todos estos componentes muestran estadísticas de la misma <1>fuente</1>.",
       "title": "Estadísticas de ubicación de visitantes"
+    },
+    "git": {
+      "recent": "Confirmaciones recientes",
+      "title": "Estadísticas del repositorio de Git"
     }
   }
 }

@@ -44,6 +44,8 @@
   "footer": {
     "text": "<1>Omoheñói</1> <2>{{name}}</2> rupive {{year}}-pe."
   },
+  "git": {
+  },
   "home": {
     "externalLinks": {
       "github": "Código fuente rehegua",
@@ -276,6 +278,10 @@
       "link": "¡Hetave estadística!",
       "summary": "Opaite ko’ã componente ohechauka hína estadística peteĩchagua <1>fuente</1>-gui.",
       "title": "Umi visitante ubicación estadísticas"
+    },
+    "git": {
+      "recent": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva",
+      "title": "Git ñeñongatuha estadísticas"
     }
   }
 }

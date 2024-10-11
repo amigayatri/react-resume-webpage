@@ -44,6 +44,8 @@
   "footer": {
     "text": "<1>Entwickelt</1> von <2>{{name}}</2> im {{year}}"
   },
+  "git": {
+  },
   "home": {
     "externalLinks": {
       "github": "Quellcode",
@@ -276,6 +278,10 @@
       "link": "Mehr Statistiken!",
       "summary": "Alle diese Komponenten zeigen Statistiken aus derselben <1>Quelle</1> an.",
       "title": "Statistiken zum Besucherstandort"
+    },
+    "git": {
+      "recent": "Aktuelle Commits",
+      "title": "Git-Repository-Statistiken"
     }
   }
 }
