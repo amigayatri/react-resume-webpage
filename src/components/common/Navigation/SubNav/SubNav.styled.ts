@@ -12,6 +12,7 @@ export const ContentWrapper = styled.ul`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
+	border-radius: 0 0 16px 16px;
 	transition: ${({ theme }) => theme.transition};
 
 	& ${LinkWrapper} {

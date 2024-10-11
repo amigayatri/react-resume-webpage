@@ -6,9 +6,9 @@ export const LanguageSelectInput = styled.select`
 	background-color: ${({ theme }) => theme.black};
 	color: ${({ theme }) => theme.white};
 	border-color: ${({ theme }) => theme.black};
- ${media.max.xs} {
-max-width: 200px
-}
+	${media.max.sm} {
+		max-width: 200px;
+	}
 `
 
 export const LanguageOption = styled.option`

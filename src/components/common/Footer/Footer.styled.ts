@@ -23,6 +23,10 @@ export const Link = styled.a`
     color: ${({theme}) => theme.accent};
 `
 
+export const SecondaryLink = styled(Link)`
+	color: ${({ theme }) => theme.secondAccent};
+`
+
 export const FooterContent = styled.div<{ $isRTL: boolean }>`
 	display: flex;
 	flex-direction: ${({ $isRTL }) => ($isRTL ? "row-reverse" : "row")};

@@ -42,7 +42,9 @@
     "title": "Ñe’ẽ extra"
   },
   "footer": {
-    "text": "Omoheñóiva {{name}}."
+    "text": "<1>Omoheñói</1> <2>{{name}}</2> rupive {{year}}-pe."
+  },
+  "git": {
   },
   "home": {
     "externalLinks": {
@@ -68,11 +70,15 @@
       },
       "resume": {
         "title": "Che currículum"
+      },
+      "sitestats": {
+        "title": "Estadísticas página web rehegua"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Gráfico icono rehegua",
       "code": "Mokõi soporte rizado icono",
       "download": "Kuatia ñemboguejyha techaukaha",
       "email": "Correo rehegua icono",
@@ -161,7 +167,8 @@
       "home": "Página principal",
       "leetcode": "LeetCode rehegua",
       "maintenance": "Página ohóva mantenimiento guýpe",
-      "resume": "Moñepyrũjey"
+      "resume": "Moñepyrũjey",
+      "sitestats": "Estadísticas rehegua"
     }
   },
   "resume": {
@@ -264,6 +271,17 @@
     },
     "summary": {
       "text": "Omohu’ã Informática, oguereko po ary experiencia desarrollo web-pe, principalmente Desarrollador Front-end ramo. "
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "¡Hetave estadística!",
+      "summary": "Opaite ko’ã componente ohechauka hína estadística peteĩchagua <1>fuente</1>-gui.",
+      "title": "Umi visitante ubicación estadísticas"
+    },
+    "git": {
+      "recent": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva",
+      "title": "Git ñeñongatuha estadísticas"
     }
   }
 }

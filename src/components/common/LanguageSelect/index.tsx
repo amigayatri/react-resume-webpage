@@ -11,8 +11,8 @@ const LanguageSelect = ({
 	isExtra = false
 }: LanguageSelectProps) => {
 	const { i18n, t } = useTranslation()
-	const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
-		const langCode = e.target.value
+	const onChangeLang = ({ target }: React.ChangeEvent<HTMLSelectElement>) => {
+		const langCode = target.value
 		i18n.changeLanguage(langCode)
 		document.documentElement.setAttribute("lang", langCode)
 	}

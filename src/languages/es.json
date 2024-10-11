@@ -42,7 +42,9 @@
     "title": "Idiomas adicionales"
   },
   "footer": {
-    "text": "Desarrollado por {{name}}"
+    "text": "<1>Desarrollado</1> por <2>{{name}}</2> en {{year}}"
+  },
+  "git": {
   },
   "home": {
     "externalLinks": {
@@ -68,11 +70,15 @@
       },
       "resume": {
         "title": "mi currículum"
+      },
+      "sitestats": {
+        "title": "Estadísticas del sitio web"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Icono de gráfico",
       "code": "Icono de dos llaves",
       "download": "Icono de descarga de documentos",
       "email": "icono de correo",
@@ -161,7 +167,8 @@
       "home": "Página principal",
       "leetcode": "LeetCode",
       "maintenance": "Página en mantenimiento",
-      "resume": "Reanudar"
+      "resume": "Reanudar",
+      "sitestats": "Estadísticas"
     }
   },
   "resume": {
@@ -264,6 +271,17 @@
     },
     "summary": {
       "text": "Licenciado en Informática, tiene cinco años de experiencia en desarrollo web, principalmente como Desarrollador Front-end. "
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "¡Más estadísticas!",
+      "summary": "Todos estos componentes muestran estadísticas de la misma <1>fuente</1>.",
+      "title": "Estadísticas de ubicación de visitantes"
+    },
+    "git": {
+      "recent": "Confirmaciones recientes",
+      "title": "Estadísticas del repositorio de Git"
     }
   }
 }

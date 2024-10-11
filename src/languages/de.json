@@ -42,7 +42,9 @@
     "title": "Zusätzliche Sprachen"
   },
   "footer": {
-    "text": "Entwickelt von {{name}}"
+    "text": "<1>Entwickelt</1> von <2>{{name}}</2> im {{year}}"
+  },
+  "git": {
   },
   "home": {
     "externalLinks": {
@@ -68,11 +70,15 @@
       },
       "resume": {
         "title": "Mein Lebenslauf"
+      },
+      "sitestats": {
+        "title": "Website-Statistiken"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Diagrammsymbol",
       "code": "Symbol mit zwei geschweiften Klammern",
       "download": "Symbol zum Herunterladen von Dokumenten",
       "email": "Mail-Symbol",
@@ -161,7 +167,8 @@
       "home": "Homepage",
       "leetcode": "LeetCode",
       "maintenance": "Die Seite wird derzeit gewartet",
-      "resume": "Wieder aufnehmen"
+      "resume": "Wieder aufnehmen",
+      "sitestats": "Statistiken"
     }
   },
   "resume": {
@@ -264,6 +271,17 @@
     },
     "summary": {
       "text": "Hat einen Abschluss in Informatik und verfügt über fünf Jahre Erfahrung in der Webentwicklung, hauptsächlich als Front-End-Entwickler. "
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "Mehr Statistiken!",
+      "summary": "Alle diese Komponenten zeigen Statistiken aus derselben <1>Quelle</1> an.",
+      "title": "Statistiken zum Besucherstandort"
+    },
+    "git": {
+      "recent": "Aktuelle Commits",
+      "title": "Git-Repository-Statistiken"
     }
   }
 }

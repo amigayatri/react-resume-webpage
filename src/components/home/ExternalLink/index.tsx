@@ -3,6 +3,7 @@ import SVGIcon from "../../../icons/SVGIcon"
 import { ButtonStyle, Label } from "../Common.styled"
 import { ExternalLinkTag, LabelWrapper } from "./ExternalLink.styled"
 import ExternalLinkProps from "../../../types/ExternalLinkProps"
+import linkProps from "../../../constants/linkprops"
 
 const ExternalLink = ({
 	link,
@@ -13,7 +14,7 @@ const ExternalLink = ({
 }) => {
 	const { t } = useTranslation()
 	return (
-		<ExternalLinkTag rel="noopener" target="_blank" href={link.path}>
+		<ExternalLinkTag {...linkProps} href={link.path}>
 			<ButtonStyle $isRTL={isRTL}>
 				<SVGIcon size={48} id={link.icon} />
 				<LabelWrapper $isRTL={isRTL}>

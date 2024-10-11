@@ -4,6 +4,7 @@ import SVGIcon from "../../../icons/SVGIcon"
 import ContactProps from "../../../types/ContactProps"
 import { getLangDir } from "rtl-detect"
 import { useTranslation } from "react-i18next"
+import linkProps from "../../../constants/linkprops"
 
 const Contacts = () => {
 	const showContactInfo = (contact: ContactProps, index: number) => {
@@ -14,7 +15,7 @@ const Contacts = () => {
 				key={"contact-" + index}
 			>
 				<SVGIcon size={24} id={contact.icon} />
-				<Link href={contact.link} rel="noopener" target="_blank">
+				<Link href={contact.link} {...linkProps}>
 					{contact.text}
 				</Link>
 			</ContactItem>

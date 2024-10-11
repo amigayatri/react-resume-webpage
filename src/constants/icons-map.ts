@@ -1,5 +1,6 @@
 import BrokenLinkIcon from "../icons/BrokenLinkIcon"
 import BugIcon from "../icons/BugIcon"
+import ChartIcon from "../icons/ChartIcon"
 import CodeIcon from "../icons/CodeIcon"
 import DownloadIcon from "../icons/DownloadIcon"
 import EmailIcon from "../icons/EmailIcon"
@@ -25,6 +26,7 @@ import WebsiteIcon from "../icons/WebsiteIcon"
 const icons = new Map([
     ["brokenlink", BrokenLinkIcon],
     ["bug", BugIcon],
+    ["chart", ChartIcon],
     ["code", CodeIcon],
     ["download", DownloadIcon],
     ["email", EmailIcon],

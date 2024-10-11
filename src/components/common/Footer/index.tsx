@@ -1,21 +1,30 @@
-import { useTranslation } from "react-i18next"
-import { FooterWrapper, Link } from "./Footer.styled"
-import { isRtlLang } from "rtl-detect"
+import { useTranslation, Trans } from "react-i18next"
+import { FooterWrapper, Link, SecondaryLink } from "./Footer.styled"
+import VisitorMap from "../VisitorMap"
+import linkProps from "../../../constants/linkprops"
 
 const Footer = () => {
-	const { t, i18n } = useTranslation()
+	const { i18n } = useTranslation()
 	const year = new Date("2024/02/01").toLocaleDateString(i18n.language, {
 		year: "numeric"
 	})
-	const textWithoutYear = t("footer.text", { name: "Amira Gayatri" })
-	const text = isRtlLang(i18n.language)
-		? year + " - " + textWithoutYear
-		: textWithoutYear + " - " + year
+	const tOptions = { name: "Amira Gayatri", year }
 	return (
 		<FooterWrapper>
-			<Link href="https://github.com/amigayatri/react-resume-webpage">
-				{text}
-			</Link>
+			<Trans i18nKey="footer.text" tOptions={tOptions}>
+				t
+				<Link
+					{...linkProps}
+					href="https://github.com/amigayatri/react-resume-webpage"
+				>
+					l
+				</Link>
+				<SecondaryLink {...linkProps} href="https://github.com/amigayatri/">
+					l
+				</SecondaryLink>
+				t
+			</Trans>
+			<VisitorMap id="invisible" />
 		</FooterWrapper>
 	)
 }
