@@ -6,7 +6,6 @@ interface CommitElementProps {
 }
 
 const Commit = ({ info }: CommitElementProps) => {
-	console.log(info)
 	return (
 		<CommitWrapper>
 			<CommitItem>{info.message}</CommitItem>

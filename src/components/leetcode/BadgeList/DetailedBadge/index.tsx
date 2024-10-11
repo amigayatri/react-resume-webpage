@@ -19,7 +19,6 @@ const DetailedBadge = ({ details }: DetailedBadgeProps) => {
 		const success = t("leetcode.badges.details.true", {
 			BadgeName: details.name
 		})
-		console.log(success)
 		return (
 			<DetailMessage>
 				{formatDate()}

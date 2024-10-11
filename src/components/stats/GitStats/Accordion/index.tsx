@@ -7,7 +7,6 @@ interface AccordionProps {
 }
 
 const Accordion = ({ list, isOpen }: AccordionProps) => {
-	console.log(list, isOpen)
 	if (!isOpen) return
 	return (
 		<AccordionWrapper>
