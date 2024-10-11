@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>Разработано</1> <2>{{name}</2> в {{year}}."
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "Исходный код",
@@ -280,8 +278,20 @@
       "title": "Статистика местоположения посетителей"
     },
     "git": {
-      "recent": "Недавние коммиты",
-      "title": "Статистика репозитория Git"
+"graph": {
+  "title": "Ежемесячно {{actionName}}"
+},
+"main": {
+  "title": "Статистика репозитория Git"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "Подробнее о <1>{{linkName}}</1>",
+        "title": "Недавние коммиты"
+      }
     }
   }
 }

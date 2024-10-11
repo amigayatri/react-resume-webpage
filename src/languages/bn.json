@@ -44,8 +44,6 @@
   "footer": {
     "text": "{{year}} এ <2>{{name}}</2> দ্বারা <1>বিকশিত</1>"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "সোর্স কোড",
@@ -280,8 +278,20 @@
       "title": "দর্শক অবস্থান পরিসংখ্যান"
     },
     "git": {
-      "recent": "সাম্প্রতিক প্রতিশ্রুতি",
-      "title": "গিট এর সংগ্রহস্থল পরিসংখ্যান"
+"graph": {
+  "title": "মাসিক {{actionName}}"
+},
+"main": {
+  "title": "গিট এর সংগ্রহস্থল পরিসংখ্যান"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "<1>{{linkName}}</1> এ আরও",
+        "title": "সাম্প্রতিক প্রতিশ্রুতি"
+      }
     }
   }
 }

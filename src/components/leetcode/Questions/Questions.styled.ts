@@ -24,5 +24,5 @@ export const QuestionsDetailsWrapper = styled.div`
 `
 
 export const Title = styled.h2`
-	color: ${({ theme }) => theme.colors.base.pink};
+	color: ${({ theme }) => theme.pink};
 `

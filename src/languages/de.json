@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>Entwickelt</1> von <2>{{name}}</2> im {{year}}"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "Quellcode",
@@ -280,8 +278,20 @@
       "title": "Statistiken zum Besucherstandort"
     },
     "git": {
-      "recent": "Aktuelle Commits",
-      "title": "Git-Repository-Statistiken"
+"graph": {
+  "title": "Monatlich {{actionName}}"
+},
+"main": {
+  "title": "Git-Repository-Statistiken"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "Mehr zu <1>{{linkName}}</1>",
+        "title": "Aktuelle Commits"
+      }
     }
   }
 }

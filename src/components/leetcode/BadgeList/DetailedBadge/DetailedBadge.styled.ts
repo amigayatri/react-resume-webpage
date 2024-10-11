@@ -6,10 +6,10 @@ export const DetailMessage = styled.h3`
 	font-size: 1.5rem;
 	display: inline;
 	margin-left: 8px;
-	color: ${({ theme }) => theme.colors.neutral.white};
+	color: ${({ theme }) => theme.white};
 `
 export const Success = styled(DetailMessage)`
-	color: ${({ theme }) => theme.colors.base.purple};
+	color: ${({ theme }) => theme.purple};
 `
 
 export const DetailedBadgeWrapper = styled.div`
@@ -18,9 +18,9 @@ export const DetailedBadgeWrapper = styled.div`
 	padding: 32px;
 	margin: 32px auto;
 	border-radius: 16px;
-	background-color: ${({ theme }) => theme.colors.neutral.almostBlack};
-	color: ${({ theme }) => theme.colors.neutral.white};
-	border: 2px solid ${({ theme }) => theme.colors.neutral.white};
+	background-color: ${({ theme }) => theme.almostBlack};
+	color: ${({ theme }) => theme.white};
+	border: 2px solid ${({ theme }) => theme.white};
 	position: relative;
 
 	& ${IconWrapper} {
@@ -35,7 +35,7 @@ export const DetailedBadgeWrapper = styled.div`
 	&::after {
 		content: " ";
 		display: block;
-		border: 2px solid ${({ theme }) => theme.colors.neutral.white};
+		border: 2px solid ${({ theme }) => theme.white};
 		width: calc(100% - 40px);
 		height: calc(100% - 40px);
 		position: absolute;

@@ -45,7 +45,7 @@ const Questions = ({ leetcode }: LeetCodeProps) => {
 	}, [])
 	const theme = useTheme()
 	const totalColor = theme.primary
-	const monokaiBase = theme.colors.base
+	const monokaiBase = theme
 	const pink = monokaiBase.pink
 	const green = monokaiBase.green
 	const orange = monokaiBase.orange

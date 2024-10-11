@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>Omoheñói</1> <2>{{name}}</2> rupive {{year}}-pe."
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "Código fuente rehegua",
@@ -280,8 +278,20 @@
       "title": "Umi visitante ubicación estadísticas"
     },
     "git": {
-      "recent": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva",
-      "title": "Git ñeñongatuha estadísticas"
+"graph": {
+  "title": "Jasy jave {{acción Réra}}"
+},
+"main": {
+  "title": "Git ñeñongatuha estadísticas"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "Hetave mba’e <1>{{linkName}}</1> rehegua",
+        "title": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva"
+      }
     }
   }
 }

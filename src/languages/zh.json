@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>由<2>{{name}}</2>于{{year}}开发</1>"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "源代码",
@@ -280,8 +278,20 @@
       "title": "访客位置统计"
     },
     "git": {
-      "recent": "最近的提交",
-      "title": "Git 的存储库统计信息"
+"graph": {
+  "title": "每月 {{actionName}}"
+},
+"main": {
+  "title": "Git 的存储库统计信息"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "有关<1>{{linkName}}</1>的更多信息",
+        "title": "最近的提交"
+      }
     }
   }
 }

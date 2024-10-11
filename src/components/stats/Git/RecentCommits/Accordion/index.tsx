@@ -7,9 +7,8 @@ interface AccordionProps {
 }
 
 const Accordion = ({ list, isOpen }: AccordionProps) => {
-	if (!isOpen) return
 	return (
-		<AccordionWrapper>
+		<AccordionWrapper $isOpen={isOpen}>
 			{list.map((commit, id) => (
 				<Commit key={`commit-${id}`} info={commit} />
 			))}

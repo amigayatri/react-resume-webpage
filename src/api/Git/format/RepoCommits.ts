@@ -6,17 +6,7 @@ export interface CommitProps {
 
 export const emptyCommits: CommitProps[] = []
 
-interface RawCommit {
-	commit: {
-		author: {
-			date: string
-			name: string
-		}
-		message: string
-	}
-}
-
-export const formatCommits = (rawData: RawCommit[]) => {
+export const formatCommits = (rawData: any) => {
 	const formated = Array.from(emptyCommits)
 	for (const { commit } of rawData) {
 		const date = new Date(commit.author.date)

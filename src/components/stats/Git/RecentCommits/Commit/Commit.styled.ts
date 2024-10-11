@@ -10,11 +10,12 @@ export const CommitItem = styled.li`
 	display: flex;
 	position: relative;
 	border: 2px solid transparent;
-	padding-left: 16px;
+	padding: 16px;
+	padding-right: 8px;
 	width: 100%;
-	border-radius: 0 16px 16px 0;
+	border-radius: 0;
 	z-index: 1;
-	color: ${({ theme }) => theme.colors.neutral.white};
+	color: ${({ theme }) => theme.white};
 	&::before {
 		z-index: 2;
 		margin: 0;
@@ -24,12 +25,13 @@ export const CommitItem = styled.li`
 		height: calc(100% + 4px);
 		display: block;
 		list-style: none;
-		background-color: ${({ theme }) => theme.colors.neutral.white};
+		background-color: ${({ theme }) => theme.purple};
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: -2px;
+		left: -1px;
 	}
 	&::after {
+		z-index: 5;
 		position: absolute;
 		content: " ";
 		width: 8px;
@@ -38,11 +40,15 @@ export const CommitItem = styled.li`
 		top: 50%;
 		border-radius: 4px;
 		transform: translateY(-4px);
-		background-color: ${({ theme }) => theme.colors.neutral.white};
+		background-color: ${({ theme }) => theme.purple};
 	}
 	&:hover,
 	&:focus {
 		border-color: ${({ theme }) => theme.accent};
 		border-left-color: transparent;
+		border-right-color: transparent;
+		&:hover::after {
+			background-color: ${({ theme }) => theme.accent};
+		}
 	}
 `

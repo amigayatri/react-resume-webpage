@@ -103,7 +103,7 @@ export const Day = styled.span`
 	display: block;
 	transition: ${({ theme }) => theme.transition};
 	color: ${({ theme }) => theme.background};
-	background-color: ${({ theme }) => theme.colors.base.blue};
+	background-color: ${({ theme }) => theme.blue};
 	font-size: 0.75rem;
 	text-align: center;
 	height: 0;

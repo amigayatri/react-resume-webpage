@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const SectionTitle = styled.h2`
-	color: ${({ theme }) => theme.colors.base.pink};
+	color: ${({ theme }) => theme.pink};
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
 	margin-top: 0;

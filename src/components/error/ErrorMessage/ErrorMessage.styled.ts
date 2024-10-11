@@ -5,7 +5,7 @@ import { Icon } from "../../../icons/Styles"
 
 export const ErrorMessageWrapper = styled.section`
 	display: flex;
-	background-color: ${({ theme }) => theme.colors.neutral.almostBlack};
+	background-color: ${({ theme }) => theme.almostBlack};
 	padding: 8px 16px;
 	padding-right: 24px;
 	justify-content: center;
@@ -40,7 +40,7 @@ export const WritingCursor = styled.div`
 
 export const Message = styled.h1`
 	font-size: 2rem;
-	color: ${({ theme }) => theme.colors.neutral.white};
+	color: ${({ theme }) => theme.white};
 	margin-left: 16px;
 
 	${media.max.md} {

@@ -44,8 +44,6 @@
   "footer": {
     "text": "<1>विकसित</1> द्वारा <2>{{name}}</2> द्वारा {{year}}"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "सोर्स कोड",
@@ -280,8 +278,20 @@
       "title": "आगंतुकों के स्थान आँकड़े"
     },
     "git": {
-      "recent": "हाल की प्रतिबद्धताएँ",
-      "title": "Git के भंडार आँकड़े"
+"graph": {
+  "title": "मासिक {{actionName}}"
+},
+"main": {
+  "title": "Git के भंडार आँकड़े"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "<1>{{linkName}}</1> पर अधिक जानकारी",
+        "title": "हाल की प्रतिबद्धताएँ"
+      }
     }
   }
 }

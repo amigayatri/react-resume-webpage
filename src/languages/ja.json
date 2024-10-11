@@ -44,8 +44,6 @@
   "footer": {
     "text": "{{year}}に<2>{{name}}</2>によって<1>開発</1>されました。"
   },
-  "git": {
-  },
   "home": {
     "externalLinks": {
       "github": "ソースコード",
@@ -280,8 +278,20 @@
       "title": "訪問者の位置統計"
     },
     "git": {
-      "recent": "最近のコミット",
-      "title": "Gitのリポジトリ統計"
+"graph": {
+  "title": "毎月の {{actionName}}"
+},
+"main": {
+  "title": "Gitのリポジトリ統計"
+      },
+      "recent": {
+        "commit": {
+          "more": "{{qtty}} commits",
+          "one": "{{qtty}} commit"
+        },
+        "seeMore": "<1>{{linkName}}</1> の詳細",
+        "title": "最近のコミット"
+      }
     }
   }
 }
