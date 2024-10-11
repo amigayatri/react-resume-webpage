@@ -42,7 +42,7 @@
     "title": "Extra linguas"
   },
   "footer": {
-    "text": "Evolvit {name}}"
+    "text": "<1>Egressus</1> ab <2>{{name}}</2> apud {{year}}"
   },
   "home": {
     "externalLinks": {
@@ -68,11 +68,15 @@
       },
       "resume": {
         "title": "Meum Proin"
+      },
+      "sitestats": {
+        "title": "Website stats"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Chart icon",
       "code": "Duo uncis crispus icon",
       "download": "Documenti download icon",
       "email": "Icon mail",
@@ -161,7 +165,8 @@
       "home": "Protocollum",
       "leetcode": "LeetCode",
       "maintenance": "Page ire sub tutela",
-      "resume": "Proin"
+      "resume": "Proin",
+      "sitestats": "Stats"
     }
   },
   "resume": {
@@ -264,6 +269,13 @@
     },
     "summary": {
       "text": "Lectus in Computer Scientia, quinque annos experientiae in evolutione interreti habet, maxime ut ante-finem Developer. "
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "Plures stats!",
+      "summary": "Haec omnia membra ex eodem <1>fonte</1> ostendunt.",
+      "title": "Visitors locus stats"
     }
   }
 }

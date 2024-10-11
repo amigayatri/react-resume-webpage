@@ -83,19 +83,19 @@ const AddColor = ({
 			<InputWrapper>
 				{showColorSelector && (
 					<ColorSelector
-						onChange={(e) => add(e.target.value)}
+						onChange={({ target }) => add(target.value)}
 						defaultValue="#666666"
 						type="color"
 					/>
 				)}
 				{showColorTextInput && (
 					<ColorTextInput
-						onChange={(e) => handleColorList(e.target.value)}
+						onChange={({ target }) => handleColorList(target.value)}
 					></ColorTextInput>
 				)}
 				{showChangeSteps && (
 					<ChangeSteps
-						onChange={(e) => handleSteps(e.target.value)}
+						onChange={({ target }) => handleSteps(target.value)}
 						min={2}
 						max={32}
 						defaultValue={variationSteps}

@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle<{
 	$isAmplified: boolean
 }>`
     :root {
+        position: relative;
         --container: 32px;
         --color-container: 32px;
         --fullpage: calc(100vh - 94px);
@@ -26,6 +27,7 @@ const GlobalStyle = createGlobalStyle<{
 
     body {
         margin: 0;
+        margin-top: 40px;
         background-color: ${({ theme }) => theme.background};
         color: ${({ theme }) => theme.primary};
         font-size: ${({ $isAmplified }) => ($isAmplified ? "20px" : "16px")} ;

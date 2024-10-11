@@ -20,35 +20,22 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 
 - LeetCode Stats Page
 
-     A (WIP) project to show my progress on LeetCode, with the total number of solved problems and a heatmap of daily activity (with two display modes). Currently going under maintenance as the API previously used is not working, I'm updating to use GraphQL
+     A project to show my progress on LeetCode
+
+- Site Stats Page
+    Some stats about my webpage
 
 ## Roadmap
-
-- Common:
-
-     - Libs needing optimizations
-     - Mobile menu
- 
-- Home page:
-    
-    - Improve interface
 
 - Resume:
 
     - Option to generate pdf
     - Make it readable by pdf parsers
-    - Improve interface
 
 - Shade Generator:
 
     - Mix colors option
     - Palette creator
-    - Improve interface
-
-- LeetCode:
-
-    - Fix the request to use GraphQL directly from the LeetCode API. 
-    - Finish the second display mode of the heatmap
 
 - New pages:
 
@@ -63,8 +50,4 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 - React-router
 - Typescript
 - i18n-react
-- GraphQL
-
-**Icon Library:** 
-- [Remix Icon](https://remixicon.com/) 
 

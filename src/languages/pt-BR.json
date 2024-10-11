@@ -42,7 +42,7 @@
     "title": "Línguas extras"
   },
   "footer": {
-    "text": "Desenvolvido por {{name}}"
+    "text": "<1>Desenvolvido</1> por <2>{{name}}</2> em {{year}}"
   },
   "home": {
     "externalLinks": {
@@ -68,11 +68,15 @@
       },
       "resume": {
         "title": "Meu curriculo"
+      },
+      "sitestats": {
+        "title": "Estatísticas do site"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Ícone de gráfico",
       "code": "Ícone com duas chaves",
       "download": "ícone de download de documento",
       "email": "Ícone de email",
@@ -161,7 +165,8 @@
       "home": "Página inicial",
       "leetcode": "LeetCode",
       "maintenance": "Página em manutenção",
-      "resume": "Currículo"
+      "resume": "Currículo",
+      "sitestats": "Estatísticas"
     }
   },
   "resume": {
@@ -264,6 +269,13 @@
     },
     "summary": {
       "text": "Graduada em Ciência da Computação, atua em desenvolvimento web há cinco anos, principalmente como Front-end. Tem experiência ampla com React e WordPress, entre outras linguagens e frameworks. Interessada também em acessibilidade na web."
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "Mais estatísticas!",
+      "summary": "Todos esses componentes exibem estatísticas da mesma <1> fonte </1>.",
+      "title": "Estatísticas de localização dos visitantes"
     }
   }
 }

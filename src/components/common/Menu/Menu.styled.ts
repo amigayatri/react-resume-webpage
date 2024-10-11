@@ -10,7 +10,10 @@ export const MenuWrapper = styled.nav`
 	align-items: center;
 	justify-content: space-between;
 	height: 40px;
-	position: relative;
+	position: fixed;
+	width: 100vw;
+	z-index: 5000;
+	top: 0;
 
 	${media.print} {
 		display: none;

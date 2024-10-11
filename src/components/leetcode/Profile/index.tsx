@@ -10,6 +10,7 @@ import { useState, useEffect } from "react"
 import { empty } from "../../../api/LeetCode"
 import LeetCodeProps from "../../../types/LeetCodeProps"
 import useGetFlagCountry from "./../../../hooks/useGetFlagCountry/"
+import linkProps from "../../../constants/linkprops"
 
 const Profile = ({ leetcode }: LeetCodeProps) => {
 	const [profile, setProfile] = useState(empty.profile)
@@ -25,11 +26,7 @@ const Profile = ({ leetcode }: LeetCodeProps) => {
 		<ProfileWrapper>
 			<Name>{profile.name}</Name>
 			<FlagWrapper>{flag}</FlagWrapper>
-			<IDWrapper
-				rel="noopener"
-				target="_blank"
-				href={"http://leetcode.com/u/" + profile}
-			>
+			<IDWrapper {...linkProps} href={"http://leetcode.com/u/" + profile}>
 				<Username>({profile.username})</Username>
 				<SVGIcon id="external" size={24} />
 			</IDWrapper>

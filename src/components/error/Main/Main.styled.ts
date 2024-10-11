@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Icon } from "../../../icons/Styles"
 import media from "../../../constants/medias"
 
-export const MainWrapper = styled.section`
+export const MainWrapper = styled.main`
 	color: ${({ theme }) => theme.colors.base.pink};
 	background-color: ${({ theme }) => theme.background};
 	width: 100%;

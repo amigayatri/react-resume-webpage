@@ -42,7 +42,7 @@
     "title": "Lingue aggiuntive"
   },
   "footer": {
-    "text": "Sviluppato da {{name}}"
+    "text": "<1>Sviluppato</1> da <2>{{name}}</2> a {{year}}"
   },
   "home": {
     "externalLinks": {
@@ -68,11 +68,15 @@
       },
       "resume": {
         "title": "Il mio curriculum"
+      },
+      "sitestats": {
+        "title": "Statistiche del sito web"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Icona del grafico",
       "code": "Icona con due parentesi graffe",
       "download": "Icona di download del documento",
       "email": "Icona della posta",
@@ -161,7 +165,8 @@
       "home": "Home page",
       "leetcode": "LeetCode",
       "maintenance": "Pagina in manutenzione",
-      "resume": "Riprendere"
+      "resume": "Riprendere",
+      "sitestats": "Statistiche"
     }
   },
   "resume": {
@@ -264,6 +269,13 @@
     },
     "summary": {
       "text": "Laureato in Informatica, ha cinque anni di esperienza nello sviluppo web, principalmente come sviluppatore front-end. "
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "Più statistiche!",
+      "summary": "Tutti questi componenti mostrano le statistiche dalla stessa <1>fonte</1>.",
+      "title": "Statistiche sulla posizione dei visitatori"
     }
   }
 }

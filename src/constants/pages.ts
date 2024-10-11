@@ -6,13 +6,15 @@ import ExtraLanguagesProps from "../pages/ExtraLanguages/ExtraLanguages.props"
 import LeetcodeProps from "../pages/Leetcode/leetcode.props"
 import MaintenanceProps from "../pages/Maintenance/Maintenance.props"
 import NotFoundProps from "../pages/NotFound/NotFound.props"
+import SiteStatsProps from "../pages/SiteStats/SiteStats.props"
 
 export const pages: PageProps[] = [HomeProps, ResumeProps]
 
 export const extraPages: PageProps[] = [
 	ColorsProps,
 	ExtraLanguagesProps,
-	LeetcodeProps
+	LeetcodeProps,
+	SiteStatsProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]

@@ -42,7 +42,7 @@
     "title": "Extra languages"
   },
   "footer": {
-    "text": "Developed by {{name}}"
+    "text": "<1>Developed</1> by <2>{{name}}</2> at {{year}}"
   },
   "home": {
     "externalLinks": {
@@ -68,11 +68,15 @@
       },
       "resume": {
         "title": "My resume"
+      },
+      "sitestats": {
+        "title": "Website stats"
       }
     }
   },
   "icons": {
     "alt": {
+      "chart": "Chart icon",
       "code": "Two curly brackets icon",
       "download": "Document download icon",
       "email": "Mail icon",
@@ -161,7 +165,8 @@
       "home": "Homepage",
       "leetcode": "LeetCode",
       "maintenance": "Page going under maintenance",
-      "resume": "Resume"
+      "resume": "Resume",
+      "sitestats": "Stats"
     }
   },
   "resume": {
@@ -264,6 +269,13 @@
     },
     "summary": {
       "text": "Graduated in Computer Science, has five years of experience in web development, mainly as a Front-end Developer. Extensive experience with React and WordPress, among other programming languages and frameworks. Also interested in web accessibility."
+    }
+  },
+  "stats": {
+    "MapRevolver": {
+      "link": "More stats!",
+      "summary": "All these components are displaying stats from the same <1>source</1>.",
+      "title": "Visitors location stats"
     }
   }
 }

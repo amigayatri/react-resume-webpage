@@ -2,7 +2,10 @@ import styled from "styled-components"
 import media from "../../../constants/medias"
 import { LinkWrapper } from "./NavigationItem/NavigationItem.styled"
 
-export const NavigationWrapper = styled.div``
+export const NavigationWrapper = styled.div`
+	position: absolute;
+	left: var(--color-container);
+`
 
 export const DesktopWrapper = styled.ul`
 	display: flex;
@@ -20,10 +23,10 @@ export const DesktopWrapper = styled.ul`
 export const MobileWrapper = styled.ul<{ $isOpen: boolean; $isRTL: boolean }>`
 	${media.max.md} {
 		display: block;
-		position: absolute;
+		position: fixed;
 		list-style: none;
 		padding: ${({ $isOpen }) => ($isOpen ? "32px" : "0")};
-		top: 24px;
+		top: 40px;
 		left: 0;
 		background-color: ${({ theme }) => theme.black};
 		z-index: 100;
