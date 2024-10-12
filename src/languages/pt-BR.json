@@ -274,15 +274,15 @@
   "stats": {
     "MapRevolver": {
       "link": "Mais estatísticas!",
-      "summary": "Todos esses componentes exibem estatísticas da mesma <1> fonte </1>.",
+      "summary": "Todos esses componentes exibem estatísticas da mesma <1>fonte</1>.",
       "title": "Estatísticas de localização dos visitantes"
     },
     "git": {
-"graph": {
-  "title": "{{actionName}} mensais"
-},
-"main": {
-  "title": "Estatísticas do repositório do Git"
+      "graph": {
+        "title": "{{actionName}} mensais"
+      },
+      "main": {
+        "title": "Estatísticas do repositório do Git"
       },
       "recent": {
         "commit": {

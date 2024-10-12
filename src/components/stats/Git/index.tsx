@@ -4,6 +4,8 @@ import { CommitProps } from "../../../api/Git/format/RepoCommits"
 import RecentCommits from "./RecentCommits"
 import { Title } from "../Common.styled"
 import { useTranslation } from "react-i18next"
+import MonthlyCommitsGraph from "./MonthlyCommitsGraph"
+import { GitWrapper } from "./Git.styled"
 
 const GitStats = () => {
 	const { t } = useTranslation()
@@ -26,10 +28,11 @@ const GitStats = () => {
 		})
 	}, [])
 	return (
-		<>
+		<GitWrapper>
 			<Title>{t("stats.git.main.title")}</Title>
 			<RecentCommits moreLink={more} commits={commits} showMore={showMore} />
-		</>
+			<MonthlyCommitsGraph commits={commits} />
+		</GitWrapper>
 	)
 }
 

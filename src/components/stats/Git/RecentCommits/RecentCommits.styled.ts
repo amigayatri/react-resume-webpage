@@ -7,10 +7,4 @@ export const GitTitle = styled(Subtitle)`
 	border-bottom: 2px solid;
 `
 
-export const RecentCommitsWrapper = styled.section`
-	background-color: ${({ theme }) => theme.almostBlack};
-	margin: 32px 8px;
-	padding: 16px calc(var(--color-container) - 8px);
-	border-radius: 16px;
-	${({ theme }) => theme.scroll}
-`
+export const RecentCommitsWrapper = styled.section``

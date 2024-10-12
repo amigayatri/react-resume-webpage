@@ -1,4 +1,6 @@
 export default interface GraphProps {
-	data: Map<string, unknown>
-	type: string
+	title: string
+	showTitle: boolean
+	allKeys: string[]
+	data: Map<string, number>
 }
