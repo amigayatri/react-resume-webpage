@@ -1,5 +1,5 @@
 const device = {
-	xs: 360,
+	xs: 400,
 	sm: 600,
 	md: 900,
 	lg: 1280,
