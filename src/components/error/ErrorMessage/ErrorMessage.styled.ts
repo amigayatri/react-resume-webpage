@@ -42,6 +42,7 @@ export const Message = styled.h1`
 	font-size: 2rem;
 	color: ${({ theme }) => theme.white};
 	margin-left: 16px;
+	width: 512px;
 
 	${media.max.md} {
 		font-size: 1.75rem;

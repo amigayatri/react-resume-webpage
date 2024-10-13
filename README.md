@@ -5,28 +5,36 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 ## Using
 
   <img
-    src="https://img.shields.io/badge/React-ffffff?style=for-the-badge&logo=react&logoColor=212117&labelColor=f92472&color=212117"
+    src="https://img.shields.io/badge/React-ffffff?style=for-the-badge&logo=react&logoColor=f92472&labelColor=212117&color=f92472"
     alt="React"
   />
   <img
-    src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=f92472&labelColor=212117&color=212117"
+    src="https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&logo=styled-components&logoColor=f92472&labelColor=212117&color=f92472"
     alt="Styled components"
   />
   <img
-    src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=f92472&labelColor=212117&color=212117"
+    src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=f92472&labelColor=212117&color=f92472"
     alt="React router"
   />
   <img
-    src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=212117&labelColor=f92472&color=212117"
+    src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=f92472&labelColor=212117&color=f92472"
     alt="Typescript"
   />
   <img
-    src="https://img.shields.io/badge/i18next-DB7093?style=for-the-badge&logo=i18next&logoColor=212117&labelColor=f92472&color=212117"
+    src="https://img.shields.io/badge/i18next-DB7093?style=for-the-badge&logo=i18next&logoColor=f92472&labelColor=212117&color=f92472"
     alt="i18next"
   />
   <img
     src="https://img.shields.io/badge/😜😍-gitmoji-FFDD67?style=for-the-badge&logoColor=212117&labelColor=212117&color=f92472"
     alt="Gitmoji"
+  />
+  <img
+    src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=212117&labelColor=212117&color=f92472"
+    alt="Prettier"
+  />
+  <img
+    src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=212117&labelColor=212117&color=f92472"
+    alt="Vite"
   />
 
 ## Author
@@ -51,6 +59,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
      A project to show my progress on LeetCode
 
 - Site Stats Page
+
     Some stats about my webpage
 
 ## Roadmap

@@ -1,9 +1,6 @@
 import ErrorProps from "../../../types/ErrorProps"
-import {
-	ErrorMessageWrapper,
-	Message,
-	WritingCursor
-} from "./ErrorMessage.styled"
+import { ErrorMessageWrapper, Message } from "./ErrorMessage.styled"
+import Typewriter from "react-ts-typewriter"
 import SVGIcon from "../../../icons/SVGIcon"
 
 const ErrorMessage = ({ message }: ErrorProps) => {
@@ -11,8 +8,7 @@ const ErrorMessage = ({ message }: ErrorProps) => {
 		<ErrorMessageWrapper>
 			<SVGIcon size={80} id="terminalerror" />
 			<Message>
-				{message}
-				<WritingCursor />
+				<Typewriter text={message} loop speed={256} />
 			</Message>
 		</ErrorMessageWrapper>
 	)
