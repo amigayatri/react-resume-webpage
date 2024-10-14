@@ -173,6 +173,10 @@
     "dates": {
       "now": "अब"
     },
+    "download": {
+      "cta": "पीडीएफ डाउनलोड करें!",
+      "title": "{{पूरा नाम}} बायोडाटा"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "फ्रंट-एंड वेब डेवलपर"
@@ -278,11 +282,11 @@
       "title": "आगंतुकों के स्थान आँकड़े"
     },
     "git": {
-"graph": {
-  "title": "मासिक {{actionName}}"
-},
-"main": {
-  "title": "Git के भंडार आँकड़े"
+      "graph": {
+        "title": "मासिक {{actionName}}"
+      },
+      "main": {
+        "title": "Git के भंडार आँकड़े"
       },
       "recent": {
         "commit": {

@@ -173,6 +173,10 @@
     "dates": {
       "now": "Τώρα"
     },
+    "download": {
+      "cta": "Κατεβάστε pdf!",
+      "title": "{{fullName}} Συνέχιση"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Εμπρός προγραμματιστής ιστού"
@@ -278,11 +282,11 @@
       "title": "Στατιστικά τοποθεσίας επισκεπτών"
     },
     "git": {
-"graph": {
-  "title": "Μηνιαία {{actionName}}"
-},
-"main": {
-  "title": "Στατιστικά αποθετηρίου του Git"
+      "graph": {
+        "title": "Μηνιαία {{actionName}}"
+      },
+      "main": {
+        "title": "Στατιστικά αποθετηρίου του Git"
       },
       "recent": {
         "commit": {

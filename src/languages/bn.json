@@ -173,6 +173,10 @@
     "dates": {
       "now": "এখন"
     },
+    "download": {
+      "cta": "পিডিএফ ডাউনলোড করুন!",
+      "title": "{{fullName}} আবার শুরু করুন"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "ফ্রন্ট-এন্ড ওয়েব ডেভেলপার"
@@ -278,11 +282,11 @@
       "title": "দর্শক অবস্থান পরিসংখ্যান"
     },
     "git": {
-"graph": {
-  "title": "মাসিক {{actionName}}"
-},
-"main": {
-  "title": "গিট এর সংগ্রহস্থল পরিসংখ্যান"
+      "graph": {
+        "title": "মাসিক {{actionName}}"
+      },
+      "main": {
+        "title": "গিট এর সংগ্রহস্থল পরিসংখ্যান"
       },
       "recent": {
         "commit": {

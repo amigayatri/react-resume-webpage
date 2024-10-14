@@ -1,6 +1,6 @@
 import ContactProps from "../types/ContactProps"
 
-export const contacts: ContactProps[] = [
+const contacts: ContactProps[] = [
 	{
 		icon: "phone",
 		text: "+55 21 993945805",
@@ -26,3 +26,4 @@ export const contacts: ContactProps[] = [
 		showOnWeb: false
 	}
 ]
+export default contacts

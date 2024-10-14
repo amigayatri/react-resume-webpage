@@ -173,6 +173,10 @@
     "dates": {
       "now": "今"
     },
+    "download": {
+      "cta": "PDFをダウンロードしてください！",
+      "title": "{{fullName}}の履歴書"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "フロントエンドWeb開発者"
@@ -278,11 +282,11 @@
       "title": "訪問者の位置統計"
     },
     "git": {
-"graph": {
-  "title": "毎月の {{actionName}}"
-},
-"main": {
-  "title": "Gitのリポジトリ統計"
+      "graph": {
+        "title": "毎月の {{actionName}}"
+      },
+      "main": {
+        "title": "Gitのリポジトリ統計"
       },
       "recent": {
         "commit": {

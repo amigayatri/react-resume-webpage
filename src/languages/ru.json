@@ -173,6 +173,10 @@
     "dates": {
       "now": "Сейчас"
     },
+    "download": {
+      "cta": "Скачать PDF!",
+      "title": "{{fullName}} Резюме"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Фронтенд веб-разработчик"
@@ -278,11 +282,11 @@
       "title": "Статистика местоположения посетителей"
     },
     "git": {
-"graph": {
-  "title": "Ежемесячно {{actionName}}"
-},
-"main": {
-  "title": "Статистика репозитория Git"
+      "graph": {
+        "title": "Ежемесячно {{actionName}}"
+      },
+      "main": {
+        "title": "Статистика репозитория Git"
       },
       "recent": {
         "commit": {

@@ -173,6 +173,10 @@
     "dates": {
       "now": "Ko'ág̃a"
     },
+    "download": {
+      "cta": "¡Emboguejy pdf!",
+      "title": "{{fullName}} Ñepyrũ jey"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Web moheñóihara tenondegua"
@@ -278,11 +282,11 @@
       "title": "Umi visitante ubicación estadísticas"
     },
     "git": {
-"graph": {
-  "title": "Jasy jave {{acción Réra}}"
-},
-"main": {
-  "title": "Git ñeñongatuha estadísticas"
+      "graph": {
+        "title": "Jasy jave {{acción Réra}}"
+      },
+      "main": {
+        "title": "Git ñeñongatuha estadísticas"
       },
       "recent": {
         "commit": {

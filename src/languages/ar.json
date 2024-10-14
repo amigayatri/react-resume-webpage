@@ -173,6 +173,10 @@
     "dates": {
       "now": "الآن"
     },
+    "download": {
+      "cta": "تحميل قوات الدفاع الشعبي!",
+      "title": "{{fullName}} سيرة ذاتية"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "مطور ويب للواجهة الأمامية"

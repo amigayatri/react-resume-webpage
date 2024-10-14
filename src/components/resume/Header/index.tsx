@@ -1,13 +1,15 @@
-import { useTranslation } from "react-i18next"
 import { HeaderWrapper, Name, SubHeading } from "./Header.styled"
 
-const Header = () => {
-	const { t } = useTranslation()
+interface HeaderProps {
+	name: string
+	job: string
+}
 
+const Header = ({ name, job }: HeaderProps) => {
 	return (
 		<HeaderWrapper>
-			<Name>{t("resume.header.name")}</Name>
-			<SubHeading>{t("resume.header.subheading")}</SubHeading>
+			<Name>{name}</Name>
+			<SubHeading>{job}</SubHeading>
 		</HeaderWrapper>
 	)
 }

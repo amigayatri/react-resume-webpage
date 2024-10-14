@@ -173,6 +173,10 @@
     "dates": {
       "now": "Jetzt"
     },
+    "download": {
+      "cta": "PDF herunterladen!",
+      "title": "{{fullName}} Lebenslauf"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Frontend-Webentwickler"
@@ -278,11 +282,11 @@
       "title": "Statistiken zum Besucherstandort"
     },
     "git": {
-"graph": {
-  "title": "Monatlich {{actionName}}"
-},
-"main": {
-  "title": "Git-Repository-Statistiken"
+      "graph": {
+        "title": "Monatlich {{actionName}}"
+      },
+      "main": {
+        "title": "Git-Repository-Statistiken"
       },
       "recent": {
         "commit": {
