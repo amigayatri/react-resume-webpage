@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.header`
 
 export const Name = styled.h1`
 	font-family: "Fira code", monospace;
-	color: ${({ theme }) => theme.pink};
+	color: ${({ theme }) => theme.accent};
 	margin: 0;
 	line-height: 1;
 `

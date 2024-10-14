@@ -173,6 +173,10 @@
     "dates": {
       "now": "Atualmente"
     },
+    "download": {
+      "cta": "Baixe o pdf!",
+      "title": "Currículo {{fullName}}"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Desenvolvedora Web Front-end"

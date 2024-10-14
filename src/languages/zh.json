@@ -173,6 +173,10 @@
     "dates": {
       "now": "现在"
     },
+    "download": {
+      "cta": "下载pdf！",
+      "title": "{{fullName}} 简历"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "前端网页开发人员"
@@ -278,11 +282,11 @@
       "title": "访客位置统计"
     },
     "git": {
-"graph": {
-  "title": "每月 {{actionName}}"
-},
-"main": {
-  "title": "Git 的存储库统计信息"
+      "graph": {
+        "title": "每月 {{actionName}}"
+      },
+      "main": {
+        "title": "Git 的存储库统计信息"
       },
       "recent": {
         "commit": {

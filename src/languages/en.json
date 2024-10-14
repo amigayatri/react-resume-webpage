@@ -173,6 +173,10 @@
     "dates": {
       "now": "Now"
     },
+    "download": {
+      "cta": "Download pdf!",
+      "title": "{{fullName}} Resume"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Front-end web developer"

@@ -173,6 +173,10 @@
     "dates": {
       "now": "ਹੁਣ"
     },
+    "download": {
+      "cta": "ਪੀਡੀਐਫ ਡਾਊਨਲੋਡ ਕਰੋ!",
+      "title": "{{fullName}} ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "ਫਰੰਟ-ਐਂਡ ਵੈੱਬ ਡਿਵੈਲਪਰ"
@@ -278,11 +282,11 @@
       "title": "ਵਿਜ਼ਟਰ ਟਿਕਾਣੇ ਦੇ ਅੰਕੜੇ"
     },
     "git": {
-"graph": {
-  "title": "ਮਹੀਨਾਵਾਰ {{actionName}}"
-},
-"main": {
-  "title": "Git ਦੇ ਰਿਪੋਜ਼ਟਰੀ ਅੰਕੜੇ"
+      "graph": {
+        "title": "ਮਹੀਨਾਵਾਰ {{actionName}}"
+      },
+      "main": {
+        "title": "Git ਦੇ ਰਿਪੋਜ਼ਟਰੀ ਅੰਕੜੇ"
       },
       "recent": {
         "commit": {

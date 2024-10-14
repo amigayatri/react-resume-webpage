@@ -173,6 +173,10 @@
     "dates": {
       "now": "Nunc"
     },
+    "download": {
+      "cta": "Download pdf!",
+      "title": "{{ fullName}} Resume"
+    },
     "header": {
       "name": "Amira Gayatri El Assad Hempel",
       "subheading": "Elit ante-finem textus"
@@ -278,11 +282,11 @@
       "title": "Visitors locus stats"
     },
     "git": {
-"graph": {
-  "title": "Monthly {{actionName}}"
-},
-"main": {
-  "title": "Git repositio stats"
+      "graph": {
+        "title": "Monthly {{actionName}}"
+      },
+      "main": {
+        "title": "Git repositio stats"
       },
       "recent": {
         "commit": {

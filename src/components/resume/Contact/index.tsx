@@ -1,4 +1,3 @@
-import { contacts } from "../../../constants/contacts"
 import { Wrapper, ContactList, ContactItem, Link } from "./Contact.styled"
 import SVGIcon from "../../../icons/SVGIcon"
 import ContactProps from "../../../types/ContactProps"
@@ -6,7 +5,11 @@ import { getLangDir } from "rtl-detect"
 import { useTranslation } from "react-i18next"
 import linkProps from "../../../constants/linkprops"
 
-const Contacts = () => {
+interface ContactsProps {
+	contacts: ContactProps[]
+}
+
+const Contacts = ({ contacts }: ContactsProps) => {
 	const showContactInfo = (contact: ContactProps, index: number) => {
 		return (
 			<ContactItem
