@@ -64,11 +64,6 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 
 ## Roadmap
 
-- Resume:
-
-    - Option to generate pdf
-    - Make it readable by pdf parsers
-
 - Shade Generator:
 
     - Mix colors option
