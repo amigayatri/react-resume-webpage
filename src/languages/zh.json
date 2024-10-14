@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "更改变体编号",
           "showing": "停止更改变体编号"
+        },
+        "targets": {
+          "hidden": "更改目标颜色",
+          "showing": "停止改变目标颜色"
         }
       },
       "title": "添加颜色"
@@ -29,8 +33,19 @@
       "title": "颜色变化发生器"
     },
     "shades": {
+      "code": "{{colorCode}} 的变体",
+      "from": "来自{{colorCode}}",
       "summary": "点击复制颜色！",
-      "title": "色调"
+      "title": "色调",
+      "to": "至 {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "您至少需要一对才能生成其他色调。",
+        "true": "单击一对将其删除。"
+      },
+      "summary": "当您添加一种颜色作为目标时，也会添加她的逆色。",
+      "title": "目标颜色"
     }
   },
   "errors": {

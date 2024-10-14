@@ -64,11 +64,6 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 
 ## Roadmap
 
-- Shade Generator:
-
-    - Mix colors option
-    - Palette creator
-
 - New pages:
 
     - Resume generator

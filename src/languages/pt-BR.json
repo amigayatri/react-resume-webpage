@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Alterar número de variações",
           "showing": "Parar de alterar número de variações"
+        },
+        "targets": {
+          "hidden": "Alterar cores alvo",
+          "showing": "Parar de mudar as cores alvo"
         }
       },
       "title": "Adicionar cor"
@@ -29,8 +33,19 @@
       "title": "Gerador de Variação de Cores"
     },
     "shades": {
+      "code": "Variações de {{colorCode}}",
+      "from": "De {{colorCode}}",
       "summary": "Clique para copiar o código!",
-      "title": "Tons"
+      "title": "Tons",
+      "to": "para {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "Você precisa de pelo menos um par para gerar outras tonalidades.",
+        "true": "Clique em um par para removê-lo."
+      },
+      "summary": "Quando você adiciona uma cor como alvo, o inverso dela também é adicionado.",
+      "title": "Cores alvo"
     }
   },
   "errors": {

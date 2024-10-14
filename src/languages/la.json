@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Mutatio variation numerus",
           "showing": "Mutantur numero nolite variation"
+        },
+        "targets": {
+          "hidden": "Mutatio scopum colorum",
+          "showing": "Mutantur scopum subsisto colorum"
         }
       },
       "title": "Adde color"
@@ -29,8 +33,19 @@
       "title": "Color variatio generantis"
     },
     "shades": {
+      "code": "Variationes ex {{colorCode}}",
+      "from": "Ex {{colorCode}}",
       "summary": "Click to effingo color!",
-      "title": "Umbrae"
+      "title": "Umbrae",
+      "to": "ad {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "Certe par aliis umbras generare debes.",
+        "true": "Click in par removere."
+      },
+      "summary": "Cum colorem addas ut scopum, additur etiam inversus.",
+      "title": "Scopum colorum"
     }
   },
   "errors": {

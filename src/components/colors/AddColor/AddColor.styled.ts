@@ -34,20 +34,8 @@ export const Button = styled.button<{ $isRTL: boolean }>`
 `
 
 export const InputWrapper = styled.div`
-	min-height: 128px;
 	padding-top: 8px;
-`
-
-export const ColorSelector = styled.input`
-	background-color: ${({ theme }) => theme.primary};
-	border: none;
-	border-radius: 4px;
-	height: 128px;
-	width: 128px;
-	padding: 8px;
-	cursor: pointer;
-	font-family: ${({ theme }) => theme.fonts.body},
-		${({ theme }) => theme.fonts.backup};
+	transition: ${({ theme }) => theme.transition};
 `
 
 export const ColorTextInput = styled.textarea`
@@ -55,7 +43,7 @@ export const ColorTextInput = styled.textarea`
 	color: ${({ theme }) => theme.purple};
 	resize: none;
 	width: 100%;
-	height: 128px;
+	height: 196px;
 	text-transform: uppercase;
 	border: 2px solid ${({ theme }) => theme.primary};
 	box-sizing: border-box;
@@ -74,4 +62,33 @@ export const ChangeSteps = styled.input`
 	border: 2px solid ${({ theme }) => theme.primary};
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
+`
+export const SelectedColor = styled.div<{ $bg: string }>`
+	height: 128px;
+	width: 128px;
+	background-color: ${({ $bg }) => $bg};
+	border-radius: 8px;
+	border: 2px solid ${({ theme }) => theme.background};
+	margin: 8px 0;
+`
+
+export const SelectedText = styled.span``
+export const TargetWrapper = styled.div`
+	display: flex;
+	align-items: center;
+`
+export const SelectedWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 32px;
+	background-color: ${({ theme }) => theme.primary};
+	color: ${({ theme }) => theme.background};
+	border-radius: 8px;
+	margin-left: 16px;
+	height: 196px;
+`
+export const SelectedButton = styled(Button)`
+	height: fit-content;
 `
