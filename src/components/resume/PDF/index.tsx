@@ -26,13 +26,13 @@ Font.register({
 	family: "FiraMono",
 	fontStyle: "normal",
 	fontWeight: "normal",
-	src: "http://fonts.gstatic.com/s/firamono/v5/SlRWfq1zeqXiYWAN-lnG-qCWcynf_cDxXwCLxiixG1c.ttf"
+	src: "https://fonts.gstatic.com/s/firamono/v5/SlRWfq1zeqXiYWAN-lnG-qCWcynf_cDxXwCLxiixG1c.ttf"
 })
 Font.register({
 	family: "FiraSans",
 	fontStyle: "normal",
 	fontWeight: "normal",
-	src: "http://fonts.gstatic.com/s/firasans/v7/EjsrzDkQUQCDwsBtLpcVQaCWcynf_cDxXwCLxiixG1c.ttf"
+	src: "https://fonts.gstatic.com/s/firasans/v7/EjsrzDkQUQCDwsBtLpcVQaCWcynf_cDxXwCLxiixG1c.ttf"
 })
 const DownloadPDF = ({ resume }: { resume: TranslatedResumeProps }) => {
 	const { i18n, t } = useTranslation()
@@ -110,7 +110,7 @@ const DownloadPDF = ({ resume }: { resume: TranslatedResumeProps }) => {
 	const PDF = () => {
 		const currHost = import.meta.env.DEV
 			? "http://localhost:5173/"
-			: "http://amiragayatri.dev/"
+			: "https://amiragayatri.dev/"
 		const showSection = (section: TranslatedSectionProps, idx: number) => {
 			return (
 				<View key={`section-n-${idx}`} style={styles.section}>
