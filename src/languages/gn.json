@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Omoambue variación número",
           "showing": "Anive remoambue umi número variación rehegua"
+        },
+        "targets": {
+          "hidden": "Emoambue umi sa’y ojehekahápe",
+          "showing": "Anive remoambue umi sa’y ojehekahápe"
         }
       },
       "title": "Oñemoĩve sa’y"
@@ -29,8 +33,19 @@
       "title": "Generador de variación de color rehegua"
     },
     "shades": {
+      "code": "{{colorCode}} ñemoambue.",
+      "from": "{{colorCode}} guive.",
       "summary": "¡Emboguejy ekopia hag̃ua pe kolór!",
-      "title": "Sombras rehegua"
+      "title": "Sombras rehegua",
+      "to": "ha {{Código de color}} peve."
+    },
+    "targetList": {
+      "delete": {
+        "false": "Tekotevẽ por lo menos peteĩ par regenera hag̃ua ambue sombra.",
+        "true": "Emboguejy peteĩ par rehe reipe’a hag̃ua."
+      },
+      "summary": "Remoĩ jave peteĩ color blanco ramo, oñembojoapy avei inverso orekóva.",
+      "title": "Umi sa’y ojehupytyséva"
     }
   },
   "errors": {

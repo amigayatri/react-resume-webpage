@@ -2,12 +2,14 @@ import { MainWrapper } from "./Main.styled"
 import ColorList from "../ColorList"
 import AddColor from "../AddColor"
 import { useState } from "react"
-import { Color } from "../../../lib/colors"
+import { Color, getTargets } from "../../../lib/colors"
 import ShadeList from "../ShadeList"
+import TargetList from "../TargetList"
 
 const Main = () => {
 	const [colors, setColors] = useState(new Map<string, Color>())
 	const [updatedList, setUpdatedList] = useState(true)
+	const [targets, setTargets] = useState(getTargets())
 
 	const addColor = (code: string) => {
 		code = code.toUpperCase()
@@ -24,11 +26,16 @@ const Main = () => {
 		setColors(colorsSet)
 		setUpdatedList(false)
 	}
-
+	const regenerateTargets = () => {
+		if (!updatedList) setUpdatedList(true)
+		const newTargets = getTargets()
+		setTargets(newTargets)
+	}
 	const regenerateColors = () => {
 		for (const color of colors.values()) {
 			color.regenerateVariations()
 		}
+		regenerateTargets()
 	}
 
 	const generateCodeList = () => {
@@ -45,12 +52,17 @@ const Main = () => {
 	}
 	const generateColorList = () => {
 		if (!updatedList) setUpdatedList(true)
-		if (colors.size == 0) return []
+		if (colors.size === 0) return []
 		return Array.from(colors.values())
 	}
 	return (
 		<MainWrapper>
 			<AddColor regenerate={regenerateColors} add={addColor}></AddColor>
+			<TargetList
+				targets={targets}
+				regenerate={regenerateTargets}
+				updatedList={updatedList}
+			/>
 			<ColorList
 				colors={colors}
 				updatedList={updatedList}

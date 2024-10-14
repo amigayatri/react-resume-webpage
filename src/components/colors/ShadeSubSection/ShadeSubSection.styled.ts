@@ -13,3 +13,9 @@ export const ShadesWrapper = styled.div`
 export const ShadeTitle = styled.h3`
     
 `
+
+export const PairWrapper = styled.span`
+	display: flex;
+	justify-content: space-between;
+`
+export const ShadeSubtitle = styled.h4``

@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Change variation number",
           "showing": "Stop changing variation numbers"
+        },
+        "targets": {
+          "hidden": "Change target colors",
+          "showing": "Stop changing target colors"
         }
       },
       "title": "Add color"
@@ -29,8 +33,19 @@
       "title": "Color variation generator"
     },
     "shades": {
+      "code": "Variations of {{colorCode}}",
+      "from": "From {{colorCode}}",
       "summary": "Click to copy the color!",
-      "title": "Shades"
+      "title": "Shades",
+      "to": "to {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "You need at least a pair to generate other shades.",
+        "true": "Click on a pair to remove it."
+      },
+      "summary": "When you add a color as target, her inverse is also added.",
+      "title": "Target colors"
     }
   },
   "errors": {

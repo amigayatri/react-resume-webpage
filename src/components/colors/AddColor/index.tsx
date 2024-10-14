@@ -4,14 +4,25 @@ import {
 	ButtonWrapper,
 	Button,
 	InputWrapper,
-	ColorSelector,
 	ColorTextInput,
-	ChangeSteps
+	ChangeSteps,
+	TargetWrapper,
+	SelectedWrapper,
+	SelectedColor,
+	SelectedText,
+	SelectedButton
 } from "./AddColor.styled"
 import { SectionTitle } from "../Common.styled"
 import { SetStateAction, useState } from "react"
-import { changeSteps, regex, variationSteps } from "../../../lib/colors"
+import {
+	changeSteps,
+	regex,
+	variationSteps,
+	addTarget
+} from "../../../lib/colors"
 import { getLangDir } from "rtl-detect"
+import { HexColorPicker } from "react-colorful"
+import { useTheme } from "styled-components"
 
 const AddColor = ({
 	add,
@@ -20,13 +31,17 @@ const AddColor = ({
 	add: (arg0: string) => void
 	regenerate: () => void
 }) => {
+	const theme = useTheme()
 	const { t, i18n } = useTranslation()
+	const [currColor, setCurrColor] = useState("#000000")
 	const [showColorSelector, setShowColorSelector] = useState(false)
 	const [showColorTextInput, setShowColorTextInput] = useState(false)
 	const [showChangeSteps, setShowChangeSteps] = useState(false)
+	const [showTargetSelector, setShowTargetSelector] = useState(false)
 	const handleShow = (
 		state: boolean,
 		fnSetState: {
+			(value: SetStateAction<boolean>): void
 			(value: SetStateAction<boolean>): void
 			(value: SetStateAction<boolean>): void
 			(value: SetStateAction<boolean>): void
@@ -47,6 +62,11 @@ const AddColor = ({
 		changeSteps(Number(newSteps))
 		regenerate()
 	}
+	const handleTargets = (newTarget: string) => {
+		addTarget(newTarget)
+		regenerate()
+		setShowTargetSelector(false)
+	}
 	const isRTL = getLangDir(i18n.language) === "rtl"
 	return (
 		<Wrapper>
@@ -54,7 +74,16 @@ const AddColor = ({
 			<ButtonWrapper $isRTL={isRTL}>
 				<Button
 					$isRTL={isRTL}
-					hidden={showColorTextInput || showChangeSteps}
+					hidden={showColorTextInput || showChangeSteps || showColorSelector}
+					onClick={() => handleShow(!showTargetSelector, setShowTargetSelector)}
+				>
+					{showTargetSelector
+						? t("colors.addColor.buttons.targets.showing")
+						: t("colors.addColor.buttons.targets.hidden")}
+				</Button>
+				<Button
+					$isRTL={isRTL}
+					hidden={showColorTextInput || showChangeSteps || showTargetSelector}
 					onClick={() => handleShow(!showColorSelector, setShowColorSelector)}
 				>
 					{showColorSelector
@@ -63,7 +92,7 @@ const AddColor = ({
 				</Button>
 				<Button
 					$isRTL={isRTL}
-					hidden={showColorSelector || showChangeSteps}
+					hidden={showColorSelector || showChangeSteps || showTargetSelector}
 					onClick={() => handleShow(!showColorTextInput, setShowColorTextInput)}
 				>
 					{showColorTextInput
@@ -72,7 +101,7 @@ const AddColor = ({
 				</Button>
 				<Button
 					$isRTL={isRTL}
-					hidden={showColorSelector || showColorTextInput}
+					hidden={showColorSelector || showColorTextInput || showTargetSelector}
 					onClick={() => handleShow(!showChangeSteps, setShowChangeSteps)}
 				>
 					{showChangeSteps
@@ -82,11 +111,22 @@ const AddColor = ({
 			</ButtonWrapper>
 			<InputWrapper>
 				{showColorSelector && (
-					<ColorSelector
-						onChange={({ target }) => add(target.value)}
-						defaultValue="#666666"
-						type="color"
-					/>
+					<HexColorPicker onChange={add} color={theme.accent} />
+				)}
+				{showTargetSelector && (
+					<TargetWrapper>
+						<HexColorPicker onChange={setCurrColor} color={currColor} />
+						<SelectedWrapper>
+							<SelectedText>Cor selecionada</SelectedText>
+							<SelectedColor $bg={currColor} />
+							<SelectedButton
+								onClick={() => handleTargets(currColor)}
+								$isRTL={isRTL}
+							>
+								Adicione
+							</SelectedButton>
+						</SelectedWrapper>
+					</TargetWrapper>
 				)}
 				{showColorTextInput && (
 					<ColorTextInput

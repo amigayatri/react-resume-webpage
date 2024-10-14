@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Modifier le numéro de variante",
           "showing": "Arrêtez de changer les numéros de variation"
+        },
+        "targets": {
+          "hidden": "Changer les couleurs cibles",
+          "showing": "Arrêtez de changer les couleurs cibles"
         }
       },
       "title": "Ajouter de la couleur"
@@ -29,8 +33,19 @@
       "title": "Générateur de variations de couleurs"
     },
     "shades": {
+      "code": "Variations de {{colorCode}}",
+      "from": "De {{colorCode}}",
       "summary": "Cliquez pour copier la couleur !",
-      "title": "Nuances"
+      "title": "Nuances",
+      "to": "à {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "Vous avez besoin d'au moins une paire pour générer d'autres nuances.",
+        "true": "Cliquez sur une paire pour la supprimer."
+      },
+      "summary": "Lorsque vous ajoutez une couleur comme cible, son inverse est également ajouté.",
+      "title": "Couleurs cibles"
     }
   },
   "errors": {

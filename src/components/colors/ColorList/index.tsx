@@ -4,13 +4,16 @@ import { SectionTitle, SubHeading } from "../Common.styled"
 import ColorItem from "../ColorItem"
 import { SimpleColor } from "../../../lib/rgb"
 
-const ColorList = (props: {
+const ColorList = ({
+	regenerate,
+	colors
+}: {
 	regenerate: () => { color: SimpleColor; remove: (code: string) => void }[]
 	colors: { size: number }
 	updatedList: boolean
 }) => {
 	const { t } = useTranslation()
-	const list = props.regenerate()
+	const list = regenerate()
 	const printColor = (
 		color: SimpleColor,
 		remove: (code: string) => void,
@@ -22,7 +25,7 @@ const ColorList = (props: {
 		<Wrapper>
 			<SectionTitle>{t("colors.colorList.title")}</SectionTitle>
 			<SubHeading>
-				{props.colors.size == 0
+				{colors.size == 0
 					? t("colors.colorList.summary.empty")
 					: t("colors.colorList.summary.nonEmpty")}
 			</SubHeading>

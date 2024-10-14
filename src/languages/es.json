@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Cambiar número de variación",
           "showing": "Deja de cambiar los números de variación"
+        },
+        "targets": {
+          "hidden": "Cambiar colores de destino",
+          "showing": "Deja de cambiar los colores de destino"
         }
       },
       "title": "agregar color"
@@ -29,8 +33,19 @@
       "title": "Generador de variación de color"
     },
     "shades": {
+      "code": "Variaciones de {{colorCode}}",
+      "from": "De {{colorCode}}",
       "summary": "¡Haga clic para copiar el color!",
-      "title": "Sombras"
+      "title": "Sombras",
+      "to": "a {{código de color}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "Necesitas al menos un par para generar otros tonos.",
+        "true": "Haga clic en un par para eliminarlo."
+      },
+      "summary": "Cuando agregas un color como objetivo, también se agrega su inverso.",
+      "title": "Colores objetivo"
     }
   },
   "errors": {

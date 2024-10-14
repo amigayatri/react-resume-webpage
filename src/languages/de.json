@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Variationsnummer ändern",
           "showing": "Hören Sie auf, Variationsnummern zu ändern"
+        },
+        "targets": {
+          "hidden": "Zielfarben ändern",
+          "showing": "Hören Sie auf, Zielfarben zu ändern"
         }
       },
       "title": "Farbe hinzufügen"
@@ -29,8 +33,19 @@
       "title": "Farbvariationsgenerator"
     },
     "shades": {
+      "code": "Variationen von {{colorCode}}",
+      "from": "Von {{colorCode}}",
       "summary": "Klicken Sie, um die Farbe zu kopieren!",
-      "title": "Farbtöne"
+      "title": "Farbtöne",
+      "to": "zu {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "Sie benötigen mindestens ein Paar, um weitere Farbtöne zu erzeugen.",
+        "true": "Klicken Sie auf ein Paar, um es zu entfernen."
+      },
+      "summary": "Wenn Sie eine Farbe als Ziel hinzufügen, wird auch deren Umkehrung hinzugefügt.",
+      "title": "Zielfarben"
     }
   },
   "errors": {

@@ -13,6 +13,10 @@
         "changeSteps": {
           "hidden": "Modificare il numero di variazione",
           "showing": "Smetti di cambiare i numeri di variazione"
+        },
+        "targets": {
+          "hidden": "Cambia i colori target",
+          "showing": "Smetti di cambiare i colori target"
         }
       },
       "title": "Aggiungi colore"
@@ -29,8 +33,19 @@
       "title": "Generatore di variazioni di colore"
     },
     "shades": {
+      "code": "Variazioni di {{colorCode}}",
+      "from": "Da {{colorCode}}",
       "summary": "Clicca per copiare il colore!",
-      "title": "Sfumature"
+      "title": "Sfumature",
+      "to": "a {{colorCode}}"
+    },
+    "targetList": {
+      "delete": {
+        "false": "Ne hai bisogno almeno un paio per generare altre sfumature.",
+        "true": "Fare clic su una coppia per rimuoverla."
+      },
+      "summary": "Quando aggiungi un colore come target, viene aggiunto anche il suo inverso.",
+      "title": "Colori target"
     }
   },
   "errors": {
