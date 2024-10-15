@@ -5,7 +5,7 @@ export const MainWrapper = styled.main`
 	padding: 0 calc(var(--color-container) * 0.5) 32px;
 `
 export const Description = styled.section`
-	height: 80px;
+	min-height: 80px;
 	padding: 8px calc(var(--color-container) * 0.5);
 `
 export const Title = styled.h1``
