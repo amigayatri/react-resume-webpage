@@ -1,21 +1,21 @@
 import { Square, Wrapper, HexaCode } from "./ShadeItem.styled"
 
-interface PropsType {
+interface ShadeItemProps {
 	inverse: string
 	base: boolean
 	code: string
 }
 
-const ShadeItem = (props: PropsType) => {
+const ShadeItem = ({ inverse, base, code }: ShadeItemProps) => {
 	return (
 		<Wrapper>
 			<Square
-				onClick={() => navigator.clipboard.writeText(props.code)}
-				$base={props.base}
-				$bg={props.code}
-				$inverse={props.inverse}
+				onClick={() => navigator.clipboard.writeText(code)}
+				$base={base}
+				$bg={code}
+				$inverse={inverse}
 			>
-				<HexaCode>{props.code}</HexaCode>
+				<HexaCode>{code}</HexaCode>
 			</Square>
 		</Wrapper>
 	)

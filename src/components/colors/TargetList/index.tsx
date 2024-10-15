@@ -5,15 +5,13 @@ import { removeTarget } from "../../../lib/colors"
 
 const TargetList = ({
 	targets,
-	regenerate,
-	updatedList
+	regenerate
 }: {
 	updatedList: boolean
 	targets: string[][]
 	regenerate: () => void
 }) => {
 	const { t } = useTranslation()
-	if (!updatedList) regenerate()
 	const handleDelete = (key: string) => {
 		if (targets.length === 1) return
 		removeTarget(key)
@@ -26,7 +24,6 @@ const TargetList = ({
 			<SubHeading>
 				{t(`colors.targetList.delete.${targets.length > 1}`)}
 			</SubHeading>
-
 			<ListWrapper>
 				{targets.map(([from, to], idx) => {
 					return (
@@ -35,10 +32,10 @@ const TargetList = ({
 							onClick={() => handleDelete(from)}
 							key={`pair-${idx}`}
 						>
-							<Target $bg={to} $color={from}>
+							<Target $bg={from} $color={to}>
 								{from}
 							</Target>
-							<Target $bg={from} $color={to}>
+							<Target $bg={to} $color={from}>
 								{to}
 							</Target>
 						</PairWrapper>

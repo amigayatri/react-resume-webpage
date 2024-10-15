@@ -22,6 +22,98 @@
       "title": "Ajouter de la couleur"
     },
     "colorList": {
+      "palettes": {
+        "add": "Ajouter une palette",
+        "groups": {
+          "brands": "marques",
+          "famous media": "médias célèbres",
+          "places": "lieux",
+          "rainbow": "arcs-en-ciel",
+          "schemes": "Théorie des couleurs",
+          "tech": "Technologies",
+          "theme": "thèmes"
+        },
+        "names": {
+          "brands": {
+            "bk": "Roi du hamburger",
+            "cartoon": "Réseau de dessins animés",
+            "coca-cola": "Coca Cola",
+            "dominos": "Domino's",
+            "lego": "lego",
+            "master": "MasterCard",
+            "mcdonalds": "McDonald's",
+            "national geographic": "géographique nationale",
+            "pepsi": "pepsi",
+            "trademarked": "Des couleurs qui peuvent vous valoir des poursuites",
+            "visa": "Visa"
+          },
+          "famous media": {
+            "adventure time": "Temps d'aventure",
+            "barbie": "Barbie",
+            "bee": "abeille",
+            "bmo": "BMO",
+            "cosmo and wanda": "Cosmo et Wanda",
+            "emo": "emo",
+            "fairly odd parents": "des parents assez étranges",
+            "naruto": "Naruto",
+            "sonic": "sonique",
+            "turma da monica": "La bande de Monica"
+          },
+          "places": {
+            "brasil": "brésilien",
+            "china": "Chinois",
+            "ecuador": "Équatorien",
+            "ghana": "ghanéen",
+            "greece": "grec",
+            "jamaica": "jamaïquain",
+            "lebanon": "libanais",
+            "mexico": "mexicain",
+            "rioDeJaneiro": "De Rio",
+            "southAfrica": "Sud-Africain",
+            "syria": "syriaque",
+            "uruguay": "Uruguay"
+          },
+          "rainbow": {
+            "dark rainbow": "arc en ciel sombre",
+            "pastel rainbow": "arc en ciel pastel",
+            "rainbow monokai": "arc-en-ciel monokaï",
+            "regular rainbow": "arc-en-ciel régulier"
+          },
+          "schemes": {
+            "cmyk": "CMJN",
+            "crayola10": "La roue chromatique de Crayola 1926",
+            "crayola12": "La roue chromatique de Crayola 1930",
+            "goethe": "La roue chromatique de Goethe",
+            "grayscale16": "niveaux de gris 4 bits",
+            "grayscale4": "niveaux de gris 2 bits",
+            "mac16": "Apple Macintosh 16 couleurs",
+            "munsellCrayola": "Les couleurs Munsell de Crayola",
+            "newtown": "Le disque de couleurs de Newtown",
+            "rgb": "RVB",
+            "rgb 12": "Roue chromatique RVB 12",
+            "rgb 8": "Roue chromatique RVB 8",
+            "riscOS16": "Palette par défaut du système d'exploitation RISC",
+            "vhs": "Barres de couleurs VHS",
+            "web basics": "Web de base"
+          },
+          "tech": {
+            "baidu": "Baidu",
+            "facebook": "Facebook",
+            "firefox": "Mozilla Firefox",
+            "google": "Google",
+            "microsoft": "Microsoft",
+            "spotify": "Spotify",
+            "tumblr": "tumblr",
+            "whatsapp": "WhatsApp",
+            "wikipedia": "wikipédia",
+            "youtube": "youtube"
+          },
+          "theme": {
+            "current": "actuel"
+          }
+        },
+        "option": "Palette {{optionName}}"
+      },
       "summary": {
         "empty": "Vous n'avez pas encore ajouté de couleur",
         "nonEmpty": "Cliquez pour supprimer"

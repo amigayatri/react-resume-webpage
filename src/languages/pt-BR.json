@@ -16,12 +16,104 @@
         },
         "targets": {
           "hidden": "Alterar cores alvo",
-          "showing": "Parar de mudar as cores alvo"
+          "showing": "Pare de mudar as cores alvo"
         }
       },
       "title": "Adicionar cor"
     },
     "colorList": {
+      "palettes": {
+        "add": "Adicionar paleta",
+        "groups": {
+          "brands": "marcas",
+          "famous media": "mídias famosas",
+          "places": "lugares",
+          "rainbow": "arco-íris",
+          "schemes": "Teoria das cores",
+          "tech": "Tecnologias",
+          "theme": "temas"
+        },
+        "names": {
+          "brands": {
+            "bk": "Burger king",
+            "cartoon": "Cartoon network",
+            "coca-cola": "Coca Cola",
+            "dominos": "Domino's",
+            "lego": "Lego",
+            "master": "MasterCard",
+            "mcdonalds": "McDonald's",
+            "national geographic": "national geographic",
+            "pepsi": "pepsi",
+            "trademarked": "Cores que podem fazer com que você seja processado",
+            "visa": "Visa"
+          },
+          "famous media": {
+            "adventure time": "Hora de aventura",
+            "barbie": "Barbie",
+            "bee": "abelha",
+            "bmo": "BMO",
+            "cosmo and wanda": "Cosmo e Wanda",
+            "emo": "emo",
+            "fairly odd parents": "padrinhos mágicos",
+            "naruto": "Naruto",
+            "sonic": "sonic",
+            "turma da monica": "Turma da Mônica"
+          },
+          "places": {
+            "brasil": "Brasileira",
+            "china": "Chinesa",
+            "ecuador": "Equatoriana",
+            "ghana": "Ganêsa",
+            "greece": "Grega",
+            "jamaica": "Jamaicana",
+            "lebanon": "Libanesa",
+            "mexico": "Mexicana",
+            "rioDeJaneiro": "Carioca",
+            "southAfrica": "sulafricana",
+            "syria": "síria",
+            "uruguay": "Uruguaia"
+          },
+          "rainbow": {
+            "dark rainbow": "arco-íris escuro",
+            "pastel rainbow": "arco-íris pastel",
+            "rainbow monokai": "arco-íris monokai",
+            "regular rainbow": "arco-íris normal"
+          },
+          "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Roda de cores de Crayola 1926",
+            "crayola12": "Roda de cores da Crayola 1930",
+            "goethe": "Roda cromática de Goethe",
+            "grayscale16": "Escala de cinzas 4 bits",
+            "grayscale4": "Escala de cinza 2 bits",
+            "mac16": "Apple Macintosh 16 cores",
+            "munsellCrayola": "Cores Munsell da Crayola",
+            "newtown": "Disco colorido de Newtown",
+            "rgb": "RGB",
+            "rgb 12": "Roda de cores RGB 12",
+            "rgb 8": "Roda de cores RGB 8",
+            "riscOS16": "Paleta padrão do RISC OS",
+            "vhs": "Barras coloridas VHS",
+            "web basics": "básica da web"
+          },
+          "tech": {
+            "baidu": "Baidu",
+            "facebook": "Facebook",
+            "firefox": "Mozilla firefox",
+            "google": "Google",
+            "microsoft": "microsoft",
+            "spotify": "Spotify",
+            "tumblr": "Tumblr",
+            "whatsapp": "Zap-zap",
+            "wikipedia": "Wikipédia",
+            "youtube": "YouTube"
+          },
+          "theme": {
+            "current": "atual"
+          }
+        },
+        "option": "paleta {{optionName}}"
+      },
       "summary": {
         "empty": "Você não tem nenhuma cor adicionada",
         "nonEmpty": "Clique para remover"

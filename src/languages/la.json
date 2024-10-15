@@ -16,12 +16,104 @@
         },
         "targets": {
           "hidden": "Mutatio scopum colorum",
-          "showing": "Mutantur scopum subsisto colorum"
+          "showing": "Subsisto mutantur in scopum colorum"
         }
       },
       "title": "Adde color"
     },
     "colorList": {
+      "palettes": {
+        "add": "Addere palette",
+        "groups": {
+          "brands": "brands",
+          "famous media": "celebre medias",
+          "places": "locis \"",
+          "rainbow": "irides",
+          "schemes": "Color doctrina",
+          "tech": "Technologies",
+          "theme": "themata"
+        },
+        "names": {
+          "brands": {
+            "bk": "Burger rex",
+            "cartoon": "Viverra network",
+            "coca-cola": "Coca-cola",
+            "dominos": "Domino's",
+            "lego": "lego",
+            "master": "MasterCard",
+            "mcdonalds": "McDonaldi's",
+            "national geographic": "nationalibus orbis terrarum",
+            "pepsi": "pepsi",
+            "trademarked": "Colorum qui non adepto vos sequitur",
+            "visa": "visa"
+          },
+          "famous media": {
+            "adventure time": "Adventus tempus",
+            "barbie": "barbie",
+            "bee": "apis",
+            "bmo": "BMO",
+            "cosmo and wanda": "Cosmo et Wanda",
+            "emo": "emo",
+            "fairly odd parents": "satis impar parentes",
+            "naruto": "naruto",
+            "sonic": "sonic",
+            "turma da monica": "Monica cohors"
+          },
+          "places": {
+            "brasil": "Brazilian",
+            "china": "Seres",
+            "ecuador": "Ecuadorian",
+            "ghana": "Ghanaian",
+            "greece": "Greek",
+            "jamaica": "Jamaican",
+            "lebanon": "Lebanese",
+            "mexico": "Mexicanus",
+            "rioDeJaneiro": "Ex Rio",
+            "southAfrica": "Africae Australis",
+            "syria": "Syriac",
+            "uruguay": "Uruguay"
+          },
+          "rainbow": {
+            "dark rainbow": "tenebris iris",
+            "pastel rainbow": "pastel iris",
+            "rainbow monokai": "monokai iris",
+            "regular rainbow": "regularis iris"
+          },
+          "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Crayola's Color Rota 1926",
+            "crayola12": "Crayola rota scriptor color 1930",
+            "goethe": "Goethe's color rotae",
+            "grayscale16": "IV-bit cineraceorum",
+            "grayscale4": "II-bit cineraceorum",
+            "mac16": "Lacus Macintosh 16-color",
+            "munsellCrayola": "Crayola munsell colorum",
+            "newtown": "Color discus Newtown scriptor",
+            "rgb": "RGB",
+            "rgb 12": "RGB color rota XII \"",
+            "rgb 8": "RGB color rota VIII \"",
+            "riscOS16": "RISC OS default palette",
+            "vhs": "VHS Color vectes",
+            "web basics": "Web basic"
+          },
+          "tech": {
+            "baidu": "baidu",
+            "facebook": "facebook",
+            "firefox": "Mozilla incendia",
+            "google": "google",
+            "microsoft": "Microsoft",
+            "spotify": "spotify",
+            "tumblr": "tumblr",
+            "whatsapp": "whatsapp",
+            "wikipedia": "wikipédia",
+            "youtube": "youtube"
+          },
+          "theme": {
+            "current": "current"
+          }
+        },
+        "option": "{{optionName}} palette"
+      },
       "summary": {
         "empty": "Non tamen ullus color addere",
         "nonEmpty": "Click to remove"

@@ -1,10 +1,16 @@
-export let variationSteps = 10
+export let variationSteps = 4
 
-import { RGB, SimpleColor, getInverse, getRGBFromHex, shadeGenerator } from "./rgb"
+import {
+	RGB,
+	SimpleColor,
+	getInverse,
+	getRGBFromHex,
+	shadeGenerator
+} from "./rgb"
 import { getComplementaryColor } from "./hsl"
 interface Palette {
-    complementary : string;
-    inverse : string;
+	complementary: string
+	inverse: string
 }
 
 const targets = new Map([["#FFFFFF", "#000000"]])
@@ -63,10 +69,9 @@ export const addTarget = (newTarget: string) => {
 }
 
 export const removeTarget = (key: string) => {
-	console.log(key, targets)
 	targets.delete(key.toUpperCase())
 }
 
 export const changeSteps = (newSteps: number) => {
-    variationSteps = newSteps
+	variationSteps = newSteps
 }

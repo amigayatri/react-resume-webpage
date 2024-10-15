@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import media from "../../../constants/medias"
+import { HexColorInput, HexColorPicker } from "react-colorful"
 
 export const Wrapper = styled.section`
 	padding: 32px 0;
@@ -16,21 +17,21 @@ export const ButtonWrapper = styled.div<{ $isRTL: boolean }>`
 	}
 `
 
-export const Button = styled.button<{ $isRTL: boolean }>`
+export const Button = styled.button<{ $isRTL: boolean; $isActive: boolean }>`
 	background-color: ${({ theme }) => theme.accent};
 	color: ${({ theme }) => theme.background};
 	border: none;
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
-	padding: 8px 16px;
+	padding: ${({ $isActive }) => ($isActive ? "8px 16px" : "0px")};
 	border-radius: 4px;
 	margin-right: ${({ $isRTL }) => ($isRTL ? "0" : "8px")};
 	margin-left: ${({ $isRTL }) => ($isRTL ? "8px" : "0")};
 	margin-bottom: 8px;
 	font-weight: 700;
 	cursor: pointer;
-	display: inline-block;
-	max-width: 256px;
+	display: ${({ $isActive }) => ($isActive ? "inline-block" : "none")};
+	max-width: ${({ $isActive }) => ($isActive ? "256px" : "0px")};
 `
 
 export const InputWrapper = styled.div`
@@ -73,9 +74,13 @@ export const SelectedColor = styled.div<{ $bg: string }>`
 `
 
 export const SelectedText = styled.span``
-export const TargetWrapper = styled.div`
+export const TargetWrapper = styled.div<{ $isRTL: boolean }>`
 	display: flex;
 	align-items: center;
+	${media.max.sm} {
+		flex-direction: column;
+		align-items: ${({ $isRTL }) => ($isRTL ? "flex-end" : "flex-start")};
+	}
 `
 export const SelectedWrapper = styled.div`
 	display: flex;
@@ -88,7 +93,28 @@ export const SelectedWrapper = styled.div`
 	border-radius: 8px;
 	margin-left: 16px;
 	height: 196px;
+	${media.max.sm} {
+		margin-left: 0;
+		margin-top: 16px;
+	}
 `
 export const SelectedButton = styled(Button)`
 	height: fit-content;
+`
+
+export const ColorInput = styled.div`
+	margin-right: 8px;
+`
+export const HexInput = styled(HexColorInput)`
+	background-color: transparent;
+	border: 2px solid ${({ theme }) => theme.primary};
+	padding: 2px 4px;
+	border-radius: 4px;
+	margin-bottom: 8px;
+`
+
+export const ColorPicker = styled(HexColorPicker)`
+	background-color: ${({ theme }) => theme.primary};
+	padding: 4px;
+	border-radius: 8px;
 `

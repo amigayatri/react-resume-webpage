@@ -22,6 +22,98 @@
       "title": "agregar color"
     },
     "colorList": {
+      "palettes": {
+        "add": "Agregar paleta",
+        "groups": {
+          "brands": "marcas",
+          "famous media": "medios famosos",
+          "places": "lugares",
+          "rainbow": "arcoiris",
+          "schemes": "Teoría del color",
+          "tech": "Tecnologías",
+          "theme": "temas"
+        },
+        "names": {
+          "brands": {
+            "bk": "rey hamburguesa",
+            "cartoon": "red de dibujos animados",
+            "coca-cola": "Coca-cola",
+            "dominos": "dominó",
+            "lego": "Lego",
+            "master": "tarjeta MasterCard",
+            "mcdonalds": "McDonald's",
+            "national geographic": "geográfico nacional",
+            "pepsi": "pepsi",
+            "trademarked": "Colores que pueden hacerte demandar",
+            "visa": "visa"
+          },
+          "famous media": {
+            "adventure time": "hora de aventura",
+            "barbie": "Barbie",
+            "bee": "abeja",
+            "bmo": "BMO",
+            "cosmo and wanda": "cosmo y wanda",
+            "emo": "emo",
+            "fairly odd parents": "padres bastante extraños",
+            "naruto": "naruto",
+            "sonic": "sónico",
+            "turma da monica": "La pandilla de Mónica"
+          },
+          "places": {
+            "brasil": "brasileño",
+            "china": "Chino",
+            "ecuador": "ecuatoriano",
+            "ghana": "ghanés",
+            "greece": "Griego",
+            "jamaica": "jamaicano",
+            "lebanon": "libanés",
+            "mexico": "mexicano",
+            "rioDeJaneiro": "Desde Río",
+            "southAfrica": "sudáfricano",
+            "syria": "siríaco",
+            "uruguay": "Uruguay"
+          },
+          "rainbow": {
+            "dark rainbow": "arcoiris oscuro",
+            "pastel rainbow": "arcoiris pastel",
+            "rainbow monokai": "monokai arcoiris",
+            "regular rainbow": "arcoiris normal"
+          },
+          "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Rueda de colores de Crayola 1926",
+            "crayola12": "Rueda de colores de Crayola 1930",
+            "goethe": "La rueda cromática de Goethe",
+            "grayscale16": "escala de grises de 4 bits",
+            "grayscale4": "escala de grises de 2 bits",
+            "mac16": "Apple Macintosh de 16 colores",
+            "munsellCrayola": "Colores munsell de crayola",
+            "newtown": "Disco de color de Newtown",
+            "rgb": "RGB",
+            "rgb 12": "Rueda de color RGB 12",
+            "rgb 8": "Rueda de color RGB 8",
+            "riscOS16": "Paleta predeterminada del sistema operativo RISC",
+            "vhs": "Barras de colores VHS",
+            "web basics": "Web básica"
+          },
+          "tech": {
+            "baidu": "Baidu",
+            "facebook": "Facebook",
+            "firefox": "Mozilla firefox",
+            "google": "Google",
+            "microsoft": "Microsoft",
+            "spotify": "spotify",
+            "tumblr": "tumblr",
+            "whatsapp": "WhatsApp",
+            "wikipedia": "wikipedia",
+            "youtube": "YouTube"
+          },
+          "theme": {
+            "current": "actual"
+          }
+        },
+        "option": "paleta {{optionName}}"
+      },
       "summary": {
         "empty": "Aún no agregaste ningún color",
         "nonEmpty": "Haga clic para eliminar"

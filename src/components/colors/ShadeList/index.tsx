@@ -3,15 +3,21 @@ import { Wrapper, ListWrapper } from "./ShadeList.styled"
 import ShadeSubSection from "../ShadeSubSection"
 import { Color } from "../../../lib/colors"
 import { SectionTitle, SubHeading } from "../Common.styled"
+import { useEffect, useState } from "react"
 
 interface PropsType {
 	regenerate: () => Color[]
 	updatedList: boolean
 }
 
-const ShadeList = (props: PropsType) => {
+const ShadeList = ({ regenerate, updatedList }: PropsType) => {
 	const { t } = useTranslation()
-	const list = props.regenerate()
+	const emptyColors: Color[] = []
+	const [list, setList] = useState(emptyColors)
+	useEffect(() => {
+		const currList = regenerate()
+		setList(currList)
+	}, [updatedList])
 	return (
 		<Wrapper>
 			<SectionTitle>{t("colors.shades.title")}</SectionTitle>

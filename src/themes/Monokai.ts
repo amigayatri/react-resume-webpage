@@ -67,4 +67,16 @@ const Monokai = {
 	scroll
 }
 
+export const rainbowMonokai = [
+	Monokai.red,
+	Monokai.orange,
+	Monokai.yellow,
+	Monokai.green,
+	Monokai.blue,
+	Monokai.purple,
+	Monokai.pink,
+	Monokai.almostBlack,
+	Monokai.white
+]
+
 export default Monokai

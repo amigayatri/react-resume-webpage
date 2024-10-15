@@ -12,5 +12,4 @@ fs.readFile("./package.json", "utf8", (err, data) => {
 	for (const name of Object.keys(devDependencies)) {
 		names.add(name)
 	}
-	console.log(names)
 })

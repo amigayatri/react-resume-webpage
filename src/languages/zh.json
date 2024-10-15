@@ -16,12 +16,104 @@
         },
         "targets": {
           "hidden": "更改目标颜色",
-          "showing": "停止改变目标颜色"
+          "showing": "停止更改目标颜色"
         }
       },
       "title": "添加颜色"
     },
     "colorList": {
+      "palettes": {
+        "add": "添加调色板",
+        "groups": {
+          "brands": "品牌",
+          "famous media": "知名媒体",
+          "places": "地方",
+          "rainbow": "彩虹",
+          "schemes": "色彩理论",
+          "tech": "技术",
+          "theme": "主题"
+        },
+        "names": {
+          "brands": {
+            "bk": "汉堡王",
+            "cartoon": "卡通网",
+            "coca-cola": "可口可乐",
+            "dominos": "多米诺骨牌",
+            "lego": "乐高",
+            "master": "万事达",
+            "mcdonalds": "麦当劳",
+            "national geographic": "国家地理",
+            "pepsi": "百事可乐",
+            "trademarked": "可能会让你被起诉的颜色",
+            "visa": "签证"
+          },
+          "famous media": {
+            "adventure time": "冒险时间",
+            "barbie": "芭比",
+            "bee": "蜜蜂",
+            "bmo": "蒙特利尔银行",
+            "cosmo and wanda": "科斯莫和万达",
+            "emo": "情绪化",
+            "fairly odd parents": "相当奇怪的父母",
+            "naruto": "火影忍者",
+            "sonic": "索尼克",
+            "turma da monica": "莫妮卡的帮派"
+          },
+          "places": {
+            "brasil": "巴西人",
+            "china": "中国人",
+            "ecuador": "厄瓜多尔人",
+            "ghana": "加纳人",
+            "greece": "希腊语",
+            "jamaica": "牙买加人",
+            "lebanon": "黎巴嫩人",
+            "mexico": "墨西哥人",
+            "rioDeJaneiro": "从里约出发",
+            "southAfrica": "南非人",
+            "syria": "叙利亚语",
+            "uruguay": "乌拉圭"
+          },
+          "rainbow": {
+            "dark rainbow": "暗彩虹",
+            "pastel rainbow": "柔和的彩虹",
+            "rainbow monokai": "莫诺凯彩虹",
+            "regular rainbow": "常规彩虹"
+          },
+          "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Crayola 的色轮 1926",
+            "crayola12": "Crayola 的色轮 1930",
+            "goethe": "歌德的色轮",
+            "grayscale16": "4 位灰度",
+            "grayscale4": "2 位灰度",
+            "mac16": "Apple Macintosh 16 色",
+            "munsellCrayola": "Crayola 的孟塞尔颜色",
+            "newtown": "纽敦的彩色光盘",
+            "rgb": "RGB",
+            "rgb 12": "RGB色轮12",
+            "rgb 8": "RGB色轮8",
+            "riscOS16": "RISC 操作系统默认调色板",
+            "vhs": "VHS 彩条",
+            "web basics": "网络基础"
+          },
+          "tech": {
+            "baidu": "百度",
+            "facebook": "Facebook",
+            "firefox": "火狐浏览器",
+            "google": "谷歌",
+            "microsoft": "微软",
+            "spotify": "Spotify",
+            "tumblr": "豆瓣",
+            "whatsapp": "WhatsApp",
+            "wikipedia": "维基百科",
+            "youtube": "YouTube"
+          },
+          "theme": {
+            "current": "当前的"
+          }
+        },
+        "option": "{{optionName}} 调色板"
+      },
       "summary": {
         "empty": "您还没有添加任何颜色",
         "nonEmpty": "点击删除"

@@ -5,18 +5,20 @@ import {
 	ShadeSubtitle,
 	PairWrapper,
 	Wrapper,
-	ShadesWrapper
+	ShadesWrapper,
+	TargetWrapper,
+	Code
 } from "./ShadeSubSection.styled"
 import ShadeItem from "../ShadeItem"
-import { useTranslation } from "react-i18next"
+import { Trans } from "react-i18next"
 
 interface PropType {
 	color: Color
 }
 
 const ShadeSubSection = ({ color }: PropType) => {
-	const { t } = useTranslation()
 	const currCode = color.code
+	const currInverse = color.palette.inverse
 	const variations = Array.from(color.variations.entries())
 	const showSquare = ({ code, inverse }: SimpleColor) => {
 		return (
@@ -38,27 +40,44 @@ const ShadeSubSection = ({ color }: PropType) => {
 		}
 		const variationsArr = Array.from(currVariations.values())
 		return (
-			<>
+			<TargetWrapper key={`variations-${currCode}-from-${code}-to-${inverse}`}>
 				<PairWrapper>
 					<ShadeSubtitle>
-						{t("colors.shades.from", { colorCode: code })}
+						<Trans tOptions={{ colorCode: code }} i18nKey="colors.shades.from">
+							t
+							<Code $color={code} $inverse={inverse}>
+								l
+							</Code>
+							t
+						</Trans>
 					</ShadeSubtitle>
 					<ShadeSubtitle>
-						{t("colors.shades.to", { colorCode: inverse })}
+						<Trans tOptions={{ colorCode: inverse }} i18nKey="colors.shades.to">
+							t
+							<Code $color={inverse} $inverse={code}>
+								l
+							</Code>
+							t
+						</Trans>
 					</ShadeSubtitle>
 				</PairWrapper>
-				<ShadeSubtitle></ShadeSubtitle>
 				<ShadesWrapper>
 					{variationsArr.map((value) => showSquare(value as SimpleColor))}
 				</ShadesWrapper>
-			</>
+			</TargetWrapper>
 		)
 	}
 
 	return (
 		<Wrapper>
 			<ShadeTitle>
-				{t("colors.shades.code", { colorCode: currCode })}
+				<Trans tOptions={{ colorCode: currCode }} i18nKey="colors.shades.code">
+					t
+					<Code $color={currCode} $inverse={currInverse}>
+						l
+					</Code>
+					t
+				</Trans>
 			</ShadeTitle>
 			{variations.map((targets) => showTargetsVariations(targets))}
 		</Wrapper>

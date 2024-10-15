@@ -16,22 +16,22 @@ export const Square = styled.div<{
 	$bg: string
 	$inverse: string
 }>`
-	background-color: ${(props) => props.$bg};
-	border-color: ${({ theme }) => theme.primary};
+	background-color: ${({ $bg }) => $bg};
+	border-color: ${({ $inverse }) => $inverse};
 	border-width: 2px;
-	border-style: ${(props) => (props.$base ? "solid" : "none")};
+	border-style: ${({ $base }) => ($base ? "solid" : "none")};
 	height: 64px;
 	width: 64px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	cursor: pointer;
+	cursor: copy;
 	& > code {
 		width: 0px;
 		display: block;
 		overflow: hidden;
-		color: ${(props) => props.$inverse};
-		cursor: pointer;
+		color: ${({ $inverse }) => $inverse};
+		cursor: copy;
 	}
 	&:hover,
 	&:focus {

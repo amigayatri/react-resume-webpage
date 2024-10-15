@@ -85,8 +85,8 @@ Inspired by Monokai Sublime theme, dark and white modes (some components are alw
 ### Some places
 | Color | Hexcode |
 | --- | --- |
-| ![#f83535](https://placehold.co/32x32/f83535/f83535.png) | `#f83535` |
-| ![#fd9621](https://placehold.co/32x32/fd9621/fd9621.png) | `#fd9621` |
-| ![#f4cd04](https://placehold.co/32x32/f4cd04/f4cd04.png) | `#f4cd04` |
-| ![#a6e22c](https://placehold.co/32x32/a6e22c/a6e22c.png) | `#a6e22c` |
-| ![#3e3d32](https://placehold.co/32x32/3e3d32/3e3d32.png) | `#3e3d32` |
+| ![#f83535](https://placehold.co/32x32/f83535/f83535) | `#f83535` |
+| ![#fd9621](https://placehold.co/32x32/fd9621/fd9621) | `#fd9621` |
+| ![#f4cd04](https://placehold.co/32x32/f4cd04/f4cd04) | `#f4cd04` |
+| ![#a6e22c](https://placehold.co/32x32/a6e22c/a6e22c) | `#a6e22c` |
+| ![#3e3d32](https://placehold.co/32x32/3e3d32/3e3d32) | `#3e3d32` |

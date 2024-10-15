@@ -22,6 +22,98 @@
       "title": "रंग जोड़ें"
     },
     "colorList": {
+      "palettes": {
+        "add": "पैलेट जोड़ें",
+        "groups": {
+          "brands": "ब्रांडों",
+          "famous media": "प्रसिद्ध मीडिया",
+          "places": "स्थानों",
+          "rainbow": "इंद्रधनुष",
+          "schemes": "रंग सिद्धांत",
+          "tech": "प्रौद्योगिकियों",
+          "theme": "विषय-वस्तु"
+        },
+        "names": {
+          "brands": {
+            "bk": "बर्गर किंग",
+            "cartoon": "कार्टून नेटवर्क",
+            "coca-cola": "कोका कोला",
+            "dominos": "डोमिनोज़",
+            "lego": "लेगो",
+            "master": "मास्टर कार्ड",
+            "mcdonalds": "मैकडॉनल्ड्स",
+            "national geographic": "नेशनल ज्योग्राफिक",
+            "pepsi": "पेप्सी",
+            "trademarked": "रंग जो आप पर मुकदमा करवा सकते हैं",
+            "visa": "वीज़ा"
+          },
+          "famous media": {
+            "adventure time": "साहसिक समय",
+            "barbie": "बार्बी",
+            "bee": "मधुमक्खी",
+            "bmo": "बीएमओ",
+            "cosmo and wanda": "कॉस्मो और वांडा",
+            "emo": "भावनाएं",
+            "fairly odd parents": "काफी अजीब माता-पिता",
+            "naruto": "Naruto",
+            "sonic": "ध्वनि",
+            "turma da monica": "मोनिका का गिरोह"
+          },
+          "places": {
+            "brasil": "ब्राजील",
+            "china": "चीनी",
+            "ecuador": "इक्वेडोर का",
+            "ghana": "घाना",
+            "greece": "यूनानी",
+            "jamaica": "जमैका",
+            "lebanon": "लेबनान",
+            "mexico": "मैक्सिकन",
+            "rioDeJaneiro": "रियो से",
+            "southAfrica": "दक्षिण अफ्रीकी",
+            "syria": "सिरिएक",
+            "uruguay": "उरुग्वे"
+          },
+          "rainbow": {
+            "dark rainbow": "गहरा इंद्रधनुष",
+            "pastel rainbow": "पेस्टल इंद्रधनुष",
+            "rainbow monokai": "मोनोकाई इंद्रधनुष",
+            "regular rainbow": "नियमित इंद्रधनुष"
+          },
+          "schemes": {
+            "cmyk": "सीएमवाईके",
+            "crayola10": "क्रायोला का कलर व्हील 1926",
+            "crayola12": "क्रायोला का रंग पहिया 1930",
+            "goethe": "गोएथे का रंग पहिया",
+            "grayscale16": "4-बिट ग्रेस्केल",
+            "grayscale4": "2-बिट ग्रेस्केल",
+            "mac16": "एप्पल मैकिंटोश 16-रंग",
+            "munsellCrayola": "क्रायोला के मुन्सेल रंग",
+            "newtown": "न्यूटाउन की रंगीन डिस्क",
+            "rgb": "आरजीबी",
+            "rgb 12": "आरजीबी रंग पहिया 12",
+            "rgb 8": "आरजीबी रंग पहिया 8",
+            "riscOS16": "आरआईएससी ओएस डिफ़ॉल्ट पैलेट",
+            "vhs": "वीएचएस रंग पट्टियाँ",
+            "web basics": "वेब बेसिक"
+          },
+          "tech": {
+            "baidu": "Baidu",
+            "facebook": "फेसबुक",
+            "firefox": "मोज़िला फ़ायरफ़ॉक्स",
+            "google": "गूगल",
+            "microsoft": "माइक्रोसॉफ्ट",
+            "spotify": "Spotify",
+            "tumblr": "Tumblr",
+            "whatsapp": "WHATSAPP",
+            "wikipedia": "विकिपीडिया",
+            "youtube": "यूट्यूब"
+          },
+          "theme": {
+            "current": "मौजूदा"
+          }
+        },
+        "option": "{{optionName}} पैलेट"
+      },
       "summary": {
         "empty": "आपने अभी तक कोई रंग नहीं जोड़ा",
         "nonEmpty": "हटाने के लिए क्लिक करें"

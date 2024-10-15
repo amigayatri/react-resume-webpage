@@ -16,12 +16,104 @@
         },
         "targets": {
           "hidden": "Change target colors",
-          "showing": "Stop changing target colors"
+          "showing": "Stop changing the target colors"
         }
       },
       "title": "Add color"
     },
     "colorList": {
+      "palettes": {
+        "add": "Add palette",
+        "groups": {
+          "brands": "brands",
+          "famous media": "famous medias",
+          "places": "places",
+          "rainbow": "rainbows",
+          "schemes": "Color theory",
+          "tech": "Technologies",
+          "theme": "themes"
+        },
+        "names": {
+          "brands": {
+            "bk": "Burger king",
+            "cartoon": "Cartoon network",
+            "coca-cola": "Coca-cola",
+            "dominos": "Domino's",
+            "lego": "lego",
+            "master": "MasterCard",
+            "mcdonalds": "McDonald's",
+            "national geographic": "national geographic",
+            "pepsi": "pepsi",
+            "trademarked": "Colors that can get you sued",
+            "visa": "visa"
+          },
+          "famous media": {
+            "adventure time": "Adventure time",
+            "barbie": "barbie",
+            "bee": "bee",
+            "bmo": "BMO",
+            "cosmo and wanda": "cosmo and wanda",
+            "emo": "emo",
+            "fairly odd parents": "fairly odd parents",
+            "naruto": "naruto",
+            "sonic": "sonic",
+            "turma da monica": "Monica's gang"
+          },
+          "places": {
+            "brasil": "Brazilian",
+            "china": "Chinese",
+            "ecuador": "Ecuadorian",
+            "ghana": "Ghanaian",
+            "greece": "Greek",
+            "jamaica": "Jamaican",
+            "lebanon": "Lebanese",
+            "mexico": "Mexican",
+            "rioDeJaneiro": "From Rio",
+            "southAfrica": "South African",
+            "syria": "Syriac",
+            "uruguay": "Uruguay"
+          },
+          "rainbow": {
+            "dark rainbow": "dark rainbow",
+            "pastel rainbow": "pastel rainbow",
+            "rainbow monokai": "monokai rainbow ",
+            "regular rainbow": "regular rainbow"
+          },
+          "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Crayola's Color Wheel 1926",
+            "crayola12": "Crayola's color wheel 1930",
+            "goethe": "Goethe's color wheel",
+            "grayscale16": "4-bit grayscale",
+            "grayscale4": "2-bit grayscale",
+            "mac16": "Apple Macintosh 16-color",
+            "munsellCrayola": "Crayola's munsell colors",
+            "newtown": "Newtown's color disc",
+            "rgb": "RGB",
+            "rgb 12": "RGB color wheel 12",
+            "rgb 8": "RGB color wheel 8",
+            "riscOS16": "RISC OS default palette",
+            "vhs": "VHS Color bars",
+            "web basics": "Web basic "
+          },
+          "tech": {
+            "baidu": "baidu",
+            "facebook": "facebook",
+            "firefox": "Mozilla firefox",
+            "google": "google",
+            "microsoft": "microsoft",
+            "spotify": "spotify",
+            "tumblr": "tumblr",
+            "whatsapp": "whatsapp",
+            "wikipedia": "wikipédia",
+            "youtube": "youtube"
+          },
+          "theme": {
+            "current": "current"
+          }
+        },
+        "option": "{{optionName}} palette"
+      },
       "summary": {
         "empty": "You didn't add any color yet",
         "nonEmpty": "Click to remove"
@@ -29,15 +121,15 @@
       "title": "Added colors"
     },
     "header": {
-      "summary": "Creates color variations for black and white, the default number of variations is 10 in each direction, but it can be changed",
+      "summary": "Creates color variations for black and white, the default number of variations is 4 in each direction, but it can be changed",
       "title": "Color variation generator"
     },
     "shades": {
-      "code": "Variations of {{colorCode}}",
-      "from": "From {{colorCode}}",
+      "code": "Variations of <1>{{colorCode}}</1>",
+      "from": "From <1>{{colorCode}}</1>",
       "summary": "Click to copy the color!",
       "title": "Shades",
-      "to": "to {{colorCode}}"
+      "to": "to <1>{{colorCode}}</1>"
     },
     "targetList": {
       "delete": {
