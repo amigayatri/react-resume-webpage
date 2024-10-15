@@ -1,3 +1,4 @@
+import ThreeDIcon from "../icons/3DIcon"
 import BrokenLinkIcon from "../icons/BrokenLinkIcon"
 import BugIcon from "../icons/BugIcon"
 import ChartIcon from "../icons/ChartIcon"
@@ -24,30 +25,31 @@ import TranslateIcon from "../icons/TranslateIcon"
 import WebsiteIcon from "../icons/WebsiteIcon"
 
 const icons = new Map([
-    ["brokenlink", BrokenLinkIcon],
-    ["bug", BugIcon],
-    ["chart", ChartIcon],
-    ["code", CodeIcon],
-    ["download", DownloadIcon],
-    ["email", EmailIcon],
-    ["error", ErrorIcon],
-    ["external", ExternalIcon],
-    ["gitbranch", GitBranchIcon],
-    ["github", GithubIcon],
-    ["home", HomeIcon],
-    ["leetcode", LeetCodeIcon],
-    ["linkedin", LinkedinIcon],
-    ["moon", MoonIcon],
-    ["more", MoreIcon],
-    ["palette", PaletteIcon],
-    ["person", PersonIcon],
-    ["phone", PhoneIcon],
-    ["sun", SunIcon],
-    ["terminalerror", TerminalErrorIcon],
-    ["terminal", TerminalIcon],
-    ["tools", ToolsIcon],
-    ["translate", TranslateIcon],
-    ["website", WebsiteIcon]
+	["3d", ThreeDIcon],
+	["brokenlink", BrokenLinkIcon],
+	["bug", BugIcon],
+	["chart", ChartIcon],
+	["code", CodeIcon],
+	["download", DownloadIcon],
+	["email", EmailIcon],
+	["error", ErrorIcon],
+	["external", ExternalIcon],
+	["gitbranch", GitBranchIcon],
+	["github", GithubIcon],
+	["home", HomeIcon],
+	["leetcode", LeetCodeIcon],
+	["linkedin", LinkedinIcon],
+	["moon", MoonIcon],
+	["more", MoreIcon],
+	["palette", PaletteIcon],
+	["person", PersonIcon],
+	["phone", PhoneIcon],
+	["sun", SunIcon],
+	["terminalerror", TerminalErrorIcon],
+	["terminal", TerminalIcon],
+	["tools", ToolsIcon],
+	["translate", TranslateIcon],
+	["website", WebsiteIcon]
 ])
 
 export default icons

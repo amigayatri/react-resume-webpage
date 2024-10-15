@@ -1,4 +1,11 @@
 {
+  "3d": {
+    "spline": {
+      "name": "Ranura"
+    },
+    "summary": "Desarrollado para probar diferentes bibliotecas 3D disponibles para React",
+    "title": "Pruebas de bibliotecas 3D"
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -161,6 +168,9 @@
       "subheading": "¡Haz clic en la página que deseas ver para abrirla!"
     },
     "pageList": {
+      "3D": {
+        "title": "prueba 3D"
+      },
       "colors": {
         "title": "Generador de sombras"
       },
@@ -183,6 +193,7 @@
   },
   "icons": {
     "alt": {
+      "3d": "Icono de cubo 3D",
       "chart": "Icono de gráfico",
       "code": "Icono de dos llaves",
       "download": "Icono de descarga de documentos",
@@ -266,6 +277,7 @@
   },
   "paths": {
     "title": {
+      "3D": "Pruebas de bibliotecas 3D",
       "404": "Extraviado",
       "colors": "variaciones de color",
       "extralanguages": "Idiomas adicionales",
@@ -403,6 +415,13 @@
         "seeMore": "Más información sobre <1>{{linkName}}</1>",
         "title": "Confirmaciones recientes"
       }
+    },
+    "main": {
+      "list": {
+        "git": "git",
+        "visitors": "Ubicación de los visitantes"
+      },
+      "title": "Estadísticas del sitio web"
     }
   }
 }

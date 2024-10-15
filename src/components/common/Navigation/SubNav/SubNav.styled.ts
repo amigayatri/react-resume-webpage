@@ -26,8 +26,10 @@ export const SubNavWrapper = styled.div<{ $isOpen: boolean }>`
 	position: relative;
 
 	& ${ContentWrapper} {
-		height: ${({ $isOpen }) => ($isOpen ? "144px" : "0px")};
-		width: ${({ $isOpen }) => ($isOpen ? "240px" : "0px")};
+		height: fit-content;
+		width: fit-content;
+		max-height: ${({ $isOpen }) => ($isOpen ? "360px" : "0px")};
+		max-width: ${({ $isOpen }) => ($isOpen ? "360px" : "0px")};
 		padding: ${({ $isOpen }) => ($isOpen ? "12px" : "0px")};
 	}
 
