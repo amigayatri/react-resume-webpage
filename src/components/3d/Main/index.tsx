@@ -16,7 +16,7 @@ const Main = () => {
 	const { t } = useTranslation()
 	const tabs = new Map([["spline", <SplineScene />]])
 	const names = Array.from(tabs.keys())
-	const elements = Array.from(tabs.values())
+	const entries = Array.from(tabs.entries())
 	return (
 		<MainWrapper>
 			<Description>
@@ -30,8 +30,8 @@ const Main = () => {
 							<TabName key={"tab-name" + name}>{t(`3d.${name}.name`)}</TabName>
 						))}
 					</TabNamesWrapper>
-					{elements.map((el) => (
-						<TabContent>{el}</TabContent>
+					{entries.map(([name, el]) => (
+						<TabContent key={"tab-el-" + name}>{el}</TabContent>
 					))}
 				</TabsWrapper>
 			</Section>
