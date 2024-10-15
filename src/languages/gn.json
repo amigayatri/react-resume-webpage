@@ -1,4 +1,11 @@
 {
+  "3d": {
+    "spline": {
+      "name": "Spline rehegua"
+    },
+    "summary": "Ojejapo oñehaꞌã hag̃ua opaichagua libs 3D ojeguerekóva React-pe g̃uarã",
+    "title": "3D libs jesareko"
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -161,6 +168,9 @@
       "subheading": "¡Emboguejy pe páhina rehechaséva reipeʼa hag̃ua!"
     },
     "pageList": {
+      "3D": {
+        "title": "Prueba 3D rehegua"
+      },
       "colors": {
         "title": "Generador de sombra rehegua"
       },
@@ -183,6 +193,7 @@
   },
   "icons": {
     "alt": {
+      "3d": "Icono cubo 3D rehegua",
       "chart": "Gráfico icono rehegua",
       "code": "Mokõi soporte rizado icono",
       "download": "Kuatia ñemboguejyha techaukaha",
@@ -266,6 +277,7 @@
   },
   "paths": {
     "title": {
+      "3D": "3D libs jesareko",
       "404": "Ndojejuhúi",
       "colors": "Umi sa’y iñambuéva",
       "extralanguages": "Ñe’ẽ extra",
@@ -403,6 +415,13 @@
         "seeMore": "Hetave mba’e <1>{{linkName}}</1> rehegua",
         "title": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva"
       }
+    },
+    "main": {
+      "list": {
+        "git": "Git rehegua",
+        "visitors": "Umi visitante ubicación"
+      },
+      "title": "Estadísticas página web rehegua"
     }
   }
 }

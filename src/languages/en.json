@@ -1,4 +1,11 @@
 {
+  "3d": {
+    "spline": {
+      "name": "Spline"
+    },
+    "summary": "Developed to test different 3D libs available to React",
+    "title": "3D libs testing"
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -161,6 +168,9 @@
       "subheading": "Click on the page you want to see to open it!"
     },
     "pageList": {
+      "3D": {
+        "title": "3D test"
+      },
       "colors": {
         "title": "Shade generator"
       },
@@ -183,6 +193,7 @@
   },
   "icons": {
     "alt": {
+      "3d": "3D cube icon",
       "chart": "Chart icon",
       "code": "Two curly brackets icon",
       "download": "Document download icon",
@@ -266,6 +277,7 @@
   },
   "paths": {
     "title": {
+      "3D": "3D libs testing",
       "404": "Not found",
       "colors": "Colors",
       "extralanguages": "Extra languages",
@@ -403,6 +415,13 @@
         "seeMore": "More on <1>{{linkName}}</1>",
         "title": "Recent commits"
       }
+    },
+    "main": {
+      "list": {
+        "git": "Git",
+        "visitors": "Visitors location"
+      },
+      "title": "Website stats"
     }
   }
 }

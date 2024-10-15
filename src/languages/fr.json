@@ -1,4 +1,11 @@
 {
+  "3d": {
+    "spline": {
+      "name": "Spline"
+    },
+    "summary": "Développé pour tester différentes bibliothèques 3D disponibles pour React",
+    "title": "Test des bibliothèques 3D"
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -161,6 +168,9 @@
       "subheading": "Cliquez sur la page que vous souhaitez voir pour l'ouvrir !"
     },
     "pageList": {
+      "3D": {
+        "title": "essai 3D"
+      },
       "colors": {
         "title": "Générateur d'ombre"
       },
@@ -183,6 +193,7 @@
   },
   "icons": {
     "alt": {
+      "3d": "Icône de cube 3D",
       "chart": "Icône de graphique",
       "code": "Icône de deux accolades",
       "download": "Icône de téléchargement de documents",
@@ -266,6 +277,7 @@
   },
   "paths": {
     "title": {
+      "3D": "Test des bibliothèques 3D",
       "404": "Pas trouvé",
       "colors": "Variations de couleurs",
       "extralanguages": "Langues supplémentaires",
@@ -403,6 +415,13 @@
         "seeMore": "En savoir plus sur <1>{{linkName}}</1>",
         "title": "Commis récents"
       }
+    },
+    "main": {
+      "list": {
+        "git": "Git",
+        "visitors": "Localisation des visiteurs"
+      },
+      "title": "Statistiques du site Web"
     }
   }
 }

@@ -2,7 +2,7 @@ import styled from "styled-components"
 import media from "../../../constants/medias"
 
 export const VisitorStatsWrapper = styled.section`
-	padding: 0 var(--color-container);
+	padding: 8px var(--color-container);
 `
 
 export const ContentWrapper = styled.div`

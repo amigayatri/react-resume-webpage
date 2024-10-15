@@ -1,4 +1,11 @@
 {
+  "3d": {
+    "spline": {
+      "name": "Spline"
+    },
+    "summary": "Developed probare diversis 3D libs praesto est React",
+    "title": "3D libs temptationis"
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -161,6 +168,9 @@
       "subheading": "Click in pagina videre vis ut eam aperi!"
     },
     "pageList": {
+      "3D": {
+        "title": "3D test"
+      },
       "colors": {
         "title": "umbra generantis"
       },
@@ -183,6 +193,7 @@
   },
   "icons": {
     "alt": {
+      "3d": "3D cubus icon",
       "chart": "Chart icon",
       "code": "Duo uncis crispus icon",
       "download": "Documenti download icon",
@@ -266,6 +277,7 @@
   },
   "paths": {
     "title": {
+      "3D": "3D libs temptationis",
       "404": "Non inveni",
       "colors": "Color variationum",
       "extralanguages": "Extra linguas",
@@ -403,6 +415,13 @@
         "seeMore": "Plura in <1>{{linkName}}</1>",
         "title": "Recent committit"
       }
+    },
+    "main": {
+      "list": {
+        "git": "Git",
+        "visitors": "Visitatores locus"
+      },
+      "title": "Website stats"
     }
   }
 }

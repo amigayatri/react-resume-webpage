@@ -7,15 +7,14 @@ import {
 	SourceLink,
 	SideMapContainer
 } from "./VisitorStats.styled"
-import { Title, Summary } from "../Common.styled"
-import { Trans, useTranslation } from "react-i18next"
+import { Summary } from "../Common.styled"
+import { Trans } from "react-i18next"
 import linkProps from "../../../constants/linkprops"
 
 const VisitorStats = () => {
-	const { t } = useTranslation()
 	return (
 		<VisitorStatsWrapper>
-			<Title>{t("stats.MapRevolver.title")}</Title>
+			{/* <Title>{t("stats.MapRevolver.title")}</Title> */}
 			<ContentWrapper>
 				<MainWrapper>
 					<VisitorMap id="globe" fullpage />

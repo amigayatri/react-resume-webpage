@@ -1,4 +1,11 @@
 {
+  "3d": {
+    "spline": {
+      "name": "Spline"
+    },
+    "summary": "Entwickelt, um verschiedene für React verfügbare 3D-Bibliotheken zu testen",
+    "title": "Testen von 3D-Bibliotheken"
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -161,6 +168,9 @@
       "subheading": "Klicken Sie auf die Seite, die Sie sehen möchten, um sie zu öffnen!"
     },
     "pageList": {
+      "3D": {
+        "title": "3D-Test"
+      },
       "colors": {
         "title": "Schattengenerator"
       },
@@ -183,6 +193,7 @@
   },
   "icons": {
     "alt": {
+      "3d": "3D-Würfelsymbol",
       "chart": "Diagrammsymbol",
       "code": "Symbol mit zwei geschweiften Klammern",
       "download": "Symbol zum Herunterladen von Dokumenten",
@@ -266,6 +277,7 @@
   },
   "paths": {
     "title": {
+      "3D": "Testen von 3D-Bibliotheken",
       "404": "Nicht gefunden",
       "colors": "Farbvariationen",
       "extralanguages": "Zusätzliche Sprachen",
@@ -403,6 +415,13 @@
         "seeMore": "Mehr zu <1>{{linkName}}</1>",
         "title": "Aktuelle Commits"
       }
+    },
+    "main": {
+      "list": {
+        "git": "Git",
+        "visitors": "Standort der Besucher"
+      },
+      "title": "Website-Statistiken"
     }
   }
 }
