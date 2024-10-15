@@ -20,6 +20,7 @@ const SubNav = ({ pages, isRTL }: { pages: PageProps[]; isRTL: boolean }) => {
 			<ContentWrapper>
 				{pages.map((page) => (
 					<NavigationItem
+						close={openMenu}
 						isRTL={isRTL}
 						key={`nav-link-${page.path}`}
 						page={page}

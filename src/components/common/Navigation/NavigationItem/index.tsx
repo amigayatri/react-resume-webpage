@@ -9,19 +9,19 @@ import {
 	UnderLine
 } from "./NavigationItem.styled"
 
-const NavigationItem = ({
-	page,
-	isRTL
-}: {
+interface NavigationItemProps {
 	page: PageProps
 	isRTL: boolean
-}) => {
+	close: () => void
+}
+
+const NavigationItem = ({ page, isRTL, close }: NavigationItemProps) => {
 	const { t } = useTranslation()
 	const { pathname } = useLocation()
 	const isActive = pathname === page.path
 	return (
 		<LinkWrapper $isActive={isActive}>
-			<ContentWrapper $isRTL={isRTL} to={page.path}>
+			<ContentWrapper onClick={close} $isRTL={isRTL} to={page.path}>
 				<SVGIcon id={page.icon} size={24} />
 				<Label>{t("paths.title.".concat(page.id))}</Label>
 			</ContentWrapper>

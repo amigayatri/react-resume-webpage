@@ -21,6 +21,7 @@ const DesktopNavigation = ({ isRTL }: NavProps) => {
 		<DesktopWrapper>
 			{pages.map((page) => (
 				<NavigationItem
+					close={() => {}}
 					isRTL={isRTL}
 					key={`nav-link-${page.path}`}
 					page={page}
@@ -33,12 +34,16 @@ const DesktopNavigation = ({ isRTL }: NavProps) => {
 
 const MobileNavigation = ({ isRTL }: NavProps) => {
 	const [isOpen, setIsOpen] = useState(false)
+	const closeMenu = () => {
+		setIsOpen(false)
+	}
 	return (
 		<>
 			<MenuButton isOpen={isOpen} openMenu={() => setIsOpen(!isOpen)} />
 			<MobileWrapper $isRTL={isRTL} $isOpen={isOpen}>
 				{pages.map((page) => (
 					<NavigationItem
+						close={closeMenu}
 						isRTL={isRTL}
 						key={`nav-link-${page.path}`}
 						page={page}
@@ -46,6 +51,7 @@ const MobileNavigation = ({ isRTL }: NavProps) => {
 				))}
 				{extraPages.map((page) => (
 					<NavigationItem
+						close={closeMenu}
 						isRTL={isRTL}
 						key={`nav-link-${page.path}`}
 						page={page}
