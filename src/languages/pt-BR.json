@@ -199,14 +199,14 @@
     },
     "names": {
       "brands": {
-        "bk": "Rei do hambúrguer",
+        "bk": "Burger king",
         "cartoon": "Cartoon Network",
         "coca-cola": "Coca Cola",
-        "dominos": "Dominó",
+        "dominos": "Domino's",
         "lego": "Lego",
         "master": "MasterCard",
         "mcdonalds": "McDonald's",
-        "national geographic": "geográfico nacional",
+        "national geographic": "National geographic",
         "pepsi": "pepsi",
         "trademarked": "Cores que podem fazer com que você seja processado",
         "visa": "Visa"
@@ -216,8 +216,8 @@
         "barbie": "Barbie",
         "bee": "abelha",
         "bmo": "BMO",
-        "cosmo and wanda": "Cosmo e Wanda",
         "emo": "emo",
+        "cosmo and wanda": "Cosmo e Wanda",
         "fairly odd parents": "padrinhos magicos",
         "naruto": "naruto",
         "sonic": "Sonic",
@@ -236,7 +236,6 @@
         "southAfrica": "Sul-africana",
         "syria": "Síria",
         "uruguay": "Uruguaia"
-
       },
       "rainbow": {
         "dark rainbow": "arco-íris escuro",
@@ -259,7 +258,7 @@
         "rgb 8": "Roda de cores RGB 8",
         "riscOS16": "Paleta padrão do RISC OS",
         "vhs": "Barras coloridas VHS",
-        "web basics": "Web básico"
+        "web basics": "Web básica"
       },
       "tech": {
         "baidu": "Baidu",
