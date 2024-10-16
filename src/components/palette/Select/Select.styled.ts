@@ -7,20 +7,21 @@ export const SelectWrapper = styled.div`
 export const SelectPalette = styled.select`
 	font-size: 1.5rem;
 	width: fit-content;
+	max-width: 100%;
 	text-transform: capitalize;
+	background-color: ${({ theme }) => theme.background};
+	color: ${({ theme }) => theme.primary};
+	padding: 4px;
+	margin: 8px 0;
+	border-radius: 8px;
 `
 
-export const OptionGroup = styled.optgroup``
-
-export const Option = styled.option``
-export const PaletteWrapper = styled.div`
-	display: flex;
-	width: 100%;
-	overflow-x: auto;
+export const OptionGroup = styled.optgroup`
+	background-color: ${({ theme }) => theme.background};
+	color: ${({ theme }) => theme.accent};
 `
-export const PaletteColor = styled.div`
-	height: 48px;
-	min-width: 48px;
-	flex: 1;
-	border: 2px solid ${({ theme }) => theme.primary};
+
+export const Option = styled.option`
+	background-color: ${({ theme }) => theme.background};
+	color: ${({ theme }) => theme.primary};
 `

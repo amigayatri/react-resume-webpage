@@ -188,6 +188,12 @@
   },
   "palettes": {
     "add": "Oñemoĩve paleta",
+    "addGroup": "Opavave {{groupName}}-gui.",
+    "addOne": {
+      "summary": "Pe paleta ojeporavóva ojehechaukáta lista iguýpe.",
+      "title": "Eiporavo peteĩ paleta remoĩ hag̃ua"
+    },
+    "component": "{{paleta réra}} paleta térã <1>{{paleta réra}} paleta</1>",
     "groups": {
       "brands": "umi marca rehegua",
       "famous media": "umi medio herakuãitéva",
@@ -196,6 +202,14 @@
       "schemes": "Teoría de color rehegua",
       "tech": "Umi tecnología rehegua",
       "theme": "umi tema rehegua"
+    },
+    "info": {
+      "copy all": "Ekopia opaite sa’y",
+      "summary": "Emboguejy peteĩ kolór rehe ekopia hag̃ua ikodigokuéra"
+    },
+    "list": {
+      "summary": "Reho directamente pe paleta ojeporavóvape",
+      "title": "Emboguejy pe téra"
     },
     "names": {
       "brands": {

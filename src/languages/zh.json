@@ -188,6 +188,12 @@
   },
   "palettes": {
     "add": "添加调色板",
+    "addGroup": "全部来自 {{groupName}}",
+    "addOne": {
+      "summary": "所选调色板将出现在下面的列表中。",
+      "title": "选择要添加的调色板"
+    },
+    "component": "{{paletteName}} 调色板或 <1>{{paletteName}} 调色板</1>",
     "groups": {
       "brands": "品牌",
       "famous media": "知名媒体",
@@ -196,6 +202,14 @@
       "schemes": "色彩理论",
       "tech": "技术",
       "theme": "主题"
+    },
+    "info": {
+      "copy all": "复制所有颜色",
+      "summary": "单击颜色以复制其代码"
+    },
+    "list": {
+      "summary": "您将直接进入所选调色板",
+      "title": "单击名称"
     },
     "names": {
       "brands": {

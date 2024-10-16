@@ -188,6 +188,12 @@
   },
   "palettes": {
     "add": "Aggiungi tavolozza",
+    "addGroup": "Tutto da {{groupName}}",
+    "addOne": {
+      "summary": "La tavolozza scelta apparirà nell'elenco seguente.",
+      "title": "Scegli una tavolozza da aggiungere"
+    },
+    "component": "Tavolozza {{paletteName}} o <1>paletteName}} tavolozza</1>",
     "groups": {
       "brands": "marchi",
       "famous media": "media famosi",
@@ -196,6 +202,14 @@
       "schemes": "Teoria dei colori",
       "tech": "Tecnologie",
       "theme": "temi"
+    },
+    "info": {
+      "copy all": "Copia tutti i colori",
+      "summary": "Fare clic su un colore per copiare il relativo codice"
+    },
+    "list": {
+      "summary": "Andrai direttamente alla tavolozza scelta",
+      "title": "Fare clic sul nome"
     },
     "names": {
       "brands": {

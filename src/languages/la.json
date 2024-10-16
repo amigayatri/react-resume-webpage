@@ -188,6 +188,12 @@
   },
   "palettes": {
     "add": "Addere palette",
+    "addGroup": "Omnes e {{groupName}}",
+    "addOne": {
+      "summary": "Palette electa apparebit in indice mugitu.",
+      "title": "Elige palette addere"
+    },
+    "component": "{{paletteName}} palette vel <1>{{paletteName}} palette</1>",
     "groups": {
       "brands": "brands",
       "famous media": "celebre medias",
@@ -196,6 +202,14 @@
       "schemes": "Color doctrina",
       "tech": "Technologies",
       "theme": "themata"
+    },
+    "info": {
+      "copy all": "Effingo omnium colorum",
+      "summary": "Click in color ad effingo eorum codice"
+    },
+    "list": {
+      "summary": "Te recta ad electos palette",
+      "title": "Click nomen"
     },
     "names": {
       "brands": {
