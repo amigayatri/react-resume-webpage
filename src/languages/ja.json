@@ -29,98 +29,6 @@
       "title": "色を追加する"
     },
     "colorList": {
-      "palettes": {
-        "add": "パレットの追加",
-        "groups": {
-          "brands": "ブランド",
-          "famous media": "有名メディア",
-          "places": "場所",
-          "rainbow": "虹",
-          "schemes": "色彩理論",
-          "tech": "テクノロジー",
-          "theme": "テーマ"
-        },
-        "names": {
-          "brands": {
-            "bk": "バーガーキング",
-            "cartoon": "カートゥーン ネットワーク",
-            "coca-cola": "コカコーラ",
-            "dominos": "ドミノピザ",
-            "lego": "レゴ",
-            "master": "マスターカード",
-            "mcdonalds": "マクドナルド",
-            "national geographic": "ナショナルジオグラフィック",
-            "pepsi": "ペプシ",
-            "trademarked": "訴えられる可能性のある色",
-            "visa": "ビザ"
-          },
-          "famous media": {
-            "adventure time": "アドベンチャータイム",
-            "barbie": "バービー",
-            "bee": "蜂",
-            "bmo": "BMO",
-            "cosmo and wanda": "コスモとワンダ",
-            "emo": "エモ",
-            "fairly odd parents": "かなり変わった両親",
-            "naruto": "ナルト",
-            "sonic": "ソニック",
-            "turma da monica": "モニカのギャング"
-          },
-          "places": {
-            "brasil": "ブラジル人",
-            "china": "中国語",
-            "ecuador": "エクアドル人",
-            "ghana": "ガーナ語",
-            "greece": "ギリシャ語",
-            "jamaica": "ジャマイカ人",
-            "lebanon": "レバノン人",
-            "mexico": "メキシコ人",
-            "rioDeJaneiro": "リオから",
-            "southAfrica": "南アフリカ",
-            "syria": "シリア語",
-            "uruguay": "ウルグアイ"
-          },
-          "rainbow": {
-            "dark rainbow": "暗い虹",
-            "pastel rainbow": "パステルレインボー",
-            "rainbow monokai": "モノカイレインボー",
-            "regular rainbow": "通常の虹"
-          },
-          "schemes": {
-            "cmyk": "CMYK",
-            "crayola10": "クレヨラのカラーホイール 1926",
-            "crayola12": "クレヨラのカラーホイール 1930",
-            "goethe": "ゲーテの色相環",
-            "grayscale16": "4ビットグレースケール",
-            "grayscale4": "2ビットグレースケール",
-            "mac16": "Apple Macintosh 16色",
-            "munsellCrayola": "クレヨラのマンセルカラー",
-            "newtown": "ニュータウンのカラーディスク",
-            "rgb": "RGB",
-            "rgb 12": "RGB カラーホイール 12",
-            "rgb 8": "RGB カラーホイール 8",
-            "riscOS16": "RISC OSのデフォルトパレット",
-            "vhs": "VHS カラーバー",
-            "web basics": "ウェブベーシック"
-          },
-          "tech": {
-            "baidu": "百度",
-            "facebook": "フェイスブック",
-            "firefox": "モジラ ファイアフォックス",
-            "google": "グーグル",
-            "microsoft": "マイクロソフト",
-            "spotify": "スポティファイ",
-            "tumblr": "タンブラー",
-            "whatsapp": "ワッツアップ",
-            "wikipedia": "ウィキペディア",
-            "youtube": "ユーチューブ"
-          },
-          "theme": {
-            "current": "現在"
-          }
-        },
-        "option": "{{optionName}} パレット"
-      },
       "summary": {
         "empty": "まだ色を追加していません",
         "nonEmpty": "クリックして削除します"
@@ -182,6 +90,9 @@
       },
       "leetcode": {
         "title": "LeetCodeの統計"
+      },
+      "palette": {
+        "title": "パレット"
       },
       "resume": {
         "title": "私の履歴書"
@@ -275,6 +186,98 @@
       "change": "ウェブサイトのテーマを変更する"
     }
   },
+  "palettes": {
+    "add": "パレットの追加",
+    "groups": {
+      "brands": "ブランド",
+      "famous media": "有名メディア",
+      "places": "場所",
+      "rainbow": "虹",
+      "schemes": "色彩理論",
+      "tech": "テクノロジー",
+      "theme": "テーマ"
+    },
+    "names": {
+      "brands": {
+        "bk": "バーガーキング",
+        "cartoon": "カートゥーン ネットワーク",
+        "coca-cola": "コカコーラ",
+        "dominos": "ドミノピザ",
+        "lego": "レゴ",
+        "master": "マスターカード",
+        "mcdonalds": "マクドナルド",
+        "national geographic": "ナショナルジオグラフィック",
+        "pepsi": "ペプシ",
+        "trademarked": "訴えられる可能性のある色",
+        "visa": "ビザ"
+      },
+      "famous media": {
+        "adventure time": "アドベンチャータイム",
+        "barbie": "バービー",
+        "bee": "蜂",
+        "bmo": "BMO",
+        "cosmo and wanda": "コスモとワンダ",
+        "emo": "エモ",
+        "fairly odd parents": "かなり変わった両親",
+        "naruto": "ナルト",
+        "sonic": "ソニック",
+        "turma da monica": "モニカのギャング"
+      },
+      "places": {
+        "brasil": "ブラジル人",
+        "china": "中国語",
+        "ecuador": "エクアドル人",
+        "ghana": "ガーナ語",
+        "greece": "ギリシャ語",
+        "jamaica": "ジャマイカ人",
+        "lebanon": "レバノン人",
+        "mexico": "メキシコ人",
+        "rioDeJaneiro": "リオから",
+        "southAfrica": "南アフリカ",
+        "syria": "シリア語",
+        "uruguay": "ウルグアイ"
+      },
+      "rainbow": {
+        "dark rainbow": "暗い虹",
+        "pastel rainbow": "パステルレインボー",
+        "rainbow monokai": "モノカイレインボー",
+        "regular rainbow": "通常の虹"
+      },
+      "schemes": {
+        "cmyk": "CMYK",
+        "crayola10": "クレヨラのカラーホイール 1926",
+        "crayola12": "クレヨラのカラーホイール 1930",
+        "goethe": "ゲーテの色相環",
+        "grayscale16": "4ビットグレースケール",
+        "grayscale4": "2ビットグレースケール",
+        "mac16": "Apple Macintosh 16色",
+        "munsellCrayola": "クレヨラのマンセルカラー",
+        "newtown": "ニュータウンのカラーディスク",
+        "rgb": "RGB",
+        "rgb 12": "RGB カラーホイール 12",
+        "rgb 8": "RGB カラーホイール 8",
+        "riscOS16": "RISC OSのデフォルトパレット",
+        "vhs": "VHS カラーバー",
+        "web basics": "ウェブベーシック"
+      },
+      "tech": {
+        "baidu": "百度",
+        "facebook": "フェイスブック",
+        "firefox": "モジラ ファイアフォックス",
+        "google": "グーグル",
+        "microsoft": "マイクロソフト",
+        "spotify": "スポティファイ",
+        "tumblr": "タンブラー",
+        "whatsapp": "ワッツアップ",
+        "wikipedia": "ウィキペディア",
+        "youtube": "ユーチューブ"
+      },
+      "theme": {
+        "current": "現在"
+      }
+    },
+    "option": "{{optionName}} パレット"
+  },
   "paths": {
     "title": {
       "3D": "3D ライブラリのテスト",
@@ -284,6 +287,7 @@
       "home": "ホームページ",
       "leetcode": "リートコード",
       "maintenance": "ページはメンテナンス中です",
+      "palette": "パレット",
       "resume": "再開する",
       "sitestats": "統計"
     }

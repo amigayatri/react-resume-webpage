@@ -29,98 +29,6 @@
       "title": "রঙ যোগ করুন"
     },
     "colorList": {
-      "palettes": {
-        "add": "প্যালেট যোগ করুন",
-        "groups": {
-          "brands": "ব্র্যান্ড",
-          "famous media": "বিখ্যাত মিডিয়া",
-          "places": "স্থান",
-          "rainbow": "রংধনু",
-          "schemes": "রঙ তত্ত্ব",
-          "tech": "প্রযুক্তি",
-          "theme": "থিম"
-        },
-        "names": {
-          "brands": {
-            "bk": "বার্গার রাজা",
-            "cartoon": "কার্টুন নেটওয়ার্ক",
-            "coca-cola": "কোকা-কোলা",
-            "dominos": "ডমিনো'স",
-            "lego": "লেগো",
-            "master": "মাস্টারকার্ড",
-            "mcdonalds": "ম্যাকডোনাল্ডস",
-            "national geographic": "জাতীয় ভৌগলিক",
-            "pepsi": "পেপসি",
-            "trademarked": "যে রঙগুলি আপনার বিরুদ্ধে মামলা করতে পারে",
-            "visa": "ভিসা"
-          },
-          "famous media": {
-            "adventure time": "অ্যাডভেঞ্চার সময়",
-            "barbie": "বারবি",
-            "bee": "মৌমাছি",
-            "bmo": "বিএমও",
-            "cosmo and wanda": "কসমো এবং ওয়ান্ডা",
-            "emo": "ইমো",
-            "fairly odd parents": "মোটামুটি অদ্ভুত বাবা",
-            "naruto": "naruto",
-            "sonic": "সোনিক",
-            "turma da monica": "মনিকার গ্যাং"
-          },
-          "places": {
-            "brasil": "ব্রাজিলিয়ান",
-            "china": "চাইনিজ",
-            "ecuador": "ইকুয়েডরীয়",
-            "ghana": "ঘানাইয়ান",
-            "greece": "গ্রীক",
-            "jamaica": "জ্যামাইকান",
-            "lebanon": "লেবানিজ",
-            "mexico": "মেক্সিকান",
-            "rioDeJaneiro": "রিও থেকে",
-            "southAfrica": "দক্ষিণ আফ্রিকান",
-            "syria": "সিরিয়াক",
-            "uruguay": "উরুগুয়ে"
-          },
-          "rainbow": {
-            "dark rainbow": "অন্ধকার রংধনু",
-            "pastel rainbow": "প্যাস্টেল রংধনু",
-            "rainbow monokai": "মনোকাই রংধনু",
-            "regular rainbow": "নিয়মিত রংধনু"
-          },
-          "schemes": {
-            "cmyk": "সিএমওয়াইকে",
-            "crayola10": "Crayola এর কালার হুইল 1926",
-            "crayola12": "Crayola এর রঙ চাকা 1930",
-            "goethe": "গয়েটের রঙের চাকা",
-            "grayscale16": "4-বিট গ্রেস্কেল",
-            "grayscale4": "2-বিট গ্রেস্কেল",
-            "mac16": "Apple Macintosh 16-রঙ",
-            "munsellCrayola": "Crayola এর munsell রং",
-            "newtown": "নিউটাউনের রঙের চাকতি",
-            "rgb": "আরজিবি",
-            "rgb 12": "RGB রঙের চাকা 12",
-            "rgb 8": "আরজিবি রঙের চাকা 8",
-            "riscOS16": "RISC OS ডিফল্ট প্যালেট",
-            "vhs": "ভিএইচএস কালার বার",
-            "web basics": "ওয়েব বেসিক"
-          },
-          "tech": {
-            "baidu": "baidu",
-            "facebook": "ফেসবুক",
-            "firefox": "মজিলা ফায়ারফক্স",
-            "google": "গুগল",
-            "microsoft": "মাইক্রোসফট",
-            "spotify": "spotify",
-            "tumblr": "টাম্বলার",
-            "whatsapp": "হোয়াটসঅ্যাপ",
-            "wikipedia": "উইকিপিডিয়া",
-            "youtube": "ইউটিউব"
-          },
-          "theme": {
-            "current": "বর্তমান"
-          }
-        },
-        "option": "{{optionName}} প্যালেট"
-      },
       "summary": {
         "empty": "আপনি এখনও কোনো রং যোগ করেননি",
         "nonEmpty": "অপসারণ করতে ক্লিক করুন"
@@ -182,6 +90,9 @@
       },
       "leetcode": {
         "title": "LeetCode পরিসংখ্যান"
+      },
+      "palette": {
+        "title": "প্যালেট"
       },
       "resume": {
         "title": "আমার জীবনবৃত্তান্ত"
@@ -275,6 +186,98 @@
       "change": "ওয়েবসাইটের থিম পরিবর্তন করুন"
     }
   },
+  "palettes": {
+    "add": "প্যালেট যোগ করুন",
+    "groups": {
+      "brands": "ব্র্যান্ড",
+      "famous media": "বিখ্যাত মিডিয়া",
+      "places": "স্থান",
+      "rainbow": "রংধনু",
+      "schemes": "রঙ তত্ত্ব",
+      "tech": "প্রযুক্তি",
+      "theme": "থিম"
+    },
+    "names": {
+      "brands": {
+        "bk": "বার্গার রাজা",
+        "cartoon": "কার্টুন নেটওয়ার্ক",
+        "coca-cola": "কোকা-কোলা",
+        "dominos": "ডমিনো'স",
+        "lego": "লেগো",
+        "master": "মাস্টারকার্ড",
+        "mcdonalds": "ম্যাকডোনাল্ডস",
+        "national geographic": "জাতীয় ভৌগলিক",
+        "pepsi": "পেপসি",
+        "trademarked": "যে রঙগুলি আপনার বিরুদ্ধে মামলা করতে পারে",
+        "visa": "ভিসা"
+      },
+      "famous media": {
+        "adventure time": "অ্যাডভেঞ্চার সময়",
+        "barbie": "বারবি",
+        "bee": "মৌমাছি",
+        "bmo": "বিএমও",
+        "cosmo and wanda": "কসমো এবং ওয়ান্ডা",
+        "emo": "ইমো",
+        "fairly odd parents": "মোটামুটি অদ্ভুত বাবা",
+        "naruto": "naruto",
+        "sonic": "সোনিক",
+        "turma da monica": "মনিকার গ্যাং"
+      },
+      "places": {
+        "brasil": "ব্রাজিলিয়ান",
+        "china": "চাইনিজ",
+        "ecuador": "ইকুয়েডরীয়",
+        "ghana": "ঘানাইয়ান",
+        "greece": "গ্রীক",
+        "jamaica": "জ্যামাইকান",
+        "lebanon": "লেবানিজ",
+        "mexico": "মেক্সিকান",
+        "rioDeJaneiro": "রিও থেকে",
+        "southAfrica": "দক্ষিণ আফ্রিকান",
+        "syria": "সিরিয়াক",
+        "uruguay": "উরুগুয়ে"
+      },
+      "rainbow": {
+        "dark rainbow": "অন্ধকার রংধনু",
+        "pastel rainbow": "প্যাস্টেল রংধনু",
+        "rainbow monokai": "মনোকাই রংধনু",
+        "regular rainbow": "নিয়মিত রংধনু"
+      },
+      "schemes": {
+        "cmyk": "সিএমওয়াইকে",
+        "crayola10": "Crayola এর কালার হুইল 1926",
+        "crayola12": "Crayola এর রঙ চাকা 1930",
+        "goethe": "গয়েটের রঙের চাকা",
+        "grayscale16": "4-বিট গ্রেস্কেল",
+        "grayscale4": "2-বিট গ্রেস্কেল",
+        "mac16": "Apple Macintosh 16-রঙ",
+        "munsellCrayola": "Crayola এর munsell রং",
+        "newtown": "নিউটাউনের রঙের চাকতি",
+        "rgb": "আরজিবি",
+        "rgb 12": "RGB রঙের চাকা 12",
+        "rgb 8": "আরজিবি রঙের চাকা 8",
+        "riscOS16": "RISC OS ডিফল্ট প্যালেট",
+        "vhs": "ভিএইচএস কালার বার",
+        "web basics": "ওয়েব বেসিক"
+      },
+      "tech": {
+        "baidu": "baidu",
+        "facebook": "ফেসবুক",
+        "firefox": "মজিলা ফায়ারফক্স",
+        "google": "গুগল",
+        "microsoft": "মাইক্রোসফট",
+        "spotify": "spotify",
+        "tumblr": "টাম্বলার",
+        "whatsapp": "হোয়াটসঅ্যাপ",
+        "wikipedia": "উইকিপিডিয়া",
+        "youtube": "ইউটিউব"
+      },
+      "theme": {
+        "current": "বর্তমান"
+      }
+    },
+    "option": "{{optionName}} প্যালেট"
+  },
   "paths": {
     "title": {
       "3D": "3D libs পরীক্ষা",
@@ -284,6 +287,7 @@
       "home": "হোমপেজ",
       "leetcode": "লিটকোড",
       "maintenance": "পাতা রক্ষণাবেক্ষণ অধীনে যাচ্ছে",
+      "palette": "প্যালেট",
       "resume": "পুনরায় শুরু করুন",
       "sitestats": "পরিসংখ্যান"
     }
