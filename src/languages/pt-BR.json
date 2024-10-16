@@ -188,6 +188,12 @@
   },
   "palettes": {
     "add": "Adicionar paleta",
+    "addGroup": "Todas de {{groupName}}",
+    "addOne": {
+      "summary": "A paleta escolhida aparecerá na lista abaixo.",
+      "title": "Escolha uma paleta para adicionar"
+    },
+    "component": "Paleta {{paletteName}} ou <1>paleta {{paletteName}}</1>",
     "groups": {
       "brands": "marcas",
       "famous media": "mídias famosas",
@@ -196,6 +202,14 @@
       "schemes": "Teoria das cores",
       "tech": "Tecnologias",
       "theme": "temas"
+    },
+    "info": {
+      "copy all": "Copie todas as cores",
+      "summary": "Clique em uma cor para copiar seu código"
+    },
+    "list": {
+      "summary": "Você irá diretamente para a paleta escolhida",
+      "title": "Clique no nome"
     },
     "names": {
       "brands": {
@@ -216,8 +230,8 @@
         "barbie": "Barbie",
         "bee": "abelha",
         "bmo": "BMO",
-        "emo": "emo",
         "cosmo and wanda": "Cosmo e Wanda",
+        "emo": "emo",
         "fairly odd parents": "padrinhos magicos",
         "naruto": "naruto",
         "sonic": "Sonic",
@@ -233,7 +247,7 @@
         "lebanon": "libanesa",
         "mexico": "mexicana",
         "rioDeJaneiro": "Carioca",
-        "southAfrica": "Sul-africana",
+        "southAfrica": "Sulafricana",
         "syria": "Síria",
         "uruguay": "Uruguaia"
       },
@@ -245,17 +259,17 @@
       },
       "schemes": {
         "cmyk": "CMYK",
-        "crayola10": "Roda de cores de Crayola 1926",
-        "crayola12": "Roda de cores da Crayola 1930",
-        "goethe": "A roda de cores de Goethe",
+        "crayola10": "Circulo Cromático da Crayola 1926",
+        "crayola12": "Circulo Cromático da Crayola 1930",
+        "goethe": "Circulo Cromático de Goethe",
         "grayscale16": "Escala de cinza de 4 bits",
         "grayscale4": "Escala de cinza de 2 bits",
         "mac16": "Apple Macintosh 16 cores",
         "munsellCrayola": "Cores Munsell da Crayola",
         "newtown": "Disco colorido de Newtown",
         "rgb": "RGB",
-        "rgb 12": "Roda de cores RGB 12",
-        "rgb 8": "Roda de cores RGB 8",
+        "rgb 12": "Circulo Cromático RGB 12 cores",
+        "rgb 8": "Circulo Cromático RGB 8 cores",
         "riscOS16": "Paleta padrão do RISC OS",
         "vhs": "Barras coloridas VHS",
         "web basics": "Web básica"
@@ -268,7 +282,7 @@
         "microsoft": "microsoft",
         "spotify": "Spotify",
         "tumblr": "tumblr",
-        "whatsapp": "whatsapp",
+        "whatsapp": "zap-zap",
         "wikipedia": "Wikipédia",
         "youtube": "YouTube"
       },

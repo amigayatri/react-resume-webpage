@@ -187,8 +187,13 @@
     }
   },
   "palettes": {
-    "title": "Palettes",
+    "addGroup": "All from {{groupName}}",
     "add": "Add palette",
+    "addOne": {
+      "summary": "The choosen palette will appear on the list bellow.",
+      "title": "Choose a palette to add"
+    },
+    "component": "{{paletteName}} palette or <1>{{paletteName}} palette</1>",
     "groups": {
       "brands": "brands",
       "famous media": "famous medias",
@@ -197,6 +202,14 @@
       "schemes": "Color theory",
       "tech": "Technologies",
       "theme": "themes"
+    },
+    "info": {
+      "copy all": "Copy all colors",
+      "summary": "Click on a color to copy their code"
+    },
+    "list": {
+      "summary": "You'll go directly to the choosen palette",
+      "title": "Click the name"
     },
     "names": {
       "brands": {
@@ -277,7 +290,8 @@
         "current": "current"
       }
     },
-    "option": "{{optionName}} palette"
+    "option": "{{optionName}} palette",
+    "title": "Palettes"
   },
   "paths": {
     "title": {

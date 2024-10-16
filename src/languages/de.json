@@ -188,6 +188,12 @@
   },
   "palettes": {
     "add": "Palette hinzufügen",
+    "addGroup": "Alle von {{groupName}}",
+    "addOne": {
+      "summary": "Die ausgewählte Palette wird in der Liste unten angezeigt.",
+      "title": "Wählen Sie eine Palette zum Hinzufügen aus"
+    },
+    "component": "{{paletteName}}-Palette oder <1>{{paletteName}}-Palette</1>",
     "groups": {
       "brands": "Marken",
       "famous media": "berühmte Medien",
@@ -196,6 +202,14 @@
       "schemes": "Farbtheorie",
       "tech": "Technologien",
       "theme": "Themen"
+    },
+    "info": {
+      "copy all": "Kopieren Sie alle Farben",
+      "summary": "Klicken Sie auf eine Farbe, um deren Code zu kopieren"
+    },
+    "list": {
+      "summary": "Sie gelangen direkt zur ausgewählten Palette",
+      "title": "Klicken Sie auf den Namen"
     },
     "names": {
       "brands": {
