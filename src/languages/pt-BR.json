@@ -220,7 +220,7 @@
         "emo": "emo",
         "fairly odd parents": "pais bastante estranhos",
         "naruto": "naruto",
-        "sonic": "sonoro",
+        "sonic": "Sonic",
         "turma da monica": "Turma da Mônica"
       },
       "places": {
@@ -276,7 +276,8 @@
         "current": "atual"
       }
     },
-    "option": "paleta {{optionName}}"
+    "option": "paleta {{optionName}}",
+    "title": "Paletas"
   },
   "paths": {
     "title": {

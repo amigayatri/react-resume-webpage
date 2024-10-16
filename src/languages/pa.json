@@ -276,7 +276,8 @@
         "current": "ਮੌਜੂਦਾ"
       }
     },
-    "option": "{{optionName}} ਪੈਲੇਟ"
+    "option": "{{optionName}} ਪੈਲੇਟ",
+    "title": "ਪੈਲੇਟਸ"
   },
   "paths": {
     "title": {

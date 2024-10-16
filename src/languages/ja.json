@@ -276,7 +276,8 @@
         "current": "現在"
       }
     },
-    "option": "{{optionName}} パレット"
+    "option": "{{optionName}} パレット",
+    "title": "パレット"
   },
   "paths": {
     "title": {

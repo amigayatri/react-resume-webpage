@@ -276,7 +276,8 @@
         "current": "текущий"
       }
     },
-    "option": "Палитра {{optionName}}"
+    "option": "Палитра {{optionName}}",
+    "title": "Палитры"
   },
   "paths": {
     "title": {

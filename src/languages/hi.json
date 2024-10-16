@@ -276,7 +276,8 @@
         "current": "मौजूदा"
       }
     },
-    "option": "{{optionName}} पैलेट"
+    "option": "{{optionName}} पैलेट",
+    "title": "रंग-पत्र"
   },
   "paths": {
     "title": {

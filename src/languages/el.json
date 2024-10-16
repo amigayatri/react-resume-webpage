@@ -276,7 +276,8 @@
         "current": "ρεύμα"
       }
     },
-    "option": "παλέτα {{optionName}}"
+    "option": "παλέτα {{optionName}}",
+    "title": "Παλέτες"
   },
   "paths": {
     "title": {

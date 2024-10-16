@@ -276,7 +276,8 @@
         "current": "حاضِر"
       }
     },
-    "option": "لوحة {{optionName}}"
+    "option": "لوحة {{optionName}}",
+    "title": "لوحات"
   },
   "paths": {
     "title": {

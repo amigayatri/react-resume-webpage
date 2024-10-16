@@ -276,7 +276,8 @@
         "current": "当前的"
       }
     },
-    "option": "{{optionName}} 调色板"
+    "option": "{{optionName}} 调色板",
+    "title": "调色板"
   },
   "paths": {
     "title": {

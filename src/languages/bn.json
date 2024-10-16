@@ -276,7 +276,8 @@
         "current": "বর্তমান"
       }
     },
-    "option": "{{optionName}} প্যালেট"
+    "option": "{{optionName}} প্যালেট",
+    "title": "প্যালেট"
   },
   "paths": {
     "title": {

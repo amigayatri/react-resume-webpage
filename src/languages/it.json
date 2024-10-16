@@ -276,7 +276,8 @@
         "current": "attuale"
       }
     },
-    "option": "tavolozza {{optionName}}"
+    "option": "tavolozza {{optionName}}",
+    "title": "Tavolozze"
   },
   "paths": {
     "title": {

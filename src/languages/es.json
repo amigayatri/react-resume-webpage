@@ -276,7 +276,8 @@
         "current": "actual"
       }
     },
-    "option": "paleta {{optionName}}"
+    "option": "paleta {{optionName}}",
+    "title": "Paletas"
   },
   "paths": {
     "title": {
