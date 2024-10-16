@@ -83,7 +83,7 @@ const ColorList = ({
 						return (
 							<PaletteGroup
 								key={"group" + group}
-								label={t(`colors.colorList.palettes.groups.${group}`)}
+								label={t(`palettes.groups.${group}`)}
 							>
 								{availablePalettes !== undefined &&
 									availablePalettes.map((paletteName) => (
@@ -91,10 +91,8 @@ const ColorList = ({
 											value={`${group}_${paletteName}`}
 											key={`palette-option-${paletteName}`}
 										>
-											{t("colors.colorList.palettes.option", {
-												optionName: t(
-													`colors.colorList.palettes.names.${group}.${paletteName}`
-												)
+											{t("palettes.option", {
+												optionName: t(`palettes.names.${group}.${paletteName}`)
 											})}
 										</PaletteOption>
 									))}
@@ -102,9 +100,7 @@ const ColorList = ({
 						)
 					})}
 				</PaletteSelect>
-				<Button onClick={handleAdd}>
-					{t("colors.colorList.palettes.add")}
-				</Button>
+				<Button onClick={handleAdd}>{t("palettes.add")}</Button>
 				{palettePreview()}
 			</ButtonsWrapper>
 		)

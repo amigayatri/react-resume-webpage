@@ -12,7 +12,7 @@ const Main = () => {
 		["git", <GitStats />]
 	])
 	const names = Array.from(tabs.keys())
-	const elements = Array.from(tabs.values())
+	const entries = Array.from(tabs.entries())
 	return (
 		<MainWrapper>
 			<MainTitle>{t("stats.main.title")}</MainTitle>
@@ -24,8 +24,8 @@ const Main = () => {
 						</TabName>
 					))}
 				</TabNamesWrapper>
-				{elements.map((el) => (
-					<TabPanel>{el}</TabPanel>
+				{entries.map(([name, el]) => (
+					<TabPanel key={"key-list-" + name}>{el}</TabPanel>
 				))}
 			</Tabs>
 		</MainWrapper>

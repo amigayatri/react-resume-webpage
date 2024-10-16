@@ -29,98 +29,6 @@
       "title": "Adicionar cor"
     },
     "colorList": {
-      "palettes": {
-        "add": "Adicionar paleta",
-        "groups": {
-          "brands": "marcas",
-          "famous media": "mídias famosas",
-          "places": "lugares",
-          "rainbow": "arco-íris",
-          "schemes": "Teoria das cores",
-          "tech": "Tecnologias",
-          "theme": "temas"
-        },
-        "names": {
-          "brands": {
-            "bk": "Burger king",
-            "cartoon": "Cartoon network",
-            "coca-cola": "Coca Cola",
-            "dominos": "Domino's",
-            "lego": "Lego",
-            "master": "MasterCard",
-            "mcdonalds": "McDonald's",
-            "national geographic": "national geographic",
-            "pepsi": "pepsi",
-            "trademarked": "Cores que podem fazer com que você seja processado",
-            "visa": "Visa"
-          },
-          "famous media": {
-            "adventure time": "Hora de aventura",
-            "barbie": "Barbie",
-            "bee": "abelha",
-            "bmo": "BMO",
-            "cosmo and wanda": "Cosmo e Wanda",
-            "emo": "emo",
-            "fairly odd parents": "padrinhos mágicos",
-            "naruto": "Naruto",
-            "sonic": "sonic",
-            "turma da monica": "Turma da Mônica"
-          },
-          "places": {
-            "brasil": "Brasileira",
-            "china": "Chinesa",
-            "ecuador": "Equatoriana",
-            "ghana": "Ganêsa",
-            "greece": "Grega",
-            "jamaica": "Jamaicana",
-            "lebanon": "Libanesa",
-            "mexico": "Mexicana",
-            "rioDeJaneiro": "Carioca",
-            "southAfrica": "sulafricana",
-            "syria": "síria",
-            "uruguay": "Uruguaia"
-          },
-          "rainbow": {
-            "dark rainbow": "arco-íris escuro",
-            "pastel rainbow": "arco-íris pastel",
-            "rainbow monokai": "arco-íris monokai",
-            "regular rainbow": "arco-íris normal"
-          },
-          "schemes": {
-            "cmyk": "CMYK",
-            "crayola10": "Roda de cores de Crayola 1926",
-            "crayola12": "Roda de cores da Crayola 1930",
-            "goethe": "Roda cromática de Goethe",
-            "grayscale16": "Escala de cinzas 4 bits",
-            "grayscale4": "Escala de cinza 2 bits",
-            "mac16": "Apple Macintosh 16 cores",
-            "munsellCrayola": "Cores Munsell da Crayola",
-            "newtown": "Disco colorido de Newtown",
-            "rgb": "RGB",
-            "rgb 12": "Roda de cores RGB 12",
-            "rgb 8": "Roda de cores RGB 8",
-            "riscOS16": "Paleta padrão do RISC OS",
-            "vhs": "Barras coloridas VHS",
-            "web basics": "básica da web"
-          },
-          "tech": {
-            "baidu": "Baidu",
-            "facebook": "Facebook",
-            "firefox": "Mozilla firefox",
-            "google": "Google",
-            "microsoft": "microsoft",
-            "spotify": "Spotify",
-            "tumblr": "Tumblr",
-            "whatsapp": "Zap-zap",
-            "wikipedia": "Wikipédia",
-            "youtube": "YouTube"
-          },
-          "theme": {
-            "current": "atual"
-          }
-        },
-        "option": "paleta {{optionName}}"
-      },
       "summary": {
         "empty": "Você não tem nenhuma cor adicionada",
         "nonEmpty": "Clique para remover"
@@ -182,6 +90,9 @@
       },
       "leetcode": {
         "title": "Estatísticas do LeetCode"
+      },
+      "palette": {
+        "title": "Paletas"
       },
       "resume": {
         "title": "Meu curriculo"
@@ -275,6 +186,99 @@
       "change": "Mudar tema do site"
     }
   },
+  "palettes": {
+    "add": "Adicionar paleta",
+    "groups": {
+      "brands": "marcas",
+      "famous media": "mídias famosas",
+      "places": "lugares",
+      "rainbow": "arco-íris",
+      "schemes": "Teoria das cores",
+      "tech": "Tecnologias",
+      "theme": "temas"
+    },
+    "names": {
+      "brands": {
+        "bk": "Rei do hambúrguer",
+        "cartoon": "Cartoon Network",
+        "coca-cola": "Coca Cola",
+        "dominos": "Dominó",
+        "lego": "Lego",
+        "master": "MasterCard",
+        "mcdonalds": "McDonald's",
+        "national geographic": "geográfico nacional",
+        "pepsi": "pepsi",
+        "trademarked": "Cores que podem fazer com que você seja processado",
+        "visa": "Visa"
+      },
+      "famous media": {
+        "adventure time": "Hora de aventura",
+        "barbie": "Barbie",
+        "bee": "abelha",
+        "bmo": "OMO",
+        "cosmo and wanda": "Cosmo e Wanda",
+        "emo": "emo",
+        "fairly odd parents": "pais bastante estranhos",
+        "naruto": "naruto",
+        "sonic": "Sonic",
+        "turma da monica": "Turma da Mônica"
+      },
+      "places": {
+        "brasil": "Brasileiro",
+        "china": "chinês",
+        "ecuador": "Equatoriano",
+        "ghana": "Ganense",
+        "greece": "grego",
+        "jamaica": "jamaicano",
+        "lebanon": "libanês",
+        "mexico": "mexicano",
+        "rioDeJaneiro": "Carioca",
+        "southAfrica": "Sul-africano",
+        "syria": "Siríaco",
+        "uruguay": "Uruguai"
+      },
+      "rainbow": {
+        "dark rainbow": "arco-íris escuro",
+        "pastel rainbow": "arco-íris pastel",
+        "rainbow monokai": "arco-íris monokai",
+        "regular rainbow": "arco-íris normal"
+      },
+      "schemes": {
+        "cmyk": "CMYK",
+        "crayola10": "Roda de cores de Crayola 1926",
+        "crayola12": "Roda de cores da Crayola 1930",
+        "goethe": "A roda de cores de Goethe",
+        "grayscale16": "Escala de cinza de 4 bits",
+        "grayscale4": "Escala de cinza de 2 bits",
+        "mac16": "Apple Macintosh 16 cores",
+        "munsellCrayola": "Cores Munsell da Crayola",
+        "newtown": "Disco colorido de Newtown",
+        "rgb": "RGB",
+        "rgb 12": "Roda de cores RGB 12",
+        "rgb 8": "Roda de cores RGB 8",
+        "riscOS16": "Paleta padrão do RISC OS",
+        "vhs": "Barras coloridas VHS",
+        "web basics": "Web básico"
+      },
+      "tech": {
+        "baidu": "Baidu",
+        "facebook": "Facebook",
+        "firefox": "Firefox",
+        "google": "Google",
+        "microsoft": "microsoft",
+        "spotify": "Spotify",
+        "tumblr": "tumblr",
+        "whatsapp": "whatsapp",
+        "wikipedia": "Wikipédia",
+        "youtube": "YouTube"
+      },
+      "theme": {
+        "current": "atual"
+      }
+    },
+    "option": "paleta {{optionName}}",
+    "title": "Paletas"
+  },
   "paths": {
     "title": {
       "3D": "Teste de bibliotecas 3D",
@@ -284,6 +288,7 @@
       "home": "Página inicial",
       "leetcode": "LeetCode",
       "maintenance": "Página em manutenção",
+      "palette": "Paletas",
       "resume": "Currículo",
       "sitestats": "Estatísticas"
     }

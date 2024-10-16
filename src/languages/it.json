@@ -29,98 +29,6 @@
       "title": "Aggiungi colore"
     },
     "colorList": {
-      "palettes": {
-        "add": "Aggiungi tavolozza",
-        "groups": {
-          "brands": "marchi",
-          "famous media": "media famosi",
-          "places": "luoghi",
-          "rainbow": "arcobaleni",
-          "schemes": "Teoria dei colori",
-          "tech": "Tecnologie",
-          "theme": "temi"
-        },
-        "names": {
-          "brands": {
-            "bk": "Il re degli hamburger",
-            "cartoon": "Rete di cartoni animati",
-            "coca-cola": "Coca Cola",
-            "dominos": "Di Domino",
-            "lego": "Lego",
-            "master": "MasterCard",
-            "mcdonalds": "McDonald's",
-            "national geographic": "geografica nazionale",
-            "pepsi": "pepsi",
-            "trademarked": "Colori che possono farti denunciare",
-            "visa": "Visa"
-          },
-          "famous media": {
-            "adventure time": "Tempo di avventure",
-            "barbie": "Barbie",
-            "bee": "ape",
-            "bmo": "BMO",
-            "cosmo and wanda": "Cosmo e Wanda",
-            "emo": "emo",
-            "fairly odd parents": "genitori piuttosto strani",
-            "naruto": "naruto",
-            "sonic": "sonico",
-            "turma da monica": "La banda di Monica"
-          },
-          "places": {
-            "brasil": "brasiliano",
-            "china": "cinese",
-            "ecuador": "ecuadoriano",
-            "ghana": "ghanese",
-            "greece": "greco",
-            "jamaica": "giamaicano",
-            "lebanon": "libanese",
-            "mexico": "messicano",
-            "rioDeJaneiro": "Da Rio",
-            "southAfrica": "sudafricano",
-            "syria": "Siriaco",
-            "uruguay": "Uruguay"
-          },
-          "rainbow": {
-            "dark rainbow": "arcobaleno scuro",
-            "pastel rainbow": "arcobaleno pastello",
-            "rainbow monokai": "arcobaleno monokai",
-            "regular rainbow": "arcobaleno regolare"
-          },
-          "schemes": {
-            "cmyk": "CMYK",
-            "crayola10": "La ruota dei colori di Crayola 1926",
-            "crayola12": "La ruota dei colori di Crayola 1930",
-            "goethe": "La ruota dei colori di Goethe",
-            "grayscale16": "Scala di grigi a 4 bit",
-            "grayscale4": "Scala di grigi a 2 bit",
-            "mac16": "AppleMacintosh a 16 colori",
-            "munsellCrayola": "I colori Munsell di Crayola",
-            "newtown": "Il disco colorato di Newtown",
-            "rgb": "RGB",
-            "rgb 12": "Ruota dei colori RGB 12",
-            "rgb 8": "Ruota dei colori RGB 8",
-            "riscOS16": "Tavolozza predefinita del sistema operativo RISC",
-            "vhs": "Barre di colore VHS",
-            "web basics": "Web di base"
-          },
-          "tech": {
-            "baidu": "baidu",
-            "facebook": "Facebook",
-            "firefox": "Mozilla Firefox",
-            "google": "google",
-            "microsoft": "Microsoft",
-            "spotify": "Spotify",
-            "tumblr": "Tumblr",
-            "whatsapp": "whatsapp",
-            "wikipedia": "Wikipedia",
-            "youtube": "youtube"
-          },
-          "theme": {
-            "current": "attuale"
-          }
-        },
-        "option": "tavolozza {{optionName}}"
-      },
       "summary": {
         "empty": "Non hai ancora aggiunto alcun colore",
         "nonEmpty": "Fare clic per rimuovere"
@@ -182,6 +90,9 @@
       },
       "leetcode": {
         "title": "Statistiche LeetCode"
+      },
+      "palette": {
+        "title": "Tavolozze"
       },
       "resume": {
         "title": "Il mio curriculum"
@@ -275,6 +186,99 @@
       "change": "Cambia il tema del sito web"
     }
   },
+  "palettes": {
+    "add": "Aggiungi tavolozza",
+    "groups": {
+      "brands": "marchi",
+      "famous media": "media famosi",
+      "places": "luoghi",
+      "rainbow": "arcobaleni",
+      "schemes": "Teoria dei colori",
+      "tech": "Tecnologie",
+      "theme": "temi"
+    },
+    "names": {
+      "brands": {
+        "bk": "Il re degli hamburger",
+        "cartoon": "Rete di cartoni animati",
+        "coca-cola": "Coca-cola",
+        "dominos": "Di Domino",
+        "lego": "Lego",
+        "master": "MasterCard",
+        "mcdonalds": "McDonald's",
+        "national geographic": "geografica nazionale",
+        "pepsi": "pepsi",
+        "trademarked": "Colori che possono farti denunciare",
+        "visa": "Visa"
+      },
+      "famous media": {
+        "adventure time": "Tempo di avventure",
+        "barbie": "Barbie",
+        "bee": "ape",
+        "bmo": "BMO",
+        "cosmo and wanda": "Cosmo e Wanda",
+        "emo": "emo",
+        "fairly odd parents": "genitori piuttosto strani",
+        "naruto": "naruto",
+        "sonic": "sonico",
+        "turma da monica": "La banda di Monica"
+      },
+      "places": {
+        "brasil": "brasiliano",
+        "china": "cinese",
+        "ecuador": "ecuadoriano",
+        "ghana": "ghanese",
+        "greece": "greco",
+        "jamaica": "giamaicano",
+        "lebanon": "libanese",
+        "mexico": "messicano",
+        "rioDeJaneiro": "Da Rio",
+        "southAfrica": "sudafricano",
+        "syria": "Siriaco",
+        "uruguay": "Uruguay"
+      },
+      "rainbow": {
+        "dark rainbow": "arcobaleno scuro",
+        "pastel rainbow": "arcobaleno pastello",
+        "rainbow monokai": "arcobaleno monokai",
+        "regular rainbow": "arcobaleno regolare"
+      },
+      "schemes": {
+        "cmyk": "CMYK",
+        "crayola10": "La ruota dei colori di Crayola 1926",
+        "crayola12": "La ruota dei colori di Crayola 1930",
+        "goethe": "La ruota dei colori di Goethe",
+        "grayscale16": "Scala di grigi a 4 bit",
+        "grayscale4": "Scala di grigi a 2 bit",
+        "mac16": "AppleMacintosh a 16 colori",
+        "munsellCrayola": "I colori Munsell di Crayola",
+        "newtown": "Il disco colorato di Newtown",
+        "rgb": "RGB",
+        "rgb 12": "Ruota dei colori RGB 12",
+        "rgb 8": "Ruota dei colori RGB 8",
+        "riscOS16": "Tavolozza predefinita del sistema operativo RISC",
+        "vhs": "Barre di colore VHS",
+        "web basics": "Web di base"
+      },
+      "tech": {
+        "baidu": "baidu",
+        "facebook": "Facebook",
+        "firefox": "Mozilla Firefox",
+        "google": "google",
+        "microsoft": "Microsoft",
+        "spotify": "Spotify",
+        "tumblr": "Tumblr",
+        "whatsapp": "whatsapp",
+        "wikipedia": "Wikipedia",
+        "youtube": "youtube"
+      },
+      "theme": {
+        "current": "attuale"
+      }
+    },
+    "option": "tavolozza {{optionName}}",
+    "title": "Tavolozze"
+  },
   "paths": {
     "title": {
       "3D": "Test delle librerie 3D",
@@ -284,6 +288,7 @@
       "home": "Home page",
       "leetcode": "LeetCode",
       "maintenance": "Pagina in manutenzione",
+      "palette": "Tavolozze",
       "resume": "Riprendere",
       "sitestats": "Statistiche"
     }
