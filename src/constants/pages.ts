@@ -9,6 +9,7 @@ import NotFoundProps from "../pages/NotFound/NotFound.props"
 import SiteStatsProps from "../pages/SiteStats/SiteStats.props"
 import ThreeDProps from "../pages/ThreeD/ThreeD.props"
 import PaletteProps from "../pages/Palette/Palette.props"
+import HolidaysProps from "../pages/Holidays/Holidays.props"
 
 export const pages: PageProps[] = [HomeProps, ResumeProps]
 
@@ -18,7 +19,8 @@ export const extraPages: PageProps[] = [
 	ExtraLanguagesProps,
 	LeetcodeProps,
 	SiteStatsProps,
-	ThreeDProps
+	ThreeDProps,
+	HolidaysProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]

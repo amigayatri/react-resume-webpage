@@ -6,6 +6,21 @@
     "summary": "Sviluppato per testare diverse librerie 3D disponibili per React",
     "title": "Test delle librerie 3D"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "Festa di {{holidayName}}",
+      "onWeekend": {
+        "false": "Durante la settimana",
+        "true": "Nel fine settimana"
+      }
+    },
+    "list": {
+      "title": "Vacanze brasiliane"
+    },
+    "types": {
+      "national": "Nazionale"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "Prova 3D"
       },
+      "brazilianHolidays": {
+        "title": "Vacanze brasiliane"
+      },
       "colors": {
         "title": "Generatore di ombre"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "Icona del cubo 3D",
+      "calendar": "Icona del calendario",
       "chart": "Icona del grafico",
       "code": "Icona con due parentesi graffe",
       "download": "Icona di download del documento",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "Test delle librerie 3D",
       "404": "Non trovato",
+      "brazilianHolidays": "Festività brasiliane",
       "colors": "Variazioni di colore",
       "extralanguages": "Lingue aggiuntive",
       "home": "Home page",

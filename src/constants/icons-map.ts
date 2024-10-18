@@ -1,6 +1,7 @@
-import ThreeDIcon from "../icons/3DIcon"
+import ThreeDIcon from "../icons/ThreeDIcon"
 import BrokenLinkIcon from "../icons/BrokenLinkIcon"
 import BugIcon from "../icons/BugIcon"
+import CalendarIcon from "../icons/CalendarIcon"
 import ChartIcon from "../icons/ChartIcon"
 import CodeIcon from "../icons/CodeIcon"
 import DownloadIcon from "../icons/DownloadIcon"
@@ -28,6 +29,7 @@ const icons = new Map([
 	["3d", ThreeDIcon],
 	["brokenlink", BrokenLinkIcon],
 	["bug", BugIcon],
+	["calendar", CalendarIcon],
 	["chart", ChartIcon],
 	["code", CodeIcon],
 	["download", DownloadIcon],

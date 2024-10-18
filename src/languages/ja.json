@@ -6,6 +6,21 @@
     "summary": "React で利用可能なさまざまな 3D ライブラリをテストするために開発されました",
     "title": "3D ライブラリのテスト"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{holidayName}} の休日",
+      "onWeekend": {
+        "false": "平日",
+        "true": "週末に"
+      }
+    },
+    "list": {
+      "title": "ブラジルの祝日"
+    },
+    "types": {
+      "national": "全国"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3Dテスト"
       },
+      "brazilianHolidays": {
+        "title": "ブラジルの祝日"
+      },
       "colors": {
         "title": "シェードジェネレーター"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D キューブのアイコン",
+      "calendar": "カレンダーアイコン",
       "chart": "グラフアイコン",
       "code": "2 つの中括弧のアイコン",
       "download": "ドキュメントダウンロードアイコン",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D ライブラリのテスト",
       "404": "見つかりません",
+      "brazilianHolidays": "ブラジルの祝日",
       "colors": "カラーバリエーション",
       "extralanguages": "追加の言語",
       "home": "ホームページ",

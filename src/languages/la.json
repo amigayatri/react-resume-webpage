@@ -6,6 +6,21 @@
     "summary": "Developed probare diversis 3D libs praesto est React",
     "title": "3D libs temptationis"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{ HolidayName}} feriae",
+      "onWeekend": {
+        "false": "Per septimana",
+        "true": "In volutpat vestibulum"
+      }
+    },
+    "list": {
+      "title": "Brazilian feriae"
+    },
+    "types": {
+      "national": "National"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3D test"
       },
+      "brazilianHolidays": {
+        "title": "Brazilian feriae"
+      },
       "colors": {
         "title": "umbra generantis"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D cubus icon",
+      "calendar": "Calendarium icon",
       "chart": "Chart icon",
       "code": "Duo uncis crispus icon",
       "download": "Documenti download icon",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D libs temptationis",
       "404": "Non inveni",
+      "brazilianHolidays": "Brazilian Holidays",
       "colors": "Color variationum",
       "extralanguages": "Extra linguas",
       "home": "Protocollum",

@@ -6,6 +6,21 @@
     "summary": "প্রতিক্রিয়া করার জন্য উপলব্ধ বিভিন্ন 3D libs পরীক্ষা করার জন্য তৈরি করা হয়েছে",
     "title": "3D libs পরীক্ষা"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{holidayName}} ছুটি",
+      "onWeekend": {
+        "false": "সপ্তাহে",
+        "true": "সপ্তাহান্তে"
+      }
+    },
+    "list": {
+      "title": "ব্রাজিলিয়ান ছুটির দিন"
+    },
+    "types": {
+      "national": "জাতীয়"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3D পরীক্ষা"
       },
+      "brazilianHolidays": {
+        "title": "ব্রাজিলিয়ান ছুটির দিন"
+      },
       "colors": {
         "title": "শেড জেনারেটর"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D কিউব আইকন",
+      "calendar": "ক্যালেন্ডার আইকন",
       "chart": "চার্ট আইকন",
       "code": "দুটি কোঁকড়া বন্ধনী আইকন",
       "download": "ডকুমেন্ট ডাউনলোড আইকন",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D libs পরীক্ষা",
       "404": "পাওয়া যায়নি",
+      "brazilianHolidays": "ব্রাজিলের ছুটির দিন",
       "colors": "রঙের বৈচিত্র",
       "extralanguages": "অতিরিক্ত ভাষা",
       "home": "হোমপেজ",
