@@ -6,6 +6,21 @@
     "summary": "Desenvolvido para testar diferentes bibliotecas 3D disponíveis para React",
     "title": "Teste de bibliotecas 3D"
   },
+  "brazilianHolidays": {
+    "types": {
+      "national": "Nacional"
+    },
+    "list": {
+      "title": "Feriados brasileiros"
+    },
+    "element": {
+      "name": "Feriado de {{holidayName}}",
+      "onWeekend": {
+        "true": "No fim de semana",
+        "false": "Durante a semana"
+      }
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "Teste 3D"
       },
+      "brazilianHolidays": {
+        "title": "Feriados brasileiros"
+      },
       "colors": {
         "title": "Gerador de tons"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "Ícone de cubo 3D",
+      "calendar": "Ícone de um calendário",
       "chart": "Ícone de gráfico",
       "code": "Ícone com duas chaves",
       "download": "ícone de download de documento",
@@ -296,14 +315,15 @@
   "paths": {
     "title": {
       "3D": "Teste de bibliotecas 3D",
-      "404": "Não encontrado",
-      "colors": "Variações de cores",
+      "404": "Não Encontrado",
+      "colors": "Variações de Cores",
       "extralanguages": "Línguas extras",
       "home": "Página inicial",
       "leetcode": "LeetCode",
-      "maintenance": "Página em manutenção",
+      "maintenance": "Página em Manutenção",
       "palette": "Paletas",
       "resume": "Currículo",
+      "brazilianHolidays": "Feriados Brasileiros",
       "sitestats": "Estatísticas"
     }
   },

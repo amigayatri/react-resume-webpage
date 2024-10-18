@@ -6,6 +6,21 @@
     "summary": "ਪ੍ਰਤੀਕਿਰਿਆ ਕਰਨ ਲਈ ਉਪਲਬਧ ਵੱਖ-ਵੱਖ 3D ਲਿਬਸ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਵਿਕਸਤ ਕੀਤਾ ਗਿਆ ਹੈ",
     "title": "3D libs ਟੈਸਟਿੰਗ"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{holidayName}} ਛੁੱਟੀ",
+      "onWeekend": {
+        "false": "ਹਫ਼ਤੇ ਦੌਰਾਨ",
+        "true": "ਵੀਕਐਂਡ 'ਤੇ"
+      }
+    },
+    "list": {
+      "title": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ"
+    },
+    "types": {
+      "national": "ਰਾਸ਼ਟਰੀ"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3D ਟੈਸਟ"
       },
+      "brazilianHolidays": {
+        "title": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ"
+      },
       "colors": {
         "title": "ਸ਼ੇਡ ਜਨਰੇਟਰ"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D ਘਣ ਪ੍ਰਤੀਕ",
+      "calendar": "ਕੈਲੰਡਰ ਪ੍ਰਤੀਕ",
       "chart": "ਚਾਰਟ ਪ੍ਰਤੀਕ",
       "code": "ਦੋ ਕਰਲੀ ਬਰੈਕਟਾਂ ਵਾਲਾ ਪ੍ਰਤੀਕ",
       "download": "ਦਸਤਾਵੇਜ਼ ਡਾਊਨਲੋਡ ਆਈਕਨ",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D libs ਟੈਸਟਿੰਗ",
       "404": "ਨਹੀਂ ਲਭਿਆ",
+      "brazilianHolidays": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ",
       "colors": "ਰੰਗ ਭਿੰਨਤਾਵਾਂ",
       "extralanguages": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ",
       "home": "ਹੋਮਪੇਜ",

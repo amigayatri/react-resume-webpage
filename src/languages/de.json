@@ -6,6 +6,21 @@
     "summary": "Entwickelt, um verschiedene für React verfügbare 3D-Bibliotheken zu testen",
     "title": "Testen von 3D-Bibliotheken"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{holidayName}} Feiertag",
+      "onWeekend": {
+        "false": "Unter der Woche",
+        "true": "Am Wochenende"
+      }
+    },
+    "list": {
+      "title": "Brasilianische Feiertage"
+    },
+    "types": {
+      "national": "National"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3D-Test"
       },
+      "brazilianHolidays": {
+        "title": "Brasilianische Feiertage"
+      },
       "colors": {
         "title": "Schattengenerator"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D-Würfelsymbol",
+      "calendar": "Kalendersymbol",
       "chart": "Diagrammsymbol",
       "code": "Symbol mit zwei geschweiften Klammern",
       "download": "Symbol zum Herunterladen von Dokumenten",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "Testen von 3D-Bibliotheken",
       "404": "Nicht gefunden",
+      "brazilianHolidays": "Brasilianische Feiertage",
       "colors": "Farbvariationen",
       "extralanguages": "Zusätzliche Sprachen",
       "home": "Homepage",

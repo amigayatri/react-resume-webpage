@@ -6,6 +6,21 @@
     "summary": "开发用于测试 React 可用的不同 3D 库",
     "title": "3D 库测试"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{holidayName}}假期",
+      "onWeekend": {
+        "false": "本周内",
+        "true": "周末的时候"
+      }
+    },
+    "list": {
+      "title": "巴西假期"
+    },
+    "types": {
+      "national": "国家的"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3D测试"
       },
+      "brazilianHolidays": {
+        "title": "巴西假期"
+      },
       "colors": {
         "title": "阴影发生器"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D 立方体图标",
+      "calendar": "日历图标",
       "chart": "图表图标",
       "code": "两个大括号图标",
       "download": "文档下载图标",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D 库测试",
       "404": "未找到",
+      "brazilianHolidays": "巴西假期",
       "colors": "颜色变化",
       "extralanguages": "额外语言",
       "home": "主页",

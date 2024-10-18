@@ -6,6 +6,21 @@
     "summary": "Ojejapo oñehaꞌã hag̃ua opaichagua libs 3D ojeguerekóva React-pe g̃uarã",
     "title": "3D libs jesareko"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{fiesta réra}} arete",
+      "onWeekend": {
+        "false": "Arapokõindy aja",
+        "true": "Arapokõindy pahápe"
+      }
+    },
+    "list": {
+      "title": "Ára guasu Brasil-pegua"
+    },
+    "types": {
+      "national": "Tetãygua"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "Prueba 3D rehegua"
       },
+      "brazilianHolidays": {
+        "title": "Ára guasu Brasil-pegua"
+      },
       "colors": {
         "title": "Generador de sombra rehegua"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "Icono cubo 3D rehegua",
+      "calendar": "Icono calendario rehegua",
       "chart": "Gráfico icono rehegua",
       "code": "Mokõi soporte rizado icono",
       "download": "Kuatia ñemboguejyha techaukaha",
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D libs jesareko",
       "404": "Ndojejuhúi",
+      "brazilianHolidays": "Ára guasu Brasil-pegua",
       "colors": "Umi sa’y iñambuéva",
       "extralanguages": "Ñe’ẽ extra",
       "home": "Página principal",

@@ -6,6 +6,21 @@
     "summary": "Developed to test different 3D libs available to React",
     "title": "3D libs testing"
   },
+  "brazilianHolidays": {
+    "element": {
+      "name": "{{holidayName}} holiday",
+      "onWeekend": {
+        "false": "During the week",
+        "true": "On the weekend"
+      }
+    },
+    "list": {
+      "title": "Brazilian holidays"
+    },
+    "types": {
+      "national": "National"
+    }
+  },
   "colors": {
     "addColor": {
       "buttons": {
@@ -79,6 +94,9 @@
       "3D": {
         "title": "3D test"
       },
+      "brazilianHolidays": {
+        "title": "Brazilian holidays"
+      },
       "colors": {
         "title": "Shade generator"
       },
@@ -105,6 +123,7 @@
   "icons": {
     "alt": {
       "3d": "3D cube icon",
+      "calendar": "Calendar icon",
       "chart": "Chart icon",
       "code": "Two curly brackets icon",
       "download": "Document download icon",
@@ -187,8 +206,8 @@
     }
   },
   "palettes": {
-    "addGroup": "All from {{groupName}}",
     "add": "Add palette",
+    "addGroup": "All from {{groupName}}",
     "addOne": {
       "summary": "The choosen palette will appear on the list bellow.",
       "title": "Choose a palette to add"
@@ -297,6 +316,7 @@
     "title": {
       "3D": "3D libs testing",
       "404": "Not found",
+      "brazilianHolidays": "Brazilian Holidays",
       "colors": "Colors",
       "extralanguages": "Extra languages",
       "home": "Homepage",
