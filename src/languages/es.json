@@ -6,6 +6,22 @@
     "summary": "Desarrollado para probar diferentes bibliotecas 3D disponibles para React",
     "title": "Pruebas de bibliotecas 3D"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "Estados",
+      "cities": "Ciudades",
+      "meso": "mesorregiones",
+      "micro": "Microrregiones",
+      "region": "Regiones",
+      "single": "País"
+    },
+    "selects": {
+      "division": "División del mapa",
+      "group": "Grupos temáticos",
+      "palette": "paletas de colores"
+    },
+    "title": "Mapa de Brasil"
+  },
   "brazilianHolidays": {
     "addMunicipal": "Agregar días festivos de {{cityName}}, {{stateName}}",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "prueba 3D"
+      },
+      "brasil": {
+        "title": "Brasil"
       },
       "brazilianHolidays": {
         "title": "vacaciones brasileñas"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "Pruebas de bibliotecas 3D",
       "404": "Extraviado",
+      "brasil": "Brasil",
       "brazilianHolidays": "Vacaciones brasileñas",
       "colors": "variaciones de color",
       "extralanguages": "Idiomas adicionales",

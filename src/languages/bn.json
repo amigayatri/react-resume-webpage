@@ -6,6 +6,22 @@
     "summary": "প্রতিক্রিয়া করার জন্য উপলব্ধ বিভিন্ন 3D libs পরীক্ষা করার জন্য তৈরি করা হয়েছে",
     "title": "3D libs পরীক্ষা"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "রাজ্যগুলি",
+      "cities": "শহরগুলো",
+      "meso": "মেসোরিজিয়ন",
+      "micro": "ক্ষুদ্র অঞ্চল",
+      "region": "অঞ্চলসমূহ",
+      "single": "দেশ"
+    },
+    "selects": {
+      "division": "মানচিত্র বিভাগ",
+      "group": "থিম গ্রুপ",
+      "palette": "রঙ প্যালেট"
+    },
+    "title": "ব্রাজিল মানচিত্র"
+  },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}, {{stateName}} থেকে ছুটির দিনগুলি যোগ করুন",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3D পরীক্ষা"
+      },
+      "brasil": {
+        "title": "ব্রাজিল"
       },
       "brazilianHolidays": {
         "title": "ব্রাজিলিয়ান ছুটির দিন"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D libs পরীক্ষা",
       "404": "পাওয়া যায়নি",
+      "brasil": "ব্রাজিল",
       "brazilianHolidays": "ব্রাজিলের ছুটির দিন",
       "colors": "রঙের বৈচিত্র",
       "extralanguages": "অতিরিক্ত ভাষা",

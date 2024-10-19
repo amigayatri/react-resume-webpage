@@ -6,6 +6,22 @@
     "summary": "रिएक्ट के लिए उपलब्ध विभिन्न 3D libs का परीक्षण करने के लिए विकसित किया गया",
     "title": "3डी लिब्ज़ परीक्षण"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "राज्य अमेरिका",
+      "cities": "शहर",
+      "meso": "मेसोरेगियंस",
+      "micro": "सूक्ष्मक्षेत्र",
+      "region": "क्षेत्रों",
+      "single": "देश"
+    },
+    "selects": {
+      "division": "मानचित्र प्रभाग",
+      "group": "थीम समूह",
+      "palette": "रंग पट्टियाँ"
+    },
+    "title": "ब्राज़ील का मानचित्र"
+  },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}, {{stateName}} से छुट्टियाँ जोड़ें",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3डी परीक्षण"
+      },
+      "brasil": {
+        "title": "ब्राज़िल"
       },
       "brazilianHolidays": {
         "title": "ब्राज़ीलियाई छुट्टियाँ"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3डी लिब्ज़ परीक्षण",
       "404": "नहीं मिला",
+      "brasil": "ब्राज़िल",
       "brazilianHolidays": "ब्राज़ीलियाई छुट्टियाँ",
       "colors": "रंग भिन्नता",
       "extralanguages": "अतिरिक्त भाषाएँ",

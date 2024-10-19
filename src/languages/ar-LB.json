@@ -6,6 +6,22 @@
     "summary": "تم تطويره لاختبار مختلف المكتبات ثلاثية الأبعاد المتاحة لـ React",
     "title": "اختبار libs ثلاثي الأبعاد"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "الدول",
+      "cities": "المدن",
+      "meso": "المناطق الوسطى",
+      "micro": "المناطق الصغيرة",
+      "region": "المناطق",
+      "single": "دولة"
+    },
+    "selects": {
+      "division": "قسم الخرائط",
+      "group": "مجموعات الموضوع",
+      "palette": "لوحات الألوان"
+    },
+    "title": "خريطة البرازيل"
+  },
   "brazilianHolidays": {
     "addMunicipal": "أضف أيام العطل من {{cityName}}، {{stateName}}",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "اختبار ثلاثي الأبعاد"
+      },
+      "brasil": {
+        "title": "البرازيل"
       },
       "brazilianHolidays": {
         "title": "العطلات البرازيلية"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "اختبار libs ثلاثي الأبعاد",
       "404": "لم يتم العثور عليه",
+      "brasil": "البرازيل",
       "brazilianHolidays": "العطل البرازيلية",
       "colors": "اختلافات اللون",
       "extralanguages": "لغات اضافية",

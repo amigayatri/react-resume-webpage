@@ -1,3 +1,4 @@
+import BrasilIcon from "../icons/BrasilIcon"
 import BrokenLinkIcon from "../icons/BrokenLinkIcon"
 import BugIcon from "../icons/BugIcon"
 import CalendarIcon from "../icons/CalendarIcon"
@@ -30,6 +31,7 @@ import TranslateIcon from "../icons/TranslateIcon"
 import WebsiteIcon from "../icons/WebsiteIcon"
 
 const icons = new Map([
+    ["brasil", BrasilIcon],
     ["brokenlink", BrokenLinkIcon],
     ["bug", BugIcon],
     ["calendar", CalendarIcon],

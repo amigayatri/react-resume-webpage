@@ -1,3 +1,4 @@
+import { useTheme } from "styled-components"
 import palettesMap from "../../../constants/palettes"
 import { SimpleColor, getInverse, getRGBFromHex } from "../../../lib/rgb"
 import PaletteInfoProps from "../../../types/PaletteInfoProps"
@@ -49,10 +50,13 @@ const MulticoloredName = ({
 			return simple
 		}
 	}
-
+	const theme = useTheme()
 	const wrapperStyle = !legible
 		? { marginLeft: "-4px", paddingLeft: "4px" }
-		: { padding: "12px 0" }
+		: {
+				padding: "12px 0",
+				color: customColors !== undefined ? customColors[0] : theme.primary
+		  }
 	return (
 		<Multicolor $isLegible={legible} style={wrapperStyle}>
 			{asArr.map((char, idx) => {

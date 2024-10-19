@@ -6,6 +6,22 @@
     "summary": "ਪ੍ਰਤੀਕਿਰਿਆ ਕਰਨ ਲਈ ਉਪਲਬਧ ਵੱਖ-ਵੱਖ 3D ਲਿਬਸ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਵਿਕਸਤ ਕੀਤਾ ਗਿਆ ਹੈ",
     "title": "3D libs ਟੈਸਟਿੰਗ"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "ਰਾਜ",
+      "cities": "ਸ਼ਹਿਰ",
+      "meso": "Mesoregions",
+      "micro": "ਸੂਖਮ ਖੇਤਰ",
+      "region": "ਖੇਤਰ",
+      "single": "ਦੇਸ਼"
+    },
+    "selects": {
+      "division": "ਨਕਸ਼ਾ ਵੰਡ",
+      "group": "ਥੀਮ ਸਮੂਹ",
+      "palette": "ਰੰਗ ਪੈਲੇਟ"
+    },
+    "title": "ਬ੍ਰਾਜ਼ੀਲ ਦਾ ਨਕਸ਼ਾ"
+  },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}, {{stateName}} ਦੀਆਂ ਛੁੱਟੀਆਂ ਸ਼ਾਮਲ ਕਰੋ",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3D ਟੈਸਟ"
+      },
+      "brasil": {
+        "title": "ਬ੍ਰਾਜ਼ੀਲ"
       },
       "brazilianHolidays": {
         "title": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D libs ਟੈਸਟਿੰਗ",
       "404": "ਨਹੀਂ ਲਭਿਆ",
+      "brasil": "ਬ੍ਰਾਜ਼ੀਲ",
       "brazilianHolidays": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ",
       "colors": "ਰੰਗ ਭਿੰਨਤਾਵਾਂ",
       "extralanguages": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ",

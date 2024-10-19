@@ -6,6 +6,22 @@
     "summary": "React で利用可能なさまざまな 3D ライブラリをテストするために開発されました",
     "title": "3D ライブラリのテスト"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "州",
+      "cities": "都市",
+      "meso": "メソ領域",
+      "micro": "微小領域",
+      "region": "地域",
+      "single": "国"
+    },
+    "selects": {
+      "division": "地図区分",
+      "group": "テーマグループ",
+      "palette": "カラーパレット"
+    },
+    "title": "ブラジルの地図"
+  },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}、{{stateName}}の祝日を追加",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3Dテスト"
+      },
+      "brasil": {
+        "title": "ブラジル"
       },
       "brazilianHolidays": {
         "title": "ブラジルの祝日"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D ライブラリのテスト",
       "404": "見つかりません",
+      "brasil": "ブラジル",
       "brazilianHolidays": "ブラジルの祝日",
       "colors": "カラーバリエーション",
       "extralanguages": "追加の言語",
