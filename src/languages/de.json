@@ -7,16 +7,22 @@
     "title": "Testen von 3D-Bibliotheken"
   },
   "brazilianHolidays": {
+    "addMunicipal": "Feiertage aus {{cityName}}, {{stateName}} hinzufügen",
     "element": {
-      "name": "{{holidayName}} Feiertag",
       "onWeekend": {
         "false": "Unter der Woche",
         "true": "Am Wochenende"
       }
     },
     "list": {
-      "title": "Brasilianische Feiertage"
+      "year": "{{yearNumber}} Feiertage"
     },
+    "open": "Wählen Sie eine Stadt",
+    "tabs": {
+      "next": "Nächstes Jahr",
+      "this": "Dieses Jahr"
+    },
+    "title": "Brasilianische Feiertage",
     "types": {
       "national": "National"
     }
@@ -122,7 +128,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "3D-Würfelsymbol",
       "calendar": "Kalendersymbol",
       "chart": "Diagrammsymbol",
       "code": "Symbol mit zwei geschweiften Klammern",
@@ -130,16 +135,21 @@
       "email": "Mail-Symbol",
       "external": "Symbol für externen Link",
       "github": "GitHub-Symbol",
+      "happy": "Glückliches Gesichtssymbol",
       "home": "Home-Symbol",
       "leetcode": "LeetCode-Symbol",
       "linkedin": "Linkedin-Symbol",
       "mail": "E-Mail-Symbol",
+      "map": "Kartensymbol",
       "moon": "Mond-Symbol",
       "more": "Symbol für weitere Seiten",
       "palette": "Symbol für die Farbpalette",
       "person": "Personensymbol",
       "phone": "Telefonsymbol",
+      "sad": "Trauriges Gesichtssymbol",
       "sun": "Sonnensymbol",
+      "superhappy": "Sehr glückliches Gesichtssymbol",
+      "threed": "3D-Würfelsymbol",
       "website": "Ein Website-Symbol"
     }
   },

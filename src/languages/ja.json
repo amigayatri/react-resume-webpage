@@ -7,16 +7,22 @@
     "title": "3D ライブラリのテスト"
   },
   "brazilianHolidays": {
+    "addMunicipal": "{{cityName}}、{{stateName}}の祝日を追加",
     "element": {
-      "name": "{{holidayName}} の休日",
       "onWeekend": {
         "false": "平日",
         "true": "週末に"
       }
     },
     "list": {
-      "title": "ブラジルの祝日"
+      "year": "{{yearNumber}} 祝日"
     },
+    "open": "都市を選択してください",
+    "tabs": {
+      "next": "来年",
+      "this": "今年"
+    },
+    "title": "ブラジルの祝日",
     "types": {
       "national": "全国"
     }
@@ -122,7 +128,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "3D キューブのアイコン",
       "calendar": "カレンダーアイコン",
       "chart": "グラフアイコン",
       "code": "2 つの中括弧のアイコン",
@@ -130,16 +135,21 @@
       "email": "メールアイコン",
       "external": "外部リンク記号",
       "github": "GitHub アイコン",
+      "happy": "幸せそうな顔のアイコン",
       "home": "ホームアイコン",
       "leetcode": "リートコードのアイコン",
       "linkedin": "リンクトインのアイコン",
       "mail": "電子メールアイコン",
+      "map": "地図アイコン",
       "moon": "月のアイコン",
       "more": "「その他のページ」アイコン",
       "palette": "カラーパレットアイコン",
       "person": "人のアイコン",
       "phone": "電話アイコン",
+      "sad": "悲しい顔のアイコン",
       "sun": "太陽のアイコン",
+      "superhappy": "とても幸せそうな顔のアイコン",
+      "threed": "3D キューブのアイコン",
       "website": "ウェブサイトのアイコン"
     }
   },

@@ -7,19 +7,28 @@
     "title": "Teste de bibliotecas 3D"
   },
   "brazilianHolidays": {
+    "element": {
+      "onWeekend": {
+        "false": "Durante a semana",
+        "true": "No fim de semana"
+      }
+    },
+    "list": {
+      "year": "Feriados de {{yearNumber}}"
+    },
+    "tabs": {
+      "next": "Ano que vem",
+      "this": "Este ano"
+    },
+    "title": "Feriados brasileiros",
     "types": {
       "national": "Nacional"
     },
-    "list": {
-      "title": "Feriados brasileiros"
+    "open": {
+      "true": "Feche seletor de cidade",
+      "false": "Escolha uma cidade"
     },
-    "element": {
-      "name": "Feriado de {{holidayName}}",
-      "onWeekend": {
-        "true": "No fim de semana",
-        "false": "Durante a semana"
-      }
-    }
+    "addMunicipal": "Adicionar feriados de {{cityName}}, {{stateName}}"
   },
   "colors": {
     "addColor": {
@@ -122,7 +131,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "Ícone de cubo 3D",
       "calendar": "Ícone de um calendário",
       "chart": "Ícone de gráfico",
       "code": "Ícone com duas chaves",
@@ -130,16 +138,21 @@
       "email": "Ícone de email",
       "external": "Simbolo de link externo",
       "github": "Ícone do github",
+      "happy": "Ícone de um rosto feliz",
       "home": "Ícone de uma casa",
       "leetcode": "Ícone do LeetCode",
       "linkedin": "Ícone do Linkedin",
       "mail": "Ícone de Email",
+      "map": "Ícone de um mapa",
       "moon": "Ícone de uma lua",
       "more": "Ícone de mais páginas",
       "palette": "Ícone de uma paleta de cores",
       "person": "Ícone de uma pessoa",
       "phone": "Ícone de Telefone",
+      "sad": "Ícone de um rosto triste",
       "sun": "Ícone de um sol",
+      "superhappy": "Ícone de um rosto muito feliz",
+      "threed": "Ícone de cubo 3D",
       "website": "Ícone de um website"
     }
   },
@@ -316,6 +329,7 @@
     "title": {
       "3D": "Teste de bibliotecas 3D",
       "404": "Não Encontrado",
+      "brazilianHolidays": "Feriados Brasileiros",
       "colors": "Variações de Cores",
       "extralanguages": "Línguas extras",
       "home": "Página inicial",
@@ -323,7 +337,6 @@
       "maintenance": "Página em Manutenção",
       "palette": "Paletas",
       "resume": "Currículo",
-      "brazilianHolidays": "Feriados Brasileiros",
       "sitestats": "Estatísticas"
     }
   },

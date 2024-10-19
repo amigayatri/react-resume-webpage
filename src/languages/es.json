@@ -7,16 +7,22 @@
     "title": "Pruebas de bibliotecas 3D"
   },
   "brazilianHolidays": {
+    "addMunicipal": "Agregar días festivos de {{cityName}}, {{stateName}}",
     "element": {
-      "name": "{{holidayName}} vacaciones",
       "onWeekend": {
         "false": "durante la semana",
         "true": "el fin de semana"
       }
     },
     "list": {
-      "title": "vacaciones brasileñas"
+      "year": "{{yearNumber}} Días festivos"
     },
+    "open": "Elige una ciudad",
+    "tabs": {
+      "next": "Al año que viene",
+      "this": "este año"
+    },
+    "title": "vacaciones brasileñas",
     "types": {
       "national": "Nacional"
     }
@@ -122,7 +128,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "Icono de cubo 3D",
       "calendar": "Icono de calendario",
       "chart": "Icono de gráfico",
       "code": "Icono de dos llaves",
@@ -130,16 +135,21 @@
       "email": "icono de correo",
       "external": "Símbolo de enlace externo",
       "github": "icono de GitHub",
+      "happy": "Icono de cara feliz",
       "home": "Icono de inicio",
       "leetcode": "Icono de LeetCode",
       "linkedin": "Icono de Linkedin",
       "mail": "Icono de correo electrónico",
+      "map": "Icono de mapa",
       "moon": "Icono de luna",
       "more": "Icono de más páginas",
       "palette": "Icono de paleta de colores",
       "person": "Icono de persona",
       "phone": "Icono de teléfono",
+      "sad": "Icono de cara triste",
       "sun": "Icono del sol",
+      "superhappy": "Icono de cara muy feliz",
+      "threed": "Icono de cubo 3D",
       "website": "Un icono de sitio web"
     }
   },

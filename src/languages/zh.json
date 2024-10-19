@@ -7,16 +7,22 @@
     "title": "3D 库测试"
   },
   "brazilianHolidays": {
+    "addMunicipal": "添加来自 {{cityName}}、{{stateName}} 的节假日",
     "element": {
-      "name": "{{holidayName}}假期",
       "onWeekend": {
         "false": "本周内",
         "true": "周末的时候"
       }
     },
     "list": {
-      "title": "巴西假期"
+      "year": "{{yearNumber}} 假期"
     },
+    "open": "选择城市",
+    "tabs": {
+      "next": "明年",
+      "this": "今年"
+    },
+    "title": "巴西假期",
     "types": {
       "national": "国家的"
     }
@@ -122,7 +128,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "3D 立方体图标",
       "calendar": "日历图标",
       "chart": "图表图标",
       "code": "两个大括号图标",
@@ -130,16 +135,21 @@
       "email": "邮件图标",
       "external": "外部链接符号",
       "github": "GitHub 图标",
+      "happy": "快乐的脸图标",
       "home": "主页图标",
       "leetcode": "LeetCode 图标",
       "linkedin": "领英图标",
       "mail": "电子邮件图标",
+      "map": "地图图标",
       "moon": "月亮图标",
       "more": "更多页面图标",
       "palette": "调色板图标",
       "person": "人图标",
       "phone": "电话图标",
+      "sad": "悲伤的脸图标",
       "sun": "太阳图标",
+      "superhappy": "非常高兴的脸图标",
+      "threed": "3D 立方体图标",
       "website": "网站图标"
     }
   },
