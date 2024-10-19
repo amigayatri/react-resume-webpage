@@ -6,6 +6,22 @@
     "summary": "Developed to test different 3D libs available to React",
     "title": "3D libs testing"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "States",
+      "cities": "Cities",
+      "meso": "Mesoregions",
+      "micro": "Microregions",
+      "region": "Regions",
+      "single": "Country"
+    },
+    "selects": {
+      "division": "Map division",
+      "group": "Theme groups",
+      "palette": "Color palettes"
+    },
+    "title": "Map of Brazil"
+  },
   "brazilianHolidays": {
     "addMunicipal": "Add holidays from {{cityName}}, {{stateName}}",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3D test"
+      },
+      "brasil": {
+        "title": "Brazil"
       },
       "brazilianHolidays": {
         "title": "Brazilian holidays"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D libs testing",
       "404": "Not found",
+      "brasil": "Brazil",
       "brazilianHolidays": "Brazilian Holidays",
       "colors": "Colors",
       "extralanguages": "Extra languages",

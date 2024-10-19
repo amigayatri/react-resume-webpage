@@ -6,6 +6,22 @@
     "summary": "Αναπτύχθηκε για τη δοκιμή διαφορετικών 3D lib που είναι διαθέσιμες στο React",
     "title": "Δοκιμή 3D libs"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "κράτη",
+      "cities": "πόλεις",
+      "meso": "Μεσοπεριφέρειες",
+      "micro": "Μικροπεριφέρειες",
+      "region": "Περιφέρειες",
+      "single": "Χώρα"
+    },
+    "selects": {
+      "division": "Διαίρεση χάρτη",
+      "group": "Θεματικές ομάδες",
+      "palette": "Παλέτες χρωμάτων"
+    },
+    "title": "Χάρτης της Βραζιλίας"
+  },
   "brazilianHolidays": {
     "addMunicipal": "Προσθήκη διακοπών από {{cityName}}, {{stateName}}",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3D τεστ"
+      },
+      "brasil": {
+        "title": "Βραζιλία"
       },
       "brazilianHolidays": {
         "title": "Διακοπές στη Βραζιλία"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "Δοκιμή 3D libs",
       "404": "Δεν βρέθηκε",
+      "brasil": "Βραζιλία",
       "brazilianHolidays": "Διακοπές στη Βραζιλία",
       "colors": "Παραλλαγές χρώματος",
       "extralanguages": "Επιπλέον γλώσσες",

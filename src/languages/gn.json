@@ -6,6 +6,22 @@
     "summary": "Ojejapo oñehaꞌã hag̃ua opaichagua libs 3D ojeguerekóva React-pe g̃uarã",
     "title": "3D libs jesareko"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "Estado-kuéra",
+      "cities": "Tavakuéra",
+      "meso": "Mesoregiones rehegua",
+      "micro": "Microregión-kuéra rehegua",
+      "region": "Región-kuéra rehegua",
+      "single": "Tetã"
+    },
+    "selects": {
+      "division": "Mapa ñemboja’o",
+      "group": "Umi aty téma rehegua",
+      "palette": "Umi paleta sa’y rehegua"
+    },
+    "title": "Mapa Brasil rehegua"
+  },
   "brazilianHolidays": {
     "addMunicipal": "Emoĩve arete {{cityName}}, {{stateName}} guive.",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "Prueba 3D rehegua"
+      },
+      "brasil": {
+        "title": "Brasil"
       },
       "brazilianHolidays": {
         "title": "Ára guasu Brasil-pegua"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D libs jesareko",
       "404": "Ndojejuhúi",
+      "brasil": "Brasil",
       "brazilianHolidays": "Ára guasu Brasil-pegua",
       "colors": "Umi sa’y iñambuéva",
       "extralanguages": "Ñe’ẽ extra",

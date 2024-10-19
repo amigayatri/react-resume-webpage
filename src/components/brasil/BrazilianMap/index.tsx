@@ -1,0 +1,197 @@
+import { useTheme } from "styled-components"
+import {
+	BrazilianMapWrapper,
+	Title,
+	MapWrapper,
+	MapSVG,
+	Label,
+	LabelWrapper,
+	SelectWrapper,
+	Select,
+	Option
+} from "./BrazilianMap.styled"
+import palettesMap from "../../../constants/palettes"
+import singlePath from "../../../../public/brazil-map-paths/single.json"
+
+import { ChangeEvent, useState } from "react"
+import { useTranslation } from "react-i18next"
+import MulticoloredName from "../../common/MulticoloredName"
+
+const divisionMap = new Map([
+	["cities", "../../../../brazil-map-paths/cities.json"],
+	["micro", "../../../../brazil-map-paths/micro.json"],
+	["meso", "../../../../brazil-map-paths/meso.json"],
+	["UF", "../../../../brazil-map-paths/uf.json"],
+	["region", "../../../../brazil-map-paths/region.json"],
+	["single", "../../../../brazil-map-paths/single.json"]
+])
+
+const divisionNames = new Map([
+	["UF", "Estados"],
+	["single", "País"],
+	["region", "Regiões"],
+	["meso", "Mesoregiões"],
+	["micro", "Microregiões"],
+	["cities", "Cidades"]
+])
+
+const divisionPaths = new Map([["single", singlePath]])
+
+const SelectDivision = ({
+	defaultVal,
+	handleChangeDivision
+}: {
+	defaultVal: string
+	handleChangeDivision: (arg0: string) => void
+}) => {
+	const { t } = useTranslation()
+	return (
+		<LabelWrapper>
+			<Label>{t("brasil.selects.division")}</Label>
+			<Select
+				onChange={({ target }) => handleChangeDivision(target.value)}
+				defaultValue={defaultVal}
+			>
+				{Array.from(divisionMap.keys())
+					.reverse()
+					.map((value) => (
+						<Option key={"option-division-" + value} value={value}>
+							{t("brasil.divisions." + value)}
+						</Option>
+					))}
+			</Select>
+		</LabelWrapper>
+	)
+}
+
+const SelectTheme = ({ changeFn }: { changeFn: (arg0: string[]) => void }) => {
+	const { t } = useTranslation()
+	const [group, setGroup] = useState("rainbow")
+	const [groupNames] = useState(Array.from(palettesMap.keys()))
+	const [palette, setPalette] = useState("rainbow monokai")
+	const palettesInGroup = palettesMap.has(group)
+		? palettesMap.get(group)
+		: new Map()
+	const palettesNames = Array.from(palettesInGroup?.keys() || [])
+	const handleChangeTheme = ({ target }: ChangeEvent<HTMLSelectElement>) => {
+		const { value } = target
+		setPalette(value)
+		const colors = palettesInGroup?.get(value)
+
+		changeFn(colors !== undefined ? colors : [])
+	}
+	return (
+		<>
+			<LabelWrapper>
+				<Label id="select-theme-group">{t("brasil.selects.group")}</Label>
+				<Select
+					aria-labelledby="select-theme-group"
+					onChange={({ target }) => {
+						setGroup(target.value)
+					}}
+					defaultValue={group}
+				>
+					{groupNames.map((name, idx) => (
+						<Option key={"palette-group-idx-" + idx} value={name}>
+							{t("palettes.groups." + name)}
+						</Option>
+					))}
+				</Select>
+			</LabelWrapper>
+			<LabelWrapper>
+				<Label id="select-theme-in-group">{t("brasil.selects.palette")}</Label>
+				<Select
+					aria-labelledby="select-theme-in-group"
+					onChange={(e) => handleChangeTheme(e)}
+					defaultValue={palette}
+				>
+					{palettesNames.map((name) => (
+						<Option key={"palette-option-" + name} value={name}>
+							{t(`palettes.names.${group}.${name}`)}
+						</Option>
+					))}
+				</Select>
+			</LabelWrapper>
+		</>
+	)
+}
+
+const BrazilianMap = () => {
+	const { t } = useTranslation()
+	const [division, setDivision] = useState("single")
+	const [paths, setPaths] = useState(divisionPaths.get(division))
+	const theme = useTheme()
+	const startColors = palettesMap.get("rainbow")?.get("rainbow monokai")
+	const [colors, setColors] = useState(
+		startColors !== undefined ? startColors : [theme.primary]
+	)
+	const handleChangeDivision = async (newDivision: string) => {
+		if (divisionPaths.has(newDivision)) {
+			const newPaths = divisionPaths.get(newDivision)
+			setPaths(newPaths !== undefined ? newPaths : [])
+			setDivision(newDivision)
+		} else {
+			const url = divisionMap.get(newDivision)
+			fetch(url !== undefined ? url : "").then((reponse) => {
+				reponse.json().then((list) => {
+					divisionPaths.set(newDivision, list)
+					setPaths(list)
+					setDivision(newDivision)
+				})
+			})
+		}
+	}
+	const cleanColors = (newColors: string[]) => {
+		const asSet = new Set(newColors)
+		const toRemove = ["#FFFFFF", "#000000", theme.background]
+		for (const color of toRemove) asSet.delete(color)
+		return Array.from(asSet)
+	}
+	const handleChangeColors = (newColors: string[]) => {
+		if (newColors.length === 0) return
+		const clean = cleanColors(newColors)
+		if (clean.length === 0) return
+		setColors(clean)
+	}
+	let size = colors.length
+	return (
+		<BrazilianMapWrapper>
+			<Title>
+				<MulticoloredName
+					legible
+					info={{ group: "rainbow", name: "rainbow monokai" }}
+					isCustom
+					customColors={colors}
+				>
+					{t("brasil.title")}
+				</MulticoloredName>
+			</Title>
+			<MapWrapper>
+				<MapSVG
+					xmlns="http://www.w3.org/2000/svg"
+					version="1.2"
+					baseProfile="tiny"
+					viewBox="-73.9904 -5.2718 44.691399999999994 39.0226"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+				>
+					<g id="BRUF" transform="scale(0.0001,-0.0001)">
+						{paths !== undefined &&
+							paths.map((path, idx) => (
+								<path fill={colors[idx % size]} d={path} />
+							))}
+					</g>
+				</MapSVG>
+			</MapWrapper>
+			<SelectWrapper>
+				<SelectDivision
+					handleChangeDivision={handleChangeDivision}
+					defaultVal={division}
+				/>
+				<SelectTheme changeFn={handleChangeColors} />
+			</SelectWrapper>
+		</BrazilianMapWrapper>
+	)
+}
+
+export default BrazilianMap

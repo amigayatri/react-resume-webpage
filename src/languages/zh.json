@@ -6,6 +6,22 @@
     "summary": "开发用于测试 React 可用的不同 3D 库",
     "title": "3D 库测试"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "州",
+      "cities": "城市",
+      "meso": "中区",
+      "micro": "微区域",
+      "region": "地区",
+      "single": "国家"
+    },
+    "selects": {
+      "division": "地图划分",
+      "group": "主题组",
+      "palette": "调色板"
+    },
+    "title": "巴西地图"
+  },
   "brazilianHolidays": {
     "addMunicipal": "添加来自 {{cityName}}、{{stateName}} 的节假日",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3D测试"
+      },
+      "brasil": {
+        "title": "巴西"
       },
       "brazilianHolidays": {
         "title": "巴西假期"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D 库测试",
       "404": "未找到",
+      "brasil": "巴西",
       "brazilianHolidays": "巴西假期",
       "colors": "颜色变化",
       "extralanguages": "额外语言",

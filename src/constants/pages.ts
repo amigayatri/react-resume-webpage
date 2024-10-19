@@ -10,6 +10,7 @@ import SiteStatsProps from "../pages/SiteStats/SiteStats.props"
 import ThreeDProps from "../pages/ThreeD/ThreeD.props"
 import PaletteProps from "../pages/Palette/Palette.props"
 import HolidaysProps from "../pages/Holidays/Holidays.props"
+import BrasilProps from "../pages/Brasil/Brasil.props"
 
 export const pages: PageProps[] = [HomeProps, ResumeProps]
 
@@ -20,7 +21,8 @@ export const extraPages: PageProps[] = [
 	LeetcodeProps,
 	SiteStatsProps,
 	ThreeDProps,
-	HolidaysProps
+	HolidaysProps,
+	BrasilProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]

@@ -6,6 +6,22 @@
     "summary": "Developed probare diversis 3D libs praesto est React",
     "title": "3D libs temptationis"
   },
+  "brasil": {
+    "divisions": {
+      "UF": "Foederatae",
+      "cities": "urbes",
+      "meso": "Mesoregios",
+      "micro": "Microregions",
+      "region": "Regiones",
+      "single": "Patria"
+    },
+    "selects": {
+      "division": "Map division",
+      "group": "Theme groups",
+      "palette": "Color palettes"
+    },
+    "title": "Tabula geographica Brasiliae"
+  },
   "brazilianHolidays": {
     "addMunicipal": "Adde ferias a {{Name}}, {{stateName}}",
     "description": {
@@ -108,6 +124,9 @@
     "pageList": {
       "3D": {
         "title": "3D test"
+      },
+      "brasil": {
+        "title": "Brazil"
       },
       "brazilianHolidays": {
         "title": "Brazilian feriae"
@@ -335,6 +354,7 @@
     "title": {
       "3D": "3D libs temptationis",
       "404": "Non inveni",
+      "brasil": "Brazil",
       "brazilianHolidays": "Brazilian Holidays",
       "colors": "Color variationum",
       "extralanguages": "Extra linguas",
