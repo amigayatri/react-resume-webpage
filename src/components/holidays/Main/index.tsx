@@ -86,7 +86,10 @@ const Main = () => {
 	return (
 		<MainWrapper>
 			<Title>
-				<MulticoloredName legible info={{ group: "places", name: "brasil" }}>
+				<MulticoloredName
+					legible
+					info={{ group: "rainbow", name: "rainbow monokai" }}
+				>
 					{t("brazilianHolidays.title")}
 				</MulticoloredName>
 			</Title>

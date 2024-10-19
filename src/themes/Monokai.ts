@@ -74,9 +74,7 @@ export const rainbowMonokai = [
 	Monokai.green,
 	Monokai.blue,
 	Monokai.purple,
-	Monokai.pink,
-	Monokai.almostBlack,
-	Monokai.white
+	Monokai.pink
 ]
 
 export default Monokai
