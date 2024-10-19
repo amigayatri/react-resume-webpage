@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Добавить праздники из {{cityName}}, {{stateName}}",
+    "description": {
+      "extended": "Длинные выходные",
+      "midweek": "В течение недели",
+      "weekends": "На выходных"
+    },
     "element": {
       "onWeekend": {
         "false": "В течение недели",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} праздники"
     },
-    "open": "Выберите город",
+    "open": {
+      "false": "Выберите город",
+      "true": "Закрыть выбор города"
+    },
     "tabs": {
       "next": "В следующем году",
       "this": "В этом году"
     },
     "title": "Бразильские праздники",
     "types": {
+      "municipal": "Муниципальный",
       "national": "Национальный"
     }
   },

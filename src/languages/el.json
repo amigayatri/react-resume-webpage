@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Προσθήκη διακοπών από {{cityName}}, {{stateName}}",
+    "description": {
+      "extended": "Μακρύ Σαββατοκύριακο",
+      "midweek": "Κατά τη διάρκεια της εβδομάδας",
+      "weekends": "Το Σαββατοκύριακο"
+    },
     "element": {
       "onWeekend": {
         "false": "Κατά τη διάρκεια της εβδομάδας",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} Διακοπές"
     },
-    "open": "Επιλέξτε μια πόλη",
+    "open": {
+      "false": "Επιλέξτε μια πόλη",
+      "true": "Κλείσιμο επιλογέα πόλης"
+    },
     "tabs": {
       "next": "Προσεχές έτος",
       "this": "Φέτος"
     },
     "title": "Διακοπές στη Βραζιλία",
     "types": {
+      "municipal": "Δημοτικός",
       "national": "Εθνικός"
     }
   },

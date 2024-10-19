@@ -1,0 +1,704 @@
+[
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "RO",
+        "city": "JARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTEIRAS DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "RO",
+        "city": "VALE DO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-22T03:00:00.000Z",
+        "state": "RO",
+        "city": "JI-PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-23T03:00:00.000Z",
+        "state": "RO",
+        "city": "VILHENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTA BUENO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-26T03:00:00.000Z",
+        "state": "RO",
+        "city": "CACOAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-28T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTEIRAS DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RO",
+        "city": "CANDEIAS DO JAMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RO",
+        "city": "GUAJARA-MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "SANTA LUZIA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-27T03:00:00.000Z",
+        "state": "RO",
+        "city": "SAO FRANCISCO DO GUAPORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTA FLORESTA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTO ALEGRE DOS PARECIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALVORADA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ARIQUEMES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "BURITIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CABIXI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CACAULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CACOAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CAMPO NOVO DE RONDONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CANDEIAS DO JAMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CASTANHEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CEREJEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CHUPINGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "COLORADO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CORUMBIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "COSTA MARQUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "CUJUBIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ESPIGAO D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "GOVERNADOR JORGE TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "GUAJARA-MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ITAPUA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "JARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "JI-PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "MACHADINHO D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "MINISTRO ANDREAZZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "MIRANTE DA SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "MONTE NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVA BRASILANDIA D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVA MAMORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVA UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVO HORIZONTE DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "OURO PRETO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "PARECIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTA BUENO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTEIRAS DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "PORTO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "PRESIDENTE MEDICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "PRIMAVERA DE RONDONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "RIO CRESPO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "ROLIM DE MOURA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "SANTA LUZIA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "SAO FELIPE D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "SAO FRANCISCO DO GUAPORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "SAO MIGUEL DO GUAPORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "SERINGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "TEIXEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "THEOBROMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "URUPA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "VALE DO ANARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "VALE DO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "RO",
+        "city": "VILHENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RO",
+        "city": "COSTA MARQUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "PORTO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-01T03:00:00.000Z",
+        "state": "RO",
+        "city": "COSTA MARQUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTO ALEGRE DOS PARECIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "CACAULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "CAMPO NOVO DE RONDONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "CANDEIAS DO JAMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "CORUMBIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "MINISTRO ANDREAZZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "MIRANTE DA SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVO HORIZONTE DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "SERINGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-14T03:00:00.000Z",
+        "state": "RO",
+        "city": "MONTE NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "RO",
+        "city": "MONTE NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-10T03:00:00.000Z",
+        "state": "RO",
+        "city": "GUAJARA-MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "RO",
+        "city": "COSTA MARQUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "RO",
+        "city": "MACHADINHO D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "RO",
+        "city": "SANTA LUZIA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTA BUENO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-20T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALVORADA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "RO",
+        "city": "GOVERNADOR JORGE TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "PORTO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "VILHENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-16T03:00:00.000Z",
+        "state": "RO",
+        "city": "COLORADO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-16T03:00:00.000Z",
+        "state": "RO",
+        "city": "COSTA MARQUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-16T03:00:00.000Z",
+        "state": "RO",
+        "city": "PRESIDENTE MEDICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-17T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTA FLORESTA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-18T03:00:00.000Z",
+        "state": "RO",
+        "city": "CORUMBIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-19T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVA BRASILANDIA D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-22T03:00:00.000Z",
+        "state": "RO",
+        "city": "CUJUBIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-22T03:00:00.000Z",
+        "state": "RO",
+        "city": "PRIMAVERA DE RONDONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "CUJUBIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "JARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "PRESIDENTE MEDICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RO",
+        "city": "URUPA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "RO",
+        "city": "CORUMBIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RO",
+        "city": "PIMENTEIRAS DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RO",
+        "city": "PRIMAVERA DE RONDONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-06T03:00:00.000Z",
+        "state": "RO",
+        "city": "CABIXI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "RO",
+        "city": "CACAULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-21T03:00:00.000Z",
+        "state": "RO",
+        "city": "NOVA MAMORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALVORADA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "RO",
+        "city": "CASTANHEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-29T03:00:00.000Z",
+        "state": "RO",
+        "city": "BURITIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "RO",
+        "city": "CEREJEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "RO",
+        "city": "ROLIM DE MOURA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-09T03:00:00.000Z",
+        "state": "RO",
+        "city": "CORUMBIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "RO",
+        "city": "MIRANTE DA SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "RO",
+        "city": "JI-PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "RO",
+        "city": "ALTA FLORESTA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "RO",
+        "city": "SAO MIGUEL DO GUAPORE",
+        "type": "Permanente"
+    }
+]

@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "أضف أيام العطل من {{cityName}}، {{stateName}}",
+    "description": {
+      "extended": "عطلة نهاية أسبوع طويلة",
+      "midweek": "خلال الاسبوع",
+      "weekends": "في عطلة نهاية الأسبوع"
+    },
     "element": {
       "onWeekend": {
         "false": "خلال الاسبوع",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} عطلات"
     },
-    "open": "اختر مدينة",
+    "open": {
+      "false": "اختر مدينة",
+      "true": "إغلاق محدد المدينة"
+    },
     "tabs": {
       "next": "العام القادم",
       "this": "هذا العام"
     },
     "title": "العطلات البرازيلية",
     "types": {
+      "municipal": "البلدية",
       "national": "وطني"
     }
   },

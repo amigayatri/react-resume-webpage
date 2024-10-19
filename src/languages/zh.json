@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "添加来自 {{cityName}}、{{stateName}} 的节假日",
+    "description": {
+      "extended": "长周末",
+      "midweek": "本周内",
+      "weekends": "周末的时候"
+    },
     "element": {
       "onWeekend": {
         "false": "本周内",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} 假期"
     },
-    "open": "选择城市",
+    "open": {
+      "false": "选择城市",
+      "true": "关闭城市选择器"
+    },
     "tabs": {
       "next": "明年",
       "this": "今年"
     },
     "title": "巴西假期",
     "types": {
+      "municipal": "市政",
       "national": "国家的"
     }
   },

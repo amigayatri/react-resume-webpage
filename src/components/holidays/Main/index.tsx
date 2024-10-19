@@ -19,6 +19,8 @@ import HolidayList from "../HolidayList"
 import { useTranslation } from "react-i18next"
 import { Tab, TabPanel } from "react-tabs"
 import SVGIcon from "../../../icons/SVGIcon"
+import VisualDescription from "../VisualDescription"
+import MulticoloredName from "../../common/MulticoloredName"
 
 const Main = () => {
 	const { t } = useTranslation()
@@ -31,11 +33,29 @@ const Main = () => {
 	const [cities, setCities] = useState(emptyCities)
 	const [selectedState, setSelectedState] = useState("SP")
 	const [selectedCity, setSelectedCity] = useState("")
-	const [present, setPresent] = useState(new Map())
+	const [present, _] = useState(new Map())
+	const api = new BrazilianAPI()
 	const [open, setOpen] = useState(false)
 	const handleAdd = () => {
 		present.set(selectedCity + "-" + selectedState, [])
-
+		api
+			.getMunicipalHolidays(selectedState, selectedCity)
+			.then((cityHolidays) => {
+				if (cityHolidays !== undefined) {
+					const currYear = new Date().getFullYear()
+					const currListThisYear = Array.from(thisYear)
+					const currListNextYear = Array.from(nextYear)
+					for (const holiday of cityHolidays) {
+						if (holiday.date.getFullYear() === currYear) {
+							currListThisYear.push(holiday)
+						} else {
+							currListNextYear.push(holiday)
+						}
+					}
+					setThisYear(currListThisYear)
+					setNextYear(currListNextYear)
+				}
+			})
 		setOpen(false)
 	}
 	useEffect(() => {
@@ -43,7 +63,6 @@ const Main = () => {
 		api.getNationalHolidays().then((list) => {
 			const byYear = new Map()
 			const currYear = new Date().getFullYear()
-
 			for (const holiday of list) {
 				const holidayYear = holiday.date.getFullYear()
 				const prevArr = byYear.has(holidayYear) ? byYear.get(holidayYear) : []
@@ -64,10 +83,14 @@ const Main = () => {
 			}
 		})
 	}, [selectedState])
-	console.log(states)
 	return (
 		<MainWrapper>
-			<Title>{t("brazilianHolidays.title")}</Title>
+			<Title>
+				<MulticoloredName legible info={{ group: "places", name: "brasil" }}>
+					{t("brazilianHolidays.title")}
+				</MulticoloredName>
+			</Title>
+			<VisualDescription />
 			<ListWrapper>
 				<CitySelectorWrapper>
 					<Button onClick={() => setOpen(!open)}>

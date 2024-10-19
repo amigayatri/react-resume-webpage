@@ -1,0 +1,890 @@
+[
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "TO",
+        "city": "COMBINADO",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-13T03:00:00.000Z",
+        "state": "TO",
+        "city": "BABACULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "ANANAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "SITIO NOVO DO TOCANTINS",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "BABACULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "GOIATINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARAISO DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "TO",
+        "city": "SANTA FE DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAPOEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRANORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALVORADA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-12T03:00:00.000Z",
+        "state": "TO",
+        "city": "GOIATINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUAINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "BREJINHO DE NAZARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "GURUPI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "XAMBIOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARRAIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "BREJINHO DE NAZARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRACEMA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRANORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "PORTO NACIONAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "SILVANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "TOCANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "TO",
+        "city": "PALMEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "TO",
+        "city": "BARROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "TO",
+        "city": "XAMBIOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-21T03:00:00.000Z",
+        "state": "TO",
+        "city": "FATIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "TO",
+        "city": "COLMEIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-10T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALIANCA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARRAIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "SILVANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "LAGOA DA CONFUSAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "TO",
+        "city": "PALMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-11T03:00:00.000Z",
+        "state": "TO",
+        "city": "GUARAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "TO",
+        "city": "FATIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "COLMEIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "TO",
+        "city": "FATIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "PALMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "TO",
+        "city": "AUGUSTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-26T03:00:00.000Z",
+        "state": "TO",
+        "city": "TALISMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "TO",
+        "city": "BARROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "TO",
+        "city": "COMBINADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIVINOPOLIS DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "TO",
+        "city": "NATIVIDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "TO",
+        "city": "FIGUEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "TO",
+        "city": "NOVA OLINDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "TO",
+        "city": "PALMEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "TO",
+        "city": "SILVANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "TO",
+        "city": "TAGUATINGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "TO",
+        "city": "GURUPI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRANORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUAINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-20T03:00:00.000Z",
+        "state": "TO",
+        "city": "PEIXE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-23T03:00:00.000Z",
+        "state": "TO",
+        "city": "BABACULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-23T03:00:00.000Z",
+        "state": "TO",
+        "city": "CRISTALANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALIANCA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "TO",
+        "city": "FIGUEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "TO",
+        "city": "FORMOSO DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-25T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRACEMA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-26T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "TO",
+        "city": "ANANAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "TO",
+        "city": "GUARAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "TO",
+        "city": "NOVA OLINDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "TO",
+        "city": "PEDRO AFONSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-07T03:00:00.000Z",
+        "state": "TO",
+        "city": "TOCANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-13T03:00:00.000Z",
+        "state": "TO",
+        "city": "PORTO NACIONAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "PEDRO AFONSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIVINOPOLIS DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "TO",
+        "city": "PIUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "TO",
+        "city": "BREJINHO DE NAZARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "TO",
+        "city": "SILVANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "TO",
+        "city": "CRISTALANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "TO",
+        "city": "TOCANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-01T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARRAIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "TO",
+        "city": "COLMEIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUATINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "FIGUEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "LAGOA DA CONFUSAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "PEIXE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "TAGUATINGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "TOCANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-23T03:00:00.000Z",
+        "state": "TO",
+        "city": "FORMOSO DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRACEMA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-26T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-27T03:00:00.000Z",
+        "state": "TO",
+        "city": "FIGUEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-02T03:00:00.000Z",
+        "state": "TO",
+        "city": "COMBINADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALIANCA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALVORADA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ANANAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUAINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAGUATINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARAPOEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "ARRAIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "AUGUSTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "BABACULANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "BARROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "BREJINHO DE NAZARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "COLINAS DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "COLMEIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "COMBINADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "CRISTALANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "DIVINOPOLIS DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "DOIS IRMAOS DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "FATIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "FIGUEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "FILADELFIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "FORMOSO DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "GOIATINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "GUARAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "GURUPI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "LAGOA DA CONFUSAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "MARIANOPOLIS DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRACEMA DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "MIRANORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "NATIVIDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "NOVA OLINDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PALMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PALMEIROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARAISO DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PEDRO AFONSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PEIXE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PIUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "PORTO NACIONAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "SANTA FE DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "SILVANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "SITIO NOVO DO TOCANTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "TAGUATINGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "TALISMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "TOCANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "WANDERLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "TO",
+        "city": "XAMBIOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "PARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "TO",
+        "city": "SANTA FE DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "TO",
+        "city": "PORTO NACIONAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "TO",
+        "city": "ALMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "TO",
+        "city": "XAMBIOA",
+        "type": "Permanente"
+    }
+]

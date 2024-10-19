@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}, {{stateName}} से छुट्टियाँ जोड़ें",
+    "description": {
+      "extended": "लंबा सप्ताहांत",
+      "midweek": "सप्ताह के दौरान",
+      "weekends": "सप्ताहांत पर"
+    },
     "element": {
       "onWeekend": {
         "false": "सप्ताह के दौरान",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{वर्षसंख्या}} छुट्टियाँ"
     },
-    "open": "एक शहर चुनें",
+    "open": {
+      "false": "एक शहर चुनें",
+      "true": "शहर चयनकर्ता बंद करें"
+    },
     "tabs": {
       "next": "अगले साल",
       "this": "इस साल"
     },
     "title": "ब्राज़ीलियाई छुट्टियाँ",
     "types": {
+      "municipal": "म्युनिसिपल",
       "national": "राष्ट्रीय"
     }
   },

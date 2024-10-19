@@ -4,6 +4,7 @@ import media from "../../../constants/medias"
 
 export const MainWrapper = styled.main`
 	text-align: center;
+	padding: 32px 0 0;
 `
 
 export const CitySelectorWrapper = styled.div``
@@ -18,6 +19,7 @@ export const Button = styled.button`
 	color: ${({ theme }) => theme.background};
 `
 export const OpenText = styled.span`
+	text-transform: capitalize;
 	padding-left: 8px;
 	font-weight: 700;
 	transition: ${({ theme }) => theme.transition};
@@ -25,11 +27,8 @@ export const OpenText = styled.span`
 
 export const SelectorWrapper = styled.div`
 	display: flex;
-	flex-direction: row;
 	padding-right: 32px;
-	${media.max.md} {
-		flex-direction: column;
-	}
+	flex-direction: column;
 `
 export const CitiesWrapper = styled.div<{ $isOpen: boolean }>`
 	overflow: hidden;
@@ -41,8 +40,12 @@ export const CitiesWrapper = styled.div<{ $isOpen: boolean }>`
 	justify-content: space-between;
 	max-height: ${({ $isOpen }) => ($isOpen ? "320px" : "0px")};
 	max-width: 512px;
+
 	${media.max.sm} {
 		flex-direction: column;
+		& ${SelectorWrapper} {
+			margin-bottom: 8px;
+		}
 	}
 `
 export const Selector = styled.select`

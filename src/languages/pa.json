@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}, {{stateName}} ਦੀਆਂ ਛੁੱਟੀਆਂ ਸ਼ਾਮਲ ਕਰੋ",
+    "description": {
+      "extended": "ਲੰਬੇ ਹਫਤੇ",
+      "midweek": "ਹਫ਼ਤੇ ਦੌਰਾਨ",
+      "weekends": "ਵੀਕਐਂਡ 'ਤੇ"
+    },
     "element": {
       "onWeekend": {
         "false": "ਹਫ਼ਤੇ ਦੌਰਾਨ",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} ਛੁੱਟੀਆਂ"
     },
-    "open": "ਇੱਕ ਸ਼ਹਿਰ ਚੁਣੋ",
+    "open": {
+      "false": "ਇੱਕ ਸ਼ਹਿਰ ਚੁਣੋ",
+      "true": "ਸ਼ਹਿਰ ਚੋਣਕਾਰ ਨੂੰ ਬੰਦ ਕਰੋ"
+    },
     "tabs": {
       "next": "ਅਗਲੇ ਸਾਲ",
       "this": "ਇਸ ਸਾਲ"
     },
     "title": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ",
     "types": {
+      "municipal": "ਨਗਰ",
       "national": "ਰਾਸ਼ਟਰੀ"
     }
   },

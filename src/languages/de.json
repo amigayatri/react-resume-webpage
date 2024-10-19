@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Feiertage aus {{cityName}}, {{stateName}} hinzufügen",
+    "description": {
+      "extended": "Langes Wochenende",
+      "midweek": "Unter der Woche",
+      "weekends": "Am Wochenende"
+    },
     "element": {
       "onWeekend": {
         "false": "Unter der Woche",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} Feiertage"
     },
-    "open": "Wählen Sie eine Stadt",
+    "open": {
+      "false": "Wählen Sie eine Stadt",
+      "true": "Stadtauswahl schließen"
+    },
     "tabs": {
       "next": "Nächstes Jahr",
       "this": "Dieses Jahr"
     },
     "title": "Brasilianische Feiertage",
     "types": {
+      "municipal": "Kommunal",
       "national": "National"
     }
   },

@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Adde ferias a {{Name}}, {{stateName}}",
+    "description": {
+      "extended": "Donec volutpat vestibulum",
+      "midweek": "Per septimana",
+      "weekends": "In volutpat vestibulum"
+    },
     "element": {
       "onWeekend": {
         "false": "Per septimana",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} Holidays"
     },
-    "open": "Elige civitatem",
+    "open": {
+      "false": "Elige civitatem",
+      "true": "Prope civitatem electrix"
+    },
     "tabs": {
       "next": "Proximo anno",
       "this": "Hoc anno"
     },
     "title": "Brazilian feriae",
     "types": {
+      "municipal": "Municipal",
       "national": "National"
     }
   },

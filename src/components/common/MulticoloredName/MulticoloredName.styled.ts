@@ -8,9 +8,11 @@ export const Letter = styled.span`
 	border-right: none;
 	&:first-of-type {
 		border-left-style: solid;
+		border-radius: 4px 0 0 4px;
 	}
 	&:last-of-type {
 		border-right-style: solid;
+		border-radius: 0 4px 4px 0;
 	}
 `
 export const LetterWrapper = styled.span``

@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}, {{stateName}} থেকে ছুটির দিনগুলি যোগ করুন",
+    "description": {
+      "extended": "দীর্ঘ সপ্তাহান্তে",
+      "midweek": "সপ্তাহে",
+      "weekends": "সপ্তাহান্তে"
+    },
     "element": {
       "onWeekend": {
         "false": "সপ্তাহে",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} ছুটির দিন"
     },
-    "open": "একটি শহর চয়ন করুন",
+    "open": {
+      "false": "একটি শহর চয়ন করুন",
+      "true": "শহর নির্বাচক বন্ধ করুন"
+    },
     "tabs": {
       "next": "পরের বছর",
       "this": "এই বছর"
     },
     "title": "ব্রাজিলিয়ান ছুটির দিন",
     "types": {
+      "municipal": "পৌর",
       "national": "জাতীয়"
     }
   },

@@ -7,16 +7,21 @@ interface MulticoloredNameProps {
 	info: PaletteInfoProps
 	legible: boolean
 	children: string | string[]
+	isCustom?: boolean
+	customColors?: string[]
 }
 
 const MulticoloredName = ({
 	info,
 	children,
-	legible
+	legible,
+	isCustom,
+	customColors
 }: MulticoloredNameProps) => {
 	const groupPalettes = palettesMap.get(info.group)
 	if (groupPalettes === undefined) return
-	const palette = groupPalettes.get(info.name)
+	const palette =
+		isCustom !== true ? groupPalettes.get(info.name) : customColors
 	if (palette === undefined) return
 	const asArr: string[] = []
 	if (typeof children === "string") {

@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "{{cityName}}、{{stateName}}の祝日を追加",
+    "description": {
+      "extended": "長い週末",
+      "midweek": "平日",
+      "weekends": "週末に"
+    },
     "element": {
       "onWeekend": {
         "false": "平日",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} 祝日"
     },
-    "open": "都市を選択してください",
+    "open": {
+      "false": "都市を選択してください",
+      "true": "都市セレクターを閉じる"
+    },
     "tabs": {
       "next": "来年",
       "this": "今年"
     },
     "title": "ブラジルの祝日",
     "types": {
+      "municipal": "市営",
       "national": "全国"
     }
   },

@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Ajouter des jours fériés de {{cityName}}, {{stateName}}",
+    "description": {
+      "extended": "Long week-end",
+      "midweek": "Pendant la semaine",
+      "weekends": "Le week-end"
+    },
     "element": {
       "onWeekend": {
         "false": "Pendant la semaine",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} Jours fériés"
     },
-    "open": "Choisissez une ville",
+    "open": {
+      "false": "Choisissez une ville",
+      "true": "Fermer le sélecteur de ville"
+    },
     "tabs": {
       "next": "L'année prochaine",
       "this": "Cette année"
     },
     "title": "Vacances brésiliennes",
     "types": {
+      "municipal": "Municipal",
       "national": "National"
     }
   },

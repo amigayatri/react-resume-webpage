@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Add holidays from {{cityName}}, {{stateName}}",
+    "description": {
+      "extended": "Long weekend",
+      "midweek": "During the week",
+      "weekends": "On the weekend"
+    },
     "element": {
       "onWeekend": {
         "false": "During the week",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{yearNumber}} Holidays"
     },
-    "open": "Choose a city",
+    "open": {
+      "false": "Choose a city",
+      "true": "Close city selector"
+    },
     "tabs": {
       "next": "Next year",
       "this": "This year"
     },
     "title": "Brazilian holidays",
     "types": {
+      "municipal": "Municipal",
       "national": "National"
     }
   },

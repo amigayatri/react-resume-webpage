@@ -13,17 +13,21 @@ import {
 import HolidayProps from "../../../../types/HolidayProps"
 import { useTranslation } from "react-i18next"
 import SVGIcon from "../../../../icons/SVGIcon"
-const weekend = new Set([6, 0])
-const preWeekend = new Set([1, 5])
 
-const Holiday = ({ name, type, date }: HolidayProps) => {
-	const weekday = date.getDay()
-	const isWeekend = weekend.has(weekday)
-	const isPreWeekend = preWeekend.has(weekday)
-	const today: Date = new Date()
-	const daysUntill = Math.floor(
-		(date.getTime() - today.getTime()) / (24 * 60 * 60 * 1000)
-	)
+interface HolidayElementProps extends HolidayProps {
+	isWeekend: boolean
+	isPreWeekend: boolean
+	daysUntill: number
+}
+
+const Holiday = ({
+	name,
+	type,
+	date,
+	isPreWeekend,
+	isWeekend,
+	daysUntill
+}: HolidayElementProps) => {
 	const { t, i18n } = useTranslation()
 	return (
 		<HolidayWrapper $isPreweekend={isPreWeekend} $isWeekend={isWeekend}>

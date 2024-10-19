@@ -8,6 +8,11 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Emoĩve arete {{cityName}}, {{stateName}} guive.",
+    "description": {
+      "extended": "Fin de semana pukukue",
+      "midweek": "Arapokõindy aja",
+      "weekends": "Arapokõindy pahápe"
+    },
     "element": {
       "onWeekend": {
         "false": "Arapokõindy aja",
@@ -17,13 +22,17 @@
     "list": {
       "year": "{{añoNumber}} Ary guasu"
     },
-    "open": "Eiporavo peteĩ táva",
+    "open": {
+      "false": "Eiporavo peteĩ táva",
+      "true": "Omboty táva poravohára"
+    },
     "tabs": {
       "next": "Ambue arýpe",
       "this": "Ko arýpe"
     },
     "title": "Ára guasu Brasil-pegua",
     "types": {
+      "municipal": "Municipal rehegua",
       "national": "Tetãygua"
     }
   },

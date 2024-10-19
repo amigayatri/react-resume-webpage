@@ -1,0 +1,2414 @@
+[
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAUCU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "CATALAO",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANIRA",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO DOMINGOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "OUVIDOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "POSSE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "TRES RANCHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ABADIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA HELENA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "CALDAS NOVAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALVORADA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "MONTES CLAROS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "MOZARLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA BARBARA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA TEREZINHA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "ACREUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "HIDROLINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "FAZENDA NOVA",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTO ANTONIO DO DESCOBERTO",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO SIMAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPESTRE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRIXAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "PARANAIGUARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "ABADIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAIAPONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "CIDADE OCIDENTAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRISTALINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITARUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "MARA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "MINEIROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "PALMINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "PONTALINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANDIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRACANJUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-05T03:00:00.000Z",
+        "state": "GO",
+        "city": "HIDROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-05T03:00:00.000Z",
+        "state": "GO",
+        "city": "IVOLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "GO",
+        "city": "BOM JESUS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-09T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITABERAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-09T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRES DO RIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "GO",
+        "city": "PARAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAVALCANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-12T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPO ALEGRE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-12T03:00:00.000Z",
+        "state": "GO",
+        "city": "CROMINIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA AURORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO JOAO D`ALIANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALEXANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "APARECIDA DE GOIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "APORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "BARRO ALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "CABECEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "CARMO DO RIO VERDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "DAMIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "DAMOLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "DIVINOPOLIS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "FLORES DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "HIDROLINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "IACIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAGUARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAJA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAPIRAPUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "JOVIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "JUSSARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "MAMBAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "MAURILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "MOSSAMEDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA VENEZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "PANAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "PORTELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA ROSA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO MIGUEL DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO SIMAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SERRANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "TURVANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "VARJAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-17T03:00:00.000Z",
+        "state": "GO",
+        "city": "APARECIDA DO RIO DOCE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "IPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAVALCANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CHAPADAO DO CEU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "FLORES DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOUVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAJA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITARUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "OUVIDOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA RITA DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRACANJUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALTO PARAISO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "JUSSARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "MINACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "PEROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "PORTELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "AGUAS LINDAS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALEXANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALTO PARAISO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "CABECEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACHOEIRA ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAVALCANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORUMBA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "FORMOSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "FORMOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOUVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "JOVIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "LUZIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO GAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "PLANALTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTO ANTONIO DO DESCOBERTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO JOAO D`ALIANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "VALPARAISO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "CROMINIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA BARBARA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPINORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPOS BELOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "CERES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRIXAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "FORMOSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANDIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "MAMBAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO GAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "PARANAIGUARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA CRUZ DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-09T03:00:00.000Z",
+        "state": "GO",
+        "city": "CIDADE OCIDENTAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-10T03:00:00.000Z",
+        "state": "GO",
+        "city": "CUMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALTO PARAISO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "AURILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "LUZIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "MATRINCHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "PORANGATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO DOMINGOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "AGUAS LINDAS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-17T03:00:00.000Z",
+        "state": "GO",
+        "city": "DIORAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "ARUANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "FAINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO JOAO D`ALIANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "MONTIVIDIU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-05T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANCLERLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOUVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAPURANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO MIGUEL DO PASSA QUATRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "CASTELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALOANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "BOM JARDIM DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACHOEIRA DOURADA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAIAPONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CALDAZINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORUMBA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRISTALINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CUMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "DIVINOPOLIS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANDIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIATUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITABERAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAGUARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITARUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "JARAGUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "LEOPOLDO DE BULHOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA AURORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "PALMEIRAS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIO QUENTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIO VERDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO JOAO D`ALIANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO LUIZ DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "URUANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "VICENTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIATUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "QUIRINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "BRITANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "INDIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA CRIXAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "PADRE BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "PALMEIRAS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-17T03:00:00.000Z",
+        "state": "GO",
+        "city": "CERES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-17T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIALMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "INACIOLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "INHUMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "MOSSAMEDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "NIQUELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "PLANALTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "PORTEIRÃO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "VIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "ACREUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "INDIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "CALDAZINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "INACIOLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "DAMIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-02T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA FE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANDIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-09T03:00:00.000Z",
+        "state": "GO",
+        "city": "PADRE BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "GO",
+        "city": "APARECIDA DE GOIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIO QUENTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA AURORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "PEROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "SERRANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ACREUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ARAGUAPAZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "ARENOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACHOEIRA DOURADA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "CEZARINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "DOVERLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "INDIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "MINACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTO ANTONIO DO DESCOBERTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRISTALINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "CROMINIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA CRIXAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA HELENA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITUMBIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "PONTALINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA RITA DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "IPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "LEOPOLDO DE BULHOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "SENADOR CANEDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-28T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORUMBAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPESTRE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "JATAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIALMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOUVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "MATRINCHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO PLANALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA FE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO LUIZ DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "SENADOR CANEDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "TURVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-02T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO PLANALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-05T03:00:00.000Z",
+        "state": "GO",
+        "city": "BELA VISTA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-07T03:00:00.000Z",
+        "state": "GO",
+        "city": "ANICUNS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "GO",
+        "city": "MUNDO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA GLORIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "GO",
+        "city": "VICENTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPOS VERDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "CIDADE OCIDENTAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "COCALZINHO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "DAMOLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "EDEIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "HIDROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "IACIARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "MARA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "MONTE ALEGRE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA CRIXAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "OUVIDOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRES DO RIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTO ANTONIO DO DESCOBERTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "GO",
+        "city": "TRES RANCHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "TURVANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO GAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "VALPARAISO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "CASTELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-17T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALOANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "MARZAGAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO LUIS DE MONTES BELOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO LUIZ DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRISTIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "PARANAIGUARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "BOM JARDIM DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "BURITI ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "DIVINOPOLIS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANESIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOUVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAJA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO JOAO D`ALIANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "FAINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "MOZARLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "ARENOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "BRITANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO PLANALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANDIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-02T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO PLANALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-03T03:00:00.000Z",
+        "state": "GO",
+        "city": "COCALZINHO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "URUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "PALMEIRAS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-09T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORUMBA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-10T03:00:00.000Z",
+        "state": "GO",
+        "city": "CUMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "CUMARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANESIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "CERES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "MORRINHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA VENEZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "PADRE BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIALMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "CRISTALINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "POSSE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITARUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "CEZARINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "NIQUELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "ANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAVALCANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "INHUMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "POSSE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "URUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAIAPONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "JARAGUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "ANAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "FORMOSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-01T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO LUIZ DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-03T03:00:00.000Z",
+        "state": "GO",
+        "city": "NEROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "FORMOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO DOMINGOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIO VERDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "GO",
+        "city": "TURVELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "ARAGARCAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "BOM JESUS DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORUMBAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVO PLANALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO DOMINGOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "GO",
+        "city": "URUTAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAPIRAPUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-11T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAPACI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ABADIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALTO PARAISO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ARAGUAPAZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "BARRO ALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "BURITI ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACHOEIRA ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAIAPONIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "CALDAZINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAVALCANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "FAZENDA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANESIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "IPAMERI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITABERAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITARUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAUCU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "IVOLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "JANDAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "JATAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "JOVIANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "LEOPOLDO DE BULHOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "MONTE ALEGRE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "MONTIVIDIU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "NIQUELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA AURORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA GLORIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "PADRE BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "PARAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "PIRACANJUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "QUIRINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "RUBIATABA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANCLERLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA ROSA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "TRES RANCHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "VARJAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "BOM JARDIM DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-18T03:00:00.000Z",
+        "state": "GO",
+        "city": "SANTA HELENA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-19T03:00:00.000Z",
+        "state": "GO",
+        "city": "VIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "CATALAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "CHAPADAO DO CEU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-21T03:00:00.000Z",
+        "state": "GO",
+        "city": "CROMINIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "CHAPADAO DO CEU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "GO",
+        "city": "MUNDO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-23T03:00:00.000Z",
+        "state": "GO",
+        "city": "CABECEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "NAZARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "PORANGATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-26T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPINORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-28T03:00:00.000Z",
+        "state": "GO",
+        "city": "APORE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "MORRINHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-30T03:00:00.000Z",
+        "state": "GO",
+        "city": "ITAPACI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "GO",
+        "city": "TRINDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-02T03:00:00.000Z",
+        "state": "GO",
+        "city": "LEOPOLDO DE BULHOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-02T03:00:00.000Z",
+        "state": "GO",
+        "city": "MARA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "CERES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "GO",
+        "city": "RIALMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALVORADA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "CAMPO ALEGRE DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORUMBA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "FAINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "FIRMINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "JARAGUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "PETROLINA DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO FRANCISCO DE GOIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-12T03:00:00.000Z",
+        "state": "GO",
+        "city": "IPAMERI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "SILVANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "GO",
+        "city": "URUANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ALEXANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "CALDAS NOVAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "ORIZONA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "GO",
+        "city": "PORANGATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "CACHOEIRA ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "GO",
+        "city": "CORREGO DO OURO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-25T03:00:00.000Z",
+        "state": "GO",
+        "city": "FORMOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANESIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-27T03:00:00.000Z",
+        "state": "GO",
+        "city": "NOVA GLORIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "DOVERLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO MIGUEL DO ARAGUAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "SAO MIGUEL DO PASSA QUATRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "GO",
+        "city": "TAQUARAL DE GOIÁS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-10-16T03:00:00.000Z",
+        "state": "GO",
+        "city": "GOIANIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-10-20T03:00:00.000Z",
+        "state": "GO",
+        "city": "FAZENDA NOVA",
+        "type": "Permanente"
+    }
+]
