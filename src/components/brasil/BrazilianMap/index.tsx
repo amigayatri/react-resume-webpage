@@ -12,7 +12,7 @@ import {
 } from "./BrazilianMap.styled"
 import palettesMap from "../../../constants/palettes"
 import singlePath from "../../../../public/brazil-map-paths/single.json"
-
+import { checkContrast } from "../../../lib/rgb"
 import { ChangeEvent, useState } from "react"
 import { useTranslation } from "react-i18next"
 import MulticoloredName from "../../common/MulticoloredName"
@@ -24,15 +24,6 @@ const divisionMap = new Map([
 	["UF", "../../../../brazil-map-paths/uf.json"],
 	["region", "../../../../brazil-map-paths/region.json"],
 	["single", "../../../../brazil-map-paths/single.json"]
-])
-
-const divisionNames = new Map([
-	["UF", "Estados"],
-	["single", "País"],
-	["region", "Regiões"],
-	["meso", "Mesoregiões"],
-	["micro", "Microregiões"],
-	["cities", "Cidades"]
 ])
 
 const divisionPaths = new Map([["single", singlePath]])
@@ -142,10 +133,14 @@ const BrazilianMap = () => {
 		}
 	}
 	const cleanColors = (newColors: string[]) => {
-		const asSet = new Set(newColors)
-		const toRemove = ["#FFFFFF", "#000000", theme.background]
-		for (const color of toRemove) asSet.delete(color)
-		return Array.from(asSet)
+		const cleanToUse = []
+		const { background } = theme
+		for (const color of newColors) {
+			if (checkContrast(background, color) === true) {
+				cleanToUse.push(color)
+			}
+		}
+		return cleanToUse
 	}
 	const handleChangeColors = (newColors: string[]) => {
 		if (newColors.length === 0) return
