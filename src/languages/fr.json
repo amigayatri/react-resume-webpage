@@ -7,17 +7,32 @@
     "title": "Test des bibliothèques 3D"
   },
   "brazilianHolidays": {
+    "addMunicipal": "Ajouter des jours fériés de {{cityName}}, {{stateName}}",
+    "description": {
+      "extended": "Long week-end",
+      "midweek": "Pendant la semaine",
+      "weekends": "Le week-end"
+    },
     "element": {
-      "name": "{{holidayName}} vacances",
       "onWeekend": {
         "false": "Pendant la semaine",
         "true": "Le week-end"
       }
     },
     "list": {
-      "title": "Vacances brésiliennes"
+      "year": "{{yearNumber}} Jours fériés"
     },
+    "open": {
+      "false": "Choisissez une ville",
+      "true": "Fermer le sélecteur de ville"
+    },
+    "tabs": {
+      "next": "L'année prochaine",
+      "this": "Cette année"
+    },
+    "title": "Vacances brésiliennes",
     "types": {
+      "municipal": "Municipal",
       "national": "National"
     }
   },
@@ -122,7 +137,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "Icône de cube 3D",
       "calendar": "Icône de calendrier",
       "chart": "Icône de graphique",
       "code": "Icône de deux accolades",
@@ -130,16 +144,21 @@
       "email": "Icône de courrier",
       "external": "Symbole de lien externe",
       "github": "Icône GitHub",
+      "happy": "Icône de visage heureux",
       "home": "Icône Accueil",
       "leetcode": "Icône LeetCode",
       "linkedin": "Icône Linkedin",
       "mail": "Icône de courrier électronique",
+      "map": "Icône de carte",
       "moon": "Icône de la lune",
       "more": "Icône Plus de pages",
       "palette": "Icône de la palette de couleurs",
       "person": "Icône de personne",
       "phone": "Icône de téléphone",
+      "sad": "Icône de visage triste",
       "sun": "Icône Soleil",
+      "superhappy": "Icône de visage très heureux",
+      "threed": "Icône de cube 3D",
       "website": "Une icône de site Web"
     }
   },

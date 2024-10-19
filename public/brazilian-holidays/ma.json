@@ -1,0 +1,2906 @@
+[
+    {
+        "date": "2024-10-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "BREJO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO MATEUS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORIA DO MEARIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR NUNES FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "IMPERATRIZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMON",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAROLINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "LORETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "AMARANTE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "COROATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMBIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-25T03:00:00.000Z",
+        "state": "MA",
+        "city": "HUMBERTO DE CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-25T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO CARU",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "ICATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRANDA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "COELHO NETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESPERANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR EUGENIO BARROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "LIMA CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "PORTO FRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORINO FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACABAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS GONZAGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-09T03:00:00.000Z",
+        "state": "MA",
+        "city": "APICUM ACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALTO ALEGRE DO PINDARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "APICUM ACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITICUPU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAMPESTRE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "DAVINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORMOSA DA SERRA NEGRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR NUNES FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITINGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "MARACACUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "NOVA OLINDA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO CARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR ALEXANDRE COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR LA ROCQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "TRIZIDELA DO VALE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "VILA NOVA DOS MARTIRIOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR LA ROCQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACURI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "PIO XII",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALTO ALEGRE DO PINDARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "BEQUIMAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "COLINAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "DAVINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "PENALVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "PERITORO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINDARE MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO FRANCISCO DO BREJAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS GONZAGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "PERITORO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARNARAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MARACACUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "LAGO VERDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "BOM JARDIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAMPESTRE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "CODO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITAPECURU MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "OLHO D`AGUA DAS CUNHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-02T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-03T03:00:00.000Z",
+        "state": "MA",
+        "city": "MONCAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-03T03:00:00.000Z",
+        "state": "MA",
+        "city": "TURIACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-06T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALDEIAS ALTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAIOSES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARAO DE GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARRA DO CORDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARREIRINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "BREJO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANDIDO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANTANHEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAXIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "COELHO NETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "COLINAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "DOM PEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "DUQUE BACELAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "HUMBERTO DE CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "ICATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "IGARAPE GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "MARACACUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRANDA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARNARAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "PAULO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "PORTO FRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE SARNEY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "ROSARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO VICENTE FERRER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SITIO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "TASSO FRAGOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUTOIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "VIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-09T03:00:00.000Z",
+        "state": "MA",
+        "city": "DOM PEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA DO PARUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "SITIO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOSE DE RIBAMAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "TASSO FRAGOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALCANTARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "JOAO LISBOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "MONTES ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMON",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO MATEUS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTALEZA DOS NOGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "GONCALVES DIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-02T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACURI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARAIBANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "PASSAGEM FRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "PACO DO LUMIAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO FRANCISCO DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "LIMA CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-17T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-18T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "AMARANTE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAIOSES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "CARUTAPERA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "CODO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESTREITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR ARCHER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "IGARAPE GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "PASSAGEM FRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "PAULO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "POCAO DE PEDRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE DUTRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMBIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "VARGEM GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRINZAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO RAIMUNDO DAS MANGABEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALDEIAS ALTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "PAULO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "LAGO VERDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI BRAVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR EUGENIO BARROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATA ROMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "BOM JARDIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRANDA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAXIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "DUQUE BACELAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "HUMBERTO DE CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "LAGO DA PEDRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "PASTOS BONS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOSE DE RIBAMAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMON",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "BALSAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-23T03:00:00.000Z",
+        "state": "MA",
+        "city": "COLINAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAIOSES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARAO DE GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARREIRINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "CHAPADINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "LORETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRADOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUTOIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "VARGEM GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-02T03:00:00.000Z",
+        "state": "MA",
+        "city": "PORTO FRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-05T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO VICENTE FERRER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-05T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMBIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-06T03:00:00.000Z",
+        "state": "MA",
+        "city": "ROSARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "COROATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "COLINAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARNARAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "CODO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-17T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACABAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "AMARANTE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORIA DO MEARIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANTANHEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINHEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE SARNEY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "PEDREIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACURI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "RIACHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-02T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANDIDO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-03T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARRA DO CORDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "PASSAGEM FRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO FRANCISCO DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESTREITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORINO FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALTO PARNAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMBIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "GONCALVES DIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "LORETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "ROSARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-02T03:00:00.000Z",
+        "state": "MA",
+        "city": "IGARAPE GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-03T03:00:00.000Z",
+        "state": "MA",
+        "city": "CARUTAPERA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-06T03:00:00.000Z",
+        "state": "MA",
+        "city": "ACAILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "URBANO SANTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-12T03:00:00.000Z",
+        "state": "MA",
+        "city": "BALSAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-12T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DOS PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-12T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS GONZAGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "BALSAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARAO DE GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "BEQUIMAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "BREJO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI BRAVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "DAVINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "PAULO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTO ANTONIO DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "TRIZIDELA DO VALE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MA",
+        "city": "ZE DOCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARREIRINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "BEQUIMAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE SARNEY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS GONZAGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALDEIAS ALTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "CHAPADINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "CURURUPU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORMOSA DA SERRA NEGRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO CARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DOS PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "VILA NOVA DOS MARTIRIOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORIA DO MEARIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "COLINAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESPERANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR NUNES FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "LIMA CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE DUTRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAIOSES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACABAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARRA DO CORDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANDIDO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAXIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "COELHO NETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "CURURUPU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "DOM PEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "DUQUE BACELAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR ARCHER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "HUMBERTO DE CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "ICATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "LIMA CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRANDA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "PACO DO LUMIAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARNARAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "PEDREIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINDARE MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "PIO XII",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "POCAO DE PEDRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "ROSARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA DO PARUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA QUITERIA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTO ANTONIO DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOSE DE RIBAMAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO VICENTE FERRER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUTOIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MA",
+        "city": "VARGEM GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-05T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALCANTARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-05T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI BRAVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAROLINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "VIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "BREJO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRADOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "TURIACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESTREITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "IMPERATRIZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "MONCAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "TASSO FRAGOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANTANHEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITAPECURU MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALDEIAS ALTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "ANAJATUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "MA",
+        "city": "DAVINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "COELHO NETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "HUMBERTO DE CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "MONTES ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "MA",
+        "city": "PIO XII",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ACAILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALCANTARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALDEIAS ALTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALTO ALEGRE DO PINDARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALTO PARNAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "AMARANTE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ANAJATUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "APICUM ACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAIOSES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARAME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "AXIXA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACABAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BACURI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BALSAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARAO DE GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARRA DO CORDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BARREIRINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BEQUIMAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BOM JARDIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BOM JESUS DAS SELVAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BREJO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITI BRAVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "BURITICUPU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAMPESTRE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANDIDO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANTANHEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAROLINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CARUTAPERA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAXIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CHAPADINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CIDELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CODO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "COELHO NETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "COROATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "CURURUPU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "DAVINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "DOM PEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "DUQUE BACELAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESPERANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESTREITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORMOSA DA SERRA NEGRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTALEZA DOS NOGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "GONCALVES DIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR ARCHER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR EUGENIO BARROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR NUNES FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "GUIMARAES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ICATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "IGARAPE GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "IMPERATRIZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITAPECURU MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITINGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "JOAO LISBOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "LAGO DA PEDRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "LAGO VERDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "LAJEADO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "LIMA CAMPOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "LORETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MARACACUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATA ROMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MATOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRADOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRANDA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRINZAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MONCAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "MONTES ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "NOVA OLINDA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "OLHO D`AGUA DAS CUNHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PACO DO LUMIAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARAIBANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARNARAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PASSAGEM FRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PASTOS BONS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PAULO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PEDREIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PENALVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PERITORO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINDARE MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINHEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PIO XII",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "POCAO DE PEDRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PORTO FRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE DUTRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "PRESIDENTE SARNEY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "RIACHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ROSARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA LUZIA DO PARUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA QUITERIA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTO ANTONIO DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENEDITO DO RIO PRETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO DOMINGOS DO AZEITAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO DOMINGOS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO FRANCISCO DO BREJAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO FRANCISCO DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO CARU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DOS PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOSE DE RIBAMAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS GONZAGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO MATEUS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO RAIMUNDO DAS MANGABEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO VICENTE FERRER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR ALEXANDRE COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR LA ROCQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "SITIO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TASSO FRAGOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMBIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMON",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TRIZIDELA DO VALE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUNTUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TURIACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TURILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUTOIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "URBANO SANTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "VARGEM GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "VIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "VILA NOVA DOS MARTIRIOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORIA DO MEARIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORINO FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "ZE DOCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "JOAO LISBOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINHEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-01T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAXIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTALEZA DOS NOGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTALEZA DOS NOGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITINGA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "CODO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-10T03:00:00.000Z",
+        "state": "MA",
+        "city": "PENALVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-11T03:00:00.000Z",
+        "state": "MA",
+        "city": "PIO XII",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "ESPERANTINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "LORETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "MIRADOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "PARAIBANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENEDITO DO RIO PRETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO DOMINGOS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR LA ROCQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "MA",
+        "city": "TIMON",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-18T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-19T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-20T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO BERNARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "VARGEM GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORINO FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-27T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO VICENTE FERRER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-28T03:00:00.000Z",
+        "state": "MA",
+        "city": "FORTALEZA DOS NOGUEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO RAIMUNDO DAS MANGABEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "CAMPESTRE DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "GOVERNADOR EUGENIO BARROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO RAIMUNDO DAS MANGABEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "SENADOR ALEXANDRE COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUNTUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-01T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOAO DO PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-01T03:00:00.000Z",
+        "state": "MA",
+        "city": "VILA NOVA DOS MARTIRIOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-03T03:00:00.000Z",
+        "state": "MA",
+        "city": "PINHEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-05T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORIA DO MEARIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "ALTO PARNAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "DOM PEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "RIACHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA QUITERIA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO LUIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUTOIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "URBANO SANTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "MA",
+        "city": "VIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-09T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA QUITERIA DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-12T03:00:00.000Z",
+        "state": "MA",
+        "city": "TUNTUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "ARARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "MA",
+        "city": "GRAJAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "CHAPADINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "MA",
+        "city": "ITAPECURU MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-21T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO MATEUS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "CANTANHEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO DOMINGOS DO MARANHAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "MA",
+        "city": "SAO JOSE DE RIBAMAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-25T03:00:00.000Z",
+        "state": "MA",
+        "city": "VITORINO FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "MA",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2047-07-17T03:00:00.000Z",
+        "state": "MA",
+        "city": "TASSO FRAGOSO",
+        "type": "Permanente"
+    }
+]

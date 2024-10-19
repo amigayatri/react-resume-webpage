@@ -1,0 +1,2930 @@
+[
+    {
+        "date": "2024-10-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "PORTO BELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "TREZE TILIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO PEDRO DE ALCANTARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "SC",
+        "city": "BRACO DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRANI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "SC",
+        "city": "FORMOSA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAIOPOLIS",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "ALFREDO WAGNER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANGELINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANITAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARABUTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JESUS DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM RETIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "CUNHA PORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMBUIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRACEMINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "LEOBERTO LEAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "MARAVILHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "MODELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONDAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMITOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "PETROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "POMERODE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE CASTELO BRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIQUEZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "ROMELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA TEREZINHA DO PROGRESSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOMBINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "MATOS COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAULO LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO CARLOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANTONIO CARLOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "GOVERNADOR CELSO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPO BELO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "RANCHO QUEIMADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "LACERDOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "MASSARANDUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO MARTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "ABDON BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUAS FRIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-22T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA CECILIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "BELMONTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "OTACILIO COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ZORTEA",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAIOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "MELEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMA SOLA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "CHAPADAO DO LAGEADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "FREI ROGERIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-03T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPO BELO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANITA GARIBALDI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "CRICIUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "FORQUILHINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAURO MULLER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "SIDEROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANGELINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "BARRA VELHA",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "ABDON BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUAS MORNAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANITAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "AURORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAIBI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPO ERE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAPAO ALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CELSO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CURITIBANOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "FRAIBURGO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMBITUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRATI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "LINDOIA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "LUIS ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "MARACAJA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONTE CARLO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "PERITIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO DOS CEDROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "ROMELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA TEREZINHA DO PROGRESSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO BONIFACIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO MARTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUSSANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "VARGEM BONITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "VIDEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "LEOBERTO LEAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "PASSOS MAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE NEREU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO RUFINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIQUEZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANCHIETA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUAS DE CHAPECO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO PICARRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAXAMBU DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARROIO TRINTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALTO VELOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "DESCANSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO GAIVOTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANGAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "LEBON REGIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "GARUVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "TREZE DE MAIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "CANELINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGRONOMICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "BRACO DO TROMBUDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "DONA EMMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "IBIRAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "ICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "INDAIAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITUPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "JAGUARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONTE CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "POUSO REDONDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE GETULIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "SIDEROPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "TROMBUDO CENTRAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "VITOR MEIRELES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "WITMARSUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-28T03:00:00.000Z",
+        "state": "SC",
+        "city": "NOVA ERECHIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUAS MORNAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANITAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO ARROIO DO SILVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO GAIVOTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "BRUNOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "GRAVATAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "PEDRAS GRANDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALETE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO BONIFACIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "ZORTEA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "MODELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMA SOLA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAULO LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "PINHALZINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAUDADES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "FRAIBURGO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "LONTRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA ROSA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "UNIAO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "CRICIUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARVOREDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO BARRA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "BELMONTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "FORMOSA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRATI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM RETIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTO AMARO DA IMPERATRIZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "ABELARDO LUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANITAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARVOREDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO GAIVOTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JARDIM DA SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "CATANDUVAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "ERVAL VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "JOSE BOITEUX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAURO MULLER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAPANDUVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "SOMBRIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "TIJUCAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "MAJOR VIEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO PICARRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "CELSO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO ARROIO DO SILVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO BARRA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO RINCAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOMBINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAGUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONDAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "NAVEGANTES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "OURO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "XAVANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-03T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUBICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE CASTELO BRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAIAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANGELINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "CUNHA PORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "ENTRE RIOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "MAJOR GERCINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "TAIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPIRANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO MIGUEL D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALTO VELOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-17T03:00:00.000Z",
+        "state": "SC",
+        "city": "VIDAL RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "PIRATUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "TANGARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "XAXIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "XANXERE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "VIDEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMITOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-05T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JARDIM DA SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "JOINVILLE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "IBIRAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "DIONISIO CERQUEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "RODEIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOMBINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "CATANDUVAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPO ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "GASPAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "ATALANTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOTUVERA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "BRUNOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOSE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOSE DO CEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "TIMBO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "TREZE DE MAIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANCHIETA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "JARDINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "TURVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "INDAIAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "FLORIANOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "CACADOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPOS NOVOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAPIVARI DE BAIXO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "IBICARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "MORRO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANGAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO CRISTOVAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "VARGEM BONITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-31T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-03T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARARANGUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-03T03:00:00.000Z",
+        "state": "SC",
+        "city": "SEARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-05T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARAQUARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-05T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMBORIU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "ASCURRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "GALVAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPUMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "OURO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO DOMINGOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAPANDUVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO FRANCISCO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "BELA VISTA DO TOLDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "MATOS COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "PASSOS MAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALHOCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO NEGRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO FORTUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "ABDON BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "CELSO RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "FORQUILHINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRACEMINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "LINDOIA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "MAREMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "MORRO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "SERRA ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "TIMBO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "TUNAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "VITOR MEIRELES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-03T03:00:00.000Z",
+        "state": "SC",
+        "city": "CANOINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARARANGUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAQUIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA ROSA DE LIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "MARACAJA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "JUPIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "NOVA ERECHIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "TREZE DE MAIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONTE CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-17T03:00:00.000Z",
+        "state": "SC",
+        "city": "BIGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-17T03:00:00.000Z",
+        "state": "SC",
+        "city": "DONA EMMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "PINHEIRO PRETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "MORRO DA FUMACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO BERNARDINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO GAIVOTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ABELARDO LUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGRONOMICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "BELMONTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "GUARACIABA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUSSANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "TUBARAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "APIUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "DOUTOR PEDRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPORA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-01T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUPEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-05T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO BONIFACIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGRONOMICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "AURORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAIBI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOTUVERA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "SC",
+        "city": "GUABIRUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUBICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "CURITIBANOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "MAREMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAURENTINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMBUIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "JARDINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAGUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "LEBON REGIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAPANDUVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "PONTE SERRADA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO DAS ANTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "SOMBRIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "TANGARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "SC",
+        "city": "TIJUCAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMARUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAJAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "WITMARSUM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "ERVAL VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "ILHOTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "NOVA VENEZA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO FORTUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA CECILIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "XAXIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPOS NOVOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAPIVARI DE BAIXO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "GARUVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "GRAO PARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMARUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRANI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "MATOS COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "SC",
+        "city": "TRES BARRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JARDIM DA SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM RETIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO BARRA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONTE CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "PASSO DE TORRES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOSE DO CERRITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "VARGEAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "ALTO BELA VISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAIAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "CORUPA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "TREVISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-09T03:00:00.000Z",
+        "state": "SC",
+        "city": "NOVA TRENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-10T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTO AMARO DA IMPERATRIZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARROIO TRINTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "CORREIA PINTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "TURVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "LUIS ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JESUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JESUS DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "ENTRE RIOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "JUPIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "PENHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRAIA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA TEREZINHA DO PROGRESSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO BERNARDINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO BATISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO CAMBORIU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "CUNHA PORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "FREI ROGERIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "GRAO PARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "SC",
+        "city": "TROMBUDO CENTRAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "JACINTO MACHADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUA DOCE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUAS DE CHAPECO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUAS FRIAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANCHIETA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARVOREDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ATALANTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JESUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "CORONEL MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "FORMOSA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "GUARACIABA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "GUARUJA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPORA DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRACEMINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ITAPIRANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "JARAGUA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "JARDINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "LEOBERTO LEAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "LINDOIA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "LONTRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "PAIAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMA SOLA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMITOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE CASTELO BRANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE NEREU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "ROMELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA TEREZINHA DO PROGRESSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO CARLOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO CRISTOVAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOAO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "SEARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "TUNAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "UNIAO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "VIDAL RAMOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "XAVANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "FAXINAL DOS GUEDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "GAROPABA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "PONTE ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO LOURENCO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUPEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "ABELARDO LUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAMPO ERE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "MARAVILHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "PONTE SERRADA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "RIO DAS ANTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO JOSE DO CEDRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-28T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRINEOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "CONCORDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-04T03:00:00.000Z",
+        "state": "SC",
+        "city": "BRUSQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "ALFREDO WAGNER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARAQUARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "BOM JESUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRINEOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "MAJOR GERCINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "PESCARIA BRAVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "PETROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "PORTO BELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "XANXERE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-07T03:00:00.000Z",
+        "state": "SC",
+        "city": "ICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAIBI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "NOVA TRENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO DOMINGOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "AGUA DOCE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "ANGELINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "ARMAZEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "BELA VISTA DO TOLDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "DESCANSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "IPIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAGES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "LAURO MULLER",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "MELEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "PALMEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "PERITIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "PRESIDENTE NEREU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "URUBICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "MORRO DA FUMACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "PETROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "SC",
+        "city": "TIMBE DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-18T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA HELENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-21T03:00:00.000Z",
+        "state": "SC",
+        "city": "PARAISO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "SC",
+        "city": "RANCHO QUEIMADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA ROSA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "CHAPECO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "HERVAL D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "JOACABA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "LUZERNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "SC",
+        "city": "UNIAO DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "NAVEGANTES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-27T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMARUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-28T03:00:00.000Z",
+        "state": "SC",
+        "city": "GUARAMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "ORLEANS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "SANTA ROSA DE LIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-02T03:00:00.000Z",
+        "state": "SC",
+        "city": "BLUMENAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-05T03:00:00.000Z",
+        "state": "SC",
+        "city": "PORTO UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-06T03:00:00.000Z",
+        "state": "SC",
+        "city": "MATOS COSTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "COCAL DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "MAFRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "PONTE ALTA DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO FRANCISCO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-10T03:00:00.000Z",
+        "state": "SC",
+        "city": "IMBUIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "IRANI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-11T03:00:00.000Z",
+        "state": "SC",
+        "city": "JABORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-12T03:00:00.000Z",
+        "state": "SC",
+        "city": "CANOINHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "SC",
+        "city": "MORRO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "JAGUARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "SC",
+        "city": "TUBARAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-19T03:00:00.000Z",
+        "state": "SC",
+        "city": "SALETE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO ARROIO DO SILVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "BALNEARIO GAIVOTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-20T03:00:00.000Z",
+        "state": "SC",
+        "city": "PONTE ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "ROMELANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO BENTO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-23T03:00:00.000Z",
+        "state": "SC",
+        "city": "TIMBE DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "BRACO DO TROMBUDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "CERRO NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "COCAL DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "MONTE CARLO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "NOVA ITABERABA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "PASSO DE TORRES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "SC",
+        "city": "SUL BRASIL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAPAO ALTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "GALVAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "PEDRAS GRANDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "SC",
+        "city": "SAO MIGUEL D`OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "SC",
+        "city": "CAXAMBU DO SUL",
+        "type": "Permanente"
+    }
+]

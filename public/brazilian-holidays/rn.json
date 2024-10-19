@@ -1,0 +1,944 @@
+[
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "JUCURUTU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "RN",
+        "city": "SERRA DO MEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "CURRAIS NOVOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "ACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO JOSE DE MIPIBU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "FLORANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "RN",
+        "city": "AREIA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "ANGICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-25T03:00:00.000Z",
+        "state": "RN",
+        "city": "CARNAUBA DOS DANTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "AFONSO BEZERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "MACAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTANA DO MATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "JOAO CAMARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO GONCALO DO AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO TOME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "RN",
+        "city": "MONTE ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "RN",
+        "city": "ALEXANDRIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "PARELHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-09T03:00:00.000Z",
+        "state": "RN",
+        "city": "GOIANINHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "RN",
+        "city": "CARAUBAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-10T03:00:00.000Z",
+        "state": "RN",
+        "city": "MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-21T03:00:00.000Z",
+        "state": "RN",
+        "city": "NATAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-21T03:00:00.000Z",
+        "state": "RN",
+        "city": "PATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-25T03:00:00.000Z",
+        "state": "RN",
+        "city": "MONTE ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "AFONSO BEZERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "BARAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "FLORANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "UMARIZAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO MIGUEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-03T03:00:00.000Z",
+        "state": "RN",
+        "city": "LAJES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-03T03:00:00.000Z",
+        "state": "RN",
+        "city": "NOVA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-03T03:00:00.000Z",
+        "state": "RN",
+        "city": "UPANEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "ALEXANDRIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "APODI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "AREIA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "CANGUARETAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "CEARA-MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "CURRAIS NOVOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "GUAMARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "JARDIM DO SERIDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "JOAO CAMARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "LAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "LAJES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "MACAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "MACAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "NOVA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "PAU DOS FERROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTO ANTONIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO TOME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "RN",
+        "city": "UPANEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "CARNAUBA DOS DANTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO GONCALO DO AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO MIGUEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "RN",
+        "city": "FLORANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "MOSSORO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "NOVA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTANA DO MATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "TANGARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "BARAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "CAICO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-17T03:00:00.000Z",
+        "state": "RN",
+        "city": "PARNAMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-18T03:00:00.000Z",
+        "state": "RN",
+        "city": "NISIA FLORESTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-23T03:00:00.000Z",
+        "state": "RN",
+        "city": "IPANGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-23T03:00:00.000Z",
+        "state": "RN",
+        "city": "JARDIM DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-23T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO AVELINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-23T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO JOSE DO CAMPESTRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-30T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO PAULO DO POTENGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "RN",
+        "city": "TANGARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-02T03:00:00.000Z",
+        "state": "RN",
+        "city": "LAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-02T03:00:00.000Z",
+        "state": "RN",
+        "city": "TOUROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "RN",
+        "city": "CANGUARETAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "RN",
+        "city": "MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "RN",
+        "city": "NATAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO JOSE DO CAMPESTRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO PAULO DO POTENGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "CARAUBAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "FLORANIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "GOVERNADOR DIX-SEPT ROSADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "GUAMARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "JUCURUTU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "NOVA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "RN",
+        "city": "PARELHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-25T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO PAULO DO POTENGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-28T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO GONCALO DO AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "IPANGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-18T03:00:00.000Z",
+        "state": "RN",
+        "city": "NISIA FLORESTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-05T03:00:00.000Z",
+        "state": "RN",
+        "city": "CARAUBAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-10T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTANA DO MATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "RN",
+        "city": "ANGICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "RN",
+        "city": "CARNAUBA DOS DANTAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO JOSE DO CAMPESTRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-23T03:00:00.000Z",
+        "state": "RN",
+        "city": "APODI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-25T03:00:00.000Z",
+        "state": "RN",
+        "city": "ALTO DO RODRIGUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "TOUROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-28T03:00:00.000Z",
+        "state": "RN",
+        "city": "ALTO DO RODRIGUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "RN",
+        "city": "EXTREMOZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "RN",
+        "city": "GOVERNADOR DIX-SEPT ROSADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "RN",
+        "city": "TIBAU DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "ACARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "CANGUARETAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-25T03:00:00.000Z",
+        "state": "RN",
+        "city": "JARDIM DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-27T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-03T03:00:00.000Z",
+        "state": "RN",
+        "city": "EXTREMOZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-03T03:00:00.000Z",
+        "state": "RN",
+        "city": "LAJES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-07T03:00:00.000Z",
+        "state": "RN",
+        "city": "GUAMARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "RN",
+        "city": "SERRA DO MEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "RN",
+        "city": "SERRA DO MEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "PARNAMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "SERRA DO MEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "CANGUARETAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTO ANTONIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "RN",
+        "city": "TIBAU DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "ACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "APODI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "LAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "PARELHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO JOSE DO CAMPESTRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO MIGUEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "CEARA-MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "NOVA CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO AVELINO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "PEDRO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO PAULO DO POTENGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "TOUROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-05T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTO ANTONIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-12T03:00:00.000Z",
+        "state": "RN",
+        "city": "GOVERNADOR DIX-SEPT ROSADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "CANGUARETAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "RN",
+        "city": "CAMPO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "RN",
+        "city": "CURRAIS NOVOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTANA DO MATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO JOSE DE MIPIBU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-30T03:00:00.000Z",
+        "state": "RN",
+        "city": "CEARA-MIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "RN",
+        "city": "SANTANA DO MATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "ACARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "AREIA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "MACAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-01T03:00:00.000Z",
+        "state": "RN",
+        "city": "JARDIM DO SERIDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "RN",
+        "city": "CAMPO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "RN",
+        "city": "PAU DOS FERROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-05T03:00:00.000Z",
+        "state": "RN",
+        "city": "CAMPO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-05T03:00:00.000Z",
+        "state": "RN",
+        "city": "TOUROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-09T03:00:00.000Z",
+        "state": "RN",
+        "city": "MACAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "JARDIM DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "RN",
+        "city": "PATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-16T03:00:00.000Z",
+        "state": "RN",
+        "city": "UPANEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-25T03:00:00.000Z",
+        "state": "RN",
+        "city": "PATU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "EXTREMOZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "JUCURUTU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "RN",
+        "city": "SAO MIGUEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "RN",
+        "city": "GOVERNADOR DIX-SEPT ROSADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "RN",
+        "city": "MOSSORO",
+        "type": "Permanente"
+    }
+]

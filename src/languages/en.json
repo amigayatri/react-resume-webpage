@@ -7,17 +7,32 @@
     "title": "3D libs testing"
   },
   "brazilianHolidays": {
+    "addMunicipal": "Add holidays from {{cityName}}, {{stateName}}",
+    "description": {
+      "extended": "Long weekend",
+      "midweek": "During the week",
+      "weekends": "On the weekend"
+    },
     "element": {
-      "name": "{{holidayName}} holiday",
       "onWeekend": {
         "false": "During the week",
         "true": "On the weekend"
       }
     },
     "list": {
-      "title": "Brazilian holidays"
+      "year": "{{yearNumber}} Holidays"
     },
+    "open": {
+      "false": "Choose a city",
+      "true": "Close city selector"
+    },
+    "tabs": {
+      "next": "Next year",
+      "this": "This year"
+    },
+    "title": "Brazilian holidays",
     "types": {
+      "municipal": "Municipal",
       "national": "National"
     }
   },
@@ -122,7 +137,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "3D cube icon",
       "calendar": "Calendar icon",
       "chart": "Chart icon",
       "code": "Two curly brackets icon",
@@ -130,16 +144,21 @@
       "email": "Mail icon",
       "external": "External link symbol",
       "github": "GitHub icon",
+      "happy": "Happy face icon",
       "home": "Home icon",
       "leetcode": "LeetCode icon",
       "linkedin": "Linkedin Icon",
       "mail": "E-mail Icon",
+      "map": "Map icon",
       "moon": "Moon Icon",
       "more": "More pages icon",
       "palette": "Color palette icon",
       "person": "Person icon",
       "phone": "Phone Icon",
+      "sad": "Sad face icon",
       "sun": "Sun Icon",
+      "superhappy": "Very happy face icon",
+      "threed": "3D cube icon",
       "website": "A Website Icon"
     }
   },

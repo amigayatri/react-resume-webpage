@@ -7,17 +7,32 @@
     "title": "3D libs jesareko"
   },
   "brazilianHolidays": {
+    "addMunicipal": "Emoĩve arete {{cityName}}, {{stateName}} guive.",
+    "description": {
+      "extended": "Fin de semana pukukue",
+      "midweek": "Arapokõindy aja",
+      "weekends": "Arapokõindy pahápe"
+    },
     "element": {
-      "name": "{{fiesta réra}} arete",
       "onWeekend": {
         "false": "Arapokõindy aja",
         "true": "Arapokõindy pahápe"
       }
     },
     "list": {
-      "title": "Ára guasu Brasil-pegua"
+      "year": "{{añoNumber}} Ary guasu"
     },
+    "open": {
+      "false": "Eiporavo peteĩ táva",
+      "true": "Omboty táva poravohára"
+    },
+    "tabs": {
+      "next": "Ambue arýpe",
+      "this": "Ko arýpe"
+    },
+    "title": "Ára guasu Brasil-pegua",
     "types": {
+      "municipal": "Municipal rehegua",
       "national": "Tetãygua"
     }
   },
@@ -122,7 +137,6 @@
   },
   "icons": {
     "alt": {
-      "3d": "Icono cubo 3D rehegua",
       "calendar": "Icono calendario rehegua",
       "chart": "Gráfico icono rehegua",
       "code": "Mokõi soporte rizado icono",
@@ -130,16 +144,21 @@
       "email": "Correo rehegua icono",
       "external": "Símbolo enlace okapegua",
       "github": "GitHub techaukaha",
+      "happy": "Vy'a rova ​​icono",
       "home": "Hogar icono",
       "leetcode": "LeetCode techaukaha",
       "linkedin": "Linkedin Icono rehegua",
       "mail": "Correo electrónico Icono rehegua",
+      "map": "Mapa icono",
       "moon": "Jasy Icono",
       "more": "Hetave página icono",
       "palette": "Icono paleta de color rehegua",
       "person": "Tapicha icono",
       "phone": "Teléfono Icono rehegua",
+      "sad": "Hova ñembyasy icono",
       "sun": "Kuarahy Icono",
+      "superhappy": "Ovy'aiterei hova icono",
+      "threed": "Icono cubo 3D rehegua",
       "website": "Peteĩ Icono Página Web rehegua"
     }
   },

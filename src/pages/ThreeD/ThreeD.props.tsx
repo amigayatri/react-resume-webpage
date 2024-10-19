@@ -5,7 +5,7 @@ const ThreeDProps: PageProps = {
 	path: "/3d/",
 	element: ThreeD,
 	id: "3D",
-	icon: "3d",
+	icon: "threed",
 	isHome: false
 }
 

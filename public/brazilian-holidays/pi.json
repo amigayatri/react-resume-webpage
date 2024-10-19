@@ -1,0 +1,1184 @@
+[
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRANCISCO SANTOS",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-16T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRIPIRI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-16T03:00:00.000Z",
+        "state": "PI",
+        "city": "UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "AGUA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ALTO LONGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ANGICAL DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "BARRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "BATALHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "BOM JESUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "BURITI DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "CAMPO MAIOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "CANTO DO BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "CASTELO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "COCAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "CORRENTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "CRISTINO CASTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "CURIMATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "DEMERVAL LOBAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ELESBAO VELOSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ESPERANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "FLORIANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRANCISCO SANTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRONTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "GILBUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "GUADALUPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "INHUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ITAUEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "JAICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOAQUIM PIRES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOSE DE FREITAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUIS CORREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUZILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "MIGUEL ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "OEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PALMEIRAIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PARNAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PAULISTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PEDRO II",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIMENTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIO IX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRACURUCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRIPIRI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "PORTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "REGENERACAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "RIBEIRO GONCALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SANTA CRUZ DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO JOAO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO JOSE DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO MIGUEL DO TAPUIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO PEDRO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO RAIMUNDO NONATO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMPLICIO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "TERESINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "URUCUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "VALENCA DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "PI",
+        "city": "JAICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "PI",
+        "city": "MIGUEL ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-28T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "CURIMATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "ITAUEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-30T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOAQUIM PIRES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "PI",
+        "city": "ITAUEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOSE DE FREITAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "PI",
+        "city": "ANGICAL DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "GUADALUPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "ESPERANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "OEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "SANTA CRUZ DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-02T03:00:00.000Z",
+        "state": "PI",
+        "city": "REGENERACAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "AGUA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "ANGICAL DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "BARRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "BURITI DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "CORRENTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUIS CORREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "OEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "PALMEIRAIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "PEDRO II",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "PORTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "REGENERACAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO PEDRO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "TERESINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-09T03:00:00.000Z",
+        "state": "PI",
+        "city": "DEMERVAL LOBAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "PI",
+        "city": "GUADALUPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "PI",
+        "city": "PICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO JOSE DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "BURITI DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUZILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO RAIMUNDO NONATO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "BATALHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "BOM JESUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "CANTO DO BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "PAULISTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "SANTA CRUZ DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRANCISCO SANTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "CASTELO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "OEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "VALENCA DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-28T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOAQUIM PIRES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-28T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRACURUCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-10T03:00:00.000Z",
+        "state": "PI",
+        "city": "REGENERACAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "ESPERANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "URUCUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-21T03:00:00.000Z",
+        "state": "PI",
+        "city": "JAICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "ESPERANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-10T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUZILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "CAMPO MAIOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "ALTOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "PI",
+        "city": "INHUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-23T03:00:00.000Z",
+        "state": "PI",
+        "city": "AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-25T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO MIGUEL DO TAPUIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOSE DE FREITAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-12T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO JOSE DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-02T03:00:00.000Z",
+        "state": "PI",
+        "city": "COCAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-03T03:00:00.000Z",
+        "state": "PI",
+        "city": "JAICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRONTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "MIGUEL ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-27T03:00:00.000Z",
+        "state": "PI",
+        "city": "COCAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-09T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRONTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRONTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "CAMPO MAIOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "INHUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRACURUCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-21T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO PEDRO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "GUADALUPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIMENTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "RIBEIRO GONCALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO JOAO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-25T03:00:00.000Z",
+        "state": "PI",
+        "city": "PORTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-25T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO RAIMUNDO NONATO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "PALMEIRAIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUIS CORREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "MIGUEL ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO PEDRO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-30T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMPLICIO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-01T03:00:00.000Z",
+        "state": "PI",
+        "city": "AGUA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-02T03:00:00.000Z",
+        "state": "PI",
+        "city": "FLORIANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-04T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRIPIRI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-05T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO JOAO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "FLORIANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "PAULISTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIRACURUCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "ANGICAL DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIMENTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "CANTO DO BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "LUIS CORREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PI",
+        "city": "RIBEIRO GONCALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-31T03:00:00.000Z",
+        "state": "PI",
+        "city": "DEMERVAL LOBAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-04T03:00:00.000Z",
+        "state": "PI",
+        "city": "AMARANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "PI",
+        "city": "ITAUEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "CAMPO MAIOR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIO IX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-11T03:00:00.000Z",
+        "state": "PI",
+        "city": "PEDRO II",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-14T03:00:00.000Z",
+        "state": "PI",
+        "city": "PARNAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "AGUA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "BATALHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "COCAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "CURIMATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "GILBUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "JOSE DE FREITAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "OEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "PAULISTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "PICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PI",
+        "city": "PIO IX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "PI",
+        "city": "TERESINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMOES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "PI",
+        "city": "COCAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "PI",
+        "city": "GUADALUPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO RAIMUNDO NONATO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-31T03:00:00.000Z",
+        "state": "PI",
+        "city": "UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "PI",
+        "city": "BURITI DOS LOPES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "PI",
+        "city": "GILBUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-04T03:00:00.000Z",
+        "state": "PI",
+        "city": "SIMPLICIO MENDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-06T03:00:00.000Z",
+        "state": "PI",
+        "city": "URUCUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "ESPERANTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "FRONTEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "PI",
+        "city": "PARNAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-09T03:00:00.000Z",
+        "state": "PI",
+        "city": "GILBUES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-13T03:00:00.000Z",
+        "state": "PI",
+        "city": "CASTELO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-17T03:00:00.000Z",
+        "state": "PI",
+        "city": "UNIAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-20T03:00:00.000Z",
+        "state": "PI",
+        "city": "VALENCA DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "BARRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "BOM JESUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "JAICOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO PEDRO DO PIAUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "MIGUEL ALVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "PI",
+        "city": "SAO MIGUEL DO TAPUIO",
+        "type": "Permanente"
+    }
+]

@@ -1,0 +1,2276 @@
+[
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAMPINA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRARIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "BANANEIRAS",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-16T03:00:00.000Z",
+        "state": "PB",
+        "city": "BANANEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "JACARAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA SECA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-25T03:00:00.000Z",
+        "state": "PB",
+        "city": "MAMANGUAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "PB",
+        "city": "JUAZEIRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "PB",
+        "city": "CRUZ DO ESPIRITO SANTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-03T03:00:00.000Z",
+        "state": "PB",
+        "city": "INGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-04T03:00:00.000Z",
+        "state": "PB",
+        "city": "JUAZEIRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-09T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATOLE DO ROCHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-17T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAVARES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-18T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "DONA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "SALGADO DE SAO FELIX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "GUARABIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "PRINCESA ISABEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLANEA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "OURO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "REMIGIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "PB",
+        "city": "REMIGIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-01T03:00:00.000Z",
+        "state": "PB",
+        "city": "ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-01T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-02T03:00:00.000Z",
+        "state": "PB",
+        "city": "AROEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-02T03:00:00.000Z",
+        "state": "PB",
+        "city": "UIRAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIRPIRITUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SALGADO DE SAO FELIX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "RIO TINTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "AREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "AROEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "BANANEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "BELEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABACEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAMPINA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATURITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONCEICAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CRUZ DO ESPIRITO SANTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "DONA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "GURINHEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "INGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITABAIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "JACARAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "JOAO PESSOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "MULUNGU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "PEDRAS DE FOGO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "POCINHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "PRINCESA ISABEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "REMIGIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "SALGADO DE SAO FELIX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO MAMEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "SUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAPEROA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "UIRAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-10T03:00:00.000Z",
+        "state": "PB",
+        "city": "POCINHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABEDELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-12T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-14T03:00:00.000Z",
+        "state": "PB",
+        "city": "QUEIMADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "BAYEUX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "GURINHEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-21T03:00:00.000Z",
+        "state": "PB",
+        "city": "MANAIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "FAGUNDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRARIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-28T03:00:00.000Z",
+        "state": "PB",
+        "city": "BREJO DO CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPOROROCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "PB",
+        "city": "PAULISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-31T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRARIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-04T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA SECA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "BANANEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPOROROCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "QUEIMADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "TACIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-09T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "OURO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARACAGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "BAYEUX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "FAGUNDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "PICUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIRPIRITUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOSE DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAPEROA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "DONA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-25T03:00:00.000Z",
+        "state": "PB",
+        "city": "CUITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-28T03:00:00.000Z",
+        "state": "PB",
+        "city": "PUXINANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-01T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "PB",
+        "city": "GUARABIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "PB",
+        "city": "JACARAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-09T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-12T03:00:00.000Z",
+        "state": "PB",
+        "city": "MULUNGU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLANEA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-21T03:00:00.000Z",
+        "state": "PB",
+        "city": "MULUNGU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-07T03:00:00.000Z",
+        "state": "PB",
+        "city": "CRUZ DO ESPIRITO SANTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARACAGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "BANANEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIRPIRITUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-09T03:00:00.000Z",
+        "state": "PB",
+        "city": "PICUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-09T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-10T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO MAMEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "JUAZEIRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "PAULISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOSE DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-31T03:00:00.000Z",
+        "state": "PB",
+        "city": "REMIGIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-01T03:00:00.000Z",
+        "state": "PB",
+        "city": "SUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "PB",
+        "city": "COREMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "RIO TINTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-23T03:00:00.000Z",
+        "state": "PB",
+        "city": "GURINHEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALHANDRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "PRINCESA ISABEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-28T03:00:00.000Z",
+        "state": "PB",
+        "city": "PILAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATURITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-30T03:00:00.000Z",
+        "state": "PB",
+        "city": "BOQUEIRAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-30T03:00:00.000Z",
+        "state": "PB",
+        "city": "TACIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-02T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PEDRAS DE FOGO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-17T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONCEICAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-18T03:00:00.000Z",
+        "state": "PB",
+        "city": "AREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-18T03:00:00.000Z",
+        "state": "PB",
+        "city": "SALGADO DE SAO FELIX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-21T03:00:00.000Z",
+        "state": "PB",
+        "city": "MANAIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "COREMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "RIO TINTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "SALGADO DE SAO FELIX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITABAIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-25T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITABAIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-25T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITABAIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "PB",
+        "city": "MANAIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "PB",
+        "city": "POMBAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-03T03:00:00.000Z",
+        "state": "PB",
+        "city": "PAULISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-03T03:00:00.000Z",
+        "state": "PB",
+        "city": "PILAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-04T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABACEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-10T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABEDELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "BONITO DE SANTA FE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "CACIMBA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "FAGUNDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "MULUNGU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLANEA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "JACARAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-16T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALHANDRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARACAGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "BELEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "BONITO DE SANTA FE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "BOQUEIRAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABACEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABEDELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAJAZEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAMPINA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATURITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONCEICAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "COREMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CUITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "DONA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "FAGUNDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "GUARABIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "INGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITABAIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPOROROCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "JACARAU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "JOAO PESSOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA SECA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "MAMANGUAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "MANAIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "MULUNGU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "OURO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PEDRAS DE FOGO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PICUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIRPIRITUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "POMBAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PRINCESA ISABEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "QUEIMADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "RIO TINTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOAO DO RIO DO PEIXE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRARIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLEDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "TACIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAPEROA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAVARES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-25T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-28T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "BELEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "BONITO DE SANTA FE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABACEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "COREMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA SECA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "MAMANGUAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "PICUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIRPIRITUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "POMBAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "RIO TINTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOAO DO RIO DO PEIXE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO MAMEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "UIRAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-10T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "PB",
+        "city": "PUXINANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-17T03:00:00.000Z",
+        "state": "PB",
+        "city": "CUITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARACAGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "PB",
+        "city": "JUAZEIRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLEDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "PB",
+        "city": "TACIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "POMBAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALHANDRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARACAGI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "AREIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "AROEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BANANEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BAYEUX",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BELEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BONITO DE SANTA FE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BOQUEIRAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "BREJO DO CRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABACEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CABEDELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CACIMBA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAJAZEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAMPINA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATOLE DO ROCHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATURITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONCEICAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CONDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "COREMAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CRUZ DO ESPIRITO SANTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "CUITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "DONA INES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "FAGUNDES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "GUARABIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "GURINHEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "INGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ITAPOROROCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "JOAO PESSOA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "JUAZEIRINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "JURIPIRANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "LAGOA SECA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "LASTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "MAMANGUAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "MANAIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "OURO VELHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PAULISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PEDRAS DE FOGO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PIANCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PICUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PILAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "POCINHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "POMBAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PRATA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PRINCESA ISABEL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "PUXINANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "QUEIMADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "REMIGIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA LUZIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SANTA RITA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO BENTO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOAO DO RIO DO PEIXE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOSE DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO MAMEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAPE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRA GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SERRARIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLANEA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLEDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOUSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "SUME",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "TACIMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAPEROA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAVARES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "TEIXEIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "UIRAUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALHANDRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "CACIMBA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAICARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-17T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO MAMEDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAJAZEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-23T03:00:00.000Z",
+        "state": "PB",
+        "city": "BARRA DE SANTA ROSA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-05T03:00:00.000Z",
+        "state": "PB",
+        "city": "ALAGOA NOVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-06T03:00:00.000Z",
+        "state": "PB",
+        "city": "BELEM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "ARARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "PB",
+        "city": "CATOLE DO ROCHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "PB",
+        "city": "PILAR",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "CAJAZEIRAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "MOGEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "PB",
+        "city": "MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-19T03:00:00.000Z",
+        "state": "PB",
+        "city": "MARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "CUITE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "PATOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "QUEIMADAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SAO JOSE DE PIRANHAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "SOLEDADE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-24T03:00:00.000Z",
+        "state": "PB",
+        "city": "UMBUZEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "CACIMBA DE DENTRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-27T03:00:00.000Z",
+        "state": "PB",
+        "city": "MULUNGU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "PB",
+        "city": "TAVARES",
+        "type": "Permanente"
+    }
+]

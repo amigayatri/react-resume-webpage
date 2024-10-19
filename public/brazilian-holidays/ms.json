@@ -1,0 +1,1418 @@
+[
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "AGUA CLARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ALCINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "AMAMBAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANASTACIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANAURILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANGELICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANTONIO JOAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "APARECIDA DO TABOADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "AQUIDAUANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ARAL MOREIRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BANDEIRANTES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAGUASSU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAYPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BELA VISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BODOQUENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BONITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BRASILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAARAPO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAMAPUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAMPO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CARACOL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CASSILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CHAPADAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORGUINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORONEL SAPUCAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORUMBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "COSTA RICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "COXIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "DEODAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOIS IRMAOS DO BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOURADINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOURADOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ELDORADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "FATIMA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "FIGUEIRAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "GLORIA DE DOURADOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "GUIA LOPES DA LAGUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "IGUATEMI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "INOCENCIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAQUIRAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "IVINHEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "JAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "JARAGUARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "JARDIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "JATEI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "JUTI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "LADARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "LAGUNA CARAPA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "MARACAJU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "MIRANDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "MUNDO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "NAVIRAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "NIOAQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVA ALVORADA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVA ANDRADINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVO HORIZONTE DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARAISO DAS AGUAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PEDRO GOMES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PONTA PORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PORTO MURTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIBAS DO RIO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO BRILHANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO VERDE DE MATO GROSSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ROCHEDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SANTA RITA DO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SAO GABRIEL DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SELVIRIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SETE QUEDAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SIDROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SONORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "TACURU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "TAQUARUSSU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "TERENOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "TRES LAGOAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "VICENTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-23T03:00:00.000Z",
+        "state": "MS",
+        "city": "CHAPADAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "LADARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-27T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVA ALVORADA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "MS",
+        "city": "AGUA CLARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANAURILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "IVINHEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "JATEI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "NAVIRAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "PEDRO GOMES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAYPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOIS IRMAOS DO BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-17T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORUMBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "LADARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "SELVIRIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-23T03:00:00.000Z",
+        "state": "MS",
+        "city": "ROCHEDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "MS",
+        "city": "MUNDO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIBAS DO RIO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "AQUIDAUANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORONEL SAPUCAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOURADOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "IGUATEMI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "MIRANDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "PORTO MURTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIBAS DO RIO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO BRILHANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "SETE QUEDAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "TACURU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "VICENTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-10T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAGUASSU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "SIDROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "JATEI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "JUTI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-14T03:00:00.000Z",
+        "state": "MS",
+        "city": "JUTI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORONEL SAPUCAIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-16T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO VERDE DE MATO GROSSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-18T03:00:00.000Z",
+        "state": "MS",
+        "city": "SANTA RITA DO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOURADOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAARAPO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "MS",
+        "city": "BODOQUENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "PEDRO GOMES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIBAS DO RIO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "TACURU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-25T03:00:00.000Z",
+        "state": "MS",
+        "city": "IVINHEMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORUMBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "AGUA CLARA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANASTACIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-18T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANTONIO JOAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "CASSILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "COXIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "GUIA LOPES DA LAGUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "PONTA PORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIBAS DO RIO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-31T03:00:00.000Z",
+        "state": "MS",
+        "city": "JAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "MS",
+        "city": "INOCENCIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "NIOAQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "COXIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOIS IRMAOS DO BURITI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "JAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "MIRANDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "NIOAQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-22T03:00:00.000Z",
+        "state": "MS",
+        "city": "ALCINOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-22T03:00:00.000Z",
+        "state": "MS",
+        "city": "LAGUNA CARAPA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-25T03:00:00.000Z",
+        "state": "MS",
+        "city": "BRASILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-30T03:00:00.000Z",
+        "state": "MS",
+        "city": "JAPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-30T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVA ANDRADINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-30T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVO HORIZONTE DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-02T03:00:00.000Z",
+        "state": "MS",
+        "city": "GLORIA DE DOURADOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANASTACIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "IGUATEMI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-08T03:00:00.000Z",
+        "state": "MS",
+        "city": "TERENOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-09T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "COSTA RICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "DOURADINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "SAO GABRIEL DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "SELVIRIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "TAQUARUSSU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANGELICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "BODOQUENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "DEODAPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "ELDORADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "FATIMA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAQUIRAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "MUNDO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "NAVIRAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "SETE QUEDAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "TACURU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "MS",
+        "city": "JARDIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "MS",
+        "city": "NIOAQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-22T03:00:00.000Z",
+        "state": "MS",
+        "city": "SANTA RITA DO PARDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "AMAMBAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO VERDE DE MATO GROSSO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-25T03:00:00.000Z",
+        "state": "MS",
+        "city": "VICENTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVA ANDRADINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-03T03:00:00.000Z",
+        "state": "MS",
+        "city": "SONORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "MARACAJU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAYPORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAMPO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORUMBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "COSTA RICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "JARDIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "PORTO MURTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "MS",
+        "city": "TERENOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-14T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVO HORIZONTE DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "TRES LAGOAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-19T03:00:00.000Z",
+        "state": "MS",
+        "city": "CARACOL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "BANDEIRANTES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "VICENTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANAURILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAGUASSU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAMAPUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANHOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "PORTO MURTINHO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "MS",
+        "city": "SELVIRIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANTONIO JOAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MS",
+        "city": "BODOQUENA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MS",
+        "city": "ITAQUIRAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-27T03:00:00.000Z",
+        "state": "MS",
+        "city": "SETE QUEDAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MS",
+        "city": "ANGELICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MS",
+        "city": "BONITO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MS",
+        "city": "CHAPADAO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "MS",
+        "city": "JATEI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-04T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-09T03:00:00.000Z",
+        "state": "MS",
+        "city": "FATIMA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "MS",
+        "city": "MIRANDA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-18T03:00:00.000Z",
+        "state": "MS",
+        "city": "NIOAQUE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-18T03:00:00.000Z",
+        "state": "MS",
+        "city": "PONTA PORA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "MS",
+        "city": "BELA VISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "MS",
+        "city": "NOVA ALVORADA DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARANAIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-01T03:00:00.000Z",
+        "state": "MS",
+        "city": "BELA VISTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-03T03:00:00.000Z",
+        "state": "MS",
+        "city": "CASSILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAARAPO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "MS",
+        "city": "INOCENCIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "MS",
+        "city": "ROCHEDO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "AQUIDAUANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "BATAGUASSU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "FIGUEIRAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "GLORIA DE DOURADOS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "MS",
+        "city": "SIDROLANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-26T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAMPO GRANDE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-02T03:00:00.000Z",
+        "state": "MS",
+        "city": "LADARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-11T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO NEGRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-12T03:00:00.000Z",
+        "state": "MS",
+        "city": "VICENTINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-21T03:00:00.000Z",
+        "state": "MS",
+        "city": "CORUMBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-26T03:00:00.000Z",
+        "state": "MS",
+        "city": "RIO BRILHANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-28T03:00:00.000Z",
+        "state": "MS",
+        "city": "AMAMBAI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-28T03:00:00.000Z",
+        "state": "MS",
+        "city": "APARECIDA DO TABOADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "MS",
+        "city": "FIGUEIRAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "MS",
+        "city": "SAO GABRIEL DO OESTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "MS",
+        "city": "CAMAPUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "MS",
+        "city": "PARAISO DAS AGUAS",
+        "type": "Permanente"
+    }
+]

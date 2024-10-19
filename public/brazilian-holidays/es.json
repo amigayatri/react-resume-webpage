@@ -1,0 +1,1184 @@
+[
+    {
+        "date": "2024-10-14T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOM JESUS DO NORTE",
+        "type": "Eventual"
+    },
+    {
+        "date": "2024-10-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA TERESA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO JOSE DO CALCADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-21T03:00:00.000Z",
+        "state": "ES",
+        "city": "APIACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "ES",
+        "city": "JAGUARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-22T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUQUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "IUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "IRUPI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "AFONSO CLAUDIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "ATILIO VIVACQUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "BAIXO GUANDU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOA ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "DOMINGOS MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "LARANJA DA TERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARATAIZES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARECHAL FLORIANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "NOVA VENECIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "PANCAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA LEOPOLDINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA MARIA DE JETIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA TERESA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO DOMINGOS DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO GABRIEL DA PALHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO ROQUE DO CANAA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA PAVAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-10-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA VALERIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-01T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUQUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-07T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBATIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "APIACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOM JESUS DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "GUARAPARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "PRESIDENTE KENNEDY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-21T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBIRACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "MIMOSO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOA ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-27T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA VALERIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-28T03:00:00.000Z",
+        "state": "ES",
+        "city": "JERONIMO MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-11-30T03:00:00.000Z",
+        "state": "ES",
+        "city": "ECOPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBITIRAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-04T03:00:00.000Z",
+        "state": "ES",
+        "city": "RIO NOVO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "ALFREDO CHAVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "APIACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOM JESUS DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "CONCEICAO DA BARRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "CONCEICAO DO CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "GUARAPARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "JERONIMO MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "LINHARES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUNIZ FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "PIUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO JOSE DO CALCADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "VARGEM ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "VIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "JAGUARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "PANCAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "BREJETUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-21T03:00:00.000Z",
+        "state": "ES",
+        "city": "PEDRO CANARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "ALFREDO CHAVES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-27T03:00:00.000Z",
+        "state": "ES",
+        "city": "PINHEIROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-27T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO MATEUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2024-12-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUCURICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-06T03:00:00.000Z",
+        "state": "ES",
+        "city": "ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-07T03:00:00.000Z",
+        "state": "ES",
+        "city": "MANTENOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "AFONSO CLAUDIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "DOMINGOS MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "GOVERNADOR LINDENBERG",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "JERONIMO MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUCURICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUNIZ FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "NOVA VENECIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-01-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "APIACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-02T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARATAIZES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-11T03:00:00.000Z",
+        "state": "ES",
+        "city": "AFONSO CLAUDIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-02-17T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "ES",
+        "city": "AGUIA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "ES",
+        "city": "ALTO RIO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "ES",
+        "city": "GOVERNADOR LINDENBERG",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "ES",
+        "city": "MIMOSO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-19T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO JOSE DO CALCADO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "VARGEM ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-28T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA VALERIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "ES",
+        "city": "PONTO BELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-30T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO DOMINGOS DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-03-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "SOORETAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-03T03:00:00.000Z",
+        "state": "ES",
+        "city": "ARACRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-04T03:00:00.000Z",
+        "state": "ES",
+        "city": "PRESIDENTE KENNEDY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-07T03:00:00.000Z",
+        "state": "ES",
+        "city": "DORES DO RIO PRETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-09T03:00:00.000Z",
+        "state": "ES",
+        "city": "ECOPORANGA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-10T03:00:00.000Z",
+        "state": "ES",
+        "city": "ATILIO VIVACQUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-10T03:00:00.000Z",
+        "state": "ES",
+        "city": "BAIXO GUANDU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-16T03:00:00.000Z",
+        "state": "ES",
+        "city": "MONTANHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-17T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA LEOPOLDINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-18T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-22T03:00:00.000Z",
+        "state": "ES",
+        "city": "PINHEIROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-25T03:00:00.000Z",
+        "state": "ES",
+        "city": "NOVA VENECIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-04-28T03:00:00.000Z",
+        "state": "ES",
+        "city": "PONTO BELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-03T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOA ESPERANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-09T03:00:00.000Z",
+        "state": "ES",
+        "city": "CONCEICAO DO CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "ES",
+        "city": "AGUA DOCE DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "ES",
+        "city": "LARANJA DA TERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-10T03:00:00.000Z",
+        "state": "ES",
+        "city": "VENDA NOVA DO IMIGRANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "ES",
+        "city": "ALTO RIO NOVO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-11T03:00:00.000Z",
+        "state": "ES",
+        "city": "JOAO NEIVA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARECHAL FLORIANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUCURICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "PANCAS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "PEDRO CANARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "RIO BANANAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAPEMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-14T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO GABRIEL DA PALHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "MONTANHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-23T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA VELHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITARANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "JERONIMO MONTEIRO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARILANDIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAGUACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-05-31T03:00:00.000Z",
+        "state": "ES",
+        "city": "IUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-09T03:00:00.000Z",
+        "state": "ES",
+        "city": "ANCHIETA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-12T03:00:00.000Z",
+        "state": "ES",
+        "city": "DOMINGOS MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-12T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAPEMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "ATILIO VIVACQUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "ICONHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-13T03:00:00.000Z",
+        "state": "ES",
+        "city": "RIO NOVO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "ARACRUZ",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "CARIACICA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "CONCEICAO DA BARRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "IRUPI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "LARANJA DA TERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "MONTANHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUQUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "PONTO BELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-24T03:00:00.000Z",
+        "state": "ES",
+        "city": "VARGEM ALTA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA TERESA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "ANCHIETA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "BAIXO GUANDU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "CACHOEIRO DE ITAPEMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "CONCEICAO DA BARRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "GOVERNADOR LINDENBERG",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "GUARAPARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "PIUMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "SERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "VENDA NOVA DO IMIGRANTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-06-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA PAVAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-01T03:00:00.000Z",
+        "state": "ES",
+        "city": "VILA PAVAO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-03T03:00:00.000Z",
+        "state": "ES",
+        "city": "ICONHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-04T03:00:00.000Z",
+        "state": "ES",
+        "city": "DOMINGOS MARTINS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-16T03:00:00.000Z",
+        "state": "ES",
+        "city": "RIO NOVO DO SUL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "IUNA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-22T03:00:00.000Z",
+        "state": "ES",
+        "city": "AGUA DOCE DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-23T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUNIZ FREIRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-23T03:00:00.000Z",
+        "state": "ES",
+        "city": "VIANA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-25T03:00:00.000Z",
+        "state": "ES",
+        "city": "SANTA LEOPOLDINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "APIACA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-07-26T03:00:00.000Z",
+        "state": "ES",
+        "city": "MARECHAL FLORIANO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-01T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBATIBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-05T03:00:00.000Z",
+        "state": "ES",
+        "city": "PRESIDENTE KENNEDY",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-06T03:00:00.000Z",
+        "state": "ES",
+        "city": "AGUA DOCE DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO DOMINGOS DO NORTE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-09T03:00:00.000Z",
+        "state": "ES",
+        "city": "DIVINO DE SAO LOURENCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-10T03:00:00.000Z",
+        "state": "ES",
+        "city": "DIVINO DE SAO LOURENCO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "ALEGRE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "ANCHIETA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "ATILIO VIVACQUA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "BREJETUBA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "CASTELO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-16T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO ROQUE DO CANAA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-20T03:00:00.000Z",
+        "state": "ES",
+        "city": "AGUIA BRANCA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "ES",
+        "city": "COLATINA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-22T03:00:00.000Z",
+        "state": "ES",
+        "city": "LINHARES",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-23T03:00:00.000Z",
+        "state": "ES",
+        "city": "MUCURICI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-08-25T03:00:00.000Z",
+        "state": "ES",
+        "city": "PEDRO CANARIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "ITAPEMIRIM",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-08T03:00:00.000Z",
+        "state": "ES",
+        "city": "VITORIA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-11T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBIRACU",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-14T03:00:00.000Z",
+        "state": "ES",
+        "city": "RIO BANANAL",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "DORES DO RIO PRETO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBITIRAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-15T03:00:00.000Z",
+        "state": "ES",
+        "city": "MANTENOPOLIS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-16T03:00:00.000Z",
+        "state": "ES",
+        "city": "IRUPI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-16T03:00:00.000Z",
+        "state": "ES",
+        "city": "JAGUARE",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-19T03:00:00.000Z",
+        "state": "ES",
+        "city": "GUARAPARI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-21T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO MATEUS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-27T03:00:00.000Z",
+        "state": "ES",
+        "city": "AFONSO CLAUDIO",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "GUACUI",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "IBITIRAMA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-29T03:00:00.000Z",
+        "state": "ES",
+        "city": "SAO GABRIEL DA PALHA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-09-30T03:00:00.000Z",
+        "state": "ES",
+        "city": "PINHEIROS",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-10-04T03:00:00.000Z",
+        "state": "ES",
+        "city": "LARANJA DA TERRA",
+        "type": "Permanente"
+    },
+    {
+        "date": "2025-10-16T03:00:00.000Z",
+        "state": "ES",
+        "city": "BOM JESUS DO NORTE",
+        "type": "Permanente"
+    }
+]

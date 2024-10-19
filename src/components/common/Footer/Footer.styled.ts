@@ -4,7 +4,7 @@ import media from "../../../constants/medias"
 export const FooterWrapper = styled.footer`
 	background-color: ${({ theme }) => theme.black};
 	color: ${({ theme }) => theme.white};
-	border-top: 1px solid ${({ theme }) => theme.white};
+	border-top: 1px solid ${({ theme }) => theme.primary};
 	width: 100%;
 	padding: 16px;
 	text-align: center;
