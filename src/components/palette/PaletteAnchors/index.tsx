@@ -7,7 +7,7 @@ import {
 	AnchorList,
 	Item
 } from "./PaletteAnchors.styled"
-import MulticoloredName from "../MulticoloredName"
+import MulticoloredName from "../../common/MulticoloredName"
 
 interface PaletteAnchorsProps {
 	list: PaletteInfoProps[]

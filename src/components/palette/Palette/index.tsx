@@ -11,7 +11,7 @@ import PaletteType from "../../../types/PaletteProps"
 import PaletteInfoProps from "../../../types/PaletteInfoProps"
 import { useTranslation, Trans } from "react-i18next"
 import { Summary } from "../Common.styled"
-import MulticoloredName from "../MulticoloredName"
+import MulticoloredName from "../../common/MulticoloredName"
 
 interface PaletteProps {
 	palette: PaletteType
