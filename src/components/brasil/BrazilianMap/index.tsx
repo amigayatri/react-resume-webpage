@@ -64,6 +64,14 @@ const filters = new Map([
 	["AAAsmall", 1 / 7]
 ])
 
+const filterIds = new Map([
+	[1, "no"],
+	[0.6, "minimum"],
+	[1 / 3, "AAbig"],
+	[1 / 4.5, "AAsmall"],
+	[1 / 7, "AAAsmall"]
+])
+
 const SelectTheme = ({
 	changeName,
 	changeFn,
@@ -148,6 +156,7 @@ const BrazilianMap = () => {
 	const { t } = useTranslation()
 	const [paletteName, setPaletteName] = useState("")
 	const [contrast, setContrast] = useState(1)
+	const [contrastId, setContrastId] = useState(filterIds.get(1))
 	const [division, setDivision] = useState("single")
 	const [paths, setPaths] = useState(divisionPaths.get(division))
 	const theme = useTheme()
@@ -194,6 +203,7 @@ const BrazilianMap = () => {
 	}
 	const handleChangeContrast = (newContrast: number) => {
 		setContrast(newContrast)
+		setContrastId(filterIds.get(newContrast))
 		handleChangeColors(rawColors, newContrast)
 	}
 	let size = colors.length
@@ -210,7 +220,10 @@ const BrazilianMap = () => {
 				</MulticoloredName>
 			</Title>
 			<Disclaimer $isOpen={colors[0] === theme.primary}>
-				{t("brasil.disclaimer", { paletteName })}
+				{t("brasil.disclaimer", {
+					paletteName: paletteName,
+					filterName: t("brasil.filters." + contrastId)
+				})}
 			</Disclaimer>
 			<MapWrapper>
 				<MapSVG

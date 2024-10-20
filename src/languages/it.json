@@ -7,7 +7,7 @@
     "title": "Test delle librerie 3D"
   },
   "brasil": {
-    "disclaimer": "Nessun colore della tavolozza {{paletteName}} è disponibile dopo il filtraggio, modifica la tavolozza o la categoria del filtro per visualizzare nuovamente i colori personalizzati.",
+    "disclaimer": "Nessun colore dalla tavolozza {{paletteName}} è disponibile dopo aver filtrato per {{filterName}}, cambia la tavolozza o la categoria del filtro per vedere di nuovo i colori personalizzati.",
     "divisions": {
       "UF": "Stati",
       "cities": "Città",
@@ -25,7 +25,7 @@
     },
     "selects": {
       "division": "Divisione della mappa",
-      "filter": "Tavolozza dei filtri",
+      "filter": "Contrasto tavolozza filtro",
       "group": "Gruppi tematici",
       "palette": "Tavolozze di colori"
     },

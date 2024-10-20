@@ -7,7 +7,7 @@
     "title": "Pruebas de bibliotecas 3D"
   },
   "brasil": {
-    "disclaimer": "No hay colores de la paleta {{paletteName}} disponibles después del filtrado. Cambie la paleta o la categoría del filtro para volver a ver los colores personalizados.",
+    "disclaimer": "No hay colores de la paleta {{paletteName}} disponibles después de filtrar por {{filterName}}, cambie la paleta o la categoría de filtro para ver colores personalizados nuevamente.",
     "divisions": {
       "UF": "Estados",
       "cities": "Ciudades",
@@ -25,7 +25,7 @@
     },
     "selects": {
       "division": "División del mapa",
-      "filter": "Paleta de filtros",
+      "filter": "Contraste de la paleta de filtros",
       "group": "Grupos temáticos",
       "palette": "paletas de colores"
     },

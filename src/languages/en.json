@@ -7,7 +7,7 @@
     "title": "3D libs testing"
   },
   "brasil": {
-    "disclaimer": "No colors from the {{paletteName}} palette are available after filtering, change the palette or filter category to see custom colors again.",
+    "disclaimer": "No colors from the {{paletteName}} palette are available after filtering by {{filterName}}, change the palette or filter category to see custom colors again.",
     "divisions": {
       "UF": "States",
       "cities": "Cities",
@@ -25,7 +25,7 @@
     },
     "selects": {
       "division": "Map division",
-      "filter": "Filter palette",
+      "filter": "Filter palette contrast",
       "group": "Theme groups",
       "palette": "Color palettes"
     },

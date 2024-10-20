@@ -7,6 +7,7 @@
     "title": "Teste de bibliotecas 3D"
   },
   "brasil": {
+    "disclaimer": "Nenhuma cor da paleta {{paletteName}} está disponível após filtrar por {{filterName}}, troque a paleta ou a categoria do filtro para voltar a ver cores personalizadas.",
     "divisions": {
       "UF": "Estados",
       "cities": "Cidades",
@@ -24,12 +25,11 @@
     },
     "selects": {
       "division": "Divisão do mapa",
-      "filter": "Filtrar paleta",
+      "filter": "Filtrar contraste da paleta",
       "group": "Grupos de temas",
       "palette": "Paletas de cor"
     },
-    "title": "Mapa do Brasil",
-    "disclaimer": "Nenhuma cor da paleta {{paletteName}} está disponível após filtrar, troque a paleta ou a categoria do filtro para voltar a ver cores personalizadas."
+    "title": "Mapa do Brasil"
   },
   "brazilianHolidays": {
     "addMunicipal": "Adicionar feriados de {{cityName}}, {{stateName}}",
