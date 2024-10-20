@@ -149,6 +149,9 @@
       "home": {
         "title": "ਮੁੱਖ ਪੰਨਾ"
       },
+      "iconlist": {
+        "title": "ਪ੍ਰੋਜੈਕਟ ਆਈਕਾਨ"
+      },
       "leetcode": {
         "title": "LeetCode ਅੰਕੜੇ"
       },
@@ -162,6 +165,9 @@
         "title": "ਵੈੱਬਸਾਈਟ ਦੇ ਅੰਕੜੇ"
       }
     }
+  },
+  "iconlist": {
+    "title": "ਉਪਲਬਧ ਆਈਕਾਨ"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "ਰੰਗ ਭਿੰਨਤਾਵਾਂ",
       "extralanguages": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ",
       "home": "ਹੋਮਪੇਜ",
+      "iconlist": "ਪ੍ਰੋਜੈਕਟ ਆਈਕਾਨ",
       "leetcode": "ਲੀਟਕੋਡ",
       "maintenance": "ਪੰਨਾ ਦੇਖਭਾਲ ਅਧੀਨ ਹੈ",
       "palette": "ਪੈਲੇਟਸ",

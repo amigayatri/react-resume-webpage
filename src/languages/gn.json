@@ -149,6 +149,9 @@
       "home": {
         "title": "Página principal"
       },
+      "iconlist": {
+        "title": "Umi icono proyecto rehegua"
+      },
       "leetcode": {
         "title": "LeetCode Estadísticas rehegua"
       },
@@ -162,6 +165,9 @@
         "title": "Estadísticas página web rehegua"
       }
     }
+  },
+  "iconlist": {
+    "title": "Umi icono ojeguerekóva"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "Umi sa’y iñambuéva",
       "extralanguages": "Ñe’ẽ extra",
       "home": "Página principal",
+      "iconlist": "Umi icono proyecto rehegua",
       "leetcode": "LeetCode rehegua",
       "maintenance": "Página ohóva mantenimiento guýpe",
       "palette": "Paletas rehegua",

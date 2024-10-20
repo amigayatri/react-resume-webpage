@@ -6,7 +6,6 @@ fs.readFile("./BR-municipios.svg", "utf8", (err, data) => {
 	}
 	const arr = []
 	const split = data.split("/><path ")
-	console.log(split.length)
 	for (const line of split) {
 		arr.push(line.replace(/id="\d\d\d\d\d\d\d" d=/gm, ""))
 	}

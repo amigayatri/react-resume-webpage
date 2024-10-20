@@ -160,6 +160,9 @@
       },
       "sitestats": {
         "title": "Estatísticas do site"
+      },
+      "iconlist": {
+        "title": "Ícones do projeto"
       }
     }
   },
@@ -201,6 +204,9 @@
       "translate": "Ícone de tradução",
       "website": "Ícone de um website"
     }
+  },
+  "iconlist": {
+    "title": "Ícones disponíveis"
   },
   "leetcode": {
     "badges": {
@@ -380,6 +386,7 @@
       "colors": "Variações de Cores",
       "extralanguages": "Línguas extras",
       "home": "Página inicial",
+      "iconlist": "Ícones do projeto",
       "leetcode": "LeetCode",
       "maintenance": "Página em Manutenção",
       "palette": "Paletas",

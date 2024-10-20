@@ -149,6 +149,9 @@
       "home": {
         "title": "ホームページ"
       },
+      "iconlist": {
+        "title": "プロジェクトアイコン"
+      },
       "leetcode": {
         "title": "LeetCodeの統計"
       },
@@ -162,6 +165,9 @@
         "title": "ウェブサイトの統計"
       }
     }
+  },
+  "iconlist": {
+    "title": "利用可能なアイコン"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "カラーバリエーション",
       "extralanguages": "追加の言語",
       "home": "ホームページ",
+      "iconlist": "プロジェクトアイコン",
       "leetcode": "リートコード",
       "maintenance": "ページはメンテナンス中です",
       "palette": "パレット",

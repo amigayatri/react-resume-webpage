@@ -149,6 +149,9 @@
       "home": {
         "title": "Startseite"
       },
+      "iconlist": {
+        "title": "Projektsymbole"
+      },
       "leetcode": {
         "title": "LeetCode-Statistiken"
       },
@@ -162,6 +165,9 @@
         "title": "Website-Statistiken"
       }
     }
+  },
+  "iconlist": {
+    "title": "Verfügbare Symbole"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "Farbvariationen",
       "extralanguages": "Zusätzliche Sprachen",
       "home": "Homepage",
+      "iconlist": "Projektsymbole",
       "leetcode": "LeetCode",
       "maintenance": "Die Seite wird derzeit gewartet",
       "palette": "Paletten",

@@ -149,6 +149,9 @@
       "home": {
         "title": "হোম পেজ"
       },
+      "iconlist": {
+        "title": "প্রকল্প আইকন"
+      },
       "leetcode": {
         "title": "LeetCode পরিসংখ্যান"
       },
@@ -162,6 +165,9 @@
         "title": "ওয়েবসাইট পরিসংখ্যান"
       }
     }
+  },
+  "iconlist": {
+    "title": "উপলব্ধ আইকন"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "রঙের বৈচিত্র",
       "extralanguages": "অতিরিক্ত ভাষা",
       "home": "হোমপেজ",
+      "iconlist": "প্রকল্প আইকন",
       "leetcode": "লিটকোড",
       "maintenance": "পাতা রক্ষণাবেক্ষণ অধীনে যাচ্ছে",
       "palette": "প্যালেট",

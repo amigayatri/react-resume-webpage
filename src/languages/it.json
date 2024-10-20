@@ -149,6 +149,9 @@
       "home": {
         "title": "Pagina iniziale"
       },
+      "iconlist": {
+        "title": "Icone del progetto"
+      },
       "leetcode": {
         "title": "Statistiche LeetCode"
       },
@@ -162,6 +165,9 @@
         "title": "Statistiche del sito web"
       }
     }
+  },
+  "iconlist": {
+    "title": "Icone disponibili"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "Variazioni di colore",
       "extralanguages": "Lingue aggiuntive",
       "home": "Home page",
+      "iconlist": "Icone del progetto",
       "leetcode": "LeetCode",
       "maintenance": "Pagina in manutenzione",
       "palette": "Tavolozze",

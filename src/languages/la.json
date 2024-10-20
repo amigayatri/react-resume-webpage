@@ -149,6 +149,9 @@
       "home": {
         "title": "Home page"
       },
+      "iconlist": {
+        "title": "Icones Project"
+      },
       "leetcode": {
         "title": "LeetCode Stats"
       },
@@ -162,6 +165,9 @@
         "title": "Website stats"
       }
     }
+  },
+  "iconlist": {
+    "title": "Praesto icones"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "Color variationum",
       "extralanguages": "Extra linguas",
       "home": "Protocollum",
+      "iconlist": "Icones Project",
       "leetcode": "LeetCode",
       "maintenance": "Page ire sub tutela",
       "palette": "Palettes",
