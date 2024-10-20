@@ -7,6 +7,7 @@
     "title": "3D libs testing"
   },
   "brasil": {
+    "disclaimer": "No colors from the {{paletteName}} palette are available after filtering, change the palette or filter category to see custom colors again.",
     "divisions": {
       "UF": "States",
       "cities": "Cities",
@@ -15,8 +16,16 @@
       "region": "Regions",
       "single": "Country"
     },
+    "filters": {
+      "AAAsmall": "AAA Small Text",
+      "AAbig": "AA Large Text",
+      "AAsmall": "AA Small Text",
+      "minimum": "Minimum",
+      "no": "Without filtering"
+    },
     "selects": {
       "division": "Map division",
+      "filter": "Filter palette",
       "group": "Theme groups",
       "palette": "Color palettes"
     },

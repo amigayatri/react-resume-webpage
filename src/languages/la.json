@@ -7,6 +7,7 @@
     "title": "3D libs temptationis"
   },
   "brasil": {
+    "disclaimer": "Nullae colores e {{paletteName}} palette post eliquationem praesto sunt, categoriam palette aut colum columquam ad morem colorum iterum videndum.",
     "divisions": {
       "UF": "Foederatae",
       "cities": "urbes",
@@ -15,8 +16,16 @@
       "region": "Regiones",
       "single": "Patria"
     },
+    "filters": {
+      "AAAsmall": "AAA Small Text",
+      "AAbig": "AA Large Text",
+      "AAsmall": "AA Small Text",
+      "minimum": "Minimum",
+      "no": "Sine eliquare"
+    },
     "selects": {
       "division": "Map division",
+      "filter": "Filtrum palette",
       "group": "Theme groups",
       "palette": "Color palettes"
     },

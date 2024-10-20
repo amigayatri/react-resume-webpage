@@ -7,6 +7,7 @@
     "title": "3D libs jesareko"
   },
   "brasil": {
+    "disclaimer": "Ndaipóri sa’y {{paletteName}} paleta-gui ojeguerekóva oñemboheko rire, emoambue paleta térã filtro categoría rehecha jey hag̃ua sa’y jeporupyre.",
     "divisions": {
       "UF": "Estado-kuéra",
       "cities": "Tavakuéra",
@@ -15,8 +16,16 @@
       "region": "Región-kuéra rehegua",
       "single": "Tetã"
     },
+    "filters": {
+      "AAAsmall": "AAA Texto Michĩ",
+      "AAbig": "AA Texto Tuicha",
+      "AAsmall": "AA Texto Michĩ",
+      "minimum": "Mínimo",
+      "no": "Ojefiltra’ỹre"
+    },
     "selects": {
       "division": "Mapa ñemboja’o",
+      "filter": "Paleta filtro rehegua",
       "group": "Umi aty téma rehegua",
       "palette": "Umi paleta sa’y rehegua"
     },

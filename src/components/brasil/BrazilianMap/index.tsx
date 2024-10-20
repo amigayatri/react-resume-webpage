@@ -2,6 +2,7 @@ import { useTheme } from "styled-components"
 import {
 	BrazilianMapWrapper,
 	Title,
+	Disclaimer,
 	MapWrapper,
 	MapSVG,
 	Label,
@@ -55,7 +56,25 @@ const SelectDivision = ({
 	)
 }
 
-const SelectTheme = ({ changeFn }: { changeFn: (arg0: string[]) => void }) => {
+const filters = new Map([
+	["no", 1],
+	["minimum", 0.6],
+	["AAbig", 1 / 3],
+	["AAsmall", 1 / 4.5],
+	["AAAsmall", 1 / 7]
+])
+
+const SelectTheme = ({
+	changeName,
+	changeFn,
+	contrast,
+	changeContrast
+}: {
+	changeName: (arg0: string) => void
+	changeFn: (arg0: string[], arg1: number) => void
+	contrast: number
+	changeContrast: (arg0: number) => void
+}) => {
 	const { t } = useTranslation()
 	const [group, setGroup] = useState("rainbow")
 	const [groupNames] = useState(Array.from(palettesMap.keys()))
@@ -68,8 +87,12 @@ const SelectTheme = ({ changeFn }: { changeFn: (arg0: string[]) => void }) => {
 		const { value } = target
 		setPalette(value)
 		const colors = palettesInGroup?.get(value)
-
-		changeFn(colors !== undefined ? colors : [])
+		changeFn(colors !== undefined ? colors : [], contrast)
+		changeName(t(`palettes.names.${group}.${value}`))
+	}
+	const handleChangeContrast = ({ target }: ChangeEvent<HTMLSelectElement>) => {
+		const { value } = target
+		changeContrast(Number.parseFloat(value))
 	}
 	return (
 		<>
@@ -103,18 +126,38 @@ const SelectTheme = ({ changeFn }: { changeFn: (arg0: string[]) => void }) => {
 					))}
 				</Select>
 			</LabelWrapper>
+			<LabelWrapper>
+				<Label>{t("brasil.selects.filter")}</Label>
+				<Select
+					aria-labelledby="select-theme-in-group"
+					onChange={(e) => handleChangeContrast(e)}
+					defaultValue={1}
+				>
+					{Array.from(filters.entries()).map(([id, value]) => (
+						<Option key={"filter-option-" + id} value={value}>
+							{t(`brasil.filters.${id}`)}
+						</Option>
+					))}
+				</Select>
+			</LabelWrapper>
 		</>
 	)
 }
 
 const BrazilianMap = () => {
 	const { t } = useTranslation()
+	const [paletteName, setPaletteName] = useState("")
+	const [contrast, setContrast] = useState(1)
 	const [division, setDivision] = useState("single")
 	const [paths, setPaths] = useState(divisionPaths.get(division))
 	const theme = useTheme()
+	const empty: string[] = []
+	const [rawColors, setRawColors] = useState(empty)
 	const startColors = palettesMap.get("rainbow")?.get("rainbow monokai")
 	const [colors, setColors] = useState(
-		startColors !== undefined ? startColors : [theme.primary]
+		startColors !== undefined
+			? startColors
+			: [theme.primary, theme.blue, theme.pink]
 	)
 	const handleChangeDivision = async (newDivision: string) => {
 		if (divisionPaths.has(newDivision)) {
@@ -132,21 +175,26 @@ const BrazilianMap = () => {
 			})
 		}
 	}
-	const cleanColors = (newColors: string[]) => {
+	const cleanColors = (newColors: string[], newContrast: number) => {
 		const cleanToUse = []
-		const { background } = theme
+		const { background, primary } = theme
 		for (const color of newColors) {
-			if (checkContrast(background, color) === true) {
+			if (checkContrast(background, color) <= newContrast) {
 				cleanToUse.push(color)
 			}
 		}
-		return cleanToUse
+		return cleanToUse.length > 0 ? cleanToUse : [primary]
 	}
-	const handleChangeColors = (newColors: string[]) => {
+	const handleChangeColors = (newColors: string[], newContrast: number) => {
 		if (newColors.length === 0) return
-		const clean = cleanColors(newColors)
+		setRawColors(newColors)
+		const clean = cleanColors(newColors, newContrast)
 		if (clean.length === 0) return
 		setColors(clean)
+	}
+	const handleChangeContrast = (newContrast: number) => {
+		setContrast(newContrast)
+		handleChangeColors(rawColors, newContrast)
 	}
 	let size = colors.length
 	return (
@@ -161,6 +209,9 @@ const BrazilianMap = () => {
 					{t("brasil.title")}
 				</MulticoloredName>
 			</Title>
+			<Disclaimer $isOpen={colors[0] === theme.primary}>
+				{t("brasil.disclaimer", { paletteName })}
+			</Disclaimer>
 			<MapWrapper>
 				<MapSVG
 					xmlns="http://www.w3.org/2000/svg"
@@ -170,10 +221,14 @@ const BrazilianMap = () => {
 					strokeLinecap="round"
 					strokeLinejoin="round"
 				>
-					<g id="BRUF" transform="scale(0.0001,-0.0001)">
+					<g id="BR" transform="scale(0.0001,-0.0001)">
 						{paths !== undefined &&
 							paths.map((path, idx) => (
-								<path fill={colors[idx % size]} d={path} />
+								<path
+									key={"path-idx-" + idx}
+									fill={colors[idx % size]}
+									d={path}
+								/>
 							))}
 					</g>
 				</MapSVG>
@@ -183,7 +238,12 @@ const BrazilianMap = () => {
 					handleChangeDivision={handleChangeDivision}
 					defaultVal={division}
 				/>
-				<SelectTheme changeFn={handleChangeColors} />
+				<SelectTheme
+					contrast={contrast}
+					changeContrast={handleChangeContrast}
+					changeFn={handleChangeColors}
+					changeName={(name) => setPaletteName(name)}
+				/>
 			</SelectWrapper>
 		</BrazilianMapWrapper>
 	)

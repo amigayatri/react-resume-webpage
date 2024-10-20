@@ -7,6 +7,7 @@
     "title": "Testen von 3D-Bibliotheken"
   },
   "brasil": {
+    "disclaimer": "Nach dem Filtern sind keine Farben aus der Palette {{paletteName}} verfügbar. Ändern Sie die Palette oder die Filterkategorie, um wieder benutzerdefinierte Farben anzuzeigen.",
     "divisions": {
       "UF": "Staaten",
       "cities": "Städte",
@@ -15,8 +16,16 @@
       "region": "Regionen",
       "single": "Land"
     },
+    "filters": {
+      "AAAsmall": "AAA Kleiner Text",
+      "AAbig": "AA Großer Text",
+      "AAsmall": "AA Kleiner Text",
+      "minimum": "Minimum",
+      "no": "Ohne Filterung"
+    },
     "selects": {
       "division": "Karteneinteilung",
+      "filter": "Filterpalette",
       "group": "Themengruppen",
       "palette": "Farbpaletten"
     },

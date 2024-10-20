@@ -7,20 +7,29 @@
     "title": "Teste de bibliotecas 3D"
   },
   "brasil": {
-    "title": "Mapa do Brasil",
+    "divisions": {
+      "UF": "Estados",
+      "cities": "Cidades",
+      "meso": "Mesoregiões",
+      "micro": "Microregiões",
+      "region": "Regiões",
+      "single": "País"
+    },
+    "filters": {
+      "AAAsmall": "AAA Texto Pequeno",
+      "AAbig": "AA Texto Grande",
+      "AAsmall": "AA Texto Pequeno",
+      "minimum": "Mínimo",
+      "no": "Sem filtrar"
+    },
     "selects": {
       "division": "Divisão do mapa",
+      "filter": "Filtrar paleta",
       "group": "Grupos de temas",
       "palette": "Paletas de cor"
     },
-    "divisions": {
-      "UF": "Estados",
-      "single": "País",
-      "region": "Regiões",
-      "meso": "Mesoregiões",
-      "micro": "Microregiões",
-      "cities": "Cidades"
-    }
+    "title": "Mapa do Brasil",
+    "disclaimer": "Nenhuma cor da paleta {{paletteName}} está disponível após filtrar, troque a paleta ou a categoria do filtro para voltar a ver cores personalizadas."
   },
   "brazilianHolidays": {
     "addMunicipal": "Adicionar feriados de {{cityName}}, {{stateName}}",

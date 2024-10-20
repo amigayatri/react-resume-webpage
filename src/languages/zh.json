@@ -7,6 +7,7 @@
     "title": "3D 库测试"
   },
   "brasil": {
+    "disclaimer": "过滤后，{{paletteName}} 调色板中的颜色不可用，请更改调色板或过滤器类别以再次查看自定义颜色。",
     "divisions": {
       "UF": "州",
       "cities": "城市",
@@ -15,8 +16,16 @@
       "region": "地区",
       "single": "国家"
     },
+    "filters": {
+      "AAAsmall": "AAA 小文本",
+      "AAbig": "AA 大号文字",
+      "AAsmall": "AA 小号文字",
+      "minimum": "最低限度",
+      "no": "不带过滤"
+    },
     "selects": {
       "division": "地图划分",
+      "filter": "滤镜调色板",
       "group": "主题组",
       "palette": "调色板"
     },

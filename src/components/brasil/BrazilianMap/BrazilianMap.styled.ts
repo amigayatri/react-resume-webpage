@@ -13,6 +13,24 @@ export const Title = styled.h1`
 		font-size: 2rem;
 	}
 `
+
+export const Disclaimer = styled.span<{ $isOpen: boolean }>`
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	padding: ${({ $isOpen }) => ($isOpen === true ? "8px" : "0")}
+		var(--color-container);
+	background-color: ${({ theme }) => theme.accent};
+	color: ${({ theme }) => theme.background};
+	max-height: ${({ $isOpen }) => ($isOpen === true ? "256px" : "0")};
+	position: fixed;
+	top: 196px;
+	left: 0;
+	${media.max.sm} {
+		position: relative;
+		top: auto;
+	}
+`
 export const MapWrapper = styled.div`
 	overflow-x: auto;
 `
@@ -30,6 +48,19 @@ export const SelectWrapper = styled.div`
 	display: flex;
 	background-color: ${({ theme }) => theme.primary};
 	border-radius: 8px;
+
+	${media.max.lg} {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 16px;
+	}
+	${media.max.sm} {
+		grid-template-columns: repeat(1, 1fr);
+		position: relative;
+		bottom: auto;
+		left: auto;
+		margin: 0 auto;
+	}
 `
 export const Select = styled.select`
 	text-transform: capitalize;
@@ -39,6 +70,7 @@ export const Select = styled.select`
 	border: 2px solid ${({ theme }) => theme.accent};
 	border-radius: 4px;
 	padding: 4px;
+	max-width: 320px;
 `
 
 export const Label = styled.label`
@@ -50,6 +82,9 @@ export const LabelWrapper = styled.span`
 	flex-direction: column;
 	margin-left: 16px;
 	&:first-of-type {
+		margin-left: 0;
+	}
+	${media.max.lg} {
 		margin-left: 0;
 	}
 `
