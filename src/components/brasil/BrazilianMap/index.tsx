@@ -17,6 +17,7 @@ import { checkContrast } from "../../../lib/rgb"
 import { ChangeEvent, useState } from "react"
 import { useTranslation } from "react-i18next"
 import MulticoloredName from "../../common/MulticoloredName"
+import PacManLoader from "../../common/Loading/PacManLoader"
 
 const divisionMap = new Map([
 	["cities", "../../../../brazil-map-paths/cities.json"],
@@ -154,6 +155,7 @@ const SelectTheme = ({
 
 const BrazilianMap = () => {
 	const { t } = useTranslation()
+	const [loading, setLoading] = useState(false)
 	const [paletteName, setPaletteName] = useState("")
 	const [contrast, setContrast] = useState(1)
 	const [contrastId, setContrastId] = useState(filterIds.get(1))
@@ -169,10 +171,12 @@ const BrazilianMap = () => {
 			: [theme.primary, theme.blue, theme.pink]
 	)
 	const handleChangeDivision = async (newDivision: string) => {
+		setLoading(true)
 		if (divisionPaths.has(newDivision)) {
 			const newPaths = divisionPaths.get(newDivision)
 			setPaths(newPaths !== undefined ? newPaths : [])
 			setDivision(newDivision)
+			setLoading(false)
 		} else {
 			const url = divisionMap.get(newDivision)
 			fetch(url !== undefined ? url : "").then((reponse) => {
@@ -180,6 +184,7 @@ const BrazilianMap = () => {
 					divisionPaths.set(newDivision, list)
 					setPaths(list)
 					setDivision(newDivision)
+					setLoading(false)
 				})
 			})
 		}
@@ -226,25 +231,29 @@ const BrazilianMap = () => {
 				})}
 			</Disclaimer>
 			<MapWrapper>
-				<MapSVG
-					xmlns="http://www.w3.org/2000/svg"
-					version="1.2"
-					baseProfile="tiny"
-					viewBox="-73.9904 -5.2718 44.691399999999994 39.0226"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				>
-					<g id="BR" transform="scale(0.0001,-0.0001)">
-						{paths !== undefined &&
-							paths.map((path, idx) => (
-								<path
-									key={"path-idx-" + idx}
-									fill={colors[idx % size]}
-									d={path}
-								/>
-							))}
-					</g>
-				</MapSVG>
+				{loading ? (
+					<PacManLoader />
+				) : (
+					<MapSVG
+						xmlns="http://www.w3.org/2000/svg"
+						version="1.2"
+						baseProfile="tiny"
+						viewBox="-73.9904 -5.2718 44.691399999999994 39.0226"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+					>
+						<g id="BR" transform="scale(0.0001,-0.0001)">
+							{paths !== undefined &&
+								paths.map((path, idx) => (
+									<path
+										key={"path-idx-" + idx}
+										fill={colors[idx % size]}
+										d={path}
+									/>
+								))}
+						</g>
+					</MapSVG>
+				)}
 			</MapWrapper>
 			<SelectWrapper>
 				<SelectDivision
