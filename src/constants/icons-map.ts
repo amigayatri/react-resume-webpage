@@ -1,4 +1,5 @@
 import BrasilIcon from "../icons/BrasilIcon"
+import BrazilianCalendarIcon from "../icons/BrazilianCalendarIcon"
 import BrokenLinkIcon from "../icons/BrokenLinkIcon"
 import BugIcon from "../icons/BugIcon"
 import CalendarIcon from "../icons/CalendarIcon"
@@ -18,8 +19,10 @@ import MapIcon from "../icons/MapIcon"
 import MoonIcon from "../icons/MoonIcon"
 import MoreIcon from "../icons/MoreIcon"
 import PaletteIcon from "../icons/PaletteIcon"
+import PantoneIcon from "../icons/PantoneIcon"
 import PersonIcon from "../icons/PersonIcon"
 import PhoneIcon from "../icons/PhoneIcon"
+import ProfileIcon from "../icons/ProfileIcon"
 import SadIcon from "../icons/SadIcon"
 import SunIcon from "../icons/SunIcon"
 import SuperHappyIcon from "../icons/SuperHappyIcon"
@@ -32,6 +35,7 @@ import WebsiteIcon from "../icons/WebsiteIcon"
 
 const icons = new Map([
     ["brasil", BrasilIcon],
+    ["braziliancalendar", BrazilianCalendarIcon],
     ["brokenlink", BrokenLinkIcon],
     ["bug", BugIcon],
     ["calendar", CalendarIcon],
@@ -51,8 +55,10 @@ const icons = new Map([
     ["moon", MoonIcon],
     ["more", MoreIcon],
     ["palette", PaletteIcon],
+    ["pantone", PantoneIcon],
     ["person", PersonIcon],
     ["phone", PhoneIcon],
+    ["profile", ProfileIcon],
     ["sad", SadIcon],
     ["sun", SunIcon],
     ["superhappy", SuperHappyIcon],
