@@ -4,14 +4,15 @@ import icons from "../constants/icons-map"
 interface Props {
 	id: string
 	size: number
+	toggle?: boolean
 }
 
-const SVGIcon = ({ id, size }: Props) => {
+const SVGIcon = ({ id, size, toggle }: Props) => {
 	const { t } = useTranslation()
 	const IconElement = icons.get(id)
 	const alt = t("icons.alt.".concat(id))
 	if (IconElement !== undefined) {
-		return <IconElement size={size} alt={alt} />
+		return <IconElement isToggle={toggle === true} size={size} alt={alt} />
 	}
 }
 

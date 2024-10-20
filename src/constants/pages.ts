@@ -11,6 +11,7 @@ import ThreeDProps from "../pages/ThreeD/ThreeD.props"
 import PaletteProps from "../pages/Palette/Palette.props"
 import HolidaysProps from "../pages/Holidays/Holidays.props"
 import BrasilProps from "../pages/Brasil/Brasil.props"
+import IconListProps from "../pages/IconList/IconList.props"
 
 export const pages: PageProps[] = [HomeProps, ResumeProps]
 
@@ -22,7 +23,8 @@ export const extraPages: PageProps[] = [
 	SiteStatsProps,
 	ThreeDProps,
 	HolidaysProps,
-	BrasilProps
+	BrasilProps,
+	IconListProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]

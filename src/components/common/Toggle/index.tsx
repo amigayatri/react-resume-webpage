@@ -12,13 +12,14 @@ const Toggle = ({ state, icon, stateChangeFN, ariaLabel }: ToggleProps) => {
 		>
 			{icon.shouldChange ? (
 				<SVGIcon
+					toggle
 					size={16}
 					id={
 						state === icon.trueValAsStr ? icon.options.true : icon.options.false
 					}
 				/>
 			) : (
-				<SVGIcon size={16} id={icon.id} />
+				<SVGIcon toggle size={16} id={icon.id} />
 			)}
 		</ToggleWrapper>
 	)

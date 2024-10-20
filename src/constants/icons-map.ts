@@ -11,6 +11,7 @@ import ErrorIcon from "../icons/ErrorIcon"
 import ExternalIcon from "../icons/ExternalIcon"
 import GitBranchIcon from "../icons/GitBranchIcon"
 import GithubIcon from "../icons/GithubIcon"
+import GridIcon from "../icons/GridIcon"
 import HappyIcon from "../icons/HappyIcon"
 import HomeIcon from "../icons/HomeIcon"
 import LeetCodeIcon from "../icons/LeetCodeIcon"
@@ -47,6 +48,7 @@ const icons = new Map([
     ["external", ExternalIcon],
     ["gitbranch", GitBranchIcon],
     ["github", GithubIcon],
+    ["grid", GridIcon],
     ["happy", HappyIcon],
     ["home", HomeIcon],
     ["leetcode", LeetCodeIcon],

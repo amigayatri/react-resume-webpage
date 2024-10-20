@@ -149,6 +149,9 @@
       "home": {
         "title": "主页"
       },
+      "iconlist": {
+        "title": "项目图标"
+      },
       "leetcode": {
         "title": "LeetCode 统计"
       },
@@ -162,6 +165,9 @@
         "title": "网站统计"
       }
     }
+  },
+  "iconlist": {
+    "title": "可用图标"
   },
   "icons": {
     "alt": {
@@ -380,6 +386,7 @@
       "colors": "颜色变化",
       "extralanguages": "额外语言",
       "home": "主页",
+      "iconlist": "项目图标",
       "leetcode": "Leet代码",
       "maintenance": "页面正在维护中",
       "palette": "调色板",
