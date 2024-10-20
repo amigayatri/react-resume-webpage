@@ -25,6 +25,7 @@ export const ExternalLinkTag = styled.a`
 `
 
 export const LabelWrapper = styled.div<{ $isRTL: boolean }>`
+	flex: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;

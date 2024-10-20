@@ -5,7 +5,7 @@ const HolidaysProps: PageProps = {
 	path: "/feriados/",
 	element: Holidays,
 	id: "brazilianHolidays",
-	icon: "calendar",
+	icon: "braziliancalendar",
 	isHome: false
 }
 

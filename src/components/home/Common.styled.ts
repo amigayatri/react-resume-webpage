@@ -28,6 +28,7 @@ export const ButtonStyle = styled.div<{ $isRTL: boolean }>`
 `
 
 export const Label = styled.span`
+	flex: 1;
 	text-align: center;
 	margin: 8px;
 `

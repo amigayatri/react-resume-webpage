@@ -5,7 +5,7 @@ const PaletteProps: PageProps = {
 	path: "/palette/",
 	element: Palette,
 	id: "palette",
-	icon: "palette",
+	icon: "pantone",
 	isHome: false
 }
 
