@@ -4,7 +4,6 @@ import SVGIcon from "../../../icons/SVGIcon"
 
 const IconList = () => {
 	const iconsIds = Array.from(icons.keys())
-	console.log(iconsIds)
 	return (
 		<IconListWrapper>
 			<List>
