@@ -7,6 +7,7 @@
     "title": "3D ライブラリのテスト"
   },
   "brasil": {
+    "disclaimer": "{{filterName}} でフィルタリングした後、{{paletteName}} パレットの色は使用できません。カスタム カラーを再度表示するには、パレットまたはフィルタ カテゴリを変更してください。",
     "divisions": {
       "UF": "州",
       "cities": "都市",
@@ -15,8 +16,16 @@
       "region": "地域",
       "single": "国"
     },
+    "filters": {
+      "AAAsmall": "AAA の小さなテキスト",
+      "AAbig": "AA 大きなテキスト",
+      "AAsmall": "AA 小さなテキスト",
+      "minimum": "最小",
+      "no": "フィルタリングなし"
+    },
     "selects": {
       "division": "地図区分",
+      "filter": "フィルターパレットのコントラスト",
       "group": "テーマグループ",
       "palette": "カラーパレット"
     },
