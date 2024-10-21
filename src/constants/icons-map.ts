@@ -45,6 +45,7 @@ import CryingIcon from "../icons/CryingIcon"
 import CupcakeIcon from "../icons/CupcakeIcon"
 import DNAIcon from "../icons/DNAIcon"
 import DiceIcon from "../icons/DiceIcon"
+import DiplodocusIcon from "../icons/DiplodocusIcon"
 import DiscIcon from "../icons/DiscIcon"
 import DjinnIcon from "../icons/DjinnIcon"
 import DownloadIcon from "../icons/DownloadIcon"
@@ -67,6 +68,7 @@ import FireIcon from "../icons/FireIcon"
 import FirefoxIcon from "../icons/FirefoxIcon"
 import FlagIcon from "../icons/FlagIcon"
 import FlowerIcon from "../icons/FlowerIcon"
+import FrogIcon from "../icons/FrogIcon"
 import GamepadIcon from "../icons/GamepadIcon"
 import GenderlessIcon from "../icons/GenderlessIcon"
 import GhostIcon from "../icons/GhostIcon"
@@ -112,6 +114,7 @@ import OctopusIcon from "../icons/OctopusIcon"
 import PaintBucketIcon from "../icons/PaintBucketIcon"
 import PaletteIcon from "../icons/PaletteIcon"
 import PantoneIcon from "../icons/PantoneIcon"
+import ParasaurolophusIcon from "../icons/ParasaurolophusIcon"
 import PencilIcon from "../icons/PencilIcon"
 import PersonIcon from "../icons/PersonIcon"
 import PhoneIcon from "../icons/PhoneIcon"
@@ -164,6 +167,7 @@ import TumblrIcon from "../icons/TumblrIcon"
 import UmbrellaIcon from "../icons/UmbrellaIcon"
 import UnicornIcon from "../icons/UnicornIcon"
 import VHSIcon from "../icons/VHSIcon"
+import VelociraptorIcon from "../icons/VelociraptorIcon"
 import VenusOfWillendorfIcon from "../icons/VenusOfWillendorfIcon"
 import VoiceRecognitionIcon from "../icons/VoiceRecognitionIcon"
 import WalkIcon from "../icons/WalkIcon"
@@ -222,6 +226,7 @@ const icons = new Map([
     ["cupcake", CupcakeIcon],
     ["dna", DNAIcon],
     ["dice", DiceIcon],
+    ["diplodocus", DiplodocusIcon],
     ["disc", DiscIcon],
     ["djinn", DjinnIcon],
     ["download", DownloadIcon],
@@ -244,6 +249,7 @@ const icons = new Map([
     ["firefox", FirefoxIcon],
     ["flag", FlagIcon],
     ["flower", FlowerIcon],
+    ["frog", FrogIcon],
     ["gamepad", GamepadIcon],
     ["genderless", GenderlessIcon],
     ["ghost", GhostIcon],
@@ -289,6 +295,7 @@ const icons = new Map([
     ["paintbucket", PaintBucketIcon],
     ["palette", PaletteIcon],
     ["pantone", PantoneIcon],
+    ["parasaurolophus", ParasaurolophusIcon],
     ["pencil", PencilIcon],
     ["person", PersonIcon],
     ["phone", PhoneIcon],
@@ -341,6 +348,7 @@ const icons = new Map([
     ["umbrella", UmbrellaIcon],
     ["unicorn", UnicornIcon],
     ["vhs", VHSIcon],
+    ["velociraptor", VelociraptorIcon],
     ["venusofwillendorf", VenusOfWillendorfIcon],
     ["voicerecognition", VoiceRecognitionIcon],
     ["walk", WalkIcon],
