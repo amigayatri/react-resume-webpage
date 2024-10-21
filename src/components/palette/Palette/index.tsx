@@ -3,6 +3,7 @@ import {
 	PaletteColor,
 	ColorCode,
 	PaletteName,
+	Icon,
 	PaletteSection,
 	Description,
 	CopyPalette
@@ -12,7 +13,8 @@ import PaletteInfoProps from "../../../types/PaletteInfoProps"
 import { useTranslation, Trans } from "react-i18next"
 import { Summary } from "../Common.styled"
 import MulticoloredName from "../../common/MulticoloredName"
-
+import SVGIcon from "../../../icons/SVGIcon"
+import palettesIcons from "../../../constants/palettes-icons"
 interface PaletteProps {
 	palette: PaletteType
 	info: PaletteInfoProps
@@ -21,6 +23,10 @@ interface PaletteProps {
 const Palette = ({ palette, info }: PaletteProps) => {
 	const { t } = useTranslation()
 	const { group, name } = info
+	const iconId = palettesIcons.custom.has(name)
+		? palettesIcons.custom.get(name)
+		: palettesIcons.group.get(group)
+	console.log(iconId)
 	const id = `${group}-${name}`.replace(" ", "_")
 	const codes: string[] = Array.from(palette, (code) => `"${code}"`)
 	const allCodes = `[${codes.join(", ")}]`
@@ -39,6 +45,9 @@ const Palette = ({ palette, info }: PaletteProps) => {
 				</Trans>
 			</PaletteName>
 			<Description>
+				<Icon>
+					<SVGIcon size={32} id={iconId || "palette"} />
+				</Icon>
 				<Summary>{t("palettes.info.summary")}</Summary>
 				<CopyPalette onClick={() => navigator.clipboard.writeText(allCodes)}>
 					<MulticoloredName legible info={info}>

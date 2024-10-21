@@ -8,9 +8,16 @@ export const Description = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	padding-left: 36px;
 	${media.max.sm} {
 		flex-direction: column;
 	}
+`
+
+export const Icon = styled.span`
+	position: absolute;
+	left: 2px;
 `
 export const CopyPalette = styled.div`
 	cursor: pointer;
