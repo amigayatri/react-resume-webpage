@@ -54,7 +54,7 @@ const custom: Map<string, string> = new Map([
 	["crayola12", "pencil"],
 	["munsellCrayola", "pencil"],
 	["newtown", "prism"],
-	["vhs", "television"]
+	["vhs", "vhs"]
 ])
 
 export default { group: groupsIcons, custom: custom }
