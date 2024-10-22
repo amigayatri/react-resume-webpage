@@ -140,6 +140,9 @@
       "brazilianHolidays": {
         "title": "vacaciones brasileñas"
       },
+      "cats": {
+        "title": "Gatos (y más)"
+      },
       "colors": {
         "title": "Generador de sombras"
       },
@@ -221,6 +224,7 @@
       "disc": "icono de disco",
       "djinn": "Icono de un Djinn (genio)",
       "dna": "icono de ADN",
+      "dog": "Icono de perro",
       "download": "Icono de descarga de documentos",
       "drink": "Icono de bebida",
       "duck": "icono de pato",
@@ -240,6 +244,7 @@
       "firefox": "Icono de Firefox",
       "flag": "Icono de una bandera ondeando",
       "flower": "Icono de flor",
+      "fox": "Icono de zorro",
       "frog": "icono de rana",
       "gamepad": "Icono de controlador de videojuego",
       "genderless": "icono sin género",
@@ -527,6 +532,7 @@
       "404": "Extraviado",
       "brasil": "mapa brasileño",
       "brazilianHolidays": "Vacaciones brasileñas",
+      "cats": "=^.^=",
       "colors": "variaciones de color",
       "extralanguages": "Idiomas adicionales",
       "home": "Página principal",

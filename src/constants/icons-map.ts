@@ -48,6 +48,7 @@ import DiceIcon from "../icons/DiceIcon"
 import DiplodocusIcon from "../icons/DiplodocusIcon"
 import DiscIcon from "../icons/DiscIcon"
 import DjinnIcon from "../icons/DjinnIcon"
+import DogIcon from "../icons/DogIcon"
 import DownloadIcon from "../icons/DownloadIcon"
 import DrinkIcon from "../icons/DrinkIcon"
 import DuckIcon from "../icons/DuckIcon"
@@ -68,6 +69,7 @@ import FireIcon from "../icons/FireIcon"
 import FirefoxIcon from "../icons/FirefoxIcon"
 import FlagIcon from "../icons/FlagIcon"
 import FlowerIcon from "../icons/FlowerIcon"
+import FoxIcon from "../icons/FoxIcon"
 import FrogIcon from "../icons/FrogIcon"
 import GamepadIcon from "../icons/GamepadIcon"
 import GenderlessIcon from "../icons/GenderlessIcon"
@@ -229,6 +231,7 @@ const icons = new Map([
     ["diplodocus", DiplodocusIcon],
     ["disc", DiscIcon],
     ["djinn", DjinnIcon],
+    ["dog", DogIcon],
     ["download", DownloadIcon],
     ["drink", DrinkIcon],
     ["duck", DuckIcon],
@@ -249,6 +252,7 @@ const icons = new Map([
     ["firefox", FirefoxIcon],
     ["flag", FlagIcon],
     ["flower", FlowerIcon],
+    ["fox", FoxIcon],
     ["frog", FrogIcon],
     ["gamepad", GamepadIcon],
     ["genderless", GenderlessIcon],

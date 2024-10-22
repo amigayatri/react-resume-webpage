@@ -140,6 +140,9 @@
       "brazilianHolidays": {
         "title": "Brazilian feriae"
       },
+      "cats": {
+        "title": "Feles (et plus)"
+      },
       "colors": {
         "title": "umbra generantis"
       },
@@ -221,6 +224,7 @@
       "disc": "Orbis icon",
       "djinn": "Icon of a Djinn (genie)",
       "dna": "DNA icon",
+      "dog": "Canis icon",
       "download": "Documenti download icon",
       "drink": "Icon bibe",
       "duck": "anatis icon",
@@ -240,6 +244,7 @@
       "firefox": "Firefox icon",
       "flag": "Icon vexillum iactantis",
       "flower": "Flos icon",
+      "fox": "Fox icon",
       "frog": "rana icon",
       "gamepad": "Video ludum controller icon",
       "genderless": "genderless icon",
@@ -527,6 +532,7 @@
       "404": "Non inveni",
       "brasil": "Tabula geographica Brasiliensis",
       "brazilianHolidays": "Brazilian Holidays",
+      "cats": "=^.^=",
       "colors": "Color variationum",
       "extralanguages": "Extra linguas",
       "home": "Protocollum",

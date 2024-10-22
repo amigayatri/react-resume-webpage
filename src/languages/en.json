@@ -140,6 +140,9 @@
       "brazilianHolidays": {
         "title": "Brazilian holidays"
       },
+      "cats": {
+        "title": "Cats (and more)"
+      },
       "colors": {
         "title": "Shade generator"
       },
@@ -221,6 +224,7 @@
       "disc": "Disk icon",
       "djinn": "Icon of a Djinn (genie)",
       "dna": "DNA icon",
+      "dog": "Dog icon",
       "download": "Document download icon",
       "drink": "Drink icon",
       "duck": "duck icon",
@@ -240,6 +244,7 @@
       "firefox": "Firefox icon",
       "flag": "Icon of a waving flag",
       "flower": "Flower icon",
+      "fox": "Fox icon",
       "frog": "frog icon",
       "gamepad": "Video game controller icon",
       "genderless": "genderless icon",
@@ -527,6 +532,7 @@
       "404": "Not found",
       "brasil": "Brazilian map",
       "brazilianHolidays": "Brazilian Holidays",
+      "cats": "=^.^=",
       "colors": "Colors",
       "extralanguages": "Extra languages",
       "home": "Homepage",
