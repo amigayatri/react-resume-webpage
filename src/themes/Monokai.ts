@@ -1,8 +1,9 @@
 const pink = "#f92472",
 	purple = "#ac80ff",
+	blue = "#67d8ef",
 	almostBlack = "#212117"
 
-const scroll = `
+const pinkScroll = `
 	@supports (scrollbar-color: auto) {
 		& * {
 			scrollbar-width: thin;
@@ -43,6 +44,48 @@ const scroll = `
 	}
 	
 `
+const blueScroll = `
+	@supports (scrollbar-color: auto) {
+		& * {
+			scrollbar-width: thin;
+			scrollbar-color: ${blue} ${almostBlack};
+		}
+	}
+	@supports selector(::-webkit-scrollbar) {
+		& *::-webkit-scrollbar {
+			height: 8px;
+			width: 8px;
+		}
+
+		& *::-webkit-scrollbar-track {
+			border-radius: 4px;
+			background-color: ${almostBlack};
+		}
+
+		& *::-webkit-scrollbar-track:hover {
+			background-color: ${almostBlack};
+		}
+
+		& *::-webkit-scrollbar-track:active {
+			background-color: ${almostBlack};
+		}
+
+		& *::-webkit-scrollbar-thumb {
+			border-radius: 4px;
+			background-color: ${purple};
+		}
+
+		& *::-webkit-scrollbar-thumb:hover {
+			background-color: ${blue};
+		}
+
+		& *::-webkit-scrollbar-thumb:active {
+			background-color: ${blue};
+		}
+	}
+	
+`
+
 const Monokai = {
 	black: "#000000",
 	almostBlack: almostBlack,
@@ -56,7 +99,7 @@ const Monokai = {
 	orange: "#fd9621",
 	yellow: "#f4cd04",
 	green: "#a6e22c",
-	blue: "#67d8ef",
+	blue,
 	purple,
 	pink,
 	fonts: {
@@ -64,7 +107,8 @@ const Monokai = {
 		body: '"Fira Code"',
 		backup: "monospace"
 	},
-	scroll
+	scroll: pinkScroll,
+	blueScroll
 }
 
 export const rainbowMonokai = [
