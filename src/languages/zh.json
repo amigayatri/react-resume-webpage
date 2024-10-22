@@ -140,6 +140,9 @@
       "brazilianHolidays": {
         "title": "巴西假期"
       },
+      "cats": {
+        "title": "猫（以及更多）"
+      },
       "colors": {
         "title": "阴影发生器"
       },
@@ -221,6 +224,7 @@
       "disc": "磁盘图标",
       "djinn": "Djinn（精灵）的图标",
       "dna": "DNA 图标",
+      "dog": "狗图标",
       "download": "文档下载图标",
       "drink": "饮料图标",
       "duck": "鸭子图标",
@@ -240,6 +244,7 @@
       "firefox": "火狐图标",
       "flag": "飘扬的旗帜的图标",
       "flower": "花图标",
+      "fox": "狐狸图标",
       "frog": "青蛙图标",
       "gamepad": "视频游戏控制器图标",
       "genderless": "无性别图标",
@@ -527,6 +532,7 @@
       "404": "未找到",
       "brasil": "巴西地图",
       "brazilianHolidays": "巴西假期",
+      "cats": "=^.^=",
       "colors": "颜色变化",
       "extralanguages": "额外语言",
       "home": "主页",

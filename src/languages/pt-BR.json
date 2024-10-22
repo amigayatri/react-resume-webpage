@@ -163,6 +163,9 @@
       },
       "sitestats": {
         "title": "Estatísticas do site"
+      },
+      "cats": {
+        "title": "Gatos (e mais)"
       }
     }
   },
@@ -221,6 +224,7 @@
       "disc": "Ícone de um disco",
       "djinn": "Ícone de um Djinn (gênio)",
       "dna": "Ícone de DNA",
+      "dog": "Ícone de um cachorro",
       "download": "ícone de download de documento",
       "drink": "Ícone de uma bebida",
       "duck": "Ícone de um pato",
@@ -240,6 +244,7 @@
       "firefox": "Ícone do firefox",
       "flag": "Ícone de uma bandeira balançando",
       "flower": "Ícone de uma flor",
+      "fox": "Ícone de uma raposa",
       "frog": "Ícone de um sapo",
       "gamepad": "Ícone de um controle de videogame",
       "genderless": "Ícone de sem genero",
@@ -527,6 +532,7 @@
       "404": "Não Encontrado",
       "brasil": "Mapa brasileiro",
       "brazilianHolidays": "Feriados Brasileiros",
+      "cats": "=^.^=",
       "colors": "Variações de Cores",
       "extralanguages": "Línguas extras",
       "home": "Página inicial",

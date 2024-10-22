@@ -140,6 +140,9 @@
       "brazilianHolidays": {
         "title": "Ára guasu Brasil-pegua"
       },
+      "cats": {
+        "title": "Mymbakuéra (ha hetave) ."
+      },
       "colors": {
         "title": "Generador de sombra rehegua"
       },
@@ -221,6 +224,7 @@
       "disc": "Disco rehegua icono",
       "djinn": "Icono peteĩ Djinn (genie) rehegua .",
       "dna": "ADN icono",
+      "dog": "Jagua icono",
       "download": "Kuatia ñemboguejyha techaukaha",
       "drink": "Bebida icono rehegua",
       "duck": "pato icono rehegua",
@@ -240,6 +244,7 @@
       "firefox": "Firefox techaukaha",
       "flag": "Icono peteĩ poyvi oñanduukáva rehegua",
       "flower": "Yvoty icono",
+      "fox": "Zorro icono",
       "frog": "sapo icono rehegua",
       "gamepad": "Videojuego controlador icono",
       "genderless": "icono sin género rehegua",
@@ -527,6 +532,7 @@
       "404": "Ndojejuhúi",
       "brasil": "Mapa brasileño rehegua",
       "brazilianHolidays": "Ára guasu Brasil-pegua",
+      "cats": "=^.^=",
       "colors": "Umi sa’y iñambuéva",
       "extralanguages": "Ñe’ẽ extra",
       "home": "Página principal",

@@ -140,6 +140,9 @@
       "brazilianHolidays": {
         "title": "Brasilianische Feiertage"
       },
+      "cats": {
+        "title": "Katzen (und mehr)"
+      },
       "colors": {
         "title": "Schattengenerator"
       },
@@ -221,6 +224,7 @@
       "disc": "Festplattensymbol",
       "djinn": "Ikone eines Dschinns (Dschinn)",
       "dna": "DNA-Symbol",
+      "dog": "Hundesymbol",
       "download": "Symbol zum Herunterladen von Dokumenten",
       "drink": "Getränkesymbol",
       "duck": "Enten-Symbol",
@@ -240,6 +244,7 @@
       "firefox": "Firefox-Symbol",
       "flag": "Symbol einer wehenden Flagge",
       "flower": "Blumensymbol",
+      "fox": "Fuchs-Symbol",
       "frog": "Frosch-Symbol",
       "gamepad": "Symbol für Videospiel-Controller",
       "genderless": "geschlechtsloses Symbol",
@@ -527,6 +532,7 @@
       "404": "Nicht gefunden",
       "brasil": "Brasilianische Karte",
       "brazilianHolidays": "Brasilianische Feiertage",
+      "cats": "=^.^=",
       "colors": "Farbvariationen",
       "extralanguages": "Zusätzliche Sprachen",
       "home": "Homepage",
