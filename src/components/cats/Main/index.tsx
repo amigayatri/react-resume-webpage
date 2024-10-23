@@ -27,6 +27,11 @@ const Main = () => {
 	const [dogs, setDogs] = useState(empty)
 	const [cats, setCats] = useState(empty)
 	const [foxes, setFoxes] = useState(empty)
+	const [lizards, setLizards] = useState(empty)
+	const [gooses, setGooses] = useState(empty)
+	const [pandas, setPandas] = useState(empty)
+	const [birds, setBirds] = useState(empty)
+	const [redPanda, setRedPanda] = useState(empty)
 	const lists: Map<string, AnimalListProps> = new Map([
 		[
 			"cat",
@@ -59,11 +64,52 @@ const Main = () => {
 				setList: setRabbits,
 				icons: ["rabbit"]
 			}
+		],
+		[
+			"lizard",
+			{
+				list: lizards,
+				setList: setLizards,
+				icons: ["gecko"]
+			}
+		],
+		[
+			"goose",
+			{
+				list: gooses,
+				setList: setGooses,
+				icons: ["goose"]
+			}
+		],
+		[
+			"panda",
+			{
+				list: pandas,
+				setList: setPandas,
+				icons: ["panda"]
+			}
+		],
+		[
+			"bird",
+			{
+				list: birds,
+				setList: setBirds,
+				icons: ["kiwibird", "egyptianbird"]
+			}
+		],
+		[
+			"redpanda",
+			{
+				list: redPanda,
+				setList: setRedPanda,
+				icons: ["badger"]
+			}
 		]
 	])
 	const handleAdd = (id: string) => {
 		api.getPicture(id).then((pic) => {
 			const prev = lists.get(id)
+			console.log(pic)
 			if (prev === undefined) return
 			const prevArr = Array.from(prev.list)
 			prevArr.unshift(pic)

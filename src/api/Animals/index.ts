@@ -1,11 +1,16 @@
 class AnimalAPI {
-	mapping: Map<string, any>
+	mapping: Map<string, () => Promise<string>>
 	constructor() {
 		this.mapping = new Map([
 			["cat", this.getCat],
 			["dog", this.getDog],
 			["fox", this.getFox],
-			["rabbit", this.getRabbit]
+			["rabbit", this.getRabbit],
+			["lizard", this.getLizard],
+			["goose", this.getGoose],
+			["panda", this.getPanda],
+			["bird", this.getBird],
+			["redpanda", this.getRedPanda]
 		])
 	}
 
@@ -16,9 +21,9 @@ class AnimalAPI {
 	}
 
 	getDog: () => Promise<string> = async () => {
-		const response = await fetch("https://random.dog/woof.json")
+		const response = await fetch("https://dog.ceo/api/breeds/image/random")
 		const body = await response.json()
-		return body.url
+		return body.message
 	}
 
 	getFox: () => Promise<string> = async () => {
@@ -32,8 +37,37 @@ class AnimalAPI {
 			"https://api.bunnies.io/v2/loop/random/?media=gif"
 		)
 		const body = await response.json()
-		console.log(body)
 		return body.media.gif
+	}
+
+	getLizard: () => Promise<string> = async () => {
+		const response = await fetch("https://nekos.life/api/v2/img/lizard")
+		const body = await response.json()
+		return body.url
+	}
+
+	getGoose: () => Promise<string> = async () => {
+		const response = await fetch("https://nekos.life/api/v2/img/goose")
+		const body = await response.json()
+		return body.url
+	}
+
+	getPanda: () => Promise<string> = async () => {
+		const response = await fetch("https://some-random-api.com/animal/panda")
+		const body = await response.json()
+		return body.image
+	}
+
+	getBird: () => Promise<string> = async () => {
+		const response = await fetch("https://some-random-api.com/animal/bird")
+		const body = await response.json()
+		return body.image
+	}
+
+	getRedPanda: () => Promise<string> = async () => {
+		const response = await fetch("https://some-random-api.com/animal/red_panda")
+		const body = await response.json()
+		return body.image
 	}
 
 	getPicture = async (id: string) => {
