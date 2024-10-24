@@ -139,7 +139,6 @@ const Main = () => {
 	const handleAdd = (id: string) => {
 		handleFetch(id).then((newList) => {
 			const prev = lists.get(id)
-			console.log(pic)
 			if (prev === undefined) return
 			const newArr = [...newList, ...Array.from(prev.list)]
 			prev.setList(newArr)
