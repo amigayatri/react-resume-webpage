@@ -12,6 +12,7 @@ import AnimalAPI from "../../../api/Animals"
 import { Dispatch, SetStateAction, useState } from "react"
 import SVGIcon from "../../../icons/SVGIcon"
 import RandomList from "../RandomList"
+import { useTranslation } from "react-i18next"
 
 interface AnimalListProps {
 	list: string[]
@@ -20,6 +21,7 @@ interface AnimalListProps {
 }
 
 const Main = () => {
+	const { t } = useTranslation()
 	const api = new AnimalAPI()
 	const empty: string[] = []
 	const [size, setSize] = useState(256)
@@ -175,8 +177,16 @@ const Main = () => {
 		<MainWrapper>
 			<ButtonWrapper id="buttons-wrapper">
 				{entries.map(([id, { icons }]) => {
+					const animalName =
+						count > 1
+							? t(`animals.list.${id}.more`)
+							: t(`animals.list.${id}.one`)
 					return (
 						<Button
+							aria-label={t("animals.button", {
+								animalName,
+								animalCount: count
+							})}
 							id={id + "-button"}
 							key={"button-animal-" + id}
 							onClick={() => handleAdd(id)}
@@ -184,8 +194,12 @@ const Main = () => {
 							{icons.map((iconId) => (
 								<SVGIcon key={`button-${id}-${iconId}`} id={iconId} size={48} />
 							))}
-							{plusplus.map(({ iconId, size }) => (
-								<SVGIcon size={size} id={iconId} />
+							{plusplus.map(({ iconId, size }, idx) => (
+								<SVGIcon
+									key={`button-${id}-${iconId}-${idx}`}
+									size={size}
+									id={iconId}
+								/>
 							))}
 						</Button>
 					)
@@ -194,6 +208,7 @@ const Main = () => {
 			<ControlsWrapper>
 				<Control>
 					<ControlButton
+						aria-label={t("animals.count.decrease")}
 						$isDisabled={count === 1}
 						onClick={() => {
 							if (count === 1) return
@@ -203,6 +218,7 @@ const Main = () => {
 						<SVGIcon size={48} id={"minus"} />
 					</ControlButton>
 					<ControlButton
+						aria-label={t("animals.count.increase")}
 						$isDisabled={count === 8}
 						onClick={() => {
 							if (count === 8) return
@@ -214,6 +230,7 @@ const Main = () => {
 				</Control>
 				<Control>
 					<ControlButton
+						aria-label={t("animals.size.decrease")}
 						onClick={() => {
 							setSize(size - 8)
 						}}
@@ -222,6 +239,7 @@ const Main = () => {
 					</ControlButton>
 					<ValueWrapper>{size}px</ValueWrapper>
 					<ControlButton
+						aria-label={t("animals.size.increase")}
 						onClick={() => {
 							setSize(size + 8)
 						}}
@@ -231,6 +249,7 @@ const Main = () => {
 				</Control>
 				<Control>
 					<ControlButton
+						aria-label={t("animals.empty.hide")}
 						$isDisabled={hideEmpty === true}
 						onClick={() => setHideEmpty(!hideEmpty)}
 					>
@@ -240,6 +259,7 @@ const Main = () => {
 						<SVGIcon size={48} id="empty" />
 					</ValueWrapper>
 					<ControlButton
+						aria-label={t("animals.empty.show")}
 						$isDisabled={hideEmpty === false}
 						onClick={() => setHideEmpty(!hideEmpty)}
 					>

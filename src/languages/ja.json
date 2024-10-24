@@ -6,6 +6,67 @@
     "summary": "React で利用可能なさまざまな 3D ライブラリをテストするために開発されました",
     "title": "3D ライブラリのテスト"
   },
+  "animals": {
+    "button": "{{animalName}} の {{animalCount}} 枚の写真を追加",
+    "count": {
+      "decrease": "写真の枚数を減らす",
+      "increase": "写真の枚数を増やす"
+    },
+    "empty": {
+      "hide": "空のリストを非表示にする",
+      "show": "空のリストを表示する"
+    },
+    "list": {
+      "alpaca": {
+        "more": "アルパカ",
+        "one": "アルパカ"
+      },
+      "bird": {
+        "more": "鳥",
+        "one": "鳥"
+      },
+      "cat": {
+        "more": "子猫",
+        "one": "子猫"
+      },
+      "dog": {
+        "more": "犬",
+        "one": "子犬"
+      },
+      "fish": {
+        "more": "魚",
+        "one": "魚"
+      },
+      "fox": {
+        "more": "キツネ",
+        "one": "キツネ"
+      },
+      "goose": {
+        "more": "ガチョウ",
+        "one": "ガチョウ"
+      },
+      "lizard": {
+        "more": "トカゲ",
+        "one": "トカゲ"
+      },
+      "panda": {
+        "more": "パンダ",
+        "one": "パンダ"
+      },
+      "rabbit": {
+        "more": "ウサギ",
+        "one": "うさぎ"
+      },
+      "redpanda": {
+        "more": "レッサーパンダ",
+        "one": "レッサーパンダ"
+      }
+    },
+    "size": {
+      "decrease": "写真のサイズを小さくする",
+      "increase": "写真のサイズを大きくする"
+    }
+  },
   "brasil": {
     "disclaimer": "{{filterName}} でフィルタリングした後、{{paletteName}} パレットの色は使用できません。カスタム カラーを再度表示するには、パレットまたはフィルタ カテゴリを変更してください。",
     "divisions": {

@@ -6,6 +6,67 @@
     "summary": "Ojejapo oñehaꞌã hag̃ua opaichagua libs 3D ojeguerekóva React-pe g̃uarã",
     "title": "3D libs jesareko"
   },
+  "animals": {
+    "button": "Emoĩ {{animalCount}} ta’ãngamýi {{animalName}} rehegua.",
+    "count": {
+      "decrease": "Omboguejy umi ta’anga",
+      "increase": "Ombohetave ta’angakuéra"
+    },
+    "empty": {
+      "hide": "Oñomi umi lista nandi",
+      "show": "Ohechauka umi lista nandi"
+    },
+    "list": {
+      "alpaca": {
+        "more": "alpacas rehegua",
+        "one": "alpaca rehegua"
+      },
+      "bird": {
+        "more": "Guyrakuéra",
+        "one": "Guyra"
+      },
+      "cat": {
+        "more": "Gatitokuéra",
+        "one": "mbarakaja'i"
+      },
+      "dog": {
+        "more": "Jaguakuéra",
+        "one": "cachorro"
+      },
+      "fish": {
+        "more": "Pira",
+        "one": "pira"
+      },
+      "fox": {
+        "more": "zorro-kuéra",
+        "one": "aguara"
+      },
+      "goose": {
+        "more": "ganso rehegua",
+        "one": "ypeguasu"
+      },
+      "lizard": {
+        "more": "ryguasu rupi’a",
+        "one": "teju"
+      },
+      "panda": {
+        "more": "Osos Panda rehegua",
+        "one": "Oso panda rehegua"
+      },
+      "rabbit": {
+        "more": "Conejo-kuéra",
+        "one": "Tapiti"
+      },
+      "redpanda": {
+        "more": "pandas pytã",
+        "one": "panda pytã"
+      }
+    },
+    "size": {
+      "decrease": "Emboguejy ta’ãngamýi tuichakue",
+      "increase": "Embotuichave ta’ãngamýi tuichakue"
+    }
+  },
   "brasil": {
     "disclaimer": "Ndaipóri sa’y {{paletteName}} paleta-gui ojeguerekóva oñemboheko rire {{filterName}} rupive, emoambue paleta térã ñemboheko categoría rehecha jey hag̃ua sa’y jeporupyre.",
     "divisions": {

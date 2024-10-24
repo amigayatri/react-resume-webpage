@@ -6,6 +6,67 @@
     "summary": "开发用于测试 React 可用的不同 3D 库",
     "title": "3D 库测试"
   },
+  "animals": {
+    "button": "添加 {{animalName}} 的 {{animalCount}} 张照片",
+    "count": {
+      "decrease": "减少照片数量",
+      "increase": "增加照片数量"
+    },
+    "empty": {
+      "hide": "隐藏空列表",
+      "show": "显示空列表"
+    },
+    "list": {
+      "alpaca": {
+        "more": "羊驼",
+        "one": "羊驼毛"
+      },
+      "bird": {
+        "more": "鸟类",
+        "one": "鸟"
+      },
+      "cat": {
+        "more": "小猫",
+        "one": "小猫"
+      },
+      "dog": {
+        "more": "狗",
+        "one": "小狗"
+      },
+      "fish": {
+        "more": "鱼",
+        "one": "鱼"
+      },
+      "fox": {
+        "more": "狐狸",
+        "one": "狐狸"
+      },
+      "goose": {
+        "more": "鹅",
+        "one": "鹅"
+      },
+      "lizard": {
+        "more": "蜥蜴",
+        "one": "蜥蜴"
+      },
+      "panda": {
+        "more": "熊猫",
+        "one": "熊猫"
+      },
+      "rabbit": {
+        "more": "兔子",
+        "one": "兔子"
+      },
+      "redpanda": {
+        "more": "小熊猫",
+        "one": "小熊猫"
+      }
+    },
+    "size": {
+      "decrease": "缩小照片尺寸",
+      "increase": "增加照片尺寸"
+    }
+  },
   "brasil": {
     "disclaimer": "按 {{filterName}} 过滤后，{{paletteName}} 调色板中的颜色不可用，请更改调色板或过滤器类别以再次查看自定义颜色。",
     "divisions": {

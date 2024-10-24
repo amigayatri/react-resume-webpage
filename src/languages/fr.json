@@ -6,6 +6,67 @@
     "summary": "Développé pour tester différentes bibliothèques 3D disponibles pour React",
     "title": "Test des bibliothèques 3D"
   },
+  "animals": {
+    "button": "Ajoutez {{animalCount}} photos de {{animalName}}",
+    "count": {
+      "decrease": "Réduire le nombre de photos",
+      "increase": "Augmenter le nombre de photos"
+    },
+    "empty": {
+      "hide": "Masquer les listes vides",
+      "show": "Afficher les listes vides"
+    },
+    "list": {
+      "alpaca": {
+        "more": "alpagas",
+        "one": "alpaga"
+      },
+      "bird": {
+        "more": "Oiseaux",
+        "one": "Oiseau"
+      },
+      "cat": {
+        "more": "Chatons",
+        "one": "chaton"
+      },
+      "dog": {
+        "more": "Chiens",
+        "one": "chiot"
+      },
+      "fish": {
+        "more": "Poisson",
+        "one": "poisson"
+      },
+      "fox": {
+        "more": "renards",
+        "one": "renard"
+      },
+      "goose": {
+        "more": "oies",
+        "one": "oie"
+      },
+      "lizard": {
+        "more": "lézards",
+        "one": "lézard"
+      },
+      "panda": {
+        "more": "Ours panda",
+        "one": "Ours panda"
+      },
+      "rabbit": {
+        "more": "Lapins",
+        "one": "Lapin"
+      },
+      "redpanda": {
+        "more": "pandas roux",
+        "one": "panda roux"
+      }
+    },
+    "size": {
+      "decrease": "Réduire la taille des photos",
+      "increase": "Augmenter la taille des photos"
+    }
+  },
   "brasil": {
     "disclaimer": "Aucune couleur de la palette {{paletteName}} n'est disponible après le filtrage par {{filterName}}, modifiez la palette ou la catégorie de filtre pour voir à nouveau les couleurs personnalisées.",
     "divisions": {
