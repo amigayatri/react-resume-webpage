@@ -15,6 +15,7 @@ export const ListWrapper = styled.div`
 	text-align: center;
 	margin: 16px 0;
 	padding: 16px 0;
+	padding-bottom: 0;
 	margin-left: 16px;
 	${({ theme }) => theme.scroll}
 	&:first-of-type {
