@@ -6,6 +6,67 @@
     "summary": "Développé pour tester différentes bibliothèques 3D disponibles pour React",
     "title": "Test des bibliothèques 3D"
   },
+  "animals": {
+    "button": "Ajoutez {{animalCount}} photos de {{animalName}}",
+    "count": {
+      "decrease": "Réduire le nombre de photos",
+      "increase": "Augmenter le nombre de photos"
+    },
+    "empty": {
+      "hide": "Masquer les listes vides",
+      "show": "Afficher les listes vides"
+    },
+    "list": {
+      "alpaca": {
+        "more": "alpagas",
+        "one": "alpaga"
+      },
+      "bird": {
+        "more": "Oiseaux",
+        "one": "Oiseau"
+      },
+      "cat": {
+        "more": "Chatons",
+        "one": "chaton"
+      },
+      "dog": {
+        "more": "Chiens",
+        "one": "chiot"
+      },
+      "fish": {
+        "more": "Poisson",
+        "one": "poisson"
+      },
+      "fox": {
+        "more": "renards",
+        "one": "renard"
+      },
+      "goose": {
+        "more": "oies",
+        "one": "oie"
+      },
+      "lizard": {
+        "more": "lézards",
+        "one": "lézard"
+      },
+      "panda": {
+        "more": "Ours panda",
+        "one": "Ours panda"
+      },
+      "rabbit": {
+        "more": "Lapins",
+        "one": "Lapin"
+      },
+      "redpanda": {
+        "more": "pandas roux",
+        "one": "panda roux"
+      }
+    },
+    "size": {
+      "decrease": "Réduire la taille des photos",
+      "increase": "Augmenter la taille des photos"
+    }
+  },
   "brasil": {
     "disclaimer": "Aucune couleur de la palette {{paletteName}} n'est disponible après le filtrage par {{filterName}}, modifiez la palette ou la catégorie de filtre pour voir à nouveau les couleurs personnalisées.",
     "divisions": {
@@ -174,12 +235,9 @@
   },
   "icons": {
     "alt": {
-      "add": "Symbole plus",
       "alien": "Icône extraterrestre",
+      "alpaca": "icône de tigre",
       "ammonite": "Icône d'une ammonite",
-      "ammonitefossil": "Icône fossile d’ammonite",
-      "ancientgate": "Icône d'une porte ancienne",
-      "ancientpavilion": "Icône d'un ancien pavillon",
       "anglerfish": "Icône de pêcheur à la ligne",
       "anteater": "icône de fourmilier",
       "armadillo": "Icône de tatou",
@@ -197,13 +255,11 @@
       "bike": "Icône de vélo",
       "boar": "icône de sanglier",
       "bowl": "Icône de bol de nourriture",
-      "brain": "Icône du cerveau",
       "brasil": "Icône de carte brésilienne",
       "braziliancalendar": "Icône d'un calendrier avec le contour de la carte du Brésil à l'intérieur",
       "bread": "Icône de pain",
       "brokenlink": "Icône de lien brisé",
       "bug": "Icône d'insecte",
-      "bull": "icône de taureau",
       "burger": "Icône de hamburger",
       "bus": "Icône de bus",
       "butterfly": "icône de papillon",
@@ -212,7 +268,6 @@
       "calendar": "Icône de calendrier",
       "camel": "icône de chameau",
       "candle": "Icône de bougie",
-      "capsule": "Icône de pilule",
       "capybara": "icône capybara",
       "car": "icône de voiture",
       "cat": "icône de chat",
@@ -221,8 +276,6 @@
       "centaur": "Icône Centaure",
       "chart": "Icône de graphique",
       "chicken": "icône de poulet",
-      "cigarette": "Icône de cigarette",
-      "circle": "Icône avec un cercle",
       "clapperboard": "Icône de clap",
       "cloud": "Icône de nuage",
       "clownfish": "icône de poisson-clown",
@@ -237,9 +290,7 @@
       "cupcake": "Icône de petit gâteau",
       "deer": "icône de cerf",
       "dice": "Icône de dés",
-      "diplodocus": "Icône d'un dinosaure diplodocus",
       "disc": "Icône de disque",
-      "djinn": "Icône d'un Djinn (génie)",
       "dna": "Icône d'ADN",
       "dodo": "icône de dodo",
       "dog": "Icône de chien",
@@ -255,26 +306,31 @@
       "egyptianpyramids": "Icône des pyramides égyptiennes",
       "egyptiansphinx": "Icône du Sphinx (égyptien)",
       "egyptianwalk": "Icône d'une personne marchant dans le style de l'Egypte ancienne",
+      "eight": "huit",
       "elephant": "Icône d'éléphant",
       "email": "Icône de courrier",
-      "empathize": "Icône d'une personne avec un corps en forme de cœur",
+      "empty": "icône vide",
+      "equal": "égal",
       "error": "icône d'erreur",
       "external": "Symbole de lien externe",
+      "eye": "Icône œil ouvert (afficher)",
+      "eyeclose": "Icône œil fermé (masquer)",
       "eyeofhorus": "Icône de l'Œil d'Horus (mythologie égyptienne)",
       "facebook": "icône Facebook",
       "feline": "icône féline",
       "film": "Icône d'un film photographique",
       "fire": "icône de feu",
       "firefox": "Icône Firefox",
+      "five": "cinq",
       "flag": "Icône d'un drapeau ondulant",
       "flamingo": "icône de flamant rose",
       "flower": "Icône de fleur",
       "flyingtrout": "icône de poisson volant",
+      "four": "quatre",
       "fox": "Icône de renard",
       "frog": "icône de grenouille",
       "gamepad": "Icône du contrôleur de jeu vidéo",
       "gecko": "icône de gecko",
-      "genderless": "icône asexuée",
       "ghost": "Icône fantôme",
       "gitbranch": "Icône de branche Git",
       "github": "Icône GitHub",
@@ -312,7 +368,6 @@
       "lynx": "Icône de lynx",
       "magazine": "Icône de magazine",
       "magicwand": "Icône d'une baguette magique",
-      "mail": "Icône de courrier électronique",
       "mantaray": "Icône de raie pastenague",
       "map": "Icône de carte",
       "mappin": "Icône d'un point sur une carte",
@@ -323,7 +378,8 @@
       "men": "Icône de symbole masculin",
       "meteor": "icône de météore",
       "microsoft": "Icône Microsoft",
-      "moai": "Icône d'une statue Moai",
+      "minus": "Icône de soustraction",
+      "minusminus": "Icône de soustraction répétée deux fois",
       "mole": "icône de taupe",
       "monkey": "icône de singe",
       "moon": "Icône de la lune",
@@ -331,7 +387,9 @@
       "motorbike": "Icône de moto",
       "naruto": "Icône Naruto",
       "nestbirds": "Icône d'oiseaux dans le nid",
+      "nine": "neuf",
       "octopus": "Icône de poulpe",
+      "one": "un",
       "ostrich": "icône d'autruche",
       "owl": "icône de hibou",
       "paintbucket": "Icône de pot de peinture",
@@ -339,9 +397,7 @@
       "panda": "icône d'ours panda",
       "pangolin": "icône de pangolin",
       "pantone": "Icône de livre de couleurs disponible",
-      "parasaurolophus": "Icône d'un dinosaure parasaurolophus",
       "pencil": "Icône de crayon",
-      "penguin": "icône de pingouin",
       "person": "Icône de personne",
       "phone": "Icône de téléphone",
       "pig": "icône de cochon",
@@ -349,6 +405,8 @@
       "plane": "Icône d'avion",
       "planet": "Icône de la planète",
       "plant": "icône de la plante",
+      "plus": "Symbole plus",
+      "plusplus": "Icône Plus répétée deux fois",
       "polarbear": "icône de l'ours polaire",
       "polaroid": "Icône d'appareil photo Polaroïd",
       "porcupine": "Icône de hérisson",
@@ -364,6 +422,7 @@
       "rat": "icône de la souris",
       "raven": "icône de corbeau",
       "react": "Icône Réagir",
+      "redpanda": "icône de taureau",
       "resttime": "Icône de cercle avec la lettre z qui sort",
       "rhinoceros": "Icône de rhinocéros",
       "riodejaneiro": "Icône de carte de Rio de Janeiro",
@@ -374,12 +433,14 @@
       "salamander": "icône de salamandre",
       "schrodingerscatalive": "Icône d'un chat vivant dans une boîte radioactive (chat de Schrödingers)",
       "schrodingerscatdead": "Icône d'un chat mort dans une boîte radioactive (chat de Schrödingers)",
+      "seven": "Sept",
       "shadow": "icône de l'ombre",
       "shark": "Icône de requin",
       "sheep": "icône de mouton",
       "ship": "Icône de navire",
       "shrimp": "Icône de crevettes",
       "sittingdog": "Icône de chien assis",
+      "six": "six",
       "sloth": "icône de paresseux",
       "smartphone": "Icône de smartphone",
       "snail": "icône d'escargot",
@@ -400,21 +461,20 @@
       "terminal": "Icône du terminal de code",
       "terminalerror": "Icône d'erreur dans le terminal de code",
       "testtube": "Icône de tube à essai",
+      "three": "trois",
       "threed": "Icône de cube 3D",
-      "tiger": "icône de tigre",
       "tools": "Icône Outils",
       "tornado": "Icône de tornade",
       "tortoise": "icône de tortue",
-      "toucan": "Icône toucan",
       "toybrick": "Assemblage de l'icône de la brique",
       "trademark": "icône de marque",
       "train": "icône de train",
       "translate": "Icône de traduction",
-      "travesti": "Icône de symbole travesti",
       "trojanhorse": "Icône du cheval de Troie (Grèce antique)",
       "truck": "Icône de camion",
       "tumblr": "Icône Tumblr",
       "turtle": "icône de tortue",
+      "two": "deux",
       "umbrella": "Icône de parapluie",
       "unicorn": "icône de licorne",
       "velociraptor": "Icône d'un dinosaure vélociraptor",
@@ -427,8 +487,8 @@
       "whatsapp": "Icône WhatsApp",
       "wikipedia": "Icône Wikipédia",
       "windy": "icône du vent",
-      "women": "Icône de symbole féminin",
       "youtube": "Icône YouTube",
+      "zero": "zéro",
       "zoomin": "Icône de zoom avant",
       "zoomout": "Icône de zoom arrière"
     }

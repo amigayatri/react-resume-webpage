@@ -12,6 +12,7 @@ import AnimalAPI from "../../../api/Animals"
 import { Dispatch, SetStateAction, useState } from "react"
 import SVGIcon from "../../../icons/SVGIcon"
 import RandomList from "../RandomList"
+import { useTranslation } from "react-i18next"
 
 interface AnimalListProps {
 	list: string[]
@@ -20,6 +21,7 @@ interface AnimalListProps {
 }
 
 const Main = () => {
+	const { t } = useTranslation()
 	const api = new AnimalAPI()
 	const empty: string[] = []
 	const [size, setSize] = useState(256)
@@ -31,7 +33,11 @@ const Main = () => {
 	const [gooses, setGooses] = useState(empty)
 	const [pandas, setPandas] = useState(empty)
 	const [birds, setBirds] = useState(empty)
-	const [redPanda, setRedPanda] = useState(empty)
+	const [fishs, setFishs] = useState(empty)
+	const [alpacas, setAlpacas] = useState(empty)
+	const [redPandas, setRedPandas] = useState(empty)
+	const [count, setCount] = useState(1)
+	const [hideEmpty, setHideEmpty] = useState(false)
 	const lists: Map<string, AnimalListProps> = new Map([
 		[
 			"cat",
@@ -98,37 +104,103 @@ const Main = () => {
 			}
 		],
 		[
+			"fish",
+			{
+				list: fishs,
+				setList: setFishs,
+				icons: ["clownfish", "flyingtrout"]
+			}
+		],
+		[
+			"alpaca",
+			{
+				list: alpacas,
+				setList: setAlpacas,
+				icons: ["alpaca"]
+			}
+		],
+		[
 			"redpanda",
 			{
-				list: redPanda,
-				setList: setRedPanda,
-				icons: ["badger"]
+				list: redPandas,
+				setList: setRedPandas,
+				icons: ["redpanda"]
 			}
 		]
 	])
+	const handleFetch = async (id: string) => {
+		const newList = []
+		for (let i = 0; i < count; i++) {
+			const pic = await api.getPicture(id)
+			newList.push(pic)
+		}
+		return newList
+	}
 	const handleAdd = (id: string) => {
-		api.getPicture(id).then((pic) => {
+		handleFetch(id).then((newList) => {
 			const prev = lists.get(id)
 			console.log(pic)
 			if (prev === undefined) return
-			const prevArr = Array.from(prev.list)
-			prevArr.unshift(pic)
-			prev.setList(prevArr)
+			const newArr = [...newList, ...Array.from(prev.list)]
+			prev.setList(newArr)
 		})
+
+		const listsWrapper = document.getElementById("lists-wrapper")
+		const animalList = document.getElementById(id + "-list")
+		if (listsWrapper === null || animalList === null) return
+		const half = listsWrapper.offsetWidth >> 1
+		const newPos =
+			animalList.offsetLeft < half ? 0 : animalList.offsetLeft - half
+		listsWrapper.scrollLeft = newPos
 	}
 	const entries = Array.from(lists.entries())
-	const plusplus = ["add", "add"]
+	const numbers = [
+		"zero",
+		"one",
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine"
+	]
+	const plusplus: { iconId: string; size: number }[] =
+		count > 1
+			? [
+					{ iconId: "plus", size: 24 },
+					{ iconId: "equal", size: 24 },
+					{ iconId: numbers[count], size: 36 }
+			  ]
+			: [{ iconId: "plusplus", size: 48 }]
 	return (
 		<MainWrapper>
-			<ButtonWrapper>
+			<ButtonWrapper id="buttons-wrapper">
 				{entries.map(([id, { icons }]) => {
+					const animalName =
+						count > 1
+							? t(`animals.list.${id}.more`)
+							: t(`animals.list.${id}.one`)
 					return (
-						<Button key={"button-animal-" + id} onClick={() => handleAdd(id)}>
+						<Button
+							aria-label={t("animals.button", {
+								animalName,
+								animalCount: count
+							})}
+							id={id + "-button"}
+							key={"button-animal-" + id}
+							onClick={() => handleAdd(id)}
+						>
 							{icons.map((iconId) => (
-								<SVGIcon id={iconId} size={48} />
+								<SVGIcon key={`button-${id}-${iconId}`} id={iconId} size={48} />
 							))}
-							{plusplus.map((iconId) => (
-								<SVGIcon size={32} id={iconId} />
+							{plusplus.map(({ iconId, size }, idx) => (
+								<SVGIcon
+									key={`button-${id}-${iconId}-${idx}`}
+									size={size}
+									id={iconId}
+								/>
 							))}
 						</Button>
 					)
@@ -137,24 +209,68 @@ const Main = () => {
 			<ControlsWrapper>
 				<Control>
 					<ControlButton
+						aria-label={t("animals.count.decrease")}
+						$isDisabled={count === 1}
 						onClick={() => {
-							setSize(size - 4)
+							if (count === 1) return
+							setCount(count - 1)
+						}}
+					>
+						<SVGIcon size={48} id={"minus"} />
+					</ControlButton>
+					<ControlButton
+						aria-label={t("animals.count.increase")}
+						$isDisabled={count === 8}
+						onClick={() => {
+							if (count === 8) return
+							setCount(count + 1)
+						}}
+					>
+						<SVGIcon size={48} id="plus" />
+					</ControlButton>
+				</Control>
+				<Control>
+					<ControlButton
+						aria-label={t("animals.size.decrease")}
+						onClick={() => {
+							setSize(size - 8)
 						}}
 					>
 						<SVGIcon size={48} id="zoomout" />
 					</ControlButton>
 					<ValueWrapper>{size}px</ValueWrapper>
 					<ControlButton
+						aria-label={t("animals.size.increase")}
 						onClick={() => {
-							setSize(size + 4)
+							setSize(size + 8)
 						}}
 					>
 						<SVGIcon size={48} id="zoomin" />
 					</ControlButton>
 				</Control>
+				<Control>
+					<ControlButton
+						aria-label={t("animals.empty.hide")}
+						$isDisabled={hideEmpty === true}
+						onClick={() => setHideEmpty(!hideEmpty)}
+					>
+						<SVGIcon size={48} id="eyeclose" />
+					</ControlButton>
+					<ValueWrapper>
+						<SVGIcon size={48} id="empty" />
+					</ValueWrapper>
+					<ControlButton
+						aria-label={t("animals.empty.show")}
+						$isDisabled={hideEmpty === false}
+						onClick={() => setHideEmpty(!hideEmpty)}
+					>
+						<SVGIcon size={48} id="eye" />
+					</ControlButton>
+				</Control>
 			</ControlsWrapper>
-			<ListsWrapper>
+			<ListsWrapper id="lists-wrapper">
 				{entries.map(([id, { list, icons }]) => {
+					if (hideEmpty && list.length === 0) return
 					return (
 						<RandomList
 							width={size}

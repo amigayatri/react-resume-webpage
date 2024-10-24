@@ -6,6 +6,67 @@
     "summary": "Entwickelt, um verschiedene für React verfügbare 3D-Bibliotheken zu testen",
     "title": "Testen von 3D-Bibliotheken"
   },
+  "animals": {
+    "button": "Füge {{animalCount}} Fotos von {{animalName}} hinzu",
+    "count": {
+      "decrease": "Reduzieren Sie die Anzahl der Fotos",
+      "increase": "Erhöhen Sie die Anzahl der Fotos"
+    },
+    "empty": {
+      "hide": "Leere Listen ausblenden",
+      "show": "Leere Listen anzeigen"
+    },
+    "list": {
+      "alpaca": {
+        "more": "Alpakas",
+        "one": "Alpaka"
+      },
+      "bird": {
+        "more": "Vögel",
+        "one": "Vogel"
+      },
+      "cat": {
+        "more": "Kätzchen",
+        "one": "Kätzchen"
+      },
+      "dog": {
+        "more": "Hunde",
+        "one": "Welpe"
+      },
+      "fish": {
+        "more": "Fisch",
+        "one": "Fisch"
+      },
+      "fox": {
+        "more": "Füchse",
+        "one": "Fuchs"
+      },
+      "goose": {
+        "more": "Gänse",
+        "one": "Gans"
+      },
+      "lizard": {
+        "more": "Eidechsen",
+        "one": "Eidechse"
+      },
+      "panda": {
+        "more": "Pandabären",
+        "one": "Pandabär"
+      },
+      "rabbit": {
+        "more": "Kaninchen",
+        "one": "Kaninchen"
+      },
+      "redpanda": {
+        "more": "Rote Pandas",
+        "one": "Roter Panda"
+      }
+    },
+    "size": {
+      "decrease": "Reduzieren Sie die Größe von Fotos",
+      "increase": "Vergrößern Sie Fotos"
+    }
+  },
   "brasil": {
     "disclaimer": "Nach dem Filtern nach {{filterName}} sind keine Farben aus der Palette {{paletteName}} verfügbar. Ändern Sie die Palette oder Filterkategorie, um wieder benutzerdefinierte Farben anzuzeigen.",
     "divisions": {
@@ -174,12 +235,9 @@
   },
   "icons": {
     "alt": {
-      "add": "Plus-Symbol",
       "alien": "Alien-Symbol",
+      "alpaca": "Alpaca-Symbol",
       "ammonite": "Symbol eines Ammoniten",
-      "ammonitefossil": "Symbol für Ammonitenfossilien",
-      "ancientgate": "Ikone eines alten Tores",
-      "ancientpavilion": "Ikone eines antiken Pavillons",
       "anglerfish": "Seeteufel-Symbol",
       "anteater": "Ameisenbär-Symbol",
       "armadillo": "Gürteltier-Symbol",
@@ -197,13 +255,11 @@
       "bike": "Fahrrad-Symbol",
       "boar": "Wildschwein-Symbol",
       "bowl": "Symbol für Futternapf",
-      "brain": "Gehirn-Symbol",
       "brasil": "Brasilianisches Kartensymbol",
       "braziliancalendar": "Symbol eines Kalenders mit dem Umriss der brasilianischen Karte darin",
       "bread": "Brot-Symbol",
       "brokenlink": "Symbol für defekten Link",
       "bug": "Insektensymbol",
-      "bull": "Stier-Symbol",
       "burger": "Burger-Symbol",
       "bus": "Bus-Symbol",
       "butterfly": "Schmetterlingssymbol",
@@ -212,7 +268,6 @@
       "calendar": "Kalendersymbol",
       "camel": "Kamel-Symbol",
       "candle": "Kerzensymbol",
-      "capsule": "Pillensymbol",
       "capybara": "Capybara-Symbol",
       "car": "Auto-Symbol",
       "cat": "Katzensymbol",
@@ -221,8 +276,6 @@
       "centaur": "Zentauren-Symbol",
       "chart": "Diagrammsymbol",
       "chicken": "Huhn-Symbol",
-      "cigarette": "Zigarettensymbol",
-      "circle": "Symbol mit einem Kreis",
       "clapperboard": "Klappbrett-Symbol",
       "cloud": "Cloud-Symbol",
       "clownfish": "Clownfisch-Symbol",
@@ -237,9 +290,7 @@
       "cupcake": "Cupcake-Symbol",
       "deer": "Hirsch-Symbol",
       "dice": "Würfelsymbol",
-      "diplodocus": "Ikone eines Diplodocus-Dinosauriers",
       "disc": "Festplattensymbol",
-      "djinn": "Ikone eines Dschinns (Dschinn)",
       "dna": "DNA-Symbol",
       "dodo": "Dodo-Symbol",
       "dog": "Hundesymbol",
@@ -255,26 +306,31 @@
       "egyptianpyramids": "Symbol der ägyptischen Pyramiden",
       "egyptiansphinx": "Sphinx-Ikone (ägyptisch)",
       "egyptianwalk": "Ikone einer gehenden Person im Stil des alten Ägypten",
+      "eight": "acht",
       "elephant": "Elefanten-Symbol",
       "email": "Mail-Symbol",
-      "empathize": "Ikone einer Person mit herzförmigem Körper",
+      "empty": "leeres Symbol",
+      "equal": "gleich",
       "error": "Fehlersymbol",
       "external": "Symbol für externen Link",
+      "eye": "Symbol „Auge öffnen“ (anzeigen)",
+      "eyeclose": "Symbol „Geschlossenes Auge“ (ausblenden)",
       "eyeofhorus": "Ikone des Auges des Horus (ägyptische Mythologie)",
       "facebook": "Facebook-Symbol",
       "feline": "Katzensymbol",
       "film": "Ikone eines Fotofilms",
       "fire": "Feuersymbol",
       "firefox": "Firefox-Symbol",
+      "five": "fünf",
       "flag": "Symbol einer wehenden Flagge",
       "flamingo": "Flamingo-Symbol",
       "flower": "Blumensymbol",
       "flyingtrout": "Symbol für fliegende Fische",
+      "four": "vier",
       "fox": "Fuchs-Symbol",
       "frog": "Frosch-Symbol",
       "gamepad": "Symbol für Videospiel-Controller",
       "gecko": "Gecko-Symbol",
-      "genderless": "geschlechtsloses Symbol",
       "ghost": "Geistersymbol",
       "gitbranch": "Git-Zweigsymbol",
       "github": "GitHub-Symbol",
@@ -312,7 +368,6 @@
       "lynx": "Luchs-Symbol",
       "magazine": "Zeitschriftensymbol",
       "magicwand": "Symbol eines Zauberstabs",
-      "mail": "E-Mail-Symbol",
       "mantaray": "Stingray-Symbol",
       "map": "Kartensymbol",
       "mappin": "Symbol eines Punktes auf einer Karte",
@@ -323,7 +378,8 @@
       "men": "Männliches Symbol",
       "meteor": "Meteor-Symbol",
       "microsoft": "Microsoft-Symbol",
-      "moai": "Ikone einer Moai-Statue",
+      "minus": "Subtraktionssymbol",
+      "minusminus": "Das Subtraktionssymbol wird zweimal wiederholt",
       "mole": "Maulwurf-Symbol",
       "monkey": "Affen-Symbol",
       "moon": "Mond-Symbol",
@@ -331,7 +387,9 @@
       "motorbike": "Motorrad-Symbol",
       "naruto": "Naruto-Symbol",
       "nestbirds": "Vögel im Nest-Symbol",
+      "nine": "neun",
       "octopus": "Oktopus-Symbol",
+      "one": "eins",
       "ostrich": "Strauß-Symbol",
       "owl": "Eulen-Symbol",
       "paintbucket": "Farbeimer-Symbol",
@@ -339,9 +397,7 @@
       "panda": "Pandabär-Symbol",
       "pangolin": "Schuppentier-Symbol",
       "pantone": "Farbbuchsymbol verfügbar",
-      "parasaurolophus": "Ikone eines Parasaurolophus-Dinosauriers",
       "pencil": "Bleistiftsymbol",
-      "penguin": "Pinguin-Symbol",
       "person": "Personensymbol",
       "phone": "Telefonsymbol",
       "pig": "Schwein-Symbol",
@@ -349,6 +405,8 @@
       "plane": "Flugzeug-Symbol",
       "planet": "Planetensymbol",
       "plant": "Pflanzensymbol",
+      "plus": "Plus-Symbol",
+      "plusplus": "Plus-Symbol wird zweimal wiederholt",
       "polarbear": "Eisbär-Symbol",
       "polaroid": "Polaroid-Kamerasymbol",
       "porcupine": "Igel-Symbol",
@@ -364,6 +422,7 @@
       "rat": "Maussymbol",
       "raven": "Krähensymbol",
       "react": "Symbol „Reagieren“.",
+      "redpanda": "Stier-Symbol",
       "resttime": "Kreissymbol mit dem herauskommenden Buchstaben Z",
       "rhinoceros": "Nashorn-Symbol",
       "riodejaneiro": "Symbol für die Karte von Rio de Janeiro",
@@ -374,12 +433,14 @@
       "salamander": "Salamander-Symbol",
       "schrodingerscatalive": "Symbol einer lebenden Katze in einer radioaktiven Box (Schrödingers-Katze)",
       "schrodingerscatdead": "Ikone einer toten Katze in einer radioaktiven Kiste (Schrödingers-Katze)",
+      "seven": "Sieben",
       "shadow": "Schattensymbol",
       "shark": "Hai-Symbol",
       "sheep": "Schaf-Symbol",
       "ship": "Schiffssymbol",
       "shrimp": "Garnelen-Symbol",
       "sittingdog": "Symbol für sitzenden Hund",
+      "six": "sechs",
       "sloth": "Faultier-Symbol",
       "smartphone": "Smartphone-Symbol",
       "snail": "Schneckensymbol",
@@ -400,21 +461,20 @@
       "terminal": "Code-Terminal-Symbol",
       "terminalerror": "Fehlersymbol im Code-Terminal",
       "testtube": "Reagenzglas-Symbol",
+      "three": "drei",
       "threed": "3D-Würfelsymbol",
-      "tiger": "Tiger-Symbol",
       "tools": "Werkzeugsymbol",
       "tornado": "Tornado-Symbol",
       "tortoise": "Schildkröten-Symbol",
-      "toucan": "Tukan-Symbol",
       "toybrick": "Symbol für den Zusammenbau von Ziegelsteinen",
       "trademark": "Markensymbol",
       "train": "Zug-Symbol",
       "translate": "Übersetzungssymbol",
-      "travesti": "Symbol für Transvestiten",
       "trojanhorse": "Ikone des Trojanischen Pferdes (antikes Griechenland)",
       "truck": "LKW-Symbol",
       "tumblr": "Tumblr-Symbol",
       "turtle": "Schildkröten-Symbol",
+      "two": "zwei",
       "umbrella": "Regenschirm-Symbol",
       "unicorn": "Einhorn-Symbol",
       "velociraptor": "Symbol eines Velociraptor-Dinosauriers",
@@ -427,8 +487,8 @@
       "whatsapp": "WhatsApp-Symbol",
       "wikipedia": "Wikipedia-Symbol",
       "windy": "Wind-Symbol",
-      "women": "Weibliches Symbol",
       "youtube": "YouTube-Symbol",
+      "zero": "null",
       "zoomin": "Symbol „Vergrößern“.",
       "zoomout": "Symbol zum Verkleinern"
     }

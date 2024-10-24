@@ -26,10 +26,11 @@ for (const key of Object.keys(dataObj.icons.alt)) {
 	alreadyTranslated.add(key)
 }
 const alts = []
-
+const missingIcons = new Set(alreadyTranslated)
 const generateArrayItem = (filename) => {
 	const id = filename.replace("Icon", "").toLowerCase()
 	if (!alreadyTranslated.has(id)) alts.push(id)
+	missingIcons.delete(id)
 	return `    ["${id}", ${filename}]`
 }
 const arrItems = filtered.map(generateArrayItem)
@@ -49,17 +50,25 @@ const generateAltKey = (id) => {
 
 const altTexts = [
 	"{",
-	'	"alts": {',
+	'	"new": {',
 	alts.map(generateAltKey).join(",\n"),
+	"	},\n",
+	'	"delete": {',
+	Array.from(missingIcons.keys()).map(generateAltKey).join(",\n"),
 	"	}",
 	"}"
 ].join("\n")
-fs.writeFile("./new_alts.json", altTexts, (error) => {
-	if (error) {
-		console.error(error)
-		return
+const updateKeys = alts.length > 0 || missingIcons.size > 0
+fs.writeFile(
+	"./new_alts.json",
+	updateKeys ? altTexts : '"Nothing to change! =)"',
+	(error) => {
+		if (error) {
+			console.error(error)
+			return
+		}
 	}
-})
+)
 
 fs.writeFile("./src/constants/icons-map.ts", txt, (error) => {
 	if (error) {

@@ -5,13 +5,17 @@ export const MainWrapper = styled.main`
 	padding: 32px var(--color-container);
 `
 export const ButtonWrapper = styled.div`
-	display: flex;
-	margin-right: calc(var(--color-container) * -1);
+	gap: 16px;
 	overflow-x: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 196px);
+	margin: 0 calc(var(--color-container) * -1);
+	padding: 0 var(--color-container);
 `
 export const ListsWrapper = styled.div`
 	display: flex;
-	margin-right: calc(var(--color-container) * -1);
+	margin: 0 calc(var(--color-container) * -1);
+	padding: 0 var(--color-container);
 	overflow-x: auto;
 `
 export const Button = styled.button`
@@ -24,7 +28,6 @@ export const Button = styled.button`
 	padding: 8px;
 	border-radius: 16px;
 	border: none;
-	margin-left: 16px;
 	background-color: ${({ theme }) => theme.accent};
 	color: ${({ theme }) => theme.secondAccent};
 	border: 4px solid ${({ theme }) => theme.secondAccent};
@@ -33,17 +36,14 @@ export const Button = styled.button`
 		color: ${({ theme }) => theme.accent};
 		border-color: ${({ theme }) => theme.accent};
 	}
-	&:first-of-type {
-		margin-left: 0;
-	}
 `
 
 export const ValueWrapper = styled.span`
 	transition: ${({ theme }) => theme.transition};
 	font-size: 1.5rem;
 	background-color: ${({ theme }) => theme.almostBlack};
-	color: ${({ theme }) => theme.accent};
-	border: 2px solid ${({ theme }) => theme.primary};
+	color: ${({ theme }) => theme.purple};
+	border: 2px solid ${({ theme }) => theme.purple};
 	border-right: none;
 	border-left: none;
 	height: 67px;
@@ -53,9 +53,10 @@ export const ValueWrapper = styled.span`
 `
 
 export const ControlsWrapper = styled.div`
-	margin-top: 8px;
+	margin-top: 16px;
 	padding: 0;
 	width: fit-content;
+	display: flex;
 `
 
 export const Control = styled.div`
@@ -63,18 +64,25 @@ export const Control = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-left: 16px;
+	&:first-of-type {
+		margin-left: 0;
+	}
 `
 
-export const ControlButton = styled(Button)`
+export const ControlButton = styled(Button)<{ $isDisabled?: boolean }>`
 	min-width: 64px;
 	margin-left: 0;
 	background-color: ${({ theme }) => theme.almostBlack};
-	color: ${({ theme }) => theme.accent};
-	border: 2px solid ${({ theme }) => theme.primary};
+	cursor: ${({ $isDisabled }) => ($isDisabled ? "not-allowed" : "pointer")};
+	color: ${({ theme, $isDisabled }) =>
+		$isDisabled === true ? theme.almostBlack : theme.purple};
+	border: 2px solid ${({ theme }) => theme.purple};
 	&:nth-of-type(even) {
 		background-color: ${({ theme }) => theme.almostBlack};
-		color: ${({ theme }) => theme.accent};
-		border-color: ${({ theme }) => theme.primary};
+		color: ${({ theme, $isDisabled }) =>
+			$isDisabled === true ? theme.almostBlack : theme.purple};
+		border-color: ${({ theme }) => theme.purple};
 	}
 	&:first-of-type {
 		border-radius: 16px 0 0 16px;

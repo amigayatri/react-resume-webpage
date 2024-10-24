@@ -26,7 +26,6 @@ const Palette = ({ palette, info }: PaletteProps) => {
 	const iconId = palettesIcons.custom.has(name)
 		? palettesIcons.custom.get(name)
 		: palettesIcons.group.get(group)
-	console.log(iconId)
 	const id = `${group}-${name}`.replace(" ", "_")
 	const codes: string[] = Array.from(palette, (code) => `"${code}"`)
 	const allCodes = `[${codes.join(", ")}]`

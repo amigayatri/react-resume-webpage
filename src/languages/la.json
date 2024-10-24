@@ -6,6 +6,67 @@
     "summary": "Developed probare diversis 3D libs praesto est React",
     "title": "3D libs temptationis"
   },
+  "animals": {
+    "button": "Addere {{animalCount}} imagines e {{animalName}}",
+    "count": {
+      "decrease": "Redigendum numerum photos",
+      "increase": "Numerum photos"
+    },
+    "empty": {
+      "hide": "Inanis celare lists",
+      "show": "Ostende inanis tabulae"
+    },
+    "list": {
+      "alpaca": {
+        "more": "alpacas",
+        "one": "alpaca"
+      },
+      "bird": {
+        "more": "Aves",
+        "one": "Avis"
+      },
+      "cat": {
+        "more": "Kittens",
+        "one": "catulus"
+      },
+      "dog": {
+        "more": "Canes",
+        "one": "catulus"
+      },
+      "fish": {
+        "more": "Piscium",
+        "one": "piscis"
+      },
+      "fox": {
+        "more": "vulpes",
+        "one": "vulpis"
+      },
+      "goose": {
+        "more": "anseres",
+        "one": "anserem"
+      },
+      "lizard": {
+        "more": "lacertis",
+        "one": "lacerta"
+      },
+      "panda": {
+        "more": "Panda ursos",
+        "one": "Panda ursi"
+      },
+      "rabbit": {
+        "more": "Lepores",
+        "one": "Lepus"
+      },
+      "redpanda": {
+        "more": "red pandas",
+        "one": "red Panda"
+      }
+    },
+    "size": {
+      "decrease": "Redigendum magnitudinem photos",
+      "increase": "Magnitudinem photos"
+    }
+  },
   "brasil": {
     "disclaimer": "Nulli colores e {{paletteName}} palette praesto sunt postquam eliquare per {{filterName}}, genus palette vel columellae mutant ut colores consuetos iterum videant.",
     "divisions": {
@@ -174,12 +235,9 @@
   },
   "icons": {
     "alt": {
-      "add": "Plus symbolum",
       "alien": "Aliena icon",
+      "alpaca": "tigris icon",
       "ammonite": "Icon ammoniti",
-      "ammonitefossil": "Icon fossile Ammonitum",
-      "ancientgate": "Icon portae antiquae",
-      "ancientpavilion": "Icon antiquae pellem",
       "anglerfish": "Piscis ovans icon",
       "anteater": "anteater icon",
       "armadillo": "Armadillo icon",
@@ -197,13 +255,11 @@
       "bike": "Icon birota",
       "boar": "aprum icon",
       "bowl": "Cibus scaphium icon",
-      "brain": "Cerebrum icon",
       "brasil": "Tabula geographica icon",
       "braziliancalendar": "Icon calendarii cum adumbratione tabulae Brasilianae intus",
       "bread": "Panis icon",
       "brokenlink": "Vinculum fractum icon",
       "bug": "Insectorum icon",
-      "bull": "taurus icon",
       "burger": "Burger icon",
       "bus": "Bus icon",
       "butterfly": "papilio icon",
@@ -212,7 +268,6 @@
       "calendar": "Calendarium icon",
       "camel": "camelus icon",
       "candle": "Cereus icon",
-      "capsule": "Pill icon",
       "capybara": "capybara icon",
       "car": "currus icon",
       "cat": "cat icon",
@@ -221,8 +276,6 @@
       "centaur": "Centaurus icon",
       "chart": "Chart icon",
       "chicken": "pullum icon",
-      "cigarette": "Cigarette icon",
-      "circle": "Icon cum circulo",
       "clapperboard": "Clapperboard icon",
       "cloud": "Nubes icon",
       "clownfish": "rusticus icon",
@@ -237,9 +290,7 @@
       "cupcake": "Cupcake icon",
       "deer": "cervus icon",
       "dice": "Talis icon",
-      "diplodocus": "Icon diplodoci dinosauri",
       "disc": "Orbis icon",
-      "djinn": "Icon of a Djinn (genie)",
       "dna": "DNA icon",
       "dodo": "dodo icon",
       "dog": "Canis icon",
@@ -255,26 +306,31 @@
       "egyptianpyramids": "Pyramidum icon",
       "egyptiansphinx": "Sphinx icon (Aegyptia)",
       "egyptianwalk": "Icon hominis ambulans in stilo Aegyptiorum antiquorum",
+      "eight": "octingenti",
       "elephant": "Elephantus icon",
       "email": "Icon mail",
-      "empathize": "Icon hominis cum cor informibus corpus",
+      "empty": "inanis icon",
+      "equal": "aequalis",
       "error": "error icon",
       "external": "Externe paginae symbolum",
+      "eye": "Oculus apertus icon (ostendi)",
+      "eyeclose": "Oculus occlusus icon (hide)",
       "eyeofhorus": "Oculus Hori icon (mythologia Aegyptia)",
       "facebook": "facebook icon",
       "feline": "feline icon",
       "film": "Icon of a photographic film",
       "fire": "ignis icon",
       "firefox": "Firefox icon",
+      "five": "quinque",
       "flag": "Icon vexillum iactantis",
       "flamingo": "phoenicopteri icon",
       "flower": "Flos icon",
       "flyingtrout": "volantem piscis icon",
+      "four": "quattuor",
       "fox": "Fox icon",
       "frog": "rana icon",
       "gamepad": "Video ludum controller icon",
       "gecko": "migale icon",
-      "genderless": "genderless icon",
       "ghost": "Sanctus icon",
       "gitbranch": "Ramus icon git",
       "github": "GitHub icon",
@@ -312,7 +368,6 @@
       "lynx": "Lynx icon",
       "magazine": "Magazine icon",
       "magicwand": "Icon magicum",
-      "mail": "E-mail Icon",
       "mantaray": "Stingray icon",
       "map": "Tabula icon",
       "mappin": "Icon puncti in charta",
@@ -323,7 +378,8 @@
       "men": "Male symbolum icon",
       "meteor": "meteor icon",
       "microsoft": "Microsoft icon",
-      "moai": "Icon de statua Moai",
+      "minus": "Subtractio icon",
+      "minusminus": "Subtractio icon bis repetitur",
       "mole": "mole icon",
       "monkey": "simia icon",
       "moon": "Luna Icon",
@@ -331,7 +387,9 @@
       "motorbike": "Motorcycle icon",
       "naruto": "Naruto icon",
       "nestbirds": "Aves in nido icon",
+      "nine": "novem",
       "octopus": "Octopus icon",
+      "one": "unus",
       "ostrich": "struthionis icon",
       "owl": "ibis icon",
       "paintbucket": "Aliquam situla icon",
@@ -339,9 +397,7 @@
       "panda": "panda ursus icon",
       "pangolin": "pangolin icon",
       "pantone": "Color liber icon available",
-      "parasaurolophus": "Icon parasaurolophi dinosauri",
       "pencil": "Icon plumbum",
-      "penguin": "penguin icon",
       "person": "Persona icon",
       "phone": "Phone Icon",
       "pig": "porcus icon",
@@ -349,6 +405,8 @@
       "plane": "Vivamus icon",
       "planet": "Icon planetae",
       "plant": "plant icon",
+      "plus": "Plus symbolum",
+      "plusplus": "Plus icon bis repetitur",
       "polarbear": "Ursus icon",
       "polaroid": "Polaroid camera icon",
       "porcupine": "Icon ericius",
@@ -364,6 +422,7 @@
       "rat": "mus icon",
       "raven": "corvus icon",
       "react": "agere icon",
+      "redpanda": "taurus icon",
       "resttime": "Circulus icon cum littera z egrediens",
       "rhinoceros": "Rhinoceros icon",
       "riodejaneiro": "Rio de Janeiro map icon",
@@ -374,12 +433,14 @@
       "salamander": "salamandra icon",
       "schrodingerscatalive": "Icon vivae cattae in arca radioactiva (Schrodingers cat)",
       "schrodingerscatdead": "Icon mortui cat in arca radioactiva (Schrodingers cat)",
+      "seven": "septem",
       "shadow": "umbra icon",
       "shark": "PISTRIS icon",
       "sheep": "ovis icon",
       "ship": "Navis icon",
       "shrimp": "Squilla icon",
       "sittingdog": "Sedens canis icon",
+      "six": "sex",
       "sloth": "desidia icon",
       "smartphone": "Mauris quis icon",
       "snail": "cochlea icon",
@@ -400,21 +461,20 @@
       "terminal": "Code terminalis icon",
       "terminalerror": "Error icon in codice terminatio",
       "testtube": "Tubus test icon",
+      "three": "tres",
       "threed": "3D cubus icon",
-      "tiger": "tigris icon",
       "tools": "Instrumenta icon",
       "tornado": "Turbo icon",
       "tortoise": "turtur icon",
-      "toucan": "Toucan icon",
       "toybrick": "Icon fictilis",
       "trademark": "tincidunt icon",
       "train": "instituendi icon",
       "translate": "Translation icon",
-      "travesti": "Icon transvestite symbolum",
       "trojanhorse": "Icon equus Troianus (Antiqua Graecia)",
       "truck": "Salsissimus vir vivens icon",
       "tumblr": "Tumblr icon",
       "turtle": "turtur icon",
+      "two": "duo",
       "umbrella": "Umbella icon",
       "unicorn": "unicornis icon",
       "velociraptor": "Icon velociraptor dinosauri",
@@ -427,8 +487,8 @@
       "whatsapp": "whatsapp icon",
       "wikipedia": "Vicipaedia icon",
       "windy": "ventus icon",
-      "women": "Signum femininum icon",
       "youtube": "YouTube icon",
+      "zero": "nulla",
       "zoomin": "Zoom in icon",
       "zoomout": "Retrahe icon"
     }

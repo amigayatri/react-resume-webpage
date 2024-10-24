@@ -6,6 +6,67 @@
     "summary": "React で利用可能なさまざまな 3D ライブラリをテストするために開発されました",
     "title": "3D ライブラリのテスト"
   },
+  "animals": {
+    "button": "{{animalName}} の {{animalCount}} 枚の写真を追加",
+    "count": {
+      "decrease": "写真の枚数を減らす",
+      "increase": "写真の枚数を増やす"
+    },
+    "empty": {
+      "hide": "空のリストを非表示にする",
+      "show": "空のリストを表示する"
+    },
+    "list": {
+      "alpaca": {
+        "more": "アルパカ",
+        "one": "アルパカ"
+      },
+      "bird": {
+        "more": "鳥",
+        "one": "鳥"
+      },
+      "cat": {
+        "more": "子猫",
+        "one": "子猫"
+      },
+      "dog": {
+        "more": "犬",
+        "one": "子犬"
+      },
+      "fish": {
+        "more": "魚",
+        "one": "魚"
+      },
+      "fox": {
+        "more": "キツネ",
+        "one": "キツネ"
+      },
+      "goose": {
+        "more": "ガチョウ",
+        "one": "ガチョウ"
+      },
+      "lizard": {
+        "more": "トカゲ",
+        "one": "トカゲ"
+      },
+      "panda": {
+        "more": "パンダ",
+        "one": "パンダ"
+      },
+      "rabbit": {
+        "more": "ウサギ",
+        "one": "うさぎ"
+      },
+      "redpanda": {
+        "more": "レッサーパンダ",
+        "one": "レッサーパンダ"
+      }
+    },
+    "size": {
+      "decrease": "写真のサイズを小さくする",
+      "increase": "写真のサイズを大きくする"
+    }
+  },
   "brasil": {
     "disclaimer": "{{filterName}} でフィルタリングした後、{{paletteName}} パレットの色は使用できません。カスタム カラーを再度表示するには、パレットまたはフィルタ カテゴリを変更してください。",
     "divisions": {
@@ -174,12 +235,9 @@
   },
   "icons": {
     "alt": {
-      "add": "プラス記号",
       "alien": "エイリアンのアイコン",
+      "alpaca": "トラのアイコン",
       "ammonite": "アンモナイトのアイコン",
-      "ammonitefossil": "アンモナイト化石のアイコン",
-      "ancientgate": "古代の門のアイコン",
-      "ancientpavilion": "古代のパビリオンのアイコン",
       "anglerfish": "アンコウのアイコン",
       "anteater": "アリクイのアイコン",
       "armadillo": "アルマジロのアイコン",
@@ -197,13 +255,11 @@
       "bike": "自転車のアイコン",
       "boar": "イノシシのアイコン",
       "bowl": "フードボウルのアイコン",
-      "brain": "脳のアイコン",
       "brasil": "ブラジルの地図アイコン",
       "braziliancalendar": "ブラジルの地図の輪郭が入ったカレンダーのアイコン",
       "bread": "パンのアイコン",
       "brokenlink": "リンク切れアイコン",
       "bug": "昆虫アイコン",
-      "bull": "雄牛のアイコン",
       "burger": "ハンバーガーのアイコン",
       "bus": "バスのアイコン",
       "butterfly": "蝶のアイコン",
@@ -212,7 +268,6 @@
       "calendar": "カレンダーアイコン",
       "camel": "ラクダのアイコン",
       "candle": "キャンドルアイコン",
-      "capsule": "錠剤のアイコン",
       "capybara": "カピバラのアイコン",
       "car": "車のアイコン",
       "cat": "猫のアイコン",
@@ -221,8 +276,6 @@
       "centaur": "ケンタウロスのアイコン",
       "chart": "グラフアイコン",
       "chicken": "鶏のアイコン",
-      "cigarette": "タバコのアイコン",
-      "circle": "円の付いたアイコン",
       "clapperboard": "カチンコのアイコン",
       "cloud": "雲のアイコン",
       "clownfish": "カクレクマノミのアイコン",
@@ -237,9 +290,7 @@
       "cupcake": "カップケーキのアイコン",
       "deer": "鹿のアイコン",
       "dice": "サイコロアイコン",
-      "diplodocus": "ディプロドクス恐竜のアイコン",
       "disc": "ディスクアイコン",
-      "djinn": "ジン（魔神）のアイコン",
       "dna": "DNA アイコン",
       "dodo": "ドードーのアイコン",
       "dog": "犬のアイコン",
@@ -255,26 +306,31 @@
       "egyptianpyramids": "エジプトのピラミッドのアイコン",
       "egyptiansphinx": "スフィンクスのアイコン (エジプト)",
       "egyptianwalk": "古代エジプトのスタイルで歩く人のアイコン",
+      "eight": "八",
       "elephant": "象のアイコン",
       "email": "メールアイコン",
-      "empathize": "ハート型の体を持つ人のアイコン",
+      "empty": "空のアイコン",
+      "equal": "等しい",
       "error": "エラーアイコン",
       "external": "外部リンク記号",
+      "eye": "目を開けたアイコン (表示)",
+      "eyeclose": "目を閉じたアイコン（非表示）",
       "eyeofhorus": "ホルスの目アイコン (エジプト神話)",
       "facebook": "フェイスブックのアイコン",
       "feline": "猫のアイコン",
       "film": "写真フィルムのアイコン",
       "fire": "火のアイコン",
       "firefox": "Firefoxのアイコン",
+      "five": "五",
       "flag": "なびく旗のアイコン",
       "flamingo": "フラミンゴのアイコン",
       "flower": "花のアイコン",
       "flyingtrout": "トビウオのアイコン",
+      "four": "4",
       "fox": "キツネのアイコン",
       "frog": "カエルのアイコン",
       "gamepad": "ビデオゲームコントローラーのアイコン",
       "gecko": "ヤモリのアイコン",
-      "genderless": "ジェンダーレスアイコン",
       "ghost": "ゴーストアイコン",
       "gitbranch": "Git ブランチのアイコン",
       "github": "GitHub アイコン",
@@ -312,7 +368,6 @@
       "lynx": "オオヤマネコのアイコン",
       "magazine": "雑誌アイコン",
       "magicwand": "魔法の杖のアイコン",
-      "mail": "電子メールアイコン",
       "mantaray": "アカエイのアイコン",
       "map": "地図アイコン",
       "mappin": "地図上の地点のアイコン",
@@ -323,7 +378,8 @@
       "men": "男性のシンボルアイコン",
       "meteor": "流星のアイコン",
       "microsoft": "マイクロソフトのアイコン",
-      "moai": "モアイ像のアイコン",
+      "minus": "減算アイコン",
+      "minusminus": "減算アイコンを 2 回繰り返します",
       "mole": "ほくろのアイコン",
       "monkey": "猿のアイコン",
       "moon": "月のアイコン",
@@ -331,7 +387,9 @@
       "motorbike": "バイクのアイコン",
       "naruto": "ナルトのアイコン",
       "nestbirds": "巣の中の鳥のアイコン",
+      "nine": "九",
       "octopus": "タコのアイコン",
+      "one": "1つ",
       "ostrich": "ダチョウのアイコン",
       "owl": "フクロウのアイコン",
       "paintbucket": "ペイントバケツのアイコン",
@@ -339,9 +397,7 @@
       "panda": "パンダのアイコン",
       "pangolin": "センザンコウのアイコン",
       "pantone": "カラーブックアイコンが利用可能",
-      "parasaurolophus": "パラサウロロフス恐竜のアイコン",
       "pencil": "鉛筆アイコン",
-      "penguin": "ペンギンのアイコン",
       "person": "人のアイコン",
       "phone": "電話アイコン",
       "pig": "豚のアイコン",
@@ -349,6 +405,8 @@
       "plane": "飛行機のアイコン",
       "planet": "惑星のアイコン",
       "plant": "植物のアイコン",
+      "plus": "プラス記号",
+      "plusplus": "プラスアイコンが2回繰り返される",
       "polarbear": "シロクマのアイコン",
       "polaroid": "ポラロイドカメラのアイコン",
       "porcupine": "ハリネズミのアイコン",
@@ -364,6 +422,7 @@
       "rat": "マウスアイコン",
       "raven": "カラスアイコン",
       "react": "反応アイコン",
+      "redpanda": "雄牛のアイコン",
       "resttime": "z の文字が出てくる円のアイコン",
       "rhinoceros": "サイのアイコン",
       "riodejaneiro": "リオデジャネイロの地図アイコン",
@@ -374,12 +433,14 @@
       "salamander": "サンショウウオのアイコン",
       "schrodingerscatalive": "放射性の箱に入った生きた猫のアイコン (シュレディンガー猫)",
       "schrodingerscatdead": "放射性の箱に入った死んだ猫のアイコン (シュレディンガー猫)",
+      "seven": "セブン",
       "shadow": "影のアイコン",
       "shark": "サメのアイコン",
       "sheep": "羊のアイコン",
       "ship": "船のアイコン",
       "shrimp": "エビのアイコン",
       "sittingdog": "座っている犬のアイコン",
+      "six": "六",
       "sloth": "ナマケモノのアイコン",
       "smartphone": "スマートフォンのアイコン",
       "snail": "カタツムリのアイコン",
@@ -400,21 +461,20 @@
       "terminal": "コード端子アイコン",
       "terminalerror": "コードターミナルのエラーアイコン",
       "testtube": "試験管のアイコン",
+      "three": "三つ",
       "threed": "3D キューブのアイコン",
-      "tiger": "トラのアイコン",
       "tools": "ツールアイコン",
       "tornado": "竜巻アイコン",
       "tortoise": "カメのアイコン",
-      "toucan": "オオハシのアイコン",
       "toybrick": "組み立てレンガのアイコン",
       "trademark": "商標アイコン",
       "train": "電車のアイコン",
       "translate": "翻訳アイコン",
-      "travesti": "女装シンボルアイコン",
       "trojanhorse": "トロイの木馬のアイコン (古代ギリシャ)",
       "truck": "トラックのアイコン",
       "tumblr": "タンブラーのアイコン",
       "turtle": "カメのアイコン",
+      "two": "二",
       "umbrella": "傘のアイコン",
       "unicorn": "ユニコーンのアイコン",
       "velociraptor": "ヴェロキラプトル恐竜のアイコン",
@@ -427,8 +487,8 @@
       "whatsapp": "WhatsApp アイコン",
       "wikipedia": "ウィキペディアのアイコン",
       "windy": "風のアイコン",
-      "women": "女性のシンボルアイコン",
       "youtube": "YouTube アイコン",
+      "zero": "ゼロ",
       "zoomin": "ズームインアイコン",
       "zoomout": "ズームアウトアイコン"
     }

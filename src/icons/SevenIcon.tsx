@@ -2,8 +2,8 @@ import { IconWrapper, Icon } from "./Styles"
 import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
-const CircleIcon = (props: SVGProps) => {
-	const { alt, size } = props
+const SevenIcon = (props: SVGProps) => {
+	const { size } = props
 	return (
 		<IconWrapper>
 			<Icon
@@ -11,13 +11,16 @@ const CircleIcon = (props: SVGProps) => {
 				role="img"
 				fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 24 24"
+				viewBox="-10 0 48 48"
 			>
-				<title>{alt}</title>
-				<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path>
+				<title>7</title>
+				<path
+					fill="currentColor"
+					d="M 9.335 44 L 6.052 43.021 L 21.66 7.168 L 2.74 7.168 L 2.74 4 L 25.26 4 L 25.26 6.966 L 9.335 44 Z"
+				/>
 			</Icon>
 		</IconWrapper>
 	)
 }
 
-export default CircleIcon
+export default SevenIcon

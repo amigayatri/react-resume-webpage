@@ -10,29 +10,31 @@ class AnimalAPI {
 			["goose", this.getGoose],
 			["panda", this.getPanda],
 			["bird", this.getBird],
+			["fish", this.getFish],
+			["alpaca", this.getAlpaca],
 			["redpanda", this.getRedPanda]
 		])
 	}
 
-	getCat: () => Promise<string> = async () => {
+	getCat = async () => {
 		const response = await fetch("https://api.thecatapi.com/v1/images/search")
 		const body = await response.json()
 		return body[0].url
 	}
 
-	getDog: () => Promise<string> = async () => {
+	getDog = async () => {
 		const response = await fetch("https://dog.ceo/api/breeds/image/random")
 		const body = await response.json()
 		return body.message
 	}
 
-	getFox: () => Promise<string> = async () => {
+	getFox = async () => {
 		const response = await fetch("https://randomfox.ca/floof/")
 		const body = await response.json()
 		return body.image
 	}
 
-	getRabbit: () => Promise<string> = async () => {
+	getRabbit = async () => {
 		const response = await fetch(
 			"https://api.bunnies.io/v2/loop/random/?media=gif"
 		)
@@ -40,31 +42,48 @@ class AnimalAPI {
 		return body.media.gif
 	}
 
-	getLizard: () => Promise<string> = async () => {
+	getLizard = async () => {
 		const response = await fetch("https://nekos.life/api/v2/img/lizard")
 		const body = await response.json()
 		return body.url
 	}
 
-	getGoose: () => Promise<string> = async () => {
+	getGoose = async () => {
 		const response = await fetch("https://nekos.life/api/v2/img/goose")
 		const body = await response.json()
 		return body.url
 	}
 
-	getPanda: () => Promise<string> = async () => {
+	getPanda = async () => {
 		const response = await fetch("https://some-random-api.com/animal/panda")
 		const body = await response.json()
 		return body.image
 	}
 
-	getBird: () => Promise<string> = async () => {
-		const response = await fetch("https://some-random-api.com/animal/bird")
+	getBird = async () => {
+		const response = await fetch(
+			"https://api.sefinek.net/api/v2/random/animal/bird"
+		)
 		const body = await response.json()
-		return body.image
+		return body.message
 	}
 
-	getRedPanda: () => Promise<string> = async () => {
+	getFish = async () => {
+		const response = await fetch(
+			"https://api.sefinek.net/api/v2/random/animal/fish"
+		)
+		const body = await response.json()
+		return body.message
+	}
+
+	getAlpaca = async () => {
+		const response = await fetch(
+			"https://api.sefinek.net/api/v2/random/animal/alpaca"
+		)
+		const body = await response.json()
+		return body.message
+	}
+	getRedPanda = async () => {
 		const response = await fetch("https://some-random-api.com/animal/red_panda")
 		const body = await response.json()
 		return body.image

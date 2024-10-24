@@ -6,6 +6,67 @@
     "summary": "Ojejapo oñehaꞌã hag̃ua opaichagua libs 3D ojeguerekóva React-pe g̃uarã",
     "title": "3D libs jesareko"
   },
+  "animals": {
+    "button": "Emoĩ {{animalCount}} ta’ãngamýi {{animalName}} rehegua.",
+    "count": {
+      "decrease": "Omboguejy umi ta’anga",
+      "increase": "Ombohetave ta’angakuéra"
+    },
+    "empty": {
+      "hide": "Oñomi umi lista nandi",
+      "show": "Ohechauka umi lista nandi"
+    },
+    "list": {
+      "alpaca": {
+        "more": "alpacas rehegua",
+        "one": "alpaca rehegua"
+      },
+      "bird": {
+        "more": "Guyrakuéra",
+        "one": "Guyra"
+      },
+      "cat": {
+        "more": "Gatitokuéra",
+        "one": "mbarakaja'i"
+      },
+      "dog": {
+        "more": "Jaguakuéra",
+        "one": "cachorro"
+      },
+      "fish": {
+        "more": "Pira",
+        "one": "pira"
+      },
+      "fox": {
+        "more": "zorro-kuéra",
+        "one": "aguara"
+      },
+      "goose": {
+        "more": "ganso rehegua",
+        "one": "ypeguasu"
+      },
+      "lizard": {
+        "more": "ryguasu rupi’a",
+        "one": "teju"
+      },
+      "panda": {
+        "more": "Osos Panda rehegua",
+        "one": "Oso panda rehegua"
+      },
+      "rabbit": {
+        "more": "Conejo-kuéra",
+        "one": "Tapiti"
+      },
+      "redpanda": {
+        "more": "pandas pytã",
+        "one": "panda pytã"
+      }
+    },
+    "size": {
+      "decrease": "Emboguejy ta’ãngamýi tuichakue",
+      "increase": "Embotuichave ta’ãngamýi tuichakue"
+    }
+  },
   "brasil": {
     "disclaimer": "Ndaipóri sa’y {{paletteName}} paleta-gui ojeguerekóva oñemboheko rire {{filterName}} rupive, emoambue paleta térã ñemboheko categoría rehecha jey hag̃ua sa’y jeporupyre.",
     "divisions": {
@@ -174,12 +235,9 @@
   },
   "icons": {
     "alt": {
-      "add": "Más símbolo",
       "alien": "Icono extraterrestre rehegua",
+      "alpaca": "tigre icono rehegua",
       "ammonite": "Icono peteĩ amonita rehegua",
-      "ammonitefossil": "Icono fósil amonita rehegua",
-      "ancientgate": "Icono peteĩ okẽ yma guare rehegua",
-      "ancientpavilion": "Icono peteĩ pabellón yma guaréva rehegua",
       "anglerfish": "Pescador pira icono",
       "anteater": "hormiguero icono rehegua",
       "armadillo": "Armadillo icono rehegua",
@@ -197,13 +255,11 @@
       "bike": "Bicicleta rehegua icono",
       "boar": "jaguarete icono",
       "bowl": "Tembi'u ryru icono",
-      "brain": "Icono cerebral rehegua",
       "brasil": "Icono mapa brasileño rehegua",
       "braziliancalendar": "Icono peteĩ calendario orekóva contorno mapa brasileño hyepýpe",
       "bread": "Pan icono",
       "brokenlink": "Icono enlace oñembyaíva",
       "bug": "Insecto rehegua icono",
-      "bull": "toro icono rehegua",
       "burger": "Hamburguesa icono",
       "bus": "Icono de ómnibus",
       "butterfly": "icono mariposa rehegua",
@@ -212,7 +268,6 @@
       "calendar": "Icono calendario rehegua",
       "camel": "camello icono rehegua",
       "candle": "Vela icono rehegua",
-      "capsule": "Icono de píldora",
       "capybara": "capybara icono rehegua",
       "car": "mba’yrumýi icono",
       "cat": "mymba ikóna",
@@ -221,8 +276,6 @@
       "centaur": "Icon centauro rehegua",
       "chart": "Gráfico icono rehegua",
       "chicken": "pollo icono rehegua",
-      "cigarette": "Cigarrillo icono rehegua",
-      "circle": "Icono orekóva peteĩ círculo",
       "clapperboard": "Icono de clapperboard rehegua",
       "cloud": "Arai icono",
       "clownfish": "pira payaso icono",
@@ -237,9 +290,7 @@
       "cupcake": "Icono de magdalena rehegua",
       "deer": "ciervo icono rehegua",
       "dice": "Icono de dado rehegua",
-      "diplodocus": "Icono peteĩ dinosaurio diplodocus rehegua",
       "disc": "Disco rehegua icono",
-      "djinn": "Icono peteĩ Djinn (genie) rehegua .",
       "dna": "ADN icono",
       "dodo": "dodo icono",
       "dog": "Jagua icono",
@@ -255,26 +306,31 @@
       "egyptianpyramids": "Umi pirámide egipcio icono",
       "egyptiansphinx": "Esfinge icono (Egipto) .",
       "egyptianwalk": "Icono peteĩ tapicha oguatáva estilo Egipto yma guarépe",
+      "eight": "poapy",
       "elephant": "Elefante icono rehegua",
       "email": "Correo rehegua icono",
-      "empathize": "Icono peteĩ tapicha orekóva hete korasõicha",
+      "empty": "icono vacío rehegua",
+      "equal": "ojoja",
       "error": "jejavy techaukaha",
       "external": "Símbolo enlace okapegua",
+      "eye": "Tesa abierta icono (ehechauka) .",
+      "eyeclose": "Tesa ñemboty icono (oñomi) .",
       "eyeofhorus": "Horus resa icono (mitología egipcia) .",
       "facebook": "facebook icono rehegua",
       "feline": "icono felino rehegua",
       "film": "Icono peteĩ pelíkula fotografía rehegua",
       "fire": "tata rehegua icono",
       "firefox": "Firefox techaukaha",
+      "five": "po",
       "flag": "Icono peteĩ poyvi oñanduukáva rehegua",
       "flamingo": "flamenco icono rehegua",
       "flower": "Yvoty icono",
       "flyingtrout": "pira oveveva icono",
+      "four": "irundy",
       "fox": "Zorro icono",
       "frog": "sapo icono rehegua",
       "gamepad": "Videojuego controlador icono",
       "gecko": "gecko icono rehegua",
-      "genderless": "icono sin género rehegua",
       "ghost": "Icono fantasma rehegua",
       "gitbranch": "Git rama icono rehegua",
       "github": "GitHub techaukaha",
@@ -312,7 +368,6 @@
       "lynx": "Lince icono",
       "magazine": "Revista icono",
       "magicwand": "Icono peteĩ varita mágica rehegua",
-      "mail": "Correo electrónico Icono rehegua",
       "mantaray": "Icono Stingray rehegua",
       "map": "Mapa icono",
       "mappin": "Icono peteĩ punto rehegua peteĩ mápape",
@@ -323,7 +378,8 @@
       "men": "Kuimba'e símbolo icono",
       "meteor": "meteoro rehegua icono",
       "microsoft": "Microsoft techaukaha",
-      "moai": "Icono peteĩ Moai ra'anga rehegua",
+      "minus": "Icono de resta rehegua",
+      "minusminus": "Icono de resta ojerrepeti mokõi jey",
       "mole": "ikóna topo rehegua",
       "monkey": "mono icono rehegua",
       "moon": "Jasy Icono",
@@ -331,7 +387,9 @@
       "motorbike": "Motocicleta rehegua icono",
       "naruto": "Naruto icono rehegua",
       "nestbirds": "Guyrakuéra oĩva pe nido icono-pe",
+      "nine": "porundy",
       "octopus": "Pulpo icono",
+      "one": "peteĩ",
       "ostrich": "avestruz icono rehegua",
       "owl": "búho ikóna",
       "paintbucket": "Pintura cubo icono rehegua",
@@ -339,9 +397,7 @@
       "panda": "icono oso panda rehegua",
       "pangolin": "pangolin icono rehegua",
       "pantone": "Icono aranduka color rehegua ojeguerekóva",
-      "parasaurolophus": "Icono peteĩ dinosaurio parasaurolophus rehegua",
       "pencil": "Icono lápiz rehegua",
-      "penguin": "pingüino icono rehegua",
       "person": "Tapicha icono",
       "phone": "Teléfono Icono rehegua",
       "pig": "kure icono",
@@ -349,6 +405,8 @@
       "plane": "Aviõ icono",
       "planet": "Planeta icono rehegua",
       "plant": "ka’avo rehegua icono",
+      "plus": "Más símbolo",
+      "plusplus": "Plus icono ojejapo jey mokõi jey",
       "polarbear": "oso polar icono rehegua",
       "polaroid": "Polaroid cámara icono rehegua",
       "porcupine": "Erizo icono rehegua",
@@ -364,6 +422,7 @@
       "rat": "mouse icono rehegua",
       "raven": "cuervo icono rehegua",
       "react": "Icono de reacción rehegua",
+      "redpanda": "toro icono rehegua",
       "resttime": "Icono círculo rehegua osẽva tai z reheve",
       "rhinoceros": "Rinoceronte icono rehegua",
       "riodejaneiro": "Río de Janeiro mapa icono",
@@ -374,12 +433,14 @@
       "salamander": "salamandra icono rehegua",
       "schrodingerscatalive": "Icono peteĩ mymba oikovéva peteĩ caja radiactiva-pe (Gat Schrodingers) .",
       "schrodingerscatdead": "Icono peteĩ mymba omanóva peteĩ caja radiactiva-pe (Gat Schrodingers) .",
+      "seven": "siete",
       "shadow": "sombra icono rehegua",
       "shark": "Tiburón icono rehegua",
       "sheep": "ovechakuéra icono",
       "ship": "Icono de barco",
       "shrimp": "Icono de camarón rehegua",
       "sittingdog": "Jagua oguapýva icono",
+      "six": "poteĩ",
       "sloth": "icono perezoso rehegua",
       "smartphone": "Teléfono inteligente icono",
       "snail": "caracol icono rehegua",
@@ -400,21 +461,20 @@
       "terminal": "Código terminal icono",
       "terminalerror": "Ikóna jejavy rehegua terminal código-pe",
       "testtube": "Tubo de prueba icono rehegua",
+      "three": "mbohapy",
       "threed": "Icono cubo 3D rehegua",
-      "tiger": "tigre icono rehegua",
       "tools": "Tembipurukuéra icono",
       "tornado": "Tornado icono rehegua",
       "tortoise": "tortuga icono rehegua",
-      "toucan": "Toucan icono rehegua",
       "toybrick": "Oñembyaty ladrillo icono",
       "trademark": "icono marca comercial rehegua",
       "train": "tren icono",
       "translate": "Icono de traducción",
-      "travesti": "Icono símbolo transvestita rehegua",
       "trojanhorse": "Troya kavaju ra'anga (Grecia yma guare) .",
       "truck": "Kamiõ icono",
       "tumblr": "Tumblr rehegua icono",
       "turtle": "tortuga icono rehegua",
+      "two": "mokõi",
       "umbrella": "Icono paraguas rehegua",
       "unicorn": "unicornio icono rehegua",
       "velociraptor": "Icono peteĩ dinosaurio velociraptor rehegua",
@@ -427,8 +487,8 @@
       "whatsapp": "WhatsApp icono rehegua",
       "wikipedia": "Wikipedia ra'ãnga",
       "windy": "yvytu icono",
-      "women": "Kuña símbolo icono",
       "youtube": "YouTube icono rehegua",
+      "zero": "mboyve",
       "zoomin": "Zoom en icono",
       "zoomout": "Icono de zoom out rehegua"
     }
