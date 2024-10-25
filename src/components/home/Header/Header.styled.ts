@@ -19,7 +19,7 @@ export const Title = styled.h1`
 		${({ theme }) => theme.fonts.backup};
 `
 
-export const SubHeading = styled.summary`
+export const SubHeading = styled.p`
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
 	color: ${({ theme }) => theme.blue};

@@ -112,7 +112,7 @@ const VisitorMap = ({ id, fullpage }: VisitorMapProps) => {
 		}
 	}, [])
 	return (
-		<VisitorMapWrapper>
+		<VisitorMapWrapper $isInvisible={id === "invisible"}>
 			<MapContainer
 				$bgColor={bgColor}
 				$isFullpage={fullpage === true}

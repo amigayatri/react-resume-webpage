@@ -3,13 +3,14 @@ import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
 const BrasilIcon = (props: SVGProps) => {
-	const { alt, size } = props
+	const { alt, size, hasTransition, color } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
-				fill="currentColor"
+				fill={color}
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="-73.9904 -5.2718 41.582499999999996 39.015699999999995"
 			>

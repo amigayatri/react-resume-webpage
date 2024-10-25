@@ -3,11 +3,12 @@ import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
 const TerminalErrorIcon = (props: SVGProps) => {
-	const { alt, size } = props
+	const { alt, size, hasTransition, color } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
@@ -19,7 +20,7 @@ const TerminalErrorIcon = (props: SVGProps) => {
 				/>
 				<path
 					d="M 18 18 C 14.687 18 12 15.313 12 12 C 12 8.687 14.687 6 18 6 C 21.313 6 24 8.687 24 12 C 24 15.313 21.313 18 18 18 Z M 17.4 13.8 L 17.4 15 L 18.6 15 L 18.6 13.8 L 17.4 13.8 Z M 17.4 9 L 17.4 12.6 L 18.6 12.6 L 18.6 9 L 17.4 9 Z"
-					fill="currentColor"
+					fill={color}
 				/>
 			</Icon>
 		</IconWrapper>

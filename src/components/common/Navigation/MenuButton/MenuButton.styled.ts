@@ -9,7 +9,7 @@ export const MenuButtonWrapper = styled.span`
 	position: relative;
 	cursor: pointer;
 	${media.max.md} {
-		display: inline-block;
+		display: block;
 	}
 `
 

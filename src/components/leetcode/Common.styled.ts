@@ -6,7 +6,7 @@ export const Title = styled.h2`
 	font-weight: 700;
 	font-size: 1.5rem;
 `
-export const Summary = styled.summary`
+export const Summary = styled.p`
 	font-size: 1.25rem;
 	margin-top: 16px;
 `

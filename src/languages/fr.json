@@ -341,7 +341,6 @@
       "five": "cinq",
       "flag": "Icône d'un drapeau ondulant",
       "flamingo": "icône de flamant rose",
-      "flower": "Icône de fleur",
       "flyingtrout": "icône de poisson volant",
       "four": "quatre",
       "fox": "Icône de renard",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Ajouter une palette",
+    "add": "Ajouter",
     "addGroup": "Tout de {{groupName}}",
     "addOne": {
       "summary": "La palette choisie apparaîtra dans la liste ci-dessous.",

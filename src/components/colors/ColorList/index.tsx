@@ -9,7 +9,9 @@ import {
 	PaletteGroup,
 	SubHeadingWrapper,
 	PreviewWrapper,
-	PreviewColor
+	PreviewColor,
+	SelectWrapper,
+	Label
 } from "./ColorList.styled"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import ColorItem from "../ColorItem"
@@ -75,32 +77,39 @@ const ColorList = ({
 	const showPaletteSelect = () => {
 		return (
 			<ButtonsWrapper $isShowing={colors.size === 0}>
-				<PaletteSelect defaultValue={0} onChange={handleSelect}>
-					{availableGroups.map((group) => {
-						const availablePalettes = Array.from(
-							palettesMap.get(group)?.keys() || []
-						)
-						return (
-							<PaletteGroup
-								key={"group" + group}
-								label={t(`palettes.groups.${group}`)}
-							>
-								{availablePalettes !== undefined &&
-									availablePalettes.map((paletteName) => (
-										<PaletteOption
-											value={`${group}_${paletteName}`}
-											key={`palette-option-${paletteName}`}
-										>
-											{t("palettes.option", {
-												optionName: t(`palettes.names.${group}.${paletteName}`)
-											})}
-										</PaletteOption>
-									))}
-							</PaletteGroup>
-						)
-					})}
-				</PaletteSelect>
-				<Button onClick={handleAdd}>{t("palettes.add")}</Button>
+				<SelectWrapper>
+					<Label htmlFor="color-list-palette-select">
+						{t("palettes.select.label")}
+					</Label>
+					<PaletteSelect
+						id="color-list-palette-select"
+						defaultValue={0}
+						onChange={handleSelect}
+					>
+						{availableGroups.map((group) => {
+							const availablePalettes = Array.from(
+								palettesMap.get(group)?.keys() || []
+							)
+							return (
+								<PaletteGroup
+									key={"group" + group}
+									label={t(`palettes.groups.${group}`)}
+								>
+									{availablePalettes !== undefined &&
+										availablePalettes.map((paletteName) => (
+											<PaletteOption
+												value={`${group}_${paletteName}`}
+												key={`palette-option-${paletteName}`}
+											>
+												{t(`palettes.names.${group}.${paletteName}`)}
+											</PaletteOption>
+										))}
+								</PaletteGroup>
+							)
+						})}
+					</PaletteSelect>
+					<Button onClick={handleAdd}>{t("palettes.add")}</Button>
+				</SelectWrapper>
 				{palettePreview()}
 			</ButtonsWrapper>
 		)

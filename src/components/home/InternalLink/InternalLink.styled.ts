@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import { ButtonStyle } from "../Common.styled"
+import { ButtonStyle, Label } from "../Common.styled"
 import media from "../../../constants/medias"
 
 export const InternalLinkTag = styled(Link)`
@@ -9,21 +9,15 @@ export const InternalLinkTag = styled(Link)`
 	font-size: 1.25rem;
 	margin: 0 auto;
 	width: 100%;
-	transition: ${({ theme }) => theme.transition};
-
-	svg {
-		fill: ${({ theme }) => theme.secondAccent};
-	}
 
 	&:hover,
 	&:focus {
 		color: ${({ theme }) => theme.accent};
-
+		${Label} {
+			color: ${({ theme }) => theme.accent};
+		}
 		${ButtonStyle} {
-			background-color: ${({ theme }) => theme.secondAccent};
-			svg {
-				fill: ${({ theme }) => theme.accent};
-			}
+			background-color: ${({ theme }) => theme.almostBlack};
 		}
 	}
 

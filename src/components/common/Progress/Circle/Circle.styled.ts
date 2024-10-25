@@ -3,7 +3,7 @@ import { Label, ProgressTitle } from "../Progress.styled"
 
 export const CircleInfo = styled.span`
 	color: ${({ theme }) => theme.primary};
-	opacity: 0.2;
+	opacity: 0.7;
 	transition: ${({ theme }) => theme.transition};
 	display: inline-flex;
 	flex-direction: column;

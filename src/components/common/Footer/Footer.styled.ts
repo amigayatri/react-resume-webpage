@@ -5,7 +5,13 @@ export const FooterWrapper = styled.footer`
 	background-color: ${({ theme }) => theme.black};
 	color: ${({ theme }) => theme.white};
 	border-top: 1px solid ${({ theme }) => theme.primary};
+	font-size: 1.25rem;
+	font-weight: 700;
 	width: 100%;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 16px;
 	text-align: center;
 
@@ -15,15 +21,17 @@ export const FooterWrapper = styled.footer`
 `
 
 export const Name = styled.span`
-    color: ${({theme}) => theme.secondAccent};
+	color: ${({ theme }) => theme.secondAccent};
 `
 
 export const Link = styled.a`
-    text-decoration: none;
-    color: ${({theme}) => theme.accent};
+	text-decoration: none;
+	margin-right: 8px;
+	color: ${({ theme }) => theme.accent};
 `
 
 export const SecondaryLink = styled(Link)`
+	margin-left: 8px;
 	color: ${({ theme }) => theme.secondAccent};
 `
 

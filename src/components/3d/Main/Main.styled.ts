@@ -10,7 +10,7 @@ export const Description = styled.section`
 `
 export const Title = styled.h1``
 export const Section = styled.section``
-export const Summary = styled.summary`
+export const Summary = styled.p`
 	margin: 8px 0 0;
 `
 export const TabName = styled(Tab)`

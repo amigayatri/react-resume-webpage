@@ -341,7 +341,6 @@
       "five": "po",
       "flag": "Icono peteĩ poyvi oñanduukáva rehegua",
       "flamingo": "flamenco icono rehegua",
-      "flower": "Yvoty icono",
       "flyingtrout": "pira oveveva icono",
       "four": "irundy",
       "fox": "Zorro icono",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Oñemoĩve paleta",
+    "add": "Moinge",
     "addGroup": "Opavave {{groupName}}-gui.",
     "addOne": {
       "summary": "Pe paleta ojeporavóva ojehechaukáta lista iguýpe.",

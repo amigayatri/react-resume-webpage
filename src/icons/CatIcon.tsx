@@ -3,11 +3,12 @@ import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
 const CatIcon = (props: SVGProps) => {
-	const { alt, size } = props
+	const { alt, size, hasTransition, color } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
 				fill="none"
 				stroke="currentColor"

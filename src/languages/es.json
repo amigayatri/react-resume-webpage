@@ -341,7 +341,6 @@
       "five": "cinco",
       "flag": "Icono de una bandera ondeando",
       "flamingo": "icono de flamenco",
-      "flower": "Icono de flor",
       "flyingtrout": "icono de pez volador",
       "four": "cuatro",
       "fox": "Icono de zorro",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Agregar paleta",
+    "add": "Agregar",
     "addGroup": "Todo de {{groupName}}",
     "addOne": {
       "summary": "La paleta elegida aparecerá en la lista a continuación.",

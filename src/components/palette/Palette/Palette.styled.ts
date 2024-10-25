@@ -3,22 +3,33 @@ import media from "../../../constants/medias"
 
 export const PaletteSection = styled.section`
 	padding-top: 48px;
+	${({ theme }) => theme.scroll}
 `
 export const Description = styled.div`
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	position: relative;
-	padding-left: 36px;
 	${media.max.sm} {
 		flex-direction: column;
 	}
 `
 
-export const Icon = styled.span`
-	position: absolute;
-	left: 2px;
+export const ButtonWrapper = styled.div`
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	${media.max.md} {
+		flex-direction: column-reverse;
+		align-items: flex-end;
+	}
+	${media.max.sm} {
+		align-items: flex-start;
+	}
 `
+
+export const Icon = styled.span``
 export const CopyPalette = styled.div`
 	cursor: pointer;
 	width: fit-content;
@@ -61,7 +72,14 @@ export const ColorCode = styled.span`
 	padding: 4px;
 `
 export const PaletteName = styled.h2`
-	width: fit-content;
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	overflow-y: hidden;
+	overflow-x: auto;
+`
+
+export const NormalText = styled.strong`
 	text-transform: capitalize;
 `
 export const SubTitle = styled.h3`
@@ -69,6 +87,9 @@ export const SubTitle = styled.h3`
 `
 export const ControlWrapper = styled.div`
 	display: flex;
+	${media.max.md} {
+		margin-top: 16px;
+	}
 `
 export const ControlButton = styled.button<{ $selected: boolean }>`
 	color: ${({ theme }) => theme.primary};

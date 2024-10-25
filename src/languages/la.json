@@ -341,7 +341,6 @@
       "five": "quinque",
       "flag": "Icon vexillum iactantis",
       "flamingo": "phoenicopteri icon",
-      "flower": "Flos icon",
       "flyingtrout": "volantem piscis icon",
       "four": "quattuor",
       "fox": "Fox icon",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Addere palette",
+    "add": "Add",
     "addGroup": "Omnes e {{groupName}}",
     "addOne": {
       "summary": "Palette electa apparebit in indice mugitu.",

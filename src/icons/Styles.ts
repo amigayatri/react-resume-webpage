@@ -18,9 +18,10 @@ export const ToggleIconWrapper = styled.span<{ $isLight: boolean }>`
 	transform: ${({ $isLight }) => ($isLight ? "translate(12px)" : "none")};
 `
 
-export const Icon = styled.svg<{ $size: number }>`
+export const Icon = styled.svg<{ $size: number; $hasTransition: boolean }>`
 	display: block;
 	width: ${({ $size }) => $size + "px"};
 	height: ${({ $size }) => $size + "px"};
-	transition: ${({ theme }) => theme.transition};
+	transition: ${({ theme, $hasTransition }) =>
+		$hasTransition ? theme.transition : "none"};
 `

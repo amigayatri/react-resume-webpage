@@ -1,5 +1,10 @@
 import { useTranslation } from "react-i18next"
-import { LanguageSelectInput, LanguageOption } from "./LanguageSelect.styled"
+import {
+	LanguageSelectInput,
+	LanguageOption,
+	SelectWrapper,
+	Label
+} from "./LanguageSelect.styled"
 import LanguageProps from "../../../types/LanguageProps"
 interface LanguageSelectProps {
 	languages: LanguageProps[]
@@ -21,18 +26,30 @@ const LanguageSelect = ({
 	}
 	const otherLang = !isExtra && !notExtra.has(i18n.language)
 	return (
-		<LanguageSelectInput defaultValue={i18n.language} onChange={onChangeLang}>
-			{languages.map(({ code, name }) => (
-				<LanguageOption key={(isExtra ? "extra-" : "nav-") + code} value={code}>
-					{isExtra ? t(`menu.languages.${code}`) + ` (${name})` : name}
-				</LanguageOption>
-			))}
-			{otherLang && (
-				<LanguageOption value={i18n.language}>
-					{t(`menu.languages.${i18n.language}`)}
-				</LanguageOption>
-			)}
-		</LanguageSelectInput>
+		<SelectWrapper>
+			<Label htmlFor={(isExtra ? "extra-" : "nav-") + "language-select"}>
+				{t("menu.select.label")}
+			</Label>
+			<LanguageSelectInput
+				id={(isExtra ? "extra-" : "nav-") + "language-select"}
+				defaultValue={i18n.language}
+				onChange={onChangeLang}
+			>
+				{languages.map(({ code, name }) => (
+					<LanguageOption
+						key={(isExtra ? "extra-" : "nav-") + code}
+						value={code}
+					>
+						{isExtra ? t(`menu.languages.${code}`) + ` (${name})` : name}
+					</LanguageOption>
+				))}
+				{otherLang && (
+					<LanguageOption value={i18n.language}>
+						{t(`menu.languages.${i18n.language}`)}
+					</LanguageOption>
+				)}
+			</LanguageSelectInput>
+		</SelectWrapper>
 	)
 }
 

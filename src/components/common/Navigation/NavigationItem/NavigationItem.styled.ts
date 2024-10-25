@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import media from "../../../../constants/medias"
 
 export const Label = styled.span`
-	margin-left: 4px;
+	padding-left: 4px;
 	text-wrap: nowrap;
 `
 
@@ -21,8 +21,7 @@ export const ContentWrapper = styled(Link)<{ $isRTL: boolean }>`
 	text-decoration: none;
 	color: currentColor;
 	line-height: 1;
-	font-size: 1.25rem;
-	margin-left: 4px;
+	font-size: 1.125rem;
 	text-wrap: nowrap;
 	display: block;
 	display: flex;
@@ -30,6 +29,8 @@ export const ContentWrapper = styled(Link)<{ $isRTL: boolean }>`
 	align-items: flex-end;
 	justify-content: center;
 	padding: 2px;
+	transition: ${({ theme }) => theme.transition};
+
 	& ${Label} {
 		margin-left: ${({ $isRTL }) => ($isRTL ? "0" : "8px")};
 		margin-right: ${({ $isRTL }) => ($isRTL ? "8px" : "0")};
@@ -38,11 +39,10 @@ export const ContentWrapper = styled(Link)<{ $isRTL: boolean }>`
 
 export const LinkWrapper = styled.li<{ $isActive: boolean }>`
 	margin: 0;
-	margin-left: 32px;
+	margin-left: 16px;
 	position: relative;
 	color: ${({ theme, $isActive }) =>
 		$isActive ? theme.secondAccent : theme.white};
-	transition: ${({ theme }) => theme.transition};
 	padding-bottom: 2px;
 	& ${ContentWrapper} {
 		font-weight: ${({ $isActive }) => ($isActive ? "700" : "400")};

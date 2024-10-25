@@ -216,6 +216,7 @@ const BrazilianMap = () => {
 		<BrazilianMapWrapper>
 			<Title>
 				<MulticoloredName
+					fontSize={40}
 					legible
 					info={{ group: "rainbow", name: "rainbow monokai" }}
 					isCustom

@@ -20,8 +20,9 @@ export const ContentWrapper = styled.ul`
 	}
 `
 
-export const SubNavWrapper = styled.div<{ $isOpen: boolean }>`
-	margin-left: 32px;
+export const SubNavWrapper = styled.li<{ $isOpen: boolean }>`
+	height: 24px;
+	margin-left: 16px;
 	cursor: pointer;
 	position: relative;
 

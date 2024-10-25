@@ -341,7 +341,6 @@
       "five": "fünf",
       "flag": "Symbol einer wehenden Flagge",
       "flamingo": "Flamingo-Symbol",
-      "flower": "Blumensymbol",
       "flyingtrout": "Symbol für fliegende Fische",
       "four": "vier",
       "fox": "Fuchs-Symbol",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Palette hinzufügen",
+    "add": "Hinzufügen",
     "addGroup": "Alle von {{groupName}}",
     "addOne": {
       "summary": "Die ausgewählte Palette wird in der Liste unten angezeigt.",

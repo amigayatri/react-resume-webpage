@@ -300,6 +300,7 @@
       "code": "Ícone com duas chaves",
       "colorfilter": "Ícone de um filtro de cores",
       "computer": "Ícone de um computador",
+      "copy": "Ícone de copiar",
       "cow": "Ícone de vaca",
       "crab": "Ícone de um caranguejo",
       "crown": "Ícone de uma coroa",
@@ -341,7 +342,6 @@
       "five": "cinco",
       "flag": "Ícone de uma bandeira balançando",
       "flamingo": "Ícone de flamingo",
-      "flower": "Ícone de uma flor",
       "flyingtrout": "Ícone de peixe-voador",
       "four": "quatro",
       "fox": "Ícone de uma raposa",
@@ -568,18 +568,21 @@
       "ru": "Russo",
       "zh": "Chinês"
     },
+    "select": {
+      "label": "Idioma"
+    },
     "theme": {
       "change": "Mudar tema do site"
     }
   },
   "palettes": {
-    "add": "Adicionar paleta",
+    "add": "Adicionar",
     "addGroup": "Todas de {{groupName}}",
     "addOne": {
       "summary": "A paleta escolhida aparecerá na lista abaixo.",
       "title": "Escolha uma paleta para adicionar"
     },
-    "component": "Paleta {{paletteName}} ou <1>paleta {{paletteName}}</1>",
+    "component": "<1>Paleta {{paletteName}} ou </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "marcas",
       "famous media": "mídias famosas",
@@ -683,6 +686,9 @@
       }
     },
     "option": "paleta {{optionName}}",
+    "select": {
+      "label": "Paletas"
+    },
     "title": "Paletas"
   },
   "paths": {

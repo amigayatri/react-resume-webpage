@@ -1,9 +1,10 @@
-import { BarWrapper, Bar, BarLabel, BarDoneLabel } from "./Bar.styled"
+import { BarWrapper, BarLabel, BarDoneLabel } from "./Bar.styled"
 import {
 	ProgressWrapper,
 	ProgressTitle,
 	TitleWrapper,
-	ProgressDefault
+	ProgressDefault,
+	Bar
 } from "../Progress.styled"
 import ProgressBarProps from "../../../../types/ProgressBarProps"
 

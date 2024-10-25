@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { ButtonStyle } from "../Common.styled"
+import { ButtonStyle, Label } from "../Common.styled"
 import media from "../../../constants/medias"
 
 export const ExternalLinkTag = styled.a`
@@ -8,14 +8,16 @@ export const ExternalLinkTag = styled.a`
 	font-size: 1.25rem;
 	margin: 0 auto;
 	width: 100%;
-	transition: ${({ theme }) => theme.transition};
 
 	&:hover,
 	&:focus {
 		color: ${({ theme }) => theme.accent};
 
+		${Label} {
+			color: ${({ theme }) => theme.accent};
+		}
 		${ButtonStyle} {
-			background-color: ${({ theme }) => theme.secondAccent};
+			background-color: ${({ theme }) => theme.almostBlack};
 		}
 	}
 

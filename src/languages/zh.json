@@ -341,7 +341,6 @@
       "five": "五",
       "flag": "飘扬的旗帜的图标",
       "flamingo": "火烈鸟图标",
-      "flower": "花图标",
       "flyingtrout": "飞鱼图标",
       "four": "四",
       "fox": "狐狸图标",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "添加调色板",
+    "add": "添加",
     "addGroup": "全部来自 {{groupName}}",
     "addOne": {
       "summary": "所选调色板将出现在下面的列表中。",

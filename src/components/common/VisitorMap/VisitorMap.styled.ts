@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
-export const VisitorMapWrapper = styled.div`
-	width: 100%;
+export const VisitorMapWrapper = styled.div<{ $isInvisible: boolean }>`
+	width: ${({ $isInvisible }) => ($isInvisible === true ? "0px" : "100%")};
 	height: 100%;
 	display: flex;
 	justify-content: center;

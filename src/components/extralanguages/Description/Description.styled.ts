@@ -11,6 +11,6 @@ export const Title = styled.h1`
 	margin-bottom: 32px;
 `
 
-export const Summary = styled.summary`
+export const Summary = styled.p`
 	font-size: 1.25rem;
 `

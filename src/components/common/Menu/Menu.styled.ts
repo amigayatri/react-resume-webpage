@@ -9,7 +9,6 @@ export const MenuWrapper = styled.nav`
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	height: 40px;
 	position: fixed;
 	width: 100vw;
 	z-index: 5000;
@@ -23,6 +22,7 @@ export const MenuWrapper = styled.nav`
 export const SettingsWrapper = styled.div`
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 	width: 100%;
 `
 

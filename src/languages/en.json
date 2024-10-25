@@ -341,7 +341,6 @@
       "five": "five",
       "flag": "Icon of a waving flag",
       "flamingo": "flamingo icon",
-      "flower": "Flower icon",
       "flyingtrout": "flying fish icon",
       "four": "four",
       "fox": "Fox icon",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Add palette",
+    "add": "Add",
     "addGroup": "All from {{groupName}}",
     "addOne": {
       "summary": "The choosen palette will appear on the list bellow.",

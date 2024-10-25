@@ -341,7 +341,6 @@
       "five": "cinque",
       "flag": "Icona di una bandiera sventolante",
       "flamingo": "icona del fenicottero",
-      "flower": "Icona del fiore",
       "flyingtrout": "icona del pesce volante",
       "four": "quattro",
       "fox": "Icona della volpe",
@@ -573,7 +572,7 @@
     }
   },
   "palettes": {
-    "add": "Aggiungi tavolozza",
+    "add": "Aggiungere",
     "addGroup": "Tutto da {{groupName}}",
     "addOne": {
       "summary": "La tavolozza scelta apparirà nell'elenco seguente.",

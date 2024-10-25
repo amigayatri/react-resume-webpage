@@ -7,9 +7,11 @@ const GlobalStyle = createGlobalStyle<{
 }>`
     :root {
         position: relative;
+        --header-size: 80px;
+        --footer-size: 64px;
         --container: 32px;
         --color-container: 32px;
-        --fullpage: calc(100vh - 94px);
+        --fullpage: calc(100vh - var(--header-size) - var(--footer-size));
         --max-leetcode: 480px;
 
         ${media.min.md} {
@@ -27,7 +29,7 @@ const GlobalStyle = createGlobalStyle<{
 
     body {
         margin: 0;
-        margin-top: 40px;
+        margin-top: var(--header-size);
         background-color: ${({ theme }) => theme.background};
         color: ${({ theme }) => theme.primary};
         font-size: ${({ $isAmplified }) => ($isAmplified ? "20px" : "16px")} ;

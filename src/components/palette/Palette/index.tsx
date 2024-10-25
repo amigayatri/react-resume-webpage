@@ -3,13 +3,14 @@ import {
 	PaletteColor,
 	ColorCode,
 	PaletteName,
-	Icon,
+	NormalText,
 	PaletteSection,
 	Description,
 	CopyPalette,
 	SubTitle,
 	ControlButton,
-	ControlWrapper
+	ControlWrapper,
+	ButtonWrapper
 } from "./Palette.styled"
 import PaletteType from "../../../types/PaletteProps"
 import PaletteInfoProps from "../../../types/PaletteInfoProps"
@@ -62,55 +63,58 @@ const Palette = ({ palette, info }: PaletteProps) => {
 					i18nKey="palettes.component"
 					tOptions={{ paletteName: t(`palettes.names.${group}.${name}`) }}
 				>
-					t
-					<MulticoloredName legible={false} info={info}>
+					t<NormalText>s</NormalText>
+					<MulticoloredName
+						iconId={iconId || "pantone"}
+						fontSize={24}
+						legible={false}
+						info={info}
+					>
 						n
 					</MulticoloredName>
-					t
 				</Trans>
 			</PaletteName>
 			<Description>
-				<Icon>
-					<SVGIcon local="palette" size={32} id={iconId || "palette"} />
-				</Icon>
 				<Summary>{t("palettes.info.summary")}</Summary>
-				<ControlWrapper>
-					<ControlButton
-						$selected={!showSorted}
-						onClick={() => {
-							setShowSorted(false)
-						}}
-					>
-						<SVGIcon local="palette" size={24} id="listunordered" />
-					</ControlButton>
-					<ControlButton
-						$selected={showSorted && ascending}
-						onClick={() => {
-							setShowSorted(true)
-							if (!ascending) {
-								setAscending(true)
-							}
-						}}
-					>
-						<SVGIcon local="palette" size={24} id="listsortedascending" />
-					</ControlButton>
-					<ControlButton
-						$selected={showSorted && !ascending}
-						onClick={() => {
-							setShowSorted(true)
-							if (ascending) {
-								setAscending(false)
-							}
-						}}
-					>
-						<SVGIcon local="palette" size={24} id="listsorteddescending" />
-					</ControlButton>
-				</ControlWrapper>
-				<CopyPalette onClick={() => navigator.clipboard.writeText(allCodes)}>
-					<MulticoloredName legible info={info}>
-						{t("palettes.info.copy all")}
-					</MulticoloredName>
-				</CopyPalette>
+				<ButtonWrapper>
+					<ControlWrapper>
+						<ControlButton
+							$selected={!showSorted}
+							onClick={() => {
+								setShowSorted(false)
+							}}
+						>
+							<SVGIcon local="palette" size={32} id="listunordered" />
+						</ControlButton>
+						<ControlButton
+							$selected={showSorted && ascending}
+							onClick={() => {
+								setShowSorted(true)
+								if (!ascending) {
+									setAscending(true)
+								}
+							}}
+						>
+							<SVGIcon local="palette" size={32} id="listsortedascending" />
+						</ControlButton>
+						<ControlButton
+							$selected={showSorted && !ascending}
+							onClick={() => {
+								setShowSorted(true)
+								if (ascending) {
+									setAscending(false)
+								}
+							}}
+						>
+							<SVGIcon local="palette" size={32} id="listsorteddescending" />
+						</ControlButton>
+					</ControlWrapper>
+					<CopyPalette onClick={() => navigator.clipboard.writeText(allCodes)}>
+						<MulticoloredName iconId="copy" fontSize={16} legible info={info}>
+							{t("palettes.info.copy all")}
+						</MulticoloredName>
+					</CopyPalette>
+				</ButtonWrapper>
 			</Description>
 			<SubTitle>
 				{t(`palettes.info.order.${showSorted ? "sorted" : "original"}`)}

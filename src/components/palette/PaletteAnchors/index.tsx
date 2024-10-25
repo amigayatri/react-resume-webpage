@@ -8,6 +8,7 @@ import {
 	Item
 } from "./PaletteAnchors.styled"
 import MulticoloredName from "../../common/MulticoloredName"
+import palettesIcons from "../../../constants/palettes-icons"
 
 interface PaletteAnchorsProps {
 	list: PaletteInfoProps[]
@@ -15,6 +16,7 @@ interface PaletteAnchorsProps {
 
 const PaletteAnchors = ({ list }: PaletteAnchorsProps) => {
 	const { t } = useTranslation()
+
 	return (
 		<PaletteAnchorsWrapper>
 			<Subtitle>{t("palettes.list.title")}</Subtitle>
@@ -22,10 +24,18 @@ const PaletteAnchors = ({ list }: PaletteAnchorsProps) => {
 			<AnchorList>
 				{list.map(({ group, name }, idx) => {
 					const id = `${group}-${name}`.replace(" ", "_")
+					const iconId = palettesIcons.custom.has(name)
+						? palettesIcons.custom.get(name)
+						: palettesIcons.group.get(group)
 					return (
 						<Item key={"palette-anchor-idx-" + idx}>
 							<Anchor href={`#${id}`}>
-								<MulticoloredName legible info={{ group, name }}>
+								<MulticoloredName
+									fontSize={20}
+									iconId={iconId}
+									legible
+									info={{ group, name }}
+								>
 									{t(`palettes.names.${group}.${name}`)}
 								</MulticoloredName>
 							</Anchor>
