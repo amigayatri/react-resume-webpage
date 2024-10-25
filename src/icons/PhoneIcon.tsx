@@ -3,13 +3,14 @@ import SVGProps from "../types/SVGProps"
 
 //Phone-fill on pack
 const PhoneIcon = (props: SVGProps) => {
-	const { alt, size } = props
+	const { alt, size, hasTransition, color } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
-				fill="currentColor"
+				fill={color}
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 				xmlnsXlink="http://www.w3.org/1999/xlink"

@@ -300,6 +300,7 @@
       "code": "Mokõi soporte rizado icono",
       "colorfilter": "Icono filtro color rehegua",
       "computer": "computadora icono rehegua",
+      "copy": "icono copia rehegua",
       "cow": "vaka icono",
       "crab": "Cangrejo icono rehegua",
       "crown": "Icono corona rehegua",
@@ -341,7 +342,6 @@
       "five": "po",
       "flag": "Icono peteĩ poyvi oñanduukáva rehegua",
       "flamingo": "flamenco icono rehegua",
-      "flower": "Yvoty icono",
       "flyingtrout": "pira oveveva icono",
       "four": "irundy",
       "fox": "Zorro icono",
@@ -568,12 +568,15 @@
       "ru": "ruso rehegua",
       "zh": "Chino"
     },
+    "select": {
+      "label": "Ñe'ẽ"
+    },
     "theme": {
       "change": "Omoambue página web tema"
     }
   },
   "palettes": {
-    "add": "Oñemoĩve paleta",
+    "add": "Moinge",
     "addGroup": "Opavave {{groupName}}-gui.",
     "addOne": {
       "summary": "Pe paleta ojeporavóva ojehechaukáta lista iguýpe.",
@@ -683,6 +686,9 @@
       }
     },
     "option": "{{opciónName}} paleta rehegua",
+    "select": {
+      "label": "Paletas rehegua"
+    },
     "title": "Paletas rehegua"
   },
   "paths": {

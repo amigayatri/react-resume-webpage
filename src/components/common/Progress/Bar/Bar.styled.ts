@@ -1,14 +1,13 @@
 import styled from "styled-components"
 import { Label, ProgressWrapper } from "../Progress.styled"
 
-export const BarLabel = styled(Label)`
-	opacity: 0.2;
-`
+export const BarLabel = styled(Label)``
 
 export const BarDoneLabel = styled(BarLabel)`
 	color: ${({ $color, theme }) => $color || theme.accent};
 	font-size: 1.5rem;
 `
+
 export const BarWrapper = styled.div`
 	width: 100%;
 	position: relative;
@@ -24,21 +23,6 @@ export const BarWrapper = styled.div`
 	${ProgressWrapper}:focus > & > ${BarLabel} {
 		opacity: 1;
 	}
-`
-export const Bar = styled.div<{
-	$percentage: number
-	$color?: string
-	$done?: boolean
-	$full: boolean
-}>`
-	background-color: ${({ $color, $done, theme }) =>
-		$done ? $color || theme.primary : ($color || theme.primary) + "14"};
-	width: ${({ $percentage }) => $percentage}%;
-	height: 16px;
-	position: absolute;
-	bottom: 8px;
-	left: 0;
-	border-radius: ${({ $full }) => ($full ? "4px" : "4px 0 0 4px")};
 `
 
 export const ProgressDefault = styled.progress`

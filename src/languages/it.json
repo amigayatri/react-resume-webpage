@@ -300,6 +300,7 @@
       "code": "Icona con due parentesi graffe",
       "colorfilter": "Icona del filtro colore",
       "computer": "icona del computer",
+      "copy": "icona copia",
       "cow": "icona di mucca",
       "crab": "Icona del granchio",
       "crown": "Icona della corona",
@@ -341,7 +342,6 @@
       "five": "cinque",
       "flag": "Icona di una bandiera sventolante",
       "flamingo": "icona del fenicottero",
-      "flower": "Icona del fiore",
       "flyingtrout": "icona del pesce volante",
       "four": "quattro",
       "fox": "Icona della volpe",
@@ -568,12 +568,15 @@
       "ru": "russo",
       "zh": "cinese"
     },
+    "select": {
+      "label": "Lingua"
+    },
     "theme": {
       "change": "Cambia il tema del sito web"
     }
   },
   "palettes": {
-    "add": "Aggiungi tavolozza",
+    "add": "Aggiungere",
     "addGroup": "Tutto da {{groupName}}",
     "addOne": {
       "summary": "La tavolozza scelta apparirà nell'elenco seguente.",
@@ -683,6 +686,9 @@
       }
     },
     "option": "tavolozza {{optionName}}",
+    "select": {
+      "label": "Tavolozze"
+    },
     "title": "Tavolozze"
   },
   "paths": {

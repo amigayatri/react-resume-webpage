@@ -18,8 +18,8 @@ export const ButtonWrapper = styled.div<{ $isRTL: boolean }>`
 `
 
 export const Button = styled.button<{ $isRTL: boolean; $isActive: boolean }>`
-	background-color: ${({ theme }) => theme.accent};
-	color: ${({ theme }) => theme.background};
+	background-color: ${({ theme }) => theme.blue};
+	color: ${({ theme }) => theme.almostBlack};
 	border: none;
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
@@ -55,7 +55,7 @@ export const ColorTextInput = styled.textarea`
 `
 
 export const ChangeSteps = styled.input`
-	background-color: ${({ theme }) => theme.background};
+	background-color: ${({ theme }) => theme.almostBlack};
 	font-size: 1.5rem;
 	color: ${({ theme }) => theme.accent};
 	padding: 8px;
@@ -69,7 +69,7 @@ export const SelectedColor = styled.div<{ $bg: string }>`
 	width: 128px;
 	background-color: ${({ $bg }) => $bg};
 	border-radius: 8px;
-	border: 2px solid ${({ theme }) => theme.background};
+	border: 2px solid ${({ theme }) => theme.almostBlack};
 	margin: 8px 0;
 `
 
@@ -89,7 +89,7 @@ export const SelectedWrapper = styled.div`
 	align-items: center;
 	padding: 16px 32px;
 	background-color: ${({ theme }) => theme.primary};
-	color: ${({ theme }) => theme.background};
+	color: ${({ theme }) => theme.almostBlack};
 	border-radius: 8px;
 	margin-left: 16px;
 	height: 196px;

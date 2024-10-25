@@ -3,8 +3,7 @@ import media from "../../../constants/medias"
 import { LinkWrapper } from "./NavigationItem/NavigationItem.styled"
 
 export const NavigationWrapper = styled.div`
-	position: absolute;
-	left: var(--color-container);
+	position: relative;
 `
 
 export const DesktopWrapper = styled.ul`
@@ -26,7 +25,7 @@ export const MobileWrapper = styled.ul<{ $isOpen: boolean; $isRTL: boolean }>`
 		position: fixed;
 		list-style: none;
 		padding: ${({ $isOpen }) => ($isOpen ? "32px" : "0")};
-		top: 40px;
+		top: var(--header-size);
 		left: 0;
 		background-color: ${({ theme }) => theme.black};
 		z-index: 100;

@@ -16,9 +16,9 @@ export const Item = styled.li`
 	}
 `
 export const Anchor = styled.a`
+	display: inline-block;
 	font-weight: 700;
 	font-size: 1.25rem;
-	text-transform: capitalize;
 	text-decoration: none;
 	color: ${({ theme }) => theme.accent};
 `

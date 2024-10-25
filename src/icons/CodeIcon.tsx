@@ -3,13 +3,14 @@ import SVGProps from "../types/SVGProps"
 
 //Code-s-slash-line on pack
 const CodeIcon = (props: SVGProps) => {
-	const { alt, size } = props
+	const { alt, size, hasTransition, color } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
-				fill="currentColor"
+				fill={color}
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 			>

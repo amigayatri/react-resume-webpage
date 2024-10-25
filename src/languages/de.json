@@ -300,6 +300,7 @@
       "code": "Symbol mit zwei geschweiften Klammern",
       "colorfilter": "Farbfiltersymbol",
       "computer": "Computersymbol",
+      "copy": "Kopiersymbol",
       "cow": "Kuh-Symbol",
       "crab": "Krabbensymbol",
       "crown": "Kronensymbol",
@@ -341,7 +342,6 @@
       "five": "fünf",
       "flag": "Symbol einer wehenden Flagge",
       "flamingo": "Flamingo-Symbol",
-      "flower": "Blumensymbol",
       "flyingtrout": "Symbol für fliegende Fische",
       "four": "vier",
       "fox": "Fuchs-Symbol",
@@ -568,12 +568,15 @@
       "ru": "Russisch",
       "zh": "chinesisch"
     },
+    "select": {
+      "label": "Sprache"
+    },
     "theme": {
       "change": "Ändern Sie das Website-Thema"
     }
   },
   "palettes": {
-    "add": "Palette hinzufügen",
+    "add": "Hinzufügen",
     "addGroup": "Alle von {{groupName}}",
     "addOne": {
       "summary": "Die ausgewählte Palette wird in der Liste unten angezeigt.",
@@ -683,6 +686,9 @@
       }
     },
     "option": "{{optionName}}-Palette",
+    "select": {
+      "label": "Paletten"
+    },
     "title": "Paletten"
   },
   "paths": {

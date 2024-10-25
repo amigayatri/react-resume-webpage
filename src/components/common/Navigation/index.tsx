@@ -40,7 +40,6 @@ const MobileNavigation = ({ isRTL }: NavProps) => {
 	const closeMenu = () => {
 		setIsOpen(false)
 	}
-	console.log(underMaintenance)
 	return (
 		<>
 			<MenuButton isOpen={isOpen} openMenu={() => setIsOpen(!isOpen)} />

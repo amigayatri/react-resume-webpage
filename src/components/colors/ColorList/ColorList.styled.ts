@@ -12,12 +12,39 @@ export const ListWrapper = styled.ul`
 
 export const Button = styled.button`
 	display: block;
-	border: 2px solid ${({ theme }) => theme.background};
+	border: 2px solid ${({ theme }) => theme.primary};
 	color: ${({ theme }) => theme.background};
 	background-color: ${({ theme }) => theme.primary};
 	font-weight: 700;
 	padding: 4px 8px;
-	border-radius: 8px;
+	flex: 1;
+	font-size: 1.25rem;
+	border-radius: 0 8px 8px 0;
+	${media.max.xs} {
+		border-radius: 0 0 8px 8px;
+	}
+`
+
+export const SelectWrapper = styled.div`
+	padding: 16px 0 8px;
+	position: relative;
+	display: flex;
+	width: 100%;
+	max-width: 512px;
+	${media.max.xs} {
+		flex-direction: column;
+	}
+`
+export const Label = styled.label`
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	padding: 2px;
+	font-weight: 600;
+	font-size: 1rem;
+	border-radius: 4px;
+	color: ${({ theme }) => theme.background};
+	background-color: ${({ theme }) => theme.primary};
 `
 
 export const ButtonsWrapper = styled.div<{ $isShowing: boolean }>`
@@ -27,19 +54,22 @@ export const ButtonsWrapper = styled.div<{ $isShowing: boolean }>`
 	max-width: ${({ $isShowing }) => ($isShowing ? "512px" : "0")};
 	position: relative;
 	padding-bottom: 40px;
-	${media.max.xs} {
+	${media.max.md} {
 		flex-direction: column;
 	}
 `
 export const PaletteSelect = styled.select`
 	text-transform: capitalize;
-	margin-right: 8px;
 	background-color: transparent;
 	color: ${({ theme }) => theme.primary};
-	width: 196px;
-	height: 32px;
-	${media.max.md} {
-		width: 128px;
+	border: 2px solid ${({ theme }) => theme.primary};
+	border-radius: 8px 0 0 8px;
+	padding: 8px;
+	min-width: 196px;
+	flex: 2;
+	font-size: 1.25rem;
+	${media.max.xs} {
+		border-radius: 8px 8px 0 0;
 	}
 `
 
@@ -57,7 +87,7 @@ export const SubHeadingWrapper = styled.div`
 	display: flex;
 	justify-content: space-between;
 
-	${media.max.sm} {
+	${media.max.md} {
 		flex-direction: column;
 	}
 `

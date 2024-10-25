@@ -14,6 +14,8 @@ const Main = () => {
 	const [names, setNames] = useState(emptyName)
 	const empty: PaletteProps[] = []
 	const [palettes, setPalettes] = useState(empty)
+	const emptyShowing: Map<string, Set<string>> = new Map()
+	const [showing] = useState(emptyShowing)
 	useEffect(() => {
 		const currList: PaletteProps[] = []
 		names.forEach(({ name, group }) => {
@@ -27,16 +29,20 @@ const Main = () => {
 		setUpdated(true)
 	}, [updated])
 	const addPalette = (group: string, name: string) => {
+		const groupSet = showing.get(group) || new Set()
+		if (groupSet.has(name)) return
 		const currNames = names
 		currNames.push({ group, name })
 		setNames(currNames)
 		setUpdated(false)
+		groupSet.add(name)
+		showing.set(group, groupSet)
 	}
 	const { t } = useTranslation()
 	return (
 		<MainWrapper>
 			<Title>{t("palettes.title")}</Title>
-			<Select add={addPalette} />
+			<Select showing={showing} add={addPalette} />
 			<PaletteAnchors list={names} />
 			{palettes.map((palette, idx) => (
 				<Palette

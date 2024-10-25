@@ -7,7 +7,8 @@ export const SectionTitle = styled.h2`
 	margin-top: 0;
 `
 
-export const SubHeading = styled.summary`
+export const SubHeading = styled.p`
+	font-size: 1.125rem;
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
 `

@@ -3,13 +3,14 @@ import SVGProps from "../types/SVGProps"
 
 //Comment icon name (and pack if it changes)
 const RioDeJaneiroIcon = (props: SVGProps) => {
-	const { alt, size } = props
+	const { alt, size, hasTransition, color } = props
 	return (
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
-				fill="currentColor"
+				fill={color}
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="-44.8893 20.7632 3.9313999999999965 2.6043999999999983"
 			>

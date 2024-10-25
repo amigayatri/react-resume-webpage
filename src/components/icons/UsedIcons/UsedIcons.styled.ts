@@ -20,7 +20,7 @@ export const GlobalData = styled.div`
 		color: ${({ theme }) => theme.purple};
 	}
 `
-export const Summary = styled.summary`
+export const Summary = styled.p`
 	margin: 16px 0;
 `
 export const ProgressBarsWrapper = styled.div`
@@ -74,6 +74,8 @@ export const ButtonIcon = styled.div`
 `
 export const ButtonLabel = styled.span`
 	margin-left: 8px;
+	font-weight: 700;
+	color: ${({ theme }) => theme.almostBlack};
 `
 export const DetailedStats = styled.div<{ $open: boolean }>`
 	max-height: ${({ $open }) => ($open ? "512px" : "0px")};

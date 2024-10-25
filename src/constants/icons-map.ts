@@ -47,6 +47,7 @@ import ClownfishIcon from "../icons/ClownfishIcon"
 import CodeIcon from "../icons/CodeIcon"
 import ColorFilterIcon from "../icons/ColorFilterIcon"
 import ComputerIcon from "../icons/ComputerIcon"
+import CopyIcon from "../icons/CopyIcon"
 import CowIcon from "../icons/CowIcon"
 import CrabIcon from "../icons/CrabIcon"
 import CrownIcon from "../icons/CrownIcon"
@@ -87,7 +88,6 @@ import FirefoxIcon from "../icons/FirefoxIcon"
 import FiveIcon from "../icons/FiveIcon"
 import FlagIcon from "../icons/FlagIcon"
 import FlamingoIcon from "../icons/FlamingoIcon"
-import FlowerIcon from "../icons/FlowerIcon"
 import FlyingTroutIcon from "../icons/FlyingTroutIcon"
 import FourIcon from "../icons/FourIcon"
 import FoxIcon from "../icons/FoxIcon"
@@ -305,6 +305,7 @@ const icons = new Map([
     ["code", CodeIcon],
     ["colorfilter", ColorFilterIcon],
     ["computer", ComputerIcon],
+    ["copy", CopyIcon],
     ["cow", CowIcon],
     ["crab", CrabIcon],
     ["crown", CrownIcon],
@@ -345,7 +346,6 @@ const icons = new Map([
     ["five", FiveIcon],
     ["flag", FlagIcon],
     ["flamingo", FlamingoIcon],
-    ["flower", FlowerIcon],
     ["flyingtrout", FlyingTroutIcon],
     ["four", FourIcon],
     ["fox", FoxIcon],

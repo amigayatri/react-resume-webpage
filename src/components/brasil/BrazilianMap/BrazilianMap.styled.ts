@@ -8,7 +8,7 @@ export const BrazilianMapWrapper = styled.section`
 export const Title = styled.h1`
 	font-size: 2.5rem;
 	width: fit-content;
-	margin: 0px auto;
+	margin: 16px auto;
 	${media.max.sm} {
 		font-size: 2rem;
 	}

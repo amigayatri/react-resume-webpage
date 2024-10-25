@@ -1,5 +1,5 @@
 import { InternalLinkTag } from "./InternalLink.styled"
-import { ButtonStyle, Label } from "../Common.styled"
+import { ButtonStyle, ButtonWrapper, Label } from "../Common.styled"
 import PageProps from "../../../types/PageProps"
 import SVGIcon from "../../../icons/SVGIcon"
 import { useTranslation } from "react-i18next"
@@ -8,12 +8,14 @@ const InternalLink = ({ page, isRTL }: { page: PageProps; isRTL: boolean }) => {
 	const { t } = useTranslation()
 
 	return (
-		<InternalLinkTag to={page.path}>
-			<ButtonStyle $isRTL={isRTL}>
-				<SVGIcon local="home" size={48} id={page.icon} />
-				<Label> {t(`home.pageList.${page.id}.title`)}</Label>
-			</ButtonStyle>
-		</InternalLinkTag>
+		<ButtonWrapper>
+			<InternalLinkTag to={page.path}>
+				<ButtonStyle $isRTL={isRTL}>
+					<SVGIcon noTransition local="home" size={48} id={page.icon} />
+					<Label> {t(`home.pageList.${page.id}.title`)}</Label>
+				</ButtonStyle>
+			</InternalLinkTag>
+		</ButtonWrapper>
 	)
 }
 

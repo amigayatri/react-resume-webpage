@@ -7,9 +7,11 @@ interface Props {
 	size: number
 	local: string
 	toggle?: boolean
+	noTransition?: boolean
+	color?: string
 }
 
-const SVGIcon = ({ id, size, toggle, local }: Props) => {
+const SVGIcon = ({ id, size, toggle, local, noTransition, color }: Props) => {
 	const { t } = useTranslation()
 	const IconElement = icons.get(id)
 	const alt = t("icons.alt.".concat(id))
@@ -20,7 +22,15 @@ const SVGIcon = ({ id, size, toggle, local }: Props) => {
 		}
 		prevLocal.add(id)
 		usedIcons.set(local, prevLocal)
-		return <IconElement isToggle={toggle === true} size={size} alt={alt} />
+		return (
+			<IconElement
+				color={color === undefined ? "currentColor" : color}
+				hasTransition={noTransition !== true}
+				isToggle={toggle === true}
+				size={size}
+				alt={alt}
+			/>
+		)
 	}
 }
 

@@ -87,6 +87,8 @@ const Main = () => {
 		<MainWrapper>
 			<Title>
 				<MulticoloredName
+					fontSize={32}
+					iconId="braziliancalendar"
 					legible
 					info={{ group: "rainbow", name: "rainbow monokai" }}
 				>

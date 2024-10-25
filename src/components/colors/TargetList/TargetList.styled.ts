@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Wrapper = styled.section`
 	padding: 32px 0;
+	font-size: 1.25rem;
 `
 
 export const ListWrapper = styled.ul`
@@ -17,7 +18,7 @@ export const PairWrapper = styled.li<{ $isActive: boolean }>`
 	background-color: ${({ theme }) => theme.accent};
 	padding: 8px;
 	border-radius: 8px;
-	margin: 8px 0;
+	margin: 8px 16px;
 	margin-right: 8px;
 	cursor: ${({ $isActive }) => ($isActive ? "pointer" : "not-allowed")};
 `

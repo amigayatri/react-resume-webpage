@@ -300,6 +300,7 @@
       "code": "Icône de deux accolades",
       "colorfilter": "Icône de filtre de couleur",
       "computer": "icône de l'ordinateur",
+      "copy": "icône de copie",
       "cow": "icône de vache",
       "crab": "Icône de crabe",
       "crown": "Icône de la couronne",
@@ -341,7 +342,6 @@
       "five": "cinq",
       "flag": "Icône d'un drapeau ondulant",
       "flamingo": "icône de flamant rose",
-      "flower": "Icône de fleur",
       "flyingtrout": "icône de poisson volant",
       "four": "quatre",
       "fox": "Icône de renard",
@@ -568,12 +568,15 @@
       "ru": "russe",
       "zh": "Chinois"
     },
+    "select": {
+      "label": "Langue"
+    },
     "theme": {
       "change": "Changer le thème du site Web"
     }
   },
   "palettes": {
-    "add": "Ajouter une palette",
+    "add": "Ajouter",
     "addGroup": "Tout de {{groupName}}",
     "addOne": {
       "summary": "La palette choisie apparaîtra dans la liste ci-dessous.",
@@ -683,6 +686,9 @@
       }
     },
     "option": "Palette {{optionName}}",
+    "select": {
+      "label": "Palettes"
+    },
     "title": "Palettes"
   },
   "paths": {

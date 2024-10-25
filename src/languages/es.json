@@ -300,6 +300,7 @@
       "code": "Icono de dos llaves",
       "colorfilter": "Icono de filtro de color",
       "computer": "icono de computadora",
+      "copy": "icono de copia",
       "cow": "icono de vaca",
       "crab": "icono de cangrejo",
       "crown": "Icono de corona",
@@ -341,7 +342,6 @@
       "five": "cinco",
       "flag": "Icono de una bandera ondeando",
       "flamingo": "icono de flamenco",
-      "flower": "Icono de flor",
       "flyingtrout": "icono de pez volador",
       "four": "cuatro",
       "fox": "Icono de zorro",
@@ -568,12 +568,15 @@
       "ru": "ruso",
       "zh": "Chino"
     },
+    "select": {
+      "label": "Idioma"
+    },
     "theme": {
       "change": "Cambiar tema del sitio web"
     }
   },
   "palettes": {
-    "add": "Agregar paleta",
+    "add": "Agregar",
     "addGroup": "Todo de {{groupName}}",
     "addOne": {
       "summary": "La paleta elegida aparecerá en la lista a continuación.",
@@ -683,6 +686,9 @@
       }
     },
     "option": "paleta {{optionName}}",
+    "select": {
+      "label": "Paletas"
+    },
     "title": "Paletas"
   },
   "paths": {

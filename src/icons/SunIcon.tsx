@@ -3,14 +3,15 @@ import SVGProps from "../types/SVGProps"
 
 //Sun-line on pack
 const SunIcon = (props: SVGProps) => {
-	const { alt, size, isToggle } = props
+	const { alt, size, isToggle, hasTransition, color } = props
 	if (isToggle === true) {
 		return (
 			<ToggleIconWrapper $isLight={false}>
 				<Icon
+					$hasTransition={hasTransition}
 					$size={size}
 					role="img"
-					fill="currentColor"
+					fill={color}
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
 				>
@@ -24,8 +25,9 @@ const SunIcon = (props: SVGProps) => {
 		<IconWrapper>
 			<Icon
 				$size={size}
+				$hasTransition={hasTransition}
 				role="img"
-				fill="currentColor"
+				fill={color}
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 			>

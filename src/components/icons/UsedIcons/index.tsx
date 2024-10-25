@@ -89,11 +89,12 @@ const UsedIcons = () => {
 			</GlobalData>
 			<DetailedStats $open={showStats}>
 				<TabsWrapper>
+					;
 					<LocalTabsList>
 						{entries.map(([key, set]) => {
 							if (key === "iconlist") return
 							return (
-								<LocalTab>
+								<LocalTab key={"link-used-at-" + key}>
 									{key} ({set.size})
 								</LocalTab>
 							)
@@ -102,9 +103,11 @@ const UsedIcons = () => {
 					{entries.map(([key, set]) => {
 						if (key === "iconlist") return
 						return (
-							<LocalTabContent>
+							<LocalTabContent key={"tab-used-at-" + key}>
 								<Subtitle>
-									{t("iconlist.stats.sections.local", { localKey: `"${key}"` })}
+									{t("iconlist.stats.sections.local", {
+										localKey: `"${key}"`
+									})}
 								</Subtitle>
 								<Progress
 									color={{ done: theme.blue, total: theme.white }}
@@ -120,6 +123,7 @@ const UsedIcons = () => {
 										.sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
 										.map((iconId, idx) => (
 											<IdWrapper
+												key={key + "-icon-" + idx}
 												style={{
 													backgroundColor:
 														rainbowMonokai[idx % rainbowMonokai.length]

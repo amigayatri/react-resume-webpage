@@ -300,6 +300,7 @@
       "code": "Two curly brackets icon",
       "colorfilter": "Color filter icon",
       "computer": "computer icon",
+      "copy": "copy icon",
       "cow": "cow icon",
       "crab": "Crab icon",
       "crown": "Crown icon",
@@ -341,7 +342,6 @@
       "five": "five",
       "flag": "Icon of a waving flag",
       "flamingo": "flamingo icon",
-      "flower": "Flower icon",
       "flyingtrout": "flying fish icon",
       "four": "four",
       "fox": "Fox icon",
@@ -568,12 +568,15 @@
       "ru": "Russian",
       "zh": "Chinese"
     },
+    "select": {
+      "label": "Language"
+    },
     "theme": {
       "change": "Change website theme"
     }
   },
   "palettes": {
-    "add": "Add palette",
+    "add": "Add",
     "addGroup": "All from {{groupName}}",
     "addOne": {
       "summary": "The choosen palette will appear on the list bellow.",
@@ -683,6 +686,9 @@
       }
     },
     "option": "{{optionName}} palette",
+    "select": {
+      "label": "Palettes"
+    },
     "title": "Palettes"
   },
   "paths": {
