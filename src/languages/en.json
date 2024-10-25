@@ -300,6 +300,7 @@
       "code": "Two curly brackets icon",
       "colorfilter": "Color filter icon",
       "computer": "computer icon",
+      "copy": "copy icon",
       "cow": "cow icon",
       "crab": "Crab icon",
       "crown": "Crown icon",
@@ -567,6 +568,9 @@
       "ru": "Russian",
       "zh": "Chinese"
     },
+    "select": {
+      "label": "Language"
+    },
     "theme": {
       "change": "Change website theme"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "{{optionName}} palette",
+    "select": {
+      "label": "Palettes"
+    },
     "title": "Palettes"
   },
   "paths": {

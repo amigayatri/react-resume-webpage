@@ -300,6 +300,7 @@
       "code": "Mokõi soporte rizado icono",
       "colorfilter": "Icono filtro color rehegua",
       "computer": "computadora icono rehegua",
+      "copy": "icono copia rehegua",
       "cow": "vaka icono",
       "crab": "Cangrejo icono rehegua",
       "crown": "Icono corona rehegua",
@@ -567,6 +568,9 @@
       "ru": "ruso rehegua",
       "zh": "Chino"
     },
+    "select": {
+      "label": "Ñe'ẽ"
+    },
     "theme": {
       "change": "Omoambue página web tema"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "{{opciónName}} paleta rehegua",
+    "select": {
+      "label": "Paletas rehegua"
+    },
     "title": "Paletas rehegua"
   },
   "paths": {

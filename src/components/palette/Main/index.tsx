@@ -30,7 +30,6 @@ const Main = () => {
 	}, [updated])
 	const addPalette = (group: string, name: string) => {
 		const groupSet = showing.get(group) || new Set()
-		console.log(groupSet, name)
 		if (groupSet.has(name)) return
 		const currNames = names
 		currNames.push({ group, name })

@@ -300,6 +300,7 @@
       "code": "两个大括号图标",
       "colorfilter": "彩色滤光片图标",
       "computer": "计算机图标",
+      "copy": "复制图标",
       "cow": "牛图标",
       "crab": "螃蟹图标",
       "crown": "皇冠图标",
@@ -567,6 +568,9 @@
       "ru": "俄语",
       "zh": "中国人"
     },
+    "select": {
+      "label": "语言"
+    },
     "theme": {
       "change": "更改网站主题"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "{{optionName}} 调色板",
+    "select": {
+      "label": "调色板"
+    },
     "title": "调色板"
   },
   "paths": {

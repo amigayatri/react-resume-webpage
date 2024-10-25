@@ -300,6 +300,7 @@
       "code": "Duo uncis crispus icon",
       "colorfilter": "Color icone filter",
       "computer": "computatrum icon",
+      "copy": "effingo icon",
       "cow": "bos icon",
       "crab": "Cancri icon",
       "crown": "Corona icon",
@@ -567,6 +568,9 @@
       "ru": "russian",
       "zh": "Seres"
     },
+    "select": {
+      "label": "Linguae"
+    },
     "theme": {
       "change": "Mutatio website theme"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "{{optionName}} palette",
+    "select": {
+      "label": "Palettes"
+    },
     "title": "Palettes"
   },
   "paths": {

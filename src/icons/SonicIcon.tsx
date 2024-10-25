@@ -11,7 +11,7 @@ const SonicIcon = (props: SVGProps) => {
 				$hasTransition={hasTransition}
 				role="img"
 				fill="none"
-				stroke="currentColor"
+				stroke={color}
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 48 48"
 			>

@@ -300,6 +300,7 @@
       "code": "Symbol mit zwei geschweiften Klammern",
       "colorfilter": "Farbfiltersymbol",
       "computer": "Computersymbol",
+      "copy": "Kopiersymbol",
       "cow": "Kuh-Symbol",
       "crab": "Krabbensymbol",
       "crown": "Kronensymbol",
@@ -567,6 +568,9 @@
       "ru": "Russisch",
       "zh": "chinesisch"
     },
+    "select": {
+      "label": "Sprache"
+    },
     "theme": {
       "change": "Ändern Sie das Website-Thema"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "{{optionName}}-Palette",
+    "select": {
+      "label": "Paletten"
+    },
     "title": "Paletten"
   },
   "paths": {

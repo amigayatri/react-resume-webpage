@@ -300,6 +300,7 @@
       "code": "Icône de deux accolades",
       "colorfilter": "Icône de filtre de couleur",
       "computer": "icône de l'ordinateur",
+      "copy": "icône de copie",
       "cow": "icône de vache",
       "crab": "Icône de crabe",
       "crown": "Icône de la couronne",
@@ -567,6 +568,9 @@
       "ru": "russe",
       "zh": "Chinois"
     },
+    "select": {
+      "label": "Langue"
+    },
     "theme": {
       "change": "Changer le thème du site Web"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "Palette {{optionName}}",
+    "select": {
+      "label": "Palettes"
+    },
     "title": "Palettes"
   },
   "paths": {

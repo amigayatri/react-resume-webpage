@@ -300,6 +300,7 @@
       "code": "Icona con due parentesi graffe",
       "colorfilter": "Icona del filtro colore",
       "computer": "icona del computer",
+      "copy": "icona copia",
       "cow": "icona di mucca",
       "crab": "Icona del granchio",
       "crown": "Icona della corona",
@@ -567,6 +568,9 @@
       "ru": "russo",
       "zh": "cinese"
     },
+    "select": {
+      "label": "Lingua"
+    },
     "theme": {
       "change": "Cambia il tema del sito web"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "tavolozza {{optionName}}",
+    "select": {
+      "label": "Tavolozze"
+    },
     "title": "Tavolozze"
   },
   "paths": {

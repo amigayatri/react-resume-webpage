@@ -300,6 +300,7 @@
       "code": "Icono de dos llaves",
       "colorfilter": "Icono de filtro de color",
       "computer": "icono de computadora",
+      "copy": "icono de copia",
       "cow": "icono de vaca",
       "crab": "icono de cangrejo",
       "crown": "Icono de corona",
@@ -567,6 +568,9 @@
       "ru": "ruso",
       "zh": "Chino"
     },
+    "select": {
+      "label": "Idioma"
+    },
     "theme": {
       "change": "Cambiar tema del sitio web"
     }
@@ -682,6 +686,9 @@
       }
     },
     "option": "paleta {{optionName}}",
+    "select": {
+      "label": "Paletas"
+    },
     "title": "Paletas"
   },
   "paths": {
