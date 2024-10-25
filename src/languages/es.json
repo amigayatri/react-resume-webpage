@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "Estos números se calculan en función de la sesión de navegación actual, revise todas las páginas (incluidas las páginas de error) para ver los números sin falsos negativos.",
+      "more": {
+        "hide": "esconderse",
+        "label": "{{actionVerb}} estadísticas detalladas",
+        "show": "espectáculo"
+      },
+      "progress": {
+        "unused": "No usado",
+        "used": "Usado"
+      },
+      "sections": {
+        "global": "Datos globales",
+        "local": "Por ubicación: iconos con ubicación {{localKey}}"
+      },
+      "title": "Estadísticas de uso de iconos"
+    },
     "title": "Iconos disponibles"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "icono de oso hormiguero",
       "armadillo": "Icono de armadillo",
       "atlas": "Icono del Atlas sosteniendo el mundo sobre sus hombros (mitología griega)",
+      "award": "Icono de premio",
       "axolotl": "Icono de un ajolote",
       "badger": "icono de tejón",
       "baidu": "icono de baidu",
@@ -253,11 +271,11 @@
       "bee": "Icono de abeja",
       "beer": "Icono de vaso de cerveza",
       "bike": "Icono de bicicleta",
-      "boar": "icono de jabalí",
       "bowl": "Icono de tazón de comida",
       "brasil": "Icono de mapa brasileño",
       "braziliancalendar": "Icono de un calendario con el contorno del mapa brasileño en su interior.",
       "bread": "Icono de pan",
+      "briefcase": "icono de maleta",
       "brokenlink": "Icono de enlace roto",
       "bug": "Icono de insecto",
       "burger": "Icono de hamburguesa",
@@ -287,7 +305,6 @@
       "crown": "Icono de corona",
       "crying": "Icono de una cara llorando",
       "css": "icono CSS",
-      "cupcake": "Icono de magdalena",
       "deer": "icono de ciervo",
       "dice": "Icono de dados",
       "disc": "icono de disco",
@@ -332,7 +349,6 @@
       "gamepad": "Icono de controlador de videojuego",
       "gecko": "icono de geco",
       "ghost": "Icono fantasma",
-      "gitbranch": "Icono de rama de Git",
       "github": "icono de GitHub",
       "glasses": "icono de gafas de sol",
       "globe": "Icono del globo terráqueo",
@@ -354,7 +370,6 @@
       "icecream": "Icono de helado",
       "javascript": "icono de javascript",
       "jellyfish": "icono de medusa",
-      "kangaroo": "Icono de canguro",
       "key": "Un icono de llave",
       "kiwibird": "Icono de pájaro kiwi",
       "koala": "icono de koala",
@@ -365,6 +380,9 @@
       "lightbulb": "Icono de bombilla",
       "lightning": "Icono de rayo",
       "linkedin": "Icono de Linkedin",
+      "listsortedascending": "Icono de orden ascendente",
+      "listsorteddescending": "Icono de orden descendente",
+      "listunordered": "Icono de lista desordenada",
       "lynx": "Icono de lince",
       "magazine": "Icono de revista",
       "magicwand": "Icono de una varita mágica",
@@ -375,12 +393,10 @@
       "mcdonalds": "icono de McDonald's",
       "medal": "Icono de medalla",
       "megaphone": "Icono de megáfono",
-      "men": "Icono de símbolo masculino",
       "meteor": "icono de meteorito",
       "microsoft": "icono de microsoft",
       "minus": "Icono de resta",
       "minusminus": "Icono de resta repetido dos veces",
-      "mole": "icono de topo",
       "monkey": "icono de mono",
       "moon": "Icono de luna",
       "more": "Icono de más páginas",
@@ -389,6 +405,7 @@
       "nestbirds": "Icono de pájaros en el nido",
       "nine": "nueve",
       "octopus": "Icono de pulpo",
+      "office": "icono de oficina",
       "one": "uno",
       "ostrich": "icono de avestruz",
       "owl": "icono de búho",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Copiar todos los colores",
+      "order": {
+        "original": "Original",
+        "sorted": "Ordenado"
+      },
       "summary": "Haga clic en un color para copiar su código."
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "YouTube"
       },
       "theme": {
-        "current": "actual"
+        "current": "actual",
+        "fullmonokai": "monokai",
+        "grayscalemonokai": "Escala de grises Monokai"
       }
     },
     "option": "paleta {{optionName}}",

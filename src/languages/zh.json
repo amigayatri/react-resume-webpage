@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "这些数字是根据当前浏览会话计算的，浏览所有页面（包括错误页面）以查看没有漏报的数字",
+      "more": {
+        "hide": "隐藏",
+        "label": "{{actionverb}}详细统计",
+        "show": "展示"
+      },
+      "progress": {
+        "unused": "未使用",
+        "used": "用过的"
+      },
+      "sections": {
+        "global": "全球数据",
+        "local": "按位置：位置为 {{localKey}} 的图标"
+      },
+      "title": "图标使用统计"
+    },
     "title": "可用图标"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "食蚁兽图标",
       "armadillo": "犰狳图标",
       "atlas": "阿特拉斯图标将世界扛在肩上（希腊神话）",
+      "award": "奖品图标",
       "axolotl": "蝾螈的图标",
       "badger": "獾图标",
       "baidu": "百度图标",
@@ -253,11 +271,11 @@
       "bee": "蜜蜂图标",
       "beer": "啤酒杯图标",
       "bike": "自行车图标",
-      "boar": "野猪图标",
       "bowl": "食物碗图标",
       "brasil": "巴西地图图标",
       "braziliancalendar": "内部有巴西地图轮廓的日历图标",
       "bread": "面包图标",
+      "briefcase": "手提箱图标",
       "brokenlink": "损坏的链接图标",
       "bug": "昆虫图标",
       "burger": "汉堡图标",
@@ -287,7 +305,6 @@
       "crown": "皇冠图标",
       "crying": "哭泣的脸的图标",
       "css": "CSS 图标",
-      "cupcake": "蛋糕图标",
       "deer": "鹿图标",
       "dice": "骰子图标",
       "disc": "磁盘图标",
@@ -332,7 +349,6 @@
       "gamepad": "视频游戏控制器图标",
       "gecko": "壁虎图标",
       "ghost": "幽灵图标",
-      "gitbranch": "Git 分支图标",
       "github": "GitHub 图标",
       "glasses": "太阳镜图标",
       "globe": "地球地球图标",
@@ -354,7 +370,6 @@
       "icecream": "冰淇淋图标",
       "javascript": "JavaScript 图标",
       "jellyfish": "水母图标",
-      "kangaroo": "袋鼠图标",
       "key": "一键图标",
       "kiwibird": "猕猴桃鸟图标",
       "koala": "考拉图标",
@@ -365,6 +380,9 @@
       "lightbulb": "灯泡图标",
       "lightning": "闪电图标",
       "linkedin": "领英图标",
+      "listsortedascending": "升序排序图标",
+      "listsorteddescending": "降序排序图标",
+      "listunordered": "无序列表图标",
       "lynx": "山猫图标",
       "magazine": "杂志图标",
       "magicwand": "一根魔杖的图标",
@@ -375,12 +393,10 @@
       "mcdonalds": "麦当劳图标",
       "medal": "奖牌图标",
       "megaphone": "扩音器图标",
-      "men": "男性符号图标",
       "meteor": "流星图标",
       "microsoft": "微软图标",
       "minus": "减法图标",
       "minusminus": "减法图标重复两次",
-      "mole": "鼹鼠图标",
       "monkey": "猴子图标",
       "moon": "月亮图标",
       "more": "更多页面图标",
@@ -389,6 +405,7 @@
       "nestbirds": "鸟在巢中图标",
       "nine": "九",
       "octopus": "八达通图标",
+      "office": "办公室图标",
       "one": "一",
       "ostrich": "鸵鸟图标",
       "owl": "猫头鹰图标",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "复制所有颜色",
+      "order": {
+        "original": "原来的",
+        "sorted": "已订购"
+      },
       "summary": "单击颜色以复制其代码"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "YouTube"
       },
       "theme": {
-        "current": "当前的"
+        "current": "当前的",
+        "fullmonokai": "物会",
+        "grayscalemonokai": "Monokai 灰度"
       }
     },
     "option": "{{optionName}} 调色板",

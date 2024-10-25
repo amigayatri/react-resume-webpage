@@ -7,9 +7,9 @@ const Maintenance = ({ page }: PageElementProps) => {
 	useDocumentTitle(page.id)
 	return (
 		<Main messageId={page.id}>
-			<SVGIcon size={128} id="bug" />
-			<SVGIcon size={128} id="gitbranch" />
-			<SVGIcon size={128} id="tools" />
+			<SVGIcon local="maintenance" size={128} id="bug" />
+			<SVGIcon local="maintenance" size={128} id="gitbranch" />
+			<SVGIcon local="maintenance" size={128} id="tools" />
 		</Main>
 	)
 }

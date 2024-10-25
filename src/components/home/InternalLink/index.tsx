@@ -10,7 +10,7 @@ const InternalLink = ({ page, isRTL }: { page: PageProps; isRTL: boolean }) => {
 	return (
 		<InternalLinkTag to={page.path}>
 			<ButtonStyle $isRTL={isRTL}>
-				<SVGIcon size={48} id={page.icon} />
+				<SVGIcon local="home" size={48} id={page.icon} />
 				<Label> {t(`home.pageList.${page.id}.title`)}</Label>
 			</ButtonStyle>
 		</InternalLinkTag>

@@ -17,7 +17,7 @@ const Contacts = ({ contacts }: ContactsProps) => {
 				$showOnWeb={contact.showOnWeb}
 				key={"contact-" + index}
 			>
-				<SVGIcon size={24} id={contact.icon} />
+				<SVGIcon local="resume" size={24} id={contact.icon} />
 				<Link href={contact.link} {...linkProps}>
 					{contact.text}
 				</Link>

@@ -4,7 +4,7 @@ import InternalLink from "../InternalLink"
 import externals from "../../../constants/externals"
 import PageProps from "../../../types/PageProps"
 import ExternalLinkProps from "../../../types/ExternalLinkProps"
-import { allPages } from "../../../constants/pages"
+import { pages, extraPages, underMaintenance } from "../../../constants/pages"
 import { useTranslation } from "react-i18next"
 import { getLangDir } from "rtl-detect"
 
@@ -14,9 +14,10 @@ const PageList = () => {
 	return (
 		<Wrapper>
 			<ListWrapper>
-				{allPages.map(
+				{pages.map(
 					(page: PageProps, index: number) =>
-						!page.isHome && (
+						!page.isHome &&
+						!underMaintenance.has(page.path) && (
 							<InternalLink
 								isRTL={isRTL}
 								key={"page-item-number-" + index}
@@ -31,6 +32,17 @@ const PageList = () => {
 						key={"external-item-number-" + index}
 					/>
 				))}
+				{extraPages.map(
+					(page: PageProps, index: number) =>
+						!page.isHome &&
+						!underMaintenance.has(page.path) && (
+							<InternalLink
+								isRTL={isRTL}
+								key={"page-item-number-" + index}
+								page={page}
+							/>
+						)
+				)}
 			</ListWrapper>
 		</Wrapper>
 	)

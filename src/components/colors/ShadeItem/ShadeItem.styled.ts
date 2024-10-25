@@ -1,23 +1,18 @@
 import styled from "styled-components"
 
 export const Wrapper = styled.div`
-    position: relative;
-    min-width: 64px;
-    width: 64px;
-    height: 64px;
-    overflow: visible;
-    margin-top: 8px;
+	position: relative;
+	min-width: 64px;
+	height: 64px;
+	overflow: visible;
+	margin-top: 8px;
 `
 
 export const HexaCode = styled.code``
 
 export const Square = styled.div<{
 	$base: boolean
-	$bg: string
-	$inverse: string
 }>`
-	background-color: ${({ $bg }) => $bg};
-	border-color: ${({ $inverse }) => $inverse};
 	border-width: 2px;
 	border-style: ${({ $base }) => ($base ? "solid" : "none")};
 	height: 64px;
@@ -30,7 +25,6 @@ export const Square = styled.div<{
 		width: 0px;
 		display: block;
 		overflow: hidden;
-		color: ${({ $inverse }) => $inverse};
 		cursor: copy;
 	}
 	&:hover,

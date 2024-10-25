@@ -42,6 +42,7 @@ const Main = () => {
 		const hasDates = section.dates !== undefined
 		if (hasDates) translated.dates = []
 		let idx = 0
+		translated.icon = section.icon
 		for (const item of section.items) {
 			translated.items.push(
 				t(`resume.sections.${section.name}.items.${item}.text`)

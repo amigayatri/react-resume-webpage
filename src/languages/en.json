@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "These numbers are calculated based on the current browsing session, go through all pages (including error pages) to see the numbers without false negatives",
+      "more": {
+        "hide": "hide",
+        "label": "{{actionVerb}} detailed statistics",
+        "show": "show"
+      },
+      "progress": {
+        "unused": "Unused",
+        "used": "Used"
+      },
+      "sections": {
+        "global": "Global data",
+        "local": "By location: icons with location {{localKey}}"
+      },
+      "title": "Icon usage statistics"
+    },
     "title": "Available icons"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "anteater icon",
       "armadillo": "Armadillo icon",
       "atlas": "Atlas icon holding the world on his shoulders (Greek mythology)",
+      "award": "Prize icon",
       "axolotl": "Icon of an axolotl",
       "badger": "badger icon",
       "baidu": "baidu icon",
@@ -253,11 +271,11 @@
       "bee": "Bee icon",
       "beer": "Beer glass icon",
       "bike": "Bicycle icon",
-      "boar": "boar icon",
       "bowl": "Food bowl icon",
       "brasil": "Brazilian map icon",
       "braziliancalendar": "Icon of a calendar with the outline of the Brazilian map inside",
       "bread": "Bread icon",
+      "briefcase": "suitcase icon",
       "brokenlink": "Broken link icon",
       "bug": "Insect icon",
       "burger": "Burger icon",
@@ -287,7 +305,6 @@
       "crown": "Crown icon",
       "crying": "Icon of a crying face",
       "css": "CSS icon",
-      "cupcake": "Cupcake icon",
       "deer": "deer icon",
       "dice": "Dice icon",
       "disc": "Disk icon",
@@ -332,7 +349,6 @@
       "gamepad": "Video game controller icon",
       "gecko": "gecko icon",
       "ghost": "Ghost icon",
-      "gitbranch": "Git branch icon",
       "github": "GitHub icon",
       "glasses": "sunglasses icon",
       "globe": "Earth globe icon",
@@ -354,7 +370,6 @@
       "icecream": "Ice cream icon",
       "javascript": "JavaScript icon",
       "jellyfish": "jellyfish icon",
-      "kangaroo": "Kangaroo icon",
       "key": "One key icon",
       "kiwibird": "Kiwi bird icon",
       "koala": "koala icon",
@@ -365,6 +380,9 @@
       "lightbulb": "Light bulb icon",
       "lightning": "Lightning icon",
       "linkedin": "Linkedin Icon",
+      "listsortedascending": "Ascending sort icon",
+      "listsorteddescending": "Descending sort icon",
+      "listunordered": "Unordered list icon",
       "lynx": "Lynx icon",
       "magazine": "Magazine icon",
       "magicwand": "Icon of a magic wand",
@@ -375,12 +393,10 @@
       "mcdonalds": "McDonalds icon",
       "medal": "Medal icon",
       "megaphone": "Megaphone icon",
-      "men": "Male symbol icon",
       "meteor": "meteor icon",
       "microsoft": "Microsoft icon",
       "minus": "Subtraction icon",
       "minusminus": "Subtraction icon repeated twice",
-      "mole": "mole icon",
       "monkey": "monkey icon",
       "moon": "Moon Icon",
       "more": "More pages icon",
@@ -389,6 +405,7 @@
       "nestbirds": "Birds in the nest icon",
       "nine": "nine",
       "octopus": "Octopus icon",
+      "office": "office icon",
       "one": "one",
       "ostrich": "ostrich icon",
       "owl": "owl icon",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Copy all colors",
+      "order": {
+        "original": "Original",
+        "sorted": "Ordered"
+      },
       "summary": "Click on a color to copy their code"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "youtube"
       },
       "theme": {
-        "current": "current"
+        "current": "current",
+        "fullmonokai": "Monokai",
+        "grayscalemonokai": "Monokai Grayscale"
       }
     },
     "option": "{{optionName}} palette",

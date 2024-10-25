@@ -35,6 +35,7 @@ const Holiday = ({
 			<ContentWrapper>
 				<IconWrapper>
 					<SVGIcon
+						local="holidays"
 						size={48}
 						id={isWeekend ? "sad" : isPreWeekend ? "superhappy" : "happy"}
 					/>

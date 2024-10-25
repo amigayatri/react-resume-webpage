@@ -12,10 +12,9 @@ const ShadeItem = ({ inverse, base, code }: ShadeItemProps) => {
 			<Square
 				onClick={() => navigator.clipboard.writeText(code)}
 				$base={base}
-				$bg={code}
-				$inverse={inverse}
+				style={{ backgroundColor: code, borderColor: inverse }}
 			>
-				<HexaCode>{code}</HexaCode>
+				<HexaCode style={{ color: inverse }}>{code}</HexaCode>
 			</Square>
 		</Wrapper>
 	)

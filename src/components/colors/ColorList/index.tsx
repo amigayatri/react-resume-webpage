@@ -56,7 +56,7 @@ const ColorList = ({
 		if (paletteColors === undefined) return
 		const preview: JSX.Element[] = []
 		for (const color of paletteColors) {
-			preview.push(<PreviewColor $bg={color} />)
+			preview.push(<PreviewColor style={{ backgroundColor: color }} />)
 		}
 		return <PreviewWrapper>{...preview}</PreviewWrapper>
 	}

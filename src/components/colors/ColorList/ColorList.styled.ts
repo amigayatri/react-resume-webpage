@@ -69,8 +69,7 @@ export const PreviewWrapper = styled.div`
 	right: 0;
 	border: 2px solid ${({ theme }) => theme.primary};
 `
-export const PreviewColor = styled.div<{ $bg: string }>`
+export const PreviewColor = styled.div`
 	width: 100%;
 	height: 32px;
-	background-color: ${({ $bg }) => $bg};
 `

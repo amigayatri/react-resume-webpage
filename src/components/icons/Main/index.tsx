@@ -1,15 +1,14 @@
 import { useTranslation } from "react-i18next"
 import IconList from "../IconList"
+import UsedIcons from "../UsedIcons"
 import { MainWrapper, Title } from "./Main.styled"
-import { numberOfIcons } from "../../../constants/icons-map"
 
 const Main = () => {
 	const { t } = useTranslation()
 	return (
 		<MainWrapper>
-			<Title>
-				{t("iconlist.title")} ({numberOfIcons})
-			</Title>
+			<Title>{t("iconlist.title")}</Title>
+			<UsedIcons />
 			<IconList />
 		</MainWrapper>
 	)

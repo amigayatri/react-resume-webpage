@@ -2,12 +2,14 @@ import SectionProps from "../types/SectionProps"
 
 const sections: SectionProps[] = [
 	{
+		icon: "graduationcap",
 		name: "education",
 		items: ["grad"],
 		dates: [{ start: new Date("2017/02/01"), end: new Date("2022/12/01") }],
 		subitem: false
 	},
 	{
+		icon: "briefcase",
 		name: "experience",
 		items: ["atip", "techviz", "encora", "raccoon", "partenero", "liven"],
 		dates: [
@@ -21,16 +23,19 @@ const sections: SectionProps[] = [
 		subitem: true
 	},
 	{
+		icon: "translate",
 		name: "languages",
 		items: ["pt", "en"],
 		subitem: false
 	},
 	{
+		icon: "code",
 		name: "technologies",
 		items: ["webbasics", "javascript", "otherframeworks", "php", "basics"],
 		subitem: false
 	},
 	{
+		icon: "computer",
 		name: "projects",
 		items: ["accessibility", "shehacks", "principia", "vemPraUSP", "pet"],
 		dates: [

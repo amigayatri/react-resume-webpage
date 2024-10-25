@@ -14,9 +14,9 @@ interface GitLinkProps extends GitMoreProps {
 const GitLink = ({ children, link }: GitLinkProps) => {
 	return (
 		<GitButton href={link} {...linkProps}>
-			<SVGIcon id="github" size={24} />
+			<SVGIcon local="stats" id="github" size={24} />
 			<GitName>{children}</GitName>
-			<SVGIcon id="external" size={16} />
+			<SVGIcon local="stats" id="external" size={16} />
 		</GitButton>
 	)
 }

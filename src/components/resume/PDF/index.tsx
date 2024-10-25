@@ -169,7 +169,7 @@ const DownloadPDF = ({ resume }: { resume: TranslatedResumeProps }) => {
 		.join("_")
 	return (
 		<PDFDownload document={<PDF />} fileName={fileName}>
-			<SVGIcon id="download" size={48} />
+			<SVGIcon local="resume" id="download" size={48} />
 			<PDFDownloadText>{t("resume.download.cta")}</PDFDownloadText>
 		</PDFDownload>
 	)

@@ -16,7 +16,7 @@ const Button = ({ fn, icon, txt }: ButtonProps) => {
 			role="button"
 			tabIndex={0}
 		>
-			{icon !== undefined && <SVGIcon size={24} id={icon} />}
+			{icon !== undefined && <SVGIcon local="leetcode" size={24} id={icon} />}
 
 			{txt !== undefined && txt}
 		</ButtonStyle>

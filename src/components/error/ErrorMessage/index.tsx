@@ -6,7 +6,7 @@ import SVGIcon from "../../../icons/SVGIcon"
 const ErrorMessage = ({ message }: ErrorProps) => {
 	return (
 		<ErrorMessageWrapper>
-			<SVGIcon size={80} id="terminalerror" />
+			<SVGIcon local="error" size={80} id="terminalerror" />
 			<Message>
 				<Typewriter text={message} loop speed={256} />
 			</Message>

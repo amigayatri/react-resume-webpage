@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "Questi numeri vengono calcolati in base alla sessione di navigazione corrente, esamina tutte le pagine (comprese le pagine di errore) per vedere i numeri senza falsi negativi",
+      "more": {
+        "hide": "nascondere",
+        "label": "{{actionVerb}} statistiche dettagliate",
+        "show": "spettacolo"
+      },
+      "progress": {
+        "unused": "Inutilizzato",
+        "used": "Usato"
+      },
+      "sections": {
+        "global": "Dati globali",
+        "local": "Per posizione: icone con posizione {{localKey}}"
+      },
+      "title": "Statistiche sull'utilizzo delle icone"
+    },
     "title": "Icone disponibili"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "icona del formichiere",
       "armadillo": "Icona dell'armadillo",
       "atlas": "Icona di Atlante che tiene il mondo sulle spalle (mitologia greca)",
+      "award": "Icona del premio",
       "axolotl": "Icona di un axolotl",
       "badger": "icona di tasso",
       "baidu": "icona Baidu",
@@ -253,11 +271,11 @@
       "bee": "Icona dell'ape",
       "beer": "Icona del bicchiere di birra",
       "bike": "Icona della bicicletta",
-      "boar": "icona di cinghiale",
       "bowl": "Icona della ciotola per il cibo",
       "brasil": "Icona della mappa brasiliana",
       "braziliancalendar": "Icona di un calendario con all'interno il contorno della mappa brasiliana",
       "bread": "Icona del pane",
+      "briefcase": "icona della valigia",
       "brokenlink": "Icona del collegamento interrotto",
       "bug": "Icona dell'insetto",
       "burger": "Icona dell'hamburger",
@@ -287,7 +305,6 @@
       "crown": "Icona della corona",
       "crying": "Icona di un volto che piange",
       "css": "Icona CSS",
-      "cupcake": "Icona di cupcake",
       "deer": "icona di cervo",
       "dice": "Icona dei dadi",
       "disc": "Icona del disco",
@@ -332,7 +349,6 @@
       "gamepad": "Icona del controller per videogiochi",
       "gecko": "icona del geco",
       "ghost": "Icona fantasma",
-      "gitbranch": "Icona del ramo Git",
       "github": "Icona di GitHub",
       "glasses": "icona di occhiali da sole",
       "globe": "Icona del globo terrestre",
@@ -354,7 +370,6 @@
       "icecream": "Icona del gelato",
       "javascript": "Icona JavaScript",
       "jellyfish": "icona di meduse",
-      "kangaroo": "Icona del canguro",
       "key": "Un'icona chiave",
       "kiwibird": "Icona dell'uccello kiwi",
       "koala": "icona del koala",
@@ -365,6 +380,9 @@
       "lightbulb": "Icona della lampadina",
       "lightning": "Icona del fulmine",
       "linkedin": "Icona di Linkedin",
+      "listsortedascending": "Icona di ordinamento crescente",
+      "listsorteddescending": "Icona di ordinamento discendente",
+      "listunordered": "Icona dell'elenco non ordinato",
       "lynx": "Icona della lince",
       "magazine": "Icona della rivista",
       "magicwand": "Icona di una bacchetta magica",
@@ -375,12 +393,10 @@
       "mcdonalds": "Icona di McDonald's",
       "medal": "Icona della medaglia",
       "megaphone": "Icona del megafono",
-      "men": "Icona simbolo maschile",
       "meteor": "icona della meteora",
       "microsoft": "Icona Microsoft",
       "minus": "Icona di sottrazione",
       "minusminus": "Icona di sottrazione ripetuta due volte",
-      "mole": "icona della talpa",
       "monkey": "icona della scimmia",
       "moon": "Icona della luna",
       "more": "Icona più pagine",
@@ -389,6 +405,7 @@
       "nestbirds": "Uccelli nell'icona del nido",
       "nine": "nove",
       "octopus": "Icona del polpo",
+      "office": "icona dell'ufficio",
       "one": "uno",
       "ostrich": "icona di struzzo",
       "owl": "icona del gufo",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Copia tutti i colori",
+      "order": {
+        "original": "Originale",
+        "sorted": "Ordinato"
+      },
       "summary": "Fare clic su un colore per copiare il relativo codice"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "youtube"
       },
       "theme": {
-        "current": "attuale"
+        "current": "attuale",
+        "fullmonokai": "Monokai",
+        "grayscalemonokai": "Monokai in scala di grigi"
       }
     },
     "option": "tavolozza {{optionName}}",
