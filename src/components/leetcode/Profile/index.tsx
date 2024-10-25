@@ -28,7 +28,7 @@ const Profile = ({ leetcode }: LeetCodeProps) => {
 			<FlagWrapper>{flag}</FlagWrapper>
 			<IDWrapper {...linkProps} href={"http://leetcode.com/u/" + profile}>
 				<Username>({profile.username})</Username>
-				<SVGIcon id="external" size={24} />
+				<SVGIcon local="leetcode" id="external" size={24} />
 			</IDWrapper>
 		</ProfileWrapper>
 	)

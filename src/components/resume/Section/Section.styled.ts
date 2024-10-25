@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
-    padding: 0 var(--container) 32px;     
-`;
+export const SectionIcon = styled.span`
+	height: 24px;
+	margin-right: 8px;
+`
 
 export const SectionTitle = styled.h3`
-    font-size: 1.5rem;
-    margin: 0 0 16px;
+	font-size: 1.5rem;
+	margin: 0 0 16px;
+	display: inline-flex;
+	align-items: center;
+`
+export const Wrapper = styled.section`
+	padding: 0 var(--container) 32px;
+	& ${SectionIcon} {
+		color: ${({ theme }) => theme.accent};
+	}
+	&:nth-of-type(even) ${SectionIcon} {
+		color: ${({ theme }) => theme.secondAccent};
+	}
 `
 
 export const SectionList = styled.ul`

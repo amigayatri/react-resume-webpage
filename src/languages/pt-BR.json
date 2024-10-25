@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "Esses números são calculados com base na sessão atual de navegação, passe por todas as páginas (incluindo as de erro) para ver os números sem falsos negativos",
+      "more": {
+        "hide": "esconder",
+        "label": "{{actionVerb}} estatísticas detalhadas",
+        "show": "mostre"
+      },
+      "progress": {
+        "unused": "Não utilizados",
+        "used": "Utilizados"
+      },
+      "sections": {
+        "global": "Dados globais",
+        "local": "Por local: ícones com o local {{localKey}}"
+      },
+      "title": "Estátisticas de uso dos ícones"
+    },
     "title": "Ícones disponíveis"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "Ícone de tamanduá",
       "armadillo": "Ícone de um tatu",
       "atlas": "Ícone de Atlas segurando o mundo nos ombros (mitologia grega)",
+      "award": "Ícone de prêmio",
       "axolotl": "Ícone de um axolotl",
       "badger": "Ícone de texugo",
       "baidu": "Ícone do baidu",
@@ -253,11 +271,11 @@
       "bee": "Ícone de uma abelha",
       "beer": "Ícone de um copo de cerveja",
       "bike": "Ícone de uma bicicleta",
-      "boar": "Ícone de javali",
       "bowl": "Ícone de uma cumbuca de comida",
       "brasil": "Ícone de um mapa do brasil",
       "braziliancalendar": "Ícone de um calendário com o contorno do mapa do brasil dentro",
       "bread": "Ícone de um pão",
+      "briefcase": "Ícone de mala",
       "brokenlink": "Ícone de um link quebrado",
       "bug": "Ícone de um inseto",
       "burger": "Ícone de um hamburguer",
@@ -287,7 +305,6 @@
       "crown": "Ícone de uma coroa",
       "crying": "Ícone de um rosto chorando",
       "css": "Ícone do CSS",
-      "cupcake": "Ícone de um bolinho",
       "deer": "Ícone de cervo",
       "dice": "Ícone de um dado",
       "disc": "Ícone de um disco",
@@ -332,7 +349,6 @@
       "gamepad": "Ícone de um controle de videogame",
       "gecko": "Ícone de lagartixa",
       "ghost": "Ícone de um fantasma",
-      "gitbranch": "Ícone de uma branch git",
       "github": "Ícone do github",
       "glasses": "Ícone de óculos escuros",
       "globe": "Ícone de um globo terrestre",
@@ -354,7 +370,6 @@
       "icecream": "Ícone de um picolé",
       "javascript": "Ícone do JavaScript",
       "jellyfish": "Ícone de água-viva",
-      "kangaroo": "Ícone de canguru",
       "key": "Ícone de uma chave",
       "kiwibird": "Ícone de um pássaro kiwi",
       "koala": "Ícone de coala",
@@ -365,6 +380,9 @@
       "lightbulb": "Ícone de uma lâmpada",
       "lightning": "Ícone de um relâmpago",
       "linkedin": "Ícone do Linkedin",
+      "listsortedascending": "Ícone de ordenação ascendente",
+      "listsorteddescending": "Ícone de ordenação descendente",
+      "listunordered": "Ícone de lista sem ordenação",
       "lynx": "Ícone de lince",
       "magazine": "Ícone de uma revista",
       "magicwand": "Ícone de uma varinha mágica",
@@ -375,12 +393,10 @@
       "mcdonalds": "Ícone do McDonalds",
       "medal": "Ícone de uma medalha",
       "megaphone": "Ícone de um megafone",
-      "men": "Ícone do simbolo masculino",
       "meteor": "Ícone de meteoro",
       "microsoft": "Ícone da Microsoft",
       "minus": "Ícone de subtração",
       "minusminus": "Ícone de subtração repetido duas vezes",
-      "mole": "Ícone de toupeira",
       "monkey": "Ícone de macaco",
       "moon": "Ícone de uma lua",
       "more": "Ícone de mais páginas",
@@ -389,6 +405,7 @@
       "nestbirds": "Ícone de pássaros no ninho",
       "nine": "nove",
       "octopus": "Ícone de um polvo",
+      "office": "Ícone de escritório",
       "one": "um",
       "ostrich": "Ícone de avestruz",
       "owl": "Ícone de coruja",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Copie todas as cores",
+      "order": {
+        "original": "Original",
+        "sorted": "Ordenado"
+      },
       "summary": "Clique em uma cor para copiar seu código"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "YouTube"
       },
       "theme": {
-        "current": "atual"
+        "current": "atual",
+        "fullmonokai": "Monokai",
+        "grayscalemonokai": "Escala de cinza monokai"
       }
     },
     "option": "paleta {{optionName}}",

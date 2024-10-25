@@ -11,7 +11,7 @@ interface RandomListProps {
 const RandomList = ({ list, id, width, iconId }: RandomListProps) => {
 	return (
 		<ListWrapper id={id + "-list"}>
-			<SVGIcon size={64} id={iconId} />
+			<SVGIcon local="cats" size={64} id={iconId} />
 			<List $width={width}>
 				{list.map((url, idx) => (
 					<Item key={id + "-idx-" + idx}>

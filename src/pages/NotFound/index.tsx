@@ -7,7 +7,7 @@ const NotFound = ({ page }: PageElementProps) => {
 	useDocumentTitle(page.id)
 	return (
 		<Main messageId="404">
-			<SVGIcon size={128} id="brokenlink" />
+			<SVGIcon local="404" size={128} id="brokenlink" />
 			<></>
 		</Main>
 	)

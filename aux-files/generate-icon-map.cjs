@@ -48,27 +48,27 @@ const generateAltKey = (id) => {
 	return `		"${id}" : "Ícone de "`
 }
 
-const altTexts = [
-	"{",
-	'	"new": {',
-	alts.map(generateAltKey).join(",\n"),
-	"	},\n",
-	'	"delete": {',
-	Array.from(missingIcons.keys()).map(generateAltKey).join(",\n"),
-	"	}",
-	"}"
-].join("\n")
+
 const updateKeys = alts.length > 0 || missingIcons.size > 0
-fs.writeFile(
-	"./new_alts.json",
-	updateKeys ? altTexts : '"Nothing to change! =)"',
-	(error) => {
-		if (error) {
-			console.error(error)
-			return
-		}
+const altTexts = updateKeys
+	? [
+			"{",
+			'	"new": {',
+			alts.map(generateAltKey).join(",\n"),
+			"	},\n",
+			'	"delete": {',
+			Array.from(missingIcons.keys()).map(generateAltKey).join(",\n"),
+			"	}",
+			"}"
+	  ].join("\n")
+	: '"Nothing to change! =)"'
+!updateKeys && console.log(altTexts.replaceAll('"', ""))
+fs.writeFile("./new_alts.json", `{\n"translation": ${altTexts}\n}`, (error) => {
+	if (error) {
+		console.error(error)
+		return
 	}
-)
+})
 
 fs.writeFile("./src/constants/icons-map.ts", txt, (error) => {
 	if (error) {

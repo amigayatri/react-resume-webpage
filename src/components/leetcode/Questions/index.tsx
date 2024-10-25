@@ -3,7 +3,7 @@ import {
 	QuestionsDetailsWrapper,
 	TotalWrapper
 } from "./Questions.styled"
-import Progress from "../Progress"
+import Progress from "../../common/Progress"
 import { useTheme } from "styled-components"
 import { useTranslation } from "react-i18next"
 import LeetCodeProps from "../../../types/LeetCodeProps"

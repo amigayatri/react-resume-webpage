@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "Diese Zahlen werden auf Grundlage der aktuellen Browsersitzung berechnet. Durchsuchen Sie alle Seiten (einschließlich Fehlerseiten), um die Zahlen ohne falsche Negative zu sehen",
+      "more": {
+        "hide": "verstecken",
+        "label": "{{actionVerb}} detaillierte Statistiken",
+        "show": "zeigen"
+      },
+      "progress": {
+        "unused": "Unbenutzt",
+        "used": "Gebraucht"
+      },
+      "sections": {
+        "global": "Globale Daten",
+        "local": "Nach Standort: Symbole mit Standort {{localKey}}"
+      },
+      "title": "Statistiken zur Symbolnutzung"
+    },
     "title": "Verfügbare Symbole"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "Ameisenbär-Symbol",
       "armadillo": "Gürteltier-Symbol",
       "atlas": "Atlas-Ikone, die die Welt auf seinen Schultern hält (griechische Mythologie)",
+      "award": "Preissymbol",
       "axolotl": "Ikone eines Axolotl",
       "badger": "Dachs-Symbol",
       "baidu": "Baidu-Symbol",
@@ -253,11 +271,11 @@
       "bee": "Bienensymbol",
       "beer": "Bierglas-Symbol",
       "bike": "Fahrrad-Symbol",
-      "boar": "Wildschwein-Symbol",
       "bowl": "Symbol für Futternapf",
       "brasil": "Brasilianisches Kartensymbol",
       "braziliancalendar": "Symbol eines Kalenders mit dem Umriss der brasilianischen Karte darin",
       "bread": "Brot-Symbol",
+      "briefcase": "Koffersymbol",
       "brokenlink": "Symbol für defekten Link",
       "bug": "Insektensymbol",
       "burger": "Burger-Symbol",
@@ -287,7 +305,6 @@
       "crown": "Kronensymbol",
       "crying": "Symbol eines weinenden Gesichts",
       "css": "CSS-Symbol",
-      "cupcake": "Cupcake-Symbol",
       "deer": "Hirsch-Symbol",
       "dice": "Würfelsymbol",
       "disc": "Festplattensymbol",
@@ -332,7 +349,6 @@
       "gamepad": "Symbol für Videospiel-Controller",
       "gecko": "Gecko-Symbol",
       "ghost": "Geistersymbol",
-      "gitbranch": "Git-Zweigsymbol",
       "github": "GitHub-Symbol",
       "glasses": "Sonnenbrillen-Symbol",
       "globe": "Erdkugel-Symbol",
@@ -354,7 +370,6 @@
       "icecream": "Eiscreme-Symbol",
       "javascript": "JavaScript-Symbol",
       "jellyfish": "Quallen-Symbol",
-      "kangaroo": "Känguru-Symbol",
       "key": "Ein Schlüsselsymbol",
       "kiwibird": "Kiwi-Vogel-Symbol",
       "koala": "Koala-Symbol",
@@ -365,6 +380,9 @@
       "lightbulb": "Glühbirnen-Symbol",
       "lightning": "Blitzsymbol",
       "linkedin": "Linkedin-Symbol",
+      "listsortedascending": "Symbol für aufsteigende Sortierung",
+      "listsorteddescending": "Symbol für absteigende Sortierung",
+      "listunordered": "Symbol für ungeordnete Liste",
       "lynx": "Luchs-Symbol",
       "magazine": "Zeitschriftensymbol",
       "magicwand": "Symbol eines Zauberstabs",
@@ -375,12 +393,10 @@
       "mcdonalds": "McDonalds-Symbol",
       "medal": "Medaillensymbol",
       "megaphone": "Megafon-Symbol",
-      "men": "Männliches Symbol",
       "meteor": "Meteor-Symbol",
       "microsoft": "Microsoft-Symbol",
       "minus": "Subtraktionssymbol",
       "minusminus": "Das Subtraktionssymbol wird zweimal wiederholt",
-      "mole": "Maulwurf-Symbol",
       "monkey": "Affen-Symbol",
       "moon": "Mond-Symbol",
       "more": "Symbol für weitere Seiten",
@@ -389,6 +405,7 @@
       "nestbirds": "Vögel im Nest-Symbol",
       "nine": "neun",
       "octopus": "Oktopus-Symbol",
+      "office": "Bürosymbol",
       "one": "eins",
       "ostrich": "Strauß-Symbol",
       "owl": "Eulen-Symbol",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Kopieren Sie alle Farben",
+      "order": {
+        "original": "Original",
+        "sorted": "Bestellt"
+      },
       "summary": "Klicken Sie auf eine Farbe, um deren Code zu kopieren"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "youtube"
       },
       "theme": {
-        "current": "aktuell"
+        "current": "aktuell",
+        "fullmonokai": "Monokai",
+        "grayscalemonokai": "Monokai-Graustufen"
       }
     },
     "option": "{{optionName}}-Palette",

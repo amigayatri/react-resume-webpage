@@ -5,7 +5,7 @@ import { allPages, underMaintenance, errorPages } from "./constants/pages"
 const Router = () => {
 	const getMaintenanceRoutes = () => {
 		const Maintenance = errorPages.maintenance.element
-		return underMaintenance.map((path) => (
+		return Array.from(underMaintenance.keys()).map((path) => (
 			<Route
 				key={"maintenance-" + path}
 				path={path}

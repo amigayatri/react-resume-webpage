@@ -8,7 +8,10 @@ export const DetailMessage = styled.h3`
 	margin-left: 8px;
 	color: ${({ theme }) => theme.white};
 `
-export const Success = styled(DetailMessage)`
+export const Success = styled.span`
+	font-size: 1.5rem;
+	display: inline;
+	margin-left: 8px;
 	color: ${({ theme }) => theme.purple};
 `
 

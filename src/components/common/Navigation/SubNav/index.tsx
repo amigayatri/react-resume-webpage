@@ -1,3 +1,4 @@
+import { underMaintenance } from "../../../../constants/pages"
 import SVGIcon from "../../../../icons/SVGIcon"
 import PageProps from "../../../../types/PageProps"
 import NavigationItem from "../NavigationItem"
@@ -16,16 +17,19 @@ const SubNav = ({ pages, isRTL }: { pages: PageProps[]; isRTL: boolean }) => {
 			onClick={() => openMenu()}
 			$isOpen={open}
 		>
-			<SVGIcon id="more" size={24} />
+			<SVGIcon local="subnav" id="more" size={24} />
 			<ContentWrapper>
-				{pages.map((page) => (
-					<NavigationItem
-						close={openMenu}
-						isRTL={isRTL}
-						key={`nav-link-${page.path}`}
-						page={page}
-					/>
-				))}
+				{pages.map((page) => {
+					if (underMaintenance.has(page.path)) return
+					return (
+						<NavigationItem
+							close={openMenu}
+							isRTL={isRTL}
+							key={`nav-link-${page.path}`}
+							page={page}
+						/>
+					)
+				})}
 			</ContentWrapper>
 		</SubNavWrapper>
 	)

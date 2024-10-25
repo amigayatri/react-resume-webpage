@@ -36,7 +36,7 @@ const DetailedBadge = ({ details }: DetailedBadgeProps) => {
 	}
 	return (
 		<DetailedBadgeWrapper>
-			<SVGIcon id="terminal" size={32} />
+			<SVGIcon local="leetcode" id="terminal" size={32} />
 			{showMessage()}
 		</DetailedBadgeWrapper>
 	)

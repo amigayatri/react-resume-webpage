@@ -111,3 +111,16 @@ export const checkContrast = (color1: string, color2: string) => {
 			: (color1luminance + 0.05) / (color2luminance + 0.05)
 	return ratio
 }
+
+export const sortColors = (colors: string[]) => {
+	const averageColor = (color: RGB) => {
+		const { red, green, blue } = color
+		return (red + green + blue) / 3
+	}
+	const compareColors = (color1hex: string, color2hex: string) => {
+		const average1 = averageColor(getRGBFromHex(color1hex))
+		const average2 = averageColor(getRGBFromHex(color2hex))
+		return average1 - average2
+	}
+	return Array.from(colors).sort(compareColors)
+}

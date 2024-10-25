@@ -97,7 +97,7 @@ const Main = () => {
 			<ListWrapper>
 				<CitySelectorWrapper>
 					<Button onClick={() => setOpen(!open)}>
-						<SVGIcon size={32} id="map" />
+						<SVGIcon local="holidays" size={32} id="map" />
 						<OpenText>{t(`brazilianHolidays.open.${open}`)}</OpenText>
 					</Button>
 					<CitiesWrapper $isOpen={open}>
@@ -131,7 +131,7 @@ const Main = () => {
 						</SelectorWrapper>
 						{selectedCity !== "" && (
 							<Button onClick={() => handleAdd()}>
-								<SVGIcon size={32} id="calendar" />
+								<SVGIcon local="holidays" size={32} id="calendar" />
 								<OpenText>
 									{t("brazilianHolidays.addMunicipal", {
 										stateName: selectedState,

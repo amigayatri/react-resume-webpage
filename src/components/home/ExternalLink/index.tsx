@@ -16,10 +16,10 @@ const ExternalLink = ({
 	return (
 		<ExternalLinkTag {...linkProps} href={link.path}>
 			<ButtonStyle $isRTL={isRTL}>
-				<SVGIcon size={48} id={link.icon} />
+				<SVGIcon local="home" size={48} id={link.icon} />
 				<LabelWrapper $isRTL={isRTL}>
 					<Label>{t(`home.externalLinks.${link.name}`)}</Label>
-					<SVGIcon id="external" size={20} />
+					<SVGIcon local="home" id="external" size={20} />
 				</LabelWrapper>
 			</ButtonStyle>
 		</ExternalLinkTag>

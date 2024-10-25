@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom"
-import { pages, extraPages } from "../../../constants/pages"
+import { pages, extraPages, underMaintenance } from "../../../constants/pages"
 import NavigationItem from "./NavigationItem"
 import {
 	NavigationWrapper,
@@ -19,14 +19,17 @@ interface NavProps {
 const DesktopNavigation = ({ isRTL }: NavProps) => {
 	return (
 		<DesktopWrapper>
-			{pages.map((page) => (
-				<NavigationItem
-					close={() => {}}
-					isRTL={isRTL}
-					key={`nav-link-${page.path}`}
-					page={page}
-				/>
-			))}
+			{pages.map((page) => {
+				if (underMaintenance.has(page.path)) return
+				return (
+					<NavigationItem
+						close={() => {}}
+						isRTL={isRTL}
+						key={`nav-link-${page.path}`}
+						page={page}
+					/>
+				)
+			})}
 			<SubNav isRTL={isRTL} pages={extraPages} />
 		</DesktopWrapper>
 	)
@@ -37,26 +40,33 @@ const MobileNavigation = ({ isRTL }: NavProps) => {
 	const closeMenu = () => {
 		setIsOpen(false)
 	}
+	console.log(underMaintenance)
 	return (
 		<>
 			<MenuButton isOpen={isOpen} openMenu={() => setIsOpen(!isOpen)} />
 			<MobileWrapper $isRTL={isRTL} $isOpen={isOpen}>
-				{pages.map((page) => (
-					<NavigationItem
-						close={closeMenu}
-						isRTL={isRTL}
-						key={`nav-link-${page.path}`}
-						page={page}
-					/>
-				))}
-				{extraPages.map((page) => (
-					<NavigationItem
-						close={closeMenu}
-						isRTL={isRTL}
-						key={`nav-link-${page.path}`}
-						page={page}
-					/>
-				))}
+				{pages.map((page) => {
+					if (underMaintenance.has(page.path)) return
+					return (
+						<NavigationItem
+							close={closeMenu}
+							isRTL={isRTL}
+							key={`nav-link-${page.path}`}
+							page={page}
+						/>
+					)
+				})}
+				{extraPages.map((page) => {
+					if (underMaintenance.has(page.path)) return
+					return (
+						<NavigationItem
+							close={closeMenu}
+							isRTL={isRTL}
+							key={`nav-link-${page.path}`}
+							page={page}
+						/>
+					)
+				})}
 			</MobileWrapper>
 		</>
 	)

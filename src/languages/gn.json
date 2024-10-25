@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "Ko’ã papapy oñemboheko sesión de navegación ko’áĝaguápe, ojehasa opaite páhina rupive (oikehápe página jejavy rehegua) ojehecha hag̃ua umi papapy ndorekóiva negativo japu",
+      "more": {
+        "hide": "okañy haguã",
+        "label": "{{actionVerb}} estadística detallado",
+        "show": "hechauka"
+      },
+      "progress": {
+        "unused": "Ndojeporúiva",
+        "used": "Porupyre"
+      },
+      "sections": {
+        "global": "Dato global rehegua",
+        "local": "Mohendaha rupive: techaukaha oguerekóva tenda {{localKey}}."
+      },
+      "title": "Icono jeporu rehegua estadística"
+    },
     "title": "Umi icono ojeguerekóva"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "hormiguero icono rehegua",
       "armadillo": "Armadillo icono rehegua",
       "atlas": "Icono Atlas-pegua oguerekóva ko mundo ijyva ári (mitología griega)",
+      "award": "Jopói icono",
       "axolotl": "Icono peteĩ axolotl rehegua",
       "badger": "tejón icono rehegua",
       "baidu": "baidu icono rehegua",
@@ -253,11 +271,11 @@
       "bee": "Abeja icono",
       "beer": "Icono de vidrio cerveza rehegua",
       "bike": "Bicicleta rehegua icono",
-      "boar": "jaguarete icono",
       "bowl": "Tembi'u ryru icono",
       "brasil": "Icono mapa brasileño rehegua",
       "braziliancalendar": "Icono peteĩ calendario orekóva contorno mapa brasileño hyepýpe",
       "bread": "Pan icono",
+      "briefcase": "maleta icono rehegua",
       "brokenlink": "Icono enlace oñembyaíva",
       "bug": "Insecto rehegua icono",
       "burger": "Hamburguesa icono",
@@ -287,7 +305,6 @@
       "crown": "Icono corona rehegua",
       "crying": "Icono peteĩ hova hasẽva rehegua",
       "css": "CSS techaukaha",
-      "cupcake": "Icono de magdalena rehegua",
       "deer": "ciervo icono rehegua",
       "dice": "Icono de dado rehegua",
       "disc": "Disco rehegua icono",
@@ -332,7 +349,6 @@
       "gamepad": "Videojuego controlador icono",
       "gecko": "gecko icono rehegua",
       "ghost": "Icono fantasma rehegua",
-      "gitbranch": "Git rama icono rehegua",
       "github": "GitHub techaukaha",
       "glasses": "anteojos de sol icono rehegua",
       "globe": "Yvy globo icono",
@@ -354,7 +370,6 @@
       "icecream": "Icono helado rehegua",
       "javascript": "JavaScript techaukaha",
       "jellyfish": "medusa icono",
-      "kangaroo": "Canguro icono",
       "key": "Peteĩ tecla icono",
       "kiwibird": "Kiwi guyra icono",
       "koala": "koala icono",
@@ -365,6 +380,9 @@
       "lightbulb": "Icono de bombilla de luz rehegua",
       "lightning": "Icono de rayo",
       "linkedin": "Linkedin Icono rehegua",
+      "listsortedascending": "Icono de ordenación ojupíva",
+      "listsorteddescending": "Icono de ordenación oguejyva",
+      "listunordered": "Icono lista no ordenada rehegua",
       "lynx": "Lince icono",
       "magazine": "Revista icono",
       "magicwand": "Icono peteĩ varita mágica rehegua",
@@ -375,12 +393,10 @@
       "mcdonalds": "McDonalds icono rehegua",
       "medal": "Medalla rehegua icono",
       "megaphone": "Megáfono icono",
-      "men": "Kuimba'e símbolo icono",
       "meteor": "meteoro rehegua icono",
       "microsoft": "Microsoft techaukaha",
       "minus": "Icono de resta rehegua",
       "minusminus": "Icono de resta ojerrepeti mokõi jey",
-      "mole": "ikóna topo rehegua",
       "monkey": "mono icono rehegua",
       "moon": "Jasy Icono",
       "more": "Hetave página icono",
@@ -389,6 +405,7 @@
       "nestbirds": "Guyrakuéra oĩva pe nido icono-pe",
       "nine": "porundy",
       "octopus": "Pulpo icono",
+      "office": "oficina icono rehegua",
       "one": "peteĩ",
       "ostrich": "avestruz icono rehegua",
       "owl": "búho ikóna",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Ekopia opaite sa’y",
+      "order": {
+        "original": "Ypykue",
+        "sorted": "Ordenado"
+      },
       "summary": "Emboguejy peteĩ kolór rehe ekopia hag̃ua ikodigokuéra"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "youtube-pe"
       },
       "theme": {
-        "current": "Ko'ag̃agua"
+        "current": "Ko'ag̃agua",
+        "fullmonokai": "Monokai rehegua",
+        "grayscalemonokai": "Monokai Escala de Grises rehegua"
       }
     },
     "option": "{{opciónName}} paleta rehegua",

@@ -33,7 +33,7 @@ export const IconItem = styled.li`
 	align-items: center;
 	width: fit-content;
 	border: 2px solid ${({ theme }) => theme.primary};
-	color: ${({ theme }) => theme.accent};
+	color: ${({ theme }) => theme.primary};
 	padding: 8px 0;
 	border-radius: 8px;
 	width: 100%;
@@ -48,14 +48,17 @@ export const Id = styled.code`
 	overflow-x: hidden;
 	padding: 2px 4px;
 	text-align: center;
-	margin: 4px 0;
+	margin: 4px 0 8px;
 `
 export const Icon = styled.span`
-	display: block;
-	background-color: ${({ theme }) => theme.accent};
-	color: ${({ theme }) => theme.secondAccent};
-	width: 56px;
-	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: ${({ theme }) => theme.almostBlack};
+	color: ${({ theme }) => theme.white};
+	border: 2px solid ${({ theme }) => theme.white};
+	width: 64px;
+	height: 64px;
 	padding: 4px;
-	border-radius: 8px;
+	border-radius: 16px;
 `

@@ -22,7 +22,7 @@ const NavigationItem = ({ page, isRTL, close }: NavigationItemProps) => {
 	return (
 		<LinkWrapper $isActive={isActive}>
 			<ContentWrapper onClick={close} $isRTL={isRTL} to={page.path}>
-				<SVGIcon id={page.icon} size={24} />
+				<SVGIcon local="navigation" id={page.icon} size={24} />
 				<Label>{t(`home.pageList.${page.id}.title`)}</Label>
 			</ContentWrapper>
 			<UnderLine />

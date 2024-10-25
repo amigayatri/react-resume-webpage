@@ -64,3 +64,24 @@ export const PaletteName = styled.h2`
 	width: fit-content;
 	text-transform: capitalize;
 `
+export const SubTitle = styled.h3`
+	margin: 16px 0;
+`
+export const ControlWrapper = styled.div`
+	display: flex;
+`
+export const ControlButton = styled.button<{ $selected: boolean }>`
+	color: ${({ theme }) => theme.primary};
+	border: 2px solid currentColor;
+	border-radius: 8px;
+	padding: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: ${({ $selected, theme }) =>
+		$selected ? theme.accent : "transparent"};
+	margin-left: 8px;
+	&:first-of-type {
+		margin-left: 0;
+	}
+`

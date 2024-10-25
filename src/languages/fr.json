@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "Ces chiffres sont calculés en fonction de la session de navigation en cours, parcourez toutes les pages (y compris les pages d'erreur) pour voir les chiffres sans faux négatifs",
+      "more": {
+        "hide": "se cacher",
+        "label": "{{actionVerb}} statistiques détaillées",
+        "show": "montrer"
+      },
+      "progress": {
+        "unused": "Inutilisé",
+        "used": "Utilisé"
+      },
+      "sections": {
+        "global": "Données mondiales",
+        "local": "Par emplacement : icônes avec emplacement {{localKey}}"
+      },
+      "title": "Statistiques d'utilisation des icônes"
+    },
     "title": "Icônes disponibles"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "icône de fourmilier",
       "armadillo": "Icône de tatou",
       "atlas": "Icône de l'Atlas tenant le monde sur ses épaules (mythologie grecque)",
+      "award": "Icône de prix",
       "axolotl": "Icône d'un axolotl",
       "badger": "icône de blaireau",
       "baidu": "icône de Baidu",
@@ -253,11 +271,11 @@
       "bee": "Icône d'abeille",
       "beer": "Icône de verre de bière",
       "bike": "Icône de vélo",
-      "boar": "icône de sanglier",
       "bowl": "Icône de bol de nourriture",
       "brasil": "Icône de carte brésilienne",
       "braziliancalendar": "Icône d'un calendrier avec le contour de la carte du Brésil à l'intérieur",
       "bread": "Icône de pain",
+      "briefcase": "icône de valise",
       "brokenlink": "Icône de lien brisé",
       "bug": "Icône d'insecte",
       "burger": "Icône de hamburger",
@@ -287,7 +305,6 @@
       "crown": "Icône de la couronne",
       "crying": "Icône d'un visage qui pleure",
       "css": "icône CSS",
-      "cupcake": "Icône de petit gâteau",
       "deer": "icône de cerf",
       "dice": "Icône de dés",
       "disc": "Icône de disque",
@@ -332,7 +349,6 @@
       "gamepad": "Icône du contrôleur de jeu vidéo",
       "gecko": "icône de gecko",
       "ghost": "Icône fantôme",
-      "gitbranch": "Icône de branche Git",
       "github": "Icône GitHub",
       "glasses": "icône de lunettes de soleil",
       "globe": "Icône du globe terrestre",
@@ -354,7 +370,6 @@
       "icecream": "Icône de crème glacée",
       "javascript": "Icône JavaScript",
       "jellyfish": "icône de méduse",
-      "kangaroo": "Icône kangourou",
       "key": "Une icône clé",
       "kiwibird": "Icône d'oiseau kiwi",
       "koala": "icône de koala",
@@ -365,6 +380,9 @@
       "lightbulb": "Icône d'ampoule",
       "lightning": "Icône de foudre",
       "linkedin": "Icône Linkedin",
+      "listsortedascending": "Icône de tri croissant",
+      "listsorteddescending": "Icône de tri décroissant",
+      "listunordered": "Icône de liste non ordonnée",
       "lynx": "Icône de lynx",
       "magazine": "Icône de magazine",
       "magicwand": "Icône d'une baguette magique",
@@ -375,12 +393,10 @@
       "mcdonalds": "Icône McDonald's",
       "medal": "Icône de médaille",
       "megaphone": "Icône de mégaphone",
-      "men": "Icône de symbole masculin",
       "meteor": "icône de météore",
       "microsoft": "Icône Microsoft",
       "minus": "Icône de soustraction",
       "minusminus": "Icône de soustraction répétée deux fois",
-      "mole": "icône de taupe",
       "monkey": "icône de singe",
       "moon": "Icône de la lune",
       "more": "Icône Plus de pages",
@@ -389,6 +405,7 @@
       "nestbirds": "Icône d'oiseaux dans le nid",
       "nine": "neuf",
       "octopus": "Icône de poulpe",
+      "office": "icône de bureau",
       "one": "un",
       "ostrich": "icône d'autruche",
       "owl": "icône de hibou",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "Copiez toutes les couleurs",
+      "order": {
+        "original": "Original",
+        "sorted": "Ordonné"
+      },
       "summary": "Cliquez sur une couleur pour copier son code"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "youtube"
       },
       "theme": {
-        "current": "actuel"
+        "current": "actuel",
+        "fullmonokai": "Monokaï",
+        "grayscalemonokai": "Niveaux de gris Monokai"
       }
     },
     "option": "Palette {{optionName}}",

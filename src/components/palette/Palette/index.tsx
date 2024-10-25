@@ -6,7 +6,10 @@ import {
 	Icon,
 	PaletteSection,
 	Description,
-	CopyPalette
+	CopyPalette,
+	SubTitle,
+	ControlButton,
+	ControlWrapper
 } from "./Palette.styled"
 import PaletteType from "../../../types/PaletteProps"
 import PaletteInfoProps from "../../../types/PaletteInfoProps"
@@ -15,6 +18,8 @@ import { Summary } from "../Common.styled"
 import MulticoloredName from "../../common/MulticoloredName"
 import SVGIcon from "../../../icons/SVGIcon"
 import palettesIcons from "../../../constants/palettes-icons"
+import { sortColors } from "../../../lib/rgb"
+import { useState } from "react"
 interface PaletteProps {
 	palette: PaletteType
 	info: PaletteInfoProps
@@ -23,12 +28,33 @@ interface PaletteProps {
 const Palette = ({ palette, info }: PaletteProps) => {
 	const { t } = useTranslation()
 	const { group, name } = info
+	const [showSorted, setShowSorted] = useState(false)
+	const [ascending, setAscending] = useState(false)
 	const iconId = palettesIcons.custom.has(name)
 		? palettesIcons.custom.get(name)
 		: palettesIcons.group.get(group)
 	const id = `${group}-${name}`.replace(" ", "_")
-	const codes: string[] = Array.from(palette, (code) => `"${code}"`)
-	const allCodes = `[${codes.join(", ")}]`
+	const stringify = (str: string) => `"${str}"`
+	const codes: string[] = Array.from(palette, stringify)
+	const sorted = sortColors(palette)
+	const sortedCodes: string[] = Array.from(sorted, stringify)
+	const allCodes = !showSorted
+		? `[${codes.join(", ")}]`
+		: `[${
+				ascending ? sortedCodes.join(", ") : sortedCodes.reverse().join(", ")
+		  }]`
+
+	const showColor = (color: string) => {
+		return (
+			<PaletteColor
+				onClick={() => navigator.clipboard.writeText(color)}
+				key={"color-" + color}
+				style={{ backgroundColor: color }}
+			>
+				<ColorCode>{color}</ColorCode>
+			</PaletteColor>
+		)
+	}
 	return (
 		<PaletteSection id={id}>
 			<PaletteName>
@@ -45,25 +71,56 @@ const Palette = ({ palette, info }: PaletteProps) => {
 			</PaletteName>
 			<Description>
 				<Icon>
-					<SVGIcon size={32} id={iconId || "palette"} />
+					<SVGIcon local="palette" size={32} id={iconId || "palette"} />
 				</Icon>
 				<Summary>{t("palettes.info.summary")}</Summary>
+				<ControlWrapper>
+					<ControlButton
+						$selected={!showSorted}
+						onClick={() => {
+							setShowSorted(false)
+						}}
+					>
+						<SVGIcon local="palette" size={24} id="listunordered" />
+					</ControlButton>
+					<ControlButton
+						$selected={showSorted && ascending}
+						onClick={() => {
+							setShowSorted(true)
+							if (!ascending) {
+								setAscending(true)
+							}
+						}}
+					>
+						<SVGIcon local="palette" size={24} id="listsortedascending" />
+					</ControlButton>
+					<ControlButton
+						$selected={showSorted && !ascending}
+						onClick={() => {
+							setShowSorted(true)
+							if (ascending) {
+								setAscending(false)
+							}
+						}}
+					>
+						<SVGIcon local="palette" size={24} id="listsorteddescending" />
+					</ControlButton>
+				</ControlWrapper>
 				<CopyPalette onClick={() => navigator.clipboard.writeText(allCodes)}>
 					<MulticoloredName legible info={info}>
 						{t("palettes.info.copy all")}
 					</MulticoloredName>
 				</CopyPalette>
 			</Description>
+			<SubTitle>
+				{t(`palettes.info.order.${showSorted ? "sorted" : "original"}`)}
+			</SubTitle>
 			<PaletteWrapper>
-				{palette.map((color) => (
-					<PaletteColor
-						onClick={() => navigator.clipboard.writeText(color)}
-						key={"color-" + color}
-						style={{ backgroundColor: color }}
-					>
-						<ColorCode>{color}</ColorCode>
-					</PaletteColor>
-				))}
+				{!showSorted
+					? palette.map(showColor)
+					: ascending
+					? sorted.map(showColor)
+					: sorted.reverse().map(showColor)}
 			</PaletteWrapper>
 		</PaletteSection>
 	)

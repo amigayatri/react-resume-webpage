@@ -5,6 +5,7 @@ import AnglerFishIcon from "../icons/AnglerFishIcon"
 import AnteaterIcon from "../icons/AnteaterIcon"
 import ArmadilloIcon from "../icons/ArmadilloIcon"
 import AtlasIcon from "../icons/AtlasIcon"
+import AwardIcon from "../icons/AwardIcon"
 import AxolotlIcon from "../icons/AxolotlIcon"
 import BadgerIcon from "../icons/BadgerIcon"
 import BaiduIcon from "../icons/BaiduIcon"
@@ -16,11 +17,11 @@ import BeaverIcon from "../icons/BeaverIcon"
 import BeeIcon from "../icons/BeeIcon"
 import BeerIcon from "../icons/BeerIcon"
 import BikeIcon from "../icons/BikeIcon"
-import BoarIcon from "../icons/BoarIcon"
 import BowlIcon from "../icons/BowlIcon"
 import BrasilIcon from "../icons/BrasilIcon"
 import BrazilianCalendarIcon from "../icons/BrazilianCalendarIcon"
 import BreadIcon from "../icons/BreadIcon"
+import BriefcaseIcon from "../icons/BriefcaseIcon"
 import BrokenLinkIcon from "../icons/BrokenLinkIcon"
 import BugIcon from "../icons/BugIcon"
 import BurgerIcon from "../icons/BurgerIcon"
@@ -50,7 +51,6 @@ import CowIcon from "../icons/CowIcon"
 import CrabIcon from "../icons/CrabIcon"
 import CrownIcon from "../icons/CrownIcon"
 import CryingIcon from "../icons/CryingIcon"
-import CupcakeIcon from "../icons/CupcakeIcon"
 import DNAIcon from "../icons/DNAIcon"
 import DeerIcon from "../icons/DeerIcon"
 import DiceIcon from "../icons/DiceIcon"
@@ -95,7 +95,6 @@ import FrogIcon from "../icons/FrogIcon"
 import GamepadIcon from "../icons/GamepadIcon"
 import GeckoIcon from "../icons/GeckoIcon"
 import GhostIcon from "../icons/GhostIcon"
-import GitBranchIcon from "../icons/GitBranchIcon"
 import GithubIcon from "../icons/GithubIcon"
 import GlassesIcon from "../icons/GlassesIcon"
 import GlobeIcon from "../icons/GlobeIcon"
@@ -117,7 +116,6 @@ import IcarusIcon from "../icons/IcarusIcon"
 import IceCreamIcon from "../icons/IceCreamIcon"
 import JavaScriptIcon from "../icons/JavaScriptIcon"
 import JellyfishIcon from "../icons/JellyfishIcon"
-import KangarooIcon from "../icons/KangarooIcon"
 import KeyIcon from "../icons/KeyIcon"
 import KiwiBirdIcon from "../icons/KiwiBirdIcon"
 import KoalaIcon from "../icons/KoalaIcon"
@@ -128,6 +126,9 @@ import LeetCodeIcon from "../icons/LeetCodeIcon"
 import LightbulbIcon from "../icons/LightbulbIcon"
 import LightningIcon from "../icons/LightningIcon"
 import LinkedinIcon from "../icons/LinkedinIcon"
+import ListSortedAscendingIcon from "../icons/ListSortedAscendingIcon"
+import ListSortedDescendingIcon from "../icons/ListSortedDescendingIcon"
+import ListUnorderedIcon from "../icons/ListUnorderedIcon"
 import LynxIcon from "../icons/LynxIcon"
 import MagazineIcon from "../icons/MagazineIcon"
 import MagicWandIcon from "../icons/MagicWandIcon"
@@ -138,12 +139,10 @@ import MayanPyramidIcon from "../icons/MayanPyramidIcon"
 import McDonaldsIcon from "../icons/McDonaldsIcon"
 import MedalIcon from "../icons/MedalIcon"
 import MegaphoneIcon from "../icons/MegaphoneIcon"
-import MenIcon from "../icons/MenIcon"
 import MeteorIcon from "../icons/MeteorIcon"
 import MicrosoftIcon from "../icons/MicrosoftIcon"
 import MinusIcon from "../icons/MinusIcon"
 import MinusMinusIcon from "../icons/MinusMinusIcon"
-import MoleIcon from "../icons/MoleIcon"
 import MonkeyIcon from "../icons/MonkeyIcon"
 import MoonIcon from "../icons/MoonIcon"
 import MoreIcon from "../icons/MoreIcon"
@@ -152,6 +151,7 @@ import NarutoIcon from "../icons/NarutoIcon"
 import NestBirdsIcon from "../icons/NestBirdsIcon"
 import NineIcon from "../icons/NineIcon"
 import OctopusIcon from "../icons/OctopusIcon"
+import OfficeIcon from "../icons/OfficeIcon"
 import OneIcon from "../icons/OneIcon"
 import OstrichIcon from "../icons/OstrichIcon"
 import OwlIcon from "../icons/OwlIcon"
@@ -263,6 +263,7 @@ const icons = new Map([
     ["anteater", AnteaterIcon],
     ["armadillo", ArmadilloIcon],
     ["atlas", AtlasIcon],
+    ["award", AwardIcon],
     ["axolotl", AxolotlIcon],
     ["badger", BadgerIcon],
     ["baidu", BaiduIcon],
@@ -274,11 +275,11 @@ const icons = new Map([
     ["bee", BeeIcon],
     ["beer", BeerIcon],
     ["bike", BikeIcon],
-    ["boar", BoarIcon],
     ["bowl", BowlIcon],
     ["brasil", BrasilIcon],
     ["braziliancalendar", BrazilianCalendarIcon],
     ["bread", BreadIcon],
+    ["briefcase", BriefcaseIcon],
     ["brokenlink", BrokenLinkIcon],
     ["bug", BugIcon],
     ["burger", BurgerIcon],
@@ -308,7 +309,6 @@ const icons = new Map([
     ["crab", CrabIcon],
     ["crown", CrownIcon],
     ["crying", CryingIcon],
-    ["cupcake", CupcakeIcon],
     ["dna", DNAIcon],
     ["deer", DeerIcon],
     ["dice", DiceIcon],
@@ -353,7 +353,6 @@ const icons = new Map([
     ["gamepad", GamepadIcon],
     ["gecko", GeckoIcon],
     ["ghost", GhostIcon],
-    ["gitbranch", GitBranchIcon],
     ["github", GithubIcon],
     ["glasses", GlassesIcon],
     ["globe", GlobeIcon],
@@ -375,7 +374,6 @@ const icons = new Map([
     ["icecream", IceCreamIcon],
     ["javascript", JavaScriptIcon],
     ["jellyfish", JellyfishIcon],
-    ["kangaroo", KangarooIcon],
     ["key", KeyIcon],
     ["kiwibird", KiwiBirdIcon],
     ["koala", KoalaIcon],
@@ -386,6 +384,9 @@ const icons = new Map([
     ["lightbulb", LightbulbIcon],
     ["lightning", LightningIcon],
     ["linkedin", LinkedinIcon],
+    ["listsortedascending", ListSortedAscendingIcon],
+    ["listsorteddescending", ListSortedDescendingIcon],
+    ["listunordered", ListUnorderedIcon],
     ["lynx", LynxIcon],
     ["magazine", MagazineIcon],
     ["magicwand", MagicWandIcon],
@@ -396,12 +397,10 @@ const icons = new Map([
     ["mcdonalds", McDonaldsIcon],
     ["medal", MedalIcon],
     ["megaphone", MegaphoneIcon],
-    ["men", MenIcon],
     ["meteor", MeteorIcon],
     ["microsoft", MicrosoftIcon],
     ["minus", MinusIcon],
     ["minusminus", MinusMinusIcon],
-    ["mole", MoleIcon],
     ["monkey", MonkeyIcon],
     ["moon", MoonIcon],
     ["more", MoreIcon],
@@ -410,6 +409,7 @@ const icons = new Map([
     ["nestbirds", NestBirdsIcon],
     ["nine", NineIcon],
     ["octopus", OctopusIcon],
+    ["office", OfficeIcon],
     ["one", OneIcon],
     ["ostrich", OstrichIcon],
     ["owl", OwlIcon],

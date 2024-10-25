@@ -17,21 +17,21 @@ import CatsProps from "../pages/Cats/Cats.props"
 export const pages: PageProps[] = [HomeProps, ResumeProps]
 
 export const extraPages: PageProps[] = [
+	CatsProps,
+	IconListProps,
 	ColorsProps,
 	PaletteProps,
+	SiteStatsProps,
 	ExtraLanguagesProps,
 	LeetcodeProps,
-	SiteStatsProps,
 	ThreeDProps,
 	HolidaysProps,
-	BrasilProps,
-	IconListProps,
-	CatsProps
+	BrasilProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]
 
-export const underMaintenance = []
+export const underMaintenance = new Set([ThreeDProps.path])
 
 export const errorPages = {
 	notFound: NotFoundProps,

@@ -231,6 +231,23 @@
     }
   },
   "iconlist": {
+    "stats": {
+      "disclaimer": "これらの数値は現在の閲覧セッションに基づいて計算され、すべてのページ (エラー ページを含む) を調べて偽陰性のない数値を確認します。",
+      "more": {
+        "hide": "隠す",
+        "label": "{{actionVerb}} の詳細な統計",
+        "show": "見せる"
+      },
+      "progress": {
+        "unused": "未使用",
+        "used": "使用済み"
+      },
+      "sections": {
+        "global": "グローバルデータ",
+        "local": "場所別: 場所のアイコン {{localKey}}"
+      },
+      "title": "アイコンの使用統計"
+    },
     "title": "利用可能なアイコン"
   },
   "icons": {
@@ -242,6 +259,7 @@
       "anteater": "アリクイのアイコン",
       "armadillo": "アルマジロのアイコン",
       "atlas": "世界を肩に担ぐアトラスのアイコン (ギリシャ神話)",
+      "award": "賞品アイコン",
       "axolotl": "ウーパールーパーのアイコン",
       "badger": "アナグマのアイコン",
       "baidu": "百度のアイコン",
@@ -253,11 +271,11 @@
       "bee": "蜂のアイコン",
       "beer": "ビールグラスのアイコン",
       "bike": "自転車のアイコン",
-      "boar": "イノシシのアイコン",
       "bowl": "フードボウルのアイコン",
       "brasil": "ブラジルの地図アイコン",
       "braziliancalendar": "ブラジルの地図の輪郭が入ったカレンダーのアイコン",
       "bread": "パンのアイコン",
+      "briefcase": "スーツケースのアイコン",
       "brokenlink": "リンク切れアイコン",
       "bug": "昆虫アイコン",
       "burger": "ハンバーガーのアイコン",
@@ -287,7 +305,6 @@
       "crown": "王冠のアイコン",
       "crying": "泣き顔のアイコン",
       "css": "CSSアイコン",
-      "cupcake": "カップケーキのアイコン",
       "deer": "鹿のアイコン",
       "dice": "サイコロアイコン",
       "disc": "ディスクアイコン",
@@ -332,7 +349,6 @@
       "gamepad": "ビデオゲームコントローラーのアイコン",
       "gecko": "ヤモリのアイコン",
       "ghost": "ゴーストアイコン",
-      "gitbranch": "Git ブランチのアイコン",
       "github": "GitHub アイコン",
       "glasses": "サングラスのアイコン",
       "globe": "地球儀のアイコン",
@@ -354,7 +370,6 @@
       "icecream": "アイスクリームのアイコン",
       "javascript": "JavaScript アイコン",
       "jellyfish": "クラゲのアイコン",
-      "kangaroo": "カンガルーのアイコン",
       "key": "ワンキーアイコン",
       "kiwibird": "キウイ鳥のアイコン",
       "koala": "コアラのアイコン",
@@ -365,6 +380,9 @@
       "lightbulb": "電球アイコン",
       "lightning": "稲妻アイコン",
       "linkedin": "リンクトインのアイコン",
+      "listsortedascending": "昇順ソートアイコン",
+      "listsorteddescending": "降順ソートアイコン",
+      "listunordered": "順序なしリストのアイコン",
       "lynx": "オオヤマネコのアイコン",
       "magazine": "雑誌アイコン",
       "magicwand": "魔法の杖のアイコン",
@@ -375,12 +393,10 @@
       "mcdonalds": "マクドナルドのアイコン",
       "medal": "メダルアイコン",
       "megaphone": "メガホンアイコン",
-      "men": "男性のシンボルアイコン",
       "meteor": "流星のアイコン",
       "microsoft": "マイクロソフトのアイコン",
       "minus": "減算アイコン",
       "minusminus": "減算アイコンを 2 回繰り返します",
-      "mole": "ほくろのアイコン",
       "monkey": "猿のアイコン",
       "moon": "月のアイコン",
       "more": "「その他のページ」アイコン",
@@ -389,6 +405,7 @@
       "nestbirds": "巣の中の鳥のアイコン",
       "nine": "九",
       "octopus": "タコのアイコン",
+      "office": "オフィスのアイコン",
       "one": "1つ",
       "ostrich": "ダチョウのアイコン",
       "owl": "フクロウのアイコン",
@@ -574,6 +591,10 @@
     },
     "info": {
       "copy all": "すべての色をコピーする",
+      "order": {
+        "original": "オリジナル",
+        "sorted": "注文済み"
+      },
       "summary": "色をクリックしてコードをコピーします"
     },
     "list": {
@@ -656,7 +677,9 @@
         "youtube": "ユーチューブ"
       },
       "theme": {
-        "current": "現在"
+        "current": "現在",
+        "fullmonokai": "モノカイ",
+        "grayscalemonokai": "モノカイグレースケール"
       }
     },
     "option": "{{optionName}} パレット",

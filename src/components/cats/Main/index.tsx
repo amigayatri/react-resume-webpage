@@ -192,10 +192,16 @@ const Main = () => {
 							onClick={() => handleAdd(id)}
 						>
 							{icons.map((iconId) => (
-								<SVGIcon key={`button-${id}-${iconId}`} id={iconId} size={48} />
+								<SVGIcon
+									local="cats"
+									key={`button-${id}-${iconId}`}
+									id={iconId}
+									size={48}
+								/>
 							))}
 							{plusplus.map(({ iconId, size }, idx) => (
 								<SVGIcon
+									local="cats"
 									key={`button-${id}-${iconId}-${idx}`}
 									size={size}
 									id={iconId}
@@ -215,7 +221,7 @@ const Main = () => {
 							setCount(count - 1)
 						}}
 					>
-						<SVGIcon size={48} id={"minus"} />
+						<SVGIcon local="cats" size={48} id={"minus"} />
 					</ControlButton>
 					<ControlButton
 						aria-label={t("animals.count.increase")}
@@ -225,7 +231,7 @@ const Main = () => {
 							setCount(count + 1)
 						}}
 					>
-						<SVGIcon size={48} id="plus" />
+						<SVGIcon local="cats" size={48} id="plus" />
 					</ControlButton>
 				</Control>
 				<Control>
@@ -235,7 +241,7 @@ const Main = () => {
 							setSize(size - 8)
 						}}
 					>
-						<SVGIcon size={48} id="zoomout" />
+						<SVGIcon local="cats" size={48} id="zoomout" />
 					</ControlButton>
 					<ValueWrapper>{size}px</ValueWrapper>
 					<ControlButton
@@ -244,7 +250,7 @@ const Main = () => {
 							setSize(size + 8)
 						}}
 					>
-						<SVGIcon size={48} id="zoomin" />
+						<SVGIcon local="cats" size={48} id="zoomin" />
 					</ControlButton>
 				</Control>
 				<Control>
@@ -253,17 +259,17 @@ const Main = () => {
 						$isDisabled={hideEmpty === true}
 						onClick={() => setHideEmpty(!hideEmpty)}
 					>
-						<SVGIcon size={48} id="eyeclose" />
+						<SVGIcon local="cats" size={48} id="eyeclose" />
 					</ControlButton>
 					<ValueWrapper>
-						<SVGIcon size={48} id="empty" />
+						<SVGIcon local="cats" size={48} id="empty" />
 					</ValueWrapper>
 					<ControlButton
 						aria-label={t("animals.empty.show")}
 						$isDisabled={hideEmpty === false}
 						onClick={() => setHideEmpty(!hideEmpty)}
 					>
-						<SVGIcon size={48} id="eye" />
+						<SVGIcon local="cats" size={48} id="eye" />
 					</ControlButton>
 				</Control>
 			</ControlsWrapper>

@@ -111,6 +111,17 @@ const Monokai = {
 	blueScroll
 }
 
+export const grayscaleMonokai = [
+	Monokai.black,
+	Monokai.almostBlack,
+	Monokai.graphite,
+	Monokai.darkGray,
+	Monokai.gray,
+	Monokai.lightGray,
+	Monokai.white,
+	Monokai.transparentGray
+]
+
 export const rainbowMonokai = [
 	Monokai.red,
 	Monokai.orange,
@@ -120,5 +131,7 @@ export const rainbowMonokai = [
 	Monokai.purple,
 	Monokai.pink
 ]
+
+export const fullMonokai = [...grayscaleMonokai, ...rainbowMonokai]
 
 export default Monokai

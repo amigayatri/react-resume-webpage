@@ -29,6 +29,7 @@ export const Bar = styled.div<{
 	$percentage: number
 	$color?: string
 	$done?: boolean
+	$full: boolean
 }>`
 	background-color: ${({ $color, $done, theme }) =>
 		$done ? $color || theme.primary : ($color || theme.primary) + "14"};
@@ -37,7 +38,7 @@ export const Bar = styled.div<{
 	position: absolute;
 	bottom: 8px;
 	left: 0;
-	border-radius: ${({ $done }) => ($done ? "4px 0 0 4px" : "4px")};
+	border-radius: ${({ $full }) => ($full ? "4px" : "4px 0 0 4px")};
 `
 
 export const ProgressDefault = styled.progress`
