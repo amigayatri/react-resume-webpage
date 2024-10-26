@@ -73,7 +73,7 @@ export const BarWrapper = styled.div`
 	}
 `
 
-export const BarGraphTitle = styled.h4`
+export const BarGraphTitle = styled.h3`
 	position: absolute;
 	color: ${({ theme }) => theme.white};
 	transform: translate(calc(-100%));

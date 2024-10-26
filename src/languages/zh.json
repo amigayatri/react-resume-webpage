@@ -105,6 +105,10 @@
         "true": "周末的时候"
       }
     },
+    "labels": {
+      "city": "城市",
+      "state": "状态"
+    },
     "list": {
       "year": "{{yearNumber}} 假期"
     },
@@ -582,7 +586,7 @@
       "summary": "所选调色板将出现在下面的列表中。",
       "title": "选择要添加的调色板"
     },
-    "component": "{{paletteName}} 调色板或 <1>{{paletteName}} 调色板</1>",
+    "component": "<1>调色板 {{paletteName}} 或 </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "品牌",
       "famous media": "知名媒体",

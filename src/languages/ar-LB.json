@@ -105,6 +105,10 @@
         "true": "في عطلة نهاية الأسبوع"
       }
     },
+    "labels": {
+      "city": "مدينة",
+      "state": "ولاية"
+    },
     "list": {
       "year": "{{yearNumber}} عطلات"
     },
@@ -582,7 +586,7 @@
       "summary": "ستظهر اللوحة المختارة في القائمة أدناه.",
       "title": "اختر لوحة لإضافتها"
     },
-    "component": "لوحة {{paletteName}} أو لوحة <1>{{paletteName}} لوحة</1>",
+    "component": "<1>لوحة الألوان {{paletteName}} أو </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "العلامات التجارية",
       "famous media": "وسائل الإعلام الشهيرة",

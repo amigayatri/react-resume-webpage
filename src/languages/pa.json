@@ -105,6 +105,10 @@
         "true": "ਵੀਕਐਂਡ 'ਤੇ"
       }
     },
+    "labels": {
+      "city": "ਸ਼ਹਿਰ",
+      "state": "ਰਾਜ"
+    },
     "list": {
       "year": "{{yearNumber}} ਛੁੱਟੀਆਂ"
     },
@@ -582,7 +586,7 @@
       "summary": "ਚੁਣਿਆ ਪੈਲੇਟ ਹੇਠਾਂ ਦਿੱਤੀ ਸੂਚੀ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇਗਾ।",
       "title": "ਜੋੜਨ ਲਈ ਇੱਕ ਪੈਲੇਟ ਚੁਣੋ"
     },
-    "component": "{{paletteName}} ਪੈਲੇਟ ਜਾਂ <1>{{paletteName}} ਪੈਲੇਟ</1>",
+    "component": "<1>ਪੈਲੇਟ {{paletteName}} ਜਾਂ </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "ਬ੍ਰਾਂਡ",
       "famous media": "ਮਸ਼ਹੂਰ ਮੀਡੀਆ",

@@ -105,6 +105,10 @@
         "true": "el fin de semana"
       }
     },
+    "labels": {
+      "city": "Ciudad",
+      "state": "Estado"
+    },
     "list": {
       "year": "{{yearNumber}} Días festivos"
     },
@@ -582,7 +586,7 @@
       "summary": "La paleta elegida aparecerá en la lista a continuación.",
       "title": "Elige una paleta para agregar"
     },
-    "component": "paleta {{paletteName}} o <1>paleta {{paletteName}}</1>",
+    "component": "<1>Paleta {{paletteName}} o </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "marcas",
       "famous media": "medios famosos",

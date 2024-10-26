@@ -105,6 +105,10 @@
         "true": "На выходных"
       }
     },
+    "labels": {
+      "city": "Город",
+      "state": "Состояние"
+    },
     "list": {
       "year": "{{yearNumber}} праздники"
     },
@@ -582,7 +586,7 @@
       "summary": "Выбранная палитра появится в списке ниже.",
       "title": "Выберите палитру для добавления"
     },
-    "component": "Палитра {{paletteName}} или <1>палитра {{paletteName}}</1>",
+    "component": "<1>Палитра {{paletteName}} или </1><2>{{paletteName}</2>",
     "groups": {
       "brands": "бренды",
       "famous media": "известные СМИ",

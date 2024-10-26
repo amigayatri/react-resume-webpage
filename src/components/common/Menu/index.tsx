@@ -1,4 +1,5 @@
 import Navigation from "../Navigation"
+import { useLocation } from "react-router-dom"
 import { MenuWrapper, SettingsWrapper } from "./Menu.styled"
 import LanguageSelect from "../LanguageSelect"
 import languages from "../../../constants/languages"
@@ -10,9 +11,10 @@ interface MenuProps {
 }
 
 const Menu = ({ changeTheme, theme }: MenuProps) => {
+	const loc = useLocation()
 	return (
 		<MenuWrapper>
-			<Navigation />
+			{loc !== null && loc.pathname !== "/" && <Navigation />}
 			<SettingsWrapper>
 				<LanguageSelect languages={languages} />
 				<ThemeToggle changeTheme={changeTheme} theme={theme} />

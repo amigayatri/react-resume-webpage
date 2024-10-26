@@ -105,6 +105,10 @@
         "true": "Am Wochenende"
       }
     },
+    "labels": {
+      "city": "Stadt",
+      "state": "Zustand"
+    },
     "list": {
       "year": "{{yearNumber}} Feiertage"
     },
@@ -582,7 +586,7 @@
       "summary": "Die ausgewählte Palette wird in der Liste unten angezeigt.",
       "title": "Wählen Sie eine Palette zum Hinzufügen aus"
     },
-    "component": "{{paletteName}}-Palette oder <1>{{paletteName}}-Palette</1>",
+    "component": "<1>Palette {{paletteName}} oder </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "Marken",
       "famous media": "berühmte Medien",

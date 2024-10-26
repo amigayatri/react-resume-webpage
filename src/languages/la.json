@@ -105,6 +105,10 @@
         "true": "In volutpat vestibulum"
       }
     },
+    "labels": {
+      "city": "urbs",
+      "state": "publicae"
+    },
     "list": {
       "year": "{{yearNumber}} Holidays"
     },
@@ -582,7 +586,7 @@
       "summary": "Palette electa apparebit in indice mugitu.",
       "title": "Elige palette addere"
     },
-    "component": "{{paletteName}} palette vel <1>{{paletteName}} palette</1>",
+    "component": "<1>Palette {{paletteName}} vel </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "brands",
       "famous media": "celebre medias",

@@ -105,6 +105,10 @@
         "true": "On the weekend"
       }
     },
+    "labels": {
+      "city": "City",
+      "state": "State"
+    },
     "list": {
       "year": "{{yearNumber}} Holidays"
     },
@@ -582,7 +586,7 @@
       "summary": "The choosen palette will appear on the list bellow.",
       "title": "Choose a palette to add"
     },
-    "component": "{{paletteName}} palette or <1>{{paletteName}} palette</1>",
+    "component": "<1>Palette {{paletteName}} or </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "brands",
       "famous media": "famous medias",

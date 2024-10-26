@@ -105,6 +105,10 @@
         "true": "Nel fine settimana"
       }
     },
+    "labels": {
+      "city": "Città",
+      "state": "Stato"
+    },
     "list": {
       "year": "{{yearNumber}} Festività"
     },
@@ -582,7 +586,7 @@
       "summary": "La tavolozza scelta apparirà nell'elenco seguente.",
       "title": "Scegli una tavolozza da aggiungere"
     },
-    "component": "Tavolozza {{paletteName}} o <1>paletteName}} tavolozza</1>",
+    "component": "<1>Tavolozza {{paletteName}} o </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "marchi",
       "famous media": "media famosi",

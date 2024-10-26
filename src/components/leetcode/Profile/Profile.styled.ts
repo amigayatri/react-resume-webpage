@@ -12,7 +12,7 @@ export const ProfileWrapper = styled.section`
 `
 
 export const IDWrapper = styled.a`
-	color: ${({ theme }) => theme.secondAccent};
+	color: ${({ theme }) => theme.accent};
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -29,7 +29,7 @@ export const Name = styled.h1`
 export const Username = styled.h2`
 	font-size: 1.75rem;
 	text-align: center;
-	color: ${({ theme }) => theme.secondAccent};
+	color: ${({ theme }) => theme.primary};
 	margin: 0;
 `
 

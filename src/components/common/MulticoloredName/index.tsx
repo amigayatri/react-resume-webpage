@@ -66,6 +66,7 @@ const MulticoloredName = ({
 	const hasIcon = iconId !== undefined
 	const start = hasIcon ? 1 : 0
 	const handleStyle = (idx: number) => {
+		if (idx === -1 && start === 0) return {}
 		const { code, inverse } = handleInverse(palette[(idx + start) % size])
 		const style = !legible
 			? {
@@ -82,15 +83,16 @@ const MulticoloredName = ({
 			  }
 		return style as CSSProperties
 	}
+	const iconStyle = handleStyle(-1)
 	return (
 		<Multicolor $isLegible={legible} style={wrapperStyle}>
 			{hasIcon && (
 				<Letter
 					className={legible ? "legible icon" : "not-legible icon"}
-					style={handleStyle(-1)}
+					style={iconStyle}
 				>
 					<SVGIcon
-						color={palette[0]}
+						color={legible ? palette[0] : "currentColor"}
 						size={fontSize}
 						id={iconId}
 						local="multicoloredname"

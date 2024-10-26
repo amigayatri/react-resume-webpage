@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
-export const IconWrapper = styled.span``
+export const IconWrapper = styled.span`
+	font-weight: 700;
+`
 export const Name = styled.h3`
 	text-transform: capitalize;
 	margin-bottom: 8px;
@@ -62,8 +64,11 @@ export const HolidayWrapper = styled.li<{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	& ${ContentWrapper} {
+	& ${IconWrapper} {
 		color: ${({ theme, $isWeekend, $isPreweekend }) =>
 			$isWeekend ? theme.orange : $isPreweekend ? theme.pink : theme.blue};
+	}
+	& ${ContentWrapper} {
+		color: ${({ theme }) => theme.white};
 	}
 `

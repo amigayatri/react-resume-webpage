@@ -17,7 +17,7 @@ export const PDFDownload = styled(PDFDownloadLink)`
 	justify-content: center;
 	text-align: center;
 	position: fixed;
-	top: 64px;
+	top: calc(var(--header-size) + 24px);
 	right: 64px;
 	z-index: 1000;
 	${media.max.lg} {

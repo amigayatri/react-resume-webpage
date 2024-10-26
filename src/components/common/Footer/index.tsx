@@ -1,6 +1,5 @@
 import { useTranslation, Trans } from "react-i18next"
 import { FooterWrapper, Link, SecondaryLink } from "./Footer.styled"
-import VisitorMap from "../VisitorMap"
 import linkProps from "../../../constants/linkprops"
 
 const Footer = () => {
@@ -24,7 +23,6 @@ const Footer = () => {
 				</SecondaryLink>
 				t
 			</Trans>
-			<VisitorMap id="invisible" />
 		</FooterWrapper>
 	)
 }

@@ -1,12 +1,12 @@
 import styled from "styled-components"
 
-export const CommitWrapper = styled.div`
+export const CommitWrapper = styled.li`
 	display: flex;
 	padding: 0 16px;
 	padding-right: 0;
 	width: 100%;
 `
-export const CommitItem = styled.li`
+export const CommitItem = styled.div`
 	display: flex;
 	position: relative;
 	border: 2px solid transparent;

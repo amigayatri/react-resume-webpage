@@ -94,6 +94,10 @@
   },
   "brazilianHolidays": {
     "addMunicipal": "Adicionar feriados de {{cityName}}, {{stateName}}",
+    "labels": {
+      "state": "Estado",
+      "city": "Cidade"
+    },
     "description": {
       "extended": "Fim de semana prolongado",
       "midweek": "Durante a semana",
@@ -826,7 +830,7 @@
         "title": "{{actionName}} mensais"
       },
       "main": {
-        "title": "Estatísticas do repositório do Git"
+        "title": "Estatísticas do repositório Git"
       },
       "recent": {
         "commit": {

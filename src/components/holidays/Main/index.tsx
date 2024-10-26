@@ -10,7 +10,9 @@ import {
 	Option,
 	CitySelectorWrapper,
 	CitiesWrapper,
-	SelectorWrapper
+	SelectorWrapper,
+	Selectors,
+	Label
 } from "./Main.styled"
 import BrazilianAPI from "../../../api/Brazil"
 import Holiday from "../../../types/HolidayProps"
@@ -103,34 +105,40 @@ const Main = () => {
 						<OpenText>{t(`brazilianHolidays.open.${open}`)}</OpenText>
 					</Button>
 					<CitiesWrapper $isOpen={open}>
-						<SelectorWrapper>
-							<Selector
-								onChange={({ target }) => {
-									setSelectedState(target.value)
-									setSelectedCity("")
-								}}
-							>
-								{states.map(({ name, twoLetters }) => (
-									<Option
-										selected={twoLetters === selectedState}
-										key={twoLetters + "-option"}
-										value={twoLetters}
-									>
-										{name}
-									</Option>
-								))}
-							</Selector>
-							<Selector
-								onChange={({ target }) => setSelectedCity(target.value)}
-							>
-								<Option value={""} disabled selected></Option>
-								{cities.map((name) => (
-									<Option selected={name === selectedCity} key={name}>
-										{name}
-									</Option>
-								))}
-							</Selector>
-						</SelectorWrapper>
+						<Selectors>
+							<SelectorWrapper>
+								<Label>{t("brazilianHolidays.labels.state")}</Label>
+								<Selector
+									onChange={({ target }) => {
+										setSelectedState(target.value)
+										setSelectedCity("")
+									}}
+								>
+									{states.map(({ name, twoLetters }) => (
+										<Option
+											selected={twoLetters === selectedState}
+											key={twoLetters + "-option"}
+											value={twoLetters}
+										>
+											{name}
+										</Option>
+									))}
+								</Selector>
+							</SelectorWrapper>
+							<SelectorWrapper>
+								<Label>{t("brazilianHolidays.labels.city")}</Label>
+								<Selector
+									onChange={({ target }) => setSelectedCity(target.value)}
+								>
+									<Option value={""} disabled selected></Option>
+									{cities.map((name) => (
+										<Option selected={name === selectedCity} key={name}>
+											{name}
+										</Option>
+									))}
+								</Selector>
+							</SelectorWrapper>
+						</Selectors>
 						{selectedCity !== "" && (
 							<Button onClick={() => handleAdd()}>
 								<SVGIcon local="holidays" size={32} id="calendar" />

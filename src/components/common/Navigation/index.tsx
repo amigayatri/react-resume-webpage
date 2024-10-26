@@ -1,4 +1,3 @@
-import { useLocation } from "react-router-dom"
 import { pages, extraPages, underMaintenance } from "../../../constants/pages"
 import NavigationItem from "./NavigationItem"
 import {
@@ -72,8 +71,6 @@ const MobileNavigation = ({ isRTL }: NavProps) => {
 }
 
 const Navigation = () => {
-	const { pathname } = useLocation()
-	if (pathname === "/") return
 	const { i18n } = useTranslation()
 	const isRTL = getLangDir(i18n.language) === "rtl"
 	return (

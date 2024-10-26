@@ -68,19 +68,26 @@ export const Select = styled.select`
 	background-color: ${({ theme }) => theme.primary};
 	color: ${({ theme }) => theme.background};
 	border: 2px solid ${({ theme }) => theme.accent};
-	border-radius: 4px;
-	padding: 4px;
+	border-radius: 8px;
+	padding: 8px 8px 4px;
 	max-width: 320px;
 `
 
 export const Label = styled.label`
-	color: ${({ theme }) => theme.accent};
+	background-color: ${({ theme }) => theme.purple};
+	color: ${({ theme }) => theme.almostBlack};
+	position: absolute;
 	padding: 2px;
+	border-radius: 4px;
+	top: 2px;
+	left: 4px;
 `
 export const LabelWrapper = styled.span`
 	display: flex;
+	position: relative;
 	flex-direction: column;
 	margin-left: 16px;
+	padding: 16px 0 8px;
 	&:first-of-type {
 		margin-left: 0;
 	}

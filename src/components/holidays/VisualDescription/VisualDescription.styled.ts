@@ -32,6 +32,7 @@ export const KeyWrapper = styled.span`
 	justify-content: center;
 	align-items: flex-start;
 	border-radius: 4px;
+	font-weight: 700;
 	padding: 2px 4px;
 	color: ${({ theme }) => theme.almostBlack};
 	width: 100%;

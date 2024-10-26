@@ -40,8 +40,9 @@ const SelectDivision = ({
 	const { t } = useTranslation()
 	return (
 		<LabelWrapper>
-			<Label>{t("brasil.selects.division")}</Label>
+			<Label htmlFor="select-division">{t("brasil.selects.division")}</Label>
 			<Select
+				id="select-division"
 				onChange={({ target }) => handleChangeDivision(target.value)}
 				defaultValue={defaultVal}
 			>
@@ -106,9 +107,9 @@ const SelectTheme = ({
 	return (
 		<>
 			<LabelWrapper>
-				<Label id="select-theme-group">{t("brasil.selects.group")}</Label>
+				<Label htmlFor="select-theme-group">{t("brasil.selects.group")}</Label>
 				<Select
-					aria-labelledby="select-theme-group"
+					id="select-theme-group"
 					onChange={({ target }) => {
 						setGroup(target.value)
 					}}
@@ -122,9 +123,11 @@ const SelectTheme = ({
 				</Select>
 			</LabelWrapper>
 			<LabelWrapper>
-				<Label id="select-theme-in-group">{t("brasil.selects.palette")}</Label>
+				<Label htmlFor="select-theme-in-group">
+					{t("brasil.selects.palette")}
+				</Label>
 				<Select
-					aria-labelledby="select-theme-in-group"
+					id="select-theme-in-group"
 					onChange={(e) => handleChangeTheme(e)}
 					defaultValue={palette}
 				>
@@ -136,9 +139,9 @@ const SelectTheme = ({
 				</Select>
 			</LabelWrapper>
 			<LabelWrapper>
-				<Label>{t("brasil.selects.filter")}</Label>
+				<Label htmlFor="select-contrast">{t("brasil.selects.filter")}</Label>
 				<Select
-					aria-labelledby="select-theme-in-group"
+					id="select-contrast"
 					onChange={(e) => handleChangeContrast(e)}
 					defaultValue={1}
 				>

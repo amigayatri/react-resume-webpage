@@ -105,6 +105,10 @@
         "true": "Arapokõindy pahápe"
       }
     },
+    "labels": {
+      "city": "Táva",
+      "state": "Teko"
+    },
     "list": {
       "year": "{{añoNumber}} Ary guasu"
     },
@@ -582,7 +586,7 @@
       "summary": "Pe paleta ojeporavóva ojehechaukáta lista iguýpe.",
       "title": "Eiporavo peteĩ paleta remoĩ hag̃ua"
     },
-    "component": "{{paleta réra}} paleta térã <1>{{paleta réra}} paleta</1>",
+    "component": "<1>Paleta {{paleta réra}} térã </1><2>{{paleta réra}}</2>",
     "groups": {
       "brands": "umi marca rehegua",
       "famous media": "umi medio herakuãitéva",

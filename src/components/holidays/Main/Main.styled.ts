@@ -9,14 +9,16 @@ export const MainWrapper = styled.main`
 
 export const CitySelectorWrapper = styled.div``
 export const Button = styled.button`
+	margin: 24px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 4px 8px;
 	border-radius: 8px;
 	border: none;
-	background-color: ${({ theme }) => theme.primary};
-	color: ${({ theme }) => theme.background};
+	background-color: ${({ theme }) => theme.almostBlack};
+	color: ${({ theme }) => theme.white};
+	border: 2px solid currentColor;
 `
 export const OpenText = styled.span`
 	text-transform: capitalize;
@@ -24,8 +26,25 @@ export const OpenText = styled.span`
 	font-weight: 700;
 	transition: ${({ theme }) => theme.transition};
 `
-
 export const SelectorWrapper = styled.div`
+	position: relative;
+	flex: 1;
+	padding: 16px 0 8px;
+`
+
+export const Label = styled.label`
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	padding: 2px;
+	font-size: 1rem;
+	border-radius: 4px;
+	font-weight: 700;
+	background-color: ${({ theme }) => theme.blue};
+`
+
+export const Selectors = styled.div`
+	margin-top: 8px;
 	display: flex;
 	padding-right: 32px;
 	flex-direction: column;
@@ -49,10 +68,14 @@ export const CitiesWrapper = styled.div<{ $isOpen: boolean }>`
 	}
 `
 export const Selector = styled.select`
-	flex: 1;
-	min-width: 196px;
+	width: 256px;
+	font-size: 1.25rem;
+	padding: 8px 4px 4px;
 	text-transform: capitalize;
-	margin-top: 8px;
+	background-color: ${({ theme }) => theme.almostBlack};
+	color: ${({ theme }) => theme.white};
+	border: 2px solid ${({ theme }) => theme.pink};
+	border-radius: 8px;
 `
 export const Option = styled.option`
 	text-transform: capitalize;
@@ -66,7 +89,7 @@ export const Title = styled.h1`
 export const ListWrapper = styled(Tabs)`
 	border: 2px solid ${({ theme }) => theme.primary};
 	border-bottom: none;
-	background-color: ${({ theme }) => theme.purple};
+	background-color: ${({ theme }) => theme.almostBlack};
 	padding: 16px;
 	border-radius: 16px 16px 0 0;
 	margin: 0 auto;
@@ -77,6 +100,7 @@ export const ListWrapper = styled(Tabs)`
 export const List = styled(TabList)`
 	background-color: ${({ theme }) => theme.primary};
 	color: ${({ theme }) => theme.background};
+	border: 2px solid ${({ theme }) => theme.purple};
 	width: 100%;
 	max-width: 512px;
 	display: flex;

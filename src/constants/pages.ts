@@ -7,7 +7,6 @@ import LeetcodeProps from "../pages/Leetcode/leetcode.props"
 import MaintenanceProps from "../pages/Maintenance/Maintenance.props"
 import NotFoundProps from "../pages/NotFound/NotFound.props"
 import SiteStatsProps from "../pages/SiteStats/SiteStats.props"
-import ThreeDProps from "../pages/ThreeD/ThreeD.props"
 import PaletteProps from "../pages/Palette/Palette.props"
 import HolidaysProps from "../pages/Holidays/Holidays.props"
 import BrasilProps from "../pages/Brasil/Brasil.props"
@@ -24,14 +23,13 @@ export const extraPages: PageProps[] = [
 	SiteStatsProps,
 	ExtraLanguagesProps,
 	LeetcodeProps,
-	ThreeDProps,
 	HolidaysProps,
 	BrasilProps
 ]
 
 export const allPages: PageProps[] = [...pages, ...extraPages]
 
-export const underMaintenance = new Set([ThreeDProps.path])
+export const underMaintenance: Set<string> = new Set()
 
 export const errorPages = {
 	notFound: NotFoundProps,

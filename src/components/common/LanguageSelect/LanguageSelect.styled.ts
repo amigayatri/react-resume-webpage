@@ -8,8 +8,10 @@ export const SelectWrapper = styled.div`
 
 export const Label = styled.label`
 	position: absolute;
-	top: 4px;
+	top: 2px;
 	left: 4px;
+	padding: 2px;
+	border-radius: 4px;
 	font-weight: 700;
 	color: ${({ theme }) => theme.blue};
 	background-color: ${({ theme }) => theme.black};

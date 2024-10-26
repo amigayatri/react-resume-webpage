@@ -105,6 +105,10 @@
         "true": "সপ্তাহান্তে"
       }
     },
+    "labels": {
+      "city": "শহর",
+      "state": "রাজ্য"
+    },
     "list": {
       "year": "{{yearNumber}} ছুটির দিন"
     },
@@ -582,7 +586,7 @@
       "summary": "নির্বাচিত প্যালেট নীচের তালিকায় প্রদর্শিত হবে।",
       "title": "যোগ করার জন্য একটি প্যালেট চয়ন করুন"
     },
-    "component": "{{paletteName}} প্যালেট বা <1>{{paletteName}} প্যালেট</1>",
+    "component": "<1>প্যালেট {{paletteName}} বা </1><2>{{paletteName}}</2>",
     "groups": {
       "brands": "ব্র্যান্ড",
       "famous media": "বিখ্যাত মিডিয়া",
