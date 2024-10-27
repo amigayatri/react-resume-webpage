@@ -1,6 +1,6 @@
 import Named from "./Named"
 
-const DefaultDark = {
+export const DefaultDark = {
 	primary: Named.white,
 	background: Named.black,
 	accent: Named.blue,

@@ -26,3 +26,6 @@ dist-ssr
 .env.development
 aux-files/generate-badges.cjs
 aux-files/divide-translations.cjs
+.next
+next-env.d.ts
+dist
