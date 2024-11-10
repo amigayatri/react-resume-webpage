@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-	output: "export", // Outputs a Single-Page Application (SPA).
+
+import withSvgr from "next-svgr"
+
+export default withSvgr({
 	distDir: "./dist", // Changes the build output directory to `./dist/`.
 	compiler: {
 		styledComponents: true
 	}
-}
-
-export default nextConfig
+})

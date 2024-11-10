@@ -1,0 +1,117 @@
+{
+    "disclaimer": "{{filterName}} দ্বারা ফিল্টার করার পর {{paletteName}} প্যালেট থেকে কোনো রং পাওয়া যায় না, আবার কাস্টম রং দেখতে প্যালেট বা ফিল্টার বিভাগ পরিবর্তন করুন।",
+    "divisions": {
+        "UF": "রাজ্যগুলি",
+        "cities": "শহরগুলো",
+        "meso": "মেসোরিজিয়ন",
+        "micro": "ক্ষুদ্র অঞ্চল",
+        "region": "অঞ্চলসমূহ",
+        "single": "দেশ"
+    },
+    "filters": {
+        "AAAsmall": "AAA ছোট টেক্সট",
+        "AAbig": "AA বড় টেক্সট",
+        "AAsmall": "AA ছোট টেক্সট",
+        "minimum": "সর্বনিম্ন",
+        "no": "ফিল্টারিং ছাড়াই"
+    },
+    "palettes": {
+        "groups": {
+            "brands": "ব্র্যান্ড",
+            "famous media": "বিখ্যাত মিডিয়া",
+            "places": "স্থান",
+            "rainbow": "রংধনু",
+            "schemes": "রঙ তত্ত্ব",
+            "tech": "প্রযুক্তি",
+            "theme": "থিম"
+        },
+        "names": {
+            "brands": {
+                "bk": "বার্গার রাজা",
+                "cartoon": "কার্টুন নেটওয়ার্ক",
+                "coca-cola": "কোকা-কোলা",
+                "dominos": "ডমিনো'স",
+                "lego": "লেগো",
+                "master": "মাস্টারকার্ড",
+                "mcdonalds": "ম্যাকডোনাল্ডস",
+                "national geographic": "জাতীয় ভৌগলিক",
+                "pepsi": "পেপসি",
+                "trademarked": "রং যে আপনি মামলা পেতে পারেন",
+                "visa": "ভিসা"
+            },
+            "famous media": {
+                "adventure time": "অ্যাডভেঞ্চার সময়",
+                "barbie": "বারবি",
+                "bee": "মৌমাছি",
+                "bmo": "বিএমও",
+                "cosmo and wanda": "কসমো এবং ওয়ান্ডা",
+                "emo": "ইমো",
+                "fairly odd parents": "মোটামুটি অদ্ভুত বাবা",
+                "naruto": "naruto",
+                "sonic": "সোনিক",
+                "turma da monica": "মনিকার গ্যাং"
+            },
+            "places": {
+                "brasil": "ব্রাজিলিয়ান",
+                "china": "চাইনিজ",
+                "ecuador": "ইকুয়েডরীয়",
+                "ghana": "ঘানাইয়ান",
+                "greece": "গ্রীক",
+                "jamaica": "জ্যামাইকান",
+                "lebanon": "লেবানিজ",
+                "mexico": "মেক্সিকান",
+                "rioDeJaneiro": "রিও থেকে",
+                "southAfrica": "দক্ষিণ আফ্রিকান",
+                "syria": "সিরিয়াক",
+                "uruguay": "উরুগুয়ে"
+            },
+            "rainbow": {
+                "dark rainbow": "অন্ধকার রংধনু",
+                "pastel rainbow": "প্যাস্টেল রংধনু",
+                "rainbow monokai": "মনোকাই রংধনু",
+                "regular rainbow": "নিয়মিত রংধনু"
+            },
+            "schemes": {
+                "cmyk": "সিএমওয়াইকে",
+                "crayola10": "Crayola এর কালার হুইল 1926",
+                "crayola12": "Crayola এর রঙ চাকা 1930",
+                "goethe": "গয়েটের রঙের চাকা",
+                "grayscale16": "4-বিট গ্রেস্কেল",
+                "grayscale4": "2-বিট গ্রেস্কেল",
+                "mac16": "Apple Macintosh 16-রঙ",
+                "munsellCrayola": "Crayola এর munsell রং",
+                "newtown": "নিউটাউনের রঙের চাকতি",
+                "rgb": "আরজিবি",
+                "rgb 12": "RGB রঙের চাকা 12",
+                "rgb 8": "আরজিবি রঙের চাকা 8",
+                "riscOS16": "RISC OS ডিফল্ট প্যালেট",
+                "vhs": "ভিএইচএস কালার বার",
+                "web basics": "ওয়েব বেসিক"
+            },
+            "tech": {
+                "baidu": "baidu",
+                "facebook": "ফেসবুক",
+                "firefox": "মজিলা ফায়ারফক্স",
+                "google": "গুগল",
+                "microsoft": "মাইক্রোসফট",
+                "spotify": "spotify",
+                "tumblr": "টাম্বলার",
+                "whatsapp": "হোয়াটসঅ্যাপ",
+                "wikipedia": "উইকিপিডিয়া",
+                "youtube": "ইউটিউব"
+            },
+            "theme": {
+                "current": "বর্তমান",
+                "fullmonokai": "মনোকাই",
+                "grayscalemonokai": "মনোকাই গ্রেস্কেল"
+            }
+        }
+    },
+    "selects": {
+        "division": "মানচিত্র বিভাগ",
+        "filter": "ফিল্টার প্যালেট বৈসাদৃশ্য",
+        "group": "থিম গ্রুপ",
+        "palette": "রঙ প্যালেট"
+    },
+    "title": ""
+}

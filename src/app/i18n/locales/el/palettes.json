@@ -1,0 +1,116 @@
+{
+    "add": "Προσθέτω",
+    "addGroup": "Όλα από {{groupName}}",
+    "addOne": {
+        "summary": "Η επιλεγμένη παλέτα θα εμφανιστεί στην παρακάτω λίστα.",
+        "title": "Επιλέξτε μια παλέτα για προσθήκη"
+    },
+    "component": "<1>Παλέτα {{paletteName}} ή </1><2>{{paletteName}}</2>",
+    "groups": {
+        "brands": "μάρκες",
+        "famous media": "διάσημα μέσα ενημέρωσης",
+        "places": "μέρη",
+        "rainbow": "ουράνια τόξα",
+        "schemes": "Θεωρία χρώματος",
+        "tech": "τεχνολογίες",
+        "theme": "θέματα"
+    },
+    "info": {
+        "copy all": "Αντιγράψτε όλα τα χρώματα",
+        "order": {
+            "original": "Πρωτότυπο",
+            "sorted": "Παρήγγειλε"
+        },
+        "summary": "Κάντε κλικ σε ένα χρώμα για να αντιγράψετε τον κωδικό του"
+    },
+    "list": {
+        "summary": "Θα μεταβείτε απευθείας στην επιλεγμένη παλέτα",
+        "title": "Κάντε κλικ στο όνομα"
+    },
+    "names": {
+        "brands": {
+            "bk": "Burger king",
+            "cartoon": "Δίκτυο κινουμένων σχεδίων",
+            "coca-cola": "Coca-Cola",
+            "dominos": "Ντόμινο",
+            "lego": "Lego",
+            "master": "MasterCard",
+            "mcdonalds": "McDonald's",
+            "national geographic": "National geographic",
+            "pepsi": "pepsi",
+            "trademarked": "Χρώματα που μπορούν να σας κάνουν μήνυση",
+            "visa": "Visa"
+        },
+        "famous media": {
+            "adventure time": "Ώρα περιπέτειας",
+            "barbie": "Μπάρμπι",
+            "bee": "μέλισσα",
+            "bmo": "BMO",
+            "cosmo and wanda": "cosmo και wanda",
+            "emo": "emo",
+            "fairly odd parents": "αρκετά περίεργοι γονείς",
+            "naruto": "naruto",
+            "sonic": "ηχητικός",
+            "turma da monica": "Η συμμορία της Μόνικα"
+        },
+        "places": {
+            "brasil": "βραζιλιανός",
+            "china": "κινέζικα",
+            "ecuador": "εκουαδορικός",
+            "ghana": "Γκανέζος",
+            "greece": "ελληνικά",
+            "jamaica": "Τζαμαϊκανός",
+            "lebanon": "Λιβανέζικο",
+            "mexico": "μεξικάνικος",
+            "rioDeJaneiro": "Από το Ρίο",
+            "southAfrica": "Νοτιοαφρικανός",
+            "syria": "Συριακό",
+            "uruguay": "Ουρουγουάη"
+        },
+        "rainbow": {
+            "dark rainbow": "σκοτεινό ουράνιο τόξο",
+            "pastel rainbow": "παστέλ ουράνιο τόξο",
+            "rainbow monokai": "μονοκάι ουράνιο τόξο",
+            "regular rainbow": "κανονικό ουράνιο τόξο"
+        },
+        "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Crayola's Color Wheel 1926",
+            "crayola12": "Ο χρωματικός τροχός του Crayola 1930",
+            "goethe": "Ο χρωματικός τροχός του Γκαίτε",
+            "grayscale16": "4-bit κλίμακα του γκρι",
+            "grayscale4": "2-bit κλίμακα του γκρι",
+            "mac16": "Apple Macintosh 16 χρωμάτων",
+            "munsellCrayola": "Τα munsell χρώματα της Crayola",
+            "newtown": "Έγχρωμος δίσκος Newtown",
+            "rgb": "RGB",
+            "rgb 12": "Τροχός χρώματος RGB 12",
+            "rgb 8": "Τροχός χρώματος RGB 8",
+            "riscOS16": "Η προεπιλεγμένη παλέτα του RISC OS",
+            "vhs": "Ράβδοι χρώματος VHS",
+            "web basics": "Web βασικά"
+        },
+        "tech": {
+            "baidu": "baidu",
+            "facebook": "facebook",
+            "firefox": "Mozilla firefox",
+            "google": "google",
+            "microsoft": "microsoft",
+            "spotify": "spotify",
+            "tumblr": "tumblr",
+            "whatsapp": "whatsapp",
+            "wikipedia": "wikipédia",
+            "youtube": "youtube"
+        },
+        "theme": {
+            "current": "ρεύμα",
+            "fullmonokai": "Μονοκάι",
+            "grayscalemonokai": "Monokai Grayscale"
+        }
+    },
+    "option": "παλέτα {{optionName}}",
+    "select": {
+        "label": "Παλέτες"
+    },
+    "title": "Παλέτες"
+}

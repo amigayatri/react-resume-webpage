@@ -1,0 +1,39 @@
+{
+    "footer": {
+        "text": "<1>Sviluppato</1> da <2>{{name}}</2> a {{year}}"
+    },
+    "menu": {
+        "select": {
+            "label": "Lingua",
+            "groups": {
+                "basic": "Predefinito",
+                "extra": "Extra"
+            },
+            "basic": {
+                "en": "Inglese",
+                "ptBR": "Portoghese brasiliano",
+                "more": "Più lingue"
+            },
+            "extra": {
+                "ar": "Arabo moderno standard",
+                "arLB": "Arabo libanese",
+                "bn": "bengalese",
+                "de": "tedesco",
+                "el": "greco",
+                "es": "spagnolo/castigliano",
+                "fr": "francese",
+                "gn": "Guarani",
+                "hi": "hindi",
+                "it": "Italiano",
+                "ja": "giapponese",
+                "la": "latino",
+                "pa": "Punjabi",
+                "ru": "russo",
+                "zh": "cinese"
+            }
+        },
+        "toggle": {
+            "change": "Cambia il tema del sito web"
+        }
+    }
+}

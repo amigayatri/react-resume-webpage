@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Ora"
+    },
+    "download": {
+        "cta": "Scarica il pdf!",
+        "title": "{{fullName}} Riprendi"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Sviluppatore web front-end"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "B.Sc. \nInformatica presso l'Universidade de São Paulo, São Carlos - SP, Brasile"
+                }
+            },
+            "title": "Istruzione"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Utilizzo di React, Next.js, StyledComponents e TypeScript nei progetti, lavorando con il team messicano di Pepsico.",
+                    "text": "Sviluppatore front-end presso Atip (Pepsico Partner)."
+                },
+                "encora": {
+                    "subitem": "Utilizzo di React, Vue.js e Laravel nei progetti",
+                    "text": "Sviluppatore front-end presso Encora Brasile."
+                },
+                "liven": {
+                    "subitem": "Utilizzo di React e React Native nei progetti",
+                    "text": "Stagista mobile front-end presso Liven."
+                },
+                "partenero": {
+                    "subitem": "Utilizzo di Firebase ed Ember",
+                    "text": "Stagista a tempo pieno presso Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Utilizzo di React, WordPress, AMP, Next.js, StyledComponets, PHP, HTML, Javascript e SCSS nei progetti. \nAgisce anche come leader della corporazione degli sviluppatori, conducendo riunioni di scambio di conoscenze e formando stagisti.",
+                    "text": "Sviluppatore front-end presso Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Utilizzo di React, Next.js, Svelte, StyledComponents e TypeScript nei progetti.",
+                    "text": "Responsabile tecnico presso TechViz."
+                }
+            },
+            "title": "Esperienza professionale"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Inglese avanzato"
+                },
+                "pt": {
+                    "text": "Portoghese brasiliano nativo"
+                }
+            },
+            "title": "Lingue"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "Corso W3Cx sull'Accessibilità Web"
+                },
+                "pet": {
+                    "text": "Monitor nel corso di Informatica per Anziani presso PET Computação per due semestri"
+                },
+                "principia": {
+                    "text": "Assistente volontario per l'insegnamento della robotica nelle scuole pubbliche attraverso \"Principia - Robot a Scuola\" per un semestre"
+                },
+                "shehacks": {
+                    "text": "Partecipante del team vincitore (tra 20 team) di Shehacks, hackathon tenutosi presso la sede di Facebook"
+                },
+                "vemPraUSP": {
+                    "text": "Monitora il programma di insegnamento della programmazione online “Vem Pra USP” per gli studenti delle scuole superiori delle scuole pubbliche"
+                }
+            },
+            "title": "Progetti e attività"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux e GIT"
+                },
+                "javascript": {
+                    "text": "React, Componenti con stile e Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js e Svelte"
+                },
+                "php": {
+                    "text": "WordPress, PHP e Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML e CSS"
+                }
+            },
+            "title": "Tecnologie"
+        }
+    },
+    "summary": {
+        "text": "Laureato in Informatica, ha cinque anni di esperienza nello sviluppo web, principalmente come sviluppatore front-end. \nVasta esperienza con React e WordPress, tra gli altri linguaggi e framework di programmazione. \nInteressato anche all'accessibilità web."
+    }
+}

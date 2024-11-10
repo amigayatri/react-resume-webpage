@@ -1,0 +1,45 @@
+{
+    "externalLinks": {
+        "github": "源代码",
+        "linkedin": "领英"
+    },
+    "hero": {
+        "name": "阿米拉·加亚特里",
+        "subheading": "点击您想查看的页面即可打开它！"
+    },
+    "pageList": {
+        "brasil": {
+            "title": "巴西"
+        },
+        "brazilianHolidays": {
+            "title": "巴西假期"
+        },
+        "cats": {
+            "title": "猫（以及更多）"
+        },
+        "colors": {
+            "title": "阴影发生器"
+        },
+        "extralanguages": {
+            "title": "额外语言"
+        },
+        "home": {
+            "title": "主页"
+        },
+        "iconlist": {
+            "title": "项目图标"
+        },
+        "leetcode": {
+            "title": "LeetCode 统计"
+        },
+        "palette": {
+            "title": "调色板"
+        },
+        "resume": {
+            "title": "我的简历"
+        },
+        "sitestats": {
+            "title": "网站统计"
+        }
+    }
+}

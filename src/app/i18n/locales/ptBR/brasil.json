@@ -1,0 +1,117 @@
+{
+    "disclaimer": "Nenhuma cor da paleta {{paletteName}} está disponível após filtrar por {{filterName}}, troque a paleta ou a categoria do filtro para voltar a ver cores personalizadas.",
+    "divisions": {
+        "UF": "Estados",
+        "cities": "Cidades",
+        "meso": "Mesoregiões",
+        "micro": "Microregiões",
+        "region": "Regiões",
+        "single": "País"
+    },
+    "filters": {
+        "AAAsmall": "AAA Texto Pequeno",
+        "AAbig": "AA Texto Grande",
+        "AAsmall": "AA Texto Pequeno",
+        "minimum": "Mínimo",
+        "no": "Sem filtrar"
+    },
+    "palettes": {
+        "groups": {
+            "brands": "marcas",
+            "famous media": "mídias famosas",
+            "places": "lugares",
+            "rainbow": "arco-íris",
+            "schemes": "Teoria das cores",
+            "tech": "Tecnologias",
+            "theme": "temas"
+        },
+        "names": {
+            "brands": {
+                "bk": "Burger king",
+                "cartoon": "Cartoon Network",
+                "coca-cola": "Coca Cola",
+                "dominos": "Domino's",
+                "lego": "Lego",
+                "master": "MasterCard",
+                "mcdonalds": "McDonald's",
+                "national geographic": "National geographic",
+                "pepsi": "pepsi",
+                "trademarked": "Cores que podem fazer com que você seja processado",
+                "visa": "Visa"
+            },
+            "famous media": {
+                "adventure time": "Hora de aventura",
+                "barbie": "Barbie",
+                "bee": "abelha",
+                "bmo": "BMO",
+                "cosmo and wanda": "Cosmo e Wanda",
+                "emo": "emo",
+                "fairly odd parents": "padrinhos magicos",
+                "naruto": "naruto",
+                "sonic": "Sonic",
+                "turma da monica": "Turma da Mônica"
+            },
+            "places": {
+                "brasil": "Brasileira",
+                "china": "chinesa",
+                "ecuador": "Equatoriana",
+                "ghana": "Ganense",
+                "greece": "grega",
+                "jamaica": "jamaicana",
+                "lebanon": "libanesa",
+                "mexico": "mexicana",
+                "rioDeJaneiro": "Carioca",
+                "southAfrica": "Sulafricana",
+                "syria": "Síria",
+                "uruguay": "Uruguaia"
+            },
+            "rainbow": {
+                "dark rainbow": "arco-íris escuro",
+                "pastel rainbow": "arco-íris pastel",
+                "rainbow monokai": "arco-íris monokai",
+                "regular rainbow": "arco-íris normal"
+            },
+            "schemes": {
+                "cmyk": "CMYK",
+                "crayola10": "Circulo Cromático da Crayola 1926",
+                "crayola12": "Circulo Cromático da Crayola 1930",
+                "goethe": "Circulo Cromático de Goethe",
+                "grayscale16": "Escala de cinza de 4 bits",
+                "grayscale4": "Escala de cinza de 2 bits",
+                "mac16": "Apple Macintosh 16 cores",
+                "munsellCrayola": "Cores Munsell da Crayola",
+                "newtown": "Disco colorido de Newtown",
+                "rgb": "RGB",
+                "rgb 12": "Circulo Cromático RGB 12 cores",
+                "rgb 8": "Circulo Cromático RGB 8 cores",
+                "riscOS16": "padrão do RISC OS",
+                "vhs": "Barras coloridas VHS",
+                "web basics": "Web básica"
+            },
+            "tech": {
+                "baidu": "Baidu",
+                "facebook": "Facebook",
+                "firefox": "Firefox",
+                "google": "Google",
+                "microsoft": "microsoft",
+                "spotify": "Spotify",
+                "tumblr": "tumblr",
+                "whatsapp": "zap-zap",
+                "wikipedia": "Wikipédia",
+                "youtube": "YouTube"
+            },
+            "theme": {
+                "current": "atual",
+                "fullmonokai": "Monokai",
+                "grayscalemonokai": "Escala de cinza monokai"
+            }
+        }
+    },
+    "selects": {
+        "division": "Divisão do mapa",
+        "filter": "Filtrar contraste da paleta",
+        "group": "Grupos de temas",
+        "palette": "Paletas de cor"
+    },
+    "title": "Mapa do Brasil"
+}

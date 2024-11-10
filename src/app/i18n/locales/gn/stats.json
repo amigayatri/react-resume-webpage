@@ -1,0 +1,24 @@
+{
+    "git": {
+        "graph": {
+            "title": "Jasy jave {{acción Réra}}"
+        },
+        "main": {
+            "title": "Git ñeñongatuha estadísticas"
+        },
+        "recent": {
+            "commit": {
+                "more": "{{qtty}} oñemboguata",
+                "one": "{{qtty}} ñemboguata"
+            },
+            "seeMore": "Hetave mba’e <1>{{linkName}}</1> rehegua",
+            "title": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva"
+        }
+    },
+    "main": {
+        "list": {
+            "git": "Git rehegua"
+        },
+        "title": "Estadísticas página web rehegua"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Data:",
+        "details": {
+            "false": "バッジをクリックすると詳細が表示されます。",
+            "true": "{{BadgeName}} を正常に取得しました!"
+        },
+        "icon": "{{BadgeName}} バッジのアイコン",
+        "summary": "バッジの名前は、LeetCode で使用されている名前と一致するように英語で付けられています。",
+        "title": "獲得バッジ一覧"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "シンプルモード",
+            "true": "詳細モード"
+        },
+        "reverse": {
+            "false": "最新の日付が最初",
+            "true": "最も古い日付が最初"
+        },
+        "title": "LeetCodeの提出"
+    },
+    "languages": {
+        "summary": "ここには、5 つ以上の問題が完了したプログラミング言語のみがリストされています。\nマウスを移動すると、その数が表示されます。",
+        "title": "使用されるプログラミング言語"
+    },
+    "questions": {
+        "easy": "簡単",
+        "hard": "難しい",
+        "medium": "中くらい",
+        "title": "解決された質問"
+    },
+    "skills": {
+        "level": "{{レベル}} スキル",
+        "summary": "LeetCode GraphQL API にこの分割があり、名前が翻訳されていない問題があります。",
+        "title": "スキル一覧"
+    }
+}

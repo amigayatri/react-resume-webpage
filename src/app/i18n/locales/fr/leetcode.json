@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Data:",
+        "details": {
+            "false": "Cliquez sur un badge pour voir les détails !",
+            "true": "{{BadgeName}} obtenu avec succès !"
+        },
+        "icon": "Icône du badge {{BadgeName}}",
+        "summary": "Les noms des badges sont en anglais pour correspondre au nom utilisé chez LeetCode.",
+        "title": "Liste des badges obtenus"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "Mode simple",
+            "true": "Mode détail"
+        },
+        "reverse": {
+            "false": "Date la plus récente en premier",
+            "true": "Date la plus ancienne en premier"
+        },
+        "title": "Soumissions LeetCode"
+    },
+    "languages": {
+        "summary": "Seuls les langages de programmation qui ont 5 problèmes ou plus résolus sont répertoriés ici. \nPassez la souris pour voir combien !",
+        "title": "Langages de programmation utilisés"
+    },
+    "questions": {
+        "easy": "Facile",
+        "hard": "Difficile",
+        "medium": "Moyen",
+        "title": "Questions résolues"
+    },
+    "skills": {
+        "level": "{{level}} Compétences",
+        "summary": "Les problèmes ont cette division dans l'API LeetCode GraphQL, les noms ne sont pas traduits.",
+        "title": "Liste de compétences"
+    }
+}

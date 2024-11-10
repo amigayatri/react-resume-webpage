@@ -9,13 +9,14 @@ import {
 	Label
 } from "./HomeLink.styled.ts"
 import { linkProps } from "../../../constants/linkprops.ts"
-import { SVGIcon } from "../../common/SVGIcon/index.tsx"
+import { SVGIcon } from "../../common/SVGIcon/"
+
 interface HomeLinkBase extends BaseElement {
 	to: Link
 }
 
 export const HomeLinkBase = ({ i18n, lng, to }: HomeLinkBase) => {
-	const t = i18n.getFixedT(lng, "translation")
+	const t = i18n.getFixedT(lng, "home")
 	if (to.isExternal)
 		return (
 			<ButtonWrapper>
@@ -45,7 +46,7 @@ export const HomeLinkBase = ({ i18n, lng, to }: HomeLinkBase) => {
 	else
 		return (
 			<ButtonWrapper>
-				<InternalLinkTag>
+				<InternalLinkTag href={`/${lng}/${to.path}`}>
 					<ButtonStyle>
 						<SVGIcon
 							lng={lng}

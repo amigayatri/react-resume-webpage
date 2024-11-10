@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "Δεν βρέθηκε",
+        "brasil": "Χάρτης της Βραζιλίας",
+        "holidays": "Διακοπές στη Βραζιλία",
+        "cats": "=^.^=",
+        "colors": "Χρωματιστά",
+        "extra-languages": "Επιπλέον γλώσσες",
+        "home": "Αρχική σελίδα",
+        "icons": "Εικονίδια έργου",
+        "leetcode": "LeetCode",
+        "maintenance": "Η σελίδα βρίσκεται υπό συντήρηση",
+        "palette": "Παλέτες",
+        "resume": "Περίληψη",
+        "site-stats": "Στατιστικά"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "Προσωπική ιστοσελίδα"
+}

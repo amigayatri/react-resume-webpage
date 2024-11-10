@@ -1,0 +1,49 @@
+{
+    "addColor": {
+        "buttons": {
+            "addMany": {
+                "hidden": "Oñemoĩve hetave peteĩgui",
+                "showing": "Oñomi jehaipyre jeike"
+            },
+            "addOne": {
+                "hidden": "Oñemoĩ peteĩ",
+                "showing": "Oñomi sa’y poravoha"
+            },
+            "changeSteps": {
+                "hidden": "Omoambue variación número",
+                "showing": "Anive remoambue umi número variación rehegua"
+            },
+            "targets": {
+                "hidden": "Emoambue umi sa’y ojehekahápe",
+                "showing": "Anive remoambue umi sa’y ojehekahápe"
+            }
+        },
+        "title": "Oñemoĩve sa’y"
+    },
+    "colorList": {
+        "summary": {
+            "empty": "Nde neremoĩri gueteri mba'eveichagua sa'y",
+            "nonEmpty": "Emboguejy eipe’a hag̃ua"
+        },
+        "title": "Oñemoĩve umi sa’y"
+    },
+    "header": {
+        "summary": "Ojapo saꞌi ñemoambue morotĩ ha hũvape g̃uarã, ñemoambue mboajepyréva haꞌehína 4 peteĩteĩva gotyo, ha katu ikatu oñemoambue",
+        "title": "Generador de variación de color rehegua"
+    },
+    "shades": {
+        "code": "<1>{{colorCode}}</1> ñemoambue",
+        "from": "<1>{{Código de color}}</1> guive",
+        "summary": "¡Emboguejy ekopia hag̃ua pe kolór!",
+        "title": "Sombras rehegua",
+        "to": "<1>{{Código de color}}</1> peve"
+    },
+    "targetList": {
+        "delete": {
+            "false": "Tekotevẽ por lo menos peteĩ par regenera hag̃ua ambue sombra.",
+            "true": "Emboguejy peteĩ par rehe reipe’a hag̃ua."
+        },
+        "summary": "Remoĩ jave peteĩ color blanco ramo, oñembojoapy avei inverso orekóva.",
+        "title": "Umi sa’y ojehupytyséva"
+    }
+}

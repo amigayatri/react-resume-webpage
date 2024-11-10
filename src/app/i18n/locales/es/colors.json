@@ -1,0 +1,49 @@
+{
+    "addColor": {
+        "buttons": {
+            "addMany": {
+                "hidden": "Añadir más de uno",
+                "showing": "Ocultar entrada de texto"
+            },
+            "addOne": {
+                "hidden": "Añadir uno",
+                "showing": "Ocultar selector de color"
+            },
+            "changeSteps": {
+                "hidden": "Cambiar número de variación",
+                "showing": "Deja de cambiar los números de variación"
+            },
+            "targets": {
+                "hidden": "Cambiar colores de destino",
+                "showing": "Deja de cambiar los colores de destino"
+            }
+        },
+        "title": "agregar color"
+    },
+    "colorList": {
+        "summary": {
+            "empty": "Aún no agregaste ningún color",
+            "nonEmpty": "Haga clic para eliminar"
+        },
+        "title": "Colores agregados"
+    },
+    "header": {
+        "summary": "Crea variaciones de color para blanco y negro, el número predeterminado de variaciones es 4 en cada dirección, pero se puede cambiar",
+        "title": "Generador de variación de color"
+    },
+    "shades": {
+        "code": "Variaciones de <1>{{colorCode}}</1>",
+        "from": "De <1>{{colorCode}}</1>",
+        "summary": "¡Haga clic para copiar el color!",
+        "title": "Sombras",
+        "to": "a <1>{{colorCode}}</1>"
+    },
+    "targetList": {
+        "delete": {
+            "false": "Necesitas al menos un par para generar otros tonos.",
+            "true": "Haga clic en un par para eliminarlo."
+        },
+        "summary": "Cuando agregas un color como objetivo, también se agrega su inverso.",
+        "title": "Colores objetivo"
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Τώρα"
+    },
+    "download": {
+        "cta": "Κατεβάστε pdf!",
+        "title": "{{fullName}} Συνέχιση"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Εμπρός προγραμματιστής ιστού"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "B.Sc. \nΕπιστήμη Υπολογιστών στο Universidade de São Paulo, São Carlos - SP, Βραζιλία"
+                }
+            },
+            "title": "Εκπαίδευση"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Χρησιμοποιώντας React, Next.js, StyledComponents και TypeScript σε έργα, σε συνεργασία με την ομάδα της μεξικανικής Pepsico.",
+                    "text": "Προγραμματιστής Front-end στην Atip (Pepsico Partner)."
+                },
+                "encora": {
+                    "subitem": "Χρήση React, Vue.js και Laravel σε έργα",
+                    "text": "Προγραμματιστής front-end στην Encora Brazil."
+                },
+                "liven": {
+                    "subitem": "Χρήση React και React Native σε έργα",
+                    "text": "Front-end Mobile Intern στο Liven."
+                },
+                "partenero": {
+                    "subitem": "Χρήση Firebase και Ember",
+                    "text": "Πλήρης στοίβα ασκούμενος στο Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Χρήση React, WordPress, AMP, Next.js, StyledComponets, PHP, HTML, Javascript και SCSS σε έργα. \nΕπίσης, ενεργεί ως ηγέτης της συντεχνίας προγραμματιστών, ηγετικό ρόλο σε συναντήσεις ανταλλαγής γνώσεων και ασκούμενους.",
+                    "text": "Προγραμματιστής Front-end στο Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Χρήση React, Next.js, Svelte, StyledComponents και TypeScript σε έργα.",
+                    "text": "Τεχνικός Υπεύθυνος στο TechViz."
+                }
+            },
+            "title": "Επαγγελματική Εμπειρία"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Προχωρημένα Αγγλικά"
+                },
+                "pt": {
+                    "text": "Ιθαγενείς Πορτογάλοι Βραζιλίας"
+                }
+            },
+            "title": "Γλώσσες"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "Μάθημα προσβασιμότητας στο Web W3Cx"
+                },
+                "pet": {
+                    "text": "Παρακολούθηση στο μάθημα Επιστήμης Υπολογιστών για Ηλικιωμένους στο PET Computação για δύο εξάμηνα"
+                },
+                "principia": {
+                    "text": "Εθελοντής παρακολούθησης για διδασκαλία ρομποτικής σε δημόσια σχολεία μέσω του «Principia - Robots at School» για ένα εξάμηνο"
+                },
+                "shehacks": {
+                    "text": "Συμμετέχοντας της νικήτριας ομάδας (μεταξύ 20 ομάδων) του Shehacks, hackathon που πραγματοποιήθηκε στα κεντρικά γραφεία του Facebook"
+                },
+                "vemPraUSP": {
+                    "text": "Παρακολουθεί το διαδικτυακό πρόγραμμα διδασκαλίας προγραμματισμού «Vem Pra USP» για μαθητές γυμνασίου από δημόσια σχολεία"
+                }
+            },
+            "title": "Έργα και Δραστηριότητες"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux και GIT"
+                },
+                "javascript": {
+                    "text": "React, Styled Components και Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js και Svelte"
+                },
+                "php": {
+                    "text": "WordPress, PHP και Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML και CSS"
+                }
+            },
+            "title": "τεχνολογίες"
+        }
+    },
+    "summary": {
+        "text": "Πτυχιούχος Πληροφορικής, έχει πενταετή εμπειρία στην ανάπτυξη ιστοσελίδων, κυρίως ως Front-end Developer. \nΕκτεταμένη εμπειρία με το React και το WordPress, μεταξύ άλλων γλωσσών προγραμματισμού και πλαισίων. \nΕνδιαφέρεται επίσης για την προσβασιμότητα στο διαδίκτυο."
+    }
+}

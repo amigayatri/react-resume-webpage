@@ -3,7 +3,7 @@
 import { Monokai } from "./Monokai"
 
 export const Named = {
-	black: Monokai.almostBlack,
+	almostBlack: Monokai.almostBlack,
 	white: Monokai.white,
 	blue: Monokai.blue,
 	pink: Monokai.pink,

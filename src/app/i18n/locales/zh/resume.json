@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "现在"
+    },
+    "download": {
+        "cta": "下载pdf！",
+        "title": "{{fullName}} 简历"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "前端网页开发人员"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "理学学士"
+                }
+            },
+            "title": "教育"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "在项目中使用 React、Next.js、StyledComponents 和 TypeScript，与墨西哥 Pepsico 团队合作。",
+                    "text": "Atip（百事可乐合作伙伴）的前端开发人员。"
+                },
+                "encora": {
+                    "subitem": "在项目中使用 React、Vue.js 和 Laravel",
+                    "text": "Encora Brazil 的前端开发人员。"
+                },
+                "liven": {
+                    "subitem": "在项目中使用 React 和 React Native",
+                    "text": "Liven 的前端移动实习生。 "
+                },
+                "partenero": {
+                    "subitem": "使用 Firebase 和 Ember",
+                    "text": "Partenero 的全栈实习生。"
+                },
+                "raccoon": {
+                    "subitem": "在项目中使用 React、WordPress、AMP、Next.js、PHP、HTML、Javascript 和 SCSS。",
+                    "text": "Raccoon.Monks 的前端开发人员。"
+                },
+                "techviz": {
+                    "subitem": "在项目中使用 React、Next.js、Svelte、StyledComponents 和 TypeScript。",
+                    "text": "TechViz 的技术主管。"
+                }
+            },
+            "title": "专业经验"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "高级英语"
+                },
+                "pt": {
+                    "text": "母语巴西葡萄牙语"
+                }
+            },
+            "title": "语言"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx 网络无障碍课程"
+                },
+                "pet": {
+                    "text": "在 PET Computação 监督老年人计算机科学课程两个学期"
+                },
+                "principia": {
+                    "text": "通过“学校机器人原理”为公立学校的机器人教学进行一学期的志愿者监督"
+                },
+                "shehacks": {
+                    "text": "在 Facebook 总部举办的黑客松 Shehacks 获胜团队（20 支团队）的参与者"
+                },
+                "vemPraUSP": {
+                    "text": "监控公立学校高中生的“Vem Pra USP”在线编程教学项目"
+                }
+            },
+            "title": "项目和活动"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux 和 GIT"
+                },
+                "javascript": {
+                    "text": "React、样式化组件和 Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS、AMP、React Native、Vue.js 和 Svelte"
+                },
+                "php": {
+                    "text": "WordPress、PHP 和 Laravel"
+                },
+                "webbasics": {
+                    "text": "JavaScript、HTML 和 CSS"
+                }
+            },
+            "title": "技术"
+        }
+    },
+    "summary": {
+        "text": "计算机科学专业毕业，拥有五年 Web 开发经验，主要担任前端开发人员。"
+    }
+}

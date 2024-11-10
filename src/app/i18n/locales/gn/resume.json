@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Ko'ág̃a"
+    },
+    "download": {
+        "cta": "¡Emboguejy pdf!",
+        "title": "{{fullName}} Ñepyrũ jey"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel rehegua",
+        "subheading": "Web moheñóihara tenondegua"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "B.Sc.-pe. \nInformática Universidad de São Paulo, São Carlos - SP, Brasil-pe"
+                }
+            },
+            "title": "Tekombo'e"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Oipurúvo React, Next.js, StyledComponents ha TypeScript umi tembiaporãme, ombaꞌapóva Pepsico equipo mexicano ndive.",
+                    "text": "Desarrollador front-end Atip (Pepsico Partner)-pe."
+                },
+                "encora": {
+                    "subitem": "Oipurúvo React, Vue.js ha Laravel umi tembiaporãme",
+                    "text": "Desarrollador front-end Encora Brasil-pe."
+                },
+                "liven": {
+                    "subitem": "Oipurúvo React ha React Native umi proyecto-pe",
+                    "text": "Pasante Móvil Front-end-pegua Liven-pe."
+                },
+                "partenero": {
+                    "subitem": "Firebase ha Ember jepuru",
+                    "text": "Pasante pila completa Partenero-pe."
+                },
+                "raccoon": {
+                    "subitem": "Oipurúvo React, WordPress, AMP, Next.js, StyledComponets, PHP, HTML, Javascript ha SCSS umi tembiaporãme. \nAvei oactuávo tendota gremio desarrolladores, omotenondéva reunión intercambio de conocimientos ha ombokatupyry pasante-kuérape.",
+                    "text": "Desarrollador Front-end-pegua Raccoon.Monks-pe."
+                },
+                "techviz": {
+                    "subitem": "Oipurúvo React, Next.js, Svelte, StyledComponents ha TypeScript umi tembiaporãme.",
+                    "text": "Tech Lead TechViz-pe."
+                }
+            },
+            "title": "Experiencia Profesional rehegua"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Inglés avanzado"
+                },
+                "pt": {
+                    "text": "Nativo brasileño portugués"
+                }
+            },
+            "title": "Ñe’ẽnguéra"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx Web Accesibilidad Mbo’esyry"
+                },
+                "pet": {
+                    "text": "Monitor mbo'esyry Informática-pe guarã umi Anciano-pe guarã PET Computação-pe mokõi semestre pukukue"
+                },
+                "principia": {
+                    "text": "Monitor voluntario mbo'epy robótica mbo'ehao público-pe \"Principia - Robots en Escuela\" rupive peteî semestre"
+                },
+                "shehacks": {
+                    "text": "Participante equipo ganador (20 equipo apytépe) Shehacks, hackathon oñemotenondéva sede Facebook-pe"
+                },
+                "vemPraUSP": {
+                    "text": "Ojesareko programa de enseñanza programación en línea “Vem Pra USP” umi temimbo'e secundaria mbo'ehao público-gua"
+                }
+            },
+            "title": "Tembiaporã ha Tembiaporã"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux ha GIT rehegua"
+                },
+                "javascript": {
+                    "text": "React, Componentes Estilo ha Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js ha Svelte rehegua"
+                },
+                "php": {
+                    "text": "WordPress, PHP ha Laravel rehegua"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML ha CSS rehegua"
+                }
+            },
+            "title": "Umi tecnología rehegua"
+        }
+    },
+    "summary": {
+        "text": "Omohu’ã Informática, oguereko po ary experiencia desarrollo web-pe, principalmente Desarrollador Front-end ramo. \nHeta mba’ekuaa React ha WordPress rehegua, ambue ñe’ẽ ha marco programación rehegua apytépe. \nAvei ointeresa accesibilidad web rehegua."
+    }
+}

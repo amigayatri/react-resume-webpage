@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Сейчас"
+    },
+    "download": {
+        "cta": "Скачать PDF!",
+        "title": "{{fullName}} Резюме"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Фронтенд веб-разработчик"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "Бакалавр наук "
+                }
+            },
+            "title": "Образование"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Использование React, Next.js, StyledComponents и TypeScript в проектах, работа с мексиканской командой Pepsico.",
+                    "text": "Фронтенд-разработчик в компании Atip (партнер Pepsico)."
+                },
+                "encora": {
+                    "subitem": "Использование React, Vue.js и Laravel в проектах",
+                    "text": "Фронтенд-разработчик в Encora Brazil."
+                },
+                "liven": {
+                    "subitem": "Использование React и React Native в проектах",
+                    "text": "Мобильный стажер по фронтенду в Liven. "
+                },
+                "partenero": {
+                    "subitem": "Использование Firebase и Ember",
+                    "text": "Стажер полного цикла в Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Использование React, WordPress, AMP, Next.js, PHP, HTML, Javascript и SCSS в проектах. ",
+                    "text": "Фронтенд-разработчик в Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Использование React, Next.js, Svelte, StyledComponents и TypeScript в проектах.",
+                    "text": "Технический руководитель TechViz."
+                }
+            },
+            "title": "Профессиональный опыт"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Продвинутый английский"
+                },
+                "pt": {
+                    "text": "Родной бразильский португальский"
+                }
+            },
+            "title": "Языки"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "Курс веб-доступности W3Cx"
+                },
+                "pet": {
+                    "text": "Монитор курса информатики для пожилых людей в PET Computação в течение двух семестров."
+                },
+                "principia": {
+                    "text": "Волонтер-контролер преподавания робототехники в государственных школах в рамках программы «Principia – Роботы в школе» в течение одного семестра."
+                },
+                "shehacks": {
+                    "text": "Участник команды-победителя (среди 20 команд) хакатона Shehacks в штаб-квартире Facebook."
+                },
+                "vemPraUSP": {
+                    "text": "Мониторит программу онлайн-обучения программированию «Вем Пра УСП» для старшеклассников государственных школ."
+                }
+            },
+            "title": "Проекты и мероприятия"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Линукс и ГИТ"
+                },
+                "javascript": {
+                    "text": "React, стилизованные компоненты и Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js и Svelte."
+                },
+                "php": {
+                    "text": "WordPress, PHP и Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML и CSS"
+                }
+            },
+            "title": "Технологии"
+        }
+    },
+    "summary": {
+        "text": "Окончил факультет компьютерных наук, имеет пятилетний опыт веб-разработки, в основном в качестве Front-end разработчика. "
+    }
+}

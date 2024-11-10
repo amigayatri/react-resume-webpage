@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "Aggiungi festività da {{cityName}}, {{stateName}}",
+    "labels": {
+        "state": "Stato",
+        "city": "Città"
+    },
+    "description": {
+        "extended": "Fine settimana lungo",
+        "midweek": "Durante la settimana",
+        "weekends": "Nel fine settimana"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "Durante la settimana",
+            "true": "Nel fine settimana"
+        }
+    },
+    "list": {
+        "year": "{{yearNumber}} Festività"
+    },
+    "open": {
+        "false": "Scegli una città",
+        "true": "Chiudi il selettore della città"
+    },
+    "tabs": {
+        "next": "L'anno prossimo",
+        "this": "Quest'anno"
+    },
+    "title": "",
+    "types": {
+        "municipal": "Comunale",
+        "national": "Nazionale"
+    },
+    "days-untill": "Mancano <1>{{daysUntill}}</1> giorni"
+}

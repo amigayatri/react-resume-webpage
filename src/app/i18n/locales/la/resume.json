@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Nunc"
+    },
+    "download": {
+        "cta": "Download pdf!",
+        "title": "{{ fullName}} Resume"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Elit ante-finem textus"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "B.Sc. \nComputer Scientia in Universidade de São Paulo, São Carlos - SP, Brazil"
+                }
+            },
+            "title": "Education"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Usura React, Next.js, StyledComponents et TypeScript in inceptis, operando cum quadrigis mexicani Pepsico.",
+                    "text": "Ante-finem elit at Atip (Pepsico Partner)."
+                },
+                "encora": {
+                    "subitem": "Using React, Vue.js et Laravel in inceptis",
+                    "text": "Ante finem elit at Encora Brazil."
+                },
+                "liven": {
+                    "subitem": "Using React ac Reat Accuratissima Totius in projects",
+                    "text": "Ante-finem Mobile Intern at Liven."
+                },
+                "partenero": {
+                    "subitem": "Per Firebase et Quatuor Temporum",
+                    "text": "Plenus acervus interne apud Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Using React, WordPress, AMP, Next.js, StyledComponets, PHP, HTML, Javascript et SCSS in inceptis. \nEtiam ducem tincidunt sodalitio agentes, scientias ducens internes conventus commercii et disciplinae.",
+                    "text": "Ante-finem Developer at Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Using React, Next.js, Svelte, StyledComponents et TypeScript in inceptis.",
+                    "text": "Tech Duc ad TechViz."
+                }
+            },
+            "title": "Experientia professionales"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Provectus English"
+                },
+                "pt": {
+                    "text": "Patria Brazilian Portuguese"
+                }
+            },
+            "title": "Linguae"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx Web Accessibility Course"
+                },
+                "pet": {
+                    "text": "Monitor in Computacum Scientiarum curriculum pro Senibus ad PET Computacum pro duobus semestris"
+                },
+                "principia": {
+                    "text": "Monitor voluntarius pro roboticis in scholis publicis tradendis per \"Principia - Robots in Schola\" unius semestri"
+                },
+                "shehacks": {
+                    "text": "Participem turmae victricis (inter XX partes) Shehacks, hackathon habita apud Facebook praetorium."
+                },
+                "vemPraUSP": {
+                    "text": "Monitores \"Vem Pra USP\" programmandi programmatio docendi pro alumnis e scholis publicis"
+                }
+            },
+            "title": "Incepta et Operationes"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux et GIT"
+                },
+                "javascript": {
+                    "text": "React, Styled Components et Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Nativum, Vue.js et Svelte"
+                },
+                "php": {
+                    "text": "WordPress, PHP and Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML et CSS"
+                }
+            },
+            "title": "Technologies"
+        }
+    },
+    "summary": {
+        "text": "Lectus in Computer Scientia, quinque annos experientiae in evolutione interreti habet, maxime ut ante-finem Developer. \nExtensiva experientia cum React et WordPress, inter alias programmandi linguas et compages. \nInterreti loci accessibilitas etiam interest."
+    }
+}

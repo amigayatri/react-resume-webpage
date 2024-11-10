@@ -1,3 +1,5 @@
+import Element from "../app/types/ElementProps"
+
 interface ToggleIconProps {
 	id: string
 	trueValAsStr: string
@@ -8,7 +10,7 @@ interface ToggleIconProps {
 	}
 }
 
-export default interface ToggleProps {
+export default interface ToggleProps extends Element {
 	state: unknown
 	stateChangeFN: () => void
 	ariaLabel: string

@@ -1,0 +1,24 @@
+{
+    "git": {
+        "graph": {
+            "title": "ਮਹੀਨਾਵਾਰ {{actionName}}"
+        },
+        "main": {
+            "title": "Git ਦੇ ਰਿਪੋਜ਼ਟਰੀ ਅੰਕੜੇ"
+        },
+        "recent": {
+            "commit": {
+                "more": "{{qtty}} ਕਮਿਟ ਕਰਦਾ ਹੈ",
+                "one": "{{qtty}} ਕਮਿਟ"
+            },
+            "seeMore": "<1>{{linkName}}</1> 'ਤੇ ਹੋਰ",
+            "title": "ਹਾਲੀਆ ਪ੍ਰਤੀਬੱਧਤਾਵਾਂ"
+        }
+    },
+    "main": {
+        "list": {
+            "git": "ਗਿਟ"
+        },
+        "title": "ਵੈੱਬਸਾਈਟ ਦੇ ਅੰਕੜੇ"
+    }
+}

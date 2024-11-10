@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Data:",
+        "details": {
+            "false": "Clicca su un badge per vedere i dettagli!",
+            "true": "{{BadgeName}} ottenuto con successo!"
+        },
+        "icon": "Icona per il badge {{BadgeName}}",
+        "summary": "I nomi dei badge sono in inglese per corrispondere al nome utilizzato su LeetCode.",
+        "title": "Elenco dei badge ottenuti"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "Modalità semplice",
+            "true": "Modalità dettaglio"
+        },
+        "reverse": {
+            "false": "Prima la data più recente",
+            "true": "Prima la data più vecchia"
+        },
+        "title": "Invii LeetCode"
+    },
+    "languages": {
+        "summary": "Qui sono elencati solo i linguaggi di programmazione che hanno 5 o più problemi risolti. \nPassa il mouse per vedere quanti!",
+        "title": "Linguaggi di programmazione utilizzati"
+    },
+    "questions": {
+        "easy": "Facile",
+        "hard": "Difficile",
+        "medium": "Medio",
+        "title": "Domande risolte"
+    },
+    "skills": {
+        "level": "{{livello}} competenze",
+        "summary": "Il problema è questa divisione nell'API LeetCode GraphQL, i nomi non sono tradotti.",
+        "title": "Elenco delle competenze"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "externalLinks": {
+        "github": "Source codice",
+        "linkedin": "Linkedin"
+    },
+    "hero": {
+        "name": "Amira Gayatri",
+        "subheading": "Click in pagina videre vis ut eam aperi!"
+    },
+    "pageList": {
+        "brasil": {
+            "title": "Brazil"
+        },
+        "brazilianHolidays": {
+            "title": "Brazilian feriae"
+        },
+        "cats": {
+            "title": "Feles (et plus)"
+        },
+        "colors": {
+            "title": "umbra generantis"
+        },
+        "extralanguages": {
+            "title": "Extra linguas"
+        },
+        "home": {
+            "title": "Home page"
+        },
+        "iconlist": {
+            "title": "Icones Project"
+        },
+        "leetcode": {
+            "title": "LeetCode Stats"
+        },
+        "palette": {
+            "title": "Palettes"
+        },
+        "resume": {
+            "title": "Meum Proin"
+        },
+        "sitestats": {
+            "title": "Website stats"
+        }
+    }
+}

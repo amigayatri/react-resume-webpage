@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "Προσθήκη διακοπών από {{cityName}}, {{stateName}}",
+    "labels": {
+        "state": "Κατάσταση",
+        "city": "Πόλη"
+    },
+    "description": {
+        "extended": "Μακρύ Σαββατοκύριακο",
+        "midweek": "Κατά τη διάρκεια της εβδομάδας",
+        "weekends": "Το Σαββατοκύριακο"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "Κατά τη διάρκεια της εβδομάδας",
+            "true": "Το Σαββατοκύριακο"
+        }
+    },
+    "list": {
+        "year": "{{yearNumber}} Διακοπές"
+    },
+    "open": {
+        "false": "Επιλέξτε μια πόλη",
+        "true": "Κλείσιμο επιλογέα πόλης"
+    },
+    "tabs": {
+        "next": "Προσεχές έτος",
+        "this": "Φέτος"
+    },
+    "title": "",
+    "types": {
+        "municipal": "Δημοτικός",
+        "national": "Εθνικός"
+    },
+    "days-untill": "<1>{{daysUntill}}</1> ημέρες μέχρι"
+}

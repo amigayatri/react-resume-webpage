@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "{{cityName}}, {{stateName}} से छुट्टियाँ जोड़ें",
+    "labels": {
+        "state": "राज्य",
+        "city": "शहर"
+    },
+    "description": {
+        "extended": "लंबा सप्ताहांत",
+        "midweek": "सप्ताह के दौरान",
+        "weekends": "सप्ताहांत पर"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "सप्ताह के दौरान",
+            "true": "सप्ताहांत पर"
+        }
+    },
+    "list": {
+        "year": "{{वर्षसंख्या}} छुट्टियाँ"
+    },
+    "open": {
+        "false": "एक शहर चुनें",
+        "true": "शहर चयनकर्ता बंद करें"
+    },
+    "tabs": {
+        "next": "अगले साल",
+        "this": "इस साल"
+    },
+    "title": "",
+    "types": {
+        "municipal": "म्युनिसिपल",
+        "national": "राष्ट्रीय"
+    },
+    "days-untill": "<1>{{daysUntill}}</1> दिन तक"
+}

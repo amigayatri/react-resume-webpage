@@ -1,0 +1,39 @@
+{
+    "footer": {
+        "text": "<1>Developed</1> by <2>{{name}}</2> at {{year}}"
+    },
+    "menu": {
+        "select": {
+            "label": "Language",
+            "groups": {
+                "basic": "Default",
+                "extra": "Extra"
+            },
+            "basic": {
+                "en": "English",
+                "ptBR": "Brazilian Portuguese",
+                "more": "More languages"
+            },
+            "extra": {
+                "ar": "Standard Modern Arabic",
+                "arLB": "Lebanese arabic",
+                "bn": "Bengali",
+                "de": "German",
+                "el": "Greek",
+                "es": "Spanish/Castilian",
+                "fr": "French",
+                "gn": "Guarani",
+                "hi": "Hindi",
+                "it": "Italian",
+                "ja": "Japanese",
+                "la": "Latin",
+                "pa": "Punjabi",
+                "ru": "Russian",
+                "zh": "Chinese"
+            }
+        },
+        "toggle": {
+            "change": "Change website theme"
+        }
+    }
+}

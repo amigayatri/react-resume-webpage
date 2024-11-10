@@ -1,0 +1,45 @@
+{
+    "externalLinks": {
+        "github": "সোর্স কোড",
+        "linkedin": "লিঙ্কডইন"
+    },
+    "hero": {
+        "name": "আমিরা গায়ত্রী",
+        "subheading": "আপনি যে পৃষ্ঠাটি খুলতে চান সেটিতে ক্লিক করুন!"
+    },
+    "pageList": {
+        "brasil": {
+            "title": "ব্রাজিল"
+        },
+        "brazilianHolidays": {
+            "title": "ব্রাজিলের ছুটির দিন"
+        },
+        "cats": {
+            "title": "বিড়াল (এবং আরও)"
+        },
+        "colors": {
+            "title": "শেড জেনারেটর"
+        },
+        "extralanguages": {
+            "title": "অতিরিক্ত ভাষা"
+        },
+        "home": {
+            "title": "হোম পেজ"
+        },
+        "iconlist": {
+            "title": "প্রকল্প আইকন"
+        },
+        "leetcode": {
+            "title": "LeetCode পরিসংখ্যান"
+        },
+        "palette": {
+            "title": "প্যালেট"
+        },
+        "resume": {
+            "title": "আমার জীবনবৃত্তান্ত"
+        },
+        "sitestats": {
+            "title": "ওয়েবসাইট পরিসংখ্যান"
+        }
+    }
+}

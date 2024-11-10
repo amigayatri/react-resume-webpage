@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "Ko’ã papapy oñemboheko sesión de navegación ko’áĝaguápe, ojehasa opaite páhina rupive (oikehápe página jejavy rehegua) ojehecha hag̃ua umi papapy ndorekóiva negativo japu",
+        "more": {
+            "hide": "mongañy",
+            "label": "{{actionVerb}} estadística detallado",
+            "show": "hechauka"
+        },
+        "progress": {
+            "unused": "Ndojeporúiva",
+            "used": "Porupyre"
+        },
+        "sections": {
+            "global": "Dato global rehegua",
+            "local": "Mohendaha rupive: techaukaha oguerekóva tenda '{{localKey}}'."
+        },
+        "title": "Icono jeporu rehegua estadística"
+    },
+    "title": ""
+}

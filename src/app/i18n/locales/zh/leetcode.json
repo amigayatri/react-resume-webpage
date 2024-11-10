@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "日期：",
+        "details": {
+            "false": "点击徽章即可查看详细信息！",
+            "true": "{{BadgeName}}成功获得！"
+        },
+        "icon": "{{BadgeName}} 徽章的图标",
+        "summary": "徽章名称为英文，与 LeetCode 中使用的名称相匹配。",
+        "title": "获得徽章列表"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "简单模式",
+            "true": "细节模式"
+        },
+        "reverse": {
+            "false": "最新日期优先",
+            "true": "最旧的日期在前"
+        },
+        "title": "LeetCode 提交"
+    },
+    "languages": {
+        "summary": "这里只列出了完成了 5 个或更多问题的编程语言。\n将鼠标悬停即可查看有多少！",
+        "title": "使用的编程语言"
+    },
+    "questions": {
+        "easy": "简单的",
+        "hard": "难的",
+        "medium": "中等的",
+        "title": "已解决的问题"
+    },
+    "skills": {
+        "level": "{{level}} Skills",
+        "summary": "LeetCode GraphQL API 中有这样的划分问题，名称没有翻译。",
+        "title": "技能清单"
+    }
+}

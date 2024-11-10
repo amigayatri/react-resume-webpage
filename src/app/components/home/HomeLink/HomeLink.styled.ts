@@ -23,6 +23,7 @@ export const ButtonStyle = styled.div`
 	background-color: ${({ theme }) => theme.accent};
 	height: 100%;
 	transition: ${({ theme }) => theme.transition};
+	cursor: pointer;
 
 	${media.max.md} {
 		flex-direction: column;
@@ -70,7 +71,7 @@ export const LabelWrapper = styled.div`
 	flex-direction: row;
 `
 
-export const InternalLinkTag = styled.div`
+export const InternalLinkTag = styled.a`
 	color: ${({ theme }) => theme.secondAccent};
 	text-decoration: none;
 	font-size: 1.25rem;

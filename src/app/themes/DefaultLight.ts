@@ -3,7 +3,7 @@
 import { Named } from "./Named"
 
 export const DefaultLight = {
-	primary: Named.black,
+	primary: Named.almostBlack,
 	background: Named.white,
 	accent: Named.pink,
 	secondAccent: Named.blue,

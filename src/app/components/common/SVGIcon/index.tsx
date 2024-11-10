@@ -12,7 +12,6 @@ export interface SVGProps extends Element {
 
 export const SVGIcon = async (props: SVGProps) => {
 	const { lng } = props
-	const { i18n } = await useTranslation(lng, "translation")
-	console.log(i18n, props)
+	const { i18n } = await useTranslation(lng, "icons")
 	return <SVGIconBase i18n={i18n} {...props} />
 }

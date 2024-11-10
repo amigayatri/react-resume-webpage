@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Data:",
+        "details": {
+            "false": "",
+            "true": ""
+        },
+        "icon": "",
+        "summary": "",
+        "title": "Lista umi insignia ojehupytýva rehegua"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "",
+            "true": ""
+        },
+        "reverse": {
+            "false": "",
+            "true": "Fecha itujavéva primero"
+        },
+        "title": "LeetCode Ñembohasapyre"
+    },
+    "languages": {
+        "summary": "Umi ñeꞌepykuaa programación rehegua oguerekóva 5 térã hetave apañuãi ojejapóva añoite oñemboheko koꞌape. \n¡Emoĩ nde po rehecha hag̃ua mboypa oĩ!",
+        "title": "Umi ñe’ẽ programación rehegua ojeporúva"
+    },
+    "questions": {
+        "easy": "Hasy'ỹ",
+        "hard": "Hasy",
+        "medium": "Mbyte",
+        "title": "Porandu oñesolusiona va’ekue"
+    },
+    "skills": {
+        "level": "{{nivel}} Katupyry rehegua",
+        "summary": "Umi apañuãi oguereko ko división LeetCode GraphQL API-pe, umi téra noñembohasái.",
+        "title": "Katupyry rehegua lista"
+    }
+}

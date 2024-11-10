@@ -1,0 +1,61 @@
+{
+    "button": "",
+    "count": {
+        "decrease": "Reducere numerum photos",
+        "increase": "Numerum photos"
+    },
+    "empty": {
+        "hide": "Inanis celare lists",
+        "show": "Ostende inanis tabulae"
+    },
+    "list": {
+        "alpaca": {
+            "more": "alpacas",
+            "one": "alpaca"
+        },
+        "bird": {
+            "more": "Aves",
+            "one": "Avis"
+        },
+        "cat": {
+            "more": "Kittens",
+            "one": "catulus"
+        },
+        "dog": {
+            "more": "Canes",
+            "one": "catulus"
+        },
+        "fish": {
+            "more": "Piscium",
+            "one": "piscis"
+        },
+        "fox": {
+            "more": "vulpes",
+            "one": "vulpis"
+        },
+        "goose": {
+            "more": "anseres",
+            "one": "anserem"
+        },
+        "lizard": {
+            "more": "lacertis",
+            "one": "lacerta"
+        },
+        "panda": {
+            "more": "Panda ursos",
+            "one": "Panda ursi"
+        },
+        "rabbit": {
+            "more": "Lepores",
+            "one": "Lepus"
+        },
+        "redpanda": {
+            "more": "red pandas",
+            "one": "red Panda"
+        }
+    },
+    "size": {
+        "decrease": "Redigendum magnitudinem photos",
+        "increase": "Magnitudinem photos"
+    }
+}

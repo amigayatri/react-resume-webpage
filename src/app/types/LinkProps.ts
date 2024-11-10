@@ -1,4 +1,4 @@
-export default interface ExternalLinkProps {
+export default interface LinkProps {
 	path: string
 	key: string
 	icon: string

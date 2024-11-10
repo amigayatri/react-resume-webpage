@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Now"
+    },
+    "download": {
+        "cta": "Download pdf!",
+        "title": "{{fullName}} Resume"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Front-end web developer"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "B.Sc. Computer Science at Universidade de São Paulo, São Carlos - SP, Brazil"
+                }
+            },
+            "title": "Education"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Using React, Next.js, StyledComponents and TypeScript in projects, working with the mexican Pepsico team.",
+                    "text": "Front-end developer at Atip (Pepsico Partner)."
+                },
+                "encora": {
+                    "subitem": "Using React, Vue.js and Laravel in projects",
+                    "text": "Front-end developer at Encora Brazil."
+                },
+                "liven": {
+                    "subitem": "Using React and React Native in projects",
+                    "text": "Front-end Mobile Intern at Liven."
+                },
+                "partenero": {
+                    "subitem": "Using Firebase and Ember",
+                    "text": "Full-stack intern at Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Using React, WordPress, AMP, Next.js, StyledComponets, PHP, HTML, Javascript and SCSS in projects. Also acting as leader of the developers guild, leading knowledge exchange meetings and training interns.",
+                    "text": "Front-end Developer at Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Using React, Next.js, Svelte, StyledComponents and TypeScript in projects.",
+                    "text": "Tech Lead at TechViz."
+                }
+            },
+            "title": "Professional Experience"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Advanced English"
+                },
+                "pt": {
+                    "text": "Native Brazilian Portuguese"
+                }
+            },
+            "title": "Languages"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx Web Accessibility Course"
+                },
+                "pet": {
+                    "text": "Monitor in the Computer Science course for the Elderly at PET Computação for two semesters"
+                },
+                "principia": {
+                    "text": "Volunteer monitor for robotics teaching in public schools through \"Principia - Robots at School\" for one semester"
+                },
+                "shehacks": {
+                    "text": "Participant of the winning team (among 20 teams) of Shehacks, hackathon held at Facebook headquarters"
+                },
+                "vemPraUSP": {
+                    "text": "Monitors the “Vem Pra USP” online programming teaching program for high school students from public schools"
+                }
+            },
+            "title": "Projects and Activities"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux and GIT"
+                },
+                "javascript": {
+                    "text": "React, Styled Components and Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js and Svelte"
+                },
+                "php": {
+                    "text": "WordPress, PHP and Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML and CSS"
+                }
+            },
+            "title": "Technologies"
+        }
+    },
+    "summary": {
+        "text": "Graduated in Computer Science, has five years of experience in web development, mainly as a Front-end Developer. Extensive experience with React and WordPress, among other programming languages and frameworks. Also interested in web accessibility."
+    }
+}

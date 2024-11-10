@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "Hi numeri calculi in sessione currenti pascendi computantur, per omnes paginas (including paginas error) ut numeros sine negativis falsis videant.",
+        "more": {
+            "hide": "celare",
+            "label": "{{actionVerb}} detailed statistics",
+            "show": "ostende"
+        },
+        "progress": {
+            "unused": "insolens",
+            "used": "Used \""
+        },
+        "sections": {
+            "global": "Global data",
+            "local": "Per locum: icones cum locatione '{{localKey}}'"
+        },
+        "title": "Icon usus mutant"
+    },
+    "title": ""
+}

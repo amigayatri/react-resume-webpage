@@ -1,6 +1,7 @@
 import { languages, fallbackLng } from "../i18n/settings"
-import { Header } from "../components/home/Header/"
 import { Main } from "../components/home/Main/"
+import ErrorMain from "../components/error/Main"
+import ThemeClient from "../components/common/ThemeClient"
 
 export default async function Page({
 	params
@@ -10,11 +11,15 @@ export default async function Page({
 	}
 }) {
 	let { lng } = await params
-	if (languages.indexOf(lng) < 0) lng = fallbackLng
-	return (
-		<>
-			<Header lng={lng} />
-			<Main lng={lng} />
-		</>
-	)
+
+	if (languages.indexOf(lng) < 0)
+		return (
+			<ThemeClient onError={true} lng={lng}>
+				<ErrorMain lng={fallbackLng} id="404" />
+			</ThemeClient>
+		)
+
+	return <ThemeClient onError={false} lng={lng}>
+				<Main lng={lng} />
+			</ThemeClient> 
 }

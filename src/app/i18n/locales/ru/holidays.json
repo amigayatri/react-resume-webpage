@@ -1,0 +1,35 @@
+{
+  "addMunicipal": "Добавить праздники из {{cityName}}, {{stateName}}",
+  "description": {
+    "extended": "Длинные выходные",
+    "midweek": "В течение недели",
+    "weekends": "На выходных"
+  },
+  "element": {
+    "onWeekend": {
+      "false": "В течение недели",
+      "true": "На выходных"
+    }
+  },
+  "labels": {
+    "city": "Город",
+    "state": "Состояние"
+  },
+  "list": {
+    "year": "{{yearNumber}} праздники"
+  },
+  "open": {
+    "false": "Выберите город",
+    "true": "Закрыть выбор города"
+  },
+  "tabs": {
+    "next": "В следующем году",
+    "this": "В этом году"
+  },
+  "title": "Бразильские праздники",
+  "types": {
+    "municipal": "Муниципальный",
+    "national": "Национальный"
+  },
+  "days-untill": "Фалтам <1>{{daysUntil}</1> дн."
+}

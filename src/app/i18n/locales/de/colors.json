@@ -1,0 +1,49 @@
+{
+    "addColor": {
+        "buttons": {
+            "addMany": {
+                "hidden": "Fügen Sie mehr als eine hinzu",
+                "showing": "Texteingabe ausblenden"
+            },
+            "addOne": {
+                "hidden": "Fügen Sie eins hinzu",
+                "showing": "Farbauswahl ausblenden"
+            },
+            "changeSteps": {
+                "hidden": "Variationsnummer ändern",
+                "showing": "Hören Sie auf, Variationsnummern zu ändern"
+            },
+            "targets": {
+                "hidden": "Zielfarben ändern",
+                "showing": "Hören Sie auf, die Zielfarben zu ändern"
+            }
+        },
+        "title": "Farbe hinzufügen"
+    },
+    "colorList": {
+        "summary": {
+            "empty": "Sie haben noch keine Farbe hinzugefügt",
+            "nonEmpty": "Klicken Sie zum Entfernen"
+        },
+        "title": "Farben hinzugefügt"
+    },
+    "header": {
+        "summary": "Erstellt Farbvariationen für Schwarz und Weiß. Die Standardanzahl der Variationen beträgt 10 in jede Richtung, sie kann jedoch geändert werden",
+        "title": "Farbvariationsgenerator"
+    },
+    "shades": {
+        "code": "Variationen von {{colorCode}}",
+        "from": "Von {{colorCode}}",
+        "summary": "Klicken Sie, um die Farbe zu kopieren!",
+        "title": "Farbtöne",
+        "to": "zu {{colorCode}}"
+    },
+    "targetList": {
+        "delete": {
+            "false": "Sie benötigen mindestens ein Paar, um weitere Farbtöne zu erzeugen.",
+            "true": "Klicken Sie auf ein Paar, um es zu entfernen."
+        },
+        "summary": "Wenn Sie eine Farbe als Ziel hinzufügen, wird auch deren Umkehrung hinzugefügt.",
+        "title": "Zielfarben"
+    }
+}

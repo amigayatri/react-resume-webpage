@@ -1,0 +1,116 @@
+{
+    "add": "Moinge",
+    "addGroup": "Opavave {{groupName}}-gui.",
+    "addOne": {
+        "summary": "Pe paleta ojeporavóva ojehechaukáta lista iguýpe.",
+        "title": "Eiporavo peteĩ paleta remoĩ hag̃ua"
+    },
+    "component": "<1>Paleta {{paleta réra}} térã </1><2>{{paleta réra}}</2>",
+    "groups": {
+        "brands": "umi marca rehegua",
+        "famous media": "umi medio herakuãitéva",
+        "places": "tenda",
+        "rainbow": "arco iris rehegua",
+        "schemes": "Teoría de color rehegua",
+        "tech": "Umi tecnología rehegua",
+        "theme": "umi tema rehegua"
+    },
+    "info": {
+        "copy all": "Ekopia opaite sa’y",
+        "order": {
+            "original": "Ypykue",
+            "sorted": "Oñeordena"
+        },
+        "summary": "Emboguejy peteĩ kolór rehe ekopia hag̃ua ikodigokuéra"
+    },
+    "list": {
+        "summary": "Reho directamente pe paleta ojeporavóvape",
+        "title": "Emboguejy pe téra"
+    },
+    "names": {
+        "brands": {
+            "bk": "Hamburguesa mburuvicha guasu",
+            "cartoon": "Red de dibujos animados rehegua",
+            "coca-cola": "Coca-cola rehegua",
+            "dominos": "Domino rehegua",
+            "lego": "lego",
+            "master": "Tarjeta Maestro rehegua",
+            "mcdonalds": "McDonald's rehegua",
+            "national geographic": "geográfico nacional rehegua",
+            "pepsi": "pepsi rehegua",
+            "trademarked": "Umi color ikatúva ndegueraha redemanda",
+            "visa": "visa rehegua"
+        },
+        "famous media": {
+            "adventure time": "Tiempo de aventura rehegua",
+            "barbie": "barbie rehegua",
+            "bee": "káva",
+            "bmo": "BMO",
+            "cosmo and wanda": "cosmo ha wanda",
+            "emo": "emo rehegua",
+            "fairly odd parents": "tuvakuéra bastante impar",
+            "naruto": "naruto",
+            "sonic": "sonic rehegua",
+            "turma da monica": "Mónica pandilla"
+        },
+        "places": {
+            "brasil": "Brasileño",
+            "china": "Chino",
+            "ecuador": "Ecuador-ygua",
+            "ghana": "Ghana-ygua",
+            "greece": "Griego ñe’ẽme",
+            "jamaica": "Jamaica-ygua",
+            "lebanon": "Libanés rehegua",
+            "mexico": "Mexicano rehegua",
+            "rioDeJaneiro": "Río guive",
+            "southAfrica": "Sudáfrica-ygua",
+            "syria": "Siriaco",
+            "uruguay": "Uruguay rehegua"
+        },
+        "rainbow": {
+            "dark rainbow": "arco iris iñypytũva",
+            "pastel rainbow": "arco iris pastel rehegua",
+            "rainbow monokai": "monokai arco iris rehegua",
+            "regular rainbow": "arco iris jepivegua"
+        },
+        "schemes": {
+            "cmyk": "CMYK rehegua",
+            "crayola10": "Rueda de Color Crayola rehegua 1926",
+            "crayola12": "Crayola rueda color 1930. Ñe'ẽpoty ha ñe'ẽpoty ñemohenda",
+            "goethe": "Goethe rueda color rehegua",
+            "grayscale16": "Escala gris 4 bits rehegua",
+            "grayscale4": "Escala gris 2 bits rehegua",
+            "mac16": "Apple Macintosh 16 sa’y rehegua",
+            "munsellCrayola": "Crayola mba'e munsell colores",
+            "newtown": "Newtown disco color rehegua",
+            "rgb": "RGB rehegua",
+            "rgb 12": "Rueda color RGB rehegua 12",
+            "rgb 8": "Rueda color RGB rehegua 8",
+            "riscOS16": "RISC OS paleta por defecto rehegua",
+            "vhs": "VHS Barras de color rehegua",
+            "web basics": "Web básico rehegua"
+        },
+        "tech": {
+            "baidu": "baidu rehegua",
+            "facebook": "facebook-pe",
+            "firefox": "Mozilla firefox rehegua",
+            "google": "Google",
+            "microsoft": "microsoft rehegua",
+            "spotify": "spotify rehegua",
+            "tumblr": "tumblr rehegua",
+            "whatsapp": "whatsapp rehegua",
+            "wikipedia": "wikipédia rehegua",
+            "youtube": "youtube-pe"
+        },
+        "theme": {
+            "current": "Ko'ag̃agua",
+            "fullmonokai": "Monokai rehegua",
+            "grayscalemonokai": "Monokai Escala de Grises rehegua"
+        }
+    },
+    "option": "{{opciónName}} paleta rehegua",
+    "select": {
+        "label": "Paletas rehegua"
+    },
+    "title": "Paletas rehegua"
+}

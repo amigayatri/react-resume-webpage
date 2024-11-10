@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "الآن"
+    },
+    "download": {
+        "cta": "تحميل قوات الدفاع الشعبي!",
+        "title": "{{fullName}} سيرة ذاتية"
+    },
+    "header": {
+        "name": "أميرة غاياتري الأسد همبل",
+        "subheading": "مطور ويب للواجهة الأمامية"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "بكالوريوس العلوم. \nعلوم الكمبيوتر في جامعة ساو باولو، ساو كارلوس - SP، البرازيل"
+                }
+            },
+            "title": "تعليم"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "استخدام React وNext.js وStyledComponents وTypeScript في المشاريع، والعمل مع فريق Pepsico المكسيكي.",
+                    "text": "مطور الواجهة الأمامية في Atip (شريك Pepsico)."
+                },
+                "encora": {
+                    "subitem": "استخدام React وVue.js وLaravel في المشاريع",
+                    "text": "مطور الواجهة الأمامية في Encora البرازيل."
+                },
+                "liven": {
+                    "subitem": "استخدام React وReact Native في المشاريع",
+                    "text": "المتدرب المحمول الأمامي في Liven."
+                },
+                "partenero": {
+                    "subitem": "باستخدام Firebase وEmber",
+                    "text": "متدرب كامل في Partenero."
+                },
+                "raccoon": {
+                    "subitem": "استخدام React وWordPress وAMP وNext.js وStyledComponets وPHP وHTML وJavascript وSCSS في المشاريع. \nيعمل أيضًا كقائد لنقابة المطورين، حيث يقود اجتماعات تبادل المعرفة وتدريب المتدربين.",
+                    "text": "مطور الواجهة الأمامية في Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "استخدام React وNext.js وSvelte وStyledComponents وTypeScript في المشاريع.",
+                    "text": "قائد التكنولوجيا في TechViz."
+                }
+            },
+            "title": "الخبرة المهنية"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "اللغة الإنجليزية المتقدمة"
+                },
+                "pt": {
+                    "text": "البرتغالية البرازيلية الأصلية"
+                }
+            },
+            "title": "اللغات"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "دورة إمكانية الوصول إلى الويب W3Cx"
+                },
+                "pet": {
+                    "text": "مراقبة دورة علوم الكمبيوتر لكبار السن في PET Computação لمدة فصلين دراسيين"
+                },
+                "principia": {
+                    "text": "رصد متطوع لتدريس الروبوتات في المدارس الحكومية من خلال \"المبادئ - الروبوتات في المدرسة\" لمدة فصل دراسي واحد"
+                },
+                "shehacks": {
+                    "text": "مشارك في الفريق الفائز (من بين 20 فريق) في هاكاثون Shehacks الذي أقيم في مقر الفيسبوك"
+                },
+                "vemPraUSP": {
+                    "text": "يراقب برنامج تعليم البرمجة عبر الإنترنت \"Vem Pra USP\" لطلاب المدارس الثانوية من المدارس العامة"
+                }
+            },
+            "title": "المشاريع والأنشطة"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "لينكس وجيت"
+                },
+                "javascript": {
+                    "text": "React والمكونات المصممة وNext.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS وAMP وReact Native وVue.js وSvelte"
+                },
+                "php": {
+                    "text": "ووردبريس، PHP، ولارافيل"
+                },
+                "webbasics": {
+                    "text": "جافا سكريبت، HTML وCSS"
+                }
+            },
+            "title": "التقنيات"
+        }
+    },
+    "summary": {
+        "text": "تخرج في علوم الكمبيوتر، ولديه خمس سنوات من الخبرة في تطوير الويب، بشكل أساسي كمطور للواجهة الأمامية. \nخبرة واسعة في استخدام React وWordPress، من بين لغات وأطر البرمجة الأخرى. \nمهتم أيضًا بإمكانية الوصول إلى الويب."
+    }
+}

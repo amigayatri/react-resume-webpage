@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "Ajouter des jours fériés de {{cityName}}, {{stateName}}",
+    "labels": {
+        "state": "État",
+        "city": "Ville"
+    },
+    "description": {
+        "extended": "Long week-end",
+        "midweek": "Pendant la semaine",
+        "weekends": "Le week-end"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "Pendant la semaine",
+            "true": "Le week-end"
+        }
+    },
+    "list": {
+        "year": "{{yearNumber}} Jours fériés"
+    },
+    "open": {
+        "false": "Choisissez une ville",
+        "true": "Fermer le sélecteur de ville"
+    },
+    "tabs": {
+        "next": "L'année prochaine",
+        "this": "Cette année"
+    },
+    "title": "",
+    "types": {
+        "municipal": "Municipal",
+        "national": "National"
+    },
+    "days-untill": "<1>{{daysUntill}}</1> jours jusqu'à"
+}

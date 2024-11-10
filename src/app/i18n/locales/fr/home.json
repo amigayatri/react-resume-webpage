@@ -1,0 +1,45 @@
+{
+    "externalLinks": {
+        "github": "Code source",
+        "linkedin": "Linkedin"
+    },
+    "hero": {
+        "name": "Amira Gayatri",
+        "subheading": "Cliquez sur la page que vous souhaitez voir pour l'ouvrir !"
+    },
+    "pageList": {
+        "brasil": {
+            "title": "Brésil"
+        },
+        "brazilianHolidays": {
+            "title": "Vacances brésiliennes"
+        },
+        "cats": {
+            "title": "Chats (et plus)"
+        },
+        "colors": {
+            "title": "Générateur d'ombre"
+        },
+        "extralanguages": {
+            "title": "Langues supplémentaires"
+        },
+        "home": {
+            "title": "Page d'accueil"
+        },
+        "iconlist": {
+            "title": "Icônes de projet"
+        },
+        "leetcode": {
+            "title": "Statistiques de LeetCode"
+        },
+        "palette": {
+            "title": "Palettes"
+        },
+        "resume": {
+            "title": "Mon CV"
+        },
+        "sitestats": {
+            "title": "Statistiques du site Web"
+        }
+    }
+}

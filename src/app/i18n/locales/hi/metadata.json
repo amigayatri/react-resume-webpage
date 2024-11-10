@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "नहीं मिला",
+        "brasil": "ब्राजील का नक्शा",
+        "holidays": "ब्राज़ीलियाई छुट्टियाँ",
+        "cats": "=^.^=",
+        "colors": "रंग",
+        "extra-languages": "अतिरिक्त भाषाएँ",
+        "home": "मुखपृष्ठ",
+        "icons": "प्रोजेक्ट चिह्न",
+        "leetcode": "लीटकोड",
+        "maintenance": "पेज रखरखाव के अधीन चल रहा है",
+        "palette": "रंग-पत्र",
+        "resume": "फिर शुरू करना",
+        "site-stats": "आँकड़े"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "निजी वेबसाइट"
+}

@@ -6,6 +6,6 @@ import { SVGProps } from "./index.tsx"
 
 export function SVGIcon(props: SVGProps) {
 	const { lng } = props
-	const { i18n } = useTranslation(lng, "translation")
+	const { i18n } = useTranslation(lng, "icons")
 	return <SVGIconBase i18n={i18n} {...props} />
 }

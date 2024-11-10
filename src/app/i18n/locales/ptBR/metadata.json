@@ -1,0 +1,19 @@
+{
+  "path": {
+    "404": "Não Encontrado",
+    "brasil": "Mapa brasileiro",
+    "holidays": "Feriados Brasileiros",
+    "cats": "=^.^=",
+    "colors": "Variações de Cores",
+    "extra-languages": "Línguas extras",
+    "home": "Página inicial",
+    "icons": "Ícones do projeto",
+    "leetcode": "LeetCode",
+    "maintenance": "Página em Manutenção",
+    "palette": "Paletas",
+    "resume": "Currículo",
+    "site-stats": "Estatísticas"
+  },
+  "base-title": "{{pathTitle}} | Amira Gayatri",
+  "content": "Site pessoal"
+}
