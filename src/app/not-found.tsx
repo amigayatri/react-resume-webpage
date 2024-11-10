@@ -7,7 +7,6 @@ export async function generateMetadata({ params }: { params: any }) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) lng = fallbackLng
 	const { t } = await useTranslation(lng, "metadata")
-	console.log(lng)
 	return {
 		title: {
 			default: t("base-title", { pathTitle: t("path.404") })

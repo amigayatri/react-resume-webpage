@@ -1,34 +1,48 @@
 {
-	"compilerOptions": {
-		"target": "ES2020",
-		"useDefineForClassFields": true,
-		"lib": ["ES2020", "DOM", "DOM.Iterable"],
-		"module": "ESNext",
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"moduleResolution": "bundler",
-		"allowImportingTsExtensions": true,
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"noEmit": true,
-		"jsx": "preserve",
-		"strict": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noFallthroughCasesInSwitch": true,
-		"allowJs": true,
-		"forceConsistentCasingInFileNames": true,
-		"incremental": true,
-		"plugins": [
-			{
-				"name": "@styled/typescript-styled-plugin",
-				"lint": {
-					"validProperties": ["text-wrap"]
-				}
-			},
-			{ "name": "next" }
-		]
-	},
-	"include": ["./src", "./dist/types/**/*.ts", "./next-env.d.ts"],
-	"exclude": ["./node_modules"]
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "@styled/typescript-styled-plugin",
+        "lint": {
+          "validProperties": [
+            "text-wrap"
+          ]
+        }
+      },
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "./next-env.d.ts",
+    "./src",
+    "./dist/types/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
 }

@@ -23,7 +23,6 @@ export const AnimalListBase = (props: AnimalListBaseProps) => {
 	}
 	const handleAddPicture = (id: string) => {
 		handleFetch(id).then((newList) => {
-			console.log(id, pictures)
 			const newPictures = new Map(pictures.entries())
 			const prev = pictures.get(id)
 			if (prev === undefined) return

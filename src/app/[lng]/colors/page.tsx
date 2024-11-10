@@ -34,5 +34,9 @@ export default async function Page({
 			</ThemeClient>
 		)
 	}
-	return <Main id="maintenance" lng={lng} />
+	return (
+		<ThemeClient onError={false} lng={lng}>
+			<Main id="maintenance" lng={lng} />
+		</ThemeClient>
+	)
 }

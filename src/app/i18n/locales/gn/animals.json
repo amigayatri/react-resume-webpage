@@ -1,7 +1,21 @@
 {
+    "button": "",
+    "count": {
+        "decrease": "Omboguejy umi ta’anga",
+        "increase": "Ombohetave ta’angakuéra"
+    },
+    "empty": {
+        "hide": "Oñomi umi lista nandi",
+        "show": "Ohechauka umi lista nandi"
+    },
     "list": {
+        "alpaca": {
+            "more": "alpacas rehegua",
+            "one": "alpaca rehegua"
+        },
         "bird": {
-            "one": "Guyra"
+            "one": "Guyra",
+            "more": "Guyrakuéra"
         },
         "cat": {
             "more": "Gatitokuéra",

@@ -2,20 +2,20 @@
     "badges": {
         "date": "Data:",
         "details": {
-            "false": "",
-            "true": ""
+            "false": "¡Emboguejy peteĩ insignia rehecha haĝua umi detalle!",
+            "true": "{{BadgeName}} ojehupyty porã!"
         },
-        "icon": "",
-        "summary": "",
+        "icon": "Icono {{BadgeName}} insignia-pe g̃uarã",
+        "summary": "Umi insignia réra oĩ inglés-pe ojoaju hag̃ua téra ojeporúva LeetCode-pe.",
         "title": "Lista umi insignia ojehupytýva rehegua"
     },
     "heatmap": {
         "mode": {
-            "false": "",
-            "true": ""
+            "false": "Modo Simple rehegua",
+            "true": "Modo detalle rehegua"
         },
         "reverse": {
-            "false": "",
+            "false": "Fecha ipyahuvéva raẽ",
             "true": "Fecha itujavéva primero"
         },
         "title": "LeetCode Ñembohasapyre"
