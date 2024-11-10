@@ -1,4 +1,4 @@
-import Language from "../../../types/ProgrammingLanguageProps"
+import Language from "../../../app/types/ProgrammingLanguageProps"
 
 export const emptyLanguages: Language[] = []
 

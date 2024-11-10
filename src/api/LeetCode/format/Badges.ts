@@ -1,4 +1,4 @@
-import BadgeProps from "../../../types/BadgeProps"
+import BadgeProps from "../../../app/types/BadgeProps"
 
 interface RawBadge {
 	id: string

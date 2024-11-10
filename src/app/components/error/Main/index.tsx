@@ -32,6 +32,7 @@ export const Main = async ({ lng, id }: ErrorPageProps) => {
 			{id === "404" && (
 				<Button href={"/" + fallbackLng}>
 					<MulticoloredName
+						local="error"
 						iconId="home"
 						legible
 						fontSize={32}
