@@ -1,6 +1,8 @@
 [[redirects]]
-  from = ""
+  from = "/"
   to = "/pt-BR"
   status = 200
+  force = true
+  
   [[plugins]]
   package = "@netlify/plugin-nextjs"
