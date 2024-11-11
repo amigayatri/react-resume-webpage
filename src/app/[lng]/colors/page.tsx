@@ -1,10 +1,11 @@
-import { languages, fallbackLng } from "../../i18n/settings"
-import { Main } from "../../components/error/Main"
-import { useTranslation } from "../../i18n"
-import ThemeClient from "./../../components/common/ThemeClient"
-import ErrorMain from "../../components/error/Main"
+import { languages, fallbackLng } from "../../../i18n/settings"
+import { Main } from "../../../components/colors/Main"
+import { useTranslation } from "../../../i18n"
+import ThemeClient from "../../../components/common/ThemeClient"
+import ErrorMain from "../../../components/error/Main"
+import PageProps from "../../../types/common/PageProps"
 
-export async function generateMetadata({ params }: { params: any }) {
+export async function generateMetadata({ params }: PageProps) {
 	let { lng } = await params
 	const lngNotFound = languages.indexOf(lng) < 0
 	if (lngNotFound) lng = fallbackLng
@@ -12,20 +13,14 @@ export async function generateMetadata({ params }: { params: any }) {
 	return {
 		title: {
 			default: t("base-title", {
-				pathTitle: lngNotFound ? t("path.404") : t("path.maintenance")
+				pathTitle: lngNotFound ? t("path.404") : t("path.colors")
 			})
 		},
 		content: t("content")
 	}
 }
 
-export default async function Page({
-	params
-}: {
-	params: {
-		lng: string
-	}
-}) {
+export default async function Page({ params }: PageProps) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) {
 		return (
@@ -36,7 +31,7 @@ export default async function Page({
 	}
 	return (
 		<ThemeClient onError={false} lng={lng}>
-			<Main id="maintenance" lng={lng} />
+			<Main lng={lng} />
 		</ThemeClient>
 	)
 }

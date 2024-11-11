@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "{{cityName}}, {{stateName}} থেকে ছুটির দিনগুলি যোগ করুন",
+    "labels": {
+        "state": "রাজ্য",
+        "city": "শহর"
+    },
+    "description": {
+        "extended": "দীর্ঘ সপ্তাহান্তে",
+        "midweek": "সপ্তাহে",
+        "weekends": "সপ্তাহান্তে"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "সপ্তাহে",
+            "true": "সপ্তাহান্তে"
+        }
+    },
+    "list": {
+        "year": "{{yearNumber}} ছুটির দিন"
+    },
+    "open": {
+        "false": "একটি শহর চয়ন করুন",
+        "true": "শহর নির্বাচক বন্ধ করুন"
+    },
+    "tabs": {
+        "next": "পরের বছর",
+        "this": "এই বছর"
+    },
+    "title": "ব্রাজিলের ছুটির দিন",
+    "types": {
+        "municipal": "পৌর",
+        "national": "জাতীয়"
+    },
+    "days-untill": "<1>{{daysUntill}}</1> দিন পর্যন্ত"
+}

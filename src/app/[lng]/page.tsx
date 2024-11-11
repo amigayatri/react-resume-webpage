@@ -1,15 +1,10 @@
-import { languages, fallbackLng } from "../i18n/settings"
-import { Main } from "../components/home/Main/"
-import ErrorMain from "../components/error/Main"
-import ThemeClient from "../components/common/ThemeClient"
+import { languages, fallbackLng } from "../../i18n/settings"
+import { Main } from "../../components/home/Main/"
+import ErrorMain from "../../components/error/Main"
+import ThemeClient from "../../components/common/ThemeClient"
+import PageProps from "../../types/common/PageProps"
 
-export default async function Page({
-	params
-}: {
-	params: {
-		lng: string
-	}
-}) {
+export default async function Page({ params }: PageProps) {
 	let { lng } = await params
 
 	if (languages.indexOf(lng) < 0)
@@ -19,7 +14,9 @@ export default async function Page({
 			</ThemeClient>
 		)
 
-	return <ThemeClient onError={false} lng={lng}>
-				<Main lng={lng} />
-			</ThemeClient> 
+	return (
+		<ThemeClient onError={false} lng={lng}>
+			<Main lng={lng} />
+		</ThemeClient>
+	)
 }

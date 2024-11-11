@@ -1,5 +1,5 @@
-import Holiday from "../../app/types/HolidayProps"
-import StateProps from "../../app/types/StateProps"
+import Holiday from "../../types/holidays/HolidayProps"
+import StateProps from "../../types/holidays/StateProps"
 interface RawHoliday {
 	type: string
 	date: string

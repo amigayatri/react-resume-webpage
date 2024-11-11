@@ -1,0 +1,49 @@
+{
+    "addColor": {
+        "buttons": {
+            "addMany": {
+                "hidden": "Adicionar várias cores",
+                "showing": "Esconder input de lista"
+            },
+            "addOne": {
+                "hidden": "Adicionar uma cor",
+                "showing": "Esconder seletor de cor"
+            },
+            "changeSteps": {
+                "hidden": "Alterar número de variações",
+                "showing": "Parar de alterar número de variações"
+            },
+            "targets": {
+                "hidden": "Alterar cores alvo",
+                "showing": "Pare de mudar as cores alvo"
+            }
+        },
+        "title": "Adicionar cor"
+    },
+    "colorList": {
+        "summary": {
+            "empty": "Você não tem nenhuma cor adicionada",
+            "nonEmpty": "Clique para remover"
+        },
+        "title": "Cores adicionadas"
+    },
+    "hero": {
+        "summary": "Cria variações da cor para preto e branco, o número padrão de variações é 10 em cada direção, mas pode ser alterado",
+        "title": "Gerador de Variação de Cores"
+    },
+    "shades": {
+        "code": "Variações de <1>{{colorCode}}</1>",
+        "from": "De <1>{{colorCode}}</1>",
+        "summary": "Clique para copiar o código!",
+        "title": "Tons",
+        "to": "para <1>{{colorCode}}</1>"
+    },
+    "targetList": {
+        "delete": {
+            "false": "Você precisa de pelo menos um par para gerar outras tonalidades.",
+            "true": "Clique em um par para removê-lo."
+        },
+        "summary": "Quando você adiciona uma cor como alvo, o inverso dela também é adicionado.",
+        "title": "Cores alvo"
+    }
+}

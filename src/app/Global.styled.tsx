@@ -1,7 +1,7 @@
 "use client"
 
 import { createGlobalStyle } from "styled-components"
-import { media } from "./constants/medias"
+import { media } from "../constants/medias"
 
 export const GlobalStyle = createGlobalStyle`
     :root {

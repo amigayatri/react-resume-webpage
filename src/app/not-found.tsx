@@ -1,9 +1,10 @@
-import { languages, fallbackLng } from "./i18n/settings"
-import { Main } from "./components/error/Main"
-import { useTranslation } from "./i18n"
-import ThemeClient from "./components/common/ThemeClient"
+import { languages, fallbackLng } from "../i18n/settings"
+import { Main } from "../components/error/Main"
+import { useTranslation } from "../i18n"
+import ThemeClient from "../components/common/ThemeClient"
+import PageProps from "../types/common/PageProps"
 
-export async function generateMetadata({ params }: { params: any }) {
+export async function generateMetadata({ params }: PageProps) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) lng = fallbackLng
 	const { t } = await useTranslation(lng, "metadata")

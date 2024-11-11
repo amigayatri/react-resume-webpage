@@ -1,4 +1,4 @@
-import Language from "../../../app/types/ProgrammingLanguageProps"
+import Language from "../../../types/leetcode/ProgrammingLanguageProps"
 
 export const emptyLanguages: Language[] = []
 

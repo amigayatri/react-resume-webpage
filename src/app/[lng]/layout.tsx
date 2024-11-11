@@ -1,7 +1,8 @@
-import { languages, fallbackLng } from "../i18n/settings"
-import { useTranslation } from "../i18n"
+import { languages, fallbackLng } from "../../i18n/settings"
+import { useTranslation } from "../../i18n"
+import PageProps from "../../types/common/PageProps"
 
-export async function generateMetadata({ params }: { params: any }) {
+export async function generateMetadata({ params }: PageProps) {
 	let { lng } = await params
 	const lngNotFound = languages.indexOf(lng) < 0
 	if (lngNotFound) {
@@ -17,16 +18,13 @@ export async function generateMetadata({ params }: { params: any }) {
 		content: t("content")
 	}
 }
-
+interface RootLayoutProps extends PageProps {
+	children: React.ReactNode
+}
 export default async function RootLayout({
 	children,
 	params
-}: {
-	children: React.ReactNode
-	params: {
-		lng: string
-	}
-}) {
+}: RootLayoutProps) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) {
 		lng = fallbackLng

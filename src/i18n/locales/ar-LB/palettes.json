@@ -1,0 +1,118 @@
+{
+    "add": "يضيف",
+    "addGroup": "الكل من {{groupName}}",
+    "addOne": {
+        "summary": "ستظهر اللوحة المختارة في القائمة أدناه.",
+        "title": "اختر لوحة لإضافتها"
+    },
+    "component": "<1>لوحة الألوان {{paletteName}} أو </1><2>{{paletteName}}</2>",
+    "groups": {
+        "brands": "العلامات التجارية",
+        "famous media": "وسائل الإعلام الشهيرة",
+        "places": "الأماكن",
+        "rainbow": "قوس قزح",
+        "schemes": "نظرية اللون",
+        "tech": "التقنيات",
+        "theme": "المواضيع"
+    },
+    "info": {
+        "copy all": "نسخ كافة الألوان",
+        "order": {
+            "original": "إبداعي",
+            "sorted": "أمر"
+        },
+        "summary": "انقر على اللون لنسخ الكود الخاص بهم"
+    },
+    "list": {
+        "summary": "ستنتقل مباشرة إلى اللوحة المختارة",
+        "title": "انقر فوق الاسم"
+    },
+    "names": {
+        "brands": {
+            "bk": "برجر كينج",
+            "cartoon": "شبكة الكرتون",
+            "coca-cola": "كوكا كولا",
+            "dominos": "الدومينو",
+            "lego": "ليغو",
+            "master": "ماستر كارد",
+            "mcdonalds": "ماكدونالدز",
+            "national geographic": "ناشيونال جيوغرافيك",
+            "pepsi": "بيبسي",
+            "trademarked": "الألوان التي يمكن أن تجعلك مقاضاة",
+            "visa": "فيزا"
+        },
+        "famous media": {
+            "adventure time": "وقت المغامرة",
+            "barbie": "باربي",
+            "bee": "نحلة",
+            "bmo": "بمو",
+            "cosmo and wanda": "كوزمو وواندا",
+            "emo": "ايمو",
+            "fairly odd parents": "آباء غريبون إلى حد ما",
+            "naruto": "ناروتو",
+            "sonic": "سونيك",
+            "turma da monica": "عصابة مونيكا"
+        },
+        "places": {
+            "brasil": "برازيلية",
+            "china": "الصينية",
+            "ecuador": "الاكوادورية",
+            "ghana": "الغاني",
+            "greece": "اليونانية",
+            "jamaica": "الجامايكي",
+            "lebanon": "لبناني",
+            "mexico": "مكسيكي",
+            "rioDeJaneiro": "من ريو",
+            "southAfrica": "جنوب افريقيا",
+            "syria": "السريانية",
+            "uruguay": "أوروغواي"
+        },
+        "rainbow": {
+            "dark rainbow": "قوس قزح مظلم",
+            "pastel rainbow": "قوس قزح الباستيل",
+            "rainbow monokai": "قوس قزح مونوكاي",
+            "regular rainbow": "قوس قزح منتظم"
+        },
+        "schemes": {
+            "cmyk": "كميك",
+            "crayola10": "عجلة ألوان كرايولا 1926",
+            "crayola12": "عجلة ألوان كرايولا 1930",
+            "goethe": "عجلة الألوان لغوته",
+            "grayscale16": "تدرج رمادي 4 بت",
+            "grayscale4": "تدرج رمادي 2 بت",
+            "mac16": "ابل ماكنتوش 16 لون",
+            "munsellCrayola": "ألوان كرايولا مونسل",
+            "newtown": "قرص نيوتاون الملون",
+            "rgb": "RGB",
+            "rgb 12": "عجلة الألوان RGB 12",
+            "rgb 8": "عجلة الألوان RGB 8",
+            "riscOS16": "لوحة RISC OS الافتراضية",
+            "vhs": "أشرطة الألوان VHS",
+            "web basics": "الويب الأساسية"
+        },
+        "tech": {
+            "baidu": "بايدو",
+            "facebook": "فيسبوك",
+            "firefox": "موزيلا فايرفوكس",
+            "google": "جوجل",
+            "microsoft": "مايكروسوفت",
+            "spotify": "سبوتيفي",
+            "tumblr": "نعرفكم",
+            "whatsapp": "واتس اب",
+            "wikipedia": "ويكيبيديا",
+            "youtube": "يوتيوب"
+        },
+        "theme": {
+            "current": "حاضِر",
+            "fullmonokai": "مونوكاي",
+            "grayscalemonokai": "مونوكاي الرمادي"
+        }
+    },
+    "option": "لوحة {{optionName}}",
+    "select": {
+        "label": "لوحات",
+        "group": "مجموعات لوحة",
+        "palette": "لوحات الألوان"
+    },
+    "title": "لوحات"
+}

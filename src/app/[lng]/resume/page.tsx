@@ -1,10 +1,11 @@
-import { languages, fallbackLng } from "../../i18n/settings"
-import { Main } from "../../components/resume/Main"
-import { useTranslation } from "../../i18n"
-import ThemeClient from "./../../components/common/ThemeClient"
-import ErrorMain from "../../components/error/Main"
+import { languages, fallbackLng } from "../../../i18n/settings"
+import { Main } from "../../../components/resume/Main"
+import { useTranslation } from "../../../i18n"
+import ThemeClient from "../../../components/common/ThemeClient"
+import ErrorMain from "../../../components/error/Main"
+import PageProps from "../../../types/common/PageProps"
 
-export async function generateMetadata({ params }: { params: any }) {
+export async function generateMetadata({ params }: PageProps) {
 	let { lng } = await params
 	const lngNotFound = languages.indexOf(lng) < 0
 	if (lngNotFound) lng = fallbackLng
@@ -18,13 +19,7 @@ export async function generateMetadata({ params }: { params: any }) {
 		content: t("content")
 	}
 }
-export default async function Page({
-	params
-}: {
-	params: {
-		lng: string
-	}
-}) {
+export default async function Page({ params }: PageProps) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) {
 		return (

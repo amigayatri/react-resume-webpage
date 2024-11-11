@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "Ces chiffres sont calculés en fonction de la session de navigation en cours, parcourez toutes les pages (y compris les pages d'erreur) pour voir les chiffres sans faux négatifs",
+        "more": {
+            "hide": "cacher",
+            "label": "{{actionVerb}} statistiques détaillées",
+            "show": "montrer"
+        },
+        "progress": {
+            "unused": "Inutilisé",
+            "used": "Utilisé"
+        },
+        "sections": {
+            "global": "Données mondiales",
+            "local": "Par emplacement : icônes avec l'emplacement '{{localKey}}'"
+        },
+        "title": "Statistiques d'utilisation des icônes"
+    },
+    "title": "Icônes disponibles"
+}

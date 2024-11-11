@@ -1,9 +1,10 @@
 import { dir } from "i18next"
-import { languages, fallbackLng } from "./i18n/settings"
-import { useTranslation } from "./i18n"
-import StyledComponentsRegistry from "./lib/registry"
+import { languages, fallbackLng } from "../i18n/settings"
+import { useTranslation } from "../i18n"
+import StyledComponentsRegistry from "../lib/registry"
+import PageProps from "../types/common/PageProps"
 
-export async function generateMetadata({ params }: { params: any }) {
+export async function generateMetadata({ params }: PageProps) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) {
 		lng = fallbackLng
@@ -16,16 +17,13 @@ export async function generateMetadata({ params }: { params: any }) {
 		content: t("content")
 	}
 }
-
+interface RootLayoutProps extends PageProps {
+	children: React.ReactNode
+}
 export default async function RootLayout({
 	children,
 	params
-}: {
-	children: React.ReactNode
-	params: {
-		lng: string
-	}
-}) {
+}: RootLayoutProps) {
 	let { lng } = await params
 	if (languages.indexOf(lng) < 0) {
 		lng = fallbackLng
@@ -38,8 +36,8 @@ export default async function RootLayout({
 					url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;700&display=swap');
 					@import
 					url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-					@import uimport DefaultLight from './../../themes/DefaultLight';
-					rl('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+					@import
+					url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 				</style>
 			</head>
 			<body>
