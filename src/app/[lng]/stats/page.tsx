@@ -1,5 +1,5 @@
 import { languages, fallbackLng } from "../../../i18n/settings"
-import { Main } from "../../../components/error/Main"
+import { Main } from "../../../components/stats/Main"
 import { useTranslation } from "../../../i18n"
 import ThemeClient from "../../../components/common/ThemeClient"
 import ErrorMain from "../../../components/error/Main"
@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: PageProps) {
 	return {
 		title: {
 			default: t("base-title", {
-				pathTitle: lngNotFound ? t("path.404") : t("path.maintenance")
+				pathTitle: lngNotFound ? t("path.404") : t("path.site-stats")
 			})
 		},
 		content: t("content")
@@ -31,7 +31,7 @@ export default async function Page({ params }: PageProps) {
 	}
 	return (
 		<ThemeClient onError={false} lng={lng}>
-			<Main id="maintenance" lng={lng} />
+			<Main lng={lng} />
 		</ThemeClient>
 	)
 }

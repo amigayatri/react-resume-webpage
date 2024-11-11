@@ -1,24 +1,24 @@
 {
+    "main": {
+        "title": "Estatísticas",
+        "list": {
+            "git": "Git"
+        }
+    },
     "git": {
         "graph": {
             "title": "{{actionName}} mensais"
         },
         "main": {
-            "title": "Estatísticas do repositório Git"
+            "title": "Estatísticas do repositório do Git"
         },
         "recent": {
             "commit": {
                 "more": "{{qtty}} commits",
-                "one": "{{qtty}} commit"
+                "one": "{{qtty}} confirmar"
             },
             "seeMore": "Mais em <1>{{linkName}}</1>",
-            "title": "Commits recentes"
+            "title": "Confirmações recentes"
         }
-    },
-    "main": {
-        "list": {
-            "git": "Git"
-        },
-        "title": "Estatísticas do site"
     }
 }
