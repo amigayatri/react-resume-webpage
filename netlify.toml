@@ -4,5 +4,10 @@
   status = 301
   force = true
   
+  from = "/pt"
+  to = "/pt-BR"
+  status= 301
+  force = true
+  
   [[plugins]]
   package = "@netlify/plugin-nextjs"
