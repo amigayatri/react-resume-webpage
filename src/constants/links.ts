@@ -29,7 +29,7 @@ export const extraPages: Link[] = [
 		isExternal: false
 	},
 	{
-		path: "site-stats",
+		path: "stats",
 		key: "pageList.sitestats.title",
 		icon: "chart",
 		isExternal: false
