@@ -1,2 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 200
   [[plugins]]
   package = "@netlify/plugin-nextjs"
