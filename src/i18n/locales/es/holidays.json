@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "Agregar días festivos de {{cityName}}, {{stateName}}",
+    "labels": {
+        "state": "Estado",
+        "city": "Ciudad"
+    },
+    "description": {
+        "extended": "fin de semana largo",
+        "midweek": "durante la semana",
+        "weekends": "el fin de semana"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "durante la semana",
+            "true": "el fin de semana"
+        }
+    },
+    "list": {
+        "year": "{{yearNumber}} Días festivos"
+    },
+    "open": {
+        "false": "Elige una ciudad",
+        "true": "Cerrar selector de ciudad"
+    },
+    "tabs": {
+        "next": "Al año que viene",
+        "this": "este año"
+    },
+    "title": "vacaciones brasileñas",
+    "types": {
+        "municipal": "Municipal",
+        "national": "Nacional"
+    },
+    "days-untill": "<1>{{daysUntill}}</1> días hasta"
+}

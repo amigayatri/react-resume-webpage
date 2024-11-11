@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next"
 import {
 	Wrapper,
 	ButtonWrapper,
@@ -23,18 +22,16 @@ import {
 	variationSteps,
 	addTarget
 } from "../../../lib/colors"
-import { getLangDir } from "rtl-detect"
 import { useTheme } from "styled-components"
+import BaseElement from "../../../types/common/BaseElementProps"
 
-const AddColor = ({
-	add,
-	regenerate
-}: {
+interface AddColorProps extends BaseElement {
 	add: (arg0: string) => void
 	regenerate: () => void
-}) => {
+}
+
+export const AddColor = ({ add, regenerate, t }: AddColorProps) => {
 	const theme = useTheme()
-	const { t, i18n } = useTranslation()
 	const [currColor, setCurrColor] = useState(theme.accent)
 	const [currTarget, setCurrTarget] = useState("#000000")
 	const [active, setActive] = useState("")
@@ -67,51 +64,46 @@ const AddColor = ({
 			setActive(nowActive)
 		}
 	}
-	const isRTL = getLangDir(i18n.language) === "rtl"
 	return (
 		<Wrapper>
-			<SectionTitle>{t("colors.addColor.title")}</SectionTitle>
-			<ButtonWrapper $isRTL={isRTL}>
+			<SectionTitle>{t("addColor.title")}</SectionTitle>
+			<ButtonWrapper>
 				<Button
-					$isRTL={isRTL}
 					$isActive={active === "target" || active === ""}
 					onClick={() => handleChangeActive("target")}
 				>
 					{active === "target"
-						? t("colors.addColor.buttons.targets.showing")
-						: t("colors.addColor.buttons.targets.hidden")}
+						? t("addColor.buttons.targets.showing")
+						: t("addColor.buttons.targets.hidden")}
 				</Button>
 				<Button
-					$isRTL={isRTL}
 					$isActive={active === "color" || active === ""}
 					onClick={() => handleChangeActive("color")}
 				>
 					{active === "color"
-						? t("colors.addColor.buttons.addOne.showing")
-						: t("colors.addColor.buttons.addOne.hidden")}
+						? t("addColor.buttons.addOne.showing")
+						: t("addColor.buttons.addOne.hidden")}
 				</Button>
 				<Button
-					$isRTL={isRTL}
 					$isActive={active === "text" || active === ""}
 					onClick={() => handleChangeActive("text")}
 				>
 					{active === "text"
-						? t("colors.addColor.buttons.addMany.showing")
-						: t("colors.addColor.buttons.addMany.hidden")}
+						? t("addColor.buttons.addMany.showing")
+						: t("addColor.buttons.addMany.hidden")}
 				</Button>
 				<Button
-					$isRTL={isRTL}
 					$isActive={active === "steps" || active === ""}
 					onClick={() => handleChangeActive("steps")}
 				>
 					{active === "steps"
-						? t("colors.addColor.buttons.changeSteps.showing")
-						: t("colors.addColor.buttons.changeSteps.hidden")}
+						? t("addColor.buttons.changeSteps.showing")
+						: t("addColor.buttons.changeSteps.hidden")}
 				</Button>
 			</ButtonWrapper>
 			<InputWrapper>
 				{active === "color" && (
-					<TargetWrapper $isRTL={isRTL}>
+					<TargetWrapper>
 						<ColorInput>
 							<HexInput onChange={setCurrColor} color={currColor} />
 							<ColorPicker onChange={setCurrColor} color={currColor} />
@@ -122,7 +114,6 @@ const AddColor = ({
 							<SelectedButton
 								$isActive={true}
 								onClick={() => handleColor(currColor)}
-								$isRTL={isRTL}
 							>
 								Adicione
 							</SelectedButton>
@@ -130,7 +121,7 @@ const AddColor = ({
 					</TargetWrapper>
 				)}
 				{active === "target" && (
-					<TargetWrapper $isRTL={isRTL}>
+					<TargetWrapper>
 						<ColorInput>
 							<HexInput onChange={setCurrTarget} color={currTarget} />
 							<ColorPicker onChange={setCurrTarget} color={currTarget} />
@@ -141,7 +132,6 @@ const AddColor = ({
 							<SelectedButton
 								$isActive={true}
 								onClick={() => handleTargets(currTarget)}
-								$isRTL={isRTL}
 							>
 								Adicione
 							</SelectedButton>

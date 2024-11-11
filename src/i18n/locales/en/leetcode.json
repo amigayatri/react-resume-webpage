@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Date: ",
+        "details": {
+            "false": "Click on a badge to see details!",
+            "true": "{{BadgeName}} successfully obtained!"
+        },
+        "icon": "Icon for {{BadgeName}} badge",
+        "summary": "The badges names are in english to match the name used at LeetCode.",
+        "title": "List of obtained badges"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "Simple Mode",
+            "true": "Detail mode"
+        },
+        "reverse": {
+            "false": "Newest date first",
+            "true": "Oldest date first"
+        },
+        "title": "LeetCode Submissions"
+    },
+    "languages": {
+        "summary": "Only the programming languages that have 5 or more problems done are listed here. Hover to see how many!",
+        "title": "Programming languages used"
+    },
+    "questions": {
+        "easy": "Easy",
+        "hard": "Difficult",
+        "medium": "Medium",
+        "title": "Solved questions"
+    },
+    "skills": {
+        "level": "{{level}} Skills",
+        "summary": "The problems have this division in LeetCode GraphQL API, the names are not translated.",
+        "title": "Skills List"
+    }
+}

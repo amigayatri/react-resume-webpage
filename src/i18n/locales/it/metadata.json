@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "Non trovato",
+        "brasil": "Mappa brasiliana",
+        "holidays": "Festività brasiliane",
+        "cats": "=^.^=",
+        "colors": "Colori",
+        "extra-languages": "Lingue aggiuntive",
+        "home": "Home page",
+        "icons": "Icone del progetto",
+        "leetcode": "LeetCode",
+        "maintenance": "Pagina in manutenzione",
+        "palette": "Tavolozze",
+        "resume": "Riprendere",
+        "site-stats": "Statistiche"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "Sito personale"
+}

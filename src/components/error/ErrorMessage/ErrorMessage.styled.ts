@@ -1,7 +1,9 @@
+"use client"
+
 import styled from "styled-components"
-import media from "../../../constants/medias"
+import { media } from "../../../constants/medias"
 import { whiteToBlack } from "../../../themes/animations/errors"
-import { Icon } from "../../../icons/Styles"
+import { Icon } from "../../common/SVGIcon/SVGIcon.styled"
 
 export const ErrorMessageWrapper = styled.section`
 	display: flex;
@@ -42,7 +44,7 @@ export const Message = styled.h1`
 	font-size: 2rem;
 	color: ${({ theme }) => theme.white};
 	margin-left: 16px;
-	width: 512px;
+	width: 100%;
 
 	${media.max.md} {
 		font-size: 1.75rem;

@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "Diese Zahlen werden auf Grundlage der aktuellen Browsersitzung berechnet. Durchsuchen Sie alle Seiten (einschließlich Fehlerseiten), um die Zahlen ohne falsche Negative zu sehen",
+        "more": {
+            "hide": "verstecken",
+            "label": "{{actionVerb}} detaillierte Statistiken",
+            "show": "zeigen"
+        },
+        "progress": {
+            "unused": "Unbenutzt",
+            "used": "Gebraucht"
+        },
+        "sections": {
+            "global": "Globale Daten",
+            "local": "Nach Standort: Symbole mit Standort '{{localKey}}'"
+        },
+        "title": "Statistiken zur Symbolnutzung"
+    },
+    "title": "Verfügbare Symbole"
+}

@@ -1,5 +1,7 @@
+"use client"
+
 import styled from "styled-components"
-import media from "../../../constants/medias"
+import { media } from "../../../constants/medias"
 
 export const Wrapper = styled.section`
 	padding: 32px 0;

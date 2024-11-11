@@ -1,8 +1,10 @@
-import styled from "styled-components";
-import media from "../../../constants/medias"
+"use client"
+
+import styled from "styled-components"
+import { media } from "../../../constants/medias"
 
 export const FooterWrapper = styled.footer`
-	background-color: ${({ theme }) => theme.black};
+	background-color: ${({ theme }) => theme.almostBlack};
 	color: ${({ theme }) => theme.white};
 	border-top: 1px solid ${({ theme }) => theme.primary};
 	font-size: 1.25rem;

@@ -1,3 +1,5 @@
+"use client"
+
 const device = {
 	xs: 400,
 	sm: 600,
@@ -7,7 +9,7 @@ const device = {
 	xxl: 1920
 }
 
-const media = {
+export const media = {
 	max: {
 		xs: `@media (max-width: ${device.xs - 1}px) `,
 		sm: `@media (max-width: ${device.sm - 1}px) `,
@@ -26,5 +28,3 @@ const media = {
 	},
 	print: `@media print `
 }
-
-export default media

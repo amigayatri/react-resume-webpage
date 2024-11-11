@@ -1,7 +1,9 @@
-import styled from "styled-components"
-import media from "../../../constants/medias"
+"use client"
 
-export const Wrapper = styled.div<{ $isRTL: boolean }>`
+import styled from "styled-components"
+import { media } from "../../../constants/medias"
+
+export const Wrapper = styled.div`
 	background-color: ${({ theme }) => theme.background};
 	position: relative;
 	padding: 0 0 32px;
@@ -12,8 +14,7 @@ export const Wrapper = styled.div<{ $isRTL: boolean }>`
 		transform: none;
 		margin-top: 0;
 		margin-bottom: 8px;
-		margin-left: ${({ $isRTL }) => ($isRTL ? "auto" : "var(--container)")};
-		margin-right: ${({ $isRTL }) => ($isRTL ? "var(--container)" : "auto")};
+		margin-left: var(--container);
 	}
 
 	${media.print} {
@@ -22,7 +23,7 @@ export const Wrapper = styled.div<{ $isRTL: boolean }>`
 	}
 `
 
-export const ContactList = styled.ul<{ $isRTL: boolean }>`
+export const ContactList = styled.ul`
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -32,7 +33,7 @@ export const ContactList = styled.ul<{ $isRTL: boolean }>`
 	${media.max.md} {
 		position: relative;
 		flex-direction: column;
-		align-items: ${({ $isRTL }) => ($isRTL ? "flex-end" : "flex-start")};
+		align-items: flex-start;
 	}
 `
 

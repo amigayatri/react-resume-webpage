@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Jetzt"
+    },
+    "download": {
+        "cta": "PDF herunterladen!",
+        "title": "{{fullName}} Lebenslauf"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Frontend-Webentwickler"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "B.Sc. "
+                }
+            },
+            "title": "Ausbildung"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Verwendung von React, Next.js, StyledComponents und TypeScript in Projekten, Zusammenarbeit mit dem mexikanischen Pepsico-Team.",
+                    "text": "Frontend-Entwickler bei Atip (Pepsico Partner)."
+                },
+                "encora": {
+                    "subitem": "Verwendung von React, Vue.js und Laravel in Projekten",
+                    "text": "Frontend-Entwickler bei Encora Brasilien."
+                },
+                "liven": {
+                    "subitem": "Verwendung von React und React Native in Projekten",
+                    "text": "Front-End Mobile Praktikant bei Liven. "
+                },
+                "partenero": {
+                    "subitem": "Verwendung von Firebase und Ember",
+                    "text": "Full-Stack-Praktikant bei Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Verwendung von React, WordPress, AMP, Next.js, PHP, HTML, Javascript und SCSS in Projekten. ",
+                    "text": "Frontend-Entwickler bei Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Verwendung von React, Next.js, Svelte, StyledComponents und TypeScript in Projekten.",
+                    "text": "Technischer Leiter bei TechViz."
+                }
+            },
+            "title": "Berufserfahrung"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Fortgeschrittenes Englisch"
+                },
+                "pt": {
+                    "text": "Muttersprachliches brasilianisches Portugiesisch"
+                }
+            },
+            "title": "Sprachen"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx-Web-Barrierefreiheitskurs"
+                },
+                "pet": {
+                    "text": "Zwei Semester lang Monitor im Informatikkurs für ältere Menschen an der PET Computação"
+                },
+                "principia": {
+                    "text": "Ein Semester lang ehrenamtlicher Beobachter für den Robotikunterricht an öffentlichen Schulen im Rahmen von „Principia – Robots at School“."
+                },
+                "shehacks": {
+                    "text": "Teilnehmer des Gewinnerteams (unter 20 Teams) von Shehacks, Hackathon in der Facebook-Zentrale"
+                },
+                "vemPraUSP": {
+                    "text": "Überwacht das Online-Programmierlehrprogramm „Vem Pra USP“ für Oberstufenschüler öffentlicher Schulen"
+                }
+            },
+            "title": "Projekte und Aktivitäten"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux und GIT"
+                },
+                "javascript": {
+                    "text": "React, Styled Components und Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js und Svelte"
+                },
+                "php": {
+                    "text": "WordPress, PHP und Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML und CSS"
+                }
+            },
+            "title": "Technologien"
+        }
+    },
+    "summary": {
+        "text": "Hat einen Abschluss in Informatik und verfügt über fünf Jahre Erfahrung in der Webentwicklung, hauptsächlich als Front-End-Entwickler. "
+    }
+}

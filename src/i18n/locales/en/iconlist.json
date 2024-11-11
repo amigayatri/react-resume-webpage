@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "These numbers are calculated based on the current browsing session, go through all pages (including error pages) to see the numbers without false negatives",
+        "more": {
+            "hide": "hide",
+            "label": "{{actionVerb}} detailed statistics",
+            "show": "show"
+        },
+        "progress": {
+            "unused": "Unused",
+            "used": "Used"
+        },
+        "sections": {
+            "global": "Global data",
+            "local": "By location: icons with location '{{localKey}}'"
+        },
+        "title": "Icon usage statistics"
+    },
+    "title": "Available icons"
+}

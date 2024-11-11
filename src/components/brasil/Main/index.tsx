@@ -1,12 +1,11 @@
-import { MainWrapper } from "./Main.styled"
-import BrazilianMap from "../BrazilianMap"
+import Element from "../../../types/common/ElementProps.ts"
+import { BrazilianMap } from "../BrazilianMap/client.tsx"
+import { MainBase } from "../../common/Main/MainBase.tsx"
 
-const Main = () => {
+export const Main = async ({ lng }: Element) => {
 	return (
-		<MainWrapper>
-			<BrazilianMap />
-		</MainWrapper>
+		<MainBase lng={lng}>
+			<BrazilianMap lng={lng} />
+		</MainBase>
 	)
 }
-
-export default Main

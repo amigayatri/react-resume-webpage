@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "لم يتم العثور عليه",
+        "brasil": "الخريطة البرازيلية",
+        "holidays": "العطل البرازيلية",
+        "cats": "=^.^=",
+        "colors": "اختلافات اللون",
+        "extra-languages": "لغات اضافية",
+        "home": "الصفحة الرئيسية",
+        "icons": "ايقونات المشروع",
+        "leetcode": "LeetCode",
+        "maintenance": "الصفحة تحت الصيانة",
+        "palette": "لوحات",
+        "resume": "سيرة ذاتية",
+        "site-stats": "احصائيات"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "Personal website"
+}

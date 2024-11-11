@@ -1,0 +1,61 @@
+{
+    "button": "Add {{animalCount}} photos of {{animalName}}",
+    "count": {
+        "decrease": "Reduce the number of photos",
+        "increase": "Increase the number of photos"
+    },
+    "empty": {
+        "hide": "Hide empty lists",
+        "show": "Show empty lists"
+    },
+    "list": {
+        "alpaca": {
+            "more": "alpacas",
+            "one": "alpaca"
+        },
+        "bird": {
+            "more": "Birds",
+            "one": "Bird"
+        },
+        "cat": {
+            "more": "Kittens",
+            "one": "kitten"
+        },
+        "dog": {
+            "more": "Dogs",
+            "one": "puppy"
+        },
+        "fish": {
+            "more": "Fish",
+            "one": "fish"
+        },
+        "fox": {
+            "more": "foxes",
+            "one": "fox"
+        },
+        "goose": {
+            "more": "geese",
+            "one": "goose"
+        },
+        "lizard": {
+            "more": "lizards",
+            "one": "lizard"
+        },
+        "panda": {
+            "more": "Panda bears",
+            "one": "Panda bear"
+        },
+        "rabbit": {
+            "more": "Rabbits",
+            "one": "Rabbit"
+        },
+        "redpanda": {
+            "more": "red pandas",
+            "one": "red panda"
+        }
+    },
+    "size": {
+        "decrease": "Reduce the size of photos",
+        "increase": "Increase the size of photos"
+    }
+}

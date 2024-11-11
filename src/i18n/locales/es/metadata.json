@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "Extraviado",
+        "brasil": "mapa brasileño",
+        "holidays": "Vacaciones brasileñas",
+        "cats": "=^.^=",
+        "colors": "Bandera",
+        "extra-languages": "Idiomas adicionales",
+        "home": "Página principal",
+        "icons": "Iconos de proyecto",
+        "leetcode": "Código Leet",
+        "maintenance": "Página en mantenimiento",
+        "palette": "Paletas",
+        "resume": "Reanudar",
+        "site-stats": "Estadísticas"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "sitio web personal"
+}

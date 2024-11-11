@@ -10,14 +10,17 @@ import {
 	CenterContent,
 	Days
 } from "./Holiday.styled"
-import HolidayProps from "../../../../types/HolidayProps"
-import { useTranslation } from "react-i18next"
-import SVGIcon from "../../../../icons/SVGIcon"
+import HolidayProps from "../../../../types/holidays/HolidayProps"
+import { SVGIcon } from "../../../common/SVGIcon/client"
+import { TFunction } from "i18next"
+import { Trans } from "react-i18next/TransWithoutContext"
 
 interface HolidayElementProps extends HolidayProps {
 	isWeekend: boolean
 	isPreWeekend: boolean
 	daysUntill: number
+	lng: string
+	t: TFunction<any, undefined>
 }
 
 const Holiday = ({
@@ -26,30 +29,32 @@ const Holiday = ({
 	date,
 	isPreWeekend,
 	isWeekend,
-	daysUntill
+	daysUntill,
+	t,
+	lng
 }: HolidayElementProps) => {
-	const { t, i18n } = useTranslation()
 	return (
 		<HolidayWrapper $isPreweekend={isPreWeekend} $isWeekend={isWeekend}>
 			<Name>{name}</Name>
 			<ContentWrapper>
 				<IconWrapper>
 					<SVGIcon
+						lng={lng}
 						local="holidays"
 						size={48}
 						id={isWeekend ? "sad" : isPreWeekend ? "superhappy" : "happy"}
 					/>
-					<Weekday>
-						{date.toLocaleDateString(i18n.language, { weekday: "long" })}
-					</Weekday>
+					<Weekday>{date.toLocaleDateString(lng, { weekday: "long" })}</Weekday>
 				</IconWrapper>
 				<CenterContent>
-					faltam<Days>{daysUntill}</Days> dias
+					<Trans t={t} i18nKey="days-untill" tOptions={{ daysUntill }}>
+						t<Days>l</Days>t
+					</Trans>
 				</CenterContent>
 				<Content>
-					<Type>{t(`brazilianHolidays.types.${type}`)}</Type>
+					<Type>{t(`types.${type}`)}</Type>
 					<DateSpan>
-						{date.toLocaleDateString(i18n.language, { dateStyle: "medium" })}
+						{date.toLocaleDateString(lng, { dateStyle: "medium" })}
 					</DateSpan>
 				</Content>
 			</ContentWrapper>

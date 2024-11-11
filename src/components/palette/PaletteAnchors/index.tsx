@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next"
-import PaletteInfoProps from "../../../types/PaletteInfoProps"
+import Element from "../../../types/common/ElementProps"
+import PaletteInfoProps from "../../../types/palette/PaletteInfoProps"
 import { Subtitle, Summary } from "../Common.styled"
 import {
 	PaletteAnchorsWrapper,
@@ -7,36 +7,36 @@ import {
 	AnchorList,
 	Item
 } from "./PaletteAnchors.styled"
-import MulticoloredName from "../../common/MulticoloredName"
-import palettesIcons from "../../../constants/palettes-icons"
+import { MulticoloredName } from "../../common/MulticoloredName/client"
+import palettesMap from "../../../constants/palettes"
+import { TFunction } from "i18next"
 
-interface PaletteAnchorsProps {
+interface PaletteAnchorsProps extends Element {
 	list: PaletteInfoProps[]
+	t: TFunction<any, undefined>
 }
 
-const PaletteAnchors = ({ list }: PaletteAnchorsProps) => {
-	const { t } = useTranslation()
-
+export const PaletteAnchors = ({ list, t, lng }: PaletteAnchorsProps) => {
 	return (
 		<PaletteAnchorsWrapper>
-			<Subtitle>{t("palettes.list.title")}</Subtitle>
-			<Summary>{t("palettes.list.summary")}</Summary>
+			<Subtitle>{t("list.title")}</Subtitle>
+			<Summary>{t("list.summary")}</Summary>
 			<AnchorList>
 				{list.map(({ group, name }, idx) => {
 					const id = `${group}-${name}`.replace(" ", "_")
-					const iconId = palettesIcons.custom.has(name)
-						? palettesIcons.custom.get(name)
-						: palettesIcons.group.get(group)
+					const iconId = palettesMap.get(group)?.get(name)?.icon
 					return (
 						<Item key={"palette-anchor-idx-" + idx}>
 							<Anchor href={`#${id}`}>
 								<MulticoloredName
+									local="palette"
+									lng={lng}
 									fontSize={20}
 									iconId={iconId}
 									legible
 									info={{ group, name }}
 								>
-									{t(`palettes.names.${group}.${name}`)}
+									{t(`names.${group}.${name}`)}
 								</MulticoloredName>
 							</Anchor>
 						</Item>

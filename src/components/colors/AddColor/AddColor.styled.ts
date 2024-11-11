@@ -1,23 +1,25 @@
+"use client"
+
 import styled from "styled-components"
-import media from "../../../constants/medias"
+import { media } from "../../../constants/medias"
 import { HexColorInput, HexColorPicker } from "react-colorful"
 
 export const Wrapper = styled.section`
 	padding: 32px 0;
 `
 
-export const ButtonWrapper = styled.div<{ $isRTL: boolean }>`
+export const ButtonWrapper = styled.div`
 	flex-direction: row;
 
 	${media.max.sm} {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: ${({ $isRTL }) => ($isRTL ? "flex-end" : "flex-start")};
+		align-items: flex-start;
 	}
 `
 
-export const Button = styled.button<{ $isRTL: boolean; $isActive: boolean }>`
+export const Button = styled.button<{ $isActive: boolean }>`
 	background-color: ${({ theme }) => theme.blue};
 	color: ${({ theme }) => theme.almostBlack};
 	border: none;
@@ -25,8 +27,7 @@ export const Button = styled.button<{ $isRTL: boolean; $isActive: boolean }>`
 		${({ theme }) => theme.fonts.backup};
 	padding: ${({ $isActive }) => ($isActive ? "8px 16px" : "0px")};
 	border-radius: 4px;
-	margin-right: ${({ $isRTL }) => ($isRTL ? "0" : "8px")};
-	margin-left: ${({ $isRTL }) => ($isRTL ? "8px" : "0")};
+	margin-right: 8px;
 	margin-bottom: 8px;
 	font-weight: 700;
 	cursor: pointer;
@@ -74,12 +75,12 @@ export const SelectedColor = styled.div<{ $bg: string }>`
 `
 
 export const SelectedText = styled.span``
-export const TargetWrapper = styled.div<{ $isRTL: boolean }>`
+export const TargetWrapper = styled.div`
 	display: flex;
 	align-items: center;
 	${media.max.sm} {
 		flex-direction: column;
-		align-items: ${({ $isRTL }) => ($isRTL ? "flex-end" : "flex-start")};
+		align-items: flex-start;
 	}
 `
 export const SelectedWrapper = styled.div`

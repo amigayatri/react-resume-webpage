@@ -1,8 +1,9 @@
-import styled from "styled-components"
-import { PDFDownloadLink } from "@react-pdf/renderer"
-import media from "../../../constants/medias"
+"use client"
 
-export const PDFDownload = styled(PDFDownloadLink)`
+import styled from "styled-components"
+import { media } from "../../../constants/medias"
+
+export const PDFDownload = styled.div`
 	padding: 8px 16px;
 	border-radius: 16px;
 	font-size: 1.25rem;

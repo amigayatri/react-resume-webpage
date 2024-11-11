@@ -1,3 +1,5 @@
+"use client"
+
 const pink = "#f92472",
 	purple = "#ac80ff",
 	blue = "#67d8ef",
@@ -86,7 +88,7 @@ const blueScroll = `
 	
 `
 
-const Monokai = {
+export const Monokai = {
 	black: "#000000",
 	almostBlack: almostBlack,
 	graphite: "#282923",
@@ -110,28 +112,3 @@ const Monokai = {
 	scroll: pinkScroll,
 	blueScroll
 }
-
-export const grayscaleMonokai = [
-	Monokai.black,
-	Monokai.almostBlack,
-	Monokai.graphite,
-	Monokai.darkGray,
-	Monokai.gray,
-	Monokai.lightGray,
-	Monokai.white,
-	Monokai.transparentGray
-]
-
-export const rainbowMonokai = [
-	Monokai.red,
-	Monokai.orange,
-	Monokai.yellow,
-	Monokai.green,
-	Monokai.blue,
-	Monokai.purple,
-	Monokai.pink
-]
-
-export const fullMonokai = [...grayscaleMonokai, ...rainbowMonokai]
-
-export default Monokai

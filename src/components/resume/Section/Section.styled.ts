@@ -1,4 +1,6 @@
-import styled from "styled-components";
+"use client"
+
+import styled from "styled-components"
 
 export const SectionIcon = styled.span`
 	height: 24px;
@@ -22,23 +24,23 @@ export const Wrapper = styled.section`
 `
 
 export const SectionList = styled.ul`
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 `
 
 export const SectionItem = styled.li`
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-top: 8px;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-top: 8px;
 `
 
 export const DateWrapper = styled.span``
 
 export const SubitemText = styled.p`
-    font-size: 1rem;
-    display: block;
-    width: 100%;
-    margin: 4px 0 8px;
-    font-weight: 300;
+	font-size: 1rem;
+	display: block;
+	width: 100%;
+	margin: 4px 0 8px;
+	font-weight: 300;
 `

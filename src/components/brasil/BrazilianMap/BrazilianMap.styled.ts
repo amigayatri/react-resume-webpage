@@ -1,5 +1,7 @@
+"use client"
+
 import styled from "styled-components"
-import media from "../../../constants/medias"
+import { media } from "../../../constants/medias"
 
 export const BrazilianMapWrapper = styled.section`
 	padding: 32px 0;
@@ -39,8 +41,8 @@ export const MapSVG = styled.svg`
 	min-width: 512px;
 	min-height: 512px;
 `
-export const SelectWrapper = styled.div`
-	bottom: 64px;
+export const SelectsWrapper = styled.div`
+	bottom: calc(var(--footer-size) + 32px);
 	left: var(--color-container);
 	position: fixed;
 	padding: 16px;
@@ -61,41 +63,4 @@ export const SelectWrapper = styled.div`
 		left: auto;
 		margin: 0 auto;
 	}
-`
-export const Select = styled.select`
-	text-transform: capitalize;
-	font-size: 1.5rem;
-	background-color: ${({ theme }) => theme.primary};
-	color: ${({ theme }) => theme.background};
-	border: 2px solid ${({ theme }) => theme.accent};
-	border-radius: 8px;
-	padding: 8px 8px 4px;
-	max-width: 320px;
-`
-
-export const Label = styled.label`
-	background-color: ${({ theme }) => theme.purple};
-	color: ${({ theme }) => theme.almostBlack};
-	position: absolute;
-	padding: 2px;
-	border-radius: 4px;
-	top: 2px;
-	left: 4px;
-`
-export const LabelWrapper = styled.span`
-	display: flex;
-	position: relative;
-	flex-direction: column;
-	margin-left: 16px;
-	padding: 16px 0 8px;
-	&:first-of-type {
-		margin-left: 0;
-	}
-	${media.max.lg} {
-		margin-left: 0;
-	}
-`
-export const Option = styled.option`
-	background-color: ${({ theme }) => theme.primary};
-	color: ${({ theme }) => theme.background};
 `

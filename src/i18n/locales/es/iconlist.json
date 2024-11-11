@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "Estos números se calculan en función de la sesión de navegación actual, revise todas las páginas (incluidas las páginas de error) para ver los números sin falsos negativos.",
+        "more": {
+            "hide": "esconder",
+            "label": "{{actionVerb}} estadísticas detalladas",
+            "show": "espectáculo"
+        },
+        "progress": {
+            "unused": "No usado",
+            "used": "Usado"
+        },
+        "sections": {
+            "global": "Datos globales",
+            "local": "Por ubicación: iconos con ubicación '{{localKey}}'"
+        },
+        "title": "Estadísticas de uso de iconos"
+    },
+    "title": "Iconos disponibles"
+}

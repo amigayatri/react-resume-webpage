@@ -1,56 +1,28 @@
-import { useTranslation } from "react-i18next"
-import {
-	LanguageSelectInput,
-	LanguageOption,
-	SelectWrapper,
-	Label
-} from "./LanguageSelect.styled"
-import LanguageProps from "../../../types/LanguageProps"
-interface LanguageSelectProps {
-	languages: LanguageProps[]
-	isExtra?: boolean
+import Element from "../../../types/common/ElementProps.ts"
+import { LanguageSelectBase } from "./LanguageSelectBase.tsx"
+import { useTranslation } from "../../../i18n/"
+import { ChangeEvent } from "react"
+
+export interface LanguageSelectProps extends Element {
+	isExtra: boolean
+	onError: boolean
+	onLanguageChange: (arg0: ChangeEvent<HTMLSelectElement>) => void
 }
 
-const LanguageSelect = ({
-	languages,
-	isExtra = false
+export const LanguageSelect = async ({
+	lng,
+	isExtra,
+	onLanguageChange,
+	onError
 }: LanguageSelectProps) => {
-	const { i18n, t } = useTranslation()
-	const onChangeLang = ({ target }: React.ChangeEvent<HTMLSelectElement>) => {
-		const langCode = target.value
-		i18n.changeLanguage(langCode)
-		document.documentElement.setAttribute("lang", langCode)
-	}
-	const notExtra = new Set(["pt-BR", "en"])
-	if (!isExtra && !notExtra.has(i18n.language)) {
-	}
-	const otherLang = !isExtra && !notExtra.has(i18n.language)
+	const { t } = await useTranslation(lng, "common")
 	return (
-		<SelectWrapper>
-			<Label htmlFor={(isExtra ? "extra-" : "nav-") + "language-select"}>
-				{t("menu.select.label")}
-			</Label>
-			<LanguageSelectInput
-				id={(isExtra ? "extra-" : "nav-") + "language-select"}
-				defaultValue={i18n.language}
-				onChange={onChangeLang}
-			>
-				{languages.map(({ code, name }) => (
-					<LanguageOption
-						key={(isExtra ? "extra-" : "nav-") + code}
-						value={code}
-					>
-						{isExtra ? t(`menu.languages.${code}`) + ` (${name})` : name}
-					</LanguageOption>
-				))}
-				{otherLang && (
-					<LanguageOption value={i18n.language}>
-						{t(`menu.languages.${i18n.language}`)}
-					</LanguageOption>
-				)}
-			</LanguageSelectInput>
-		</SelectWrapper>
+		<LanguageSelectBase
+			onLanguageChange={onLanguageChange}
+			lng={lng}
+			isExtra={isExtra}
+			onError={onError}
+			t={t}
+		/>
 	)
 }
-
-export default LanguageSelect

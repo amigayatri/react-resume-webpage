@@ -1,3 +1,4 @@
+import Element from "../../../types/common/ElementProps"
 import {
 	SelectWrapper,
 	SelectPalette,
@@ -7,17 +8,17 @@ import {
 	SelectSectionWrapper
 } from "./Select.styled"
 import palettesMap from "../../../constants/palettes"
-import { useTranslation } from "react-i18next"
 import { ChangeEvent } from "react"
 import { Subtitle, Summary } from "../Common.styled"
+import { TFunction } from "i18next"
 
-interface SelectProps {
+interface SelectProps extends Element {
 	showing: Map<string, Set<string>>
 	add: (group: string, name: string) => void
+	t: TFunction<any, undefined>
 }
 
-const Select = ({ add, showing }: SelectProps) => {
-	const { t } = useTranslation()
+const Select = ({ add, showing, t }: SelectProps) => {
 	const groups = Array.from(palettesMap.keys())
 	const handleSelect = ({ target }: ChangeEvent<HTMLSelectElement>) => {
 		const { value } = target
@@ -36,12 +37,10 @@ const Select = ({ add, showing }: SelectProps) => {
 	}
 	return (
 		<SelectSectionWrapper>
-			<Subtitle>{t("palettes.addOne.title")}</Subtitle>
-			<Summary>{t("palettes.addOne.summary")}</Summary>
+			<Subtitle>{t("addOne.title")}</Subtitle>
+			<Summary>{t("addOne.summary")}</Summary>
 			<SelectWrapper>
-				<Label htmlFor="palette-page-select">
-					{t("palettes.select.label")}
-				</Label>
+				<Label htmlFor="palette-page-select">{t("select.label")}</Label>
 				<SelectPalette
 					defaultValue={"_"}
 					id="palette-page-select"
@@ -52,13 +51,13 @@ const Select = ({ add, showing }: SelectProps) => {
 						const groupPalettes = Array.from(
 							palettesMap.get(group)?.keys() || []
 						)
-						const groupName = t(`palettes.groups.${group}`)
+						const groupName = t(`groups.${group}`)
 						const showingFromGroup = showing.get(group) || new Set()
 						if (showingFromGroup.size === groupPalettes.length) return
 						return (
 							<OptionGroup key={"palette-group-" + group} label={groupName}>
 								<Option value={"#" + group}>
-									{t("palettes.addGroup", { groupName })}
+									{t("addGroup", { groupName })}
 								</Option>
 								{groupPalettes.map((name) => {
 									if (showingFromGroup.has(name)) return
@@ -67,7 +66,7 @@ const Select = ({ add, showing }: SelectProps) => {
 											key={`group-${group}-${name}`}
 											value={`${group}_${name}`}
 										>
-											{t(`palettes.names.${group}.${name}`)}
+											{t(`names.${group}.${name}`)}
 										</Option>
 									)
 								})}

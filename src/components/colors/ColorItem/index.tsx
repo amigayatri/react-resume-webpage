@@ -1,6 +1,6 @@
 import { ColorTag, Wrapper } from "./ColorItem.styled"
 
-const ColorItem = (props: {
+export const ColorItem = (props: {
 	color: { code: string; inverse: string }
 	remove: (code: string) => void
 }) => {
@@ -11,4 +11,3 @@ const ColorItem = (props: {
 		</Wrapper>
 	)
 }
-export default ColorItem

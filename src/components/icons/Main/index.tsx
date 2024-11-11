@@ -1,17 +1,13 @@
-import { useTranslation } from "react-i18next"
-import IconList from "../IconList"
-import UsedIcons from "../UsedIcons"
-import { MainWrapper, Title } from "./Main.styled"
+import Element from "../../../types/common/ElementProps.ts"
+import { MainBase } from "../../common/Main/MainBase.tsx"
+import { IconList } from "../IconList/"
+import { Hero } from "../Hero/client.tsx"
 
-const Main = () => {
-	const { t } = useTranslation()
+export const Main = async ({ lng }: Element) => {
 	return (
-		<MainWrapper>
-			<Title>{t("iconlist.title")}</Title>
-			<UsedIcons />
-			<IconList />
-		</MainWrapper>
+		<MainBase lng={lng}>
+			<Hero lng={lng} />
+			<IconList lng={lng} />
+		</MainBase>
 	)
 }
-
-export default Main

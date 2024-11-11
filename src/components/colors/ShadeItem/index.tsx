@@ -6,7 +6,7 @@ interface ShadeItemProps {
 	code: string
 }
 
-const ShadeItem = ({ inverse, base, code }: ShadeItemProps) => {
+export const ShadeItem = ({ inverse, base, code }: ShadeItemProps) => {
 	return (
 		<Wrapper>
 			<Square
@@ -19,5 +19,3 @@ const ShadeItem = ({ inverse, base, code }: ShadeItemProps) => {
 		</Wrapper>
 	)
 }
-
-export default ShadeItem

@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "今"
+    },
+    "download": {
+        "cta": "PDFをダウンロードしてください！",
+        "title": "{{fullName}}の履歴書"
+    },
+    "header": {
+        "name": "アミラ・ガヤトリ・エル・アサド・ヘンペル",
+        "subheading": "フロントエンドWeb開発者"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "理学士\nブラジル、サンカルロス州サンパウロ大学のコンピューターサイエンス"
+                }
+            },
+            "title": "教育"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "プロジェクトで React、Next.js、StyledComponents、TypeScript を使用し、メキシコのペプシコ チームと協力しています。",
+                    "text": "Atip (Pepsico Partner) のフロントエンド開発者。"
+                },
+                "encora": {
+                    "subitem": "プロジェクトでの React、Vue.js、Laravel の使用",
+                    "text": "Encora ブラジルのフロントエンド開発者。"
+                },
+                "liven": {
+                    "subitem": "プロジェクトでの React と React Native の使用",
+                    "text": "Liven のフロントエンド モバイル インターン。"
+                },
+                "partenero": {
+                    "subitem": "Firebase と Ember の使用",
+                    "text": "パルテネロのフルスタックインターン。"
+                },
+                "raccoon": {
+                    "subitem": "プロジェクトでの React、WordPress、AMP、Next.js、StyledComponets、PHP、HTML、JavaScript、SCSS の使用。\n開発者ギルドのリーダーとしても活動し、知識交換ミーティングやインターンのトレーニングを主導しています。",
+                    "text": "Raccoon.Monks のフロントエンド開発者。"
+                },
+                "techviz": {
+                    "subitem": "プロジェクトでの React、Next.js、Svelte、StyledComponents、TypeScript の使用。",
+                    "text": "TechViz の技術責任者。"
+                }
+            },
+            "title": "専門的な経験"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "上級英語"
+                },
+                "pt": {
+                    "text": "ブラジル系ポルトガル語ネイティブ"
+                }
+            },
+            "title": "言語"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "W3Cx Web アクセシビリティ コース"
+                },
+                "pet": {
+                    "text": "PET Computação の高齢者向けコンピュータ サイエンス コースの 2 学期のモニター"
+                },
+                "principia": {
+                    "text": "「プリンキピア - 学校でのロボット」を通じた公立学校でのロボット教育のボランティアモニターを1学期限定で実施"
+                },
+                "shehacks": {
+                    "text": "Facebook本社で開催されたハッカソン、Shehacksの優勝チーム（20チーム中）の参加者"
+                },
+                "vemPraUSP": {
+                    "text": "公立高校生向けオンラインプログラミング教育プログラム「Vem Pra USP」をモニター"
+                }
+            },
+            "title": "プロジェクトと活動"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux と GIT"
+                },
+                "javascript": {
+                    "text": "React、スタイル付きコンポーネント、Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS、AMP、React Native、Vue.js、Svelte"
+                },
+                "php": {
+                    "text": "WordPress、PHP、Laravel"
+                },
+                "webbasics": {
+                    "text": "JavaScript、HTML、CSS"
+                }
+            },
+            "title": "テクノロジー"
+        }
+    },
+    "summary": {
+        "text": "コンピューター サイエンスを卒業し、主にフロントエンド開発者として Web 開発に 5 年間の経験があります。 \nReact や WordPress をはじめとするプログラミング言語やフレームワークに関する豊富な経験。\nウェブアクセシビリティにも興味があります。"
+    }
+}

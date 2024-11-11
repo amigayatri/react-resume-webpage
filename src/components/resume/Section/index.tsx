@@ -7,10 +7,15 @@ import {
 	SubitemText,
 	DateWrapper
 } from "./Section.styled"
-import TranslatedSectionProps from "../../../types/TranslatedSectionProps"
-import SVGIcon from "../../../icons/SVGIcon"
+import TranslatedSectionProps from "../../../types/resume/TranslatedSectionProps.ts"
+import { SVGIcon } from "../../common/SVGIcon/client.tsx"
 
-const Section = ({ section }: { section: TranslatedSectionProps }) => {
+interface SectionProps {
+	lng: string
+	section: TranslatedSectionProps
+}
+
+const Section = ({ section, lng }: SectionProps) => {
 	const showItem = (item: string, idx: number) => {
 		return (
 			<SectionItem key={section.title + "-" + item}>
@@ -29,7 +34,7 @@ const Section = ({ section }: { section: TranslatedSectionProps }) => {
 		<Wrapper>
 			<SectionTitle>
 				<SectionIcon>
-					<SVGIcon local="resume" size={24} id={section.icon} />
+					<SVGIcon lng={lng} local="resume" size={24} id={section.icon} />
 				</SectionIcon>
 				{section.title}
 			</SectionTitle>

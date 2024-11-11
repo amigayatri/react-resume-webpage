@@ -1,0 +1,118 @@
+{
+    "add": "Добавлять",
+    "addGroup": "Все из {{groupName}}",
+    "addOne": {
+        "summary": "Выбранная палитра появится в списке ниже.",
+        "title": "Выберите палитру для добавления"
+    },
+    "component": "<1>Палитра {{paletteName}} или </1><2>{{paletteName}</2>",
+    "groups": {
+        "brands": "бренды",
+        "famous media": "известные СМИ",
+        "places": "места",
+        "rainbow": "радуга",
+        "schemes": "Теория цвета",
+        "tech": "Технологии",
+        "theme": "темы"
+    },
+    "info": {
+        "copy all": "Скопируйте все цвета",
+        "order": {
+            "original": "Оригинал",
+            "sorted": "Заказал"
+        },
+        "summary": "Нажмите на цвет, чтобы скопировать его код"
+    },
+    "list": {
+        "summary": "Вы перейдете непосредственно к выбранной палитре.",
+        "title": "Нажмите на имя"
+    },
+    "names": {
+        "brands": {
+            "bk": "Бургер Кинг",
+            "cartoon": "Мультяшная сеть",
+            "coca-cola": "Кока-Кола",
+            "dominos": "Домино'с",
+            "lego": "лего",
+            "master": "МастерКард",
+            "mcdonalds": "Макдональдс",
+            "national geographic": "национальный географический",
+            "pepsi": "пепси",
+            "trademarked": "Цвета, за которые можно подать в суд",
+            "visa": "виза"
+        },
+        "famous media": {
+            "adventure time": "Время приключений",
+            "barbie": "Барби",
+            "bee": "пчела",
+            "bmo": "БМО",
+            "cosmo and wanda": "Космо и Ванда",
+            "emo": "эмо",
+            "fairly odd parents": "довольно странные родители",
+            "naruto": "Наруто",
+            "sonic": "звуковой",
+            "turma da monica": "банда Моники"
+        },
+        "places": {
+            "brasil": "Бразильский",
+            "china": "китайский",
+            "ecuador": "эквадорский",
+            "ghana": "Ганский",
+            "greece": "греческий",
+            "jamaica": "Ямайский",
+            "lebanon": "ливанский",
+            "mexico": "Мексиканский",
+            "rioDeJaneiro": "Из Рио",
+            "southAfrica": "Южноафриканский",
+            "syria": "сирийский",
+            "uruguay": "Уругвай"
+        },
+        "rainbow": {
+            "dark rainbow": "темная радуга",
+            "pastel rainbow": "пастельная радуга",
+            "rainbow monokai": "монокай радуга",
+            "regular rainbow": "обычная радуга"
+        },
+        "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "Цветовой круг Крайолы, 1926 год.",
+            "crayola12": "Цветовой круг Крайолы, 1930 год.",
+            "goethe": "Цветовой круг Гете",
+            "grayscale16": "4-битная шкала серого",
+            "grayscale4": "2-битная шкала серого",
+            "mac16": "Apple Macintosh 16 цветов",
+            "munsellCrayola": "Цвета Манселла Crayola",
+            "newtown": "Цветной диск Ньютауна",
+            "rgb": "RGB",
+            "rgb 12": "Цветовой круг RGB 12",
+            "rgb 8": "Цветовой круг RGB 8",
+            "riscOS16": "Палитра по умолчанию ОС RISC",
+            "vhs": "Цветные полосы VHS",
+            "web basics": "Веб-базовый"
+        },
+        "tech": {
+            "baidu": "Байду",
+            "facebook": "Фейсбук",
+            "firefox": "Мозилла Фаерфокс",
+            "google": "Google",
+            "microsoft": "Майкрософт",
+            "spotify": "обнаружить",
+            "tumblr": "Тамблер",
+            "whatsapp": "WhatsApp",
+            "wikipedia": "Википедия",
+            "youtube": "ютуб"
+        },
+        "theme": {
+            "current": "текущий",
+            "fullmonokai": "Монокай",
+            "grayscalemonokai": "Монокай в оттенках серого"
+        }
+    },
+    "option": "Палитра {{optionName}}",
+    "select": {
+        "label": "Палитры",
+        "group": "Группы палитр",
+        "palette": "Цветовые палитры"
+    },
+    "title": "Палитры"
+}

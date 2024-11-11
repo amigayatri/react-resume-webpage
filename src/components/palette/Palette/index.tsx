@@ -1,3 +1,4 @@
+import Element from "../../../types/common/ElementProps"
 import {
 	PaletteWrapper,
 	PaletteColor,
@@ -12,32 +13,30 @@ import {
 	ControlWrapper,
 	ButtonWrapper
 } from "./Palette.styled"
-import PaletteType from "../../../types/PaletteProps"
-import PaletteInfoProps from "../../../types/PaletteInfoProps"
-import { useTranslation, Trans } from "react-i18next"
+import PaletteType from "../../../types/palette/PaletteProps"
+import PaletteInfoProps from "../../../types/palette/PaletteInfoProps"
+import { Trans } from "react-i18next/TransWithoutContext"
 import { Summary } from "../Common.styled"
-import MulticoloredName from "../../common/MulticoloredName"
-import SVGIcon from "../../../icons/SVGIcon"
-import palettesIcons from "../../../constants/palettes-icons"
+import { MulticoloredName } from "../../common/MulticoloredName/client"
+import { SVGIcon } from "../../common/SVGIcon/client"
 import { sortColors } from "../../../lib/rgb"
 import { useState } from "react"
-interface PaletteProps {
+import { TFunction } from "i18next"
+
+interface PaletteProps extends Element {
 	palette: PaletteType
 	info: PaletteInfoProps
+	t: TFunction<any, undefined>
 }
 
-const Palette = ({ palette, info }: PaletteProps) => {
-	const { t } = useTranslation()
+const Palette = ({ palette, info, t, lng }: PaletteProps) => {
 	const { group, name } = info
 	const [showSorted, setShowSorted] = useState(false)
 	const [ascending, setAscending] = useState(false)
-	const iconId = palettesIcons.custom.has(name)
-		? palettesIcons.custom.get(name)
-		: palettesIcons.group.get(group)
 	const id = `${group}-${name}`.replace(" ", "_")
 	const stringify = (str: string) => `"${str}"`
-	const codes: string[] = Array.from(palette, stringify)
-	const sorted = sortColors(palette)
+	const codes: string[] = Array.from(palette.colors, stringify)
+	const sorted = sortColors(palette.colors)
 	const sortedCodes: string[] = Array.from(sorted, stringify)
 	const allCodes = !showSorted
 		? `[${codes.join(", ")}]`
@@ -60,12 +59,15 @@ const Palette = ({ palette, info }: PaletteProps) => {
 		<PaletteSection id={id}>
 			<PaletteName>
 				<Trans
-					i18nKey="palettes.component"
-					tOptions={{ paletteName: t(`palettes.names.${group}.${name}`) }}
+					t={t}
+					i18nKey="component"
+					tOptions={{ paletteName: t(`names.${group}.${name}`) }}
 				>
 					t<NormalText>s</NormalText>
 					<MulticoloredName
-						iconId={iconId || "pantone"}
+						local="palette"
+						lng={lng}
+						iconId={palette.icon || "pantone"}
 						fontSize={24}
 						legible={false}
 						info={info}
@@ -75,7 +77,7 @@ const Palette = ({ palette, info }: PaletteProps) => {
 				</Trans>
 			</PaletteName>
 			<Description>
-				<Summary>{t("palettes.info.summary")}</Summary>
+				<Summary>{t("info.summary")}</Summary>
 				<ButtonWrapper>
 					<ControlWrapper>
 						<ControlButton
@@ -84,7 +86,7 @@ const Palette = ({ palette, info }: PaletteProps) => {
 								setShowSorted(false)
 							}}
 						>
-							<SVGIcon local="palette" size={32} id="listunordered" />
+							<SVGIcon lng={lng} local="palette" size={32} id="listunordered" />
 						</ControlButton>
 						<ControlButton
 							$selected={showSorted && ascending}
@@ -95,7 +97,12 @@ const Palette = ({ palette, info }: PaletteProps) => {
 								}
 							}}
 						>
-							<SVGIcon local="palette" size={32} id="listsortedascending" />
+							<SVGIcon
+								lng={lng}
+								local="palette"
+								size={32}
+								id="listsortedascending"
+							/>
 						</ControlButton>
 						<ControlButton
 							$selected={showSorted && !ascending}
@@ -106,22 +113,34 @@ const Palette = ({ palette, info }: PaletteProps) => {
 								}
 							}}
 						>
-							<SVGIcon local="palette" size={32} id="listsorteddescending" />
+							<SVGIcon
+								lng={lng}
+								local="palette"
+								size={32}
+								id="listsorteddescending"
+							/>
 						</ControlButton>
 					</ControlWrapper>
 					<CopyPalette onClick={() => navigator.clipboard.writeText(allCodes)}>
-						<MulticoloredName iconId="copy" fontSize={16} legible info={info}>
-							{t("palettes.info.copy all")}
+						<MulticoloredName
+							lng={lng}
+							local="palette"
+							iconId="copy"
+							fontSize={16}
+							legible
+							info={info}
+						>
+							{t("info.copy all")}
 						</MulticoloredName>
 					</CopyPalette>
 				</ButtonWrapper>
 			</Description>
 			<SubTitle>
-				{t(`palettes.info.order.${showSorted ? "sorted" : "original"}`)}
+				{t(`info.order.${showSorted ? "sorted" : "original"}`)}
 			</SubTitle>
 			<PaletteWrapper>
 				{!showSorted
-					? palette.map(showColor)
+					? palette.colors.map(showColor)
 					: ascending
 					? sorted.map(showColor)
 					: sorted.reverse().map(showColor)}

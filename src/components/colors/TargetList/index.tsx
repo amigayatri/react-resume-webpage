@@ -1,17 +1,14 @@
-import { useTranslation } from "react-i18next"
 import { Wrapper, ListWrapper, Target, PairWrapper } from "./TargetList.styled"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { removeTarget } from "../../../lib/colors"
+import BaseElement from "../../../types/common/BaseElementProps"
 
-const TargetList = ({
-	targets,
-	regenerate
-}: {
+interface TargetListProps extends BaseElement {
 	updatedList: boolean
 	targets: string[][]
 	regenerate: () => void
-}) => {
-	const { t } = useTranslation()
+}
+export const TargetList = ({ targets, regenerate, t }: TargetListProps) => {
 	const handleDelete = (key: string) => {
 		if (targets.length === 1) return
 		removeTarget(key)
@@ -19,11 +16,9 @@ const TargetList = ({
 	}
 	return (
 		<Wrapper>
-			<SectionTitle>{t("colors.targetList.title")}</SectionTitle>
-			<SubHeading>{t("colors.targetList.summary")}</SubHeading>
-			<SubHeading>
-				{t(`colors.targetList.delete.${targets.length > 1}`)}
-			</SubHeading>
+			<SectionTitle>{t("targetList.title")}</SectionTitle>
+			<SubHeading>{t("targetList.summary")}</SubHeading>
+			<SubHeading>{t(`targetList.delete.${targets.length > 1}`)}</SubHeading>
 			<ListWrapper>
 				{targets.map(([from, to], idx) => {
 					return (
@@ -45,5 +40,3 @@ const TargetList = ({
 		</Wrapper>
 	)
 }
-
-export default TargetList

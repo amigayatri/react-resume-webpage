@@ -1,51 +1,8 @@
-import { Wrapper, ListWrapper } from "./PageList.styled"
-import ExternalLink from "../ExternalLink"
-import InternalLink from "../InternalLink"
-import externals from "../../../constants/externals"
-import PageProps from "../../../types/PageProps"
-import ExternalLinkProps from "../../../types/ExternalLinkProps"
-import { pages, extraPages, underMaintenance } from "../../../constants/pages"
-import { useTranslation } from "react-i18next"
-import { getLangDir } from "rtl-detect"
+import Element from "../../../types/common/ElementProps"
+import { PageListBase } from "./PageListBase"
+import { useTranslation } from "../../../i18n/"
 
-const PageList = () => {
-	const { i18n } = useTranslation()
-	const isRTL = getLangDir(i18n.language) === "rtl"
-	return (
-		<Wrapper>
-			<ListWrapper>
-				{pages.map(
-					(page: PageProps, index: number) =>
-						!page.isHome &&
-						!underMaintenance.has(page.path) && (
-							<InternalLink
-								isRTL={isRTL}
-								key={"page-item-number-" + index}
-								page={page}
-							/>
-						)
-				)}
-				{externals.map((external: ExternalLinkProps, index: number) => (
-					<ExternalLink
-						isRTL={isRTL}
-						link={external}
-						key={"external-item-number-" + index}
-					/>
-				))}
-				{extraPages.map(
-					(page: PageProps, index: number) =>
-						!page.isHome &&
-						!underMaintenance.has(page.path) && (
-							<InternalLink
-								isRTL={isRTL}
-								key={"page-item-number-" + index}
-								page={page}
-							/>
-						)
-				)}
-			</ListWrapper>
-		</Wrapper>
-	)
+export const PageList = async ({ lng }: Element) => {
+	const { t } = await useTranslation(lng, "home")
+	return <PageListBase t={t} lng={lng} />
 }
-
-export default PageList

@@ -1,29 +1,8 @@
-import { ToggleWrapper } from "./Toggle.styled"
-import SVGIcon from "../../../icons/SVGIcon"
-import ToggleProps from "../../../types/ToggleProps"
+import { useTranslation } from "../../../i18n/"
+import { ToggleBase } from "./ToggleBase.tsx"
+import { ToggleProps } from "../../../types/common/ToggleProps.ts"
 
-const Toggle = ({ state, icon, stateChangeFN, ariaLabel }: ToggleProps) => {
-	return (
-		<ToggleWrapper
-			tabIndex={0}
-			aria-label={ariaLabel}
-			onClick={() => stateChangeFN()}
-			onKeyDown={(e) => e.key === "enter" && stateChangeFN()}
-		>
-			{icon.shouldChange ? (
-				<SVGIcon
-					local="toggle"
-					toggle
-					size={16}
-					id={
-						state === icon.trueValAsStr ? icon.options.true : icon.options.false
-					}
-				/>
-			) : (
-				<SVGIcon local="toggle" toggle size={16} id={icon.id} />
-			)}
-		</ToggleWrapper>
-	)
+export const Toggle = async (props: ToggleProps) => {
+	const { t } = await useTranslation(props.lng, "common")
+	return <ToggleBase t={t} {...props} />
 }
-
-export default Toggle

@@ -1,15 +1,17 @@
-import HolidayProps from "../../../types/HolidayProps"
+import HolidayProps from "../../../types/holidays/HolidayProps"
 import { HolidayListWrapper, List, Title } from "./HolidayList.styled"
 import Holiday from "./Holiday"
-import { useTranslation } from "react-i18next"
 import Typewriter from "react-ts-typewriter"
+import BaseElement from "../../../types/common/BaseElementProps"
+import { TFunction } from "i18next"
 const weekend = new Set([6, 0])
 const preWeekend = new Set([1, 5])
-interface HolidayListProps {
+interface HolidayListProps extends BaseElement {
 	list: HolidayProps[]
+	t: TFunction<any, undefined>
 }
 
-const HolidayList = ({ list }: HolidayListProps) => {
+export const HolidayList = ({ list, t, lng }: HolidayListProps) => {
 	const calculateHolidayInfo = ({ date, name, type }: HolidayProps) => {
 		const weekday = date.getDay()
 		const isWeekend = weekend.has(weekday)
@@ -25,9 +27,8 @@ const HolidayList = ({ list }: HolidayListProps) => {
 		.sort((a, b) => a.daysUntill - b.daysUntill)
 	const year =
 		list.length >= 1 ? list[0].date.getFullYear() : new Date().getFullYear()
-	const { t } = useTranslation()
 	const nationalDates = new Set()
-	const title = t("brazilianHolidays.list.year", { yearNumber: year })
+	const title = t("list.year", { yearNumber: year })
 	return (
 		<HolidayListWrapper>
 			<Title>
@@ -40,11 +41,16 @@ const HolidayList = ({ list }: HolidayListProps) => {
 					} else if (nationalDates.has(holiday.daysUntill)) {
 						return
 					}
-					return <Holiday key={"holiday-" + year + idx} {...holiday} />
+					return (
+						<Holiday
+							lng={lng}
+							t={t}
+							key={"holiday-" + year + idx}
+							{...holiday}
+						/>
+					)
 				})}
 			</List>
 		</HolidayListWrapper>
 	)
 }
-
-export default HolidayList

@@ -1,13 +1,13 @@
-import PaletteGroupProps from "../types/PaletteGroupProps"
-import rainbow from "./palettesGroup/rainbow"
-import media from "./palettesGroup/media"
-import themes from "./palettesGroup/theme"
-import brands from "./palettesGroup/brands"
-import places from "./palettesGroup/places"
-import tech from "./palettesGroup/tech"
-import schemes from "./palettesGroup/schemes"
+import PaletteGroup from "../types/palette/PaletteGroupProps"
+import { brands } from "./palettes/brands"
+import { media } from "./palettes/media"
+import { places } from "./palettes/places"
+import { schemes } from "./palettes/schemes"
+import { tech } from "./palettes/tech"
+import { rainbow } from "./palettes/rainbow"
+import { themes } from "./palettes/themes"
 
-const palettesMap: Map<string, PaletteGroupProps> = new Map([
+export const palettesMap: Map<string, PaletteGroup> = new Map([
 	["theme", themes],
 	["rainbow", rainbow],
 	["famous media", media],

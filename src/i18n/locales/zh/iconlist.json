@@ -1,0 +1,20 @@
+{
+    "stats": {
+        "disclaimer": "这些数字是根据当前浏览会话计算的，浏览所有页面（包括错误页面）以查看没有漏报的数字",
+        "more": {
+            "hide": "隐藏",
+            "label": "{{actionverb}}详细统计",
+            "show": "展示"
+        },
+        "progress": {
+            "unused": "未使用",
+            "used": "用过的"
+        },
+        "sections": {
+            "global": "全球数据",
+            "local": "按位置：位置为 {{localKey}} 的图标"
+        },
+        "title": "图标使用统计"
+    },
+    "title": "可用图标"
+}

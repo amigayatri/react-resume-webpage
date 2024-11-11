@@ -1,7 +1,9 @@
+"use client"
+
 import styled from "styled-components"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import { ProgressWrapper } from "../../common/Progress/Progress.styled"
-import media from "../../../constants/medias"
+import { media } from "../../../constants/medias"
 
 export const UsedIconsWrapper = styled.section`
 	text-align: center;

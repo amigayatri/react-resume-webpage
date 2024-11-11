@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "Emoĩve arete {{cityName}}, {{stateName}} guive.",
+    "labels": {
+        "state": "Teko",
+        "city": "Táva"
+    },
+    "description": {
+        "extended": "Fin de semana pukukue",
+        "midweek": "Arapokõindy aja",
+        "weekends": "Arapokõindy pahápe"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "Arapokõindy aja",
+            "true": "Arapokõindy pahápe"
+        }
+    },
+    "list": {
+        "year": "{{añoNumber}} Ary guasu"
+    },
+    "open": {
+        "false": "Eiporavo peteĩ táva",
+        "true": "Omboty táva poravohára"
+    },
+    "tabs": {
+        "next": "Ambue arýpe",
+        "this": "Ko arýpe"
+    },
+    "title": "Ára guasu Brasil-pegua",
+    "types": {
+        "municipal": "Municipal rehegua",
+        "national": "Tetãygua"
+    },
+    "days-untill": "<1>{{áraPeteĩ}}</1> ára peve"
+}

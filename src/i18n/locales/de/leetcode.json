@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Datum:",
+        "details": {
+            "false": "Klicken Sie auf ein Abzeichen, um Details anzuzeigen!",
+            "true": "{{BadgeName}} erfolgreich erhalten!"
+        },
+        "icon": "Symbol für das Abzeichen „{{BadgeName}}“.",
+        "summary": "Die Namen der Ausweise sind in Englisch und entsprechen dem Namen, der bei LeetCode verwendet wird.",
+        "title": "Liste der erhaltenen Abzeichen"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "Einfacher Modus",
+            "true": "Detailmodus"
+        },
+        "reverse": {
+            "false": "Neuestes Datum zuerst",
+            "true": "Ältestes Datum zuerst"
+        },
+        "title": "LeetCode-Einreichungen"
+    },
+    "languages": {
+        "summary": "Hier werden nur die Programmiersprachen aufgeführt, bei denen 5 oder mehr Probleme gelöst wurden. \nBewegen Sie den Mauszeiger, um zu sehen, wie viele es sind!",
+        "title": "Verwendete Programmiersprachen"
+    },
+    "questions": {
+        "easy": "Einfach",
+        "hard": "Schwierig",
+        "medium": "Medium",
+        "title": "Gelöste Fragen"
+    },
+    "skills": {
+        "level": "{{level}} Skills",
+        "summary": "Die Probleme haben diese Aufteilung in der LeetCode GraphQL API, die Namen werden nicht übersetzt.",
+        "title": "Liste der Fähigkeiten"
+    }
+}

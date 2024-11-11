@@ -1,17 +1,20 @@
-import { useTranslation } from "react-i18next"
 import { Wrapper, ListWrapper } from "./ShadeList.styled"
-import ShadeSubSection from "../ShadeSubSection"
+import { ShadeSubSection } from "../ShadeSubSection"
 import { Color } from "../../../lib/colors"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { useEffect, useState } from "react"
-
-interface PropsType {
+import BaseElement from "../../../types/common/BaseElementProps"
+interface ShadeListProps extends BaseElement {
 	regenerate: () => Color[]
 	updatedList: boolean
 }
 
-const ShadeList = ({ regenerate, updatedList }: PropsType) => {
-	const { t } = useTranslation()
+export const ShadeList = ({
+	regenerate,
+	updatedList,
+	t,
+	lng
+}: ShadeListProps) => {
 	const emptyColors: Color[] = []
 	const [list, setList] = useState(emptyColors)
 	useEffect(() => {
@@ -20,15 +23,18 @@ const ShadeList = ({ regenerate, updatedList }: PropsType) => {
 	}, [updatedList])
 	return (
 		<Wrapper>
-			<SectionTitle>{t("colors.shades.title")}</SectionTitle>
-			<SubHeading>{t("colors.shades.summary")}</SubHeading>
+			<SectionTitle>{t("shades.title")}</SectionTitle>
+			<SubHeading>{t("shades.summary")}</SubHeading>
 			<ListWrapper>
 				{list.map((color, idx) => (
-					<ShadeSubSection key={`shade-${idx}-${color.code}`} color={color} />
+					<ShadeSubSection
+						t={t}
+						lng={lng}
+						key={`shade-${idx}-${color.code}`}
+						color={color}
+					/>
 				))}
 			</ListWrapper>
 		</Wrapper>
 	)
 }
-
-export default ShadeList

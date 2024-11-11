@@ -1,12 +1,13 @@
-import { MainWrapper } from "./Styles"
-import PageList from "../PageList"
+import Element from "../../../types/common/ElementProps.ts"
+import { PageList } from "../PageList/"
+import { Hero } from "../Hero/"
+import { MainBase } from "../../common/Main/MainBase.tsx"
 
-const Main = () => {
+export const Main = async ({ lng }: Element) => {
 	return (
-		<MainWrapper>
-			<PageList />
-		</MainWrapper>
+		<MainBase lng={lng}>
+			<Hero lng={lng} />
+			<PageList lng={lng} />
+		</MainBase>
 	)
 }
-
-export default Main

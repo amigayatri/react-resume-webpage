@@ -1,28 +1,8 @@
-import { IconListWrapper, List, IconItem, Id, Icon } from "./IconList.styled"
-import icons from "../../../constants/icons-map"
-import SVGIcon from "../../../icons/SVGIcon"
-import { rainbowMonokai } from "../../../themes/Monokai"
+import Element from "../../../types/common/ElementProps"
+import { IconListBase } from "./IconListBase"
+import { useTranslation } from "../../../i18n/"
 
-const IconList = () => {
-	const iconsIds = Array.from(icons.keys())
-	return (
-		<IconListWrapper>
-			<List>
-				{iconsIds.map((id, idx) => (
-					<IconItem key={"icon-with-id-" + id}>
-						id: <Id>{id}</Id>
-						<Icon
-							style={{
-								color: rainbowMonokai[idx % rainbowMonokai.length]
-							}}
-						>
-							<SVGIcon local="iconlist" id={id} size={48} />
-						</Icon>
-					</IconItem>
-				))}
-			</List>
-		</IconListWrapper>
-	)
+export const IconList = async ({ lng }: Element) => {
+	const { t } = await useTranslation(lng, "iconlist")
+	return <IconListBase t={t} lng={lng} />
 }
-
-export default IconList

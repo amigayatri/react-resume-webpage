@@ -9,14 +9,14 @@ import {
 	TargetWrapper,
 	Code
 } from "./ShadeSubSection.styled"
-import ShadeItem from "../ShadeItem"
-import { Trans } from "react-i18next"
-
-interface PropType {
+import { ShadeItem } from "../ShadeItem"
+import { Trans } from "react-i18next/TransWithoutContext"
+import BaseElement from "../../../types/common/BaseElementProps"
+interface ShadeSubSectionProps extends BaseElement {
 	color: Color
 }
 
-const ShadeSubSection = ({ color }: PropType) => {
+export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 	const currCode = color.code
 	const currInverse = color.palette.inverse
 	const variations = Array.from(color.variations.entries())
@@ -43,7 +43,7 @@ const ShadeSubSection = ({ color }: PropType) => {
 			<TargetWrapper key={`variations-${currCode}-from-${code}-to-${inverse}`}>
 				<PairWrapper>
 					<ShadeSubtitle>
-						<Trans tOptions={{ colorCode: code }} i18nKey="colors.shades.from">
+						<Trans t={t} tOptions={{ colorCode: code }} i18nKey="shades.from">
 							t
 							<Code $color={code} $inverse={inverse}>
 								l
@@ -52,7 +52,7 @@ const ShadeSubSection = ({ color }: PropType) => {
 						</Trans>
 					</ShadeSubtitle>
 					<ShadeSubtitle>
-						<Trans tOptions={{ colorCode: inverse }} i18nKey="colors.shades.to">
+						<Trans t={t} tOptions={{ colorCode: inverse }} i18nKey="shades.to">
 							t
 							<Code $color={inverse} $inverse={code}>
 								l
@@ -71,7 +71,7 @@ const ShadeSubSection = ({ color }: PropType) => {
 	return (
 		<Wrapper>
 			<ShadeTitle>
-				<Trans tOptions={{ colorCode: currCode }} i18nKey="colors.shades.code">
+				<Trans t={t} tOptions={{ colorCode: currCode }} i18nKey="shades.code">
 					t
 					<Code $color={currCode} $inverse={currInverse}>
 						l
@@ -83,5 +83,3 @@ const ShadeSubSection = ({ color }: PropType) => {
 		</Wrapper>
 	)
 }
-
-export default ShadeSubSection

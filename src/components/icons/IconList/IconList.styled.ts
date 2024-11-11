@@ -1,5 +1,7 @@
+"use client"
+
 import styled from "styled-components"
-import media from "../../../constants/medias"
+import { media } from "../../../constants/medias"
 
 export const IconListWrapper = styled.section``
 export const List = styled.ul`

@@ -1,0 +1,19 @@
+{
+  "path": {
+    "404": "未找到",
+    "brasil": "巴西地图",
+    "holidays": "巴西假期",
+    "cats": "=^.^=",
+    "colors": "颜色变化",
+    "extra-languages": "额外语言",
+    "home": "主页",
+    "icons": "项目图标",
+    "leetcode": "Leet代码",
+    "maintenance": "页面正在维护中",
+    "palette": "调色板",
+    "resume": "恢复",
+    "site-stats": "统计数据"
+  },
+  "base-title": "{{pathTitle}} | Amira Gayatri",
+  "content": "网站佩索阿尔"
+}

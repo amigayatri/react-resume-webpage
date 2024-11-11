@@ -1,9 +1,11 @@
-import styled from "styled-components";
+"use client"
+
+import styled from "styled-components"
 
 export const HeaderWrapper = styled.header`
-    padding: 16px var(--container);
-    position: relative;
-`;
+	padding: 16px var(--container);
+	position: relative;
+`
 
 export const Name = styled.h1`
 	font-family: "Fira code", monospace;
@@ -13,9 +15,9 @@ export const Name = styled.h1`
 `
 
 export const SubHeading = styled.h2`
-    font-family: 'Fira code', monospace;
-    font-weight: 500;
-    font-style: italic;
-    margin: 8px 0 0;
-    line-height: 1;
+	font-family: "Fira code", monospace;
+	font-weight: 500;
+	font-style: italic;
+	margin: 8px 0 0;
+	line-height: 1;
 `

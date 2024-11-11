@@ -1,30 +1,8 @@
-import { useTranslation, Trans } from "react-i18next"
-import { FooterWrapper, Link, SecondaryLink } from "./Footer.styled"
-import linkProps from "../../../constants/linkprops"
+import { useTranslation } from "../../../i18n/"
+import { FooterBase } from "./FooterBase.tsx"
+import Element from "../../../types/common/ElementProps.ts"
 
-const Footer = () => {
-	const { i18n } = useTranslation()
-	const year = new Date("2024/02/01").toLocaleDateString(i18n.language, {
-		year: "numeric"
-	})
-	const tOptions = { name: "Amira Gayatri", year }
-	return (
-		<FooterWrapper>
-			<Trans i18nKey="footer.text" tOptions={tOptions}>
-				t
-				<Link
-					{...linkProps}
-					href="https://github.com/amigayatri/react-resume-webpage"
-				>
-					l
-				</Link>
-				<SecondaryLink {...linkProps} href="https://github.com/amigayatri/">
-					l
-				</SecondaryLink>
-				t
-			</Trans>
-		</FooterWrapper>
-	)
+export const Footer = async ({ lng }: Element) => {
+	const { t } = await useTranslation(lng, "common")
+	return <FooterBase t={t} lng={lng} />
 }
-
-export default Footer

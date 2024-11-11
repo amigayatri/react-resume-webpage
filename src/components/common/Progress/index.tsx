@@ -1,27 +1,25 @@
-import ProgressProps from "../../../types/ProgressBarProps"
-import ProgressCircle from "./Circle"
-import ProgressBar from "./Bar"
+import ElementProps from "../../../types/common/ElementProps"
+import { ProgressBase } from "./ProgressBase"
 
-const Progress = ({ type, title, progress, color, size }: ProgressProps) => {
-	if (type === "circle")
-		return (
-			<ProgressCircle
-				size={size}
-				color={color}
-				title={title}
-				progress={progress}
-			/>
-		)
-	else if (type === "bar") {
-		return (
-			<ProgressBar
-				size={size}
-				color={color}
-				title={title}
-				progress={progress}
-			/>
-		)
+interface ProgressProps {
+	done: number
+	total: number
+	acceptance?: number
+}
+
+export interface ProgressBarProps extends ElementProps {
+	title: string
+	progress: ProgressProps
+	color: {
+		done: string
+		total: string
 	}
 }
 
-export default Progress
+export interface ProgressElementProps extends ProgressBarProps {
+	type: string
+}
+
+export const Progress = (props: ProgressElementProps) => {
+	return <ProgressBase {...props} />
+}

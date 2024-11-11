@@ -1,0 +1,38 @@
+{
+    "badges": {
+        "date": "Data:",
+        "details": {
+            "false": "Click in signum ad singula!",
+            "true": "{{BadgeName}} feliciter obtinuit!"
+        },
+        "icon": "Icon pro {{BadgeName}} nota",
+        "summary": "Insignia nomina in anglicus sunt ut nomen par in LeetCode adhibitum.",
+        "title": "Index adeptus insignia"
+    },
+    "heatmap": {
+        "mode": {
+            "false": "Simple Modus",
+            "true": "Detail modus"
+        },
+        "reverse": {
+            "false": "Novissima date primum",
+            "true": "Seniorem date primum"
+        },
+        "title": "LeetCode Submissionibus"
+    },
+    "languages": {
+        "summary": "Solae programmationis linguae quae 5 vel plures difficultates aguntur, hic enumerantur. \nQuot volitant videre!",
+        "title": "Programmatio linguarum usus"
+    },
+    "questions": {
+        "easy": "Securus",
+        "hard": "Difficilis",
+        "medium": "Medium",
+        "title": "Solvitur quaestiones"
+    },
+    "skills": {
+        "level": "{{level}} Artes",
+        "summary": "Problemata hanc divisionem in LeetCode GraphQL API habent, nomina non transferuntur.",
+        "title": "Artes List"
+    }
+}

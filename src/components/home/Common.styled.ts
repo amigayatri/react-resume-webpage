@@ -1,5 +1,7 @@
+"use client"
+
 import styled from "styled-components"
-import media from "../../constants/medias"
+import { media } from "../../constants/medias"
 
 export const ButtonWrapper = styled.li`
 	margin: 0 auto;
@@ -10,11 +12,11 @@ export const ButtonWrapper = styled.li`
 	}
 `
 
-export const ButtonStyle = styled.div<{ $isRTL: boolean }>`
+export const ButtonStyle = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: ${({ $isRTL }) => ($isRTL ? "row-reverse" : "row")};
+	flex-direction: row;
 	padding: 24px 32px;
 	border-radius: 16px;
 	border: 4px solid currentColor;

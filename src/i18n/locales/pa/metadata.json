@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "ਨਹੀਂ ਲਭਿਆ",
+        "brasil": "ਬ੍ਰਾਜ਼ੀਲ ਦਾ ਨਕਸ਼ਾ",
+        "holidays": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ",
+        "cats": "=^।^=",
+        "colors": "ਰੰਗ",
+        "extra-languages": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ",
+        "home": "ਹੋਮਪੇਜ",
+        "icons": "ਪ੍ਰੋਜੈਕਟ ਆਈਕਾਨ",
+        "leetcode": "ਲੀਟਕੋਡ",
+        "maintenance": "ਪੰਨਾ ਦੇਖਭਾਲ ਅਧੀਨ ਹੈ",
+        "palette": "ਪੈਲੇਟਸ",
+        "resume": "ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ",
+        "site-stats": "ਅੰਕੜੇ"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "ਨਿੱਜੀ ਵੈੱਬਸਾਈਟ"
+}

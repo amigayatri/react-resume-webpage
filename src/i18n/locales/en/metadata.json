@@ -1,0 +1,19 @@
+{
+    "path": {
+        "404": "Not found",
+        "brasil": "Brazilian map",
+        "holidays": "Brazilian Holidays",
+        "cats": "=^.^=",
+        "colors": "Colors",
+        "extra-languages": "Extra languages",
+        "home": "Homepage",
+        "icons": "Project icons",
+        "leetcode": "LeetCode",
+        "maintenance": "Page going under maintenance",
+        "palette": "Palettes",
+        "resume": "Resume",
+        "site-stats": "Stats"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "Personal website"
+}

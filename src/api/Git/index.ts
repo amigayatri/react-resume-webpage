@@ -12,9 +12,10 @@ class GitAPI {
 	link: string
 	constructor({ repo, user }: GitAPIProps) {
 		this.info = { repo, user }
-		const auth = import.meta.env.DEV
-			? { auth: import.meta.env.VITE_API_GIT_TOKEN }
-			: {}
+		// const auth = import.meta.env.DEV
+		// 	? { auth: import.meta.env.VITE_API_GIT_TOKEN }
+		// 	: {}
+		const auth = {}
 		const octokit = new Octokit(auth)
 		this.octo = octokit
 		this.link = ""

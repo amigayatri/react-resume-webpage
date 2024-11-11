@@ -1,0 +1,118 @@
+{
+    "add": "ਸ਼ਾਮਲ ਕਰੋ",
+    "addGroup": "ਸਾਰੇ {{groupName}} ਤੋਂ",
+    "addOne": {
+        "summary": "ਚੁਣਿਆ ਪੈਲੇਟ ਹੇਠਾਂ ਦਿੱਤੀ ਸੂਚੀ ਵਿੱਚ ਦਿਖਾਈ ਦੇਵੇਗਾ।",
+        "title": "ਜੋੜਨ ਲਈ ਇੱਕ ਪੈਲੇਟ ਚੁਣੋ"
+    },
+    "component": "<1>ਪੈਲੇਟ {{paletteName}} ਜਾਂ </1><2>{{paletteName}}</2>",
+    "groups": {
+        "brands": "ਬ੍ਰਾਂਡ",
+        "famous media": "ਮਸ਼ਹੂਰ ਮੀਡੀਆ",
+        "places": "ਸਥਾਨ",
+        "rainbow": "ਸਤਰੰਗੀ ਪੀਂਘ",
+        "schemes": "ਰੰਗ ਸਿਧਾਂਤ",
+        "tech": "ਤਕਨਾਲੋਜੀਆਂ",
+        "theme": "ਥੀਮ"
+    },
+    "info": {
+        "copy all": "ਸਾਰੇ ਰੰਗਾਂ ਦੀ ਨਕਲ ਕਰੋ",
+        "order": {
+            "original": "ਮੂਲ",
+            "sorted": "ਆਰਡਰ ਕੀਤਾ"
+        },
+        "summary": "ਉਹਨਾਂ ਦੇ ਕੋਡ ਨੂੰ ਕਾਪੀ ਕਰਨ ਲਈ ਇੱਕ ਰੰਗ 'ਤੇ ਕਲਿੱਕ ਕਰੋ"
+    },
+    "list": {
+        "summary": "ਤੁਸੀਂ ਸਿੱਧੇ ਚੁਣੇ ਹੋਏ ਪੈਲੇਟ 'ਤੇ ਜਾਓਗੇ",
+        "title": "ਨਾਮ 'ਤੇ ਕਲਿੱਕ ਕਰੋ"
+    },
+    "names": {
+        "brands": {
+            "bk": "ਬਰਗਰ ਕਿੰਗ",
+            "cartoon": "ਕਾਰਟੂਨ ਨੈੱਟਵਰਕ",
+            "coca-cola": "ਕੋਕਾ-ਕੋਲਾ",
+            "dominos": "ਡੋਮਿਨੋਜ਼",
+            "lego": "ਲੇਗੋ",
+            "master": "ਮਾਸਟਰਕਾਰਡ",
+            "mcdonalds": "ਮੈਕਡੋਨਲਡਜ਼",
+            "national geographic": "ਰਾਸ਼ਟਰੀ ਭੂਗੋਲਿਕ",
+            "pepsi": "ਪੈਪਸੀ",
+            "trademarked": "ਉਹ ਰੰਗ ਜੋ ਤੁਹਾਨੂੰ ਮੁਕੱਦਮਾ ਕਰਵਾ ਸਕਦੇ ਹਨ",
+            "visa": "ਵੀਜ਼ਾ"
+        },
+        "famous media": {
+            "adventure time": "ਸਾਹਸੀ ਸਮਾਂ",
+            "barbie": "ਬਾਰਬੀ",
+            "bee": "ਮੱਖੀ",
+            "bmo": "ਬੀ.ਐੱਮ.ਓ",
+            "cosmo and wanda": "ਕੋਸਮੋ ਅਤੇ ਵਾਂਡਾ",
+            "emo": "emo",
+            "fairly odd parents": "ਕਾਫ਼ੀ ਅਜੀਬ ਮਾਪੇ",
+            "naruto": "naruto",
+            "sonic": "ਸੋਨਿਕ",
+            "turma da monica": "ਮੋਨਿਕਾ ਦਾ ਗੈਂਗ"
+        },
+        "places": {
+            "brasil": "ਬ੍ਰਾਜ਼ੀਲੀਅਨ",
+            "china": "ਚੀਨੀ",
+            "ecuador": "ਇਕਵਾਡੋਰੀਅਨ",
+            "ghana": "ਘਾਨਾਆਈ",
+            "greece": "ਯੂਨਾਨੀ",
+            "jamaica": "ਜਮਾਇਕਨ",
+            "lebanon": "ਲੇਬਨਾਨੀ",
+            "mexico": "ਮੈਕਸੀਕਨ",
+            "rioDeJaneiro": "ਰੀਓ ਤੋਂ",
+            "southAfrica": "ਦੱਖਣੀ ਅਫ਼ਰੀਕੀ",
+            "syria": "ਸੀਰੀਆਕ",
+            "uruguay": "ਉਰੂਗਵੇ"
+        },
+        "rainbow": {
+            "dark rainbow": "ਹਨੇਰਾ ਸਤਰੰਗੀ ਪੀਂਘ",
+            "pastel rainbow": "ਪੇਸਟਲ ਸਤਰੰਗੀ ਪੀ",
+            "rainbow monokai": "ਮੋਨੋਕਾਈ ਸਤਰੰਗੀ ਪੀਂਘ",
+            "regular rainbow": "ਨਿਯਮਤ ਸਤਰੰਗੀ ਪੀ"
+        },
+        "schemes": {
+            "cmyk": "CMYK",
+            "crayola10": "ਕ੍ਰੇਓਲਾ ਦਾ ਕਲਰ ਵ੍ਹੀਲ 1926",
+            "crayola12": "ਕ੍ਰੇਓਲਾ ਦਾ ਰੰਗ ਚੱਕਰ 1930",
+            "goethe": "ਗੋਏਥੇ ਦਾ ਰੰਗ ਚੱਕਰ",
+            "grayscale16": "4-ਬਿੱਟ ਗ੍ਰੇਸਕੇਲ",
+            "grayscale4": "2-ਬਿੱਟ ਗ੍ਰੇਸਕੇਲ",
+            "mac16": "Apple Macintosh 16-ਰੰਗ",
+            "munsellCrayola": "Crayola ਦੇ munsell ਰੰਗ",
+            "newtown": "ਨਿਊਟਾਊਨ ਦੀ ਰੰਗ ਡਿਸਕ",
+            "rgb": "ਆਰ.ਜੀ.ਬੀ",
+            "rgb 12": "ਆਰਜੀਬੀ ਕਲਰ ਵ੍ਹੀਲ 12",
+            "rgb 8": "ਆਰਜੀਬੀ ਕਲਰ ਵ੍ਹੀਲ 8",
+            "riscOS16": "RISC OS ਡਿਫੌਲਟ ਪੈਲੇਟ",
+            "vhs": "VHS ਕਲਰ ਬਾਰ",
+            "web basics": "ਵੈੱਬ ਬੇਸਿਕ"
+        },
+        "tech": {
+            "baidu": "ਬਾਇਡੂ",
+            "facebook": "ਫੇਸਬੁੱਕ",
+            "firefox": "ਮੋਜ਼ੀਲਾ ਫਾਇਰਫਾਕਸ",
+            "google": "google",
+            "microsoft": "microsoft",
+            "spotify": "spotify",
+            "tumblr": "tumblr",
+            "whatsapp": "whatsapp",
+            "wikipedia": "ਵਿਕੀਪੀਡੀਆ",
+            "youtube": "youtube"
+        },
+        "theme": {
+            "current": "ਮੌਜੂਦਾ",
+            "fullmonokai": "ਮੋਨੋਕਾਈ",
+            "grayscalemonokai": "ਮੋਨੋਕਾਈ ਗ੍ਰੇਸਕੇਲ"
+        }
+    },
+    "option": "{{optionName}} ਪੈਲੇਟ",
+    "select": {
+        "label": "ਪੈਲੇਟਸ",
+        "group": "ਪੈਲੇਟ ਗਰੁੱਪ",
+        "palette": "ਰੰਗ ਪੈਲੇਟ"
+    },
+    "title": "ਪੈਲੇਟਸ"
+}

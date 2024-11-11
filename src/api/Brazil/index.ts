@@ -1,5 +1,5 @@
-import Holiday from "../../types/HolidayProps"
-import StateProps from "../../types/StateProps"
+import Holiday from "../../types/holidays/HolidayProps"
+import StateProps from "../../types/holidays/StateProps"
 interface RawHoliday {
 	type: string
 	date: string
@@ -18,7 +18,7 @@ const municipalHolidays: Map<string, Map<string, RawMunicipal[]>> = new Map()
 
 const readJsonState = async (state: string) => {
 	const response = await fetch(
-		"../../../public/brazilian-holidays/" + state.toLowerCase() + ".json"
+		"/brazilian-holidays/" + state.toLowerCase() + ".json"
 	)
 	const list = await response.json()
 	return list
@@ -103,6 +103,7 @@ class BrazilianAPI {
 		}
 	}
 	getCities = async (state: string) => {
+		if (state === "") return []
 		if (!citiesByState.has(state)) {
 			this.cities = []
 			const route = "ibge/municipios/v1/"

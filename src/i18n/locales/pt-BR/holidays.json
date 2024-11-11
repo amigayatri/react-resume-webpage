@@ -1,0 +1,35 @@
+{
+    "addMunicipal": "Adicionar feriados de {{cityName}}, {{stateName}}",
+    "labels": {
+        "state": "Estado",
+        "city": "Cidade"
+    },
+    "description": {
+        "extended": "Fim de semana prolongado",
+        "midweek": "Durante a semana",
+        "weekends": "No fim de semana"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "Durante a semana",
+            "true": "No fim de semana"
+        }
+    },
+    "list": {
+        "year": "Feriados de {{yearNumber}}"
+    },
+    "open": {
+        "false": "Escolha uma cidade",
+        "true": "Feche seletor de cidade"
+    },
+    "tabs": {
+        "next": "Ano que vem",
+        "this": "Este ano"
+    },
+    "title": "Feriados brasileiros",
+    "types": {
+        "municipal": "Municipal",
+        "national": "Nacional"
+    },
+    "days-untill": "Faltam <1>{{daysUntill}}</1> dias"
+}

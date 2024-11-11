@@ -1,0 +1,106 @@
+{
+    "dates": {
+        "now": "Atualmente"
+    },
+    "download": {
+        "cta": "Baixe o pdf!",
+        "title": "Currículo {{fullName}}"
+    },
+    "header": {
+        "name": "Amira Gayatri El Assad Hempel",
+        "subheading": "Desenvolvedora Web Front-end"
+    },
+    "sections": {
+        "education": {
+            "items": {
+                "grad": {
+                    "text": "Bacharelado em Ciências de Computação, ICMC USP"
+                }
+            },
+            "title": "Educação"
+        },
+        "experience": {
+            "items": {
+                "atip": {
+                    "subitem": "Utilizando React, Next.js, StyledComponents e TypeScript nos projetos, trabalhando com o time mexicano da Pepsico.",
+                    "text": "Desenvolvedora Front-end na Atip (Parceira Pepsico)."
+                },
+                "encora": {
+                    "subitem": "Utilizando React, Vue.js e Laravel nos projetos",
+                    "text": "Desenvolvedora Front-end na Encora Brasil."
+                },
+                "liven": {
+                    "subitem": "Utilizando React e React Native nos projetos",
+                    "text": "Estagiária Front-end Mobile na Liven."
+                },
+                "partenero": {
+                    "subitem": "Utilizando Firebase e Ember",
+                    "text": "Estagiária Full-stack na Partenero."
+                },
+                "raccoon": {
+                    "subitem": "Utilizando React, WordPress, AMP, Next.js, PHP, HTML, Javascript e SCSS nos projetos. Atuando também como líder da guilda de desenvolvedores: guiando reuniões de troca de conhecimento e o treinamento de novos estagiários",
+                    "text": "Desenvolvedora Front-end na Raccoon.Monks."
+                },
+                "techviz": {
+                    "subitem": "Utilizando React, Next.js, Svelte, StyledComponents e TypeScript nos projetos.",
+                    "text": "Tech Lead na TechViz."
+                }
+            },
+            "title": "Experiência Profissional"
+        },
+        "languages": {
+            "items": {
+                "en": {
+                    "text": "Inglês Avançado"
+                },
+                "pt": {
+                    "text": "Português Brasileiro Nativo"
+                }
+            },
+            "title": "Idiomas"
+        },
+        "projects": {
+            "items": {
+                "accessibility": {
+                    "text": "Curso de Acessibilidade Web da W3Cx"
+                },
+                "pet": {
+                    "text": "Monitora no curso de Informática para Idosos do PET Computação por dois semestres"
+                },
+                "principia": {
+                    "text": "Monitora voluntária para ensino de robótica em colégios públicos pelo \"Principia - Robôs na Escola\" por um semestre"
+                },
+                "shehacks": {
+                    "text": "Participante da equipe ganhadora (entre 20 equipes) do Shehacks, hackathon realizada na sede do Facebook"
+                },
+                "vemPraUSP": {
+                    "text": "Monitora no programa “Vem Pra USP” de ensino online de programação para alunos do ensino médio de colégios públicos"
+                }
+            },
+            "title": "Projetos e Atividades"
+        },
+        "technologies": {
+            "items": {
+                "basics": {
+                    "text": "Linux e GIT"
+                },
+                "javascript": {
+                    "text": "React, Styled Components e Next.js"
+                },
+                "otherframeworks": {
+                    "text": "SCSS, AMP, React Native, Vue.js e Svelte"
+                },
+                "php": {
+                    "text": "WordPress, PHP e Laravel"
+                },
+                "webbasics": {
+                    "text": "Javascript, HTML e CSS"
+                }
+            },
+            "title": "Tecnologias"
+        }
+    },
+    "summary": {
+        "text": "Graduada em Ciência da Computação, atua em desenvolvimento web há cinco anos, principalmente como Front-end. Tem experiência ampla com React e WordPress, entre outras linguagens e frameworks. Interessada também em acessibilidade na web."
+    }
+}

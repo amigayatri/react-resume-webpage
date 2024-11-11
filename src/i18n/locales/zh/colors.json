@@ -1,0 +1,49 @@
+{
+    "addColor": {
+        "buttons": {
+            "addMany": {
+                "hidden": "添加多个",
+                "showing": "隐藏文本输入"
+            },
+            "addOne": {
+                "hidden": "添加一个",
+                "showing": "隐藏颜色选择器"
+            },
+            "changeSteps": {
+                "hidden": "更改变体编号",
+                "showing": "停止更改变体编号"
+            },
+            "targets": {
+                "hidden": "更改目标颜色",
+                "showing": "停止更改目标颜色"
+            }
+        },
+        "title": "添加颜色"
+    },
+    "colorList": {
+        "summary": {
+            "empty": "您还没有添加任何颜色",
+            "nonEmpty": "点击删除"
+        },
+        "title": "添加了颜色"
+    },
+    "hero": {
+        "summary": "创建黑色和白色的颜色变化，每个方向的默认变化数量为 10，但可以更改",
+        "title": "颜色变化发生器"
+    },
+    "shades": {
+        "code": "<1>{{colorCode}}</1> 的变体",
+        "from": "来自<1>{{colorCode}}</1>",
+        "summary": "点击复制颜色！",
+        "title": "色调",
+        "to": "至 <1>{{colorCode}}</1>"
+    },
+    "targetList": {
+        "delete": {
+            "false": "您至少需要一对才能生成其他色调。",
+            "true": "单击一对将其删除。"
+        },
+        "summary": "当您添加一种颜色作为目标时，也会添加她的逆色。",
+        "title": "目标颜色"
+    }
+}

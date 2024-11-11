@@ -3,11 +3,15 @@ import {
 	VisualDescriptionWrapper,
 	KeyWrapper
 } from "./VisualDescription.styled"
-import { useTranslation } from "react-i18next"
+import BaseElement from "../../../types/common/BaseElementProps.ts"
+import { TFunction } from "i18next"
 
-const VisualDescription = () => {
+interface VisualDescriptionProps extends BaseElement {
+	t: TFunction<any, undefined>
+}
+
+export const VisualDescription = ({ t }: VisualDescriptionProps) => {
 	const theme = useTheme()
-	const { t } = useTranslation()
 	const keys = [
 		["weekends", theme.orange],
 		["extended", theme.pink],
@@ -20,11 +24,9 @@ const VisualDescription = () => {
 					style={{ backgroundColor: color }}
 					key={"description-key-" + key}
 				>
-					{t(`brazilianHolidays.description.${key}`)}
+					{t(`description.${key}`)}
 				</KeyWrapper>
 			))}
 		</VisualDescriptionWrapper>
 	)
 }
-
-export default VisualDescription
