@@ -55,7 +55,7 @@ const RecentCommits = ({
 	}
 	return (
 		<RecentCommitsWrapper>
-			<GitTitle>{t("git.recent.title")}</GitTitle>
+			<GitTitle>{t("recent.title")}</GitTitle>
 			{...showDates()}
 			{showMore && <GitMore t={t} lng={lng} link={moreLink} />}
 		</RecentCommitsWrapper>

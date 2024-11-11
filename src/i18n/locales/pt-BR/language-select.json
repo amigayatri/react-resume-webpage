@@ -1,0 +1,29 @@
+{
+    "label": "Idioma",
+    "groups": {
+        "basic": "Padrão",
+        "extra": "Extra"
+    },
+    "basic": {
+        "en": "Inglês",
+        "pt-BR": "Português brasileiro",
+        "more": "Mais idiomas"
+    },
+    "extra": {
+        "ar": "Árabe clássico",
+        "ar-LB": "Árabe libanês",
+        "bn": "Bengali",
+        "de": "Alemão",
+        "el": "Grego",
+        "es": "Espanhol/castelhano",
+        "fr": "Francês",
+        "gn": "Guarani",
+        "hi": "Hindi",
+        "it": "Italiano",
+        "ja": "Japônes",
+        "la": "Latim",
+        "pa": "Punjabi",
+        "ru": "Russo",
+        "zh": "Chinês"
+    }
+}

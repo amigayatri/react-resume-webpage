@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "Исходный код",
-        "linkedin": "Линкедин"
-    },
     "hero": {
         "name": "Амира Гаятри",
         "subheading": "Нажмите на страницу, которую хотите увидеть, чтобы открыть ее!"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "Бразилия"
-        },
-        "brazilianHolidays": {
-            "title": "Бразильские праздники"
-        },
-        "cats": {
-            "title": "Кошки (и не только)"
-        },
-        "colors": {
-            "title": "Генератор теней"
-        },
-        "extralanguages": {
-            "title": "Дополнительные языки"
-        },
-        "home": {
-            "title": "Домашняя страница"
-        },
-        "iconlist": {
-            "title": "Иконки проектов"
-        },
-        "leetcode": {
-            "title": "Статистика LeetCode"
-        },
-        "palette": {
-            "title": "Палитры"
-        },
-        "resume": {
-            "title": "Мое резюме"
-        },
-        "sitestats": {
-            "title": "Статистика сайта"
-        }
     }
 }

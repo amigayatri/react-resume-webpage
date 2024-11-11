@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "ソースコード",
-        "linkedin": "リンクトイン"
-    },
     "hero": {
         "name": "アミラ・ガヤトリ",
         "subheading": "見たいページをクリックして開いてください！"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "ブラジル"
-        },
-        "brazilianHolidays": {
-            "title": "ブラジルの祝日"
-        },
-        "cats": {
-            "title": "猫 (その他)"
-        },
-        "colors": {
-            "title": "シェードジェネレーター"
-        },
-        "extralanguages": {
-            "title": "追加の言語"
-        },
-        "home": {
-            "title": "ホームページ"
-        },
-        "iconlist": {
-            "title": "プロジェクトアイコン"
-        },
-        "leetcode": {
-            "title": "LeetCode統計"
-        },
-        "palette": {
-            "title": "パレット"
-        },
-        "resume": {
-            "title": "私の履歴書"
-        },
-        "sitestats": {
-            "title": "ウェブサイトの統計"
-        }
     }
 }

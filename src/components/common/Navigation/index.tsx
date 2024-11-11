@@ -3,6 +3,6 @@ import { NavigationBase } from "./NavigationBase.tsx"
 import Element from "../../../types/common/ElementProps.ts"
 
 export const Navigation = async ({ lng }: Element) => {
-	const { t } = await useTranslation(lng, "home")
+	const { t } = await useTranslation(lng, "pagelist")
 	return <NavigationBase t={t} lng={lng} />
 }

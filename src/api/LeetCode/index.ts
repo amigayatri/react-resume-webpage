@@ -1,4 +1,4 @@
-// import useGetCurrentHost from "../../hooks/useGetCurrentHost"
+import { useGetCurrentHost } from "../../hooks/"
 import { formatQuestions, emptyQuestions } from "./format/Questions.ts"
 import { formatLanguages, emptyLanguages } from "./format/Languages.ts"
 import { formatSkills, emptySkills } from "./format/Skills.ts"
@@ -25,8 +25,8 @@ export class LeetCode {
 	constructor(username: string, min?: number) {
 		this.min = min === undefined ? 0 : min
 		this.user = username
-		// this.baseURL = useGetCurrentHost()
-		this.baseURL = ""
+		this.baseURL = useGetCurrentHost()
+		console.log(this.baseURL)
 	}
 
 	getProfile = async () => {

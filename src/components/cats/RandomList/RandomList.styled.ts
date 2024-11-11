@@ -24,12 +24,14 @@ export const ListWrapper = styled.div`
 	padding: 16px 0;
 	padding-bottom: 0;
 	margin-left: 16px;
-	${({ theme }) => theme.scroll}
+	${({ theme }) =>
+		theme.getScroll(theme.almostBlack, theme.accent, theme.purple)}
 	&:first-of-type {
 		margin-left: 0;
 	}
 	&:nth-of-type(even) {
-		${({ theme }) => theme.blueScroll}
+		${({ theme }) =>
+			theme.getScroll(theme.almostBlack, theme.secondAccent, theme.purple)}
 		color: ${({ theme }) => theme.secondAccent};
 		border-color: ${({ theme }) => theme.secondAccent};
 		& ${Img} {

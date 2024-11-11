@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "Πηγαίος κώδικας",
-        "linkedin": "Linkedin"
-    },
     "hero": {
         "name": "Amira Gayatri",
         "subheading": "Κάντε κλικ στη σελίδα που θέλετε να δείτε για να την ανοίξετε!"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "Βραζιλία"
-        },
-        "brazilianHolidays": {
-            "title": "Διακοπές στη Βραζιλία"
-        },
-        "cats": {
-            "title": "Γάτες (και άλλα)"
-        },
-        "colors": {
-            "title": "Γεννήτρια σκίασης"
-        },
-        "extralanguages": {
-            "title": "Επιπλέον γλώσσες"
-        },
-        "home": {
-            "title": "Αρχική σελίδα"
-        },
-        "iconlist": {
-            "title": "Εικονίδια έργου"
-        },
-        "leetcode": {
-            "title": "Στατιστικά LeetCode"
-        },
-        "palette": {
-            "title": "Παλέτες"
-        },
-        "resume": {
-            "title": "Το βιογραφικό μου"
-        },
-        "sitestats": {
-            "title": "Στατιστικά ιστότοπου"
-        }
     }
 }

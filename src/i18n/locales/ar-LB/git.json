@@ -1,0 +1,16 @@
+{
+    "graph": {
+        "title": "شهريا {{actionName}}"
+    },
+    "main": {
+        "title": "إحصائيات مستودع Git"
+    },
+    "recent": {
+        "commit": {
+            "more": "{{qtty}} commits",
+            "one": "{{qtty}} commit"
+        },
+        "seeMore": "المزيد عن <1>{{linkName}}</1>",
+        "title": "الالتزامات الأخيرة"
+    }
+}

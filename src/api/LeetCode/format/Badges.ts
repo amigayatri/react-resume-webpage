@@ -1,4 +1,4 @@
-import BadgeProps from "../../../types/leetcode/BadgeProps"
+import { BadgeProps } from "../../../types/leetcode/"
 
 interface RawBadge {
 	id: string

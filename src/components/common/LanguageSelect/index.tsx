@@ -15,7 +15,7 @@ export const LanguageSelect = async ({
 	onLanguageChange,
 	onError
 }: LanguageSelectProps) => {
-	const { t } = await useTranslation(lng, "common")
+	const { t } = await useTranslation(lng, "language-select")
 	return (
 		<LanguageSelectBase
 			onLanguageChange={onLanguageChange}

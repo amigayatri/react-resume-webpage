@@ -1,15 +1,11 @@
 "use client"
 
-const pink = "#f92472",
-	purple = "#ac80ff",
-	blue = "#67d8ef",
-	almostBlack = "#212117"
-
-const pinkScroll = `
+const getScroll = (bg: string, main: string, accent: string) => {
+	return `
 	@supports (scrollbar-color: auto) {
 		& * {
 			scrollbar-width: thin;
-			scrollbar-color: ${pink} ${almostBlack};
+			scrollbar-color: ${main} ${bg};
 		}
 	}
 	@supports selector(::-webkit-scrollbar) {
@@ -20,77 +16,37 @@ const pinkScroll = `
 
 		& *::-webkit-scrollbar-track {
 			border-radius: 4px;
-			background-color: ${almostBlack};
+			background-color: ${bg};
 		}
 
 		& *::-webkit-scrollbar-track:hover {
-			background-color: ${almostBlack};
+			background-color: ${bg};
 		}
 
 		& *::-webkit-scrollbar-track:active {
-			background-color: ${almostBlack};
+			background-color: ${bg};
 		}
 
 		& *::-webkit-scrollbar-thumb {
 			border-radius: 4px;
-			background-color: ${purple};
+			background-color: ${accent};
 		}
 
 		& *::-webkit-scrollbar-thumb:hover {
-			background-color: ${pink};
+			background-color: ${main};
 		}
 
 		& *::-webkit-scrollbar-thumb:active {
-			background-color: ${pink};
+			background-color: ${main};
 		}
 	}
 	
 `
-const blueScroll = `
-	@supports (scrollbar-color: auto) {
-		& * {
-			scrollbar-width: thin;
-			scrollbar-color: ${blue} ${almostBlack};
-		}
-	}
-	@supports selector(::-webkit-scrollbar) {
-		& *::-webkit-scrollbar {
-			height: 8px;
-			width: 8px;
-		}
-
-		& *::-webkit-scrollbar-track {
-			border-radius: 4px;
-			background-color: ${almostBlack};
-		}
-
-		& *::-webkit-scrollbar-track:hover {
-			background-color: ${almostBlack};
-		}
-
-		& *::-webkit-scrollbar-track:active {
-			background-color: ${almostBlack};
-		}
-
-		& *::-webkit-scrollbar-thumb {
-			border-radius: 4px;
-			background-color: ${purple};
-		}
-
-		& *::-webkit-scrollbar-thumb:hover {
-			background-color: ${blue};
-		}
-
-		& *::-webkit-scrollbar-thumb:active {
-			background-color: ${blue};
-		}
-	}
-	
-`
+}
 
 export const Monokai = {
 	black: "#000000",
-	almostBlack: almostBlack,
+	almostBlack: "#212117",
 	graphite: "#282923",
 	darkGray: "#3e3d32",
 	gray: "#74705d",
@@ -101,14 +57,13 @@ export const Monokai = {
 	orange: "#fd9621",
 	yellow: "#f4cd04",
 	green: "#a6e22c",
-	blue,
-	purple,
-	pink,
+	blue: "#67d8ef",
+	purple: "#ac80ff",
+	pink: "#f92472",
 	fonts: {
 		title: '"Press Start 2P"',
 		body: '"Fira Code"',
 		backup: "monospace"
 	},
-	scroll: pinkScroll,
-	blueScroll
+	getScroll
 }

@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "ਸਰੋਤ ਕੋਡ",
-        "linkedin": "ਲਿੰਕਡਇਨ"
-    },
     "hero": {
         "name": "ਅਮੀਰਾ ਗਾਇਤਰੀ",
         "subheading": "ਉਸ ਪੰਨੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਖੋਲ੍ਹਣ ਲਈ ਦੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ!"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "ਬ੍ਰਾਜ਼ੀਲ"
-        },
-        "brazilianHolidays": {
-            "title": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ"
-        },
-        "cats": {
-            "title": "ਬਿੱਲੀਆਂ (ਅਤੇ ਹੋਰ)"
-        },
-        "colors": {
-            "title": "ਸ਼ੇਡ ਜਨਰੇਟਰ"
-        },
-        "extralanguages": {
-            "title": "ਵਾਧੂ ਭਾਸ਼ਾਵਾਂ"
-        },
-        "home": {
-            "title": "ਮੁੱਖ ਪੰਨਾ"
-        },
-        "iconlist": {
-            "title": "ਪ੍ਰੋਜੈਕਟ ਆਈਕਾਨ"
-        },
-        "leetcode": {
-            "title": "LeetCode ਅੰਕੜੇ"
-        },
-        "palette": {
-            "title": "ਪੈਲੇਟਸ"
-        },
-        "resume": {
-            "title": "ਮੇਰਾ ਰੈਜ਼ਿਊਮੇ"
-        },
-        "sitestats": {
-            "title": "ਵੈੱਬਸਾਈਟ ਦੇ ਅੰਕੜੇ"
-        }
     }
 }

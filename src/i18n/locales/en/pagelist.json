@@ -1,0 +1,17 @@
+{
+    "brasil": "Brazil",
+    "holidays": "Brazilian holidays",
+    "cats": "Cats (and more)",
+    "colors": "Tone generator",
+    "extralanguages": "Extra languages",
+    "home": "Home page",
+    "icons": "Project icons",
+    "leetcode": "LeetCode Stats",
+    "palette": "Palettes",
+    "resume": "My resume",
+    "stats": "Statistics",
+    "external": {
+        "github": "Source code",
+        "linkedin": "Linkedin"
+    }
+}

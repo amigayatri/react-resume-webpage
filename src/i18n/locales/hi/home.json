@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "सोर्स कोड",
-        "linkedin": "Linkedin"
-    },
     "hero": {
         "name": "अमीरा गायत्री",
         "subheading": "जिस पेज को आप देखना चाहते हैं उसे खोलने के लिए उस पर क्लिक करें!"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "ब्राज़िल"
-        },
-        "brazilianHolidays": {
-            "title": "ब्राज़ीलियाई छुट्टियाँ"
-        },
-        "cats": {
-            "title": "बिल्लियाँ (और अधिक)"
-        },
-        "colors": {
-            "title": "छाया जनरेटर"
-        },
-        "extralanguages": {
-            "title": "अतिरिक्त भाषाएँ"
-        },
-        "home": {
-            "title": "होम पेज"
-        },
-        "iconlist": {
-            "title": "प्रोजेक्ट चिह्न"
-        },
-        "leetcode": {
-            "title": "लीटकोड आँकड़े"
-        },
-        "palette": {
-            "title": "रंग-पत्र"
-        },
-        "resume": {
-            "title": "मेरे जीबनपञ्जी"
-        },
-        "sitestats": {
-            "title": "वेबसाइट आँकड़े"
-        }
     }
 }

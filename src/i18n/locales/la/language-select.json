@@ -1,0 +1,29 @@
+{
+    "label": "Linguae",
+    "groups": {
+        "basic": "Standard",
+        "extra": "Extra"
+    },
+    "basic": {
+        "en": "Anglicus",
+        "pt-BR": "Brazilian Portuguese",
+        "more": "Plures linguae"
+    },
+    "extra": {
+        "ar": "Classical Arabic",
+        "ar-LB": "Lebanese Arabic",
+        "bn": "Bengalica",
+        "de": "German",
+        "el": "Greek",
+        "es": "Spanish/Castilian",
+        "fr": "Gallica",
+        "gn": "Guarani",
+        "hi": "Hindi",
+        "it": "Italian",
+        "ja": "Iaponica",
+        "la": "Latinus",
+        "pa": "Punjabi",
+        "ru": "Russian",
+        "zh": "Seres"
+    }
+}

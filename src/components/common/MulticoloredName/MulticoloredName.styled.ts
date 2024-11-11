@@ -3,7 +3,7 @@
 import styled from "styled-components"
 
 export const Letter = styled.span`
-	background-color: ${({ theme }) => theme.background};
+	background-color: transparent;
 	border-style: solid;
 	border-width: 0;
 	border-left: none;

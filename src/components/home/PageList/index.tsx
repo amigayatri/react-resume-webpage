@@ -3,6 +3,6 @@ import { PageListBase } from "./PageListBase"
 import { useTranslation } from "../../../i18n/"
 
 export const PageList = async ({ lng }: Element) => {
-	const { t } = await useTranslation(lng, "home")
+	const { t } = await useTranslation(lng, "pagelist")
 	return <PageListBase t={t} lng={lng} />
 }

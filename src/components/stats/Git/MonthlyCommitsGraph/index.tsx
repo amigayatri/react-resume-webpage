@@ -33,7 +33,7 @@ const MonthlyCommitsGraph = ({ commits, t, lng }: MonthlyCommitsGraphProps) => {
 		allMonths.push(month)
 	}
 	const years = Array.from(commitsByYear.keys())
-	const title = t("git.graph.title", { actionName: "commits" })
+	const title = t("graph.title", { actionName: "commits" })
 	const currYear = new Date().toLocaleDateString(lng, {
 		year: "numeric"
 	})

@@ -11,6 +11,8 @@ export interface MulticoloredNameProps extends Element {
 	isCustom?: boolean
 	customColors?: string[]
 	iconId?: string
+	isReverse?: boolean
+	colorfulIcon?: boolean
 	fontSize: number
 }
 

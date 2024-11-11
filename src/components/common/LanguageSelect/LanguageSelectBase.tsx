@@ -26,19 +26,21 @@ export const LanguageSelectBase = ({
 			if (pathname === null) return { value: "", key: "" }
 			return {
 				value: onError ? "/" + lang : pathname.replace(lng, lang),
-				key: `menu.select.basic.${lang}`
+				key: `basic.${lang}`
 			}
 		})
 	]
+	const extraPath = `/${lng}/extra-languages`
 	!isExtra &&
+		pathname !== extraPath &&
 		langOptions.push({
-			value: `${lng}/extra-languages`,
-			key: "menu.select.basic.more"
+			value: extraPath,
+			key: "basic.more"
 		})
 	const extraOptions = extraLanguages.map((lang) => {
 		return {
 			value: pathname?.replace(lng, lang) || "",
-			key: `menu.select.extra.${lang}`
+			key: `extra.${lang}`
 		}
 	})
 	return (
@@ -48,16 +50,16 @@ export const LanguageSelectBase = ({
 			fontSize={isExtra ? 1.75 : 1.25}
 			onSelectChange={onLanguageChange}
 			options={[
-				{ groupKey: "menu.select.groups.basic", options: langOptions },
+				{ groupKey: "groups.basic", options: langOptions },
 				{
-					groupKey: "menu.select.groups.extra",
+					groupKey: "groups.extra",
 					options: isExtra ? extraOptions : []
 				}
 			]}
 			id={isExtra ? "extra-languages-select" : "navbar-language-select"}
-			namespace="common"
+			namespace="language-select"
 			lng={lng}
-			label={t("menu.select.label")}
+			label={t("label")}
 		/>
 	)
 }

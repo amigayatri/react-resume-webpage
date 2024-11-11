@@ -14,6 +14,7 @@ interface NavigationItemProps extends NavProps {
 
 export const NavigationItem = ({ lng, t, link, path }: NavigationItemProps) => {
 	const linkPath = `/${lng}/${link.path}`
+	const { key, icon } = link
 	return (
 		<LinkWrapper $isActive={linkPath === path}>
 			<ContentWrapper href={linkPath}>
@@ -21,10 +22,10 @@ export const NavigationItem = ({ lng, t, link, path }: NavigationItemProps) => {
 					lng={lng}
 					noTransition
 					local="navigation"
-					id={link.icon}
+					id={icon}
 					size={24}
 				/>
-				<Label>{t(link.key)}</Label>
+				<Label>{t(key)}</Label>
 			</ContentWrapper>
 			<UnderLine />
 		</LinkWrapper>

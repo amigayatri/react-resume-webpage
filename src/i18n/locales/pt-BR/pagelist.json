@@ -1,0 +1,17 @@
+{
+    "brasil": "Brasil",
+    "holidays": "Feriados brasileiros",
+    "cats": "Gatos (e mais)",
+    "colors": "Gerador de tons",
+    "extralanguages": "Línguas extras",
+    "home": "Pagina inicial",
+    "icons": "Ícones do projeto",
+    "leetcode": "Estatísticas do LeetCode",
+    "palette": "Paletas",
+    "resume": "Meu curriculo",
+    "stats": "Estatísticas",
+    "external": {
+        "github": "Código fonte",
+        "linkedin": "Linkedin"
+    }
+}

@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "每月 {{actionName}}"
-        },
-        "main": {
-            "title": "Git 的存储库统计信息"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} commits",
-                "one": "{{qtty}} commit"
-            },
-            "seeMore": "有关<1>{{linkName}}</1>的更多信息",
-            "title": "最近的提交"
-        }
+    "list": {
+        "git": "git",
+        "leetcode": "力扣"
     },
-    "main": {
-        "list": {
-            "git": "git"
-        },
-        "title": "统计数据"
-    }
+    "title": "统计数据"
 }

@@ -15,14 +15,21 @@ export const MulticoloredNameBase = ({
 	customColors,
 	iconId,
 	fontSize,
-	local
+	local,
+	colorfulIcon,
+	isReverse
 }: MulticoloredNameProps) => {
 	const groupPalettes = palettesMap.get(info.group)
 	if (groupPalettes === undefined) return
 	const palette = groupPalettes.get(info.name)
 	if (!isCustom && palette === undefined) return
-	const paletteColors = !isCustom ? palette?.colors : customColors
-	if (paletteColors === undefined) return
+	const paletteColors = !isCustom
+		? Array.from(palette !== undefined ? palette.colors : [])
+		: customColors
+	if (paletteColors === undefined || paletteColors.length === 0) return
+	console.log(paletteColors)
+	if (isReverse === true) paletteColors.reverse()
+	console.log(isReverse, paletteColors)
 	const asArr: string[] = []
 	if (typeof children === "string") {
 		asArr.push(...children.split(""))
@@ -54,7 +61,10 @@ export const MulticoloredNameBase = ({
 		? { marginLeft: "-4px", paddingLeft: "4px" }
 		: {
 				padding: " 0",
-				color: customColors !== undefined ? customColors[0] : theme.primary
+				color:
+					isCustom && customColors !== undefined
+						? customColors[0]
+						: theme.primary
 		  }
 	const hasIcon = iconId !== undefined
 	const start = hasIcon ? 1 : 0
@@ -87,7 +97,11 @@ export const MulticoloredNameBase = ({
 				>
 					<SVGIcon
 						lng={lng}
-						color={legible ? paletteColors[0] : "currentColor"}
+						color={
+							legible && (legibleTextColors === true || colorfulIcon === true)
+								? paletteColors[0]
+								: "currentColor"
+						}
 						size={fontSize}
 						id={iconId}
 						local={local}

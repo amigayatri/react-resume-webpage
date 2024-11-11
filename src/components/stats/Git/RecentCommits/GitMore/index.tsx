@@ -25,7 +25,7 @@ const GitMore = ({ link, lng, t }: GitMoreProps) => {
 	const options = { linkName: "GitHub" }
 	return (
 		<GitMoreWrapper as="div">
-			<Trans t={t} tOptions={options} i18nKey={"git.recent.seeMore"}>
+			<Trans t={t} tOptions={options} i18nKey={"recent.seeMore"}>
 				t
 				<GitLink lng={lng} t={t} link={link}>
 					l

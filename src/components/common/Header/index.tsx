@@ -14,7 +14,7 @@ export const Header = async ({
 	changeTheme,
 	onError
 }: HeaderProps) => {
-	const { t } = await useTranslation(lng, "common")
+	const { t } = await useTranslation(lng, "header")
 	return (
 		<HeaderBase
 			t={t}

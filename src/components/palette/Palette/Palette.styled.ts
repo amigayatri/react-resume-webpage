@@ -5,7 +5,7 @@ import { media } from "../../../constants/medias"
 
 export const PaletteSection = styled.section`
 	padding-top: 48px;
-	${({ theme }) => theme.scroll}
+	${({ theme }) => theme.getScroll(theme.background, theme.pink, theme.blue)}
 `
 export const Description = styled.div`
 	display: flex;

@@ -21,9 +21,9 @@ const GitDate = ({ date, setOpen, commits, isOpen, t }: GitDateProps) => {
 	const showNumber = () => {
 		const nCommits = commits.length
 		if (nCommits > 1) {
-			return t("git.recent.commit.more", { qtty: nCommits })
+			return t("recent.commit.more", { qtty: nCommits })
 		} else if (nCommits === 1) {
-			return t("git.recent.commit.one", { qtty: nCommits })
+			return t("recent.commit.one", { qtty: nCommits })
 		} else {
 			return ""
 		}

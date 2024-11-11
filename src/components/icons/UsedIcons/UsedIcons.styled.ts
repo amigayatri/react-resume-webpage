@@ -13,7 +13,7 @@ export const UsedIconsWrapper = styled.section`
 	color: ${({ theme }) => theme.white};
 	border: 2px solid ${({ theme }) => theme.primary};
 	background-color: ${({ theme }) => theme.almostBlack};
-	${({ theme }) => theme.scroll}
+	${({ theme }) => theme.getScroll(theme.almostBlack, theme.pink, theme.purple)}
 `
 export const SectionTitle = styled.h2``
 export const Subtitle = styled.h3``
