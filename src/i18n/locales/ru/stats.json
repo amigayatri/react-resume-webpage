@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "Ежемесячно {{actionName}}"
-        },
-        "main": {
-            "title": "Статистика репозитория Git"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} commits",
-                "one": "{{qtty}} commit"
-            },
-            "seeMore": "Подробнее о <1>{{linkName}}</1>",
-            "title": "Недавние коммиты"
-        }
+    "list": {
+        "git": "Гит",
+        "leetcode": "Литкод"
     },
-    "main": {
-        "list": {
-            "git": "Гит"
-        },
-        "title": "Статистика"
-    }
+    "title": "Статистика"
 }

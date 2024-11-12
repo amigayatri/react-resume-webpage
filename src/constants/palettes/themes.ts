@@ -15,8 +15,7 @@ export const grayscaleMonokai: Palette = {
 		"#3e3d32",
 		"#74705d",
 		"#d0d0c3",
-		"#f7f7f7",
-		"#555449b3"
+		"#f7f7f7"
 	]
 }
 
@@ -30,7 +29,6 @@ export const fullMonokai: Palette = {
 		"#74705d",
 		"#d0d0c3",
 		"#f7f7f7",
-		"#555449b3",
 		"#f83535",
 		"#fd9621",
 		"#f4cd04",

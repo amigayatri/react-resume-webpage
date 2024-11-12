@@ -1,0 +1,16 @@
+{
+    "graph": {
+        "title": "मासिक {{actionName}}"
+    },
+    "main": {
+        "title": "Git के भंडार आँकड़े"
+    },
+    "recent": {
+        "commit": {
+            "more": "{{qtty}} प्रतिबद्ध है",
+            "one": "{{qtty}} प्रतिबद्धता"
+        },
+        "seeMore": "<1>{{linkName}}</1> पर अधिक जानकारी",
+        "title": "हाल की प्रतिबद्धताएँ"
+    }
+}

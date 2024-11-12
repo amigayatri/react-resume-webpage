@@ -8,5 +8,5 @@ export const GitWrapper = styled.div`
 	margin: 8px 8px;
 	padding: 16px calc(var(--color-container) - 8px);
 	border-radius: 16px;
-	${({ theme }) => theme.scroll}
+	${({ theme }) => theme.getScroll(theme.almostBlack, theme.pink, theme.purple)}
 `

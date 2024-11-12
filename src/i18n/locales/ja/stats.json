@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "毎月の {{actionName}}"
-        },
-        "main": {
-            "title": "Gitのリポジトリ統計"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} コミット",
-                "one": "{{qtty}} コミット"
-            },
-            "seeMore": "<1>{{linkName}}</1> の詳細",
-            "title": "最近のコミット"
-        }
+    "list": {
+        "git": "Git",
+        "leetcode": "リートコード"
     },
-    "main": {
-        "list": {
-            "git": "Git"
-        },
-        "title": "統計"
-    }
+    "title": "統計"
 }

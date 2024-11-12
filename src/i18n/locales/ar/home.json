@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "كود المصدر",
-        "linkedin": "ينكدين"
-    },
     "hero": {
         "name": "أميرة غاياتري",
         "subheading": "انقر على الصفحة التي تريد رؤيتها لفتحها!"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "البرازيل"
-        },
-        "brazilianHolidays": {
-            "title": "العطلات البرازيلية"
-        },
-        "cats": {
-            "title": "القطط (والمزيد)"
-        },
-        "colors": {
-            "title": "مولد الظل"
-        },
-        "extralanguages": {
-            "title": "لغات اضافية"
-        },
-        "home": {
-            "title": "الصفحة الرئيسية"
-        },
-        "iconlist": {
-            "title": "ايقونات المشروع"
-        },
-        "leetcode": {
-            "title": "إحصائيات ليت كود"
-        },
-        "palette": {
-            "title": "لوحات"
-        },
-        "resume": {
-            "title": "سيرتي الذاتية"
-        },
-        "sitestats": {
-            "title": "احصائيات الموقع"
-        }
     }
 }

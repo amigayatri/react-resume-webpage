@@ -1,6 +1,7 @@
 import { ListWrapper, List, Item, Img, Title } from "./RandomList.styled"
 import { MulticoloredName } from "../../common/MulticoloredName/client.tsx"
 import { RandomListProps } from "../types.ts"
+import { useTheme } from "styled-components"
 
 const RandomList = ({
 	list,
@@ -12,6 +13,7 @@ const RandomList = ({
 	idx
 }: RandomListProps) => {
 	const { size } = controls
+	const { pink, blue } = useTheme()
 	return (
 		<ListWrapper id={id + "-list"}>
 			<Title>
@@ -24,9 +26,7 @@ const RandomList = ({
 					lng={lng}
 					iconId={iconId}
 					isCustom
-					customColors={
-						(idx & 1) === 1 ? ["#f92472", "#67d8ef"] : ["#67d8ef", "#f92472"]
-					}
+					customColors={(idx & 1) === 1 ? [pink, blue] : [blue, pink]}
 				>
 					{t(`list.${id}.one`)}
 				</MulticoloredName>

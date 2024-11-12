@@ -4,9 +4,12 @@ import {
 	Option,
 	SelectWrapper,
 	Label,
-	Group
+	Group,
+	SelectInputWrapper
 } from "./Select.styled"
 import { SelectProps } from "./index.tsx"
+import { SVGIcon } from "../SVGIcon/client.tsx"
+import { useTheme } from "styled-components"
 
 interface SelectBaseProps extends SelectProps {
 	t: TFunction<any, undefined>
@@ -21,8 +24,13 @@ export const SelectBase = ({
 	fontSize,
 	onSelectChange,
 	customStyle,
-	defaultValue
+	defaultValue,
+	local,
+	iconId,
+	Button,
+	lng
 }: SelectBaseProps) => {
+	const theme = useTheme()
 	return (
 		<SelectWrapper
 			$customColors={customStyle}
@@ -30,27 +38,55 @@ export const SelectBase = ({
 			$onHeader={onHeader}
 		>
 			<Label htmlFor={id}>{label}</Label>
-			<SelectInput
-				onChange={onSelectChange}
-				id={id}
-				defaultValue={defaultValue}
-			>
-				{options.map(({ groupKey, options }, idx) => {
-					if (options.length === 0) return
-					return (
-						<Group
-							key={id + "-optgroup-" + groupKey + "-option-" + idx}
-							label={t(groupKey)}
-						>
-							{options.map(({ value, key }) => (
-								<Option key={id + "-option-" + value} value={value}>
-									{t(key)}
-								</Option>
-							))}
-						</Group>
-					)
-				})}
-			</SelectInput>
+			<SelectInputWrapper>
+				{iconId !== undefined && (
+					<SVGIcon
+						color={
+							customStyle !== undefined
+								? customStyle.select.border
+								: onHeader
+								? theme.blue
+								: theme.secondAccent
+						}
+						size={fontSize * 16}
+						id={iconId}
+						local={local}
+						lng={lng}
+					/>
+				)}
+				<SelectInput
+					onChange={onSelectChange}
+					id={id}
+					defaultValue={defaultValue}
+				>
+					{defaultValue === "_" && (
+						<Option key={id + "-option-" + "_"} value={"_"}>
+							{" "}
+						</Option>
+					)}
+					{options.map(({ groupKey, options }, idx) => {
+						if (options.length === 0) return
+						return (
+							<Group
+								key={id + "-optgroup-" + groupKey + "-option-" + idx}
+								label={t(groupKey)}
+							>
+								{options.map(({ value, key, tOptions }) => (
+									<Option key={id + "-option-" + value} value={value}>
+										{t(
+											key,
+											tOptions !== undefined
+												? { groupName: t(tOptions.groupName) }
+												: undefined
+										)}
+									</Option>
+								))}
+							</Group>
+						)
+					})}
+				</SelectInput>
+				{Button !== undefined && Button}
+			</SelectInputWrapper>
 		</SelectWrapper>
 	)
 }

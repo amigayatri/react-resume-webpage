@@ -2,10 +2,10 @@
 
 import { HeaderBase } from "./HeaderBase.tsx"
 import { useTranslation } from "../../../i18n/client"
-import { HeaderProps } from "./index.tsx"
+import { HeaderProps } from "."
 
 export function Header({ lng, theme, changeTheme, onError }: HeaderProps) {
-	const { t } = useTranslation(lng, "common")
+	const { t } = useTranslation(lng, "header")
 	return (
 		<HeaderBase
 			t={t}

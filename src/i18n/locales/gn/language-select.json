@@ -1,0 +1,29 @@
+{
+    "label": "Ñe'ẽ",
+    "groups": {
+        "basic": "Techaukarã",
+        "extra": "Oñemoĩvéva"
+    },
+    "basic": {
+        "en": "inglés",
+        "pt-BR": "Portugués brasileño",
+        "more": "Hetave ñe’ẽ"
+    },
+    "extra": {
+        "ar": "Árabe clásico rehegua",
+        "ar-LB": "Árabe libanés rehegua",
+        "bn": "Bengali",
+        "de": "Alemán ñe’ẽ",
+        "el": "Griego ñe’ẽme",
+        "es": "Castellano/castellano",
+        "fr": "Francés ñe’ẽme",
+        "gn": "guarani",
+        "hi": "Hindi ñe’ẽ",
+        "it": "Italiano ñe’ẽ",
+        "ja": "Japonés ñe’ẽ",
+        "la": "Latino-pe",
+        "pa": "Punjabi ñe’ẽ",
+        "ru": "Ruso ñe’ẽ",
+        "zh": "Chino"
+    }
+}

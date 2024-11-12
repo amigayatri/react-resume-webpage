@@ -5,7 +5,7 @@ import { TabList, Tabs } from "react-tabs"
 import { media } from "../../../constants/medias"
 
 export const HolidaysWrapper = styled.section`
-	${({ theme }) => theme.scroll}
+	${({ theme }) => theme.getScroll(theme.almostBlack, theme.pink, theme.purple)}
 `
 
 export const MainWrapper = styled.main`

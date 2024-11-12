@@ -8,6 +8,6 @@ export interface HomeLinkProps extends Element {
 }
 
 export const HomeLink = async ({ lng, to }: HomeLinkProps) => {
-	const { t } = await useTranslation(lng, "home")
+	const { t } = await useTranslation(lng, "pagelist")
 	return <HomeLinkBase t={t} to={to} lng={lng} />
 }

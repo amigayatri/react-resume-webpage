@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "Μηνιαία {{actionName}}"
-        },
-        "main": {
-            "title": "Στατιστικά αποθετηρίου του Git"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} δεσμεύει",
-                "one": "{{qtty}} δέσμευση"
-            },
-            "seeMore": "Περισσότερα στο <1>{{linkName}}</1>",
-            "title": "Πρόσφατες δεσμεύσεις"
-        }
+    "list": {
+        "git": "Git",
+        "leetcode": "Leetcode"
     },
-    "main": {
-        "list": {
-            "git": "Git"
-        },
-        "title": "Στατιστικά"
-    }
+    "title": "Στατιστικά"
 }

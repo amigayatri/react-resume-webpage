@@ -1,7 +1,6 @@
 import { Select } from "../../../common/Select/client.tsx"
 import Element from "../../../../types/common/ElementProps.ts"
 import SelectStyle from "../../../../types/common/SelectStyleProps.ts"
-import { SelectWrapper } from "./Common.styled.ts"
 import { TFunction } from "i18next"
 import { divisionMap } from "../BrazilianMapBase.tsx"
 
@@ -25,19 +24,18 @@ export const SelectDivision = ({
 			return { value: value, key: `divisions.${value}` }
 		})
 	return (
-		<SelectWrapper>
-			<Select
-				customStyle={selectStyle}
-				defaultValue={defaultVal}
-				fontSize={1.5}
-				onHeader={false}
-				lng={lng}
-				onSelectChange={({ target }) => handleChangeDivision(target.value)}
-				id="select-division"
-				namespace="brasil"
-				label={t("select.division")}
-				options={[{ groupKey: "select.division", options: divisionOptions }]}
-			/>
-		</SelectWrapper>
+		<Select
+			local="brasil"
+			customStyle={selectStyle}
+			defaultValue={defaultVal}
+			fontSize={1.5}
+			onHeader={false}
+			lng={lng}
+			onSelectChange={({ target }) => handleChangeDivision(target.value)}
+			id="select-division"
+			namespace="brasil"
+			label={t("select.division")}
+			options={[{ groupKey: "select.division", options: divisionOptions }]}
+		/>
 	)
 }

@@ -1,45 +1,6 @@
 {
-    "externalLinks": {
-        "github": "Código fuente rehegua",
-        "linkedin": "Linkedin rehegua"
-    },
     "hero": {
         "name": "Amira Gayatri rehegua",
         "subheading": "¡Emboguejy pe páhina rehechaséva reipeʼa hag̃ua!"
-    },
-    "pageList": {
-        "brasil": {
-            "title": "Brasil"
-        },
-        "brazilianHolidays": {
-            "title": "Ára guasu Brasil-pegua"
-        },
-        "cats": {
-            "title": "Mymbakuéra (ha hetave) ."
-        },
-        "colors": {
-            "title": "Generador de sombra rehegua"
-        },
-        "extralanguages": {
-            "title": "Ñe’ẽ extra"
-        },
-        "home": {
-            "title": "Página principal"
-        },
-        "iconlist": {
-            "title": "Proyecto rehegua iconokuéra"
-        },
-        "leetcode": {
-            "title": "LeetCode Estadísticas rehegua"
-        },
-        "palette": {
-            "title": "Paletas rehegua"
-        },
-        "resume": {
-            "title": "Che currículum"
-        },
-        "sitestats": {
-            "title": "Estadísticas página web rehegua"
-        }
     }
 }

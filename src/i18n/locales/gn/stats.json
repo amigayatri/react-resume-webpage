@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "Jasy jave {{acción Réra}}"
-        },
-        "main": {
-            "title": "Git ñeñongatuha estadísticas"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} oñemboguata",
-                "one": "{{qtty}} ñemboguata"
-            },
-            "seeMore": "Hetave mba’e <1>{{linkName}}</1> rehegua",
-            "title": "Umi ñe’ẽme’ẽ nda’aréi ojejapóva"
-        }
+    "list": {
+        "git": "Git rehegua",
+        "leetcode": "Leetcode rehegua"
     },
-    "main": {
-        "list": {
-            "git": "Git rehegua"
-        },
-        "title": "Estadísticas rehegua"
-    }
+    "title": "Estadísticas rehegua"
 }

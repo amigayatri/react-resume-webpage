@@ -5,6 +5,6 @@ import { NavigationBase } from "./NavigationBase.tsx"
 import Element from "../../../types/common/ElementProps.ts"
 
 export const Navigation = ({ lng }: Element) => {
-	const { t } = useTranslation(lng, "home")
+	const { t } = useTranslation(lng, "pagelist")
 	return <NavigationBase t={t} lng={lng} />
 }

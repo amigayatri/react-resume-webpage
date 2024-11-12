@@ -1,0 +1,17 @@
+{
+    "brasil": "巴西",
+    "holidays": "巴西假期",
+    "cats": "猫（以及更多）",
+    "colors": "音调发生器",
+    "extralanguages": "额外语言",
+    "home": "主页",
+    "icons": "项目图标",
+    "leetcode": "LeetCode 统计",
+    "palette": "调色板",
+    "resume": "我的简历",
+    "stats": "统计数据",
+    "external": {
+        "github": "源代码",
+        "linkedin": "领英"
+    }
+}

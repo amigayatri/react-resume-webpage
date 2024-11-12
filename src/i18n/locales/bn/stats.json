@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "মাসিক {{actionName}}"
-        },
-        "main": {
-            "title": "গিট এর সংগ্রহস্থল পরিসংখ্যান"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} কমিট করে",
-                "one": "{{qtty}} কমিট"
-            },
-            "seeMore": "<1>{{linkName}}</1> এ আরও",
-            "title": "সাম্প্রতিক প্রতিশ্রুতি"
-        }
+    "list": {
+        "git": "গিট",
+        "leetcode": "লিটকোড"
     },
-    "main": {
-        "list": {
-            "git": "গিট"
-        },
-        "title": "পরিসংখ্যান"
-    }
+    "title": "পরিসংখ্যান"
 }

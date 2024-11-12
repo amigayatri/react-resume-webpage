@@ -1,24 +1,7 @@
 {
-    "git": {
-        "graph": {
-            "title": "Mensuel {{actionName}}"
-        },
-        "main": {
-            "title": "Statistiques du dépôt Git"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} commits",
-                "one": "{{qtty}} commit"
-            },
-            "seeMore": "En savoir plus sur <1>{{linkName}}</1>",
-            "title": "Commis récents"
-        }
+    "list": {
+        "git": "Git",
+        "leetcode": "Code Leet"
     },
-    "main": {
-        "list": {
-            "git": "Git"
-        },
-        "title": "Statistiques"
-    }
+    "title": "Statistiques"
 }

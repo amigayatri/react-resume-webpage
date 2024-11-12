@@ -1,24 +1,7 @@
 {
-    "main": {
-        "title": "Estatísticas",
-        "list": {
-            "git": "Git"
-        }
-    },
-    "git": {
-        "graph": {
-            "title": "{{actionName}} mensais"
-        },
-        "main": {
-            "title": "Estatísticas do repositório do Git"
-        },
-        "recent": {
-            "commit": {
-                "more": "{{qtty}} commits",
-                "one": "{{qtty}} confirmar"
-            },
-            "seeMore": "Mais em <1>{{linkName}}</1>",
-            "title": "Confirmações recentes"
-        }
+    "title": "Estatísticas",
+    "list": {
+        "git": "Git",
+        "leetcode": "Leetcode"
     }
 }

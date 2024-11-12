@@ -10,7 +10,7 @@ export const LanguageSelect = ({
 	onError,
 	onLanguageChange
 }: LanguageSelectProps) => {
-	const { t } = useTranslation(lng, "common")
+	const { t } = useTranslation(lng, "language-select")
 	return (
 		<LanguageSelectBase
 			onLanguageChange={onLanguageChange}

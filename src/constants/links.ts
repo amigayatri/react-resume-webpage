@@ -3,13 +3,13 @@ import Link from "../types/common/LinkProps"
 export const pages: Link[] = [
 	{
 		path: "",
-		key: "pageList.home.title",
+		key: "home",
 		icon: "home",
 		isExternal: false
 	},
 	{
 		path: "resume",
-		key: "pageList.resume.title",
+		key: "resume",
 		icon: "profile",
 		isExternal: false
 	}
@@ -18,49 +18,43 @@ export const pages: Link[] = [
 export const extraPages: Link[] = [
 	{
 		path: "cats",
-		key: "pageList.cats.title",
+		key: "cats",
 		icon: "bastet",
 		isExternal: false
 	},
 	{
 		path: "palette",
-		key: "pageList.palette.title",
+		key: "palette",
 		icon: "pantone",
 		isExternal: false
 	},
 	{
 		path: "stats",
-		key: "pageList.sitestats.title",
+		key: "stats",
 		icon: "chart",
 		isExternal: false
 	},
 	{
-		path: "leetcode",
-		key: "pageList.leetcode.title",
-		icon: "leetcode",
-		isExternal: false
-	},
-	{
 		path: "icons",
-		key: "pageList.iconlist.title",
+		key: "icons",
 		icon: "egyptianwalk",
 		isExternal: false
 	},
 	{
 		path: "feriados",
-		key: "pageList.brazilianHolidays.title",
+		key: "holidays",
 		icon: "braziliancalendar",
 		isExternal: false
 	},
 	{
 		path: "colors",
-		key: "pageList.colors.title",
+		key: "colors",
 		icon: "palette",
 		isExternal: false
 	},
 	{
 		path: "brasil",
-		key: "pageList.brasil.title",
+		key: "brasil",
 		icon: "brasil",
 		isExternal: false
 	}
@@ -70,13 +64,13 @@ export const links: Link[] = [
 	...pages,
 	{
 		path: "https://linkedin.com/in/amiragayatri",
-		key: "externalLinks.linkedin",
+		key: "external.linkedin",
 		icon: "linkedin",
 		isExternal: true
 	},
 	{
 		path: "https://github.com/amigayatri/react-resume-webpage",
-		key: "externalLinks.github",
+		key: "external.github",
 		icon: "github",
 		isExternal: true
 	},

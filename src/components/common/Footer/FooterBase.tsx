@@ -12,7 +12,7 @@ export const FooterBase = ({ t }: FooterBaseProps) => {
 	const tOptions = { name: "Amira Gayatri", year: "2024" }
 	return (
 		<FooterWrapper>
-			<Trans t={t} i18nKey="footer.text" tOptions={tOptions}>
+			<Trans t={t} i18nKey="text" tOptions={tOptions}>
 				t
 				<Link
 					{...linkProps}

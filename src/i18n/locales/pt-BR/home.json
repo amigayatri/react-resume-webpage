@@ -1,45 +1,6 @@
 {
-  "externalLinks": {
-    "github": "Código fonte",
-    "linkedin": "Linkedin"
-  },
-  "hero": {
-    "name": "Amira Gayatri",
-    "subheading": "Clique na página que quer ver para abrir!"
-  },
-  "pageList": {
-    "brasil": {
-      "title": "Brasil"
-    },
-    "brazilianHolidays": {
-      "title": "Feriados brasileiros"
-    },
-    "cats": {
-      "title": "Gatos (e mais)"
-    },
-    "colors": {
-      "title": "Gerador de tons"
-    },
-    "extralanguages": {
-      "title": "Línguas extras"
-    },
-    "home": {
-      "title": "Pagina inicial"
-    },
-    "iconlist": {
-      "title": "Ícones do projeto"
-    },
-    "leetcode": {
-      "title": "Estatísticas do LeetCode"
-    },
-    "palette": {
-      "title": "Paletas"
-    },
-    "resume": {
-      "title": "Meu curriculo"
-    },
-    "sitestats": {
-      "title": "Estatísticas do site"
+    "hero": {
+        "name": "Amira Gayatri",
+        "subheading": "Clique na página que quer ver para abrir!"
     }
-  }
 }
