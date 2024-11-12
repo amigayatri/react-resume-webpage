@@ -1,5 +1,5 @@
 import { Title } from "./PalettesList.styled"
-import Select from "../Select"
+import { Select } from "../Select"
 import { useEffect, useState } from "react"
 import PaletteProps from "../../../types/palette/PaletteProps"
 import PaletteInfoProps from "../../../types/palette/PaletteInfoProps"

@@ -15,11 +15,10 @@ export const Label = styled.label`
 `
 
 export const SelectInput = styled.select`
-	padding: 4px 8px;
-	border-radius: 8px;
-	border: 2px solid currentColor;
+	border: 0px;
 	text-transform: capitalize;
 	width: 100%;
+	padding: 4px 8px;
 `
 
 export const Group = styled.optgroup``
@@ -27,6 +26,15 @@ export const Group = styled.optgroup``
 export const Option = styled.option`
 	text-transform: capitalize;
 `
+export const SelectInputWrapper = styled.div`
+	padding-left: 4px;
+	border-radius: 8px;
+	border: 2px solid transparent;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+`
+
 export const SelectWrapper = styled.div<{
 	$customColors?: SelectStyle
 	$onHeader: boolean
@@ -37,6 +45,14 @@ export const SelectWrapper = styled.div<{
 	width: 100%;
 	max-width: ${({ $onHeader }) => ($onHeader ? "320px" : "100%")};
 
+	${SelectInputWrapper} {
+		border-color: ${({ theme, $onHeader, $customColors }) =>
+			$customColors !== undefined
+				? $customColors.select.border
+				: $onHeader
+				? theme.pink
+				: theme.accent};
+	}
 	${Group} {
 		color: ${({ theme, $onHeader, $customColors }) =>
 			$customColors !== undefined
@@ -81,12 +97,7 @@ export const SelectWrapper = styled.div<{
 				: $onHeader
 				? theme.white
 				: theme.primary};
-		border-color: ${({ theme, $onHeader, $customColors }) =>
-			$customColors !== undefined
-				? $customColors.select.border
-				: $onHeader
-				? theme.pink
-				: theme.accent};
+
 		font-size: ${({ $fontSize }) => $fontSize}rem;
 
 		${media.max.xs} {

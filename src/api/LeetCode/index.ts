@@ -26,7 +26,6 @@ export class LeetCode {
 		this.min = min === undefined ? 0 : min
 		this.user = username
 		this.baseURL = useGetCurrentHost()
-		console.log(this.baseURL)
 	}
 
 	getProfile = async () => {

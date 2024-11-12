@@ -3,12 +3,13 @@ import { SelectBase } from "./SelectBase.tsx"
 import Element from "../../../types/common/ElementProps.ts"
 import SelectStyle from "../../../types/common/SelectStyleProps.ts"
 
-interface OptionProps {
+export interface OptionProps {
 	value: string
 	key: string
+	tOptions?: { groupName: string }
 }
 
-interface GroupProps {
+export interface GroupProps {
 	groupKey: string
 	options: OptionProps[]
 }
@@ -16,6 +17,9 @@ interface GroupProps {
 export interface SelectProps extends Element {
 	options: GroupProps[]
 	id: string
+	iconId?: string
+	local: string
+	Button?: React.ReactElement
 	label: string
 	namespace: string
 	fontSize: number

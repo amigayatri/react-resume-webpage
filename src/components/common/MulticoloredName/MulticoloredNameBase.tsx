@@ -1,6 +1,6 @@
 import { Letter, Multicolor } from "./MulticoloredName.styled"
 import { MulticoloredNameProps } from "."
-import { palettesMap } from "./../../../constants/palettes"
+import { palettesMap } from "../../../constants/palettes"
 import { SVGIcon } from "../SVGIcon/client"
 import { CSSProperties, useTheme } from "styled-components"
 import { SimpleColor, getInverse, getRGBFromHex } from "../../../lib/rgb"
@@ -27,9 +27,7 @@ export const MulticoloredNameBase = ({
 		? Array.from(palette !== undefined ? palette.colors : [])
 		: customColors
 	if (paletteColors === undefined || paletteColors.length === 0) return
-	console.log(paletteColors)
 	if (isReverse === true) paletteColors.reverse()
-	console.log(isReverse, paletteColors)
 	const asArr: string[] = []
 	if (typeof children === "string") {
 		asArr.push(...children.split(""))

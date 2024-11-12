@@ -45,6 +45,8 @@ export const LanguageSelectBase = ({
 	})
 	return (
 		<Select
+			local={isExtra ? "extra-languages" : "header"}
+			iconId="translate"
 			defaultValue={onError ? `/${fallbackLng}` : pathname || ""}
 			onHeader={!isExtra}
 			fontSize={isExtra ? 1.75 : 1.25}

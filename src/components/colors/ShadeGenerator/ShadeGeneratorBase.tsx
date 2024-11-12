@@ -6,7 +6,7 @@ import { AddColor } from "../AddColor/"
 import { TargetList } from "../TargetList/"
 import { ColorList } from "../ColorList/"
 import { ShadeList } from "../ShadeList/"
-import palettesMap from "../../../constants/palettes.tsx"
+import { palettesMap } from "../../../constants/palettes"
 import { Color, getTargets } from "../../../lib/colors"
 
 export const ShadeGeneratorBase = ({ lng, t }: BaseElement) => {

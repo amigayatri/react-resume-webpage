@@ -48,7 +48,7 @@ export const HeaderBase = ({
 					icon={iconSettings}
 					state={theme}
 					stateChangeFN={changeTheme}
-					ariaLabel={t("menu.theme.change")}
+					ariaLabel={t("theme.change")}
 				/>
 			</SettingsWrapper>
 		</MenuWrapper>

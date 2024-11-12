@@ -62,7 +62,6 @@ export const HeatMap = ({ leetcode, t, lng }: LeetCodeProps) => {
 				dark: darkColors[zeroIdx]
 			}
 			setZeroColor(zeroColorCalculated)
-			console.log(zeroColorCalculated, zeroIdx, darkColors, lightColors, toUse)
 			let minMonth = 13,
 				maxMonth = -1
 			for (const [month, daysInMonth] of daysByMonth) {

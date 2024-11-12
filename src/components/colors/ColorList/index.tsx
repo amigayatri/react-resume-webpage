@@ -1,7 +1,7 @@
 import { Wrapper, ListWrapper, SubHeadingWrapper } from "./ColorList.styled"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { ColorItem } from "../ColorItem"
-import { PaletteSelect } from "../PaletteSelect/client"
+import { Select } from "../Select/client"
 import { SimpleColor } from "../../../lib/rgb"
 import { useEffect, useState } from "react"
 import BaseElement from "../../../types/common/BaseElementProps"
@@ -44,7 +44,7 @@ export const ColorList = ({
 						? t("colorList.summary.empty")
 						: t("colorList.summary.nonEmpty")}
 				</SubHeading>
-				<PaletteSelect
+				<Select
 					lng={lng}
 					addPalette={addPalette}
 					isShowing={colors.size === 0}
