@@ -4,5 +4,10 @@
   status = 301
   force = true
   
+  from = "/feriados"
+  to = "/brasil/feriados"
+  status = 301
+  force = true
+
   [[plugins]]
   package = "@netlify/plugin-nextjs"

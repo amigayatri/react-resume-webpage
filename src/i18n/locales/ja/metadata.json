@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "見つかりません",
-        "brasil": "ブラジルの地図",
+        "brasil": "ブラジル",
         "holidays": "ブラジルの祝日",
         "cats": "=^.^=",
         "colors": "色",
@@ -12,7 +12,8 @@
         "maintenance": "ページはメンテナンス中です",
         "palette": "パレット",
         "resume": "再開する",
-        "site-stats": "統計"
+        "site-stats": "統計",
+        "map": "ブラジルの地図"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "個人ウェブサイト"

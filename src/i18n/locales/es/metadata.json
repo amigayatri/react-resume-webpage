@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "Extraviado",
-        "brasil": "mapa brasileño",
+        "brasil": "Brasil",
         "holidays": "Vacaciones brasileñas",
         "cats": "=^.^=",
         "colors": "Bandera",
@@ -12,7 +12,8 @@
         "maintenance": "Página en mantenimiento",
         "palette": "Paletas",
         "resume": "Reanudar",
-        "site-stats": "Estadísticas"
+        "site-stats": "Estadísticas",
+        "map": "Mapa de Brasil"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "sitio web personal"

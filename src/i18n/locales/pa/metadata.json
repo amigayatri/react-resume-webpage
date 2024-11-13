@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "ਨਹੀਂ ਲਭਿਆ",
-        "brasil": "ਬ੍ਰਾਜ਼ੀਲ ਦਾ ਨਕਸ਼ਾ",
+        "brasil": "ਬ੍ਰਾਜ਼ੀਲ",
         "holidays": "ਬ੍ਰਾਜ਼ੀਲ ਦੀਆਂ ਛੁੱਟੀਆਂ",
         "cats": "=^।^=",
         "colors": "ਰੰਗ",
@@ -12,7 +12,8 @@
         "maintenance": "ਪੰਨਾ ਦੇਖਭਾਲ ਅਧੀਨ ਹੈ",
         "palette": "ਪੈਲੇਟਸ",
         "resume": "ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ",
-        "site-stats": "ਅੰਕੜੇ"
+        "site-stats": "ਅੰਕੜੇ",
+        "map": "ਬ੍ਰਾਜ਼ੀਲ ਦਾ ਨਕਸ਼ਾ"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ਨਿੱਜੀ ਵੈੱਬਸਾਈਟ"

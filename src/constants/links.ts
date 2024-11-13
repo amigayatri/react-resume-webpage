@@ -41,12 +41,6 @@ export const extraPages: LinkProps[] = [
 		isExternal: false
 	},
 	{
-		path: "feriados",
-		key: "holidays",
-		icon: "braziliancalendar",
-		isExternal: false
-	},
-	{
 		path: "colors",
 		key: "colors",
 		icon: "palette",
@@ -75,4 +69,19 @@ export const links: LinkProps[] = [
 		isExternal: true
 	},
 	...extraPages
+]
+
+export const brazilianLinks: LinkProps[] = [
+	{
+		path: "brasil/mapa",
+		key: "map",
+		icon: "map",
+		isExternal: false
+	},
+	{
+		path: "brasil/feriados",
+		key: "holidays",
+		icon: "braziliancalendar",
+		isExternal: false
+	}
 ]

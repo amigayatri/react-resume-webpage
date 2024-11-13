@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "Ndojejuhúi",
-        "brasil": "Mapa brasileño rehegua",
+        "brasil": "Brasil",
         "holidays": "Ára guasu Brasil-pegua",
         "cats": "=^.^=",
         "colors": "Umi sa’y",
@@ -12,7 +12,8 @@
         "maintenance": "Página ohóva mantenimiento guýpe",
         "palette": "Paletas rehegua",
         "resume": "Moñepyrũjey",
-        "site-stats": "Estadísticas rehegua"
+        "site-stats": "Estadísticas rehegua",
+        "map": "Mapa Brasil rehegua"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Página web personal"

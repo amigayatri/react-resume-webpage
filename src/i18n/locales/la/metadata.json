@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "Non inveni",
-        "brasil": "Brazilian map",
+        "brasil": "Brasil",
         "holidays": "Brazilian Holidays",
         "cats": "=^.^=",
         "colors": "Colorum",
@@ -12,7 +12,8 @@
         "maintenance": "Page ire sub tutela",
         "palette": "Palettes",
         "resume": "Proin",
-        "site-stats": "Stats"
+        "site-stats": "Stats",
+        "map": "Tabula geographica Brasiliae"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

@@ -1,6 +1,6 @@
 import { languages, fallbackLng } from "../../i18n/settings"
-import { Main } from "../../components/home/Main/"
-import ErrorMain from "../../components/error/Main"
+import { Main } from "../../components/home/"
+import { ErrorMain } from "../../components/error/"
 import { ThemeClient } from "../../components/common/client"
 import { PageProps } from "../../types/common/"
 

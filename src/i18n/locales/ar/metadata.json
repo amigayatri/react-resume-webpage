@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "لم يتم العثور عليه",
-        "brasil": "الخريطة البرازيلية",
+        "brasil": "البرازيل",
         "holidays": "العطل البرازيلية",
         "cats": "=^.^=",
         "colors": "الألوان",
@@ -12,7 +12,8 @@
         "maintenance": "الصفحة تحت الصيانة",
         "palette": "لوحات",
         "resume": "سيرة ذاتية",
-        "site-stats": "احصائيات"
+        "site-stats": "احصائيات",
+        "map": "خريطة البرازيل"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "موقع شخصي"

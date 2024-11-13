@@ -1,19 +1,20 @@
 {
-  "path": {
-    "404": "Nicht gefunden",
-    "brasil": "Brasilianische Karte",
-    "holidays": "Brasilianische Feiertage",
-    "cats": "=^.^=",
-    "colors": "Farbvariationen",
-    "extra-languages": "Zusätzliche Sprachen",
-    "home": "Homepage",
-    "icons": "Projektsymbole",
-    "leetcode": "LeetCode",
-    "maintenance": "Die Seite wird derzeit gewartet",
-    "palette": "Paletten",
-    "resume": "Wieder aufnehmen",
-    "site-stats": "Statistiken"
-  },
-  "base-title": "{{pathTitle}} | Amira Gayatri",
-  "content": "Site-Pessoal"
+    "path": {
+        "404": "Nicht gefunden",
+        "brasil": "Brasilien",
+        "holidays": "Brasilianische Feiertage",
+        "cats": "=^.^=",
+        "colors": "Farbvariationen",
+        "extra-languages": "Zusätzliche Sprachen",
+        "home": "Homepage",
+        "icons": "Projektsymbole",
+        "leetcode": "LeetCode",
+        "maintenance": "Die Seite wird derzeit gewartet",
+        "palette": "Paletten",
+        "resume": "Wieder aufnehmen",
+        "site-stats": "Statistiken",
+        "map": "Karte von Brasilien"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "Site-Pessoal"
 }
