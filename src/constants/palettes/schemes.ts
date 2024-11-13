@@ -1,15 +1,14 @@
-import Palette from "../../types/palette/PaletteProps"
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
+import { PaletteProps, PaletteGroupProps } from "../../types/palette/"
 
-export const cmyk: Palette = {
+export const cmyk: PaletteProps = {
 	icon: "colorfilter",
 	colors: ["#00ffff", "#ff00ff", "#ffff00", "#000000"]
 }
-export const rgb: Palette = {
+export const rgb: PaletteProps = {
 	icon: "colorfilter",
 	colors: ["#FF0000", "#00FF00", "#0000FF", "#FFFFFF"]
 }
-export const mac16: Palette = {
+export const mac16: PaletteProps = {
 	icon: "terminal",
 	colors: [
 		"#FFFFFF",
@@ -30,7 +29,7 @@ export const mac16: Palette = {
 		"#000000"
 	]
 }
-export const riscOS16: Palette = {
+export const riscOS16: PaletteProps = {
 	icon: "terminal",
 	colors: [
 		"#FFFFFF",
@@ -51,7 +50,7 @@ export const riscOS16: Palette = {
 		"#00bdff"
 	]
 }
-export const webBasics: Palette = {
+export const webBasics: PaletteProps = {
 	icon: "website",
 	colors: [
 		"#FFFFFF",
@@ -72,7 +71,7 @@ export const webBasics: Palette = {
 		"#800080"
 	]
 }
-export const rgb12: Palette = {
+export const rgb12: PaletteProps = {
 	icon: "palette",
 	colors: [
 		"#ff007f",
@@ -89,7 +88,7 @@ export const rgb12: Palette = {
 		"#FF0000"
 	]
 }
-export const rgb8: Palette = {
+export const rgb8: PaletteProps = {
 	icon: "palette",
 	colors: [
 		"#ff00ff",
@@ -102,7 +101,7 @@ export const rgb8: Palette = {
 		"#000000"
 	]
 }
-export const grayscale16: Palette = {
+export const grayscale16: PaletteProps = {
 	icon: "shadow",
 	colors: [
 		"#000000",
@@ -123,7 +122,7 @@ export const grayscale16: Palette = {
 		"#FFFFFF"
 	]
 }
-export const crayola10: Palette = {
+export const crayola10: PaletteProps = {
 	icon: "pencil",
 	colors: [
 		"#D92121",
@@ -138,7 +137,7 @@ export const crayola10: Palette = {
 		"#A63A79"
 	]
 }
-export const crayola12: Palette = {
+export const crayola12: PaletteProps = {
 	icon: "pencil",
 	colors: [
 		"#ED0A3F",
@@ -155,7 +154,7 @@ export const crayola12: Palette = {
 		"#C71585"
 	]
 }
-export const munsellCrayola: Palette = {
+export const munsellCrayola: PaletteProps = {
 	icon: "pencil",
 	colors: [
 		"#D92121",
@@ -182,7 +181,7 @@ export const munsellCrayola: Palette = {
 		"#000000"
 	]
 }
-export const vhs: Palette = {
+export const vhs: PaletteProps = {
 	icon: "vhs",
 	colors: [
 		"#686868",
@@ -200,11 +199,11 @@ export const vhs: Palette = {
 		"#10466a"
 	]
 }
-export const goethe: Palette = {
+export const goethe: PaletteProps = {
 	icon: "palette",
 	colors: ["#d3071b", "#fa4503", "#ffcc02", "#008d21", "#0ea8eb", "#063f6f"]
 }
-export const newtown: Palette = {
+export const newtown: PaletteProps = {
 	icon: "prism",
 	colors: [
 		"#9400d3",
@@ -216,11 +215,11 @@ export const newtown: Palette = {
 		"#ff0000"
 	]
 }
-export const grayscale4: Palette = {
+export const grayscale4: PaletteProps = {
 	icon: "shadow",
 	colors: ["#000000", "#686868", "#b8b8b8", "#ffffff"]
 }
-export const schemes: PaletteGroup = new Map([
+export const schemes: PaletteGroupProps = new Map([
 	["cmyk", cmyk],
 	["rgb", rgb],
 	["mac16", mac16],

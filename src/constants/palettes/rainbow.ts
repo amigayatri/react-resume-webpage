@@ -1,7 +1,6 @@
-import Palette from "../../types/palette/PaletteProps"
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
+import { PaletteProps, PaletteGroupProps } from "../../types/palette/"
 
-export const rainbowMonokai: Palette = {
+export const rainbowMonokai: PaletteProps = {
 	icon: "terminal",
 	colors: [
 		"#f83535",
@@ -14,7 +13,7 @@ export const rainbowMonokai: Palette = {
 	]
 }
 
-export const regularRainbow: Palette = {
+export const regularRainbow: PaletteProps = {
 	icon: "rainbow",
 	colors: [
 		"#e81416",
@@ -26,7 +25,7 @@ export const regularRainbow: Palette = {
 		"#70369d"
 	]
 }
-export const pastelRainbow: Palette = {
+export const pastelRainbow: PaletteProps = {
 	icon: "rainbow",
 	colors: [
 		"#F58B8B",
@@ -38,7 +37,7 @@ export const pastelRainbow: Palette = {
 		"#B99BCF"
 	]
 }
-export const darkRainbow: Palette = {
+export const darkRainbow: PaletteProps = {
 	icon: "rainbow",
 	colors: [
 		"#AE0F11",
@@ -51,7 +50,7 @@ export const darkRainbow: Palette = {
 	]
 }
 
-export const rainbow: PaletteGroup = new Map([
+export const rainbow: PaletteGroupProps = new Map([
 	["rainbow monokai", rainbowMonokai],
 	["regular rainbow", regularRainbow],
 	["pastel rainbow", pastelRainbow],

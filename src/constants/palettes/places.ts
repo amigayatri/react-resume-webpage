@@ -1,52 +1,54 @@
-import Palette from "../../types/palette/PaletteProps"
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
+import { PaletteProps, PaletteGroupProps } from "../../types/palette/"
 
-export const lebanon: Palette = {
+export const lebanon: PaletteProps = {
 	icon: "cedar",
 	colors: ["#ED1C24", "#FFFFFF", "#00A651"]
 }
-export const syria: Palette = {
+export const syria: PaletteProps = {
 	icon: "star",
 	colors: ["#CE1126", "#FFFFFF", "#007A3D", "#000000"]
 }
-export const mexico: Palette = {
+export const mexico: PaletteProps = {
 	icon: "icecream",
 	colors: ["#006341", "#FFFFFF", "#C8102E"]
 }
-export const uruguay: Palette = {
+export const uruguay: PaletteProps = {
 	icon: "mappin",
 	colors: ["#001489", "#FFFFFF", "#FFCD00", "#7B3F00"]
 }
-export const ecuador: Palette = {
+export const ecuador: PaletteProps = {
 	icon: "mappin",
 	colors: ["#FFD100", "#0072CE", "#EF3340"]
 }
-export const jamaica: Palette = {
+export const jamaica: PaletteProps = {
 	icon: "mappin",
 	colors: ["#009B3A", "#FED100", "#000000"]
 }
-export const southAfrica: Palette = {
+export const southAfrica: PaletteProps = {
 	icon: "mappin",
 	colors: ["#E03C31", "#FFFFFF", "#007749", "#001489", "#FFB81C", "#000000"]
 }
-export const greece: Palette = {
+export const greece: PaletteProps = {
 	icon: "mappin",
 	colors: ["#001489", "#FFFFFF"]
 }
-export const brasil: Palette = {
+export const brasil: PaletteProps = {
 	icon: "brasil",
 	colors: ["#009739", "#FEDD00", "#FFFFFF", "#012169"]
 }
-export const china: Palette = { icon: "star", colors: ["#EE1C25", "#FFFF00"] }
-export const ghana: Palette = {
+export const china: PaletteProps = {
+	icon: "star",
+	colors: ["#EE1C25", "#FFFF00"]
+}
+export const ghana: PaletteProps = {
 	icon: "mappin",
 	colors: ["#EF3340", "#FFD100", "#009739", "#000000"]
 }
-export const rioDeJaneiro: Palette = {
+export const rioDeJaneiro: PaletteProps = {
 	icon: "riodejaneiro",
 	colors: ["#00AFEF", "#FFFFFF", "#A93C40", "#00A859", "#C0C2C8"]
 }
-export const places: PaletteGroup = new Map([
+export const places: PaletteGroupProps = new Map([
 	["lebanon", lebanon],
 	["syria", syria],
 	["mexico", mexico],

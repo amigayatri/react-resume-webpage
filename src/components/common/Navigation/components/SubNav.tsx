@@ -4,7 +4,7 @@ import {
 	SubNavContentWrapper,
 	OpenSubNav
 } from "../Navigation.styled"
-import LinkProps from "../../../../types/common/LinkProps"
+import { LinkProps } from "../../../../types/common/"
 import { NavigationItem } from "./NavigationItem"
 import { SVGIcon } from "../../SVGIcon/client"
 import { useState } from "react"

@@ -1,35 +1,34 @@
-import Palette from "../../types/palette/PaletteProps"
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
+import { PaletteProps, PaletteGroupProps } from "../../types/palette/"
 
-export const bee: Palette = {
+export const bee: PaletteProps = {
 	icon: "bee",
 	colors: ["#2f1f20", "#ffdb01", "#2f1f1f", "#ffdb00", "#2f1f1e"]
 }
-export const emo: Palette = {
+export const emo: PaletteProps = {
 	icon: "crying",
 	colors: ["#000000", "#FF0000", "#FFFFFF"]
 }
-export const barbie: Palette = {
+export const barbie: PaletteProps = {
 	icon: "barbie",
 	colors: ["#DA1884", "#ff007f", "#ff4e9c", "#fa6db0", "#f600a8", "#ff0097"]
 }
-export const sonic: Palette = {
+export const sonic: PaletteProps = {
 	icon: "sonic",
 	colors: ["#0078ff", "#ff0000", "#ffffff", "#000000", "#ffd29a"]
 }
-export const bmo: Palette = {
+export const bmo: PaletteProps = {
 	icon: "gamepad",
 	colors: ["#63bda4", "#d9ffea", "#62afb7", "#f20553", "#ffec47"]
 }
-export const adventureTime: Palette = {
+export const adventureTime: PaletteProps = {
 	icon: "crown",
 	colors: ["#029ac3", "#ffba1e", "#59a694", "#fe66ca", "#cd93f9"]
 }
-export const cosmoAndWanda: Palette = {
+export const cosmoAndWanda: PaletteProps = {
 	icon: "magicwand",
 	colors: ["#19D719", "#F02D7D"]
 }
-export const fairlyOddParents: Palette = {
+export const fairlyOddParents: PaletteProps = {
 	icon: "magicwand",
 	colors: [
 		"#F02D7D",
@@ -42,7 +41,7 @@ export const fairlyOddParents: Palette = {
 		"#fbc793"
 	]
 }
-export const turmaDaMonica: Palette = {
+export const turmaDaMonica: PaletteProps = {
 	icon: "magazine",
 	colors: [
 		"#00a652",
@@ -56,11 +55,11 @@ export const turmaDaMonica: Palette = {
 		"#f6ea00"
 	]
 }
-export const naruto: Palette = {
+export const naruto: PaletteProps = {
 	icon: "naruto",
 	colors: ["#fe7a35", "#093c7d", "#f4f4f2", "#e9dc3f"]
 }
-export const media: PaletteGroup = new Map([
+export const media: PaletteGroupProps = new Map([
 	["bee", bee],
 	["emo", emo],
 	["bmo", bmo],

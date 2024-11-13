@@ -1,12 +1,11 @@
-import Palette from "../../types/palette/PaletteProps"
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
+import { PaletteProps, PaletteGroupProps } from "../../types/palette/"
 
-export const namedArr: Palette = {
+export const namedArr: PaletteProps = {
 	icon: "website",
 	colors: ["#212117", "#f92472", "#67d8ef", "#f7f7f7"]
 }
 
-export const grayscaleMonokai: Palette = {
+export const grayscaleMonokai: PaletteProps = {
 	icon: "website",
 	colors: [
 		"#000000",
@@ -19,7 +18,7 @@ export const grayscaleMonokai: Palette = {
 	]
 }
 
-export const fullMonokai: Palette = {
+export const fullMonokai: PaletteProps = {
 	icon: "website",
 	colors: [
 		"#000000",
@@ -39,7 +38,7 @@ export const fullMonokai: Palette = {
 	]
 }
 
-export const themes: PaletteGroup = new Map([
+export const themes: PaletteGroupProps = new Map([
 	["current", namedArr],
 	["grayscalemonokai", grayscaleMonokai],
 	["fullmonokai", fullMonokai]

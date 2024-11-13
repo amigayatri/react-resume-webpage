@@ -5,7 +5,7 @@ import {
 	UnderLine
 } from "../Navigation.styled"
 import { SVGIcon } from "../../SVGIcon/client"
-import LinkProps from "../../../../types/common/LinkProps"
+import { LinkProps } from "../../../../types/common/"
 import { NavProps } from "../NavigationBase"
 
 interface NavigationItemProps extends NavProps {
