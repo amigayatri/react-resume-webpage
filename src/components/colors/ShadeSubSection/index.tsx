@@ -1,5 +1,3 @@
-import { Color } from "../../../lib/colors"
-import { SimpleColor } from "../../../lib/rgb"
 import {
 	ShadeTitle,
 	ShadeSubtitle,
@@ -11,16 +9,17 @@ import {
 } from "./ShadeSubSection.styled"
 import { ShadeItem } from "../ShadeItem"
 import { Trans } from "react-i18next/TransWithoutContext"
-import BaseElement from "../../../types/common/BaseElementProps"
-interface ShadeSubSectionProps extends BaseElement {
-	color: Color
-}
+import {
+	ShadeSubSectionProps,
+	showSquareType,
+	showTargetsVariationsType
+} from "../types"
 
 export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 	const currCode = color.code
 	const currInverse = color.palette.inverse
 	const variations = Array.from(color.variations.entries())
-	const showSquare = ({ code, inverse }: SimpleColor) => {
+	const showSquare: showSquareType = ({ code, inverse }) => {
 		return (
 			<ShadeItem
 				key={"base:" + code + "shade:" + code}
@@ -30,9 +29,9 @@ export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 			/>
 		)
 	}
-	const showTargetsVariations = ([from, currVariations]: [
-		string,
-		Map<string, SimpleColor>
+	const showTargetsVariations: showTargetsVariationsType = ([
+		from,
+		currVariations
 	]) => {
 		const { code, inverse } = currVariations.get(from) || {
 			code: "",
@@ -62,7 +61,7 @@ export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 					</ShadeSubtitle>
 				</PairWrapper>
 				<ShadesWrapper>
-					{variationsArr.map((value) => showSquare(value as SimpleColor))}
+					{variationsArr.map((value) => showSquare(value))}
 				</ShadesWrapper>
 			</TargetWrapper>
 		)

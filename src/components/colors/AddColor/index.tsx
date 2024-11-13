@@ -23,12 +23,7 @@ import {
 	addTarget
 } from "../../../lib/colors"
 import { useTheme } from "styled-components"
-import BaseElement from "../../../types/common/BaseElementProps"
-
-interface AddColorProps extends BaseElement {
-	add: (arg0: string) => void
-	regenerate: () => void
-}
+import { AddColorProps } from "../types"
 
 export const AddColor = ({ add, regenerate, t }: AddColorProps) => {
 	const theme = useTheme()

@@ -1,8 +1,5 @@
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { TFunction } from "i18next"
-import StateProps from "../../../types/holidays/StateProps.ts"
-import Holiday from "../../../types/holidays/HolidayProps.ts"
-import { Dispatch, SetStateAction, useEffect, useState } from "react"
+import { CitySelectorProps, emptyStatesType } from "../types.ts"
+import { useEffect, useState } from "react"
 import {
 	Button,
 	OpenText,
@@ -14,16 +11,8 @@ import {
 	Selectors,
 	Label
 } from "./CitySelector.styled.ts"
-import { SVGIcon } from "../../common/SVGIcon/client.tsx"
+import { SVGIcon } from "../../common/client"
 import BrazilianAPI from "../../../api/Brazil/"
-
-interface CitySelectorProps extends BaseElement {
-	t: TFunction<any, undefined>
-	thisYear: Holiday[]
-	nextYear: Holiday[]
-	setThisYear: Dispatch<SetStateAction<Holiday[]>>
-	setNextYear: Dispatch<SetStateAction<Holiday[]>>
-}
 
 export const CitySelector = ({
 	t,
@@ -33,7 +22,7 @@ export const CitySelector = ({
 	setNextYear,
 	setThisYear
 }: CitySelectorProps) => {
-	const emptyStates: StateProps[] = []
+	const emptyStates: emptyStatesType = []
 	const [states, setStates] = useState(emptyStates)
 	const emptyCities: string[] = []
 	const [cities, setCities] = useState(emptyCities)

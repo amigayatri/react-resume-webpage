@@ -1,10 +1,10 @@
 "use client"
 
 import { LeetcodeStatsBase } from "./LeetcodeStatsBase"
-import Element from "../../../types/common/ElementProps"
 import { useTranslation } from "../../../i18n/client"
+import { LeetcodeStatsProps } from "./types"
 
-export const LeetcodeStats = ({ lng }: Element) => {
+export const LeetcodeStats = ({ lng }: LeetcodeStatsProps) => {
 	const { t } = useTranslation(lng, "leetcode")
 	return <LeetcodeStatsBase t={t} lng={lng} />
 }

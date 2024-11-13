@@ -1,5 +1,5 @@
-import ElementProps from "../../../types/common/ElementProps"
 import { ProgressBase } from "./ProgressBase"
+import { ElementProps } from "../../../types/common/"
 
 interface ProgressProps {
 	done: number

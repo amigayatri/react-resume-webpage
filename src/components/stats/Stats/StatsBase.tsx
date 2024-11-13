@@ -1,14 +1,14 @@
 import { StatsWrapper, TabName, TabNamesWrapper } from "./Stats.styled.ts"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
 import { GitStats } from "../Git/client.tsx"
 import { LeetcodeStats } from "../Leetcode/client.tsx"
 import { TabPanel, Tabs } from "react-tabs"
 import { MainTitle } from "../Common.styled"
-import { MulticoloredName } from "../../common/MulticoloredName/client.tsx"
+import { MulticoloredName } from "../../common/client.tsx"
 import { useTheme } from "styled-components"
 import { useState } from "react"
+import { StatsBaseProps } from "../types"
 
-export const StatsBase = ({ lng, t }: BaseElement) => {
+export const StatsBase = ({ lng, t }: StatsBaseProps) => {
 	const { pink, purple, blue } = useTheme()
 	const customColors = [pink, purple, blue]
 	const nameProps = {

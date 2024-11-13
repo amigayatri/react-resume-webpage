@@ -1,5 +1,5 @@
 import { IconWrapper, Icon } from "../SVGIcon.styled"
-import SVGProps from "../../../../types/common/SVGProps"
+import { SVGProps } from "../../../../types/common/"
 
 export const EqualIcon = (props: SVGProps) => {
 	const { alt, size, hasTransition, color } = props

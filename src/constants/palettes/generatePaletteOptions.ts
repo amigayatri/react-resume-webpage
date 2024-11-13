@@ -1,23 +1,10 @@
 import { palettesMap } from "./"
-import { GroupProps, OptionProps } from "../../components/common/Select"
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
-
-export interface PaletteOptionProps extends OptionProps {
-	name: string
-}
-
-export interface PaletteGroupProps extends GroupProps {
-	group: string
-	size: number
-	options: PaletteOptionProps[]
-}
-
-type genPaletteOptionsType = (byGroup: boolean) => {
-	palettes: PaletteGroupProps[]
-	groups: GroupProps
-}
-type genOptionsType = (group: string, name: string) => PaletteOptionProps
-type genGroupsType = (arg0: [string, PaletteGroup]) => PaletteGroupProps
+import { GroupProps } from "../../types/common/"
+import {
+	genGroupsType,
+	genOptionsType,
+	genPaletteOptionsType
+} from "../../types/palette/"
 
 export const generatePaletteOptions: genPaletteOptionsType = (
 	byGroup: boolean

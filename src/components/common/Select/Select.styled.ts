@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 import { media } from "../../../constants/medias"
-import SelectStyle from "../../../types/common/SelectStyleProps"
+import { SelectStyleProps } from "../../../types/common/"
 
 export const Label = styled.label`
 	position: absolute;
@@ -12,13 +12,19 @@ export const Label = styled.label`
 	line-height: 1;
 	border-radius: 4px;
 	font-weight: 700;
+	display: inline-block;
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-wrap: nowrap;
 `
 
-export const SelectInput = styled.select`
+export const SelectInput = styled.select<{ $hasButton: boolean }>`
 	border: 0px;
 	text-transform: capitalize;
 	width: 100%;
 	padding: 4px 8px;
+	border-radius: ${({ $hasButton }) => ($hasButton ? "0" : "0 8px 8px 0")};
 `
 
 export const Group = styled.optgroup``
@@ -36,7 +42,7 @@ export const SelectInputWrapper = styled.div`
 `
 
 export const SelectWrapper = styled.div<{
-	$customColors?: SelectStyle
+	$customColors?: SelectStyleProps
 	$onHeader: boolean
 	$fontSize: number
 }>`
@@ -44,6 +50,7 @@ export const SelectWrapper = styled.div<{
 	padding: calc(${({ $fontSize }) => $fontSize - 0.25}rem - 4px) 0 8px;
 	width: 100%;
 	max-width: ${({ $onHeader }) => ($onHeader ? "320px" : "100%")};
+	margin-left: ${({ $onHeader }) => ($onHeader ? "16px" : "0")};
 
 	${SelectInputWrapper} {
 		border-color: ${({ theme, $onHeader, $customColors }) =>
@@ -101,10 +108,10 @@ export const SelectWrapper = styled.div<{
 		font-size: ${({ $fontSize }) => $fontSize}rem;
 
 		${media.max.xs} {
-			max-width: ${({ $onHeader }) => ($onHeader ? "160px" : "100%")};
+			max-width: 100%;
 		}
 		${media.max.sm} {
-			max-width: ${({ $onHeader }) => ($onHeader ? "200px" : "100%")};
+			max-width: 100%;
 		}
 	}
 `

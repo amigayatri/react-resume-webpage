@@ -19,8 +19,13 @@ export const ValueWrapper = styled.span`
 
 export const ControlsWrapper = styled.div`
 	margin-top: 16px;
-	padding: 0;
+	margin: 0 calc(var(--color-container) * -1);
+	padding: 16px var(--color-container) 8px;
 	width: fit-content;
+	max-width: 100vw;
+	overflow-x: auto;
+	${({ theme }) =>
+		theme.getScroll(theme.background, theme.purple, theme.accent, true)}
 	display: flex;
 `
 

@@ -1,15 +1,10 @@
 import { Wrapper, ContactList, ContactItem, Link } from "./Contact.styled"
-import { SVGIcon } from "../../common/SVGIcon/client.tsx"
-import ContactProps from "../../../types/resume/ContactProps.ts"
+import { SVGIcon } from "../../common/"
 import { linkProps } from "../../../constants/linkprops"
-import Element from "../../../types/common/ElementProps.ts"
+import { ContactsElementProps, showContactInfoType } from "../types.ts"
 
-interface ContactsProps extends Element {
-	contacts: ContactProps[]
-}
-
-const Contacts = ({ contacts, lng }: ContactsProps) => {
-	const showContactInfo = (contact: ContactProps, index: number) => {
+export const Contacts = ({ contacts, lng }: ContactsElementProps) => {
+	const showContactInfo: showContactInfoType = (contact, index) => {
 		return (
 			<ContactItem
 				$i={index}
@@ -31,5 +26,3 @@ const Contacts = ({ contacts, lng }: ContactsProps) => {
 		</Wrapper>
 	)
 }
-
-export default Contacts

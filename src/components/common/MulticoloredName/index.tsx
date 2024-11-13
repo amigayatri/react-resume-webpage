@@ -1,9 +1,9 @@
-import PaletteInfo from "../../../types/palette/PaletteInfoProps"
-import Element from "../../../types/common/ElementProps"
+import { PaletteInfoProps } from "../../../types/palette/"
+import { ElementProps } from "../../../types/common/"
 import { MulticoloredNameBase } from "./MulticoloredNameBase"
 
-export interface MulticoloredNameProps extends Element {
-	info: PaletteInfo
+export interface MulticoloredNameProps extends ElementProps {
+	info: PaletteInfoProps
 	local: string
 	legible: boolean
 	legibleTextColors?: boolean

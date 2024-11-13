@@ -1,10 +1,10 @@
 import { IconListWrapper, List, IconItem, Id, Icon } from "./IconList.styled"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
 import { iconsIds } from "../../../constants/icons.ts"
 import { rainbowMonokai } from "../../../constants/palettes/rainbow.ts"
-import { SVGIcon } from "../../common/SVGIcon/client.tsx"
+import { SVGIcon } from "../../common/SVGIcon/client"
+import { IconListBaseProps } from "../types"
 
-export const IconListBase = ({ lng }: BaseElement) => {
+export const IconListBase = ({ lng }: IconListBaseProps) => {
 	return (
 		<IconListWrapper>
 			<List>

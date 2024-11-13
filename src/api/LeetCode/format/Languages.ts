@@ -1,17 +1,17 @@
-import { ProgrammingLanguageProps } from "../../../types/leetcode/"
-
-export const emptyLanguages: ProgrammingLanguageProps[] = []
+import { languageArrType } from "../../../types/leetcode"
 
 interface QueryResult {
 	matchedUser: {
-		languageProblemCount: ProgrammingLanguageProps[]
+		languageProblemCount: languageArrType
 	}
 }
 
-export const formatLanguages = (rawData: QueryResult, min: number) => {
+type formatLanguagesType = (raw: QueryResult, min: number) => languageArrType
+
+export const formatLanguages: formatLanguagesType = (rawData, min) => {
 	const languages = rawData.matchedUser.languageProblemCount
-	const relevantLanguages: ProgrammingLanguageProps[] = []
-	languages.forEach((lang: ProgrammingLanguageProps) => {
+	const relevantLanguages: languageArrType = []
+	languages.forEach((lang) => {
 		if (lang.problemsSolved >= min) {
 			relevantLanguages.push(lang)
 		}

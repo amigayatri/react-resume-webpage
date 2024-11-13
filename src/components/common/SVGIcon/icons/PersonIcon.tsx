@@ -1,5 +1,5 @@
 import { IconWrapper, Icon } from "../SVGIcon.styled"
-import SVGProps from "../../../../types/common/SVGProps"
+import { SVGProps } from "../../../../types/common/"
 
 //Account-circle-line on pack
 export const PersonIcon = (props: SVGProps) => {

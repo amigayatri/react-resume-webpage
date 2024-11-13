@@ -1,5 +1,5 @@
 import { ListWrapper, List, Item, Img, Title } from "./RandomList.styled"
-import { MulticoloredName } from "../../common/MulticoloredName/client.tsx"
+import { MulticoloredName } from "../../common/client.tsx"
 import { RandomListProps } from "../types.ts"
 import { useTheme } from "styled-components"
 

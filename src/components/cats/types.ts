@@ -1,4 +1,4 @@
-import BaseElement from "../../types/common/BaseElementProps"
+import { BaseElementProps } from "../../types/common/"
 import { Dispatch, SetStateAction } from "react"
 
 export interface AnimalListProps {
@@ -12,7 +12,7 @@ export interface ControlsValues {
 	count: number
 }
 
-interface AnimalsElementProps extends BaseElement {
+interface AnimalsElementProps extends BaseElementProps {
 	controls: ControlsValues
 }
 

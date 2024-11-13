@@ -2,10 +2,9 @@ import { generatePaletteOptions } from "../../../../constants/palettes/generateP
 import { Select } from "../../Select/client.tsx"
 import { PaletteSelectBaseElement } from "../"
 import {
-	PaletteGroupProps,
-	PaletteOptionProps
-} from "../../../../constants/palettes/generatePaletteOptions"
-import { GroupProps } from "../../Select/"
+	PaletteOptionProps,
+	validateGroupType
+} from "../../../../types/palette"
 
 export const HideShowing = ({
 	lng,
@@ -27,7 +26,7 @@ export const HideShowing = ({
 			tOptions: { groupName: `groups.${group}` }
 		}
 	}
-	const validateGroup: (opt: PaletteGroupProps) => GroupProps = ({
+	const validateGroup: validateGroupType = ({
 		group,
 		groupKey,
 		size,

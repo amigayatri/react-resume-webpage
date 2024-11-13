@@ -1,15 +1,10 @@
 import { Wrapper, SummaryText } from "./Summary.styled.ts"
+import { SummaryProps } from "../types.ts"
 
-interface SummaryProps {
-	summary: string
-}
-
-const Summary = ({ summary }: SummaryProps) => {
+export const Summary = ({ summary }: SummaryProps) => {
 	return (
 		<Wrapper>
 			<SummaryText>{summary}</SummaryText>
 		</Wrapper>
 	)
 }
-
-export default Summary

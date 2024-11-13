@@ -2,9 +2,9 @@
 
 import { useTranslation } from "../../../i18n/client"
 import { NavigationBase } from "./NavigationBase.tsx"
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps } from "../../../types/common/"
 
-export const Navigation = ({ lng }: Element) => {
+export const Navigation = ({ lng }: ElementProps) => {
 	const { t } = useTranslation(lng, "pagelist")
 	return <NavigationBase t={t} lng={lng} />
 }

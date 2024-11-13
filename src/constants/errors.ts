@@ -1,4 +1,4 @@
-import ErrorProps from "../types/error/ErrorProps"
+import { ErrorProps } from "../types/error/"
 
 export const notFound: ErrorProps = { id: "404", icons: ["brokenlink"] }
 export const maintenance: ErrorProps = {

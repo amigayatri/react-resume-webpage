@@ -1,17 +1,4 @@
-export const emptySolved = {
-	solved: {
-		easy: -1,
-		medium: -1,
-		hard: -1,
-		total: -1
-	},
-	acceptance: {
-		total: -1,
-		easy: -1,
-		medium: -1,
-		hard: -1
-	}
-}
+import { SolvedQuestions } from "../../../types/leetcode"
 
 interface SubCount {
 	difficulty: string
@@ -28,7 +15,9 @@ interface QueryResult {
 	acSubmissionNum: SubCount[]
 }
 
-export const formatSolved = (rawData: QueryResult) => {
+type formatSolvedType = (raw: QueryResult) => SolvedQuestions
+
+export const formatSolved: formatSolvedType = (rawData) => {
 	return {
 		solved: {
 			easy: rawData.easySolved,

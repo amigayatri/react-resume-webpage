@@ -3,6 +3,12 @@
 import styled from "styled-components"
 import { media } from "../../../constants/medias"
 
+export const PDFDownloadWrapper = styled.span`
+	& a {
+		text-decoration: none !important;
+	}
+`
+
 export const PDFDownload = styled.div`
 	padding: 8px 16px;
 	border-radius: 16px;

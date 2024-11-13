@@ -1,11 +1,10 @@
+import { skillMapType } from "../../../types/leetcode"
+
 interface RawSkill {
 	problemsSolved: number
 	tagName: string
 	tagSlug: string
 }
-import { Tag } from "react-tagcloud"
-
-export const emptySkills: Map<string, Tag[]> = new Map()
 
 interface QueryResult {
 	data: {
@@ -19,7 +18,9 @@ interface QueryResult {
 	}
 }
 
-export const formatSkills = (rawData: QueryResult) => {
+type formatSkillsType = (raw: QueryResult) => skillMapType
+
+export const formatSkills: formatSkillsType = (rawData) => {
 	const list = rawData.data.matchedUser.tagProblemCounts
 	const levelList = new Map()
 	for (const [level, skills] of Object.entries(list)) {

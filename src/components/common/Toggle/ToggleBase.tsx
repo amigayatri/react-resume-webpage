@@ -1,11 +1,9 @@
 import { ToggleWrapper } from "./Toggle.styled"
-import { TFunction } from "i18next"
-import { ToggleProps } from "../../../types/common/ToggleProps.ts"
-import { SVGIcon } from "../SVGIcon/client"
+import { ToggleProps, BaseElementProps } from "../../../types/common/"
+import { SVGIcon } from "../client"
 
-interface ToggleBaseProps extends ToggleProps {
-	t: TFunction<any, undefined>
-}
+interface ToggleBaseProps extends ToggleProps {}
+interface ToggleBaseProps extends BaseElementProps {}
 
 export const ToggleBase = ({
 	ariaLabel,

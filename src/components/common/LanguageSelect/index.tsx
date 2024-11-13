@@ -1,13 +1,16 @@
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps, BaseElementProps } from "../../../types/common/"
 import { LanguageSelectBase } from "./LanguageSelectBase.tsx"
 import { useTranslation } from "../../../i18n/"
 import { ChangeEvent } from "react"
 
-export interface LanguageSelectProps extends Element {
+export interface LanguageSelectProps extends ElementProps {
 	isExtra: boolean
 	onError: boolean
 	onLanguageChange: (arg0: ChangeEvent<HTMLSelectElement>) => void
 }
+
+export interface LanguageSelectBaseProps extends LanguageSelectProps {}
+export interface LanguageSelectBaseProps extends BaseElementProps {}
 
 export const LanguageSelect = async ({
 	lng,

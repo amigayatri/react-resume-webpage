@@ -38,7 +38,6 @@ export const SecondaryLink = styled(Link)`
 `
 
 export const FooterContent = styled.div<{ $isRTL: boolean }>`
-	display: flex;
 	flex-direction: ${({ $isRTL }) => ($isRTL ? "row-reverse" : "row")};
 	max-width: fit-content;
 	margin: 0 auto;

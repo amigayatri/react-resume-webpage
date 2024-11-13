@@ -1,4 +1,4 @@
-import { BadgeProps } from "../../../types/leetcode/"
+import { badgesArrType } from "../../../types/leetcode/"
 
 interface RawBadge {
 	id: string
@@ -7,15 +7,15 @@ interface RawBadge {
 	creationDate: string
 }
 
-export const emptyBadges: BadgeProps[] = []
-
 interface QueryResult {
 	badges: RawBadge[]
 }
 
-export const formatBadges = (rawData: QueryResult) => {
+type formatBadgesType = (raw: QueryResult) => badgesArrType
+
+export const formatBadges: formatBadgesType = (rawData) => {
 	const { badges } = rawData
-	const formatedBadges: BadgeProps[] = []
+	const formatedBadges: badgesArrType = []
 	badges.sort((a, b) => (a.creationDate < b.creationDate ? -1 : 1))
 	badges.forEach((badge: RawBadge) => {
 		formatedBadges.push({

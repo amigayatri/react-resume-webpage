@@ -1,12 +1,15 @@
 import { useTranslation } from "../../../i18n/"
 import { HeaderBase } from "./HeaderBase.tsx"
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps, BaseElementProps } from "../../../types/common/"
 
-export interface HeaderProps extends Element {
+export interface HeaderProps extends ElementProps {
 	onError: boolean
 	theme: string
 	changeTheme: () => void
 }
+
+export interface HeaderBaseProps extends HeaderProps {}
+export interface HeaderBaseProps extends BaseElementProps {}
 
 export const Header = async ({
 	lng,

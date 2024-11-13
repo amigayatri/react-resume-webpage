@@ -7,13 +7,10 @@ import {
 	PreviewWrapper
 } from "./Select.styled.ts"
 import { palettesMap } from "../../../constants/palettes/"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { PaletteSelect } from "../../common/PaletteSelect/client.tsx"
+import { PaletteSelect } from "../../common/client.tsx"
 import { useTheme } from "styled-components"
-interface PaletteSelectBaseProps extends BaseElement {
-	addPalette: (group: string, palette: string) => void
-	isShowing: boolean
-}
+import { PaletteSelectBaseProps } from "../types"
+
 export const SelectBase = ({
 	addPalette,
 	isShowing,

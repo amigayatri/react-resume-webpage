@@ -1,4 +1,4 @@
-export const languageNames = {
+export const languageNames: { [key: string]: string } = {
 	de: "Deutsch",
 	"ar-LB": "عربي لبناني",
 	ar: "اللغة العربية الفصحى الحديثة",

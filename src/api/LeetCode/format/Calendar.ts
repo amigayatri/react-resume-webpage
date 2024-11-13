@@ -1,9 +1,4 @@
-interface ActiveDay {
-	date: Date
-	submissions: number
-}
-
-export const emptyCalendar: ActiveDay[] = []
+import { calendarArrType } from "../../../types/leetcode"
 
 interface QueryResult {
 	data: {
@@ -15,11 +10,13 @@ interface QueryResult {
 	}
 }
 
-export const formatCalendar = (rawData: QueryResult) => {
+type formatCalendarType = (raw: QueryResult) => calendarArrType
+
+export const formatCalendar: formatCalendarType = (rawData: QueryResult) => {
 	const days = JSON.parse(
 		rawData.data.matchedUser.userCalendar.submissionCalendar
 	)
-	const calendar: ActiveDay[] = []
+	const calendar: calendarArrType = []
 	for (const [rawDate, submissions] of Object.entries(days)) {
 		calendar.push({
 			date: new Date(Number(rawDate) * 1000),

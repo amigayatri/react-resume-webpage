@@ -1,6 +1,6 @@
-import Link from "../types/common/LinkProps"
+import { LinkProps } from "../types/common/"
 
-export const pages: Link[] = [
+export const pages: LinkProps[] = [
 	{
 		path: "",
 		key: "home",
@@ -15,7 +15,7 @@ export const pages: Link[] = [
 	}
 ]
 
-export const extraPages: Link[] = [
+export const extraPages: LinkProps[] = [
 	{
 		path: "cats",
 		key: "cats",
@@ -60,7 +60,7 @@ export const extraPages: Link[] = [
 	}
 ]
 
-export const links: Link[] = [
+export const links: LinkProps[] = [
 	...pages,
 	{
 		path: "https://linkedin.com/in/amiragayatri",

@@ -1,9 +1,10 @@
 import { Letter, Multicolor } from "./MulticoloredName.styled"
 import { MulticoloredNameProps } from "."
 import { palettesMap } from "../../../constants/palettes"
-import { SVGIcon } from "../SVGIcon/client"
+import { SVGIcon } from "../client"
 import { CSSProperties, useTheme } from "styled-components"
-import { SimpleColor, getInverse, getRGBFromHex } from "../../../lib/rgb"
+import { getInverse, getRGBFromHex } from "../../../lib/rgb"
+import { SimpleColor } from "../../../types/colors/"
 
 export const MulticoloredNameBase = ({
 	lng,

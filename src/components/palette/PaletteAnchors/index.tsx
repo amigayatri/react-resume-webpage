@@ -1,5 +1,3 @@
-import Element from "../../../types/common/ElementProps"
-import PaletteInfoProps from "../../../types/palette/PaletteInfoProps"
 import { Subtitle, Summary } from "../Common.styled"
 import {
 	PaletteAnchorsWrapper,
@@ -7,14 +5,9 @@ import {
 	AnchorList,
 	Item
 } from "./PaletteAnchors.styled"
-import { MulticoloredName } from "../../common/MulticoloredName/client"
+import { MulticoloredName } from "../../common/client"
 import palettesMap from "../../../constants/palettes"
-import { TFunction } from "i18next"
-
-interface PaletteAnchorsProps extends Element {
-	list: PaletteInfoProps[]
-	t: TFunction<any, undefined>
-}
+import { PaletteAnchorsProps } from "../types"
 
 export const PaletteAnchors = ({ list, t, lng }: PaletteAnchorsProps) => {
 	return (

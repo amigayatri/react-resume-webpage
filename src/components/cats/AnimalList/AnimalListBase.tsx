@@ -3,11 +3,11 @@ import AnimalAPI from "../../../api/Animals"
 import { useState } from "react"
 import { Controls } from "../Controls/"
 import { AddButtons } from "../AddButtons/"
-import { PicturesLists } from "../PicturesLists/index.tsx"
+import { PicturesLists } from "../PicturesLists/"
 import { emptyPics, defaultControls } from "../../../constants/animals.ts"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
+import { BaseElementProps } from "../../../types/common/"
 
-export const AnimalListBase = (props: BaseElement) => {
+export const AnimalListBase = (props: BaseElementProps) => {
 	const api = new AnimalAPI()
 	const [pictures, setPictures] = useState(new Map(emptyPics))
 	const [controls, setControls] = useState(defaultControls)

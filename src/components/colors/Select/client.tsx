@@ -1,7 +1,7 @@
 "use client"
 
 import { SelectBase } from "./SelectBase"
-import { PaletteSelectProps } from "."
+import { PaletteSelectProps } from "../types"
 import { useTranslation } from "../../../i18n/client"
 
 export const Select = ({ lng, addPalette, isShowing }: PaletteSelectProps) => {

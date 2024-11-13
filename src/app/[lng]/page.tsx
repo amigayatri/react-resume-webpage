@@ -1,8 +1,8 @@
 import { languages, fallbackLng } from "../../i18n/settings"
 import { Main } from "../../components/home/Main/"
 import ErrorMain from "../../components/error/Main"
-import ThemeClient from "../../components/common/ThemeClient"
-import PageProps from "../../types/common/PageProps"
+import { ThemeClient } from "../../components/common/client"
+import { PageProps } from "../../types/common/"
 
 export default async function Page({ params }: PageProps) {
 	let { lng } = await params

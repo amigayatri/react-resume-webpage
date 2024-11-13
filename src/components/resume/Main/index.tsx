@@ -1,19 +1,27 @@
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps } from "../../../types/common/"
 import { useTranslation } from "../../../i18n/"
 import { MainWrapper, ResumeWrapper } from "./Main.styled"
 import { resume } from "../../../constants/resume.ts"
-import SectionProps from "../../../types/resume/SectionProps.ts"
-import Contacts from "../Contact"
-import Header from "../Header"
-import Section from "../Section"
-import Summary from "../Summary"
-import TranslatedResume from "../../../types/resume/TranslatedResumeProps.ts"
-import TranslatedSectionProps from "../../../types/resume/TranslatedSectionProps.ts"
-import PDF from "../PDF/client.tsx"
+import {
+	TranslatedResumeProps,
+	TranslatedSectionProps
+} from "../../../types/resume/"
+import { Contacts } from "../Contact"
+import { Header } from "../Header"
+import { Section } from "../Section"
+import { Summary } from "../Summary"
+import { DownloadPDF } from "../PDF/client.tsx"
+import {
+	formatDateType,
+	translateResumeType,
+	translateDatesType,
+	translateSectionType,
+	showSectionType
+} from "../types.ts"
 
-export const Main = async ({ lng }: Element) => {
+export const Main = async ({ lng }: ElementProps) => {
 	const { t } = await useTranslation(lng, "resume")
-	const formatDate = (date: Date | undefined | string) => {
+	const formatDate: formatDateType = (date) => {
 		if (date === undefined) {
 			return ""
 		} else if (typeof date === "string") {
@@ -29,13 +37,13 @@ export const Main = async ({ lng }: Element) => {
 			return capitalizedDateStr
 		}
 	}
-	const translateDates = (section: SectionProps, idx: number) => {
+	const translateDates: translateDatesType = (section, idx) => {
 		if (section.dates === undefined) return ""
 		const start = formatDate(section.dates[idx].start)
 		const end = formatDate(section.dates[idx].end)
 		return ` (${start}`.concat(end !== "" ? `,  ${end})` : ")")
 	}
-	const translateSection = (section: SectionProps) => {
+	const translateSection: translateSectionType = (section) => {
 		const translated: Partial<TranslatedSectionProps> = {}
 		translated.title = t(`sections.${section.name}.title`)
 		if (section.subitem) translated.subitems = []
@@ -57,8 +65,8 @@ export const Main = async ({ lng }: Element) => {
 		}
 		return translated as TranslatedSectionProps
 	}
-	const translateResume = () => {
-		const translated: Partial<TranslatedResume> = {
+	const translateResume: translateResumeType = () => {
+		const translated: Partial<TranslatedResumeProps> = {
 			contacts: resume.contacts.arr
 		}
 		translated.header = {
@@ -70,15 +78,15 @@ export const Main = async ({ lng }: Element) => {
 		for (const section of resume.sections.arr) {
 			translated.sections.push(translateSection(section))
 		}
-		return translated as TranslatedResume
+		return translated as TranslatedResumeProps
 	}
-	const showSection = (section: TranslatedSectionProps, index: number) => {
+	const showSection: showSectionType = (section, index) => {
 		return <Section lng={lng} key={"section" + index} section={section} />
 	}
 	const translated = translateResume()
 	return (
 		<MainWrapper>
-			<PDF lng={lng} resume={translated} />
+			<DownloadPDF lng={lng} resume={translated} />
 			<Header name={translated.header.name} job={translated.header.job} />
 			<ResumeWrapper>
 				<Contacts lng={lng} contacts={translated.contacts} />
@@ -90,4 +98,3 @@ export const Main = async ({ lng }: Element) => {
 		</MainWrapper>
 	)
 }
-export default Main

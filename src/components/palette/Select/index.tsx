@@ -1,15 +1,9 @@
-import Element from "../../../types/common/ElementProps"
 import { SelectSectionWrapper, SelectWrapper } from "./Select.styled"
 import palettesMap from "../../../constants/palettes"
 import { ChangeEvent } from "react"
 import { Subtitle, Summary } from "../Common.styled"
-import { TFunction } from "i18next"
-import { PaletteSelect } from "../../common/PaletteSelect/client"
-interface SelectProps extends Element {
-	showing: Map<string, Set<string>>
-	add: (group: string, name: string) => void
-	t: TFunction<any, undefined>
-}
+import { PaletteSelect } from "../../common/client"
+import { SelectProps } from "../types"
 
 export const Select = ({ add, showing, t, lng }: SelectProps) => {
 	const handleSelect = ({ target }: ChangeEvent<HTMLSelectElement>) => {

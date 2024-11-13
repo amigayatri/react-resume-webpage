@@ -1,4 +1,3 @@
-import Element from "../../../types/common/ElementProps"
 import {
 	PaletteWrapper,
 	PaletteColor,
@@ -13,23 +12,14 @@ import {
 	ControlWrapper,
 	ButtonWrapper
 } from "./Palette.styled"
-import PaletteType from "../../../types/palette/PaletteProps"
-import PaletteInfoProps from "../../../types/palette/PaletteInfoProps"
 import { Trans } from "react-i18next/TransWithoutContext"
 import { Summary } from "../Common.styled"
-import { MulticoloredName } from "../../common/MulticoloredName/client"
-import { SVGIcon } from "../../common/SVGIcon/client"
+import { MulticoloredName, SVGIcon } from "../../common/client"
 import { sortColors } from "../../../lib/rgb"
 import { useState } from "react"
-import { TFunction } from "i18next"
+import { PaletteElementProps } from "../types"
 
-interface PaletteProps extends Element {
-	palette: PaletteType
-	info: PaletteInfoProps
-	t: TFunction<any, undefined>
-}
-
-const Palette = ({ palette, info, t, lng }: PaletteProps) => {
+const Palette = ({ palette, info, t, lng }: PaletteElementProps) => {
 	const { group, name } = info
 	const [showSorted, setShowSorted] = useState(false)
 	const [ascending, setAscending] = useState(false)

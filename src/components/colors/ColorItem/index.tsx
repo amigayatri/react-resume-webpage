@@ -1,12 +1,10 @@
 import { ColorTag, Wrapper } from "./ColorItem.styled"
+import { ColorItemProps } from "../types"
 
-export const ColorItem = (props: {
-	color: { code: string; inverse: string }
-	remove: (code: string) => void
-}) => {
-	const { code, inverse } = props.color
+export const ColorItem = ({ color, remove }: ColorItemProps) => {
+	const { code, inverse } = color
 	return (
-		<Wrapper $inverse={code} $code={inverse} onClick={() => props.remove(code)}>
+		<Wrapper $inverse={code} $code={inverse} onClick={() => remove(code)}>
 			<ColorTag>{code}</ColorTag>
 		</Wrapper>
 	)

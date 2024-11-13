@@ -1,19 +1,13 @@
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { TFunction } from "i18next"
 import { useEffect, useState } from "react"
 import { List, ListWrapper } from "./Holidays.styled.ts"
 import BrazilianAPI from "../../../api/Brazil"
-import Holiday from "../../../types/holidays/HolidayProps.ts"
 import { HolidayList } from "../HolidayList/"
 import { CitySelector } from "../CitySelector/"
 import { Tab, TabPanel } from "react-tabs"
-
-interface HolidaysBaseProps extends BaseElement {
-	t: TFunction<any, undefined>
-}
+import { HolidaysBaseProps, emptyHolidaysType } from "../types.ts"
 
 export const HolidaysBase = ({ t, lng }: HolidaysBaseProps) => {
-	const empty: Holiday[] = []
+	const empty: emptyHolidaysType = []
 	const [thisYear, setThisYear] = useState(empty)
 	const [nextYear, setNextYear] = useState(empty)
 	useEffect(() => {

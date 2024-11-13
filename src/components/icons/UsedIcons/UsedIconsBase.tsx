@@ -16,20 +16,15 @@ import {
 	ButtonLabel,
 	Subtitle
 } from "./UsedIcons.styled"
-import { Progress } from "../../common/Progress/client.tsx"
-import { SVGIcon } from "../../common/SVGIcon/client"
-import Element from "../../../types/common/ElementProps.ts"
-import { TFunction } from "i18next"
+import { Progress } from "../../common"
+import { SVGIcon } from "../../common/client"
 import { useTheme } from "styled-components"
 import { useState } from "react"
 import { numberOfIcons, usedIcons } from "../../common/SVGIcon/constants"
 import { rainbowMonokai } from "../../../constants/palettes/rainbow"
+import { UsedIconsBaseProps } from "../types"
 
-interface UsedIconsProps extends Element {
-	t: TFunction<any, undefined>
-}
-
-export const UsedIconsBase = ({ t, lng }: UsedIconsProps) => {
+export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {
 	usedIcons.delete("onlyhere")
 	let otherPlaces = 0
 	const onlyHere = new Set(Array.from(usedIcons.get("iconlist") || []))

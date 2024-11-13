@@ -1,10 +1,10 @@
 "use client"
 
 import { AnimalListBase } from "./AnimalListBase"
-import Element from "../../../types/common/ElementProps"
+import { ElementProps } from "../../../types/common/"
 import { useTranslation } from "../../../i18n/client"
 
-export const AnimalList = ({ lng }: Element) => {
+export const AnimalList = ({ lng }: ElementProps) => {
 	const { t } = useTranslation(lng, "animals")
 	return <AnimalListBase t={t} lng={lng} />
 }

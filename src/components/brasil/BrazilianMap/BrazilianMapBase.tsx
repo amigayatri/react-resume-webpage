@@ -7,14 +7,13 @@ import {
 	MapSVG
 } from "./BrazilianMap.styled.ts"
 import { useTheme } from "styled-components"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { MulticoloredName } from "../../common/MulticoloredName/client.tsx"
+import { MulticoloredName } from "../../common/client.tsx"
 import { useState } from "react"
 import { checkContrast } from "../../../lib/rgb"
 import singlePath from "../../../../public/brazil-map-paths/single.json"
 import { palettesMap } from "./../../../constants/palettes"
-import { SelectTheme } from "./components/SelectTheme.tsx"
-import { SelectDivision } from "./components/SelectDivision.tsx"
+import { SelectTheme, SelectDivision } from "./components/"
+import { BrazilianMapBaseProps } from "../types"
 
 export const divisionMap = new Map([
 	["cities", "/brazil-map-paths/cities.json"],
@@ -35,7 +34,7 @@ export const filterIds = new Map([
 	[1 / 7, "AAAsmall"]
 ])
 
-export const BrazilianMapBase = ({ t, lng }: BaseElement) => {
+export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 	const [loading, setLoading] = useState(false)
 	const [paletteName, setPaletteName] = useState("")
 	const [contrast, setContrast] = useState(1)
@@ -110,7 +109,6 @@ export const BrazilianMapBase = ({ t, lng }: BaseElement) => {
 					fontSize={40}
 					legible
 					info={{ group: "rainbow", name: "rainbow monokai" }}
-					iconId="brasil"
 					isCustom
 					customColors={colors}
 				>

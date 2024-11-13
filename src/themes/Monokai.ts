@@ -1,42 +1,47 @@
 "use client"
 
-const getScroll = (bg: string, main: string, accent: string) => {
+const getScroll = (
+	bg: string,
+	main: string,
+	accent: string,
+	self?: boolean
+) => {
 	return `
 	@supports (scrollbar-color: auto) {
-		& * {
+		&${self === true ? "" : " *"}{
 			scrollbar-width: thin;
 			scrollbar-color: ${main} ${bg};
 		}
 	}
 	@supports selector(::-webkit-scrollbar) {
-		& *::-webkit-scrollbar {
+		&${self === true ? "" : " *"}::-webkit-scrollbar {
 			height: 8px;
 			width: 8px;
 		}
 
-		& *::-webkit-scrollbar-track {
+		&${self === true ? "" : " *"}::-webkit-scrollbar-track {
 			border-radius: 4px;
 			background-color: ${bg};
 		}
 
-		& *::-webkit-scrollbar-track:hover {
+		&${self === true ? "" : " *"}::-webkit-scrollbar-track:hover {
 			background-color: ${bg};
 		}
 
-		& *::-webkit-scrollbar-track:active {
+		&${self === true ? "" : " *"}::-webkit-scrollbar-track:active {
 			background-color: ${bg};
 		}
 
-		& *::-webkit-scrollbar-thumb {
+		&${self === true ? "" : " *"}::-webkit-scrollbar-thumb {
 			border-radius: 4px;
 			background-color: ${accent};
 		}
 
-		& *::-webkit-scrollbar-thumb:hover {
+		&${self === true ? "" : " *"}::-webkit-scrollbar-thumb:hover {
 			background-color: ${main};
 		}
 
-		& *::-webkit-scrollbar-thumb:active {
+		&${self === true ? "" : " *"}::-webkit-scrollbar-thumb:active {
 			background-color: ${main};
 		}
 	}

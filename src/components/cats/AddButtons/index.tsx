@@ -1,6 +1,6 @@
 import { ButtonWrapper } from "./AddButtons.styled.ts"
 import { Button } from "../Common.styled.ts"
-import { SVGIcon } from "../../common/SVGIcon/client.tsx"
+import { SVGIcon } from "../../common/client"
 import { animalsIcons, numbers } from "../../../constants/animals.ts"
 import { AddButtonsProps } from "../types.ts"
 

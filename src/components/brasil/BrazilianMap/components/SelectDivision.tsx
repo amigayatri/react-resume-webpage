@@ -1,15 +1,6 @@
-import { Select } from "../../../common/Select/client.tsx"
-import Element from "../../../../types/common/ElementProps.ts"
-import SelectStyle from "../../../../types/common/SelectStyleProps.ts"
-import { TFunction } from "i18next"
+import { Select } from "../../../common/client.tsx"
 import { divisionMap } from "../BrazilianMapBase.tsx"
-
-interface SelectDivisionProps extends Element {
-	t: TFunction<any, undefined>
-	defaultVal: string
-	handleChangeDivision: (arg0: string) => void
-	selectStyle: SelectStyle
-}
+import { SelectDivisionProps } from "../../types.ts"
 
 export const SelectDivision = ({
 	defaultVal,

@@ -9,5 +9,7 @@ export const HeroWrapper = styled.section`
 export const Title = styled.h1`
 	color: ${({ theme }) => theme.accent};
 	margin-bottom: 32px;
+	max-width: 100%;
+	overflow-x: auto;
 	font-size: 2rem;
 `

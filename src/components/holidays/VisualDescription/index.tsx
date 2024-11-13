@@ -3,12 +3,7 @@ import {
 	VisualDescriptionWrapper,
 	KeyWrapper
 } from "./VisualDescription.styled"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { TFunction } from "i18next"
-
-interface VisualDescriptionProps extends BaseElement {
-	t: TFunction<any, undefined>
-}
+import { VisualDescriptionProps } from "../types.ts"
 
 export const VisualDescription = ({ t }: VisualDescriptionProps) => {
 	const theme = useTheme()

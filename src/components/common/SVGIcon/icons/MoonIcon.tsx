@@ -1,5 +1,5 @@
 import { ToggleIconWrapper, IconWrapper, Icon } from "../SVGIcon.styled"
-import SVGProps from "../../../../types/common/SVGProps"
+import { SVGProps } from "../../../../types/common/"
 
 //Moon-clear-line on pack
 export const MoonIcon = (props: SVGProps) => {

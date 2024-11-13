@@ -1,6 +1,6 @@
 import { languages, fallbackLng } from "../../i18n/settings"
 import { useTranslation } from "../../i18n"
-import PageProps from "../../types/common/PageProps"
+import { PageProps } from "../../types/common/"
 
 export async function generateMetadata({ params }: PageProps) {
 	let { lng } = await params

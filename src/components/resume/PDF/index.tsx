@@ -1,12 +1,7 @@
-import TranslatedResume from "../../../types/resume/TranslatedResumeProps.ts"
 import { DownloadPDFBase } from "./DownloadPDFBase.tsx"
 import { useTranslation } from "../../../i18n/client"
 import { useTheme } from "styled-components"
-
-export interface DownloadPDFProps {
-	resume: TranslatedResume
-	lng: string
-}
+import { DownloadPDFProps } from "../types.ts"
 
 export const DownloadPDF = async ({ resume, lng }: DownloadPDFProps) => {
 	const { t } = await useTranslation(lng, "resume")
@@ -20,5 +15,3 @@ export const DownloadPDF = async ({ resume, lng }: DownloadPDFProps) => {
 		/>
 	)
 }
-
-export default DownloadPDF

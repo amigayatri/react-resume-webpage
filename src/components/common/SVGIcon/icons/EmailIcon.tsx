@@ -1,5 +1,5 @@
 import { IconWrapper, Icon } from "../SVGIcon.styled"
-import SVGProps from "../../../../types/common/SVGProps"
+import { SVGProps } from "../../../../types/common/"
 
 //Mail-line on pack
 export const EmailIcon = (props: SVGProps) => {
