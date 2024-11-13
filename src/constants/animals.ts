@@ -1,4 +1,7 @@
-import { ControlsValues, AnimalListProps } from "../components/cats/types"
+import {
+	ControlsValues,
+	AnimalListProps
+} from "../components/cats/components/types"
 
 export const animalsIcons: [string, string[]][] = [
 	["cat", ["egyptiancat", "cat"]],

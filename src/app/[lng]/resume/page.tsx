@@ -1,8 +1,8 @@
 import { languages, fallbackLng } from "../../../i18n/settings"
-import { Main } from "../../../components/resume/Main"
+import { Main } from "../../../components/resume/"
 import { useTranslation } from "../../../i18n"
 import { ThemeClient } from "../../../components/common/client"
-import ErrorMain from "../../../components/error/Main"
+import { ErrorMain } from "../../../components/error/"
 import { PageProps } from "../../../types/common/"
 
 export async function generateMetadata({ params }: PageProps) {

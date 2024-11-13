@@ -1,5 +1,5 @@
 import { languages, fallbackLng } from "../../i18n/settings"
-import { Main } from "../../components/error/Main"
+import { ErrorMain } from "../../components/error/"
 import { useTranslation } from "../../i18n"
 import { ThemeClient } from "../../components/common/client"
 import { PageProps } from "../../types/common/"
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function NotFound() {
 	return (
 		<ThemeClient onError={true} lng={fallbackLng}>
-			<Main id="404" lng={fallbackLng} />
+			<ErrorMain id="404" lng={fallbackLng} />
 		</ThemeClient>
 	)
 }

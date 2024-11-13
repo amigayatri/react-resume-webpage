@@ -11,7 +11,7 @@ interface ErrorPageProps extends ElementProps {
 	id: string
 }
 
-export const Main = async ({ lng, id }: ErrorPageProps) => {
+export const ErrorMain = async ({ lng, id }: ErrorPageProps) => {
 	const { t } = await useTranslation(lng, "error")
 	if (!errors.has(id)) return
 	const errorObj = errors.get(id)
@@ -46,4 +46,3 @@ export const Main = async ({ lng, id }: ErrorPageProps) => {
 		</MainWrapper>
 	)
 }
-export default Main

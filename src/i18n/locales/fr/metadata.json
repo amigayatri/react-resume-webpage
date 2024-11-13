@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "Pas trouvé",
-        "brasil": "Carte du Brésil",
+        "brasil": "Brésil",
         "holidays": "Vacances brésiliennes",
         "cats": "=^.^=",
         "colors": "Couleurs",
@@ -12,7 +12,8 @@
         "maintenance": "Page en maintenance",
         "palette": "Palettes",
         "resume": "CV",
-        "site-stats": "Statistiques"
+        "site-stats": "Statistiques",
+        "map": "Carte du Brésil"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Site personnel"

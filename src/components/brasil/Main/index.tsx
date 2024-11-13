@@ -1,11 +1,11 @@
 import { ElementProps } from "../../../types/common/"
-import { BrazilianMap } from "../BrazilianMap/client.tsx"
+import { BrasilList } from "../components/"
 import { MainBase } from "../../common/Main/MainBase.tsx"
 
 export const Main = async ({ lng }: ElementProps) => {
 	return (
 		<MainBase lng={lng}>
-			<BrazilianMap lng={lng} />
+			<BrasilList lng={lng} />
 		</MainBase>
 	)
 }

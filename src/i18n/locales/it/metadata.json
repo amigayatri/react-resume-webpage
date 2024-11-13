@@ -1,7 +1,7 @@
 {
     "path": {
         "404": "Non trovato",
-        "brasil": "Mappa brasiliana",
+        "brasil": "Brasile",
         "holidays": "Festività brasiliane",
         "cats": "=^.^=",
         "colors": "Colori",
@@ -12,7 +12,8 @@
         "maintenance": "Pagina in manutenzione",
         "palette": "Tavolozze",
         "resume": "Riprendere",
-        "site-stats": "Statistiche"
+        "site-stats": "Statistiche",
+        "map": "Mappa del Brasile"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Sito personale"
