@@ -2,7 +2,7 @@
 
 import { useTranslation } from "../../../i18n/client"
 import { PaletteSelectBase } from "./PaletteSelectBase"
-import { PaletteSelectProps } from "./index"
+import { PaletteSelectProps } from "./"
 
 export const PaletteSelect = (props: PaletteSelectProps) => {
 	const { lng } = props

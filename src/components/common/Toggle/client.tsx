@@ -2,7 +2,7 @@
 
 import { ToggleBase } from "./ToggleBase.tsx"
 import { useTranslation } from "../../../i18n/client"
-import { ToggleProps } from "../../../types/common/ToggleProps.ts"
+import { ToggleProps } from "../../../types/common/"
 
 export function Toggle(props: ToggleProps) {
 	const { t } = useTranslation(props.lng, "common")

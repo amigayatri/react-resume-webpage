@@ -1,5 +1,5 @@
 import { ToggleIconWrapper, IconWrapper, Icon } from "../SVGIcon.styled"
-import SVGProps from "../../../../types/common/SVGProps"
+import { SVGProps } from "../../../../types/common/"
 
 //Sun-line on pack
 export const SunIcon = (props: SVGProps) => {

@@ -10,4 +10,6 @@ export const Title = styled.h1`
 	color: ${({ theme }) => theme.primary};
 	font-size: 2rem;
 	margin: 16px 0;
+	max-width: 100%;
+	overflow-x: auto;
 `

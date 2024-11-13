@@ -2,16 +2,8 @@ import { Wrapper, ListWrapper, SubHeadingWrapper } from "./ColorList.styled"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { ColorItem } from "../ColorItem"
 import { Select } from "../Select/client"
-import { SimpleColor } from "../../../lib/rgb"
 import { useEffect, useState } from "react"
-import BaseElement from "../../../types/common/BaseElementProps"
-
-interface ColorListProps extends BaseElement {
-	regenerate: () => { color: SimpleColor; remove: (code: string) => void }[]
-	colors: { size: number }
-	updatedList: boolean
-	addPalette: (group: string, palette: string) => void
-}
+import { ColorListProps, printColorType, ColorItemProps } from "../types"
 
 export const ColorList = ({
 	regenerate,
@@ -21,17 +13,13 @@ export const ColorList = ({
 	t,
 	lng
 }: ColorListProps) => {
-	const emptyList: { color: SimpleColor; remove: (code: string) => void }[] = []
+	const emptyList: ColorItemProps[] = []
 	const [list, setList] = useState(emptyList)
 	useEffect(() => {
 		const colorList = regenerate()
 		setList(colorList)
 	}, [updatedList])
-	const printColor = (
-		color: SimpleColor,
-		remove: (code: string) => void,
-		idx: number
-	) => {
+	const printColor: printColorType = (color, remove, idx) => {
 		return <ColorItem key={"color-list-" + idx} color={color} remove={remove} />
 	}
 
@@ -51,11 +39,8 @@ export const ColorList = ({
 				/>
 			</SubHeadingWrapper>
 			<ListWrapper>
-				{...list.map(
-					(
-						obj: { color: SimpleColor; remove: (code: string) => void },
-						idx: number
-					) => printColor(obj.color, obj.remove, idx)
+				{...list.map((obj: ColorItemProps, idx: number) =>
+					printColor(obj.color, obj.remove, idx)
 				)}
 			</ListWrapper>
 		</Wrapper>

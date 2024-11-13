@@ -10,18 +10,9 @@ import {
 	CenterContent,
 	Days
 } from "./Holiday.styled"
-import HolidayProps from "../../../../types/holidays/HolidayProps"
-import { SVGIcon } from "../../../common/SVGIcon/client"
-import { TFunction } from "i18next"
+import { HolidayElementProps } from "../../types.ts"
+import { SVGIcon } from "../../../common/client"
 import { Trans } from "react-i18next/TransWithoutContext"
-
-interface HolidayElementProps extends HolidayProps {
-	isWeekend: boolean
-	isPreWeekend: boolean
-	daysUntill: number
-	lng: string
-	t: TFunction<any, undefined>
-}
 
 const Holiday = ({
 	name,

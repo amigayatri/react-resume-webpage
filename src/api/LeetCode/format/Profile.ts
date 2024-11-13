@@ -1,18 +1,4 @@
-interface Profile {
-	username: string
-	name: string
-	country: string
-	ranking: number
-	birthday: Date
-}
-
-export const emptyProfile: Profile = {
-	username: "",
-	name: "",
-	country: "",
-	ranking: -1,
-	birthday: new Date()
-}
+import { Profile } from "../../../types/leetcode"
 
 interface QueryResult {
 	name: string
@@ -21,8 +7,9 @@ interface QueryResult {
 	ranking: number
 	country: string
 }
+type formatProfileType = (raw: QueryResult) => Profile
 
-export const formatProfile = (rawData: QueryResult) => {
+export const formatProfile: formatProfileType = (rawData: QueryResult) => {
 	const { name, birthday, ranking, country, username } = rawData
 	return {
 		username,

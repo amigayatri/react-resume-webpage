@@ -1,19 +1,13 @@
-import { TFunction } from "i18next"
-import BaseElement from "../../../types/common/BaseElementProps"
+import { BaseElementProps } from "../../../types/common/"
 import { NavigationWrapper } from "./Navigation.styled"
-import { DesktopNavigation } from "./components/DesktopNavigation"
-import { MobileNavigation } from "./components/MobileNavigation"
+import { DesktopNavigation, MobileNavigation } from "./components"
 import { usePathname } from "next/navigation"
 
-interface NavigationBaseProps extends BaseElement {
-	t: TFunction<any, undefined>
-}
-
-export interface NavProps extends NavigationBaseProps {
+export interface NavProps extends BaseElementProps {
 	path: string | null
 }
 
-export const NavigationBase = ({ lng, t }: NavigationBaseProps) => {
+export const NavigationBase = ({ lng, t }: BaseElementProps) => {
 	const pathname = usePathname()
 	if (pathname === `/${lng}`) return
 	return (

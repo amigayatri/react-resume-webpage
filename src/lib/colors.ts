@@ -1,23 +1,23 @@
 export let variationSteps = 4
-
 import {
-	RGB,
+	ColorClass,
 	SimpleColor,
-	getInverse,
-	getRGBFromHex,
-	shadeGenerator
-} from "./rgb"
+	RGB,
+	ColorPalette,
+	variationsType,
+	generateVariationsType
+} from "../types/colors"
+
+import { getInverse, getRGBFromHex, shadeGenerator } from "./rgb"
+
 import { getComplementaryColor } from "./hsl"
-interface Palette {
-	complementary: string
-	inverse: string
-}
 
 const targets = new Map([["#FFFFFF", "#000000"]])
-export class Color {
+
+export class Color implements ColorClass {
 	code: string
-	variations: Map<string, Map<string, SimpleColor>> = new Map()
-	palette: Palette = { complementary: "", inverse: "" }
+	variations: variationsType = new Map()
+	palette: ColorPalette = { complementary: "", inverse: "" }
 	#rgb: RGB
 
 	constructor(code: string) {
@@ -28,11 +28,7 @@ export class Color {
 		this.#generateShadeCodes()
 	}
 
-	#generateVariations = (
-		start: string,
-		end: string,
-		map: Map<string, SimpleColor>
-	) => {
+	#generateVariations: generateVariationsType = (start, end, map) => {
 		const sg = shadeGenerator(start, end, variationSteps)
 		for (let i = 0; i <= variationSteps; i++) {
 			const newColor: SimpleColor = sg.get(i)
@@ -41,7 +37,7 @@ export class Color {
 		return map
 	}
 
-	#generateShadeCodes = () => {
+	#generateShadeCodes: () => void = () => {
 		for (const [from, to] of targets.entries()) {
 			let fromVariations: Map<string, SimpleColor> = new Map()
 			fromVariations = this.#generateVariations(from, this.code, fromVariations)
@@ -51,7 +47,7 @@ export class Color {
 		}
 	}
 
-	regenerateVariations = () => {
+	regenerateVariations: () => void = () => {
 		this.variations.clear()
 		this.#generateShadeCodes()
 	}
@@ -63,15 +59,15 @@ export const getTargets = () => {
 	return Array.from(targets.entries())
 }
 
-export const addTarget = (newTarget: string) => {
+export const addTarget: (newTarget: string) => void = (newTarget) => {
 	const { palette } = new Color(newTarget)
 	targets.set(newTarget.toUpperCase(), palette.inverse)
 }
 
-export const removeTarget = (key: string) => {
+export const removeTarget: (key: string) => void = (key) => {
 	targets.delete(key.toUpperCase())
 }
 
-export const changeSteps = (newSteps: number) => {
+export const changeSteps: (newSteps: number) => void = (newSteps) => {
 	variationSteps = newSteps
 }

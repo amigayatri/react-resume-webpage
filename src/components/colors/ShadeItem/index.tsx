@@ -1,10 +1,5 @@
 import { Square, Wrapper, HexaCode } from "./ShadeItem.styled"
-
-interface ShadeItemProps {
-	inverse: string
-	base: boolean
-	code: string
-}
+import { ShadeItemProps } from "../types"
 
 export const ShadeItem = ({ inverse, base, code }: ShadeItemProps) => {
 	return (

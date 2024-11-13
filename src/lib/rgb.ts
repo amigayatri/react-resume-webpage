@@ -1,25 +1,30 @@
-export interface RGB {
-	red: number
-	green: number
-	blue: number
-}
-export interface SimpleColor {
-	code: string
-	inverse: string
-}
+import {
+	SimpleColor,
+	RGB,
+	getRGBFromHexType,
+	generateHexType,
+	mapRGBType,
+	getDiffColorsType,
+	divideType,
+	getInverseType,
+	shadeGeneratorType,
+	luminanceType,
+	checkContrastType,
+	sortColorsType
+} from "../types/colors"
+const hexToInt: (color: string) => number = (color) => parseInt(color, 16)
 
-export const getRGBFromHex = (hexaCode: string) => {
-	const hexToInt = (color: string) => parseInt(color, 16)
+export const getRGBFromHex: getRGBFromHexType = (hexaCode) => {
 	const hArr = hexaCode.split("")
 	const red = hexToInt(hArr[1] + hArr[2])
 	const green = hexToInt(hArr[3] + hArr[4])
 	const blue = hexToInt(hArr[5] + hArr[6])
 	return { red, green, blue }
 }
+const intToHex: (color: number) => string = (color: number) =>
+	color < 16 ? "0" + color.toString(16) : color.toString(16)
 
-export const generateHex = (color: RGB) => {
-	const intToHex = (color: number) =>
-		color < 16 ? "0" + color.toString(16) : color.toString(16)
+export const generateHex: generateHexType = (color) => {
 	const hex = [
 		"#",
 		intToHex(color.red),
@@ -29,11 +34,7 @@ export const generateHex = (color: RGB) => {
 	return hex.join("").toUpperCase()
 }
 
-const mapRGB = (
-	base: RGB,
-	mapFN: (key: keyof RGB, _mapIdx: number) => number,
-	idx: number | boolean
-) => {
+const mapRGB: mapRGBType = (base, mapFN, idx) => {
 	const newRGB: Partial<RGB> = {}
 	if (typeof idx == "boolean") {
 		Object.entries(base).forEach(
@@ -47,7 +48,7 @@ const mapRGB = (
 	return newRGB as RGB
 }
 
-export const getDiffColors = (firstColor: RGB, secondColor: RGB) => {
+export const getDiffColors: getDiffColorsType = (firstColor, secondColor) => {
 	return {
 		red: firstColor.red - secondColor.red,
 		green: firstColor.green - secondColor.green,
@@ -55,14 +56,14 @@ export const getDiffColors = (firstColor: RGB, secondColor: RGB) => {
 	} as RGB
 }
 
-const divide = (color: RGB, steps: number) => {
+const divide: divideType = (color, steps) => {
 	const divideKey = (key: keyof RGB, _idx: number) => {
 		return Math.trunc(color[key] / steps)
 	}
 	return mapRGB(color, divideKey, false)
 }
 
-export const getInverse = (color: RGB) => {
+export const getInverse: getInverseType = (color) => {
 	const maxVal = 255
 	const invertKey = (key: keyof RGB, _idx: number) => {
 		return maxVal - color[key]
@@ -71,11 +72,7 @@ export const getInverse = (color: RGB) => {
 	return generateHex(inverseRGB)
 }
 
-export const shadeGenerator = (
-	startHex: string,
-	endHex: string,
-	steps: number
-) => {
+export const shadeGenerator: shadeGeneratorType = (startHex, endHex, steps) => {
 	const start = getRGBFromHex(startHex),
 		end = getRGBFromHex(endHex)
 	const diff = getDiffColors(end, start)
@@ -94,7 +91,7 @@ export const shadeGenerator = (
 		}
 	}
 }
-const luminance = ({ red, green, blue }: RGB) => {
+const luminance: luminanceType = ({ red, green, blue }) => {
 	var a = [red, green, blue].map(function (v) {
 		v /= 255
 		return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)
@@ -102,7 +99,7 @@ const luminance = ({ red, green, blue }: RGB) => {
 	return a[0] * 0.2126 + a[1] * 0.7152 + a[2] * 0.0722
 }
 
-export const checkContrast = (color1: string, color2: string) => {
+export const checkContrast: checkContrastType = (color1, color2) => {
 	const color1luminance = luminance(getRGBFromHex(color1)),
 		color2luminance = luminance(getRGBFromHex(color2))
 	const ratio =
@@ -112,7 +109,7 @@ export const checkContrast = (color1: string, color2: string) => {
 	return ratio
 }
 
-export const sortColors = (colors: string[]) => {
+export const sortColors: sortColorsType = (colors) => {
 	const averageColor = (color: RGB) => {
 		const { red, green, blue } = color
 		return (red + green + blue) / 3

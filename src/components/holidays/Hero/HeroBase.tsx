@@ -1,12 +1,7 @@
 import { HeroWrapper, Title } from "./Hero.styled.ts"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { TFunction } from "i18next"
-import { MulticoloredName } from "../../common/MulticoloredName/client.tsx"
+import { MulticoloredName } from "../../common/client.tsx"
 import { VisualDescription } from "../VisualDescription/"
-
-interface HeroBaseProps extends BaseElement {
-	t: TFunction<any, undefined>
-}
+import { HeroBaseProps } from "../types.ts"
 
 export const HeroBase = ({ t, lng }: HeroBaseProps) => {
 	return (

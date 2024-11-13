@@ -11,8 +11,10 @@ export const Title = styled.h1`
 	font-size: 2.5rem;
 	width: fit-content;
 	margin: 16px auto;
+	max-width: 100%;
+	overflow-x: auto;
 	${media.max.sm} {
-		font-size: 2rem;
+		margin-right: calc(var(--color-container) * -1);
 	}
 `
 
@@ -35,6 +37,7 @@ export const Disclaimer = styled.span<{ $isOpen: boolean }>`
 `
 export const MapWrapper = styled.div`
 	overflow-x: auto;
+	margin-right: calc(var(--color-container) * -1);
 `
 export const MapSVG = styled.svg`
 	width: 100%;

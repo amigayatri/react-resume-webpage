@@ -1,17 +1,16 @@
-import { Select } from "../Select/client.tsx"
+import { Select } from "../client.tsx"
 import {
 	basicLanguages,
 	extraLanguages,
 	fallbackLng
 } from "../../../i18n/settings.ts"
-import { LanguageSelectProps } from "./index.tsx"
-import { TFunction } from "i18next"
+import { LanguageSelectBaseProps } from "./"
 import React from "react"
 import { usePathname } from "next/navigation"
+import { languageNames } from "../../../constants/languages-names.ts"
+import { OptionProps } from "../../../types/common/"
 
-interface LanguageSelectBaseProps extends LanguageSelectProps {
-	t: TFunction<any, undefined>
-}
+type generateOptionType = (lang: string, isExtra: boolean) => OptionProps
 
 export const LanguageSelectBase = ({
 	lng,
@@ -21,14 +20,25 @@ export const LanguageSelectBase = ({
 	t
 }: LanguageSelectBaseProps) => {
 	const pathname = usePathname()
+	const getLanguageName: (lang: string) => string | undefined = (lang) => {
+		if (lang === lng) return undefined
+		return ` (${languageNames[lang]})`
+	}
+	const generateOption: generateOptionType = (lang, isExtra) => {
+		if (!isExtra && pathname === null) {
+			return { value: "", key: "" }
+		}
+		const keyPrefix = isExtra ? "extra" : "basic"
+		const value =
+			!isExtra && onError ? "/" + lang : pathname?.replace(lng, lang) || ""
+		return {
+			value,
+			key: `${keyPrefix}.${lang}`,
+			extraText: getLanguageName(lang)
+		}
+	}
 	const langOptions = [
-		...basicLanguages.map((lang) => {
-			if (pathname === null) return { value: "", key: "" }
-			return {
-				value: onError ? "/" + lang : pathname.replace(lng, lang),
-				key: `basic.${lang}`
-			}
-		})
+		...basicLanguages.map((lang) => generateOption(lang, false))
 	]
 	const extraPath = `/${lng}/extra-languages`
 	!isExtra &&
@@ -37,12 +47,7 @@ export const LanguageSelectBase = ({
 			value: extraPath,
 			key: "basic.more"
 		})
-	const extraOptions = extraLanguages.map((lang) => {
-		return {
-			value: pathname?.replace(lng, lang) || "",
-			key: `extra.${lang}`
-		}
-	})
+	const extraOptions = extraLanguages.map((lang) => generateOption(lang, true))
 	return (
 		<Select
 			local={isExtra ? "extra-languages" : "header"}

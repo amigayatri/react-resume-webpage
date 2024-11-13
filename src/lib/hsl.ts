@@ -1,12 +1,14 @@
-import { RGB, generateHex } from "./rgb"
+import { generateHex } from "./rgb"
+import {
+	RGB,
+	HSL,
+	getHueRegionType,
+	calculateHSLType,
+	getRGBfromHSLType,
+	getComplementaryColorType
+} from "../types/colors"
 
-interface HSL {
-	hue: number
-	saturation: number
-	luminosity: number
-}
-
-const getHueRegion = (color: RGB) => {
+const getHueRegion: getHueRegionType = (color) => {
 	const r = color.red / 255
 	const g = color.green / 255
 	const b = color.blue / 255
@@ -20,11 +22,11 @@ const getHueRegion = (color: RGB) => {
 	return "rose"
 }
 
-const calculateHSL = (color: RGB) => {
+const calculateHSL: calculateHSLType = (color) => {
 	const hsl: Partial<HSL> = {}
 	const max = Math.max(color.red, color.green, color.blue) / 255
 	const min = Math.min(color.red, color.green, color.blue) / 255
-	const getHue = (hueRegion: string) => {
+	const getHue: (arg0: string) => number = (hueRegion) => {
 		const r = color.red / 255
 		const g = color.green / 255
 		const b = color.blue / 255
@@ -48,11 +50,11 @@ const calculateHSL = (color: RGB) => {
 		}
 		return 0
 	}
-	const getLuminosity = () => {
+	const getLuminosity: () => number = () => {
 		const add = min + max
 		return 0.5 * add
 	}
-	const getSaturation = (luminosity: number) => {
+	const getSaturation: (arg0: number) => number = (luminosity) => {
 		if (luminosity == 0) return 0
 		if (luminosity == 1) return 1
 		const diff = max - min,
@@ -67,7 +69,7 @@ const calculateHSL = (color: RGB) => {
 	return hsl as HSL
 }
 
-const getRGBfromHSL = (color: HSL) => {
+const getRGBfromHSL: getRGBfromHSLType = (color) => {
 	const a = color.saturation * Math.min(color.luminosity, 1 - color.luminosity)
 	const f = (n: number, k = (n + color.hue / 30) % 12) => {
 		return color.luminosity - a * Math.max(Math.min(k - 3, 9 - k, 1), -1)
@@ -77,7 +79,7 @@ const getRGBfromHSL = (color: HSL) => {
 	return newRGB as RGB
 }
 
-export const getComplementaryColor = (color: RGB) => {
+export const getComplementaryColor: getComplementaryColorType = (color) => {
 	const hsl = calculateHSL(color)
 	const complementaryHSL: HSL = {
 		hue: (hsl.hue + 180) % 360,

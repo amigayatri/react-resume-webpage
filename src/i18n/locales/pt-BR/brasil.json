@@ -17,7 +17,7 @@
     },
     "select": {
         "division": "Divisão do mapa",
-        "filter": "Filtrar contraste da paleta",
+        "filter": "Filtrar contraste",
         "group": "Escolha um grupo",
         "palette": "Escolha uma paleta"
     },

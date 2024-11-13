@@ -1,8 +1,8 @@
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps } from "../../../types/common/"
 import { MainBase } from "./MainBase.tsx"
 import { ReactElement } from "react"
 
-export interface MainProps extends Element {
+export interface MainProps extends ElementProps {
 	children: (ReactElement | string)[] | ReactElement | string
 }
 

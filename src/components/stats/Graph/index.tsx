@@ -1,13 +1,7 @@
-import GraphProps from "../../../types/stats/GraphProps"
-import BarGraph from "./BarGraph"
+import { BarGraph } from "./components"
+import { GraphElementProps } from "../types"
 
-interface GraphElementProps extends GraphProps {
-	type: string
-}
-
-const Graph = (props: GraphElementProps) => {
+export const Graph = (props: GraphElementProps) => {
 	const { type } = props
 	if (type === "bar") return <BarGraph {...props} />
 }
-
-export default Graph

@@ -4,7 +4,7 @@ import {
 	Control,
 	ControlButton
 } from "./Controls.styled.ts"
-import { SVGIcon } from "../../common/SVGIcon/client.tsx"
+import { SVGIcon } from "../../common/client"
 import { ControlsProps } from "../types.ts"
 
 export const Controls = ({ t, lng, controls, setControls }: ControlsProps) => {

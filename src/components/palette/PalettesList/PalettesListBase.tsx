@@ -1,27 +1,25 @@
 import { Title } from "./PalettesList.styled"
 import { Select } from "../Select"
 import { useEffect, useState } from "react"
-import PaletteProps from "../../../types/palette/PaletteProps"
-import PaletteInfoProps from "../../../types/palette/PaletteInfoProps"
 import palettesMap from "../../../constants/palettes"
 import Palette from "../Palette"
 import PaletteAnchors from "../PaletteAnchors"
-import BaseElement from "../../../types/common/BaseElementProps"
-import { TFunction } from "i18next"
+import {
+	PalettesListBaseProps,
+	emptyNamesType,
+	emptyPalettesType
+} from "../types"
 
-interface PaletteListBaseProps extends BaseElement {
-	t: TFunction<any, undefined>
-}
-export const PalettesListBase = ({ t, lng }: PaletteListBaseProps) => {
-	const emptyName: PaletteInfoProps[] = []
+export const PalettesListBase = ({ t, lng }: PalettesListBaseProps) => {
+	const emptyName: emptyNamesType = []
 	const [updated, setUpdated] = useState(true)
 	const [names, setNames] = useState(emptyName)
-	const empty: PaletteProps[] = []
+	const empty: emptyPalettesType = []
 	const [palettes, setPalettes] = useState(empty)
 	const emptyShowing: Map<string, Set<string>> = new Map()
 	const [showing] = useState(emptyShowing)
 	useEffect(() => {
-		const currList: PaletteProps[] = []
+		const currList: emptyPalettesType = []
 		names.forEach(({ name, group }) => {
 			const currGroup = palettesMap.get(group)
 			if (currGroup === undefined) return

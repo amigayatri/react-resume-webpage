@@ -1,18 +1,17 @@
-import HolidayProps from "../../../types/holidays/HolidayProps"
 import { HolidayListWrapper, List, Title } from "./HolidayList.styled"
 import Holiday from "./Holiday"
 import Typewriter from "react-ts-typewriter"
-import BaseElement from "../../../types/common/BaseElementProps"
-import { TFunction } from "i18next"
+import { HolidayListProps, calculateHolidayInfoType } from "../types.ts"
+
 const weekend = new Set([6, 0])
 const preWeekend = new Set([1, 5])
-interface HolidayListProps extends BaseElement {
-	list: HolidayProps[]
-	t: TFunction<any, undefined>
-}
 
 export const HolidayList = ({ list, t, lng }: HolidayListProps) => {
-	const calculateHolidayInfo = ({ date, name, type }: HolidayProps) => {
+	const calculateHolidayInfo: calculateHolidayInfoType = ({
+		date,
+		name,
+		type
+	}) => {
 		const weekday = date.getDay()
 		const isWeekend = weekend.has(weekday)
 		const isPreWeekend = preWeekend.has(weekday)

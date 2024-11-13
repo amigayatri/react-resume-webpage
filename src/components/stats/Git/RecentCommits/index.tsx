@@ -1,17 +1,9 @@
 import { useState } from "react"
 import { RecentCommitsWrapper, GitTitle } from "./RecentCommits.styled"
-import { CommitProps } from "./../../../../api/Git/format/RepoCommits"
-import GitDate from "./GitDate"
-import GitMore from "./GitMore"
-import BaseElement from "../../../../types/common/BaseElementProps"
+import { GitMore, GitDate } from "./components"
+import { RecentCommitsProps, showDateType } from "../types"
 
-interface RecentCommitsProps extends BaseElement {
-	commits: Map<string, CommitProps[]>
-	moreLink: string
-	showMore: boolean
-}
-
-const RecentCommits = ({
+export const RecentCommits = ({
 	commits,
 	moreLink,
 	showMore,
@@ -26,7 +18,7 @@ const RecentCommits = ({
 			setOpen(date)
 		}
 	}
-	const showDate = (date: string, commitList: CommitProps[]) => {
+	const showDate: showDateType = (date, commitList) => {
 		const isOpen = open === date
 		return (
 			<GitDate
@@ -61,5 +53,3 @@ const RecentCommits = ({
 		</RecentCommitsWrapper>
 	)
 }
-
-export default RecentCommits

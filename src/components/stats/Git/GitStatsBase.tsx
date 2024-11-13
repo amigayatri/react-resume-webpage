@@ -1,20 +1,20 @@
 import { useEffect, useState } from "react"
 import GitAPI from "../../../api/Git"
-import { CommitProps } from "../../../api/Git/format/RepoCommits"
-import RecentCommits from "./RecentCommits"
+import { RecentCommits } from "./RecentCommits"
 import { Title } from "../Common.styled"
-import MonthlyCommitsGraph from "./MonthlyCommitsGraph"
+import { MonthlyCommitsGraph } from "./MonthlyCommitsGraph"
 import { GitWrapper } from "./Git.styled"
-import BaseElement from "../../../types/common/BaseElementProps"
+import { GitStatsBaseProps, commitsMapType } from "./types"
 
-export const GitStatsBase = ({ t, lng }: BaseElement) => {
-	const [commits, setCommits] = useState(new Map<string, CommitProps[]>())
+export const GitStatsBase = ({ t, lng }: GitStatsBaseProps) => {
+	const emptyCommits: commitsMapType = new Map()
+	const [commits, setCommits] = useState(emptyCommits)
 	const [more, setMore] = useState("")
 	const [showMore, setShowMore] = useState(true)
 	useEffect(() => {
 		const Git = new GitAPI({ repo: "react-resume-webpage", user: "amigayatri" })
 		Git.getCommitsDate().then((commitList) => {
-			const commitsByDate = new Map<string, CommitProps[]>()
+			const commitsByDate: commitsMapType = new Map()
 			if (commitList.length <= 25) setShowMore(false)
 			for (const commit of commitList) {
 				const [key] = commit.date.toISOString().split("T")

@@ -1,6 +1,5 @@
 import { ShadeGeneratorWrapper } from "./ShadeGenerator.styled.ts"
 import { useState, useEffect } from "react"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
 import { Hero } from "../Hero/"
 import { AddColor } from "../AddColor/"
 import { TargetList } from "../TargetList/"
@@ -8,8 +7,9 @@ import { ColorList } from "../ColorList/"
 import { ShadeList } from "../ShadeList/"
 import { palettesMap } from "../../../constants/palettes"
 import { Color, getTargets } from "../../../lib/colors"
+import { ShadeGeneratorBaseProps } from "../types"
 
-export const ShadeGeneratorBase = ({ lng, t }: BaseElement) => {
+export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
 	const [colors, setColors] = useState(new Map<string, Color>())
 	const [updatedList, setUpdatedList] = useState(true)
 	const [targets, setTargets] = useState(getTargets())

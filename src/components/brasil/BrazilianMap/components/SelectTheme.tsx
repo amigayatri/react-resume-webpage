@@ -1,19 +1,7 @@
 import { ChangeEvent, useState } from "react"
-import { TFunction } from "i18next"
 import { palettesMap } from "../../../../constants/palettes"
-import { Select } from "../../../common/Select/client.tsx"
-import Element from "../../../../types/common/ElementProps.ts"
-import SelectStyle from "../../../../types/common/SelectStyleProps.ts"
-import { PaletteSelect } from "../../../common/PaletteSelect/client.tsx"
-
-interface SelectThemeProps extends Element {
-	changeName: (arg0: string) => void
-	changeFn: (arg0: string[], arg1: number) => void
-	contrast: number
-	changeContrast: (arg0: number) => void
-	t: TFunction<any, undefined>
-	selectStyle: SelectStyle
-}
+import { Select, PaletteSelect } from "../../../common/client.tsx"
+import { SelectThemeProps } from "../../types.ts"
 
 const filters = new Map([
 	["no", 1],

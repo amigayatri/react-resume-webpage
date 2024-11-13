@@ -2,7 +2,7 @@
 
 import { SVGIconBase } from "./SVGIconBase.tsx"
 import { useTranslation } from "../../../i18n/client"
-import { SVGProps } from "./index.tsx"
+import { SVGProps } from "./"
 
 export function SVGIcon(props: SVGProps) {
 	const { lng } = props

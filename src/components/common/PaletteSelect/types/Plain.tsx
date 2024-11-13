@@ -1,9 +1,7 @@
 import { generatePaletteOptions } from "../../../../constants/palettes/generatePaletteOptions"
 import { Select } from "../../Select/client.tsx"
 import { PaletteSelectBaseElement } from "../"
-import { PaletteGroupProps } from "../../../../constants/palettes/generatePaletteOptions"
-import { GroupProps } from "../../Select/"
-
+import { validateGroupType } from "../../../../types/palette"
 export const Plain = ({
 	lng,
 	onSelect,
@@ -23,11 +21,7 @@ export const Plain = ({
 			tOptions: { groupName: `groups.${group}` }
 		}
 	}
-	const validateGroup: (opt: PaletteGroupProps) => GroupProps = ({
-		group,
-		groupKey,
-		options
-	}) => {
+	const validateGroup: validateGroupType = ({ group, groupKey, options }) => {
 		const multipleOptions =
 			addMultiple === true ? [generateMultipleOption(group)] : []
 		return {

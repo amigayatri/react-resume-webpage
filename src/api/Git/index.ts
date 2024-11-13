@@ -1,24 +1,15 @@
-import { formatCommits } from "./format/RepoCommits"
+import { formatRawCommits } from "./functions"
+import { GitAPIProps, GitInfoProps, setLinkType } from "../../types/git"
 import { Octokit } from "@octokit/rest"
 
-interface GitAPIProps {
-	user: string
-	repo: string
-}
+class GitAPI implements GitAPIProps {
+	info: GitInfoProps
+	octo: Octokit = new Octokit()
+	link: string = ""
 
-class GitAPI {
-	info: GitAPIProps
-	octo: Octokit
-	link: string
-	constructor({ repo, user }: GitAPIProps) {
+	constructor(info: GitInfoProps) {
+		const { repo, user } = info
 		this.info = { repo, user }
-		// const auth = import.meta.env.DEV
-		// 	? { auth: import.meta.env.VITE_API_GIT_TOKEN }
-		// 	: {}
-		const auth = {}
-		const octokit = new Octokit(auth)
-		this.octo = octokit
-		this.link = ""
 		this.octo
 			.request("GET /repos/{owner}/{repo}/", {
 				owner: user,
@@ -29,7 +20,7 @@ class GitAPI {
 			})
 	}
 
-	setLink(response: any) {
+	setLink: setLinkType = (response) => {
 		this.link = response.data.html_url
 	}
 
@@ -42,7 +33,7 @@ class GitAPI {
 				repo: repo
 			}
 		)
-		return formatCommits(response)
+		return formatRawCommits(response)
 	}
 
 	getRepoLink = () => {

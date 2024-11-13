@@ -1,9 +1,5 @@
-import { SVGProps } from "./index"
+import { SVGBaseProps } from "./"
 import { icons, usedIcons } from "./constants"
-import { TFunction } from "i18next"
-interface SVGBaseProps extends SVGProps {
-	t: TFunction<any, undefined>
-}
 
 export const SVGIconBase = ({
 	id,

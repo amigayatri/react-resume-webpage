@@ -1,6 +1,5 @@
 import { ProgressElementProps } from "."
-import { ProgressCircle } from "./types/Circle"
-import { ProgressBar } from "./types/Bar"
+import { ProgressCircle, ProgressBar } from "./types/"
 
 export const ProgressBase = (props: ProgressElementProps) => {
 	const { type } = props

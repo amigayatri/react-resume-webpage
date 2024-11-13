@@ -25,7 +25,7 @@ export const TabName = styled(Tab)`
 
 export const TabNamesWrapper = styled(TabList)`
 	list-style: none;
-	margin: 0 var(--color-container);
+	margin: 0;
 	display: flex;
 	background-color: ${({ theme }) => theme.white};
 	border: 4px solid ${({ theme }) => theme.primary};

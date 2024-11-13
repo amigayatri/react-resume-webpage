@@ -1,7 +1,7 @@
 import { HeroWrapper, Title, SubHeading } from "./Hero.styled"
-import BaseElement from "../../../types/common/BaseElementProps"
+import { HeroProps } from "../types"
 
-export const Hero = ({ t }: BaseElement) => {
+export const Hero = ({ t }: HeroProps) => {
 	return (
 		<HeroWrapper>
 			<Title>{t("hero.title")}</Title>

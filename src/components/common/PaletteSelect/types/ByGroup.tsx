@@ -1,7 +1,8 @@
 import { generatePaletteOptions } from "../../../../constants/palettes/generatePaletteOptions"
 import { Select } from "../../Select/client.tsx"
 import { PaletteSelectBaseElement } from "../"
-import { GroupProps } from "../../Select/"
+import { GroupProps } from "../../../../types/common"
+import { getPaletteOptionsType } from "../../../../types/palette"
 import { useState } from "react"
 import { groupIcons } from "../../../../constants/palettes/"
 
@@ -25,7 +26,7 @@ export const ByGroup = ({
 			{ options, groupKey }
 		])
 	)
-	const getPaletteOptions: () => GroupProps[] = () => {
+	const getPaletteOptions: getPaletteOptionsType = () => {
 		const groupOptions = mapByGroup.get(group)
 		if (groupOptions === undefined) return [{ groupKey: "", options: [] }]
 		return [groupOptions]

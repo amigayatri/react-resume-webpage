@@ -1,7 +1,7 @@
 "use client"
 
 import { ErrorMessageBase } from "./ErrorMessageBase"
-import { ErrorMessageProps } from "."
+import { ErrorMessageProps } from "../types"
 
 export const ErrorMessage = ({
 	message,

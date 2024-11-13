@@ -1,13 +1,13 @@
-import { CommitProps } from "../../../../api/Git/format/RepoCommits"
-import Graph from "../../Graph"
+import { Graph } from "../../Graph"
 import { MonthlyCommitsGraphWrapper } from "./MonthlyCommitsGraph.styled"
 import { Subtitle } from "../../Common.styled"
-import BaseElementProps from "../../../../types/common/BaseElementProps"
-interface MonthlyCommitsGraphProps extends BaseElementProps {
-	commits: Map<string, CommitProps[]>
-}
+import { MonthlyCommitsGraphProps } from "../types"
 
-const MonthlyCommitsGraph = ({ commits, t, lng }: MonthlyCommitsGraphProps) => {
+export const MonthlyCommitsGraph = ({
+	commits,
+	t,
+	lng
+}: MonthlyCommitsGraphProps) => {
 	const commitsByYear = new Map()
 	commits.forEach((val, key) => {
 		const date = new Date(key)
@@ -58,5 +58,3 @@ const MonthlyCommitsGraph = ({ commits, t, lng }: MonthlyCommitsGraphProps) => {
 		</MonthlyCommitsGraphWrapper>
 	)
 }
-
-export default MonthlyCommitsGraph

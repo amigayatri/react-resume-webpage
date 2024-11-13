@@ -2,7 +2,7 @@
 
 import { useTranslation } from "../../../i18n/client"
 import { LanguageSelectBase } from "./LanguageSelectBase"
-import { LanguageSelectProps } from "./index"
+import { LanguageSelectProps } from "./"
 
 export const LanguageSelect = ({
 	lng,

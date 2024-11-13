@@ -1,4 +1,4 @@
-import PaletteGroup from "../../types/palette/PaletteGroupProps"
+import { PaletteGroupProps } from "../../types/palette/"
 import { brands } from "./brands"
 import { media } from "./media"
 import { places } from "./places"
@@ -7,7 +7,7 @@ import { tech } from "./tech"
 import { rainbow } from "./rainbow"
 import { themes } from "./themes"
 
-export const palettesMap: Map<string, PaletteGroup> = new Map([
+export const palettesMap: Map<string, PaletteGroupProps> = new Map([
 	["theme", themes],
 	["rainbow", rainbow],
 	["famous media", media],

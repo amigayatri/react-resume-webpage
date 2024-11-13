@@ -2,7 +2,7 @@
 
 import { SelectBase } from "./SelectBase.tsx"
 import { useTranslation } from "../../../i18n/client"
-import { SelectProps } from "./index.tsx"
+import { SelectProps } from "../../../types/common/"
 
 export function Select(props: SelectProps) {
 	const { lng, namespace } = props

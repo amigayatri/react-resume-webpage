@@ -1,18 +1,8 @@
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { TFunction } from "i18next"
 import { MenuWrapper, SettingsWrapper } from "./Header.styled.ts"
-import { Toggle } from "../Toggle/client.tsx"
-import { LanguageSelect } from "../LanguageSelect/client.tsx"
-import { Navigation } from "../Navigation/client.tsx"
+import { Toggle, LanguageSelect, Navigation } from "../client.tsx"
 import { useRouter } from "next/navigation"
 import { ChangeEvent } from "react"
-
-interface HeaderBaseProps extends BaseElement {
-	t: TFunction<any, undefined>
-	theme: string
-	changeTheme: () => void
-	onError: boolean
-}
+import { HeaderBaseProps } from "."
 
 export const HeaderBase = ({
 	lng,

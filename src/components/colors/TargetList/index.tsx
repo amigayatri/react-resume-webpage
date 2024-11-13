@@ -1,13 +1,8 @@
 import { Wrapper, ListWrapper, Target, PairWrapper } from "./TargetList.styled"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { removeTarget } from "../../../lib/colors"
-import BaseElement from "../../../types/common/BaseElementProps"
+import { TargetListProps } from "../types"
 
-interface TargetListProps extends BaseElement {
-	updatedList: boolean
-	targets: string[][]
-	regenerate: () => void
-}
 export const TargetList = ({ targets, regenerate, t }: TargetListProps) => {
 	const handleDelete = (key: string) => {
 		if (targets.length === 1) return

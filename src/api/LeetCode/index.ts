@@ -1,20 +1,21 @@
 import { useGetCurrentHost } from "../../hooks/"
-import { formatQuestions, emptyQuestions } from "./format/Questions.ts"
-import { formatLanguages, emptyLanguages } from "./format/Languages.ts"
-import { formatSkills, emptySkills } from "./format/Skills.ts"
-import { formatSolved, emptySolved } from "./format/Solved.ts"
-import { formatBadges, emptyBadges } from "./format/Badges.ts"
-import { formatCalendar, emptyCalendar } from "./format/Calendar.ts"
-import { formatProfile, emptyProfile } from "./format/Profile.ts"
+import { Profile } from "../../types/leetcode"
+import {
+	formatBadges,
+	formatCalendar,
+	formatLanguages,
+	formatProfile,
+	formatQuestions,
+	formatSkills,
+	formatSolved
+} from "./format/"
 
-export const empty = {
-	questions: emptyQuestions,
-	languages: emptyLanguages,
-	skills: emptySkills,
-	solved: emptySolved,
-	badges: emptyBadges,
-	calendar: emptyCalendar,
-	profile: emptyProfile
+export const emptyProfile: Profile = {
+	username: "",
+	name: "",
+	country: "",
+	ranking: -1,
+	birthday: new Date()
 }
 
 export class LeetCode {

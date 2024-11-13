@@ -1,36 +1,39 @@
-import { LeetCode } from "../../api/LeetCode"
-import BaseElement from "../common/BaseElementProps"
+import { Tag } from "react-tagcloud"
 
-export interface DayColor {
-	light: string
-	dark: string
+interface ActiveDay {
+	date: Date
+	submissions: number
 }
-
-export interface DayProps {
-	day: Date
-	exercises: number
-	color: DayColor
-	isDark: boolean
-	isSimple: boolean
+export type badgesArrType = BadgeProps[]
+export type calendarArrType = ActiveDay[]
+export type languageArrType = ProgrammingLanguageProps[]
+export type skillMapType = Map<string, Tag[]>
+export interface Profile {
+	username: string
+	name: string
+	country: string
+	ranking: number
+	birthday: Date
 }
-
-export interface MonthProps {
-	days: DayProps[]
+export interface Questions {
+	easy: number
+	medium: number
+	hard: number
+	total: number
 }
-
-interface HeatMapElementProps extends BaseElement {
-	isReversed: boolean
-	isSimple: boolean
-}
-
-export interface HeatMapHeaderProps extends HeatMapElementProps {
-	changeOrder: () => void
-	changeStyle: () => void
-}
-
-export interface MonthElementProps extends HeatMapElementProps {
-	days: DayProps[]
-	zeroColor: DayColor
+export interface SolvedQuestions {
+	solved: {
+		easy: number
+		medium: number
+		hard: number
+		total: number
+	}
+	acceptance: {
+		total: number
+		easy: number
+		medium: number
+		hard: number
+	}
 }
 
 export interface BadgeProps {
@@ -39,19 +42,7 @@ export interface BadgeProps {
 	icon: string
 }
 
-export interface LeetCodeProps extends BaseElement {
-	leetcode: LeetCode
-}
-
 export interface ProgrammingLanguageProps {
 	problemsSolved: number
 	languageName: string
-}
-
-export interface CalendarProps {
-	exercises: number
-	day: number
-}
-export interface CalendarSymbolProps extends CalendarProps {
-	color: string
 }

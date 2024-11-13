@@ -1,4 +1,3 @@
-import { TFunction } from "i18next"
 import {
 	SelectInput,
 	Option,
@@ -7,13 +6,9 @@ import {
 	Group,
 	SelectInputWrapper
 } from "./Select.styled"
-import { SelectProps } from "./index.tsx"
-import { SVGIcon } from "../SVGIcon/client.tsx"
+import { SelectBaseProps } from "./"
+import { SVGIcon } from "../client.tsx"
 import { useTheme } from "styled-components"
-
-interface SelectBaseProps extends SelectProps {
-	t: TFunction<any, undefined>
-}
 
 export const SelectBase = ({
 	t,
@@ -55,6 +50,7 @@ export const SelectBase = ({
 					/>
 				)}
 				<SelectInput
+					$hasButton={Button !== undefined}
 					onChange={onSelectChange}
 					id={id}
 					defaultValue={defaultValue}
@@ -71,7 +67,7 @@ export const SelectBase = ({
 								key={id + "-optgroup-" + groupKey + "-option-" + idx}
 								label={t(groupKey)}
 							>
-								{options.map(({ value, key, tOptions }) => (
+								{options.map(({ value, key, tOptions, extraText }) => (
 									<Option key={id + "-option-" + value} value={value}>
 										{t(
 											key,
@@ -79,6 +75,7 @@ export const SelectBase = ({
 												? { groupName: t(tOptions.groupName) }
 												: undefined
 										)}
+										{extraText !== undefined ? extraText : ""}
 									</Option>
 								))}
 							</Group>

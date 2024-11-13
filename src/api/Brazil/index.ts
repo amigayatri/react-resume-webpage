@@ -1,95 +1,60 @@
-import Holiday from "../../types/holidays/HolidayProps"
-import StateProps from "../../types/holidays/StateProps"
-interface RawHoliday {
-	type: string
-	date: string
-	name: string
-}
+import {
+	StateProps,
+	HolidayProps,
+	citiesByStateType,
+	municipalHolidaysType,
+	setHolidaysType,
+	BrazilianAPIProps,
+	getStatesType,
+	getCitiesType,
+	getHolidaysType,
+	generateStateMapType
+} from "../../types/holidays/"
+import {
+	isMunicipal,
+	cleanName,
+	readJsonState,
+	hasPassed,
+	formatHoliday
+} from "./functions"
 
-interface RawMunicipal {
-	type: string
-	date: string
-	city: string
-	state: string
-}
+const citiesByState: citiesByStateType = new Map()
+const municipalHolidays: municipalHolidaysType = new Map()
 
-const citiesByState: Map<string, string[]> = new Map()
-const municipalHolidays: Map<string, Map<string, RawMunicipal[]>> = new Map()
-
-const readJsonState = async (state: string) => {
-	const response = await fetch(
-		"/brazilian-holidays/" + state.toLowerCase() + ".json"
-	)
-	const list = await response.json()
-	return list
-}
-
-const cleanName = (cityName: string) => {
-	const chars = new Set(cityName)
-	let clean = cityName
-	const specialMap = new Map([
-		["á", "a"],
-		["é", "e"],
-		["í", "i"],
-		["ó", "o"],
-		["ú", "u"],
-		["ç", "c"],
-		["ã", "a"],
-		["õ", "o"],
-		["à", "a"],
-		["â", "a"],
-		["ê", "e"],
-		["ô", "o"]
-	])
-	for (const special of specialMap.keys()) {
-		if (chars.has(special)) {
-			clean = clean.replace(special, specialMap.get(special) || "")
-		}
+const generateStateMap: generateStateMapType = (rawList, state) => {
+	const stateMap = new Map()
+	for (const holiday of rawList) {
+		const city = holiday.city.toLowerCase()
+		const prevArr = stateMap.has(city) ? stateMap.get(city) : []
+		prevArr.push(holiday)
+		stateMap.set(city, prevArr)
 	}
-	return clean
+	municipalHolidays.set(state, stateMap)
 }
-
-class BrazilianAPI {
-	link: string
-	national: Holiday[]
-	municipal: Map<string, Holiday[]>
-	states: StateProps[]
-	cities: string[]
+class BrazilianAPI implements BrazilianAPIProps {
+	link: string = "https://brasilapi.com.br/api/"
+	national: HolidayProps[] = []
+	municipal: Map<string, HolidayProps[]> = new Map()
+	states: StateProps[] = []
+	cities: string[] = []
+	now: Date
 	constructor() {
-		this.national = []
-		this.link = "https://brasilapi.com.br/api/"
-		this.states = []
-		this.cities = []
-		this.municipal = new Map()
+		this.now = new Date()
 	}
 
-	setNationalHolidays(rawNationalHolidays: RawHoliday[]) {
-		const now = new Date()
-		const currYear = now.getFullYear()
-		const currMonth = now.getUTCMonth()
-		const currDay = now.getUTCDate()
+	setNationalHolidays: setHolidaysType = (rawNationalHolidays) => {
+		if (rawNationalHolidays === undefined) return []
 		for (const raw of rawNationalHolidays) {
+			if (isMunicipal(raw)) break
 			const holiday = new Date(raw.date + "GMT-3")
-			const holidayYear = holiday.getFullYear()
-			const holidayMonth = holiday.getUTCMonth()
-			const holidayDate = holiday.getUTCDate()
-			if (
-				holidayYear > currYear ||
-				holidayMonth > currMonth ||
-				(holidayMonth === currMonth && holidayDate >= currDay)
-			) {
-				const holidayObj: Holiday = {
-					date: holiday,
-					name: raw.name,
-					type: raw.type
-				}
-				this.national.push(holidayObj)
+			if (!hasPassed(this.now, holiday)) {
+				this.national.push(formatHoliday(raw, holiday))
 			}
 		}
 		return this.national
 	}
 
-	getStates = async () => {
+	getStates: getStatesType = async () => {
 		if (this.states.length === 0) {
 			const route = "ibge/uf/v1"
 			const response = await fetch(this.link + route)
@@ -102,7 +67,7 @@ class BrazilianAPI {
 			return this.states
 		}
 	}
-	getCities = async (state: string) => {
+	getCities: getCitiesType = async (state) => {
 		if (state === "") return []
 		if (!citiesByState.has(state)) {
 			this.cities = []
@@ -115,11 +80,11 @@ class BrazilianAPI {
 			citiesByState.set(state, Array.from(this.cities))
 			return this.cities
 		} else {
-			return citiesByState.get(state)
+			return citiesByState.get(state) || []
 		}
 	}
 
-	getNationalHolidays = async () => {
+	getNationalHolidays: getHolidaysType = async () => {
 		if (this.national.length === 0) {
 			const route = "feriados/v1/"
 			const year = new Date().getFullYear()
@@ -135,52 +100,25 @@ class BrazilianAPI {
 		}
 	}
 
-	generateStateMap(rawList: any, state: string) {
-		const stateMap = new Map()
-		for (const holiday of rawList) {
-			const city = holiday.city.toLowerCase()
-			const prevArr = stateMap.has(city) ? stateMap.get(city) : []
-			prevArr.push(holiday)
-			stateMap.set(city, prevArr)
-		}
-		municipalHolidays.set(state, stateMap)
-	}
+	generateStateMap = generateStateMap
 
-	setMunicipalHolidays = (
-		cityHolidays: RawMunicipal[] | undefined,
-		state: string,
-		city: string
-	) => {
-		const formatted: Holiday[] = []
-		if (cityHolidays === undefined) return formatted
-		const now = new Date()
-		const currYear = now.getFullYear()
-		const currMonth = now.getMonth()
-		const currDay = now.getDate()
+	setMunicipalHolidays: setHolidaysType = (cityHolidays, state, city) => {
+		if (state === undefined || city === undefined || cityHolidays === undefined)
+			return []
+		const formatted = []
+		const currYear = this.now.getFullYear()
 		const nextYearHolidays = []
 		for (const holiday of cityHolidays) {
+			if (!isMunicipal(holiday)) break
 			const name = `Feriado em ${city} - ${state}`
 			const date = new Date(holiday.date)
 			const holidayYear = date.getFullYear()
-			const holidayMonth = date.getMonth()
-			const holidayDate = date.getDate()
-			if (
-				holidayYear > currYear ||
-				holidayMonth > currMonth ||
-				(holidayMonth === currMonth && holidayDate >= currDay)
-			) {
-				formatted.push({ name, date, type: "municipal" })
+			if (!hasPassed(this.now, date)) {
+				formatted.push(formatHoliday(holiday, date, name))
 				if (holiday.type === "Permanente" && holidayYear === currYear) {
-					nextYearHolidays.push({
-						name,
-						type: "municipal",
-						date: new Date(
-							holiday.date.replace(
-								currYear.toString(),
-								(currYear + 1).toString()
-							)
-						)
-					})
+					nextYearHolidays.push(
+						formatHoliday(holiday, date, name, true, this.now)
+					)
 				}
 			}
 		}
@@ -189,22 +127,22 @@ class BrazilianAPI {
 		return formatted
 	}
 
-	getMunicipalHolidays = async (state: string, city: string) => {
+	getMunicipalHolidays: getHolidaysType = async (state, city) => {
+		if (state === undefined || city === undefined) return []
+		const getFormatted = () => {
+			const clean = cleanName(city)
+			const cityHolidays = municipalHolidays.get(state)?.get(clean)
+			const formatted = this.setMunicipalHolidays(cityHolidays, state, city)
+			return formatted
+		}
 		if (!municipalHolidays.has(state)) {
 			const list = await readJsonState(state)
 			this.generateStateMap(list, state)
-			const clean = cleanName(city)
-			const cityHolidays = municipalHolidays.get(state)?.get(clean)
-			const formatted = this.setMunicipalHolidays(cityHolidays, state, city)
-			return formatted
+			return getFormatted()
 		} else if (!this.municipal.has(`${state}-${city}`)) {
-			const clean = cleanName(city)
-			const cityHolidays = municipalHolidays.get(state)?.get(clean)
-			const formatted = this.setMunicipalHolidays(cityHolidays, state, city)
-			return formatted
-		} else {
-			return this.municipal.get(`${state}-${city}`)
+			return getFormatted()
 		}
+		return this.municipal.get(`${state}-${city}`) || []
 	}
 }
 export default BrazilianAPI

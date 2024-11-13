@@ -1,8 +1,15 @@
 import { useTranslation } from "../../../i18n/"
 import { FooterBase } from "./FooterBase.tsx"
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps, BaseElementProps } from "../../../types/common/"
 
-export const Footer = async ({ lng }: Element) => {
+export interface FooterProps extends ElementProps {
+	isRTL: boolean
+}
+
+export interface FooterBaseProps extends FooterProps {}
+export interface FooterBaseProps extends BaseElementProps {}
+
+export const Footer = async ({ lng, isRTL }: FooterProps) => {
 	const { t } = await useTranslation(lng, "footer")
-	return <FooterBase t={t} lng={lng} />
+	return <FooterBase isRTL={isRTL} t={t} lng={lng} />
 }

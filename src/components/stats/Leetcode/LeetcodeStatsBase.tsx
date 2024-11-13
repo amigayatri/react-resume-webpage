@@ -1,16 +1,18 @@
 import { useEffect, useState } from "react"
 import { LeetcodeWrapper } from "./LeetcodeStats.styled"
-import BaseElement from "../../../types/common/BaseElementProps"
-import { Profile } from "./Profile"
-import { Questions } from "./Questions"
-import { Loading } from "../../common/Loading"
-import { BadgeList } from "./BadgeList"
-import { HeatMap } from "./HeatMap"
-import { LanguageList } from "./LanguageList"
-import { SkillList } from "./SkillList"
+import { Loading } from "../../common/"
+import {
+	BadgeList,
+	HeatMap,
+	Profile,
+	Questions,
+	LanguageList,
+	SkillList
+} from "./components"
 import { LeetCode } from "../../../api/LeetCode"
+import { LeetcodeStatsBaseProps } from "./types"
 
-export const LeetcodeStatsBase = ({ t, lng }: BaseElement) => {
+export const LeetcodeStatsBase = ({ t, lng }: LeetcodeStatsBaseProps) => {
 	const user = "amira_gayatri"
 	const [leetcode, setLeetcode] = useState(new LeetCode(" "))
 	useEffect(() => {

@@ -1,5 +1,6 @@
-import { PaletteSelectBaseProps } from "./index.tsx"
+import { PaletteSelectBaseProps } from "./"
 import { ByGroup, HideShowing, Plain } from "./types/"
+
 const types = new Map([
 	["hide-showing", HideShowing],
 	["plain", Plain],

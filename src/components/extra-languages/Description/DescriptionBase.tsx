@@ -4,15 +4,10 @@ import {
 	DescriptionWrapper,
 	PageSelectWrapper
 } from "./Description.styled"
-import BaseElement from "../../../types/common/BaseElementProps.ts"
-import { TFunction } from "i18next"
-import { LanguageSelect } from "../../common/LanguageSelect/client.tsx"
+import { LanguageSelect } from "../../common/client"
 import { useRouter } from "next/navigation"
 import { ChangeEvent } from "react"
-
-interface DescriptionBaseProps extends BaseElement {
-	t: TFunction<any, undefined>
-}
+import { DescriptionBaseProps } from "../types"
 
 export const DescriptionBase = ({ t, lng }: DescriptionBaseProps) => {
 	const router = useRouter()

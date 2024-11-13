@@ -1,13 +1,13 @@
-import Element from "../../../types/common/ElementProps.ts"
+import { ElementProps } from "../../../types/common/"
 import { useTranslation } from "../../../i18n/"
 import { errors } from "../../../constants/errors.ts"
 import { ErrorMessage } from "../ErrorMessage/client.tsx"
 import { MainWrapper, IconsWrapper, IconWrapper, Button } from "./Main.styled"
-import { SVGIcon } from "../../common/SVGIcon/client.tsx"
-import { MulticoloredName } from "../../common/MulticoloredName/client.tsx"
+import { SVGIcon } from "../../common/"
+import { MulticoloredName } from "../../common/client.tsx"
 import { fallbackLng } from "../../../i18n/settings.ts"
 
-interface ErrorPageProps extends Element {
+interface ErrorPageProps extends ElementProps {
 	id: string
 }
 

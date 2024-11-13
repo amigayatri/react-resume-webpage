@@ -1,13 +1,8 @@
 import { Wrapper, ListWrapper } from "./ShadeList.styled"
 import { ShadeSubSection } from "../ShadeSubSection"
-import { Color } from "../../../lib/colors"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { useEffect, useState } from "react"
-import BaseElement from "../../../types/common/BaseElementProps"
-interface ShadeListProps extends BaseElement {
-	regenerate: () => Color[]
-	updatedList: boolean
-}
+import { ShadeListProps, emptyColorType } from "../types"
 
 export const ShadeList = ({
 	regenerate,
@@ -15,7 +10,7 @@ export const ShadeList = ({
 	t,
 	lng
 }: ShadeListProps) => {
-	const emptyColors: Color[] = []
+	const emptyColors: emptyColorType = []
 	const [list, setList] = useState(emptyColors)
 	useEffect(() => {
 		const currList = regenerate()
