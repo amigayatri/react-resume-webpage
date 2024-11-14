@@ -4,19 +4,16 @@ import { LeetcodeStats } from "../Leetcode/client.tsx"
 import { TabPanel, Tabs } from "react-tabs"
 import { MainTitle } from "../Common.styled"
 import { MulticoloredName } from "../../common/client.tsx"
-import { useTheme } from "styled-components"
 import { useState } from "react"
 import { StatsBaseProps } from "../types"
 
 export const StatsBase = ({ lng, t }: StatsBaseProps) => {
-	const { pink, purple, blue } = useTheme()
-	const customColors = [pink, purple, blue]
+	const selectedInfo = { group: "themes", name: "triple" }
+	const notSelectedInfo = { group: "theme", name: "grayscalemonokai" }
 	const nameProps = {
-		customColors,
 		fontSize: 24,
 		lng,
 		legible: true,
-		info: { group: "theme", name: "grayscalemonokai" },
 		local: "stats"
 	}
 	const tabs = new Map([
@@ -30,24 +27,27 @@ export const StatsBase = ({ lng, t }: StatsBaseProps) => {
 			<MainTitle>{t("title")}</MainTitle>
 			<Tabs>
 				<TabNamesWrapper>
-					{entries.map(([id, { icon }]) => (
-						<TabName
-							key={"key-list-" + id}
-							onClick={() => {
-								setSelectedTab(id)
-							}}
-						>
-							<MulticoloredName
-								iconId={icon}
-								{...nameProps}
-								isReverse={id !== selectedTab}
-								legibleTextColors={id === selectedTab}
-								isCustom={id === selectedTab}
+					{entries.map(([id, { icon }]) => {
+						const selected = id === selectedTab
+						return (
+							<TabName
+								key={"key-list-" + id}
+								onClick={() => {
+									setSelectedTab(id)
+								}}
 							>
-								{t("list." + id)}
-							</MulticoloredName>
-						</TabName>
-					))}
+								<MulticoloredName
+									iconId={icon}
+									{...nameProps}
+									info={selected ? selectedInfo : notSelectedInfo}
+									isReverse={!selected}
+									legibleTextColors={selected}
+								>
+									{t("list." + id)}
+								</MulticoloredName>
+							</TabName>
+						)
+					})}
 				</TabNamesWrapper>
 				{entries.map(([name, { el }]) => (
 					<TabPanel key={"el-list-" + name}>{el}</TabPanel>

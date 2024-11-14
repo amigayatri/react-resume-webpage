@@ -9,7 +9,9 @@ export const SVGIconBase = ({
 	color,
 	t
 }: SVGBaseProps) => {
-	const prevLocalIcons = usedIcons.get(local) || new Set()
+	const prevLocalSet = usedIcons.get(local)
+	const prevLocalIcons =
+		prevLocalSet === undefined ? new Set<string>() : prevLocalSet
 	prevLocalIcons.add(id)
 	usedIcons.set(local, prevLocalIcons)
 	const alt = t(`alt.${id}`)

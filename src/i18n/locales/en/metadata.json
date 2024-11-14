@@ -13,7 +13,8 @@
         "palette": "Palettes",
         "resume": "Resume",
         "site-stats": "Stats",
-        "map": "Map of Brazil"
+        "map": "Map of Brazil",
+        "shades": "Tone Variations"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

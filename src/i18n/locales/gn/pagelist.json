@@ -1,8 +1,8 @@
 {
     "brasil": "Brasil",
-    "holidays": "Ára guasu Brasil-pegua",
+    "holidays": "Ary guasu",
     "cats": "Mymbakuéra (ha hetave) .",
-    "colors": "Generador de tono rehegua",
+    "colors": "Umi sa’y",
     "extralanguages": "Ñe’ẽ extra",
     "home": "Página principal",
     "icons": "Proyecto rehegua iconokuéra",
@@ -14,5 +14,16 @@
         "github": "Código fuente rehegua",
         "linkedin": "Linkedin rehegua"
     },
-    "map": "Mapa Brasil rehegua"
+    "map": "Mapa Brasil rehegua",
+    "shades": "Generador de tono rehegua",
+    "details": {
+        "brasil": {
+            "holidays": "Fiesta nacional brasileña, orekóva opción omoîvo arete municipal heta tavaguasúgui simultáneamente.",
+            "map": "Mapa interactivo oñemopuꞌavaꞌekue oñemopyendáva SVG-kuéra rehe API malla geográfica IBGE-gui, ikatu oñemoambue esquema de color, contraste mínimo ha división mapa rehegua."
+        },
+        "colors": {
+            "palette": "Umi paleta oñeinspiráva opaichagua fuente-gui, ojeporúva amo tenda proyecto-pe, ojehechaukáva ko’ápe umi icono personalizado reheve.",
+            "shades": "Generador de tonos umi color blanco apytépe, opción reheve emohenda hag̃ua mboy tono intermedio ha emoĩve umi color blanco pyahu (por defecto umi blanco haꞌehína morotĩ ha hũ) ."
+        }
+    }
 }

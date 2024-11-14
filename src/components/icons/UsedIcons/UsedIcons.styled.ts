@@ -5,7 +5,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import { ProgressWrapper } from "../../common/Progress/Progress.styled"
 import { media } from "../../../constants/medias"
 
-export const UsedIconsWrapper = styled.section`
+export const UsedIconsWrapper = styled.div`
 	text-align: center;
 	padding: 16px;
 	margin: 0 -16px 32px;

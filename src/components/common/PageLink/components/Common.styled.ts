@@ -39,6 +39,12 @@ export const Label = styled.span`
 	color: ${({ theme }) => theme.almostBlack};
 `
 
+export const Detail = styled.p`
+	font-size: 1.125rem;
+	color: ${({ theme }) => theme.almostBlack};
+	text-align: center;
+`
+
 export const ExternalLinkTag = styled.a`
 	color: ${({ theme }) => theme.secondAccent};
 	text-decoration: none;

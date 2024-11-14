@@ -4,7 +4,7 @@
         "brasil": "巴西",
         "holidays": "巴西假期",
         "cats": "=^.^=",
-        "colors": "颜色变化",
+        "colors": "颜色",
         "extra-languages": "额外语言",
         "home": "主页",
         "icons": "项目图标",
@@ -13,7 +13,8 @@
         "palette": "调色板",
         "resume": "恢复",
         "site-stats": "统计数据",
-        "map": "巴西地图"
+        "map": "巴西地图",
+        "shades": "音调变化"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "网站佩索阿尔"

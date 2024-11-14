@@ -13,7 +13,8 @@
         "palette": "パレット",
         "resume": "再開する",
         "site-stats": "統計",
-        "map": "ブラジルの地図"
+        "map": "ブラジルの地図",
+        "shades": "音色バリエーション"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "個人ウェブサイト"

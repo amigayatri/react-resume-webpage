@@ -1,8 +1,8 @@
 {
     "brasil": "Brasil",
-    "holidays": "vacaciones brasileñas",
+    "holidays": "Vacaciones",
     "cats": "Gatos (y más)",
-    "colors": "Generador de tonos",
+    "colors": "Bandera",
     "extralanguages": "Idiomas adicionales",
     "home": "pagina de inicio",
     "icons": "Iconos de proyecto",
@@ -14,5 +14,16 @@
         "github": "código fuente",
         "linkedin": "LinkedIn"
     },
-    "map": "Mapa de Brasil"
+    "map": "Mapa de Brasil",
+    "shades": "Generador de tonos",
+    "details": {
+        "brasil": {
+            "holidays": "Feriados nacionales brasileños, con opción de agregar feriados municipales de varias ciudades simultáneamente.",
+            "map": "Mapa interactivo construido a partir de SVG de la API de malla geográfica del IBGE, es posible cambiar la combinación de colores, el contraste mínimo y la división del mapa."
+        },
+        "colors": {
+            "palette": "Paletas inspiradas en diferentes fuentes, utilizadas en algunos lugares del proyecto, que se muestran aquí con sus íconos personalizados.",
+            "shades": "Generador de tonos entre colores de destino, con opción de personalizar la cantidad de tonos intermedios y agregar nuevos colores de destino (por defecto los destinos son blanco y negro)"
+        }
+    }
 }

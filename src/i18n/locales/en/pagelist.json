@@ -1,8 +1,8 @@
 {
     "brasil": "Brazil",
-    "holidays": "Brazilian holidays",
+    "holidays": "Holidays",
     "cats": "Cats (and more)",
-    "colors": "Tone generator",
+    "colors": "Colors",
     "extralanguages": "Extra languages",
     "home": "Home page",
     "icons": "Project icons",
@@ -14,5 +14,16 @@
         "github": "Source code",
         "linkedin": "Linkedin"
     },
-    "map": "Map of Brazil"
+    "map": "Map of Brazil",
+    "shades": "Tone generator",
+    "details": {
+        "brasil": {
+            "holidays": "Brazilian national holidays, with the option of adding municipal holidays from several cities simultaneously.",
+            "map": "Interactive map built based on SVGs from the IBGE geographic mesh API, it is possible to change the color scheme, minimum contrast and division of the map."
+        },
+        "colors": {
+            "palette": "Palettes inspired by different sources, used in some places in the project, shown here with their customized icons.",
+            "shades": "Generator of tones between target colors, with the option of customizing the amount of intermediate tones and adding new target colors (by default the targets are black and white)"
+        }
+    }
 }

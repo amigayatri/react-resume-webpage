@@ -1,25 +1,6 @@
 {
-    "disclaimer": "Aucune couleur de la palette {{paletteName}} n'est disponible après le filtrage par {{filterName}}, modifiez la palette ou la catégorie de filtre pour voir à nouveau les couleurs personnalisées.",
-    "divisions": {
-        "UF": "États",
-        "cities": "Villes",
-        "meso": "Mésorégions",
-        "micro": "Microrégions",
-        "region": "Régions",
-        "single": "Pays"
-    },
-    "filters": {
-        "AAAsmall": "Petit texte AAA",
-        "AAbig": "AA Grand texte",
-        "AAsmall": "AA Petit Texte",
-        "minimum": "Minimum",
-        "no": "Sans filtrage"
-    },
-    "select": {
-        "division": "Division de la carte",
-        "filter": "Contraste de la palette de filtres",
-        "group": "Choisissez un groupe",
-        "palette": "Choisissez la palette de couleurs"
-    },
-    "title": "Carte du Brésil"
+    "hero": {
+        "title": "Brésil",
+        "text": ""
+    }
 }

@@ -7,7 +7,7 @@ import {
 	SubitemText,
 	DateWrapper
 } from "./Section.styled"
-import { SVGIcon } from "../../common/"
+import { SVGIcon } from "../../common/client"
 import { SectionElementProps } from "../types.ts"
 
 export const Section = ({ section, lng }: SectionElementProps) => {

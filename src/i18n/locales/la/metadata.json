@@ -13,7 +13,8 @@
         "palette": "Palettes",
         "resume": "Proin",
         "site-stats": "Stats",
-        "map": "Tabula geographica Brasiliae"
+        "map": "Tabula geographica Brasiliae",
+        "shades": "Tone Variations"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

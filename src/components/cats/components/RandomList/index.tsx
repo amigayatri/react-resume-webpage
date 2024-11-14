@@ -22,7 +22,7 @@ export const RandomList = ({
 					legible
 					legibleTextColors
 					fontSize={32}
-					info={{ group: "theme", name: "current" }}
+					info={{ group: "theme", name: "accent" }}
 					lng={lng}
 					iconId={iconId}
 					isCustom
