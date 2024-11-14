@@ -24,7 +24,7 @@ export const SelectDivision = ({
 			lng={lng}
 			onSelectChange={({ target }) => handleChangeDivision(target.value)}
 			id="select-division"
-			namespace="brasil"
+			namespace="map"
 			label={t("select.division")}
 			options={[{ groupKey: "select.division", options: divisionOptions }]}
 		/>

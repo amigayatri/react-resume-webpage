@@ -50,7 +50,7 @@ export const SelectTheme = ({
 				label={{ palette: t("select.palette"), group: t("select.group") }}
 				type="by-group"
 				fontSize={1.5}
-				local="brasil"
+				local="map"
 				onSelect={handleChangeTheme}
 				lng={lng}
 			/>
@@ -64,7 +64,7 @@ export const SelectTheme = ({
 				onSelectChange={(e) => handleChangeContrast(e)}
 				id="select-theme-in-group"
 				iconId="colorfilter"
-				namespace="brasil"
+				namespace="map"
 				label={t("select.filter")}
 				options={[{ groupKey: "select.filter", options: filterOptions }]}
 			/>
