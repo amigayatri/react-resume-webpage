@@ -96,6 +96,9 @@ export const InternalLinkTag = styled.a`
 		${ButtonStyle} {
 			background-color: ${({ theme }) => theme.almostBlack};
 		}
+		${Detail} {
+			color: ${({ theme }) => theme.accent};
+		}
 	}
 
 	${media.min.lg} {
