@@ -16,8 +16,7 @@ import {
 	ButtonLabel,
 	Subtitle
 } from "./UsedIcons.styled"
-import { Progress } from "../../common"
-import { SVGIcon } from "../../common/client"
+import { SVGIcon, Progress } from "../../common/client"
 import { useTheme } from "styled-components"
 import { useState } from "react"
 import { numberOfIcons, usedIcons } from "../../common/SVGIcon/constants"

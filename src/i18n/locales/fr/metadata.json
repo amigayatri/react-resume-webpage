@@ -13,7 +13,8 @@
         "palette": "Palettes",
         "resume": "CV",
         "site-stats": "Statistiques",
-        "map": "Carte du Brésil"
+        "map": "Carte du Brésil",
+        "shades": "Variations de tons"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Site personnel"

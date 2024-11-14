@@ -8,13 +8,16 @@ import {
 
 export interface PageLinkProps extends ElementProps {
 	to: LinkProps
+	local: string
+	hasDetails: boolean
 }
 export interface PageLinkBaseProps extends BaseElementProps {}
 export interface PageLinkBaseProps extends PageLinkProps {}
 
-export const PageLink = async ({ lng, to }: PageLinkProps) => {
+export const PageLink = async (props: PageLinkProps) => {
+	const { lng } = props
 	const { t } = await useTranslation(lng, "pagelist")
-	const { isExternal } = to
-	if (isExternal) return <ExternalLink t={t} to={to} lng={lng} />
-	return <InternalLink t={t} to={to} lng={lng} />
+	const { isExternal } = props.to
+	if (isExternal) return <ExternalLink t={t} {...props} />
+	return <InternalLink t={t} {...props} />
 }

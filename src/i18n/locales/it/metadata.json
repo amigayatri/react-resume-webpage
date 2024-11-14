@@ -13,7 +13,8 @@
         "palette": "Tavolozze",
         "resume": "Riprendere",
         "site-stats": "Statistiche",
-        "map": "Mappa del Brasile"
+        "map": "Mappa del Brasile",
+        "shades": "Variazioni di tono"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Sito personale"

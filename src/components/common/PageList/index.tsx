@@ -9,6 +9,7 @@ import {
 interface PageListProps extends ElementProps {
 	links: LinkProps[]
 	local: string
+	hasDetails?: boolean
 }
 
 export interface PageListElementProps extends PageListProps {

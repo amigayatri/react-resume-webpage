@@ -4,7 +4,7 @@
         "brasil": "Brasilien",
         "holidays": "Brasilianische Feiertage",
         "cats": "=^.^=",
-        "colors": "Farbvariationen",
+        "colors": "Farben",
         "extra-languages": "Zusätzliche Sprachen",
         "home": "Homepage",
         "icons": "Projektsymbole",
@@ -13,7 +13,8 @@
         "palette": "Paletten",
         "resume": "Wieder aufnehmen",
         "site-stats": "Statistiken",
-        "map": "Karte von Brasilien"
+        "map": "Karte von Brasilien",
+        "shades": "Tonvariationen"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Site-Pessoal"

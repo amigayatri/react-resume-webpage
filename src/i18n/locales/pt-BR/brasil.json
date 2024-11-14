@@ -1,25 +1,6 @@
 {
-    "disclaimer": "Nenhuma cor da paleta {{paletteName}} está disponível após filtrar por {{filterName}}, troque a paleta ou a categoria do filtro para voltar a ver cores personalizadas.",
-    "divisions": {
-        "UF": "Estados",
-        "cities": "Cidades",
-        "meso": "Mesoregiões",
-        "micro": "Microregiões",
-        "region": "Regiões",
-        "single": "País"
-    },
-    "filters": {
-        "AAAsmall": "AAA Texto Pequeno",
-        "AAbig": "AA Texto Grande",
-        "AAsmall": "AA Texto Pequeno",
-        "minimum": "Mínimo",
-        "no": "Sem filtrar"
-    },
-    "select": {
-        "division": "Divisão do mapa",
-        "filter": "Filtrar contraste",
-        "group": "Escolha um grupo",
-        "palette": "Escolha uma paleta"
-    },
-    "title": "Mapa do Brasil"
+    "hero": {
+        "title": "Brasil",
+        "text": ""
+    }
 }

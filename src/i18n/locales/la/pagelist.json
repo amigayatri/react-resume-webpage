@@ -1,8 +1,8 @@
 {
     "brasil": "Brazil",
-    "holidays": "Brazilian feriae",
+    "holidays": "Feriae",
     "cats": "Feles (et plus)",
-    "colors": "sono generantis",
+    "colors": "Colorum",
     "extralanguages": "Extra linguas",
     "home": "Home page",
     "icons": "Icones Project",
@@ -14,5 +14,16 @@
         "github": "Source codice",
         "linkedin": "Linkedin"
     },
-    "map": "Tabula geographica Brasiliae"
+    "map": "Tabula geographica Brasiliae",
+    "shades": "sono generantis",
+    "details": {
+        "brasil": {
+            "holidays": "Feriae nationales Brasilianae, cum facultate addendi dies festos municipales ex pluribus urbibus simul.",
+            "map": "Tabula interactive in SVGs ab IBGE reticulo API constructo constructa, color schema, minimam discrepantiam et divisionem tabulae mutare potest."
+        },
+        "colors": {
+            "palette": "Palettes a diversis auctoribus incitati, nonnullis in locis in incepto adhibiti, hic cum iconibus suis nativus ostenduntur.",
+            "shades": "Generator tonorum inter colores clypeos, cum facultate consuendi quantitatem tonorum intermediorum et novos scopos colores addito (per default scutorum albi et nigri sunt)"
+        }
+    }
 }

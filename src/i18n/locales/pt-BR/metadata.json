@@ -5,7 +5,7 @@
     "map": "Mapa do Brasil",
     "holidays": "Feriados Brasileiros",
     "cats": "=^.^=",
-    "colors": "Variações de Cores",
+    "colors": "Cores",
     "extra-languages": "Línguas extras",
     "home": "Página inicial",
     "icons": "Ícones do projeto",
@@ -13,7 +13,8 @@
     "maintenance": "Página em Manutenção",
     "palette": "Paletas",
     "resume": "Currículo",
-    "site-stats": "Estatísticas"
+    "site-stats": "Estatísticas",
+    "shades": "Variações de Tons"
   },
   "base-title": "{{pathTitle}} | Amira Gayatri",
   "content": "Site pessoal"

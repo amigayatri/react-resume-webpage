@@ -1,25 +1,6 @@
 {
-    "disclaimer": "No hay colores de la paleta {{paletteName}} disponibles después de filtrar por {{filterName}}, cambie la paleta o la categoría de filtro para ver colores personalizados nuevamente.",
-    "divisions": {
-        "UF": "Estados",
-        "cities": "Ciudades",
-        "meso": "mesorregiones",
-        "micro": "Microrregiones",
-        "region": "Regiones",
-        "single": "País"
-    },
-    "filters": {
-        "AAAsmall": "Texto pequeño AAA",
-        "AAbig": "Texto grande AA",
-        "AAsmall": "Texto pequeño AA",
-        "minimum": "Mínimo",
-        "no": "Sin filtrar"
-    },
-    "select": {
-        "division": "División del mapa",
-        "filter": "Contraste de la paleta de filtros",
-        "group": "Elige un grupo",
-        "palette": "Elige paleta de colores"
-    },
-    "title": "Mapa de Brasil"
+    "hero": {
+        "title": "Brasil",
+        "text": ""
+    }
 }

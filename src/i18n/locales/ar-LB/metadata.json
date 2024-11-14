@@ -4,7 +4,7 @@
         "brasil": "البرازيل",
         "holidays": "العطل البرازيلية",
         "cats": "=^.^=",
-        "colors": "اختلافات اللون",
+        "colors": "الألوان",
         "extra-languages": "لغات اضافية",
         "home": "الصفحة الرئيسية",
         "icons": "ايقونات المشروع",
@@ -13,7 +13,8 @@
         "palette": "لوحات",
         "resume": "سيرة ذاتية",
         "site-stats": "احصائيات",
-        "map": "خريطة البرازيل"
+        "map": "خريطة البرازيل",
+        "shades": "اختلافات النغمات"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

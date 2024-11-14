@@ -5,6 +5,16 @@ export const namedArr: PaletteProps = {
 	colors: ["#212117", "#f92472", "#67d8ef", "#f7f7f7"]
 }
 
+export const accentArr: PaletteProps = {
+	icon: "website",
+	colors: ["#f92472", "#67d8ef"]
+}
+
+export const tripleArr: PaletteProps = {
+	icon: "website",
+	colors: ["#f92472", "#ac80ff", "#67d8ef"]
+}
+
 export const grayscaleMonokai: PaletteProps = {
 	icon: "website",
 	colors: [
@@ -41,5 +51,7 @@ export const fullMonokai: PaletteProps = {
 export const themes: PaletteGroupProps = new Map([
 	["current", namedArr],
 	["grayscalemonokai", grayscaleMonokai],
-	["fullmonokai", fullMonokai]
+	["fullmonokai", fullMonokai],
+	["triple", tripleArr],
+	["accent", accentArr]
 ])

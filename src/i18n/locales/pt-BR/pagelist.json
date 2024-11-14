@@ -1,9 +1,10 @@
 {
     "brasil": "Brasil",
     "map": "Mapa do Brasil",
-    "holidays": "Feriados brasileiros",
+    "holidays": "Feriados",
     "cats": "Gatos (e mais)",
-    "colors": "Gerador de tons",
+    "colors": "Cores",
+    "shades": "Gerador de tons",
     "extralanguages": "Línguas extras",
     "home": "Pagina inicial",
     "icons": "Ícones do projeto",
@@ -14,5 +15,15 @@
     "external": {
         "github": "Código fonte",
         "linkedin": "Linkedin"
+    },
+    "details": {
+        "brasil": {
+            "map": "Mapa interativo construído com base nos SVGs da API de malha geográfica do IBGE, é possível trocar o esquema de cores, o contraste mínimo e a divisão do mapa.",
+            "holidays": "Feriados nacionais brasileiros, com a opção de adicionar feriados municipais de várias cidades simultaneamente."
+        },
+        "colors": {
+            "shades": "Gerador de tons entre cores-alvo, com opção de personalização da quantidades de tons intermediários e da adição de novas cores alvo (por padrão os alvos são preto e branco)",
+            "palette": "Paletas inspiradas em diversas fontes, utilizadas em alguns locais do projeto, aqui exibidas com seus ícones customizados."
+        }
     }
 }

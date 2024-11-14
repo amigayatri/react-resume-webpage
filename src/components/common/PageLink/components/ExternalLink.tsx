@@ -9,19 +9,13 @@ import {
 import { linkProps } from "../../../../constants/linkprops.ts"
 import { SVGIcon } from "../../SVGIcon/"
 
-export const ExternalLink = ({ t, lng, to }: PageLinkBaseProps) => {
-	const { path, icon, key, local } = to
+export const ExternalLink = ({ t, lng, to, local }: PageLinkBaseProps) => {
+	const { path, icon, key } = to
 	return (
 		<ButtonWrapper>
 			<ExternalLinkTag {...linkProps} href={path}>
 				<ButtonStyle>
-					<SVGIcon
-						noTransition
-						lng={lng}
-						local={local || "unset"}
-						size={48}
-						id={icon}
-					/>
+					<SVGIcon noTransition lng={lng} local={local} size={48} id={icon} />
 					<LabelWrapper>
 						<Label>{t(key)}</Label>
 						<SVGIcon

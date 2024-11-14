@@ -69,7 +69,6 @@ export interface LinkProps {
 	key: string
 	icon: string
 	isExternal: boolean
-	local?: string
 }
 
 export interface OptionProps {

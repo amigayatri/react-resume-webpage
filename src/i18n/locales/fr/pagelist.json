@@ -1,8 +1,8 @@
 {
     "brasil": "Brésil",
-    "holidays": "Vacances brésiliennes",
+    "holidays": "Vacances",
     "cats": "Chats (et plus)",
-    "colors": "Générateur de tonalité",
+    "colors": "Couleurs",
     "extralanguages": "Langues supplémentaires",
     "home": "Page d'accueil",
     "icons": "Icônes de projet",
@@ -14,5 +14,16 @@
         "github": "Code source",
         "linkedin": "Linkedin"
     },
-    "map": "Carte du Brésil"
+    "map": "Carte du Brésil",
+    "shades": "Générateur de tonalité",
+    "details": {
+        "brasil": {
+            "holidays": "Jours fériés nationaux brésiliens, avec possibilité d'ajouter simultanément les jours fériés municipaux de plusieurs villes.",
+            "map": "Carte interactive construite sur la base des SVG de l'API de maillage géographique IBGE, il est possible de modifier la palette de couleurs, le contraste minimum et la division de la carte."
+        },
+        "colors": {
+            "palette": "Palettes inspirées de différentes sources, utilisées à certains endroits du projet, présentées ici avec leurs icônes personnalisées.",
+            "shades": "Générateur de tons entre couleurs cibles, avec possibilité de personnaliser la quantité de tons intermédiaires et d'ajouter de nouvelles couleurs cibles (par défaut les cibles sont en noir et blanc)"
+        }
+    }
 }

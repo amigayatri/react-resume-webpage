@@ -1,8 +1,8 @@
 {
     "brasil": "Brasilien",
-    "holidays": "Brasilianische Feiertage",
+    "holidays": "Feiertage",
     "cats": "Katzen (und mehr)",
-    "colors": "Tongenerator",
+    "colors": "Farben",
     "extralanguages": "Zusätzliche Sprachen",
     "home": "Startseite",
     "icons": "Projektsymbole",
@@ -14,5 +14,16 @@
         "github": "Quellcode",
         "linkedin": "Linkedin"
     },
-    "map": "Karte von Brasilien"
+    "map": "Karte von Brasilien",
+    "shades": "Tongenerator",
+    "details": {
+        "brasil": {
+            "holidays": "Brasilianische Nationalfeiertage, mit der Möglichkeit, kommunale Feiertage aus mehreren Städten gleichzeitig hinzuzufügen.",
+            "map": "Interaktive Karte, die auf SVGs der IBGE-Geographic-Mesh-API basiert. Es ist möglich, das Farbschema, den Mindestkontrast und die Aufteilung der Karte zu ändern."
+        },
+        "colors": {
+            "palette": "Von verschiedenen Quellen inspirierte Paletten, die an einigen Stellen im Projekt verwendet werden und hier mit ihren benutzerdefinierten Symbolen angezeigt werden.",
+            "shades": "Generator von Tönen zwischen Zielfarben, mit der Möglichkeit, die Menge der Zwischentöne anzupassen und neue Zielfarben hinzuzufügen (standardmäßig sind die Ziele Schwarz und Weiß)."
+        }
+    }
 }

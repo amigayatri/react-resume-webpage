@@ -1,0 +1,25 @@
+{
+    "disclaimer": "Nach dem Filtern nach {{filterName}} sind keine Farben aus der Palette {{paletteName}} verfügbar. Ändern Sie die Palette oder Filterkategorie, um wieder benutzerdefinierte Farben anzuzeigen.",
+    "divisions": {
+        "UF": "Staaten",
+        "cities": "Städte",
+        "meso": "Mesoregionen",
+        "micro": "Mikroregionen",
+        "region": "Regionen",
+        "single": "Land"
+    },
+    "filters": {
+        "AAAsmall": "AAA Kleiner Text",
+        "AAbig": "AA Großer Text",
+        "AAsmall": "AA Kleiner Text",
+        "minimum": "Minimum",
+        "no": "Ohne Filterung"
+    },
+    "select": {
+        "division": "Karteneinteilung",
+        "filter": "Kontrast der Filterpalette",
+        "group": "Wählen Sie eine Gruppe",
+        "palette": "Wählen Sie eine Farbpalette"
+    },
+    "title": "Karte von Brasilien"
+}

@@ -1,0 +1,25 @@
+{
+    "disclaimer": "Nessun colore dalla tavolozza {{paletteName}} è disponibile dopo aver filtrato per {{filterName}}, cambia la tavolozza o la categoria del filtro per vedere di nuovo i colori personalizzati.",
+    "divisions": {
+        "UF": "Stati",
+        "cities": "Città",
+        "meso": "Mesoregioni",
+        "micro": "Microregioni",
+        "region": "Regioni",
+        "single": "Paese"
+    },
+    "filters": {
+        "AAAsmall": "Testo piccolo AAA",
+        "AAbig": "AA Testo grande",
+        "AAsmall": "AA Piccolo testo",
+        "minimum": "Minimo",
+        "no": "Senza filtraggio"
+    },
+    "select": {
+        "division": "Divisione della mappa",
+        "filter": "Contrasto tavolozza filtro",
+        "group": "Scegli un gruppo",
+        "palette": "Scegli la tavolozza dei colori"
+    },
+    "title": "Mappa del Brasile"
+}

@@ -1,6 +1,6 @@
 import { ErrorMessageWrapper, Message } from "./ErrorMessage.styled"
 import Typewriter from "react-ts-typewriter"
-import { SVGIcon } from "../../common/"
+import { SVGIcon } from "../../common/client"
 import { ErrorMessageProps } from "../types"
 
 export const ErrorMessageBase = ({ message, lng }: ErrorMessageProps) => {

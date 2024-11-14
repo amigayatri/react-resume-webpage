@@ -13,7 +13,8 @@
         "palette": "لوحات",
         "resume": "سيرة ذاتية",
         "site-stats": "احصائيات",
-        "map": "خريطة البرازيل"
+        "map": "خريطة البرازيل",
+        "shades": "اختلافات النغمات"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "موقع شخصي"

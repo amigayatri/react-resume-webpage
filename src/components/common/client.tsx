@@ -13,6 +13,7 @@ import { Progress } from "./Progress/client"
 import { Select } from "./Select/client"
 import { SVGIcon } from "./SVGIcon/client"
 import { Toggle } from "./Toggle/client"
+import { SimpleHero } from "./SimpleHero/client"
 import ThemeClient from "./ThemeClient"
 
 export {
@@ -29,5 +30,6 @@ export {
 	Select,
 	SVGIcon,
 	Toggle,
-	ThemeClient
+	ThemeClient,
+	SimpleHero
 }

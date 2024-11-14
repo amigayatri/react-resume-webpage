@@ -1,25 +1,6 @@
 {
-    "disclaimer": "Ndaipóri sa’y {{paletteName}} paleta-gui ojeguerekóva oñemboheko rire {{filterName}} rupive, emoambue paleta térã ñemboheko categoría rehecha jey hag̃ua sa’y jeporupyre.",
-    "divisions": {
-        "UF": "Estado-kuéra",
-        "cities": "Tavakuéra",
-        "meso": "Mesoregiones rehegua",
-        "micro": "Microregión-kuéra rehegua",
-        "region": "Región-kuéra rehegua",
-        "single": "Tetã"
-    },
-    "filters": {
-        "AAAsmall": "AAA Texto Michĩ",
-        "AAbig": "AA Texto Tuicha",
-        "AAsmall": "AA Texto Michĩ",
-        "minimum": "Mínimo",
-        "no": "Ojefiltra’ỹre"
-    },
-    "select": {
-        "division": "Mapa ñemboja’o",
-        "filter": "Filtro paleta contraste rehegua",
-        "group": "Eiporavo peteĩ aty",
-        "palette": "Eiporavo paleta de colores rehegua"
-    },
-    "title": "Mapa Brasil rehegua"
+    "hero": {
+        "title": "Brasil",
+        "text": ""
+    }
 }

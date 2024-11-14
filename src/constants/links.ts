@@ -23,12 +23,6 @@ export const extraPages: LinkProps[] = [
 		isExternal: false
 	},
 	{
-		path: "palette",
-		key: "palette",
-		icon: "pantone",
-		isExternal: false
-	},
-	{
 		path: "stats",
 		key: "stats",
 		icon: "chart",
@@ -43,7 +37,7 @@ export const extraPages: LinkProps[] = [
 	{
 		path: "colors",
 		key: "colors",
-		icon: "palette",
+		icon: "rainbow",
 		isExternal: false
 	},
 	{
@@ -82,6 +76,21 @@ export const brazilianLinks: LinkProps[] = [
 		path: "brasil/feriados",
 		key: "holidays",
 		icon: "braziliancalendar",
+		isExternal: false
+	}
+]
+
+export const colorLinks: LinkProps[] = [
+	{
+		path: "colors/palettes",
+		key: "palette",
+		icon: "pantone",
+		isExternal: false
+	},
+	{
+		path: "colors/shades",
+		key: "shades",
+		icon: "palette",
 		isExternal: false
 	}
 ]
