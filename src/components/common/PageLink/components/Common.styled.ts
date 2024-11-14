@@ -59,6 +59,9 @@ export const ExternalLinkTag = styled.a`
 		${Label} {
 			color: ${({ theme }) => theme.accent};
 		}
+		${Detail} {
+			color: ${({ theme }) => theme.accent};
+		}
 		${ButtonStyle} {
 			background-color: ${({ theme }) => theme.almostBlack};
 		}
