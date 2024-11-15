@@ -1,5 +1,5 @@
-import { PaletteSelectBaseProps } from "./"
-import { ByGroup, HideShowing, Plain } from "./types/"
+import { ByGroup, HideShowing, Plain } from "./components/"
+import { PaletteSelectBaseProps } from "./types.ts"
 
 const types = new Map([
 	["hide-showing", HideShowing],

@@ -10,20 +10,17 @@ export const BrazilianMapWrapper = styled.section`
 export const Title = styled.h1`
 	font-size: 2.5rem;
 	width: fit-content;
-	margin: 16px auto;
+	margin: 0 auto 24px;
+	padding-left: var(--color-container);
 	max-width: 100%;
 	overflow-x: auto;
-	${media.max.sm} {
-		margin-right: calc(var(--color-container) * -1);
-	}
 `
 
 export const Disclaimer = styled.span<{ $isOpen: boolean }>`
 	display: block;
 	overflow: hidden;
 	width: 100%;
-	padding: ${({ $isOpen }) => ($isOpen === true ? "8px" : "0")}
-		var(--color-container);
+	padding: ${({ $isOpen }) => ($isOpen === true ? "8px 16px" : "0")};
 	background-color: ${({ theme }) => theme.accent};
 	color: ${({ theme }) => theme.background};
 	max-height: ${({ $isOpen }) => ($isOpen === true ? "256px" : "0")};
@@ -37,19 +34,24 @@ export const Disclaimer = styled.span<{ $isOpen: boolean }>`
 `
 export const MapWrapper = styled.div`
 	overflow-x: auto;
-	margin-right: calc(var(--color-container) * -1);
+	margin-left: var(--color-container);
 `
+
 export const MapSVG = styled.svg`
 	width: 100%;
 	min-width: 512px;
 	min-height: 512px;
 `
+
 export const SelectsWrapper = styled.div`
 	bottom: calc(var(--footer-size) + 32px);
 	left: var(--color-container);
-	position: fixed;
-	padding: 16px;
+	position: absolute;
+	padding: 16px var(--color-container);
+	margin: 0;
+	margin-bottom: 16px;
 	width: fit-content;
+	max-width: calc(100vw - var(--color-container) - var(--color-container));
 	display: flex;
 	background-color: ${({ theme }) => theme.primary};
 	border-radius: 8px;

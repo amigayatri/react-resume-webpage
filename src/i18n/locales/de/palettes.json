@@ -105,7 +105,9 @@
         "theme": {
             "current": "aktuell",
             "fullmonokai": "Monokai",
-            "grayscalemonokai": "Monokai-Graustufen"
+            "grayscalemonokai": "Monokai-Graustufen",
+            "accent": "Akzentfarben",
+            "triple": "Blau, Lila und Rosa"
         }
     },
     "option": "{{optionName}}-Palette",

@@ -8,7 +8,7 @@ export const IconWrapper = styled.div`
 	width: fit-content;
 	display: inline-block;
 `
-export const ToggleIconWrapper = styled.span<{ $isLight: boolean }>`
+export const ToggleIconWrapper = styled.div<{ $isLight: boolean }>`
 	width: 24px;
 	height: 24px;
 	margin: 2px;

@@ -1,4 +1,5 @@
 import { TFunction } from "i18next"
+import { ChangeEvent } from "react"
 
 export interface ElementProps {
 	lng: string
@@ -69,6 +70,7 @@ export interface LinkProps {
 	key: string
 	icon: string
 	isExternal: boolean
+	sublinks?: LinkProps[]
 }
 
 export interface OptionProps {
@@ -83,6 +85,8 @@ export interface GroupProps {
 	options: OptionProps[]
 }
 
+export type onSelectChangeType = (arg0: ChangeEvent<HTMLSelectElement>) => void
+
 export interface SelectProps extends ElementProps {
 	options: GroupProps[]
 	id: string
@@ -94,6 +98,7 @@ export interface SelectProps extends ElementProps {
 	fontSize: number
 	onHeader: boolean
 	defaultValue: string
-	onSelectChange: (arg0: any) => void
+	onSelectChange: onSelectChangeType
 	customStyle?: SelectStyleProps
+	noTranslation?: boolean
 }

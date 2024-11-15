@@ -15,56 +15,6 @@ export const pages: LinkProps[] = [
 	}
 ]
 
-export const extraPages: LinkProps[] = [
-	{
-		path: "cats",
-		key: "cats",
-		icon: "bastet",
-		isExternal: false
-	},
-	{
-		path: "stats",
-		key: "stats",
-		icon: "chart",
-		isExternal: false
-	},
-	{
-		path: "icons",
-		key: "icons",
-		icon: "egyptianwalk",
-		isExternal: false
-	},
-	{
-		path: "colors",
-		key: "colors",
-		icon: "rainbow",
-		isExternal: false
-	},
-	{
-		path: "brasil",
-		key: "brasil",
-		icon: "brasil",
-		isExternal: false
-	}
-]
-
-export const links: LinkProps[] = [
-	...pages,
-	{
-		path: "https://linkedin.com/in/amiragayatri",
-		key: "external.linkedin",
-		icon: "linkedin",
-		isExternal: true
-	},
-	{
-		path: "https://github.com/amigayatri/react-resume-webpage",
-		key: "external.github",
-		icon: "github",
-		isExternal: true
-	},
-	...extraPages
-]
-
 export const brazilianLinks: LinkProps[] = [
 	{
 		path: "brasil/mapa",
@@ -93,4 +43,56 @@ export const colorLinks: LinkProps[] = [
 		icon: "palette",
 		isExternal: false
 	}
+]
+
+export const extraPages: LinkProps[] = [
+	{
+		path: "cats",
+		key: "cats",
+		icon: "bastet",
+		isExternal: false
+	},
+	{
+		path: "stats",
+		key: "stats",
+		icon: "chart",
+		isExternal: false
+	},
+	{
+		path: "icons",
+		key: "icons",
+		icon: "egyptianwalk",
+		isExternal: false
+	},
+	{
+		path: "colors",
+		key: "colors",
+		icon: "rainbow",
+		isExternal: false,
+		sublinks: colorLinks
+	},
+	{
+		path: "brasil",
+		key: "brasil",
+		icon: "brasil",
+		isExternal: false,
+		sublinks: brazilianLinks
+	}
+]
+
+export const links: LinkProps[] = [
+	...pages,
+	{
+		path: "https://linkedin.com/in/amiragayatri",
+		key: "external.linkedin",
+		icon: "linkedin",
+		isExternal: true
+	},
+	{
+		path: "https://github.com/amigayatri/react-resume-webpage",
+		key: "external.github",
+		icon: "github",
+		isExternal: true
+	},
+	...extraPages
 ]

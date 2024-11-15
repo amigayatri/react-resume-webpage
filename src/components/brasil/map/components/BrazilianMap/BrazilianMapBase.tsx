@@ -8,98 +8,85 @@ import {
 } from "./BrazilianMap.styled.ts"
 import { useTheme } from "styled-components"
 import { MulticoloredName } from "../../../../common/client.tsx"
-import { useState } from "react"
-import { checkContrast } from "../../../../../lib/rgb"
+import { useEffect, useState } from "react"
 import singlePath from "../../../../../../public/brazil-map-paths/single.json"
-import { palettesMap } from "../../../../../constants/palettes"
 import { SelectTheme, SelectDivision } from "./components/"
-import { BrazilianMapBaseProps } from "../types.ts"
-
-export const divisionMap = new Map([
-	["cities", "/brazil-map-paths/cities.json"],
-	["micro", "/brazil-map-paths/micro.json"],
-	["meso", "/brazil-map-paths/meso.json"],
-	["UF", "/brazil-map-paths/uf.json"],
-	["region", "/brazil-map-paths/region.json"],
-	["single", "/brazil-map-paths/single.json"]
-])
+import {
+	BrazilianMapBaseProps,
+	handleTheme,
+	changeContrast,
+	handleChangeDivision
+} from "./types.ts"
+import {
+	getNewInfo,
+	getContrastInfo,
+	getDivisionURL,
+	cleanColors,
+	generateSelectStyle
+} from "./functions.ts"
 
 const divisionPaths = new Map([["single", singlePath]])
-
-export const filterIds = new Map([
-	[1, "no"],
-	[0.6, "minimum"],
-	[1 / 3, "AAbig"],
-	[1 / 4.5, "AAsmall"],
-	[1 / 7, "AAAsmall"]
-])
+type handlePaths = (arg0: string[], arg1: string) => void
+type handleChangeColors = (newColors: string[], newContrast: number) => void
 
 export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 	const [loading, setLoading] = useState(false)
-	const [paletteName, setPaletteName] = useState("")
-	const [contrast, setContrast] = useState(1)
-	const [contrastId, setContrastId] = useState(filterIds.get(1))
+	const [contrast, setContrast] = useState(getContrastInfo("1"))
 	const [division, setDivision] = useState("single")
 	const [paths, setPaths] = useState(divisionPaths.get(division))
 	const theme = useTheme()
-	const empty: string[] = []
-	const [rawColors, setRawColors] = useState(empty)
-	const startPalette = palettesMap.get("rainbow")?.get("rainbow monokai")
-	const [colors, setColors] = useState(
-		startPalette !== undefined
-			? startPalette.colors
-			: [theme.primary, theme.blue, theme.pink]
+	const [selected, setSelected] = useState(
+		getNewInfo("rainbow_rainbow monokai")
 	)
-	const handleChangeDivision = async (newDivision: string) => {
+	const [colors, setColors] = useState(selected.colors)
+	const [rawColors, setRawColors] = useState(selected.colors)
+
+	const handlePath: handlePaths = (newPaths, newDivision) => {
+		setPaths(newPaths)
+		setDivision(newDivision)
+		setLoading(false)
+	}
+
+	const handleChangeDivision: handleChangeDivision = async (newDivision) => {
 		setLoading(true)
-		if (divisionPaths.has(newDivision)) {
-			const newPaths = divisionPaths.get(newDivision)
-			setPaths(newPaths !== undefined ? newPaths : [])
-			setDivision(newDivision)
-			setLoading(false)
-		} else {
-			const url = divisionMap.get(newDivision)
-			fetch(url !== undefined ? url : "").then((reponse) => {
-				reponse.json().then((list) => {
-					divisionPaths.set(newDivision, list)
-					setPaths(list)
-					setDivision(newDivision)
-					setLoading(false)
-				})
+		const newPaths = divisionPaths.get(newDivision)
+		if (newPaths !== undefined) {
+			handlePath(newPaths, newDivision)
+			return
+		}
+		fetch(getDivisionURL(newDivision)).then((reponse) => {
+			reponse.json().then((list) => {
+				divisionPaths.set(newDivision, list)
+				handlePath(list, newDivision)
 			})
-		}
+		})
 	}
-	const cleanColors = (newColors: string[], newContrast: number) => {
-		const cleanToUse = []
-		const { background, primary } = theme
-		for (const color of newColors) {
-			if (checkContrast(background, color) <= newContrast) {
-				cleanToUse.push(color)
-			}
-		}
-		return cleanToUse.length > 0 ? cleanToUse : [primary]
-	}
-	const handleChangeColors = (newColors: string[], newContrast: number) => {
+	const handleChangeColors: handleChangeColors = (newColors, newContrast) => {
 		if (newColors.length === 0) return
 		setRawColors(newColors)
-		const clean = cleanColors(newColors, newContrast)
+		const { background, primary } = theme
+		const clean = cleanColors(newColors, newContrast, { background, primary })
 		if (clean.length === 0) return
 		setColors(clean)
 	}
-	const handleChangeContrast = (newContrast: number) => {
+	const handleTheme: handleTheme = (value) => {
+		const newSelected = getNewInfo(value)
+		const { colors } = newSelected
+		setSelected(newSelected)
+		handleChangeColors(colors, contrast.value)
+	}
+	const handleChangeContrast: changeContrast = (newContrastStr) => {
+		const newContrast = getContrastInfo(newContrastStr)
 		setContrast(newContrast)
-		setContrastId(filterIds.get(newContrast))
-		handleChangeColors(rawColors, newContrast)
+		handleChangeColors(rawColors, newContrast.value)
 	}
+
 	let size = colors.length
-	const selectStyle = {
-		label: { bg: theme.purple, text: theme.almostBlack },
-		select: {
-			bg: theme.primary,
-			text: theme.background,
-			border: theme.accent
-		}
-	}
+	const selectStyle = generateSelectStyle(theme)
+
+	useEffect(() => {
+		handleChangeColors(rawColors, contrast.value)
+	}, [theme.primary])
 	return (
 		<BrazilianMapWrapper>
 			<Title>
@@ -108,7 +95,7 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 					lng={lng}
 					fontSize={40}
 					legible
-					info={{ group: "rainbow", name: "rainbow monokai" }}
+					info={{ group: selected.group, name: selected.name }}
 					isCustom
 					customColors={colors}
 				>
@@ -117,8 +104,8 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 			</Title>
 			<Disclaimer $isOpen={colors[0] === theme.primary}>
 				{t("disclaimer", {
-					paletteName: paletteName,
-					filterName: t("filters." + contrastId)
+					paletteName: t(`names.${selected.group}.${selected.name}`),
+					filterName: t("filters." + contrast.id)
 				})}
 			</Disclaimer>
 			<MapWrapper>
@@ -162,14 +149,13 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 					selectStyle={selectStyle}
 					lng={lng}
 					t={t}
-					contrast={contrast}
+					handleTheme={handleTheme}
 					changeContrast={handleChangeContrast}
-					changeFn={handleChangeColors}
-					changeName={(name) => setPaletteName(name)}
+					selected={{ group: selected.group, name: selected.name }}
 				/>
 				<SelectDivision
 					selectStyle={selectStyle}
-					handleChangeDivision={handleChangeDivision}
+					changeDivision={handleChangeDivision}
 					defaultVal={division}
 					lng={lng}
 					t={t}

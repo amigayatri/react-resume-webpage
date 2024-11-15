@@ -1,12 +1,12 @@
 import { SelectSectionWrapper, SelectWrapper } from "./Select.styled"
 import palettesMap from "../../../../../constants/palettes"
-import { ChangeEvent } from "react"
 import { Subtitle, Summary } from "../Common.styled"
 import { PaletteSelect } from "../../../../common/client"
 import { SelectProps } from "../types"
+import { onSelectChangeType } from "../../../../../types/common"
 
 export const Select = ({ add, showing, t, lng }: SelectProps) => {
-	const handleSelect = ({ target }: ChangeEvent<HTMLSelectElement>) => {
+	const handleSelect: onSelectChangeType = ({ target }) => {
 		const { value } = target
 		const [group, palette] = value.split("_")
 		if (palette === undefined) {

@@ -105,7 +105,9 @@
         "theme": {
             "current": "current",
             "fullmonokai": "Monokai",
-            "grayscalemonokai": "Monokai Grayscale"
+            "grayscalemonokai": "Monokai Grayscale",
+            "accent": "accent colors",
+            "triple": "Blue, purple and pink"
         }
     },
     "option": "{{optionName}} palette",

@@ -7,7 +7,7 @@ import {
 	Label
 } from "./Common.styled.ts"
 import { linkProps } from "../../../../constants/linkprops.ts"
-import { SVGIcon } from "../../SVGIcon/"
+import { SVGIcon } from "../../client.tsx"
 
 export const ExternalLink = ({ t, lng, to, local }: PageLinkBaseProps) => {
 	const { path, icon, key } = to

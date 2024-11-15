@@ -105,7 +105,9 @@
         "theme": {
             "current": "ਮੌਜੂਦਾ",
             "fullmonokai": "ਮੋਨੋਕਾਈ",
-            "grayscalemonokai": "ਮੋਨੋਕਾਈ ਗ੍ਰੇਸਕੇਲ"
+            "grayscalemonokai": "ਮੋਨੋਕਾਈ ਗ੍ਰੇਸਕੇਲ",
+            "accent": "ਲਹਿਜ਼ੇ ਦੇ ਰੰਗ",
+            "triple": "ਨੀਲਾ, ਜਾਮਨੀ ਅਤੇ ਗੁਲਾਬੀ"
         }
     },
     "option": "{{optionName}} ਪੈਲੇਟ",

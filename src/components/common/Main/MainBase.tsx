@@ -1,6 +1,11 @@
+import { CSSProperties } from "styled-components"
 import { MainProps } from "."
 import { MainWrapper } from "./Main.styled"
 
-export const MainBase = ({ children }: MainProps) => {
-	return <MainWrapper>{children}</MainWrapper>
+interface MainBaseProps extends MainProps {
+	customStyle?: CSSProperties
+}
+
+export const MainBase = ({ children, customStyle }: MainBaseProps) => {
+	return <MainWrapper style={customStyle}>{children}</MainWrapper>
 }

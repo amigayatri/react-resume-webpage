@@ -6,7 +6,7 @@ import {
 	Label,
 	Detail
 } from "./Common.styled.ts"
-import { SVGIcon } from "../../SVGIcon/"
+import { SVGIcon } from "../../client.tsx"
 
 export const InternalLink = ({
 	t,

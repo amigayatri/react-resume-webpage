@@ -1,3 +1,4 @@
 import { SelectDivision } from "./SelectDivision"
 import { SelectTheme } from "./SelectTheme"
-export { SelectDivision, SelectTheme }
+import { getNewInfo } from "../functions.ts"
+export { SelectDivision, SelectTheme, getNewInfo }

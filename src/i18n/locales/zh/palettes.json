@@ -105,7 +105,9 @@
         "theme": {
             "current": "当前的",
             "fullmonokai": "物会",
-            "grayscalemonokai": "Monokai 灰度"
+            "grayscalemonokai": "Monokai 灰度",
+            "accent": "强调色",
+            "triple": "蓝色、紫色和粉色"
         }
     },
     "option": "{{optionName}} 调色板",

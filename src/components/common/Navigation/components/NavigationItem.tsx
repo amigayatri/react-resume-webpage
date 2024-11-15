@@ -10,13 +10,22 @@ import { NavProps } from "../NavigationBase"
 
 interface NavigationItemProps extends NavProps {
 	link: LinkProps
+	hasUnderline?: boolean
+	isSublink: boolean
 }
 
-export const NavigationItem = ({ lng, t, link, path }: NavigationItemProps) => {
+export const NavigationItem = ({
+	lng,
+	t,
+	link,
+	path,
+	hasUnderline,
+	isSublink
+}: NavigationItemProps) => {
 	const linkPath = `/${lng}/${link.path}`
 	const { key, icon } = link
 	return (
-		<LinkWrapper $isActive={linkPath === path}>
+		<LinkWrapper $isSubLink={isSublink} $isActive={linkPath === path}>
 			<ContentWrapper href={linkPath}>
 				<SVGIcon
 					lng={lng}
@@ -27,7 +36,7 @@ export const NavigationItem = ({ lng, t, link, path }: NavigationItemProps) => {
 				/>
 				<Label>{t(key)}</Label>
 			</ContentWrapper>
-			<UnderLine />
+			{hasUnderline === true && <UnderLine />}
 		</LinkWrapper>
 	)
 }

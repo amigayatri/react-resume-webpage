@@ -24,7 +24,7 @@ export const groupIcons: Map<string, string> = new Map([
 	["brands", "megaphone"],
 	["places", "mappin"],
 	["tech", "computer"],
-	["schemes", "palettes"]
+	["schemes", "palette"]
 ])
 
 export default palettesMap

@@ -8,26 +8,24 @@ import { LanguageSelectBaseProps } from "./"
 import React from "react"
 import { usePathname } from "next/navigation"
 import { languageNames } from "../../../constants/languages-names.ts"
-import { OptionProps } from "../../../types/common/"
+import { onSelectChangeType, OptionProps } from "../../../types/common/"
+import { useRouter } from "next/navigation"
 
 type generateOptionType = (lang: string, isExtra: boolean) => OptionProps
 
 export const LanguageSelectBase = ({
 	lng,
 	isExtra,
-	onLanguageChange,
 	onError,
 	t
 }: LanguageSelectBaseProps) => {
+	const router = useRouter()
 	const pathname = usePathname()
 	const getLanguageName: (lang: string) => string | undefined = (lang) => {
 		if (lang === lng) return undefined
 		return ` (${languageNames[lang]})`
 	}
 	const generateOption: generateOptionType = (lang, isExtra) => {
-		if (!isExtra && pathname === null) {
-			return { value: "", key: "" }
-		}
 		const keyPrefix = isExtra ? "extra" : "basic"
 		const value =
 			!isExtra && onError ? "/" + lang : pathname?.replace(lng, lang) || ""
@@ -48,6 +46,10 @@ export const LanguageSelectBase = ({
 			key: "basic.more"
 		})
 	const extraOptions = extraLanguages.map((lang) => generateOption(lang, true))
+	const onLanguageChange: onSelectChangeType = ({ target }) => {
+		const locale = target.value
+		router.push(locale)
+	}
 	return (
 		<Select
 			local={isExtra ? "extra-languages" : "header"}

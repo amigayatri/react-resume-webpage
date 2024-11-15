@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 
-export const HeaderWrapper = styled.header`
+export const HeaderWrapper = styled.section`
 	padding: 16px var(--container);
 	position: relative;
 `

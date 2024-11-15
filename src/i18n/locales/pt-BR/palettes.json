@@ -104,6 +104,8 @@
         },
         "theme": {
             "current": "atual",
+            "accent": "cores de destaque",
+            "triple": "Azul, roxo e rosa",
             "fullmonokai": "Monokai",
             "grayscalemonokai": "Escala de cinza monokai"
         }

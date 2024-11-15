@@ -105,7 +105,9 @@
         "theme": {
             "current": "ρεύμα",
             "fullmonokai": "Μονοκάι",
-            "grayscalemonokai": "Monokai Grayscale"
+            "grayscalemonokai": "Monokai Grayscale",
+            "accent": "χρώματα έμφασης",
+            "triple": "Μπλε, μωβ και ροζ"
         }
     },
     "option": "παλέτα {{optionName}}",

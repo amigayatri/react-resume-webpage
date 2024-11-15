@@ -105,7 +105,9 @@
         "theme": {
             "current": "actual",
             "fullmonokai": "monokai",
-            "grayscalemonokai": "Escala de grises Monokai"
+            "grayscalemonokai": "Escala de grises Monokai",
+            "accent": "colores de acento",
+            "triple": "Azul, morado y rosa"
         }
     },
     "option": "paleta {{optionName}}",

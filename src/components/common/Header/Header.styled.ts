@@ -3,7 +3,7 @@
 import styled from "styled-components"
 import { media } from "../../../constants/medias"
 
-export const MenuWrapper = styled.nav`
+export const MenuWrapper = styled.header`
 	height: var(--header-size);
 	background-color: ${({ theme }) => theme.almostBlack};
 	color: ${({ theme }) => theme.white};

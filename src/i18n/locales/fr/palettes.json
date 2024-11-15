@@ -105,7 +105,9 @@
         "theme": {
             "current": "actuel",
             "fullmonokai": "Monokaï",
-            "grayscalemonokai": "Niveaux de gris Monokai"
+            "grayscalemonokai": "Niveaux de gris Monokai",
+            "accent": "couleurs d'accent",
+            "triple": "Bleu, violet et rose"
         }
     },
     "option": "Palette {{optionName}}",

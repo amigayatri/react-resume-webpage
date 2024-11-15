@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from "react"
+import { useState } from "react"
 import {
 	Button,
 	ButtonsWrapper,
@@ -10,7 +10,7 @@ import { palettesMap } from "../../../../../constants/palettes/"
 import { PaletteSelect } from "../../../../common/client.tsx"
 import { useTheme } from "styled-components"
 import { PaletteSelectBaseProps } from "../types"
-
+import { onSelectChangeType } from "../../../../../types/common/"
 export const SelectBase = ({
 	addPalette,
 	isShowing,
@@ -20,7 +20,7 @@ export const SelectBase = ({
 	const theme = useTheme()
 	const [selectedGroup, setSelectedGroup] = useState("theme")
 	const [selectedPalette, setSelectedPalette] = useState("current")
-	const handleSelect = ({ target }: ChangeEvent<HTMLSelectElement>) => {
+	const handleSelect: onSelectChangeType = ({ target }) => {
 		const { value } = target
 		const [group, palette] = value.split("_")
 		setSelectedGroup(group)

@@ -105,7 +105,9 @@
         "theme": {
             "current": "मौजूदा",
             "fullmonokai": "मोनोकाई",
-            "grayscalemonokai": "मोनोकाई ग्रेस्केल"
+            "grayscalemonokai": "मोनोकाई ग्रेस्केल",
+            "accent": "उच्चारण रंग",
+            "triple": "नीला, बैंगनी और गुलाबी"
         }
     },
     "option": "{{optionName}} पैलेट",

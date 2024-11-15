@@ -105,7 +105,9 @@
         "theme": {
             "current": "حاضِر",
             "fullmonokai": "مونوكاي",
-            "grayscalemonokai": "مونوكاي الرمادي"
+            "grayscalemonokai": "مونوكاي الرمادي",
+            "accent": "ألوان لهجة",
+            "triple": "الأزرق والأرجواني والوردي"
         }
     },
     "option": "لوحة {{optionName}}",

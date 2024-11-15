@@ -105,7 +105,9 @@
         "theme": {
             "current": "Ko'ag̃agua",
             "fullmonokai": "Monokai rehegua",
-            "grayscalemonokai": "Monokai Escala de Grises rehegua"
+            "grayscalemonokai": "Monokai Escala de Grises rehegua",
+            "accent": "umi sa’y acento rehegua",
+            "triple": "Hovy, morotĩ ha rósa"
         }
     },
     "option": "{{opciónName}} paleta rehegua",

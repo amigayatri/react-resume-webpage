@@ -105,7 +105,9 @@
         "theme": {
             "current": "attuale",
             "fullmonokai": "Monokai",
-            "grayscalemonokai": "Monokai in scala di grigi"
+            "grayscalemonokai": "Monokai in scala di grigi",
+            "accent": "colori d'accento",
+            "triple": "Blu, viola e rosa"
         }
     },
     "option": "tavolozza {{optionName}}",

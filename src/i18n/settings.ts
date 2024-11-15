@@ -1,5 +1,5 @@
-export const fallbackLng = "en"
-export const basicLanguages = [fallbackLng, "pt-BR"]
+export const fallbackLng = "pt-BR"
+export const basicLanguages = [fallbackLng, "en"]
 export const extraLanguages = [
 	"ar-LB",
 	"ar",

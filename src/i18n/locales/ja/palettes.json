@@ -105,7 +105,9 @@
         "theme": {
             "current": "現在",
             "fullmonokai": "モノカイ",
-            "grayscalemonokai": "モノカイグレースケール"
+            "grayscalemonokai": "モノカイグレースケール",
+            "accent": "アクセントカラー",
+            "triple": "青、紫、ピンク"
         }
     },
     "option": "{{optionName}} パレット",

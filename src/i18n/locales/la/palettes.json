@@ -105,7 +105,9 @@
         "theme": {
             "current": "current",
             "fullmonokai": "Monokai",
-            "grayscalemonokai": "Monokai Grayscale"
+            "grayscalemonokai": "Monokai Grayscale",
+            "accent": "accentus colorum",
+            "triple": "Hyacintho, purpura et roseo"
         }
     },
     "option": "{{optionName}} palette",

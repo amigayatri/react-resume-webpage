@@ -47,6 +47,7 @@ export const Label = styled.label`
 	border-radius: 4px;
 	font-weight: 700;
 	background-color: ${({ theme }) => theme.blue};
+	color: ${({ theme }) => theme.almostBlack};
 `
 
 export const Selectors = styled.div`

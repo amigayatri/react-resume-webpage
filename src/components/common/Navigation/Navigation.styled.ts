@@ -37,21 +37,19 @@ export const ContentWrapper = styled.a`
 	}
 `
 
-export const LinkWrapper = styled.li<{ $isActive: boolean }>`
+export const LinkWrapper = styled.li<{
+	$isActive: boolean
+	$isSubLink?: boolean
+}>`
+	display: inline-block;
 	margin: 0;
-	margin-left: 16px;
+	margin-left: ${({ $isSubLink }) => ($isSubLink === true ? "32px" : "16px")};
 	position: relative;
 	color: ${({ theme, $isActive }) =>
 		$isActive ? theme.secondAccent : theme.white};
 	padding-bottom: 2px;
 	& ${ContentWrapper} {
 		font-weight: ${({ $isActive }) => ($isActive ? "700" : "400")};
-	}
-	&:first-of-type {
-		margin-left: 0;
-	}
-	${media.max.md} {
-		margin-left: 0;
 	}
 	&:hover,
 	&:focus {
@@ -63,7 +61,7 @@ export const LinkWrapper = styled.li<{ $isActive: boolean }>`
 	}
 `
 
-export const NavigationWrapper = styled.div`
+export const NavigationWrapper = styled.nav`
 	position: relative;
 `
 

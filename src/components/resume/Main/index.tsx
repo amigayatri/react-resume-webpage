@@ -10,7 +10,7 @@ import { Contacts } from "../Contact"
 import { Header } from "../Header"
 import { Section } from "../Section"
 import { Summary } from "../Summary"
-import { DownloadPDF } from "../PDF/client.tsx"
+import { DownloadPDF } from "../PDF/client"
 import {
 	formatDateType,
 	translateResumeType,

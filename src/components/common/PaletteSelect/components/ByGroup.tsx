@@ -1,10 +1,8 @@
-import { generatePaletteOptions } from "../../../../constants/palettes/generatePaletteOptions"
+import { generateGroupOptions, generateMapByGroup } from "./functions.ts"
 import { Select } from "../../Select/client.tsx"
-import { PaletteSelectBaseElement } from "../"
-import { GroupProps } from "../../../../types/common"
-import { getPaletteOptionsType } from "../../../../types/palette"
 import { useState } from "react"
 import { groupIcons } from "../../../../constants/palettes/"
+import { PaletteSelectBaseElement } from "../types.ts"
 
 export const ByGroup = ({
 	lng,
@@ -19,14 +17,12 @@ export const ByGroup = ({
 	const [group, setGroup] = useState(
 		defaultValue === undefined ? "rainbow" : defaultValue.group
 	)
-	const { palettes, groups } = generatePaletteOptions(true)
-	const mapByGroup: Map<string, GroupProps> = new Map(
-		Array.from(palettes, ({ group, options, groupKey }) => [
-			group,
-			{ options, groupKey }
-		])
+	const [palette, setPalette] = useState(
+		defaultValue === undefined ? "rainbow monokai" : defaultValue.name
 	)
-	const getPaletteOptions: getPaletteOptionsType = () => {
+	const mapByGroup = generateMapByGroup()
+	const getPaletteOptions = () => {
+		if (group === "") return [{ groupKey: "", options: [] }]
 		const groupOptions = mapByGroup.get(group)
 		if (groupOptions === undefined) return [{ groupKey: "", options: [] }]
 		return [groupOptions]
@@ -43,23 +39,23 @@ export const ByGroup = ({
 				lng={lng}
 				onSelectChange={({ target }) => {
 					setGroup(target.value)
+					setPalette("_")
 				}}
 				id={`${local}-group-select`}
 				namespace="palettes"
 				label={label.group === undefined ? "" : label.group}
-				options={[groups]}
+				options={generateGroupOptions()}
 			/>
 			<Select
 				customStyle={customStyle}
 				onHeader={false}
-				defaultValue={
-					defaultValue !== undefined
-						? `${defaultValue.name}`
-						: "rainbow monokai"
-				}
+				defaultValue={palette}
 				Button={Button}
 				iconId={groupIcons.get(group) || ""}
-				onSelectChange={onSelect}
+				onSelectChange={(event) => {
+					onSelect(event)
+					setPalette(event.target.value)
+				}}
 				id={`${local}-palette-select`}
 				label={label.palette}
 				namespace="palettes"

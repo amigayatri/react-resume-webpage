@@ -105,7 +105,9 @@
         "theme": {
             "current": "текущий",
             "fullmonokai": "Монокай",
-            "grayscalemonokai": "Монокай в оттенках серого"
+            "grayscalemonokai": "Монокай в оттенках серого",
+            "accent": "акцентные цвета",
+            "triple": "Синий, фиолетовый и розовый"
         }
     },
     "option": "Палитра {{optionName}}",
