@@ -1,4 +1,4 @@
-import { CitySelectorProps, emptyStatesType } from "../../types.ts"
+import { CitySelectorProps, emptyStates } from "../../types.ts"
 import { useEffect, useState } from "react"
 import {
 	Button,
@@ -22,7 +22,7 @@ export const CitySelector = ({
 	setNextYear,
 	setThisYear
 }: CitySelectorProps) => {
-	const emptyStates: emptyStatesType = []
+	const emptyStates: emptyStates = []
 	const [states, setStates] = useState(emptyStates)
 	const emptyCities: string[] = []
 	const [cities, setCities] = useState(emptyCities)

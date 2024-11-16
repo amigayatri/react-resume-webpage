@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { RecentCommitsWrapper, GitTitle } from "./RecentCommits.styled"
 import { GitMore, GitDate } from "./components"
-import { RecentCommitsProps, showDateType } from "../types"
+import { RecentCommitsProps, showDate } from "../types"
 
 export const RecentCommits = ({
 	commits,
@@ -18,7 +18,7 @@ export const RecentCommits = ({
 			setOpen(date)
 		}
 	}
-	const showDate: showDateType = (date, commitList) => {
+	const showDate: showDate = (date, commitList) => {
 		const isOpen = open === date
 		return (
 			<GitDate

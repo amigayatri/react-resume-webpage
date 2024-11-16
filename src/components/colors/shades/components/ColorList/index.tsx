@@ -1,9 +1,9 @@
-import { Wrapper, ListWrapper, SubHeadingWrapper } from "./ColorList.styled"
-import { SectionTitle, SubHeading } from "../Common.styled"
+import { Wrapper, ListWrapper } from "./ColorList.styled"
+import { SectionTitle, SubHeading, SubHeadingWrapper } from "../Common.styled"
 import { ColorItem } from "../ColorItem"
 import { Select } from "../Select/client"
 import { useEffect, useState } from "react"
-import { ColorListProps, printColorType, ColorItemProps } from "../types"
+import { ColorListProps, printColor, ColorItemProps } from "../types"
 
 export const ColorList = ({
 	regenerate,
@@ -19,7 +19,7 @@ export const ColorList = ({
 		const colorList = regenerate()
 		setList(colorList)
 	}, [updatedList])
-	const printColor: printColorType = (color, remove, idx) => {
+	const printColor: printColor = (color, remove, idx) => {
 		return <ColorItem key={"color-list-" + idx} color={color} remove={remove} />
 	}
 

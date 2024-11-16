@@ -1,10 +1,10 @@
 import { Wrapper, ContactList, ContactItem, Link } from "./Contact.styled"
 import { SVGIcon } from "../../common/"
 import { linkProps } from "../../../constants/linkprops"
-import { ContactsElementProps, showContactInfoType } from "../types.ts"
+import { ContactsElementProps, showContactInfo } from "../types.ts"
 
 export const Contacts = ({ contacts, lng }: ContactsElementProps) => {
-	const showContactInfo: showContactInfoType = (contact, index) => {
+	const showContactInfo: showContactInfo = (contact, index) => {
 		return (
 			<ContactItem
 				$i={index}

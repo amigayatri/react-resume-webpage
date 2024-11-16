@@ -4,10 +4,10 @@ import BrazilianAPI from "../../../../../api/Brazil"
 import { HolidayList } from "../HolidayList/"
 import { CitySelector } from "../CitySelector/"
 import { Tab, TabPanel } from "react-tabs"
-import { HolidaysBaseProps, emptyHolidaysType } from "../../types.ts"
+import { HolidaysBaseProps, emptyHolidays } from "../../types.ts"
 
 export const HolidaysBase = ({ t, lng }: HolidaysBaseProps) => {
-	const empty: emptyHolidaysType = []
+	const empty: emptyHolidays = []
 	const [thisYear, setThisYear] = useState(empty)
 	const [nextYear, setNextYear] = useState(empty)
 	useEffect(() => {

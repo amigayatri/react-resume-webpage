@@ -4,7 +4,10 @@ import { ColorItemProps } from "../types"
 export const ColorItem = ({ color, remove }: ColorItemProps) => {
 	const { code, inverse } = color
 	return (
-		<Wrapper $inverse={code} $code={inverse} onClick={() => remove(code)}>
+		<Wrapper
+			style={{ backgroundColor: code, color: inverse }}
+			onClick={() => remove(code)}
+		>
 			<ColorTag>{code}</ColorTag>
 		</Wrapper>
 	)

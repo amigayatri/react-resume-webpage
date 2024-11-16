@@ -1,16 +1,16 @@
-import { languageArrType } from "../../../types/leetcode"
+import { languageArr } from "../../../types/leetcode"
 
 interface QueryResult {
 	matchedUser: {
-		languageProblemCount: languageArrType
+		languageProblemCount: languageArr
 	}
 }
 
-type formatLanguagesType = (raw: QueryResult, min: number) => languageArrType
+type formatLanguages = (raw: QueryResult, min: number) => languageArr
 
-export const formatLanguages: formatLanguagesType = (rawData, min) => {
+export const formatLanguages: formatLanguages = (rawData, min) => {
 	const languages = rawData.matchedUser.languageProblemCount
-	const relevantLanguages: languageArrType = []
+	const relevantLanguages: languageArr = []
 	languages.forEach((lang) => {
 		if (lang.problemsSolved >= min) {
 			relevantLanguages.push(lang)

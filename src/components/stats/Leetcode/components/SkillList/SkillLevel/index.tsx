@@ -25,14 +25,14 @@ const getColor = () => {
 	return rainbow[pos]
 }
 
-type customRendererType = (
+type customRenderer = (
 	tag: {
 		value: string
 	},
 	size: number
 ) => JSX.Element
 
-const customRenderer: customRendererType = (tag, size) => {
+const customRenderer: customRenderer = (tag, size) => {
 	return (
 		<SkillTag tabIndex={0} key={tag.value} $color={getColor()} $size={size}>
 			{tag.value}

@@ -1,10 +1,10 @@
-import { getPictureType, AnimalAPIProps } from "../../types/animals"
+import { getPictureFn, AnimalAPIProps } from "../../types/animals"
 import { APIs } from "./constants"
 
 class AnimalAPI implements AnimalAPIProps {
 	constructor() {}
 
-	getPicture: getPictureType = async (id) => {
+	getPicture: getPictureFn = async (id) => {
 		const APIInfo = APIs.get(id)
 		if (APIInfo === undefined) return ""
 		const { link, format } = APIInfo

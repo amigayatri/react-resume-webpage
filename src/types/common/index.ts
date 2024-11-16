@@ -85,7 +85,7 @@ export interface GroupProps {
 	options: OptionProps[]
 }
 
-export type onSelectChangeType = (arg0: ChangeEvent<HTMLSelectElement>) => void
+export type onSelectChange = (arg0: ChangeEvent<HTMLSelectElement>) => void
 
 export interface SelectProps extends ElementProps {
 	options: GroupProps[]
@@ -98,7 +98,7 @@ export interface SelectProps extends ElementProps {
 	fontSize: number
 	onHeader: boolean
 	defaultValue: string
-	onSelectChange: onSelectChangeType
+	onSelectChange: onSelectChange
 	customStyle?: SelectStyleProps
 	noTranslation?: boolean
 }

@@ -8,8 +8,8 @@ export interface CitySelectorProps extends BaseElementProps {
 	setThisYear: Dispatch<SetStateAction<HolidayProps[]>>
 	setNextYear: Dispatch<SetStateAction<HolidayProps[]>>
 }
-export type emptyStatesType = StateProps[]
-export type emptyHolidaysType = HolidayProps[]
+export type emptyStates = StateProps[]
+export type emptyHolidays = HolidayProps[]
 export interface HeroProps extends ElementProps {}
 export interface HeroBaseProps extends HeroProps {}
 export interface HeroBaseProps extends BaseElementProps {}
@@ -25,9 +25,7 @@ interface HolidayInfoProps extends HolidayProps {
 	isWeekend: boolean
 	daysUntill: number
 }
-export type calculateHolidayInfoType = (
-	holiday: HolidayProps
-) => HolidayInfoProps
+export type calculateHolidayInfoFn = (holiday: HolidayProps) => HolidayInfoProps
 export interface HolidayElementProps extends HolidayInfoProps {
 	isWeekend: boolean
 	isPreWeekend: boolean

@@ -1,12 +1,12 @@
 import { LanguageListWrapper, List } from "./LanguageList.styled"
 import { Summary, Title } from "../Common.styled"
-import { languageArrType } from "../../../../../types/leetcode/"
+import { languageArr } from "../../../../../types/leetcode/"
 import { useEffect, useState } from "react"
 import { LanguageItem } from "./LanguageItem"
 import { LeetCodeElementProps } from "../../types"
 
 export const LanguageList = ({ leetcode, t }: LeetCodeElementProps) => {
-	const emptyLangs: languageArrType = []
+	const emptyLangs: languageArr = []
 	const [languages, setLanguages] = useState(emptyLangs)
 	const [max, setMax] = useState(0)
 	useEffect(() => {

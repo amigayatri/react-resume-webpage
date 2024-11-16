@@ -17,11 +17,11 @@ import {
 import { SectionTitle } from "../Common.styled"
 import { useState } from "react"
 import {
-	changeSteps,
-	regex,
-	variationSteps,
-	addTarget
-} from "../../../../../lib/colors"
+	getSteps,
+	setSteps,
+	addTarget,
+	isHex
+} from "../../../../../lib/colors/"
 import { useTheme } from "styled-components"
 import { AddColorProps } from "../types"
 
@@ -33,13 +33,13 @@ export const AddColor = ({ add, regenerate, t }: AddColorProps) => {
 	const handleColorList = (list: string) => {
 		const toAdd = list.toUpperCase().split(" ")
 		for (const colorCode of toAdd) {
-			if (regex.test(colorCode)) {
+			if (isHex(colorCode)) {
 				add(colorCode)
 			}
 		}
 	}
 	const handleSteps = (newSteps: string) => {
-		changeSteps(Number(newSteps))
+		setSteps(Number(newSteps))
 		regenerate()
 	}
 	const handleTargets = (newTarget: string) => {
@@ -143,7 +143,7 @@ export const AddColor = ({ add, regenerate, t }: AddColorProps) => {
 						onChange={({ target }) => handleSteps(target.value)}
 						min={2}
 						max={32}
-						defaultValue={variationSteps}
+						defaultValue={getSteps()}
 						type="number"
 						step={1}
 					/>

@@ -2,10 +2,11 @@ import { NavProps } from "../NavigationBase"
 import { MobileWrapper, MenuButtonWrapper, Icon } from "../Navigation.styled"
 import { pages, extraPages } from "../../../../constants/links"
 import { useState } from "react"
-import { printLinks } from "./functions"
+import { printLinks, handleLink } from "./functions"
 
 export const MobileNavigation = (props: NavProps) => {
 	const [open, setOpen] = useState(false)
+	const handleLink: handleLink = (page) => printLinks(page, props)
 	return (
 		<>
 			<MenuButtonWrapper
@@ -18,8 +19,8 @@ export const MobileNavigation = (props: NavProps) => {
 				<Icon $isOpen={open} />
 			</MenuButtonWrapper>
 			<MobileWrapper $isOpen={open}>
-				{pages.map((page) => printLinks(page, props, true))}
-				{extraPages.map((page) => printLinks(page, props, true))}
+				{pages.map(handleLink)}
+				{extraPages.map(handleLink)}
 			</MobileWrapper>
 		</>
 	)

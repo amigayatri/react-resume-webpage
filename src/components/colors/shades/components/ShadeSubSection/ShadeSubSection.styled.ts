@@ -21,8 +21,6 @@ export const PairWrapper = styled.span`
 `
 export const ShadeSubtitle = styled.h4``
 
-export const Code = styled.span<{ $color: string; $inverse: string }>`
-	background-color: ${({ $color }) => $color};
-	color: ${({ $inverse }) => $inverse};
+export const Code = styled.span`
 	padding: 2px 4px;
 `

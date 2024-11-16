@@ -15,7 +15,7 @@ import {
 import { Trans } from "react-i18next/TransWithoutContext"
 import { Summary } from "../Common.styled"
 import { MulticoloredName, SVGIcon } from "../../../../common/client"
-import { sortColors } from "../../../../../lib/rgb"
+import { sortColors } from "../../../../../lib/colors/"
 import { useState } from "react"
 import { PaletteElementProps } from "../types"
 

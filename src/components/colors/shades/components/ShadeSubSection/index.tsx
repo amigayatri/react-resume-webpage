@@ -11,15 +11,16 @@ import { ShadeItem } from "../ShadeItem"
 import { Trans } from "react-i18next/TransWithoutContext"
 import {
 	ShadeSubSectionProps,
-	showSquareType,
-	showTargetsVariationsType
+	showSquare,
+	showTargetsVariations
 } from "../types"
+import { CSSProperties } from "react"
 
 export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 	const currCode = color.code
 	const currInverse = color.palette.inverse
 	const variations = Array.from(color.variations.entries())
-	const showSquare: showSquareType = ({ code, inverse }) => {
+	const showSquare: showSquare = ({ code, inverse }) => {
 		return (
 			<ShadeItem
 				key={"base:" + code + "shade:" + code}
@@ -29,34 +30,26 @@ export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 			/>
 		)
 	}
-	const showTargetsVariations: showTargetsVariationsType = ([
+	const showTargetsVariations: showTargetsVariations = ([
 		from,
 		currVariations
 	]) => {
-		const { code, inverse } = currVariations.get(from) || {
-			code: "",
-			inverse: ""
-		}
+		const fromSimple = currVariations.get(from)
+		if (fromSimple === undefined) return
+		const { code, inverse } = fromSimple
 		const variationsArr = Array.from(currVariations.values())
+		const style: CSSProperties = { backgroundColor: code, color: inverse }
 		return (
 			<TargetWrapper key={`variations-${currCode}-from-${code}-to-${inverse}`}>
 				<PairWrapper>
 					<ShadeSubtitle>
 						<Trans t={t} tOptions={{ colorCode: code }} i18nKey="shades.from">
-							t
-							<Code $color={code} $inverse={inverse}>
-								l
-							</Code>
-							t
+							t<Code style={style}>l</Code>t
 						</Trans>
 					</ShadeSubtitle>
 					<ShadeSubtitle>
 						<Trans t={t} tOptions={{ colorCode: inverse }} i18nKey="shades.to">
-							t
-							<Code $color={inverse} $inverse={code}>
-								l
-							</Code>
-							t
+							t<Code style={style}>l</Code>t
 						</Trans>
 					</ShadeSubtitle>
 				</PairWrapper>
@@ -72,7 +65,7 @@ export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 			<ShadeTitle>
 				<Trans t={t} tOptions={{ colorCode: currCode }} i18nKey="shades.code">
 					t
-					<Code $color={currCode} $inverse={currInverse}>
+					<Code style={{ backgroundColor: currCode, color: currInverse }}>
 						l
 					</Code>
 					t

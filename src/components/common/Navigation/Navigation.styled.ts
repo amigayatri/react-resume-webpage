@@ -14,6 +14,7 @@ export const UnderLine = styled.div`
 	left: 0;
 	width: 0;
 	height: 0;
+	height: 2px;
 	background-color: currentColor;
 	transition: ${({ theme }) => theme.transition};
 `
@@ -39,6 +40,7 @@ export const ContentWrapper = styled.a`
 
 export const LinkWrapper = styled.li<{
 	$isActive: boolean
+	$hasUnderline: boolean
 	$isSubLink?: boolean
 }>`
 	display: inline-block;
@@ -51,12 +53,17 @@ export const LinkWrapper = styled.li<{
 	& ${ContentWrapper} {
 		font-weight: ${({ $isActive }) => ($isActive ? "700" : "400")};
 	}
+	& ${UnderLine} {
+		width: 100%;
+		opacity: ${({ $isActive }) => ($isActive ? "1" : "0.3")};
+		max-width: ${({ $hasUnderline }) => ($hasUnderline ? "100%" : "0")};
+	}
 	&:hover,
 	&:focus {
 		color: ${({ theme }) => theme.accent};
 		& ${UnderLine} {
-			height: 2px;
-			width: 100%;
+			max-width: 100%;
+			opacity: 1;
 		}
 	}
 `
@@ -88,8 +95,8 @@ export const MobileWrapper = styled.ul<{ $isOpen: boolean }>`
 		left: 0;
 		background-color: ${({ theme }) => theme.almostBlack};
 		z-index: 100;
-		overflow: hidden;
-		height: ${({ $isOpen }) => ($isOpen ? "100vh" : "0")};
+		overflow: auto;
+		height: ${({ $isOpen }) => ($isOpen ? "100%" : "0")};
 		width: ${({ $isOpen }) => ($isOpen ? "100%" : "0")};
 		transition: ${({ theme }) => theme.transition};
 		display: flex;
@@ -115,10 +122,6 @@ export const SubNavContentWrapper = styled.ul`
 	align-items: flex-start;
 	border-radius: 0 0 16px 16px;
 	transition: ${({ theme }) => theme.transition};
-
-	& ${LinkWrapper} {
-		margin-left: 0;
-	}
 `
 
 export const OpenSubNav = styled.div`

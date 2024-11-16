@@ -2,22 +2,18 @@ import { Title } from "./PalettesList.styled"
 import { useEffect, useState } from "react"
 import palettesMap from "../../../../../constants/palettes"
 import { Select, Palette, PaletteAnchors } from "../"
-import {
-	PalettesListBaseProps,
-	emptyNamesType,
-	emptyPalettesType
-} from "../types"
+import { PalettesListBaseProps, emptyNames, emptyPalettes } from "../types"
 
 export const PalettesListBase = ({ t, lng }: PalettesListBaseProps) => {
-	const emptyName: emptyNamesType = []
+	const emptyName: emptyNames = []
 	const [updated, setUpdated] = useState(true)
 	const [names, setNames] = useState(emptyName)
-	const empty: emptyPalettesType = []
+	const empty: emptyPalettes = []
 	const [palettes, setPalettes] = useState(empty)
 	const emptyShowing: Map<string, Set<string>> = new Map()
 	const [showing] = useState(emptyShowing)
 	useEffect(() => {
-		const currList: emptyPalettesType = []
+		const currList: emptyPalettes = []
 		names.forEach(({ name, group }) => {
 			const currGroup = palettesMap.get(group)
 			if (currGroup === undefined) return

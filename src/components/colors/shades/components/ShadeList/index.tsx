@@ -2,7 +2,7 @@ import { Wrapper, ListWrapper } from "./ShadeList.styled"
 import { ShadeSubSection } from "../ShadeSubSection"
 import { SectionTitle, SubHeading } from "../Common.styled"
 import { useEffect, useState } from "react"
-import { ShadeListProps, emptyColorType } from "../types"
+import { ShadeListProps, emptyColor } from "../types"
 
 export const ShadeList = ({
 	regenerate,
@@ -10,7 +10,7 @@ export const ShadeList = ({
 	t,
 	lng
 }: ShadeListProps) => {
-	const emptyColors: emptyColorType = []
+	const emptyColors: emptyColor = []
 	const [list, setList] = useState(emptyColors)
 	useEffect(() => {
 		const currList = regenerate()

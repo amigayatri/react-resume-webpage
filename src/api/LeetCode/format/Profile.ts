@@ -7,9 +7,9 @@ interface QueryResult {
 	ranking: number
 	country: string
 }
-type formatProfileType = (raw: QueryResult) => Profile
 
-export const formatProfile: formatProfileType = (rawData: QueryResult) => {
+type formatProfile = (raw: QueryResult) => Profile
+export const formatProfile: formatProfile = (rawData: QueryResult) => {
 	const { name, birthday, ranking, country, username } = rawData
 	return {
 		username,

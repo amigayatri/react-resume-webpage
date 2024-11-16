@@ -15,9 +15,9 @@ interface QueryResult {
 	acSubmissionNum: SubCount[]
 }
 
-type formatSolvedType = (raw: QueryResult) => SolvedQuestions
+type formatSolved = (raw: QueryResult) => SolvedQuestions
 
-export const formatSolved: formatSolvedType = (rawData) => {
+export const formatSolved: formatSolved = (rawData) => {
 	return {
 		solved: {
 			easy: rawData.easySolved,

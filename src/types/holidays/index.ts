@@ -20,34 +20,20 @@ export interface RawMunicipal {
 	state: string
 }
 
-export type citiesByStateType = Map<string, string[]>
-export type municipalHolidaysType = Map<string, Map<string, RawMunicipal[]>>
-export type readJsonStateType = (state: string) => Promise<RawMunicipal[]>
-export type cleanNameType = (cityName: string) => string
-export type setHolidaysType = (
+export type citiesByStateMap = Map<string, string[]>
+export type municipalHolidaysMap = Map<string, Map<string, RawMunicipal[]>>
+export type setHolidays = (
 	rawHolidays: RawHoliday[] | RawMunicipal[] | undefined,
 	state?: string,
 	city?: string
 ) => HolidayProps[]
-export type getStatesType = () => Promise<StateProps[]>
-export type getCitiesType = (state: string) => Promise<string[]>
-export type getHolidaysType = (
+export type getStates = () => Promise<StateProps[]>
+export type getCities = (state: string) => Promise<string[]>
+export type getHolidays = (
 	state?: string,
 	city?: string
 ) => Promise<HolidayProps[]>
-export type generateStateMapType = (rawList: any, state: string) => void
-export type isMunicipalType = (
-	holiday: RawMunicipal | RawHoliday
-) => holiday is RawMunicipal
-export type getDateArrType = (date: Date) => number[]
-export type hasPassedType = (now: Date, holiday: Date) => boolean
-export type formatHolidayType = (
-	raw: RawHoliday | RawMunicipal,
-	holiday: Date,
-	name?: string,
-	isNextYear?: boolean,
-	now?: Date
-) => HolidayProps
+export type generateStateMapFn = (rawList: any, state: string) => void
 
 export interface BrazilianAPIProps {
 	link: string
@@ -56,11 +42,11 @@ export interface BrazilianAPIProps {
 	states: StateProps[]
 	cities: string[]
 	now: Date
-	setNationalHolidays: setHolidaysType
-	getStates: getStatesType
-	getCities: getCitiesType
-	getNationalHolidays: getHolidaysType
-	generateStateMap: generateStateMapType
-	setMunicipalHolidays: setHolidaysType
-	getMunicipalHolidays: getHolidaysType
+	setNationalHolidays: setHolidays
+	getStates: getStates
+	getCities: getCities
+	getNationalHolidays: getHolidays
+	generateStateMap: generateStateMapFn
+	setMunicipalHolidays: setHolidays
+	getMunicipalHolidays: getHolidays
 }
