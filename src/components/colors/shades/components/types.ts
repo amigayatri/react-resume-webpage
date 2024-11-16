@@ -1,5 +1,10 @@
-import { Color } from "../../../../lib/colors"
-import { SimpleColor, targetVariationsType } from "../../../../types/colors"
+import {
+	Color,
+	targetVariations,
+	targetPair,
+	target
+} from "../../../../lib/colors/"
+import { SimpleColor } from "../../../../types/colors"
 import { BaseElementProps, ElementProps } from "../../../../types/common/"
 
 export interface AddColorProps extends BaseElementProps {
@@ -11,13 +16,14 @@ export interface ColorItemProps {
 	remove: (code: string) => void
 }
 
+type addPalette = (group: string, palette: string) => void
 export interface ColorListProps extends BaseElementProps {
-	regenerate: () => { color: SimpleColor; remove: (code: string) => void }[]
+	regenerate: () => ColorItemProps[]
 	colors: { size: number }
 	updatedList: boolean
-	addPalette: (group: string, palette: string) => void
+	addPalette: addPalette
 }
-export type printColorType = (
+export type printColor = (
 	color: SimpleColor,
 	remove: (code: string) => void,
 	idx: number
@@ -25,7 +31,7 @@ export type printColorType = (
 export interface HeroProps extends BaseElementProps {}
 
 export interface PaletteSelectProps extends ElementProps {
-	addPalette: (group: string, palette: string) => void
+	addPalette: addPalette
 	isShowing: boolean
 }
 export interface PaletteSelectBaseProps extends BaseElementProps {}
@@ -33,25 +39,25 @@ export interface PaletteSelectBaseProps extends PaletteSelectProps {}
 export interface ShadeGeneratorProps extends ElementProps {}
 export interface ShadeGeneratorBaseProps extends BaseElementProps {}
 export interface ShadeGeneratorBaseProps extends ShadeGeneratorProps {}
-export interface ShadeItemProps {
-	inverse: string
+export interface ShadeItemProps extends SimpleColor {
 	base: boolean
-	code: string
 }
 export interface ShadeListProps extends BaseElementProps {
 	regenerate: () => Color[]
 	updatedList: boolean
 }
-export type emptyColorType = Color[]
+
+export type emptyColor = Color[]
 export interface ShadeSubSectionProps extends BaseElementProps {
 	color: Color
 }
-export type showSquareType = (color: SimpleColor) => JSX.Element
-export type showTargetsVariationsType = (
-	arg0: [string, targetVariationsType]
-) => JSX.Element
+export type showSquare = (color: SimpleColor) => JSX.Element
+export type showTargetsVariations = (
+	arg0: [target, targetVariations]
+) => JSX.Element | undefined
 export interface TargetListProps extends BaseElementProps {
 	updatedList: boolean
-	targets: string[][]
+	targets: targetPair[]
+	addPalette: addPalette
 	regenerate: () => void
 }

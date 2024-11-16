@@ -4,10 +4,11 @@ interface ActiveDay {
 	date: Date
 	submissions: number
 }
-export type badgesArrType = BadgeProps[]
-export type calendarArrType = ActiveDay[]
-export type languageArrType = ProgrammingLanguageProps[]
-export type skillMapType = Map<string, Tag[]>
+export type badgesArr = BadgeProps[]
+export type calendarArr = ActiveDay[]
+export type languageArr = ProgrammingLanguageProps[]
+export type skillMap = Map<string, Tag[]>
+
 export interface Profile {
 	username: string
 	name: string

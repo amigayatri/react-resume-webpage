@@ -4,17 +4,17 @@ import { RecentCommits } from "./RecentCommits"
 import { Title } from "../Common.styled"
 import { MonthlyCommitsGraph } from "./MonthlyCommitsGraph"
 import { GitWrapper } from "./Git.styled"
-import { GitStatsBaseProps, commitsMapType } from "./types"
+import { GitStatsBaseProps, commitsMap } from "./types"
 
 export const GitStatsBase = ({ t, lng }: GitStatsBaseProps) => {
-	const emptyCommits: commitsMapType = new Map()
+	const emptyCommits: commitsMap = new Map()
 	const [commits, setCommits] = useState(emptyCommits)
 	const [more, setMore] = useState("")
 	const [showMore, setShowMore] = useState(true)
 	useEffect(() => {
 		const Git = new GitAPI({ repo: "react-resume-webpage", user: "amigayatri" })
 		Git.getCommitsDate().then((commitList) => {
-			const commitsByDate: commitsMapType = new Map()
+			const commitsByDate: commitsMap = new Map()
 			if (commitList.length <= 25) setShowMore(false)
 			for (const commit of commitList) {
 				const [key] = commit.date.toISOString().split("T")

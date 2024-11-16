@@ -3,13 +3,13 @@ import {
 	SelectStyleProps,
 	ElementProps,
 	BaseElementProps,
-	onSelectChangeType
+	onSelectChange
 } from "../../../types/common/"
 
 export type showing = Map<string, Set<string>>
 
 export interface PaletteSelectElementProps extends ElementProps {
-	onSelect: onSelectChangeType
+	onSelect: onSelectChange
 	local: string
 	label: { palette: string; group?: string }
 	fontSize: number

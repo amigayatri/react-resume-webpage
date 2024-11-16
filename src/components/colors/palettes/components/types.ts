@@ -11,8 +11,8 @@ export interface PaletteAnchorsProps extends BaseElementProps {
 export interface PalettesListProps extends ElementProps {}
 export interface PalettesListBaseProps extends PalettesListProps {}
 export interface PalettesListBaseProps extends BaseElementProps {}
-export type emptyPalettesType = PaletteProps[]
-export type emptyNamesType = PaletteInfoProps[]
+export type emptyPalettes = PaletteProps[]
+export type emptyNames = PaletteInfoProps[]
 
 export interface SelectProps extends BaseElementProps {
 	showing: Map<string, Set<string>>

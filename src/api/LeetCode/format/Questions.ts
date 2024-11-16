@@ -7,9 +7,8 @@ interface QueryResult {
 	totalQuestions: number
 }
 
-type formatQuestionsType = (raw: QueryResult) => Questions
-
-export const formatQuestions: formatQuestionsType = (rawData) => {
+type formatQuestions = (raw: QueryResult) => Questions
+export const formatQuestions: formatQuestions = (rawData) => {
 	return {
 		easy: rawData.totalEasy,
 		medium: rawData.totalMedium,

@@ -12,16 +12,16 @@ import { Section } from "../Section"
 import { Summary } from "../Summary"
 import { DownloadPDF } from "../PDF/client"
 import {
-	formatDateType,
-	translateResumeType,
-	translateDatesType,
-	translateSectionType,
-	showSectionType
+	formatDate,
+	translateResume,
+	translateDates,
+	translateSection,
+	showSection
 } from "../types.ts"
 
 export const Main = async ({ lng }: ElementProps) => {
 	const { t } = await useTranslation(lng, "resume")
-	const formatDate: formatDateType = (date) => {
+	const formatDate: formatDate = (date) => {
 		if (date === undefined) {
 			return ""
 		} else if (typeof date === "string") {
@@ -37,13 +37,13 @@ export const Main = async ({ lng }: ElementProps) => {
 			return capitalizedDateStr
 		}
 	}
-	const translateDates: translateDatesType = (section, idx) => {
+	const translateDates: translateDates = (section, idx) => {
 		if (section.dates === undefined) return ""
 		const start = formatDate(section.dates[idx].start)
 		const end = formatDate(section.dates[idx].end)
 		return ` (${start}`.concat(end !== "" ? `,  ${end})` : ")")
 	}
-	const translateSection: translateSectionType = (section) => {
+	const translateSection: translateSection = (section) => {
 		const translated: Partial<TranslatedSectionProps> = {}
 		translated.title = t(`sections.${section.name}.title`)
 		if (section.subitem) translated.subitems = []
@@ -65,7 +65,7 @@ export const Main = async ({ lng }: ElementProps) => {
 		}
 		return translated as TranslatedSectionProps
 	}
-	const translateResume: translateResumeType = () => {
+	const translateResume: translateResume = () => {
 		const translated: Partial<TranslatedResumeProps> = {
 			contacts: resume.contacts.arr
 		}
@@ -80,7 +80,7 @@ export const Main = async ({ lng }: ElementProps) => {
 		}
 		return translated as TranslatedResumeProps
 	}
-	const showSection: showSectionType = (section, index) => {
+	const showSection: showSection = (section, index) => {
 		return <Section lng={lng} key={"section" + index} section={section} />
 	}
 	const translated = translateResume()

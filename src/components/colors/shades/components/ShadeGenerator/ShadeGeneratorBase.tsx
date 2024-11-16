@@ -2,9 +2,10 @@ import { ShadeGeneratorWrapper } from "./ShadeGenerator.styled.ts"
 import { useState, useEffect } from "react"
 import { Hero, AddColor, TargetList, ColorList, ShadeList } from "../"
 import { palettesMap } from "../../../../../constants/palettes"
-import { Color, getTargets } from "../../../../../lib/colors"
+import { Color, getTargets, addTarget } from "../../../../../lib/colors/"
 import { ShadeGeneratorBaseProps } from "../types"
 
+type getPaletteColors = (group: string, palette: string) => string[]
 export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
 	const [colors, setColors] = useState(new Map<string, Color>())
 	const [updatedList, setUpdatedList] = useState(true)
@@ -23,14 +24,30 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
 		setColors(colorsSet)
 		setUpdatedList(false)
 	}
-	const addPalette = (group: string, palette: string) => {
+
+	const getPaletteColors: getPaletteColors = (group, palette) => {
 		const groupPalettes = availablePalettes.get(group)
 		if (groupPalettes === undefined) return
 		const themeArr = groupPalettes.get(palette)
-		if (themeArr === undefined) return
-		for (const color of themeArr.colors) {
+		if (themeArr === undefined) {
+			const empty: string[] = []
+			return empty
+		} else {
+			return themeArr.colors
+		}
+	}
+	const addPalette = (group: string, palette: string) => {
+		for (const color of getPaletteColors(group, palette)) {
 			addColor(color)
 		}
+	}
+
+	const addPaletteAsTarget = (group: string, palette: string) => {
+		if (!updatedList) setUpdatedList(true)
+		for (const color of getPaletteColors(group, palette)) {
+			addTarget(color)
+		}
+		setTargets(getTargets())
 	}
 
 	const removeColor = (code: string) => {
@@ -72,6 +89,7 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
 			<Hero lng={lng} t={t} />
 			<AddColor regenerate={regenerateColors} add={addColor} lng={lng} t={t} />
 			<TargetList
+				addPalette={addPaletteAsTarget}
 				targets={targets}
 				regenerate={regenerateTargets}
 				updatedList={updatedList}

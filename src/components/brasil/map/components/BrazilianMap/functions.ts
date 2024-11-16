@@ -1,6 +1,6 @@
 import { DefaultTheme } from "styled-components"
 import palettesMap from "../../../../../constants/palettes"
-import { checkContrast } from "../../../../../lib/rgb"
+import { checkContrast } from "../../../../../lib/colors/"
 import { NewInfo, ContrastInfo, generateOptions } from "./types"
 import { SelectStyleProps } from "../../../../../types/common"
 

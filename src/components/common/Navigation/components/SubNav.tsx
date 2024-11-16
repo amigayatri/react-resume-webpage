@@ -7,14 +7,15 @@ import {
 import { LinkProps } from "../../../../types/common/"
 import { SVGIcon } from "../../SVGIcon/client"
 import { useState } from "react"
-import { printLinks } from "./functions"
+import { handleLink } from "./functions"
 
 interface SubNavProps extends NavProps {
 	pages: LinkProps[]
+	handle: handleLink
 }
 
 export const SubNav = (props: SubNavProps) => {
-	const { pages, lng } = props
+	const { pages, lng, handle } = props
 	const [open, setOpen] = useState(false)
 	return (
 		<SubNavWrapper $isOpen={open}>
@@ -27,9 +28,7 @@ export const SubNav = (props: SubNavProps) => {
 			>
 				<SVGIcon lng={lng} local="subnav" id="more" size={24} />
 			</OpenSubNav>
-			<SubNavContentWrapper>
-				{pages.map((page) => printLinks(page, props, false))}
-			</SubNavContentWrapper>
+			<SubNavContentWrapper>{pages.map(handle)}</SubNavContentWrapper>
 		</SubNavWrapper>
 	)
 }

@@ -3,8 +3,7 @@ import { MulticoloredNameProps } from "."
 import { palettesMap } from "../../../constants/palettes"
 import { SVGIcon } from "../client"
 import { CSSProperties, useTheme } from "styled-components"
-import { getInverse, getRGBFromHex } from "../../../lib/rgb"
-import { SimpleColor } from "../../../types/colors/"
+import { createSimple } from "../../../lib/colors/"
 
 export const MulticoloredNameBase = ({
 	lng,
@@ -42,16 +41,11 @@ export const MulticoloredNameBase = ({
 			const simple = colors.get(color)
 			return simple
 		} else {
-			const simple: SimpleColor = {
-				code: color,
-				inverse: getInverse(getRGBFromHex(color))
-			}
-			const simpleInverse: SimpleColor = {
-				code: simple.inverse,
-				inverse: simple.code
-			}
+			const simple = createSimple(color)
+			const { inverse } = simple
+			const simpleInverse = createSimple(inverse)
 			colors.set(color, simple)
-			colors.set(simple.inverse, simpleInverse)
+			colors.set(inverse, simpleInverse)
 			return simple
 		}
 	}

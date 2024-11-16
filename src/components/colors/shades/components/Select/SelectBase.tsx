@@ -10,7 +10,7 @@ import { palettesMap } from "../../../../../constants/palettes/"
 import { PaletteSelect } from "../../../../common/client.tsx"
 import { useTheme } from "styled-components"
 import { PaletteSelectBaseProps } from "../types"
-import { onSelectChangeType } from "../../../../../types/common/"
+import { onSelectChange } from "../../../../../types/common/"
 export const SelectBase = ({
 	addPalette,
 	isShowing,
@@ -20,7 +20,7 @@ export const SelectBase = ({
 	const theme = useTheme()
 	const [selectedGroup, setSelectedGroup] = useState("theme")
 	const [selectedPalette, setSelectedPalette] = useState("current")
-	const handleSelect: onSelectChangeType = ({ target }) => {
+	const handleSelect: onSelectChange = ({ target }) => {
 		const { value } = target
 		const [group, palette] = value.split("_")
 		setSelectedGroup(group)

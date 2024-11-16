@@ -1,5 +1,5 @@
 import { BadgeListWrapper, BadgesWrapper } from "./BadgeList.styled"
-import { badgesArrType } from "../../../../../types/leetcode/"
+import { badgesArr } from "../../../../../types/leetcode/"
 import { useEffect, useState } from "react"
 import { BadgeComponent } from "./BadgeComponent"
 import { Summary, Title } from "../Common.styled"
@@ -13,7 +13,7 @@ const emptyDetails = {
 }
 
 export const BadgeList = ({ leetcode, t, lng }: LeetCodeElementProps) => {
-	const emptyBadges: badgesArrType = []
+	const emptyBadges: badgesArr = []
 	const [badges, setBadges] = useState(emptyBadges)
 	const [detailedBadge, setDetailedBadge] = useState(emptyDetails)
 	useEffect(() => {

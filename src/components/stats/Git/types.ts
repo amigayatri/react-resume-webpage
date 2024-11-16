@@ -4,9 +4,9 @@ import { CommitProps } from "../../../types/git"
 export interface GitStatsProps extends ElementProps {}
 export interface GitStatsBaseProps extends BaseElementProps {}
 export interface GitStatsBaseProps extends GitStatsProps {}
-export type commitsMapType = Map<string, CommitProps[]>
+export type commitsMap = Map<string, CommitProps[]>
 export interface MonthlyCommitsGraphProps extends BaseElementProps {
-	commits: commitsMapType
+	commits: commitsMap
 }
 export interface CommitElementProps {
 	info: CommitProps
@@ -29,11 +29,8 @@ export interface GitLinkProps extends GitMoreProps {
 	children: string
 }
 export interface RecentCommitsProps extends BaseElementProps {
-	commits: commitsMapType
+	commits: commitsMap
 	moreLink: string
 	showMore: boolean
 }
-export type showDateType = (
-	date: string,
-	commitList: CommitProps[]
-) => JSX.Element
+export type showDate = (date: string, commitList: CommitProps[]) => JSX.Element

@@ -25,9 +25,7 @@ export const PairWrapper = styled.li<{ $isActive: boolean }>`
 	cursor: ${({ $isActive }) => ($isActive ? "pointer" : "not-allowed")};
 `
 
-export const Target = styled.span<{ $bg: string; $color: string }>`
-	background-color: ${({ $bg }) => $bg};
-	color: ${({ $color }) => $color};
-	border: 2px solid ${({ $color }) => $color};
+export const Target = styled.span`
+	border: 2px solid currentColor;
 	padding: 8px 4px;
 `

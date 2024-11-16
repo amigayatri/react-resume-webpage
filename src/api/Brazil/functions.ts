@@ -1,14 +1,7 @@
-import {
-	readJsonStateType,
-	cleanNameType,
-	isMunicipalType,
-	getDateArrType,
-	hasPassedType,
-	formatHolidayType,
-	HolidayProps
-} from "../../types/holidays"
+import { RawMunicipal, HolidayProps, RawHoliday } from "../../types/holidays"
 
-export const readJsonState: readJsonStateType = async (state) => {
+type readJsonState = (state: string) => Promise<RawMunicipal[]>
+export const readJsonState: readJsonState = async (state) => {
 	const response = await fetch(
 		"/brazilian-holidays/" + state.toLowerCase() + ".json"
 	)
@@ -16,7 +9,8 @@ export const readJsonState: readJsonStateType = async (state) => {
 	return list
 }
 
-export const cleanName: cleanNameType = (cityName: string) => {
+type cleanName = (cityName: string) => string
+export const cleanName: cleanName = (cityName: string) => {
 	const chars = new Set(cityName)
 	let clean = cityName
 	const specialMap = new Map([
@@ -40,16 +34,23 @@ export const cleanName: cleanNameType = (cityName: string) => {
 	}
 	return clean
 }
-export const isMunicipal: isMunicipalType = (holiday) => {
+
+type isMunicipal = (
+	holiday: RawMunicipal | RawHoliday
+) => holiday is RawMunicipal
+export const isMunicipal: isMunicipal = (holiday) => {
 	return "city" in holiday
 }
-export const getDateArr: getDateArrType = (date) => {
+
+type getDateArr = (date: Date) => number[]
+export const getDateArr: getDateArr = (date) => {
 	const year = date.getFullYear()
 	const month = date.getUTCMonth()
 	const day = date.getUTCDate()
 	return [year, month, day]
 }
-export const hasPassed: hasPassedType = (now, holiday) => {
+type hasPassed = (now: Date, holiday: Date) => boolean
+export const hasPassed: hasPassed = (now, holiday) => {
 	const [currYear, currMonth, currDay] = getDateArr(now)
 	const [holidayYear, holidayMonth, holidayDate] = getDateArr(holiday)
 	if (
@@ -62,10 +63,18 @@ export const hasPassed: hasPassedType = (now, holiday) => {
 	return true
 }
 
-const getNextYearDate = (date: string, currYear: number) => {
+type getNextYearDate = (date: string, currYear: number) => Date
+const getNextYearDate: getNextYearDate = (date, currYear) => {
 	return new Date(date.replace(currYear.toString(), (currYear + 1).toString()))
 }
-export const formatHoliday: formatHolidayType = (
+type formatHoliday = (
+	raw: RawHoliday | RawMunicipal,
+	holiday: Date,
+	name?: string,
+	isNextYear?: boolean,
+	now?: Date
+) => HolidayProps
+export const formatHoliday: formatHoliday = (
 	raw,
 	holiday,
 	customName,

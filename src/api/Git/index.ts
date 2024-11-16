@@ -1,5 +1,5 @@
 import { formatRawCommits } from "./functions"
-import { GitAPIProps, GitInfoProps, setLinkType } from "../../types/git"
+import { GitAPIProps, GitInfoProps, setLinkFn } from "../../types/git"
 import { Octokit } from "@octokit/rest"
 
 class GitAPI implements GitAPIProps {
@@ -20,7 +20,7 @@ class GitAPI implements GitAPIProps {
 			})
 	}
 
-	setLink: setLinkType = (response) => {
+	setLink: setLinkFn = (response) => {
 		this.link = response.data.html_url
 	}
 

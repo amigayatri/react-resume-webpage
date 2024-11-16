@@ -6,20 +6,18 @@ import {
 	TranslatedSectionProps
 } from "../../types/resume"
 
-export type formatDateType = (date: Date | undefined | string) => string
-export type translateDatesType = (section: SectionProps, idx: number) => string
-export type translateSectionType = (
-	section: SectionProps
-) => TranslatedSectionProps
-export type translateResumeType = () => TranslatedResumeProps
-export type showSectionType = (
+export type formatDate = (date: Date | undefined | string) => string
+export type translateDates = (section: SectionProps, idx: number) => string
+export type translateSection = (section: SectionProps) => TranslatedSectionProps
+export type translateResume = () => TranslatedResumeProps
+export type showSection = (
 	section: TranslatedSectionProps,
 	index: number
 ) => JSX.Element
 export interface ContactsElementProps extends ElementProps {
 	contacts: ContactProps[]
 }
-export type showContactInfoType = (
+export type showContactInfo = (
 	contact: ContactProps,
 	index: number
 ) => JSX.Element

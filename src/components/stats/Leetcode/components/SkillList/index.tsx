@@ -4,10 +4,10 @@ import { useEffect, useState } from "react"
 import { SkillLevel } from "./SkillLevel"
 import { Tag } from "react-tagcloud"
 import { LeetCodeElementProps } from "../../types"
-import { skillMapType } from "../../../../../types/leetcode"
+import { skillMap } from "../../../../../types/leetcode"
 
 export const SkillList = ({ leetcode, t }: LeetCodeElementProps) => {
-	const emptySkills: skillMapType = new Map()
+	const emptySkills: skillMap = new Map()
 	const [allSkills, setAllSkills] = useState(emptySkills)
 	useEffect(() => {
 		leetcode.getSkills().then((skills) => setAllSkills(skills))

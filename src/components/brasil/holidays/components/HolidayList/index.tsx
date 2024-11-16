@@ -1,13 +1,13 @@
 import { HolidayListWrapper, List, Title } from "./HolidayList.styled"
 import Holiday from "./Holiday"
 import Typewriter from "react-ts-typewriter"
-import { HolidayListProps, calculateHolidayInfoType } from "../../types.ts"
+import { HolidayListProps, calculateHolidayInfoFn } from "../../types.ts"
 
 const weekend = new Set([6, 0])
 const preWeekend = new Set([1, 5])
 
 export const HolidayList = ({ list, t, lng }: HolidayListProps) => {
-	const calculateHolidayInfo: calculateHolidayInfoType = ({
+	const calculateHolidayInfo: calculateHolidayInfoFn = ({
 		date,
 		name,
 		type

@@ -1,14 +1,14 @@
 import {
 	StateProps,
 	HolidayProps,
-	citiesByStateType,
-	municipalHolidaysType,
-	setHolidaysType,
+	citiesByStateMap,
+	municipalHolidaysMap,
+	setHolidays,
 	BrazilianAPIProps,
-	getStatesType,
-	getCitiesType,
-	getHolidaysType,
-	generateStateMapType
+	getStates,
+	getCities,
+	getHolidays,
+	generateStateMapFn
 } from "../../types/holidays/"
 import {
 	isMunicipal,
@@ -18,10 +18,10 @@ import {
 	formatHoliday
 } from "./functions"
 
-const citiesByState: citiesByStateType = new Map()
-const municipalHolidays: municipalHolidaysType = new Map()
+const citiesByState: citiesByStateMap = new Map()
+const municipalHolidays: municipalHolidaysMap = new Map()
 
-const generateStateMap: generateStateMapType = (rawList, state) => {
+const generateStateMap: generateStateMapFn = (rawList, state) => {
 	const stateMap = new Map()
 	for (const holiday of rawList) {
 		const city = holiday.city.toLowerCase()
@@ -42,7 +42,7 @@ class BrazilianAPI implements BrazilianAPIProps {
 		this.now = new Date()
 	}
 
-	setNationalHolidays: setHolidaysType = (rawNationalHolidays) => {
+	setNationalHolidays: setHolidays = (rawNationalHolidays) => {
 		if (rawNationalHolidays === undefined) return []
 		for (const raw of rawNationalHolidays) {
 			if (isMunicipal(raw)) break
@@ -54,7 +54,7 @@ class BrazilianAPI implements BrazilianAPIProps {
 		return this.national
 	}
 
-	getStates: getStatesType = async () => {
+	getStates: getStates = async () => {
 		if (this.states.length === 0) {
 			const route = "ibge/uf/v1"
 			const response = await fetch(this.link + route)
@@ -67,7 +67,7 @@ class BrazilianAPI implements BrazilianAPIProps {
 			return this.states
 		}
 	}
-	getCities: getCitiesType = async (state) => {
+	getCities: getCities = async (state) => {
 		if (state === "") return []
 		if (!citiesByState.has(state)) {
 			this.cities = []
@@ -84,7 +84,7 @@ class BrazilianAPI implements BrazilianAPIProps {
 		}
 	}
 
-	getNationalHolidays: getHolidaysType = async () => {
+	getNationalHolidays: getHolidays = async () => {
 		if (this.national.length === 0) {
 			const route = "feriados/v1/"
 			const year = new Date().getFullYear()
@@ -102,7 +102,7 @@ class BrazilianAPI implements BrazilianAPIProps {
 
 	generateStateMap = generateStateMap
 
-	setMunicipalHolidays: setHolidaysType = (cityHolidays, state, city) => {
+	setMunicipalHolidays: setHolidays = (cityHolidays, state, city) => {
 		if (state === undefined || city === undefined || cityHolidays === undefined)
 			return []
 		const formatted = []
@@ -127,7 +127,7 @@ class BrazilianAPI implements BrazilianAPIProps {
 		return formatted
 	}
 
-	getMunicipalHolidays: getHolidaysType = async (state, city) => {
+	getMunicipalHolidays: getHolidays = async (state, city) => {
 		if (state === undefined || city === undefined) return []
 		const getFormatted = () => {
 			const clean = cleanName(city)

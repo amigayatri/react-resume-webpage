@@ -1,4 +1,4 @@
-import { skillMapType } from "../../../types/leetcode"
+import { skillMap } from "../../../types/leetcode"
 
 interface RawSkill {
 	problemsSolved: number
@@ -18,9 +18,9 @@ interface QueryResult {
 	}
 }
 
-type formatSkillsType = (raw: QueryResult) => skillMapType
+type formatSkills = (raw: QueryResult) => skillMap
 
-export const formatSkills: formatSkillsType = (rawData) => {
+export const formatSkills: formatSkills = (rawData) => {
 	const list = rawData.data.matchedUser.tagProblemCounts
 	const levelList = new Map()
 	for (const [level, skills] of Object.entries(list)) {

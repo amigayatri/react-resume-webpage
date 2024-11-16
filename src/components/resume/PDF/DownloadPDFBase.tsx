@@ -16,7 +16,7 @@ import {
 	PDFDownloadWrapper
 } from "./DownloadPDF.styled.ts"
 import { SVGIcon } from "../../common/client"
-import { DownloadPDFBaseProps, PDFProps, showSectionType } from "../types.ts"
+import { DownloadPDFBaseProps, PDFProps, showSection } from "../types.ts"
 import { pngMapping } from "./constants"
 
 Font.register({
@@ -173,12 +173,11 @@ export const lightStyle: Styles = {
 	}
 }
 
-
 const PDF = ({ resume, isDark }: PDFProps) => {
 	const styles = isDark
 		? StyleSheet.create(darkStyle)
 		: StyleSheet.create(lightStyle)
-	const showSection: showSectionType = (section, idx) => {
+	const showSection: showSection = (section, idx) => {
 		return (
 			<View key={`section-n-${idx}`} style={styles.section}>
 				<Text style={styles.sectionTitle}>{section.title}</Text>

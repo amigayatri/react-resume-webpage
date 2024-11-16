@@ -5,37 +5,35 @@ import { NavigationItem } from "./NavigationItem"
 
 type printLinks = (
 	page: LinkProps,
-	props: NavProps,
-	isMobile: boolean
+	props: NavProps
+) => React.ReactElement | React.ReactElement[]
+export type handleLink = (
+	page: LinkProps
 ) => React.ReactElement | React.ReactElement[]
 
 type printSimpleLink = (
 	page: LinkProps,
 	props: NavProps,
-	isMobile: boolean,
 	isSublink?: boolean
 ) => React.ReactElement
-const printSimpleLink: printSimpleLink = (page, props, isMobile, isSublink) => {
+const printSimpleLink: printSimpleLink = (page, props, isSublink) => {
 	return (
 		<NavigationItem
 			{...props}
 			key={`nav-link-${page.path}`}
 			link={page}
-			hasUnderline={!isMobile}
 			isSublink={isSublink === true}
 		/>
 	)
 }
 
-export const printLinks: printLinks = (page, props, isMobile) => {
+export const printLinks: printLinks = (page, props) => {
 	const { sublinks } = page
-	const MainLink = printSimpleLink(page, props, isMobile)
+	const MainLink = printSimpleLink(page, props)
 	if (sublinks === undefined) {
 		return MainLink
 	} else {
-		const SubLinkArr = sublinks.map((sub) =>
-			printSimpleLink(sub, props, isMobile, true)
-		)
+		const SubLinkArr = sublinks.map((sub) => printSimpleLink(sub, props, true))
 		return [MainLink, ...SubLinkArr]
 	}
 }
