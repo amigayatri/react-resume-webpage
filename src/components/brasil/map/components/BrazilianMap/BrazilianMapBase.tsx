@@ -15,19 +15,23 @@ import {
 	BrazilianMapBaseProps,
 	handleTheme,
 	changeContrast,
-	handleChangeDivision
+	handleChangeDivision,
+	NewInfo
 } from "./types.ts"
 import {
 	getNewInfo,
 	getContrastInfo,
 	getDivisionURL,
-	cleanColors,
+	ContrastChecker,
 	generateSelectStyle
 } from "./functions.ts"
 
 const divisionPaths = new Map([["single", singlePath]])
 type handlePaths = (arg0: string[], arg1: string) => void
-type handleChangeColors = (newColors: string[], newContrast: number) => void
+type handleChangeColors = (
+	newColors: string[],
+	newInfo?: number | ContrastChecker | string
+) => void
 
 export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 	const [loading, setLoading] = useState(false)
@@ -38,8 +42,10 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 	const [selected, setSelected] = useState(
 		getNewInfo("rainbow_rainbow monokai")
 	)
-	const [colors, setColors] = useState(selected.colors)
-	const [rawColors, setRawColors] = useState(selected.colors)
+	const selectedColors = selected !== undefined ? selected.colors : []
+	const [colors, setColors] = useState(selectedColors)
+	const [rawColors, setRawColors] = useState(selectedColors)
+	const [checker, setChecker] = useState(new ContrastChecker(selectedColors))
 
 	const handlePath: handlePaths = (newPaths, newDivision) => {
 		setPaths(newPaths)
@@ -61,19 +67,35 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 			})
 		})
 	}
-	const handleChangeColors: handleChangeColors = (newColors, newContrast) => {
+	const handleChangeColors: handleChangeColors = (newColors, newInfo) => {
 		if (newColors.length === 0) return
 		setRawColors(newColors)
-		const { background, primary } = theme
-		const clean = cleanColors(newColors, newContrast, { background, primary })
-		if (clean.length === 0) return
+		let newContrast = contrast.value,
+			newChecker = checker,
+			newBg = theme.background
+		if (typeof newInfo === "number") {
+			newContrast = newInfo
+		} else if (typeof newInfo === "string") {
+			newBg = newInfo
+		} else if (newInfo !== undefined) {
+			newChecker = newInfo
+			setChecker(newInfo)
+		} else {
+			return
+		}
+		const { primary } = theme
+		const clean = newChecker.getCleanColors(newBg, newContrast)
+		if (clean.length === 0) return [primary]
 		setColors(clean)
 	}
 	const handleTheme: handleTheme = (value) => {
 		const newSelected = getNewInfo(value)
+		if (newSelected === undefined) return
 		const { colors } = newSelected
 		setSelected(newSelected)
-		handleChangeColors(colors, contrast.value)
+		const newChecker = new ContrastChecker(colors)
+		setChecker(newChecker)
+		handleChangeColors(colors, newChecker)
 	}
 	const handleChangeContrast: changeContrast = (newContrastStr) => {
 		const newContrast = getContrastInfo(newContrastStr)
@@ -85,8 +107,17 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 	const selectStyle = generateSelectStyle(theme)
 
 	useEffect(() => {
-		handleChangeColors(rawColors, contrast.value)
+		handleChangeColors(rawColors, theme.background)
 	}, [theme.primary])
+	const emptyColors: string[] = []
+	const cleanSelected: NewInfo =
+		selected === undefined
+			? {
+					group: "rainbow",
+					name: "rainbow monokai",
+					colors: emptyColors
+			  }
+			: selected
 	return (
 		<BrazilianMapWrapper>
 			<Title>
@@ -95,7 +126,7 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 					lng={lng}
 					fontSize={40}
 					legible
-					info={{ group: selected.group, name: selected.name }}
+					info={{ group: cleanSelected.group, name: cleanSelected.name }}
 					isCustom
 					customColors={colors}
 				>
@@ -104,7 +135,7 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 			</Title>
 			<Disclaimer $isOpen={colors[0] === theme.primary}>
 				{t("disclaimer", {
-					paletteName: t(`names.${selected.group}.${selected.name}`),
+					paletteName: t(`names.${cleanSelected.group}.${cleanSelected.name}`),
 					filterName: t("filters." + contrast.id)
 				})}
 			</Disclaimer>
@@ -151,7 +182,7 @@ export const BrazilianMapBase = ({ t, lng }: BrazilianMapBaseProps) => {
 					t={t}
 					handleTheme={handleTheme}
 					changeContrast={handleChangeContrast}
-					selected={{ group: selected.group, name: selected.name }}
+					selected={{ group: cleanSelected.group, name: cleanSelected.name }}
 				/>
 				<SelectDivision
 					selectStyle={selectStyle}

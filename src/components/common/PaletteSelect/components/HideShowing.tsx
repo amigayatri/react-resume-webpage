@@ -19,7 +19,7 @@ export const HideShowing = ({
 			onHeader={false}
 			defaultValue={
 				defaultValue !== undefined
-					? `${defaultValue.group}_${defaultValue.name}`
+					? `${defaultValue.group}_${defaultValue.palette}`
 					: "_"
 			}
 			iconId="pantone"

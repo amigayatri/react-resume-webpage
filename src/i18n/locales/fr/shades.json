@@ -18,7 +18,15 @@
                 "showing": "Arrêtez de changer les couleurs cibles"
             }
         },
-        "title": "Ajouter de la couleur"
+        "title": "Ajouter de la couleur",
+        "colorInput": {
+            "add": "Ajouter en tant que {{colorFunction}}",
+            "as": {
+                "color": "couleur d'origine",
+                "target": "couleur cible"
+            },
+            "selected": "Couleur sélectionnée"
+        }
     },
     "colorList": {
         "summary": {
@@ -28,8 +36,9 @@
         "title": "Couleurs ajoutées"
     },
     "hero": {
-        "summary": "Crée des variations de couleurs pour le noir et le blanc, le nombre de variations par défaut est de 4 dans chaque direction, mais il peut être modifié",
-        "title": "Générateur de variations de couleurs"
+        "title": "Générateur de variations de couleurs",
+        "subheading": "Crée des variations de couleur pour le noir et le blanc. Le nombre actuel de variations est <1>{{stepsNumber}}*</1> dans chaque direction, mais <2>peut être modifié</2>.",
+        "disclaimer": "Certaines couleurs auront moins de variations pour certaines cibles si elles coïncident avec l'une des cibles ou leurs variations."
     },
     "shades": {
         "code": "Variations de <1>{{colorCode}}</1>",
@@ -45,5 +54,13 @@
         },
         "summary": "Lorsque vous ajoutez une couleur comme cible, son inverse est également ajouté.",
         "title": "Couleurs cibles"
+    },
+    "select": {
+        "add": "Ajouter",
+        "as": {
+            "color": "couleurs originales",
+            "target": "couleurs cibles"
+        },
+        "label": "Choisissez plusieurs {{colorFunction}}"
     }
 }

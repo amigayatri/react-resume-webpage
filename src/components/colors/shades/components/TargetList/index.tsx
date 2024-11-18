@@ -1,39 +1,42 @@
 import { Wrapper, ListWrapper, Target, PairWrapper } from "./TargetList.styled"
 import { SectionTitle, SubHeading, SubHeadingWrapper } from "../Common.styled"
-import { removeTarget } from "../../../../../lib/colors/"
 import { TargetListProps } from "../types"
 import { Select } from "../Select/client"
 
+const maxToShowSelect = 4
+
 export const TargetList = ({
-	targets,
 	regenerate,
 	t,
 	addPalette,
+	targets,
+	controller,
+	titleColor,
 	lng
 }: TargetListProps) => {
 	const handleDelete = (key: string) => {
 		if (targets.length === 1) return
-		removeTarget(key)
+		controller.targets.remove(key)
 		regenerate()
 	}
 	return (
 		<Wrapper>
-			<SectionTitle>{t("targetList.title")}</SectionTitle>
+			<SectionTitle style={{ color: titleColor }}>
+				{t("targetList.title")}
+			</SectionTitle>
 			<SubHeadingWrapper>
-				<div>
-					<SubHeading>{t("targetList.summary")}</SubHeading>
-					<SubHeading>
-						{t(`targetList.delete.${targets.length > 1}`)}
-					</SubHeading>
-				</div>
+				<SubHeading>{`${t("targetList.summary")}\n${t(
+					`targetList.delete.${targets.length > 1}`
+				)}`}</SubHeading>
 				<Select
+					colorFunction="target"
 					lng={lng}
 					addPalette={addPalette}
-					isShowing={targets.length === 1}
+					isShowing={targets.length <= maxToShowSelect}
 				/>
 			</SubHeadingWrapper>
 			<ListWrapper>
-				{targets.map(([from, to], idx) => {
+				{controller.targets.get().map(([from, to], idx) => {
 					return (
 						<PairWrapper
 							$isActive={targets.length > 1}

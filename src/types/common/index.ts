@@ -1,5 +1,9 @@
 import { TFunction } from "i18next"
 import { ChangeEvent } from "react"
+import {
+	iconKey,
+	toggleIconKey
+} from "../../components/common/SVGIcon/constants"
 
 export interface ElementProps {
 	lng: string
@@ -10,12 +14,12 @@ export interface BaseElementProps extends ElementProps {
 }
 
 interface ToggleIconProps {
-	id: string
+	id: toggleIconKey
 	trueValAsStr: string
 	shouldChange: boolean
 	options: {
-		true: string
-		false: string
+		true: toggleIconKey
+		false: toggleIconKey
 	}
 }
 
@@ -68,7 +72,7 @@ export interface PageProps {
 export interface LinkProps {
 	path: string
 	key: string
-	icon: string
+	icon: iconKey
 	isExternal: boolean
 	sublinks?: LinkProps[]
 }
@@ -90,7 +94,7 @@ export type onSelectChange = (arg0: ChangeEvent<HTMLSelectElement>) => void
 export interface SelectProps extends ElementProps {
 	options: GroupProps[]
 	id: string
-	iconId?: string
+	iconId?: iconKey
 	local: string
 	Button?: React.ReactElement
 	label: string
@@ -102,3 +106,5 @@ export interface SelectProps extends ElementProps {
 	customStyle?: SelectStyleProps
 	noTranslation?: boolean
 }
+
+export type { iconKey, toggleIconKey }

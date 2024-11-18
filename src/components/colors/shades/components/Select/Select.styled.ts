@@ -8,6 +8,7 @@ export const Button = styled.button`
 	color: ${({ theme }) => theme.background};
 	background-color: ${({ theme }) => theme.primary};
 	border: 2px solid ${({ theme }) => theme.primary};
+	cursor: pointer;
 	font-weight: 700;
 	padding: 4px 8px;
 	flex: 1;
@@ -34,6 +35,7 @@ export const ButtonsWrapper = styled.div<{ $isShowing: boolean }>`
 	padding-bottom: 40px;
 	${media.max.md} {
 		flex-direction: column;
+		max-width: ${({ $isShowing }) => ($isShowing ? "360px" : "0")};
 	}
 `
 

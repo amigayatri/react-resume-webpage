@@ -1,7 +1,7 @@
 import { generateGroupOptions, generateMapByGroup } from "./functions.ts"
 import { Select } from "../../Select/client.tsx"
 import { useState } from "react"
-import { groupIcons } from "../../../../constants/palettes/"
+import { getGroupIcon, isGroup, isPaletteName } from "../../../../lib/palettes/"
 import { PaletteSelectBaseElement } from "../types.ts"
 
 export const ByGroup = ({
@@ -18,11 +18,10 @@ export const ByGroup = ({
 		defaultValue === undefined ? "rainbow" : defaultValue.group
 	)
 	const [palette, setPalette] = useState(
-		defaultValue === undefined ? "rainbow monokai" : defaultValue.name
+		defaultValue === undefined ? "rainbow monokai" : defaultValue.palette
 	)
 	const mapByGroup = generateMapByGroup()
 	const getPaletteOptions = () => {
-		if (group === "") return [{ groupKey: "", options: [] }]
 		const groupOptions = mapByGroup.get(group)
 		if (groupOptions === undefined) return [{ groupKey: "", options: [] }]
 		return [groupOptions]
@@ -38,7 +37,9 @@ export const ByGroup = ({
 				onHeader={false}
 				lng={lng}
 				onSelectChange={({ target }) => {
-					setGroup(target.value)
+					const newGroup = target.value
+					if (!isGroup(newGroup)) return
+					setGroup(newGroup)
 					setPalette("_")
 				}}
 				id={`${local}-group-select`}
@@ -51,10 +52,12 @@ export const ByGroup = ({
 				onHeader={false}
 				defaultValue={palette}
 				Button={Button}
-				iconId={groupIcons.get(group) || ""}
+				iconId={getGroupIcon(group)}
 				onSelectChange={(event) => {
+					const newPaletteName = event.target.value
+					if (newPaletteName !== "_" && !isPaletteName(newPaletteName)) return
 					onSelect(event)
-					setPalette(event.target.value)
+					setPalette(newPaletteName)
 				}}
 				id={`${local}-palette-select`}
 				label={label.palette}

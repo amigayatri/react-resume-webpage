@@ -8,6 +8,7 @@ export const ShadeList = ({
 	regenerate,
 	updatedList,
 	t,
+	titleColor,
 	lng
 }: ShadeListProps) => {
 	const emptyColors: emptyColor = []
@@ -18,7 +19,9 @@ export const ShadeList = ({
 	}, [updatedList])
 	return (
 		<Wrapper>
-			<SectionTitle>{t("shades.title")}</SectionTitle>
+			<SectionTitle style={{ color: titleColor }}>
+				{t("shades.title")}
+			</SectionTitle>
 			<SubHeading>{t("shades.summary")}</SubHeading>
 			<ListWrapper>
 				{list.map((color, idx) => (

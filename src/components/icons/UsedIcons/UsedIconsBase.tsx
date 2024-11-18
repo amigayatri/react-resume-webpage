@@ -20,7 +20,7 @@ import { SVGIcon, Progress } from "../../common/client"
 import { useTheme } from "styled-components"
 import { useState } from "react"
 import { numberOfIcons, usedIcons } from "../../common/SVGIcon/constants"
-import { rainbowMonokai } from "../../../constants/palettes/rainbow"
+import { rainbowMonokai } from "../../../lib/palettes/maps/rainbow"
 import { UsedIconsBaseProps } from "../types"
 
 export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {

@@ -1,9 +1,9 @@
 import { useTranslation } from "../../../i18n/"
 import { SVGIconBase } from "./SVGIconBase.tsx"
-import { ElementProps, BaseElementProps } from "../../../types/common/"
+import { ElementProps, BaseElementProps, iconKey } from "../../../types/common/"
 
 export interface SVGProps extends ElementProps {
-	id: string
+	id: iconKey
 	size: number
 	local: string
 	noTransition?: boolean

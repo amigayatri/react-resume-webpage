@@ -18,7 +18,15 @@
                 "showing": "Smetti di cambiare i colori target"
             }
         },
-        "title": "Aggiungi colore"
+        "title": "Aggiungi colore",
+        "colorInput": {
+            "add": "Aggiungi come {{colorFunction}}",
+            "as": {
+                "color": "colore originale",
+                "target": "colore di destinazione"
+            },
+            "selected": "Colore selezionato"
+        }
     },
     "colorList": {
         "summary": {
@@ -28,8 +36,9 @@
         "title": "Colori aggiunti"
     },
     "hero": {
-        "summary": "Crea variazioni di colore per il bianco e nero, il numero predefinito di variazioni è 4 in ciascuna direzione, ma può essere modificato",
-        "title": "Generatore di variazioni di colore"
+        "title": "Generatore di variazioni di colore",
+        "subheading": "Crea variazioni di colore per il bianco e nero, il numero corrente di variazioni è <1>{{stepsNumber}}*</1> in ciascuna direzione, ma <2>può essere modificato</2>.",
+        "disclaimer": "Alcuni colori avranno meno variazioni per determinati target se coincidono con uno qualsiasi dei target o con le loro variazioni."
     },
     "shades": {
         "code": "Variazioni di <1>{{colorCode}}</1>",
@@ -45,5 +54,13 @@
         },
         "summary": "Quando aggiungi un colore come target, viene aggiunto anche il suo inverso.",
         "title": "Colori target"
+    },
+    "select": {
+        "add": "Aggiungere",
+        "as": {
+            "color": "colori originali",
+            "target": "colori bersaglio"
+        },
+        "label": "Scegli più {{colorFunction}}"
     }
 }

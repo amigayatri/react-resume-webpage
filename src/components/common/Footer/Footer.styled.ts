@@ -10,7 +10,9 @@ export const FooterWrapper = styled.footer`
 	font-size: 1.25rem;
 	font-weight: 700;
 	width: 100%;
-	height: 64px;
+	z-index: 500;
+	position: relative;
+	height: var(--footer-size);
 	display: flex;
 	justify-content: center;
 	align-items: center;

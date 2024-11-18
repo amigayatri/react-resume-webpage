@@ -1,5 +1,10 @@
 import { BaseElementProps, ElementProps } from "../../../../types/common"
-import { PaletteInfoProps, PaletteProps } from "../../../../types/palette"
+import {
+	PaletteInfoProps,
+	PaletteProps,
+	groupKey,
+	paletteKey
+} from "../../../../types/palette"
 
 export interface PaletteElementProps extends BaseElementProps {
 	palette: PaletteProps
@@ -15,6 +20,6 @@ export type emptyPalettes = PaletteProps[]
 export type emptyNames = PaletteInfoProps[]
 
 export interface SelectProps extends BaseElementProps {
-	showing: Map<string, Set<string>>
-	add: (group: string, name: string) => void
+	showing: Map<groupKey, Set<paletteKey>>
+	add: (group: groupKey, name: paletteKey) => void
 }

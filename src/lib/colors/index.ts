@@ -1,27 +1,13 @@
-import { getInverse, checkContrast, sortColors } from "./relations"
+import { getInverse, sortColors, ContrastChecker } from "./relations"
 import { isHex, createSimple } from "./utils"
-import {
-	Color,
-	target,
-	targetVariations,
-	targetPair,
-	getSteps,
-	setSteps,
-	addTarget,
-	getTargets,
-	removeTarget
-} from "./class"
+import { createColor, createSafeColor, Controller } from "./class"
 export {
-	Color,
-	getSteps,
-	setSteps,
-	addTarget,
-	getTargets,
+	Controller,
+	createColor,
+	createSafeColor,
 	isHex,
-	removeTarget,
 	getInverse,
 	createSimple,
-	checkContrast,
-	sortColors
+	sortColors,
+	ContrastChecker
 }
-export type { target, targetVariations, targetPair }

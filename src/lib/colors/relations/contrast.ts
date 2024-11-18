@@ -11,7 +11,7 @@ const luminance: luminance = (color) => {
 }
 
 type checkContrast = (color1: string, color2: string) => number
-export const checkContrast: checkContrast = (color1, color2) => {
+const checkContrast: checkContrast = (color1, color2) => {
 	const color1luminance = luminance(color1),
 		color2luminance = luminance(color2)
 	const ratio =
@@ -19,4 +19,26 @@ export const checkContrast: checkContrast = (color1, color2) => {
 			? (color2luminance + 0.05) / (color1luminance + 0.05)
 			: (color1luminance + 0.05) / (color2luminance + 0.05)
 	return ratio
+}
+
+type paletteColors = Array<string>
+type getCleanColors = (background: string, limit: number) => paletteColors
+
+interface ContrastCheckerClass {
+	rawColors: paletteColors
+	getCleanColors: getCleanColors
+}
+
+export class ContrastChecker implements ContrastCheckerClass {
+	rawColors
+	constructor(colors: paletteColors) {
+		this.rawColors = colors
+	}
+	getCleanColors: getCleanColors = (bg, limit) => {
+		const clean: paletteColors = []
+		for (const color of this.rawColors) {
+			if (checkContrast(color, bg) <= limit) clean.push(color)
+		}
+		return clean
+	}
 }

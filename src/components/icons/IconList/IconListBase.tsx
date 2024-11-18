@@ -1,8 +1,10 @@
 import { IconListWrapper, List, IconItem, Id, Icon } from "./IconList.styled"
 import { iconsIds } from "../../../constants/icons.ts"
-import { rainbowMonokai } from "../../../constants/palettes/rainbow.ts"
+import { getSafePaletteColors } from "../../../lib/palettes/"
 import { SVGIcon } from "../../common/SVGIcon/client"
 import { IconListBaseProps } from "../types"
+
+const rainbowMonokai = getSafePaletteColors("rainbow", "rainbow monokai")
 
 export const IconListBase = ({ lng }: IconListBaseProps) => {
 	return (
@@ -13,7 +15,7 @@ export const IconListBase = ({ lng }: IconListBaseProps) => {
 						id: <Id>{id}</Id>
 						<Icon
 							style={{
-								color: rainbowMonokai.colors[idx % rainbowMonokai.colors.length]
+								color: rainbowMonokai[idx % rainbowMonokai.length]
 							}}
 						>
 							<SVGIcon lng={lng} local="iconlist" id={id} size={48} />

@@ -26,7 +26,15 @@
                 "showing": "Hören Sie auf, die Zielfarben zu ändern"
             }
         },
-        "title": "Farbe hinzufügen"
+        "title": "Farbe hinzufügen",
+        "colorInput": {
+            "add": "Als {{colorFunction}} hinzufügen",
+            "as": {
+                "color": "Originalfarbe",
+                "target": "Zielfarbe"
+            },
+            "selected": "Ausgewählte Farbe"
+        }
     },
     "colorList": {
         "summary": {
@@ -36,8 +44,9 @@
         "title": "Farben hinzugefügt"
     },
     "hero": {
-        "summary": "Erstellt Farbvariationen für Schwarz und Weiß. Die Standardanzahl der Variationen beträgt 4 in jede Richtung, sie kann jedoch geändert werden",
-        "title": "Farbvariationsgenerator"
+        "title": "Farbvariationsgenerator",
+        "subheading": "Erstellt Farbvariationen für Schwarz und Weiß. Die aktuelle Anzahl der Variationen beträgt <1>{{stepsNumber}}*</1> in jede Richtung, kann aber <2>geändert werden</2>.",
+        "disclaimer": "Einige Farben weisen für bestimmte Ziele weniger Variationen auf, wenn sie mit einem der Ziele oder deren Variationen übereinstimmen."
     },
     "shades": {
         "code": "Variationen von <1>{{colorCode}}</1>",
@@ -45,5 +54,13 @@
         "summary": "Klicken Sie, um die Farbe zu kopieren!",
         "title": "Farbtöne",
         "to": "zu <1>{{colorCode}}</1>"
+    },
+    "select": {
+        "add": "Hinzufügen",
+        "as": {
+            "color": "Originalfarben",
+            "target": "Zielfarben"
+        },
+        "label": "Wählen Sie mehrere {{colorFunction}}"
     }
 }

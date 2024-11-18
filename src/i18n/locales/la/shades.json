@@ -18,7 +18,15 @@
                 "showing": "Subsisto mutantur in scopum colorum"
             }
         },
-        "title": "Adde color"
+        "title": "Adde color",
+        "colorInput": {
+            "add": "Adde ut {{colorFunction}}",
+            "as": {
+                "color": "original color",
+                "target": "scopum color"
+            },
+            "selected": "Electus color"
+        }
     },
     "colorList": {
         "summary": {
@@ -28,8 +36,9 @@
         "title": "additae coloribus"
     },
     "hero": {
-        "summary": "Variationes colorum pro nigro et albo creat, numerus variationum defectus in utraque parte 4 est, sed mutari potest",
-        "title": "Color variatio generantis"
+        "title": "Color variatio generantis",
+        "subheading": "Color varietates pro nigro et albo creat, numerus hodiernus variationum <1>{{graduumNumber}}*</1> in utraque parte est, sed <2> mutari potest</2>.",
+        "disclaimer": "Aliquot colores pauciores variationes certarum scutorum habebunt si cum aliquo scutorum vel eorum variationibus coincidunt."
     },
     "shades": {
         "code": "Variationes <1>{{colorCode}}</1>",
@@ -45,5 +54,13 @@
         },
         "summary": "Cum colorem addas ut scopum, additur etiam inversus.",
         "title": "Scopum colorum"
+    },
+    "select": {
+        "add": "Add",
+        "as": {
+            "color": "originali colore",
+            "target": "scopum colorum"
+        },
+        "label": "Elige multa {{colorFunction}}"
     }
 }

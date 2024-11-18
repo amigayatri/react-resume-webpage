@@ -60,6 +60,7 @@ const redpanda: PictureAPI = {
 	link: "https://some-random-api.com/animal/red_panda",
 	format: formatImage
 }
+
 export const APIs: APIMapping = new Map([
 	["cat", cat],
 	["dog", dog],

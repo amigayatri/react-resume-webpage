@@ -1,5 +1,5 @@
 import { SelectSectionWrapper, SelectWrapper } from "./Select.styled"
-import palettesMap from "../../../../../constants/palettes"
+import { isGroup, isPaletteName, getNames } from "../../../../../lib/palettes"
 import { Subtitle, Summary } from "../Common.styled"
 import { PaletteSelect } from "../../../../common/client"
 import { SelectProps } from "../types"
@@ -11,13 +11,13 @@ export const Select = ({ add, showing, t, lng }: SelectProps) => {
 		const [group, palette] = value.split("_")
 		if (palette === undefined) {
 			const [_, groupName] = value.split("#")
-			const groupPalettes = palettesMap.get(groupName)
-			const names =
-				groupPalettes === undefined ? [] : Array.from(groupPalettes.keys())
+			if (!isGroup(groupName)) return
+			const names = getNames(groupName)
 			for (const paletteName of names) {
 				add(groupName, paletteName)
 			}
 		} else {
+			if (!isGroup(group) || !isPaletteName(palette)) return
 			add(group, palette)
 		}
 	}

@@ -13,6 +13,7 @@ import { BankCardIcon } from "./icons/BankCardIcon"
 import { BarbieIcon } from "./icons/BarbieIcon"
 import { BastetIcon } from "./icons/BastetIcon"
 import { BatIcon } from "./icons/BatIcon"
+import { BeachIcon } from "./icons/BeachIcon"
 import { BeaverIcon } from "./icons/BeaverIcon"
 import { BeeIcon } from "./icons/BeeIcon"
 import { BeerIcon } from "./icons/BeerIcon"
@@ -83,8 +84,10 @@ import { EyeOfHorusIcon } from "./icons/EyeOfHorusIcon"
 import { FacebookIcon } from "./icons/FacebookIcon"
 import { FelineIcon } from "./icons/FelineIcon"
 import { FilmIcon } from "./icons/FilmIcon"
+import { FilterIcon } from "./icons/FilterIcon"
 import { FireIcon } from "./icons/FireIcon"
 import { FirefoxIcon } from "./icons/FirefoxIcon"
+import { FishermanIcon } from "./icons/FishermanIcon"
 import { FiveIcon } from "./icons/FiveIcon"
 import { FlagIcon } from "./icons/FlagIcon"
 import { FlamingoIcon } from "./icons/FlamingoIcon"
@@ -109,6 +112,7 @@ import { GridIcon } from "./icons/GridIcon"
 import { HTMLIcon } from "./icons/HTMLIcon"
 import { HappyIcon } from "./icons/HappyIcon"
 import { HedgehogIcon } from "./icons/HedgehogIcon"
+import { HighTideIcon } from "./icons/HighTideIcon"
 import { HomeIcon } from "./icons/HomeIcon"
 import { HorseIcon } from "./icons/HorseIcon"
 import { HummingBirdIcon } from "./icons/HummingBirdIcon"
@@ -139,6 +143,7 @@ import { MayanPyramidIcon } from "./icons/MayanPyramidIcon"
 import { McDonaldsIcon } from "./icons/McDonaldsIcon"
 import { MedalIcon } from "./icons/MedalIcon"
 import { MegaphoneIcon } from "./icons/MegaphoneIcon"
+import { MermaidIcon } from "./icons/MermaidIcon"
 import { MeteorIcon } from "./icons/MeteorIcon"
 import { MicrosoftIcon } from "./icons/MicrosoftIcon"
 import { MinusIcon } from "./icons/MinusIcon"
@@ -147,6 +152,7 @@ import { MonkeyIcon } from "./icons/MonkeyIcon"
 import { MoonIcon } from "./icons/MoonIcon"
 import { MoreIcon } from "./icons/MoreIcon"
 import { MotorBikeIcon } from "./icons/MotorBikeIcon"
+import { MusicIcon } from "./icons/MusicIcon"
 import { NarutoIcon } from "./icons/NarutoIcon"
 import { NestBirdsIcon } from "./icons/NestBirdsIcon"
 import { NineIcon } from "./icons/NineIcon"
@@ -158,8 +164,10 @@ import { OwlIcon } from "./icons/OwlIcon"
 import { PaintBucketIcon } from "./icons/PaintBucketIcon"
 import { PaletteIcon } from "./icons/PaletteIcon"
 import { PandaIcon } from "./icons/PandaIcon"
+import { PandeiroIcon } from "./icons/PandeiroIcon"
 import { PangolinIcon } from "./icons/PangolinIcon"
 import { PantoneIcon } from "./icons/PantoneIcon"
+import { PauseIcon } from "./icons/PauseIcon"
 import { PencilIcon } from "./icons/PencilIcon"
 import { PersonIcon } from "./icons/PersonIcon"
 import { PhoneIcon } from "./icons/PhoneIcon"
@@ -168,6 +176,7 @@ import { PizzaIcon } from "./icons/PizzaIcon"
 import { PlaneIcon } from "./icons/PlaneIcon"
 import { PlanetIcon } from "./icons/PlanetIcon"
 import { PlantIcon } from "./icons/PlantIcon"
+import { PlayIcon } from "./icons/PlayIcon"
 import { PlusIcon } from "./icons/PlusIcon"
 import { PlusPlusIcon } from "./icons/PlusPlusIcon"
 import { PolarBearIcon } from "./icons/PolarBearIcon"
@@ -194,6 +203,7 @@ import { RocketIcon } from "./icons/RocketIcon"
 import { RoosterIcon } from "./icons/RoosterIcon"
 import { SadIcon } from "./icons/SadIcon"
 import { SalamanderIcon } from "./icons/SalamanderIcon"
+import { SambaIcon } from "./icons/SambaIcon"
 import { SchrodingersCatAliveIcon } from "./icons/SchrodingersCatAliveIcon"
 import { SchrodingersCatDeadIcon } from "./icons/SchrodingersCatDeadIcon"
 import { SevenIcon } from "./icons/SevenIcon"
@@ -224,7 +234,6 @@ import { TelevisionIcon } from "./icons/TelevisionIcon"
 import { TerminalErrorIcon } from "./icons/TerminalErrorIcon"
 import { TerminalIcon } from "./icons/TerminalIcon"
 import { TestTubeIcon } from "./icons/TestTubeIcon"
-import { ThreeDIcon } from "./icons/ThreeDIcon"
 import { ThreeIcon } from "./icons/ThreeIcon"
 import { ToolsIcon } from "./icons/ToolsIcon"
 import { TornadoIcon } from "./icons/TornadoIcon"
@@ -254,8 +263,11 @@ import { YouTubeIcon } from "./icons/YouTubeIcon"
 import { ZeroIcon } from "./icons/ZeroIcon"
 import { ZoomInIcon } from "./icons/ZoomInIcon"
 import { ZoomOutIcon } from "./icons/ZoomOutIcon"
+import { iconKey, toggleIconKey } from "./icons/types"
 
-export const icons = new Map([
+type iconsMap = Map<iconKey, (props: any) => JSX.Element>
+
+export const icons: iconsMap = new Map([
 	["alien", AlienIcon],
 	["alpaca", AlpacaIcon],
 	["ammonite", AmmoniteIcon],
@@ -418,6 +430,7 @@ export const icons = new Map([
 	["panda", PandaIcon],
 	["pangolin", PangolinIcon],
 	["pantone", PantoneIcon],
+	["pause", PauseIcon],
 	["pencil", PencilIcon],
 	["person", PersonIcon],
 	["phone", PhoneIcon],
@@ -426,6 +439,7 @@ export const icons = new Map([
 	["plane", PlaneIcon],
 	["planet", PlanetIcon],
 	["plant", PlantIcon],
+	["play", PlayIcon],
 	["plus", PlusIcon],
 	["plusplus", PlusPlusIcon],
 	["polarbear", PolarBearIcon],
@@ -482,7 +496,6 @@ export const icons = new Map([
 	["terminalerror", TerminalErrorIcon],
 	["terminal", TerminalIcon],
 	["testtube", TestTubeIcon],
-	["threed", ThreeDIcon],
 	["three", ThreeIcon],
 	["tools", ToolsIcon],
 	["tornado", TornadoIcon],
@@ -511,8 +524,17 @@ export const icons = new Map([
 	["youtube", YouTubeIcon],
 	["zero", ZeroIcon],
 	["zoomin", ZoomInIcon],
-	["zoomout", ZoomOutIcon]
+	["zoomout", ZoomOutIcon],
+	["samba", SambaIcon],
+	["pandeiro", PandeiroIcon],
+	["music", MusicIcon],
+	["mermaid", MermaidIcon],
+	["high tide", HighTideIcon],
+	["fisherman", FishermanIcon],
+	["filter", FilterIcon],
+	["beach", BeachIcon]
 ])
 
 export const numberOfIcons = icons.size
-export const usedIcons: Map<string, Set<string>> = new Map()
+export const usedIcons: Map<string, Set<iconKey>> = new Map()
+export type { iconKey, toggleIconKey }

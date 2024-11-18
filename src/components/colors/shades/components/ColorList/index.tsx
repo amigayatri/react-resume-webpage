@@ -10,6 +10,7 @@ export const ColorList = ({
 	colors,
 	updatedList,
 	addPalette,
+	titleColor,
 	t,
 	lng
 }: ColorListProps) => {
@@ -25,14 +26,15 @@ export const ColorList = ({
 
 	return (
 		<Wrapper>
-			<SectionTitle>{t("colorList.title")}</SectionTitle>
+			<SectionTitle style={{ color: titleColor }}>
+				{t("colorList.title")}
+			</SectionTitle>
 			<SubHeadingWrapper>
 				<SubHeading>
-					{colors.size == 0
-						? t("colorList.summary.empty")
-						: t("colorList.summary.nonEmpty")}
+					{t(`colorList.summary.${colors.size === 0 ? "empty" : "nonEmpty"}`)}
 				</SubHeading>
 				<Select
+					colorFunction="color"
 					lng={lng}
 					addPalette={addPalette}
 					isShowing={colors.size === 0}

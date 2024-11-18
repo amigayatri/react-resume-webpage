@@ -1,6 +1,6 @@
 import { Letter, Multicolor } from "./MulticoloredName.styled"
 import { MulticoloredNameProps } from "."
-import { palettesMap } from "../../../constants/palettes"
+import { getPalette } from "../../../lib/palettes/"
 import { SVGIcon } from "../client"
 import { CSSProperties, useTheme } from "styled-components"
 import { createSimple } from "../../../lib/colors/"
@@ -19,10 +19,7 @@ export const MulticoloredNameBase = ({
 	colorfulIcon,
 	isReverse
 }: MulticoloredNameProps) => {
-	const groupPalettes = palettesMap.get(info.group)
-	if (groupPalettes === undefined) return
-	const palette = groupPalettes.get(info.name)
-	if (!isCustom && palette === undefined) return
+	const palette = getPalette(info.group, info.name)
 	const paletteColors = !isCustom
 		? Array.from(palette !== undefined ? palette.colors : [])
 		: customColors

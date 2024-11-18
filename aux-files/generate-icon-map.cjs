@@ -1,7 +1,7 @@
 const toExclude = ["Styles.ts", "SVGIcon.tsx", "TemplateNameIcon.tsx"]
 
 const fs = require("fs")
-const iconPaths = "./src/icons"
+const iconPaths = "./src/common/SVGIcon/icons"
 const iconNameList = fs.readdirSync(iconPaths)
 
 const toRemove = new Set(toExclude)

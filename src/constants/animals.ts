@@ -1,9 +1,11 @@
 import {
 	ControlsValues,
-	AnimalListProps
+	AnimalListProps,
+	animalKey,
+	iconKey
 } from "../components/cats/components/types"
 
-export const animalsIcons: [string, string[]][] = [
+export const animalsIcons: [animalKey, iconKey[]][] = [
 	["cat", ["egyptiancat", "cat"]],
 	["dog", ["labrador", "sittingdog"]],
 	["fox", ["fox"]],
@@ -16,12 +18,12 @@ export const animalsIcons: [string, string[]][] = [
 	["alpaca", ["alpaca"]],
 	["redpanda", ["redpanda"]]
 ]
-export const emptyPics: [string, AnimalListProps][] = animalsIcons.map(
+export const emptyPics: [animalKey, AnimalListProps][] = animalsIcons.map(
 	([id, icons]) => {
 		return [id, { icons, list: Array.from({ length: 0 }) }]
 	}
 )
-export const numbers = [
+export const numbers: iconKey[] = [
 	"zero",
 	"one",
 	"two",

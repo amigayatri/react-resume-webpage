@@ -14,7 +14,9 @@
     "palette": "Paletas",
     "resume": "Currículo",
     "site-stats": "Estatísticas",
-    "shades": "Variações de Tons"
+    "shades": "Variações de Tons",
+    "lyric": "Letra de {{musicName}}",
+    "musics": "Músicas disponíveis"
   },
   "base-title": "{{pathTitle}} | Amira Gayatri",
   "content": "Site pessoal"

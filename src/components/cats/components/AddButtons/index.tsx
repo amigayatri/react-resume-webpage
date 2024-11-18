@@ -3,6 +3,7 @@ import { Button } from "../Common.styled.ts"
 import { SVGIcon } from "../../../common/client"
 import { animalsIcons, numbers } from "../../../../constants/animals.ts"
 import { AddButtonsProps } from "../types.ts"
+import { iconKey } from "../../../common/SVGIcon/constants.ts"
 
 export const AddButtons = ({
 	t,
@@ -11,7 +12,7 @@ export const AddButtons = ({
 	handleAdd
 }: AddButtonsProps) => {
 	const { count } = controls
-	const plusplus: { iconId: string; size: number }[] =
+	const plusplus: { iconId: iconKey; size: number }[] =
 		count > 1
 			? [
 					{ iconId: "plus", size: 24 },

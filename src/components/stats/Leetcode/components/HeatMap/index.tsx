@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { HeatMapWrapper, CalendarWrapper } from "./HeatMap.styled"
 import { Loading } from "../../../../common/"
-import { Color, getSteps, setSteps } from "../../../../../lib/colors/"
+import { createSafeColor } from "../../../../../lib/colors/"
 import { Month, Header } from "./components"
 import {
 	LeetCodeElementProps,
@@ -12,15 +12,12 @@ import {
 
 const emptyMonths: MonthProps[] = []
 const emptyDays: DayProps[] = []
-const prevSteps = getSteps()
 const currSteps = 13
-setSteps(currSteps)
-const possibleColors = new Color("#f92472")
+const possibleColors = createSafeColor("#f92472", [currSteps, true])
 const whiteVar = possibleColors.variations.get("#FFFFFF")
 const colorsArr = Array.from(whiteVar !== undefined ? whiteVar.keys() : [])
 const half = Math.floor(colorsArr.length / 2)
 let max = -1
-setSteps(prevSteps)
 
 export const HeatMap = ({ leetcode, t, lng }: LeetCodeElementProps) => {
 	const [months, setMonths] = useState(emptyMonths)

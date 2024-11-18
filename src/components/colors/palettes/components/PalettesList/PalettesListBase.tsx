@@ -1,8 +1,11 @@
 import { Title } from "./PalettesList.styled"
 import { useEffect, useState } from "react"
-import palettesMap from "../../../../../constants/palettes"
+import { getPalette, isGroup, isPaletteName } from "../../../../../lib/palettes"
 import { Select, Palette, PaletteAnchors } from "../"
 import { PalettesListBaseProps, emptyNames, emptyPalettes } from "../types"
+import { groupKey, paletteKey } from "../../../../../types/palette"
+
+type addPalette = (group: groupKey | string, name: paletteKey | string) => void
 
 export const PalettesListBase = ({ t, lng }: PalettesListBaseProps) => {
 	const emptyName: emptyNames = []
@@ -10,24 +13,25 @@ export const PalettesListBase = ({ t, lng }: PalettesListBaseProps) => {
 	const [names, setNames] = useState(emptyName)
 	const empty: emptyPalettes = []
 	const [palettes, setPalettes] = useState(empty)
-	const emptyShowing: Map<string, Set<string>> = new Map()
+	const emptyShowing: Map<groupKey, Set<paletteKey>> = new Map()
 	const [showing] = useState(emptyShowing)
 	useEffect(() => {
 		const currList: emptyPalettes = []
 		names.forEach(({ name, group }) => {
-			const currGroup = palettesMap.get(group)
-			if (currGroup === undefined) return
-			const curr = currGroup.get(name)
+			const curr = getPalette(group, name)
 			if (curr === undefined) return
 			currList.push(curr)
 		})
 		setPalettes(currList)
 		setUpdated(true)
 	}, [updated])
-	const addPalette = (group: string, name: string) => {
+	const addPalette: addPalette = (group, name) => {
+		if (!isGroup(group) || !isPaletteName(name)) return
 		const groupSet = showing.get(group) || new Set()
 		if (groupSet.has(name)) return
 		const currNames = names
+		const newPalette = getPalette(group, name)
+		if (newPalette === undefined) return
 		currNames.push({ group, name })
 		setNames(currNames)
 		setUpdated(false)

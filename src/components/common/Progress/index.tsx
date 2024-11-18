@@ -16,8 +16,9 @@ export interface ProgressBarProps extends ElementProps {
 	}
 }
 
+type progressType = "bar" | "circle"
 export interface ProgressElementProps extends ProgressBarProps {
-	type: string
+	type: progressType
 }
 
 export const Progress = (props: ProgressElementProps) => {

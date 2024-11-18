@@ -4,7 +4,6 @@ import styled from "styled-components"
 
 export const Wrapper = styled.section`
 	padding: 32px 0;
-	font-size: 1.25rem;
 `
 
 export const ListWrapper = styled.ul`
@@ -22,7 +21,11 @@ export const PairWrapper = styled.li<{ $isActive: boolean }>`
 	border-radius: 8px;
 	margin: 8px 16px;
 	margin-right: 8px;
+	font-size: 1.25rem;
 	cursor: ${({ $isActive }) => ($isActive ? "pointer" : "not-allowed")};
+	&:first-of-type {
+		margin-left: 0;
+	}
 `
 
 export const Target = styled.span`

@@ -18,7 +18,15 @@
                 "showing": "Stop changing the target colors"
             }
         },
-        "title": "Add color"
+        "title": "Add color",
+        "colorInput": {
+            "add": "Add as {{colorFunction}}",
+            "as": {
+                "color": "original color",
+                "target": "target color"
+            },
+            "selected": "Selected color"
+        }
     },
     "colorList": {
         "summary": {
@@ -28,8 +36,9 @@
         "title": "Added colors"
     },
     "hero": {
-        "summary": "Creates color variations for black and white, the default number of variations is 4 in each direction, but it can be changed",
-        "title": "Color variation generator"
+        "title": "Color variation generator",
+        "subheading": "Creates color variations for black and white, the current number of variations is <1>{{stepsNumber}}*</1> in each direction, but <2>can be changed</2>.",
+        "disclaimer": "Some colors will have fewer variations for certain targets if they coincide with any of the targets or their variations."
     },
     "shades": {
         "code": "Variations of <1>{{colorCode}}</1>",
@@ -45,5 +54,13 @@
         },
         "summary": "When you add a color as target, her inverse is also added.",
         "title": "Target colors"
+    },
+    "select": {
+        "add": "Add",
+        "as": {
+            "color": "original colors",
+            "target": "target colors"
+        },
+        "label": "Choose multiple {{colorFunction}}"
     }
 }

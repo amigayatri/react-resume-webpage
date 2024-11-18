@@ -1,7 +1,7 @@
-import { getPictureFn, AnimalAPIProps } from "../../types/animals"
+import { getPictureFn, AnimalAPIProps, animalKey } from "../../types/animals"
 import { APIs } from "./constants"
 
-class AnimalAPI implements AnimalAPIProps {
+export class AnimalAPI implements AnimalAPIProps {
 	constructor() {}
 
 	getPicture: getPictureFn = async (id) => {
@@ -13,4 +13,5 @@ class AnimalAPI implements AnimalAPIProps {
 		return format(body)
 	}
 }
-export default AnimalAPI
+
+export type { animalKey }
