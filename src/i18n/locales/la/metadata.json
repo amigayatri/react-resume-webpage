@@ -14,7 +14,9 @@
         "resume": "Proin",
         "site-stats": "Stats",
         "map": "Tabula geographica Brasiliae",
-        "shades": "Tone Variations"
+        "shades": "Tone Variations",
+        "lyric": "{{musicName}} lyrics",
+        "musics": "Praesto carmina"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

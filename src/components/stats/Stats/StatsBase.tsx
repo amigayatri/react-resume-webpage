@@ -4,21 +4,37 @@ import { LeetcodeStats } from "../Leetcode/client.tsx"
 import { TabPanel, Tabs } from "react-tabs"
 import { MainTitle } from "../Common.styled"
 import { MulticoloredName } from "../../common/client.tsx"
-import { useState } from "react"
+import { ReactElement, useState } from "react"
 import { StatsBaseProps } from "../types"
+import { iconKey } from "../../common/SVGIcon/constants.ts"
+import { PaletteInfoProps } from "../../../types/palette/"
+
+interface TabProps {
+	el: ReactElement<any, any>
+	icon: iconKey
+}
+type tabsMap = Map<string, TabProps>
 
 export const StatsBase = ({ lng, t }: StatsBaseProps) => {
-	const selectedInfo = { group: "themes", name: "triple" }
-	const notSelectedInfo = { group: "theme", name: "grayscalemonokai" }
+	const selectedInfo: PaletteInfoProps = { group: "theme", name: "triple" }
+	const notSelectedInfo: PaletteInfoProps = {
+		group: "theme",
+		name: "grayscalemonokai"
+	}
 	const nameProps = {
 		fontSize: 24,
 		lng,
 		legible: true,
 		local: "stats"
 	}
-	const tabs = new Map([
-		["leetcode", { el: <LeetcodeStats lng={lng} />, icon: "leetcode" }],
-		["git", { el: <GitStats lng={lng} />, icon: "github" }]
+	const leetcodeTab: TabProps = {
+		el: <LeetcodeStats lng={lng} />,
+		icon: "leetcode"
+	}
+	const gitTab: TabProps = { el: <GitStats lng={lng} />, icon: "github" }
+	const tabs: tabsMap = new Map([
+		["leetcode", leetcodeTab],
+		["git", gitTab]
 	])
 	const entries = Array.from(tabs.entries())
 	const [selectedTab, setSelectedTab] = useState(entries[0][0])

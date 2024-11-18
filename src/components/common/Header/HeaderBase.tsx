@@ -1,6 +1,10 @@
 import { MenuWrapper, SettingsWrapper } from "./Header.styled.ts"
 import { Toggle, Navigation, LanguageSelect } from "../client.tsx"
 import { HeaderBaseProps } from "."
+import { toggleIconKey } from "../../../types/common"
+
+const sunId: toggleIconKey = "sun"
+const moonId: toggleIconKey = "moon"
 
 export const HeaderBase = ({
 	lng,
@@ -10,10 +14,10 @@ export const HeaderBase = ({
 	onError
 }: HeaderBaseProps) => {
 	const iconSettings = {
-		id: "sun",
+		id: sunId,
 		trueValAsStr: "light",
 		shouldChange: true,
-		options: { true: "sun", false: "moon" }
+		options: { true: sunId, false: moonId }
 	}
 	return (
 		<MenuWrapper>

@@ -4,9 +4,8 @@ import { SelectBase } from "./SelectBase"
 import { PaletteSelectProps } from "../types"
 import { useTranslation } from "../../../../../i18n/client"
 
-export const Select = ({ lng, addPalette, isShowing }: PaletteSelectProps) => {
-	const { t } = useTranslation(lng, "palettes")
-	return (
-		<SelectBase t={t} lng={lng} addPalette={addPalette} isShowing={isShowing} />
-	)
+export const Select = (props: PaletteSelectProps) => {
+	const { lng } = props
+	const { t } = useTranslation(lng, "shades")
+	return <SelectBase t={t} {...props} />
 }

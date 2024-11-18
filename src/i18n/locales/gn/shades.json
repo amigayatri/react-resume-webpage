@@ -18,7 +18,15 @@
                 "showing": "Anive remoambue umi sa’y ojehekahápe"
             }
         },
-        "title": "Oñemoĩve sa’y"
+        "title": "Oñemoĩve sa’y",
+        "colorInput": {
+            "add": "Oñemoĩve {{colorFunction}} ramo.",
+            "as": {
+                "color": "color original rehegua",
+                "target": "color blanco rehegua"
+            },
+            "selected": "Sa’y ojeporavóva"
+        }
     },
     "colorList": {
         "summary": {
@@ -28,8 +36,9 @@
         "title": "Oñemoĩve umi sa’y"
     },
     "hero": {
-        "summary": "Ojapo saꞌi ñemoambue morotĩ ha hũvape g̃uarã, ñemoambue mboajepyréva haꞌehína 4 peteĩteĩva gotyo, ha katu ikatu oñemoambue",
-        "title": "Generador de variación de color rehegua"
+        "title": "Generador de variación de color rehegua",
+        "subheading": "Omoheñói sa’y ñemoambue morotĩ ha hũvape g̃uarã, ñemoambue ko’ag̃agua ha’e <1>{{stepsNumber}}*</1> peteĩteĩva gotyo, ha katu <2>ikatu oñemoambue</2>.",
+        "disclaimer": "Oĩ saꞌi oguerekótava saꞌivéva variación peteĩva umi blanco-pe g̃uarã ojoajúramo oimeraẽva umi blanco ndive térã umi variación orekóva ndive."
     },
     "shades": {
         "code": "<1>{{colorCode}}</1> ñemoambue",
@@ -45,5 +54,13 @@
         },
         "summary": "Remoĩ jave peteĩ color blanco ramo, oñembojoapy avei inverso orekóva.",
         "title": "Umi sa’y ojehupytyséva"
+    },
+    "select": {
+        "add": "Moinge",
+        "as": {
+            "color": "umi sa’y ypykue",
+            "target": "umi sa’y ojehekahápe"
+        },
+        "label": "Eiporavo heta {{colorFunction}}."
     }
 }

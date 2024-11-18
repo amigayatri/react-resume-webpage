@@ -1,6 +1,6 @@
 import { DefaultTheme } from "styled-components"
-import palettesMap from "../../../../../constants/palettes"
-import { checkContrast } from "../../../../../lib/colors/"
+import { getPalette } from "../../../../../lib/palettes"
+import { ContrastChecker } from "../../../../../lib/colors/"
 import { NewInfo, ContrastInfo, generateOptions } from "./types"
 import { SelectStyleProps } from "../../../../../types/common"
 
@@ -66,18 +66,10 @@ export const generateDivisionOptions: generateOptions = () => {
 	]
 }
 
-type getNewInfo = (arg0: string) => NewInfo
+type getNewInfo = (arg0: string) => NewInfo | undefined
 export const getNewInfo: getNewInfo = (value) => {
 	const [group, name] = value.split("_")
-	const palettesInGroup = palettesMap.has(group)
-		? palettesMap.get(group)
-		: new Map()
-	const newPalette = palettesInGroup?.get(name)
-	return {
-		name,
-		group,
-		colors: newPalette === undefined ? [] : newPalette.colors
-	}
+	return getPalette(group, name)
 }
 
 interface SimpleTheme {
@@ -109,18 +101,6 @@ const cleanTheme: cleanTheme = ({ background, primary }) => {
 	}
 }
 
-type cleanColors = (arg0: string[], arg1: number, arg2: RawTheme) => string[]
-export const cleanColors: cleanColors = (newColors, newContrast, rawTheme) => {
-	const theme = cleanTheme(rawTheme)
-	const cleanToUse: string[] = []
-	for (const color of newColors) {
-		if (checkContrast(theme.background, color) <= newContrast) {
-			cleanToUse.push(color)
-		}
-	}
-	return cleanToUse.length > 0 ? cleanToUse : [theme.primary]
-}
-
 const defaultStyle: SelectStyleProps = {
 	label: {
 		bg: defaultColors.purple,
@@ -148,3 +128,4 @@ export const generateSelectStyle: generateSelectStyle = (theme) => {
 		}
 	}
 }
+export { ContrastChecker }

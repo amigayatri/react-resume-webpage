@@ -1,5 +1,13 @@
 {
     "addColor": {
+        "colorInput": {
+            "selected": "Cor selecionada",
+            "add": "Adicione como {{colorFunction}}",
+            "as": {
+                "target": "cor alvo",
+                "color": "cor de origem"
+            }
+        },
         "buttons": {
             "addMany": {
                 "hidden": "Adicionar várias cores",
@@ -28,8 +36,9 @@
         "title": "Cores adicionadas"
     },
     "hero": {
-        "summary": "Cria variações da cor para preto e branco, o número padrão de variações é 10 em cada direção, mas pode ser alterado",
-        "title": "Gerador de Variação de Cores"
+        "subheading": "Cria variações da cor para preto e branco, o número atual de variações é <1>{{stepsNumber}}*</1> em cada direção, mas <2>pode ser alterado</2>.",
+        "title": "Gerador de Variação de Cores",
+        "disclaimer": "Algumas cores terão menos variações para determinados alvos, caso coincidam com algum dos alvos ou suas variações."
     },
     "shades": {
         "code": "Variações de <1>{{colorCode}}</1>",
@@ -45,5 +54,13 @@
         },
         "summary": "Quando você adiciona uma cor como alvo, o inverso dela também é adicionado.",
         "title": "Cores alvo"
+    },
+    "select": {
+        "label": "Escolha várias {{colorFunction}}",
+        "add": "Adicione",
+        "as": {
+            "target": "cores alvo",
+            "color": "cores de origem"
+        }
     }
 }

@@ -14,7 +14,9 @@
         "resume": "Περίληψη",
         "site-stats": "Στατιστικά",
         "map": "Χάρτης της Βραζιλίας",
-        "shades": "Παραλλαγές τόνου"
+        "shades": "Παραλλαγές τόνου",
+        "lyric": "στίχοι {{musicName}}",
+        "musics": "Διαθέσιμα τραγούδια"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Προσωπική ιστοσελίδα"

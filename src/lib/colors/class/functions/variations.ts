@@ -1,4 +1,4 @@
-import { getSteps, shadeGenerator, getTargets } from "./"
+import { shadeGenerator, Controller } from "./"
 import { targetPair, targetVariations, variations } from "../types"
 
 type getTargetVariations = (
@@ -25,8 +25,9 @@ const getTargetVariations: getTargetVariations = ([from, to], color, steps) => {
 type getVariations = (color: string) => variations
 export const getVariations: getVariations = (color) => {
 	const variations = new Map()
-	const steps = getSteps()
-	for (const targets of getTargets()) {
+	const controller = new Controller()
+	const steps = controller.steps.get()
+	for (const targets of controller.targets.get()) {
 		const [from, targetVariations] = getTargetVariations(targets, color, steps)
 		variations.set(from, targetVariations)
 	}

@@ -1,4 +1,4 @@
-import { PaletteInfoProps } from "../../../types/palette"
+import { groupKey, paletteKey } from "../../../types/palette"
 import {
 	SelectStyleProps,
 	ElementProps,
@@ -8,13 +8,18 @@ import {
 
 export type showing = Map<string, Set<string>>
 
+interface DefaultPalette {
+	palette: paletteKey | "_"
+	group: groupKey
+}
+
 export interface PaletteSelectElementProps extends ElementProps {
 	onSelect: onSelectChange
 	local: string
 	label: { palette: string; group?: string }
 	fontSize: number
 	addMultiple?: boolean
-	defaultValue?: PaletteInfoProps
+	defaultValue?: DefaultPalette
 	showing?: showing
 	Button?: React.ReactElement
 	customStyle?: SelectStyleProps

@@ -1,9 +1,15 @@
-export interface PaletteProps {
-	icon: string
+import { paletteKey, groupKey } from "../../lib/palettes/maps/types"
+import { iconKey } from "../common"
+export type { paletteKey, groupKey }
+
+export interface PaletteInfoProps {
+	name: paletteKey
+	group: groupKey
+}
+
+export interface PaletteProps extends PaletteInfoProps {
+	icon: iconKey
 	colors: Array<string>
 }
-export interface PaletteInfoProps {
-	name: string
-	group: string
-}
-export interface PaletteGroupProps extends Map<string, PaletteProps> {}
+
+export type groupMap = Map<paletteKey, PaletteProps>

@@ -6,7 +6,7 @@ import {
 	Item
 } from "./PaletteAnchors.styled"
 import { MulticoloredName } from "../../../../common/client"
-import palettesMap from "../../../../../constants/palettes"
+import { getPalette } from "../../../../../lib/palettes"
 import { PaletteAnchorsProps } from "../types"
 
 export const PaletteAnchors = ({ list, t, lng }: PaletteAnchorsProps) => {
@@ -17,7 +17,9 @@ export const PaletteAnchors = ({ list, t, lng }: PaletteAnchorsProps) => {
 			<AnchorList>
 				{list.map(({ group, name }, idx) => {
 					const id = `${group}-${name}`.replace(" ", "_")
-					const iconId = palettesMap.get(group)?.get(name)?.icon
+					const newPalette = getPalette(group, name)
+					if (newPalette === undefined) return
+					const iconId = newPalette.icon
 					return (
 						<Item key={"palette-anchor-idx-" + idx}>
 							<Anchor href={`#${id}`}>

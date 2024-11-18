@@ -18,7 +18,15 @@
                 "showing": "停止更改目标颜色"
             }
         },
-        "title": "添加颜色"
+        "title": "添加颜色",
+        "colorInput": {
+            "add": "添加为 {{colorFunction}}",
+            "as": {
+                "color": "原色",
+                "target": "目标颜色"
+            },
+            "selected": "选定的颜色"
+        }
     },
     "colorList": {
         "summary": {
@@ -28,8 +36,9 @@
         "title": "添加了颜色"
     },
     "hero": {
-        "summary": "创建黑色和白色的颜色变化，每个方向的默认变化数量为 10，但可以更改",
-        "title": "颜色变化发生器"
+        "title": "颜色变化发生器",
+        "subheading": "创建黑白颜色变化，当前每个方向的变化数量为 <1>{{stepsNumber}}*</1>，但<2>可以更改</2>。",
+        "disclaimer": "如果某些颜色与任何目标或其变化一致，则某些颜色对于某些目标的变化会较少。"
     },
     "shades": {
         "code": "<1>{{colorCode}}</1> 的变体",
@@ -45,5 +54,13 @@
         },
         "summary": "当您添加一种颜色作为目标时，也会添加她的逆色。",
         "title": "目标颜色"
+    },
+    "select": {
+        "add": "添加",
+        "as": {
+            "color": "原来的颜色",
+            "target": "目标颜色"
+        },
+        "label": "选择多个 {{colorFunction}}"
     }
 }

@@ -1,16 +1,18 @@
 import { AnimalListWrapper } from "./AnimalList.styled.ts"
-import AnimalAPI from "../../../../api/Animals"
+import { AnimalAPI, animalKey } from "../../../../api/Animals"
 import { useState } from "react"
 import { Controls, AddButtons, PicturesLists } from "../"
 import { emptyPics, defaultControls } from "../../../../constants/animals.ts"
 import { AnimalListBaseElementProps } from "../types.ts"
 
+type handleFetch = (id: animalKey) => Promise<string[]>
+type handleAddPicture = (id: animalKey) => void
 export const AnimalListBase = (props: AnimalListBaseElementProps) => {
 	const api = new AnimalAPI()
 	const [pictures, setPictures] = useState(new Map(emptyPics))
 	const [controls, setControls] = useState(defaultControls)
 
-	const handleFetch = async (id: string) => {
+	const handleFetch: handleFetch = async (id) => {
 		const { count } = controls
 		const newList = []
 		for (let i = 0; i < count; i++) {
@@ -19,7 +21,7 @@ export const AnimalListBase = (props: AnimalListBaseElementProps) => {
 		}
 		return newList
 	}
-	const handleAddPicture = (id: string) => {
+	const handleAddPicture: handleAddPicture = (id) => {
 		handleFetch(id).then((newList) => {
 			const newPictures = new Map(pictures.entries())
 			const prev = pictures.get(id)

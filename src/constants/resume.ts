@@ -1,4 +1,25 @@
-export const resume = {
+import { ContactProps, SectionProps } from "../types/resume"
+interface Translatable {
+	t: boolean
+	key: string
+}
+interface Resume {
+	header: {
+		name: string
+		job: Translatable
+	}
+	summary: Translatable
+	sections: {
+		t: boolean
+		arr: SectionProps[]
+	}
+	contacts: {
+		t: boolean
+		arr: ContactProps[]
+	}
+}
+
+export const resume: Resume = {
 	header: {
 		name: "Amira Gayatri El Assad Hempel",
 		job: {

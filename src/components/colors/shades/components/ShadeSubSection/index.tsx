@@ -14,7 +14,6 @@ import {
 	showSquare,
 	showTargetsVariations
 } from "../types"
-import { CSSProperties } from "react"
 
 export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 	const currCode = color.code
@@ -38,18 +37,17 @@ export const ShadeSubSection = ({ color, t }: ShadeSubSectionProps) => {
 		if (fromSimple === undefined) return
 		const { code, inverse } = fromSimple
 		const variationsArr = Array.from(currVariations.values())
-		const style: CSSProperties = { backgroundColor: code, color: inverse }
 		return (
 			<TargetWrapper key={`variations-${currCode}-from-${code}-to-${inverse}`}>
 				<PairWrapper>
 					<ShadeSubtitle>
 						<Trans t={t} tOptions={{ colorCode: code }} i18nKey="shades.from">
-							t<Code style={style}>l</Code>t
+							t<Code style={{ backgroundColor: code, color: inverse }}>l</Code>t
 						</Trans>
 					</ShadeSubtitle>
 					<ShadeSubtitle>
 						<Trans t={t} tOptions={{ colorCode: inverse }} i18nKey="shades.to">
-							t<Code style={style}>l</Code>t
+							t<Code style={{ backgroundColor: inverse, color: code }}>l</Code>t
 						</Trans>
 					</ShadeSubtitle>
 				</PairWrapper>

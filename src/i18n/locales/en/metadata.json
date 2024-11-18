@@ -14,7 +14,9 @@
         "resume": "Resume",
         "site-stats": "Stats",
         "map": "Map of Brazil",
-        "shades": "Tone Variations"
+        "shades": "Tone Variations",
+        "lyric": "{{musicName}} lyrics",
+        "musics": "Available songs"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

@@ -12,6 +12,8 @@ export const SectionTitle = styled.h2`
 
 export const SubHeading = styled.p`
 	font-size: 1.125rem;
+	flex: 1;
+	display: inline-block;
 	font-family: ${({ theme }) => theme.fonts.body},
 		${({ theme }) => theme.fonts.backup};
 `

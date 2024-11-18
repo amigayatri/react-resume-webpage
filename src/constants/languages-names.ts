@@ -14,5 +14,6 @@ export const languageNames: { [key: string]: string } = {
 	la: "Latinus",
 	pa: "ਪੰਜਾਬੀ",
 	"pt-BR": "Português brasileiro",
+	ru: "Русский",
 	zh: "中国人"
 }

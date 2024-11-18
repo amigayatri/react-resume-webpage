@@ -1,10 +1,10 @@
 import { SimpleHeroBase } from "./SimpleHeroBase"
 import { useTranslation } from "../../../i18n/"
-import { BaseElementProps, ElementProps } from "../../../types/common/"
+import { BaseElementProps, ElementProps, iconKey } from "../../../types/common/"
 import { PaletteInfoProps } from "../../../types/palette"
 
 interface SimpleHeroProps extends ElementProps {
-	titleIcon?: string
+	titleIcon?: iconKey
 	hasMulticolored?: boolean
 	local: string
 	paletteInfo?: PaletteInfoProps

@@ -1,9 +1,19 @@
 let variationSteps = 4
 
 type setSteps = (newValue: number) => void
-export const setSteps: setSteps = (newSteps) => {
+const setSteps: setSteps = (newSteps) => {
 	variationSteps = newSteps
 }
 
 type getSteps = () => number
-export const getSteps: getSteps = () => variationSteps
+const getSteps: getSteps = () => variationSteps
+
+export interface StepControllerClass {
+	set: setSteps
+	get: getSteps
+}
+
+export class StepController implements StepControllerClass {
+	set = setSteps
+	get = getSteps
+}

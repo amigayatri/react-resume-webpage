@@ -14,7 +14,9 @@
         "resume": "再開する",
         "site-stats": "統計",
         "map": "ブラジルの地図",
-        "shades": "音色バリエーション"
+        "shades": "音色バリエーション",
+        "lyric": "{{musicName}}の歌詞",
+        "musics": "利用可能な曲"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "個人ウェブサイト"

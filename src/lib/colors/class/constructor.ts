@@ -1,5 +1,7 @@
 import { ColorPalette, variations } from "./types"
-import { createPalette, getVariations } from "./functions"
+import { createPalette, getVariations, isHex, Controller } from "./functions"
+
+const controller = new Controller()
 
 interface ColorClass {
 	code: string
@@ -7,8 +9,7 @@ interface ColorClass {
 	palette: ColorPalette
 	regenerateVariations: () => void
 }
-
-export class Color implements ColorClass {
+class Color implements ColorClass {
 	code
 	variations
 	palette
@@ -22,4 +23,31 @@ export class Color implements ColorClass {
 	regenerateVariations = () => {
 		this.variations = getVariations(this.code)
 	}
+}
+
+export type ColorType = Color
+type createColor = (code: string) => ColorType | false
+export const createColor: createColor = (code) => {
+	if (!isHex(code)) return false
+	return new Color(code)
+}
+type StepsInfo = [number, boolean]
+
+type create = (code: string) => ColorType
+const create: create = (code) =>
+	!isHex(code) ? new Color("#000000") : new Color(code)
+
+type createSafeColor = (code: string, newInfo?: StepsInfo) => ColorType
+export const createSafeColor: createSafeColor = (code, newInfo) => {
+	if (newInfo !== undefined) {
+		const prevSteps = controller.steps.get()
+		const [newSteps, shouldGoBack] = newInfo
+		controller.steps.set(newSteps)
+		const newColor = create(code)
+		if (shouldGoBack) {
+			controller.steps.set(prevSteps)
+		}
+		return newColor
+	}
+	return create(code)
 }

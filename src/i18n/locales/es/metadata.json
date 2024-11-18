@@ -14,7 +14,9 @@
         "resume": "Reanudar",
         "site-stats": "Estadísticas",
         "map": "Mapa de Brasil",
-        "shades": "Variaciones de tono"
+        "shades": "Variaciones de tono",
+        "lyric": "Letras de {{musicName}}",
+        "musics": "Canciones disponibles"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "sitio web personal"

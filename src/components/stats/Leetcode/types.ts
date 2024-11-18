@@ -1,7 +1,8 @@
 import { LeetCode } from "../../../api/LeetCode"
-import { BaseElementProps, ElementProps } from "../../../types/common"
+import { BaseElementProps, ElementProps, iconKey } from "../../../types/common"
 import { BadgeProps, ProgrammingLanguageProps } from "../../../types/leetcode"
-
+import { targetVariations, variations } from "../../../lib/colors/types"
+export type { targetVariations, variations }
 export interface LeetcodeStatsProps extends ElementProps {}
 export interface LeetcodeStatsBaseProps extends BaseElementProps {}
 export interface LeetcodeStatsBaseProps extends LeetcodeStatsProps {}
@@ -44,7 +45,7 @@ export interface CalendarSymbolProps extends CalendarProps {
 export interface ButtonProps extends BaseElementProps {
 	fn: () => void
 	txt?: string
-	icon?: string
+	icon?: iconKey
 }
 interface HeatMapElementProps extends BaseElementProps {
 	isReversed: boolean

@@ -1,9 +1,11 @@
-import { BaseElementProps, ElementProps } from "../../../types/common"
+import { BaseElementProps, ElementProps, iconKey } from "../../../types/common"
+import { animalKey } from "../../../types/animals"
 import { Dispatch, SetStateAction } from "react"
+export type { animalKey, iconKey }
 
 export interface AnimalListProps {
 	list: string[]
-	icons: string[]
+	icons: iconKey[]
 }
 
 export interface ControlsValues {
@@ -21,16 +23,18 @@ export interface ControlsProps extends AnimalsElementProps {
 }
 
 export interface PicturesListsProps extends AnimalsElementProps {
-	pictures: [string, AnimalListProps][]
+	pictures: [animalKey, AnimalListProps][]
 }
 
+export type handleAdd = (arg0: animalKey) => void
 export interface AddButtonsProps extends AnimalsElementProps {
-	handleAdd: (arg0: string) => void
+	handleAdd: handleAdd
 }
+
 export interface RandomListProps extends AnimalsElementProps {
 	list: string[]
-	id: string
-	iconId: string
+	id: animalKey
+	iconId: iconKey
 	idx: number
 }
 export interface AnimalListElementProps extends ElementProps {}

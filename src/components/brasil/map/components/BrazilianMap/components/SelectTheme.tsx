@@ -13,7 +13,7 @@ export const SelectTheme = ({
 	return (
 		<>
 			<PaletteSelect
-				defaultValue={selected}
+				defaultValue={{ group: selected.group, palette: selected.name }}
 				customStyle={selectStyle}
 				label={{ palette: t("select.palette"), group: t("select.group") }}
 				type="by-group"

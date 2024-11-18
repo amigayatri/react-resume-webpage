@@ -1,6 +1,8 @@
+import { iconKey } from "../common"
+
 export interface ContactProps {
 	text: string
-	icon: string
+	icon: iconKey
 	link: string
 	showOnWeb: boolean
 }
@@ -11,12 +13,12 @@ export interface DateIntervalProps {
 export interface SectionProps {
 	name: string
 	items: string[]
-	icon: string
+	icon: iconKey
 	dates?: DateIntervalProps[]
 	subitem?: boolean
 }
 export interface TranslatedSectionProps {
-	icon: string
+	icon: iconKey
 	title: string
 	items: string[]
 	subitems?: string[]

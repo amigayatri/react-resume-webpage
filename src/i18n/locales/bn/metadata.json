@@ -14,7 +14,9 @@
         "resume": "পুনরায় শুরু করুন",
         "site-stats": "পরিসংখ্যান",
         "map": "ব্রাজিল মানচিত্র",
-        "shades": "টোন বৈচিত্র"
+        "shades": "টোন বৈচিত্র",
+        "lyric": "{{musicName}} গানের কথা",
+        "musics": "উপলব্ধ গান"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ব্যক্তিগত ওয়েবসাইট"

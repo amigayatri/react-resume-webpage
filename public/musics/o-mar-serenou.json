@@ -1,0 +1,107 @@
+{
+    "title": "O Mar Serenou",
+    "artist": "Clara Nunes",
+    "chorus": {
+        "lines": [
+            "O mar serenou quando ela pisou na areia",
+            "Quem samba na beira do mar é sereia",
+            "O mar serenou quando ela pisou na areia",
+            "Quem samba na beira do mar é sereia"
+        ],
+        "icons": [
+            "pandeiro",
+            "samba",
+            "beach",
+            "mermaid"
+        ]
+    },
+    "lyric": [
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": []
+        },
+        {
+            "lines": [
+                "O pescador não tem medo",
+                "É segredo se volta ou se fica",
+                "No fundo do mar",
+                "Ao ver a morena bonita",
+                "Sambando se explica que não vai pescar",
+                "Deixa o mar serenar"
+            ],
+            "icons": [
+                "fisherman",
+                "high tide"
+            ]
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": []
+        },
+        {
+            "lines": [
+                "A Lua brilhava vaidosa",
+                "De si orgulhosa e prosa",
+                "Com que Deus lhe deu",
+                "Ao ver a morena sambando",
+                "Foi se acabrunhando, ",
+                "então adormeceu",
+                "O sol apareceu"
+            ],
+            "icons": [
+                "moon",
+                "sun"
+            ]
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": []
+        },
+        {
+            "lines": [
+                "Um frio danado",
+                "que vinha do lado gelado",
+                "que o povo até se intimidou",
+                "Morena aceitou o desafio, ",
+                "Sambou e o frio sentiu seu calor",
+                "E o samba se esquentou"
+            ],
+            "icons": [
+                "snowflake",
+                "windy"
+            ]
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": []
+        },
+        {
+            "lines": [
+                "A estrela que estava escondida",
+                "Sentiu-se atraída",
+                "Depois então apareceu, ",
+                "mas ficou tão enternecida",
+                "Ingadou a si mesma",
+                "a estrela afinal",
+                "será ela ou sou eu?"
+            ],
+            "icons": [
+                "star"
+            ]
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": []
+        }
+    ]
+}

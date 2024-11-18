@@ -1,5 +1,5 @@
 import { PaletteInfoProps } from "../../../types/palette/"
-import { ElementProps } from "../../../types/common/"
+import { ElementProps, iconKey } from "../../../types/common/"
 import { MulticoloredNameBase } from "./MulticoloredNameBase"
 
 export interface MulticoloredNameProps extends ElementProps {
@@ -10,7 +10,7 @@ export interface MulticoloredNameProps extends ElementProps {
 	children: string | string[]
 	isCustom?: boolean
 	customColors?: string[]
-	iconId?: string
+	iconId?: iconKey
 	isReverse?: boolean
 	colorfulIcon?: boolean
 	fontSize: number

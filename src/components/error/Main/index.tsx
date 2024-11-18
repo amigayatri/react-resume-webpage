@@ -6,9 +6,10 @@ import { MainWrapper, IconsWrapper, IconWrapper, Button } from "./Main.styled"
 import { SVGIcon } from "../../common/"
 import { MulticoloredName } from "../../common/client.tsx"
 import { fallbackLng } from "../../../i18n/settings.ts"
+import { errorId } from "../../../types/error/"
 
 interface ErrorPageProps extends ElementProps {
-	id: string
+	id: errorId
 }
 
 export const ErrorMain = async ({ lng, id }: ErrorPageProps) => {

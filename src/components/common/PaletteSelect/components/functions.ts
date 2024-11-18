@@ -1,24 +1,24 @@
-import palettesMap from "../../../../constants/palettes"
+import { getNames, getGroups } from "../../../../lib/palettes/"
 import { OptionProps, GroupProps } from "../../../../types/common"
-import { PaletteGroupProps } from "../../../../types/palette"
+import { groupKey, paletteKey } from "../../../../types/palette"
 import { showing } from "../types"
 
 interface PaletteOptionProps extends OptionProps {
-	name: string
+	name: paletteKey | groupKey
 }
 interface PaletteOptionGroupProps extends GroupProps {
-	group: string
+	group: groupKey
 	size: number
 	options: PaletteOptionProps[]
 }
 
-type generateOptions = (group: string, name: string) => PaletteOptionProps
+type generateOptions = (group: groupKey, name: paletteKey) => PaletteOptionProps
 const generateOptions: generateOptions = (group, name) => {
 	const value = `${group}_${name}`
 	return { key: `names.${group}.${name}`, value, name }
 }
 
-type generateMultipleOption = (group: string) => PaletteOptionProps
+type generateMultipleOption = (group: groupKey) => PaletteOptionProps
 const generateMultipleOption: generateMultipleOption = (group) => {
 	return {
 		value: "#" + group,
@@ -28,17 +28,15 @@ const generateMultipleOption: generateMultipleOption = (group) => {
 	}
 }
 
-type generateGroups = (
-	arg0: [string, PaletteGroupProps],
-	arg1: boolean
-) => PaletteOptionGroupProps
-const generateGroups: generateGroups = ([group, palettes], addMultiple) => {
-	const optionsFromGroup = Array.from(palettes.keys(), (name) =>
+type generateGroups = (arg0: groupKey, arg1: boolean) => PaletteOptionGroupProps
+const generateGroups: generateGroups = (group, addMultiple) => {
+	const groupNames = getNames(group)
+	const optionsFromGroup = Array.from(groupNames, (name) =>
 		generateOptions(group, name)
 	)
 	const multipleOptions = addMultiple ? [generateMultipleOption(group)] : []
 	return {
-		size: palettes.size,
+		size: groupNames.length,
 		group,
 		groupKey: `groups.${group}`,
 		options: [...multipleOptions, ...optionsFromGroup]
@@ -50,7 +48,7 @@ export const generateGroupOptions: generateGroupOptions = () => {
 	return [
 		{
 			groupKey: "select.group",
-			options: Array.from(palettesMap, ([group]) => {
+			options: Array.from(getGroups(), (group) => {
 				return { value: group, key: `groups.${group}` }
 			})
 		}
@@ -90,14 +88,14 @@ export const generatePaletteOptions: generatePaletteOptions = (
 	addMultiple,
 	showing
 ) => {
-	const palettesOptions = Array.from(palettesMap, (value) =>
+	const palettesOptions = Array.from(getGroups(), (value) =>
 		generateGroups(value, addMultiple)
 	).map((optGroup) => validateGroup(optGroup, showing))
 	return palettesOptions
 }
 
 export const generateMapByGroup: () => Map<string, GroupProps> = () => {
-	const rawPalettes = Array.from(palettesMap, (value) =>
+	const rawPalettes = Array.from(getGroups(), (value) =>
 		generateGroups(value, false)
 	)
 	return new Map(

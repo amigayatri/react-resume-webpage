@@ -15,6 +15,7 @@ const colors = {
 }
 
 export const PacManLoaderWrapper = styled.span`
+	overflow: hidden;
 	height: ${value * 2 + unit};
 	width: ${value * 6 + unit};
 	position: relative;
