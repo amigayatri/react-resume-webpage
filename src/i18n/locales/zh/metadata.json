@@ -14,7 +14,9 @@
         "resume": "恢复",
         "site-stats": "统计数据",
         "map": "巴西地图",
-        "shades": "音调变化"
+        "shades": "音调变化",
+        "lyric": "{{musicName}} 歌词",
+        "musics": "可用歌曲"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "网站佩索阿尔"

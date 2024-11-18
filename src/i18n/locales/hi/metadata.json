@@ -14,7 +14,9 @@
         "resume": "फिर शुरू करना",
         "site-stats": "आँकड़े",
         "map": "ब्राज़ील का मानचित्र",
-        "shades": "स्वर भिन्नता"
+        "shades": "स्वर भिन्नता",
+        "lyric": "{{musicName}} गीत",
+        "musics": "उपलब्ध गाने"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "निजी वेबसाइट"

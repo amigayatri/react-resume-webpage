@@ -14,7 +14,9 @@
         "resume": "ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ",
         "site-stats": "ਅੰਕੜੇ",
         "map": "ਬ੍ਰਾਜ਼ੀਲ ਦਾ ਨਕਸ਼ਾ",
-        "shades": "ਟੋਨ ਭਿੰਨਤਾਵਾਂ"
+        "shades": "ਟੋਨ ਭਿੰਨਤਾਵਾਂ",
+        "lyric": "{{musicName}} ਬੋਲ",
+        "musics": "ਉਪਲਬਧ ਗੀਤ"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ਨਿੱਜੀ ਵੈੱਬਸਾਈਟ"

@@ -14,7 +14,9 @@
         "resume": "CV",
         "site-stats": "Statistiques",
         "map": "Carte du Brésil",
-        "shades": "Variations de tons"
+        "shades": "Variations de tons",
+        "lyric": "{{musicName}} paroles",
+        "musics": "Chansons disponibles"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Site personnel"

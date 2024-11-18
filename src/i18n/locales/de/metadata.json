@@ -14,7 +14,9 @@
         "resume": "Wieder aufnehmen",
         "site-stats": "Statistiken",
         "map": "Karte von Brasilien",
-        "shades": "Tonvariationen"
+        "shades": "Tonvariationen",
+        "lyric": "{{musicName}} Liedtext",
+        "musics": "Verfügbare Lieder"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Site-Pessoal"

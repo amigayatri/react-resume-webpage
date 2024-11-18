@@ -14,6 +14,31 @@ export const Title = styled.h1`
 	margin-bottom: 32px;
 `
 
-export const Summary = styled.p`
-	font-size: 1.25rem;
+export const ListTitle = styled.h2`
+	font-size: 1.5rem;
+`
+export const MusicList = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 32px;
+`
+
+export const MusicButton = styled.div`
+	background-color: ${({ theme }) => theme.blue};
+	color: ${({ theme }) => theme.white};
+	border-radius: 16px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+`
+
+export const Link = styled.a`
+	text-decoration: none;
+	color: ${({ theme }) => theme.white};
+	font-size: 1.5rem;
+	font-weight: 700;
 `

@@ -14,7 +14,9 @@
         "resume": "سيرة ذاتية",
         "site-stats": "احصائيات",
         "map": "خريطة البرازيل",
-        "shades": "اختلافات النغمات"
+        "shades": "اختلافات النغمات",
+        "lyric": "كلمات اغنية {{musicName}}.",
+        "musics": "الأغاني المتوفرة"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"
