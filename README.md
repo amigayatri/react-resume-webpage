@@ -13,7 +13,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
     alt="Styled components"
   />
   <img
-    src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=f92472&labelColor=212117&color=f92472"
+    src="https://img.shields.io/badge/Next-CA4245?style=for-the-badge&logo=nextdotjs&logoColor=f92472&labelColor=212117&color=f92472"
     alt="React router"
   />
   <img
@@ -32,11 +32,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
     src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=212117&labelColor=212117&color=f92472"
     alt="Prettier"
   />
-  <img
-    src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=212117&labelColor=212117&color=f92472"
-    alt="Vite"
-  />
-
+ 
 ## Author
 
 - [@amigayatri](https://github.com/amigayatri/)
@@ -54,19 +50,6 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
 
     A project done to better understand translation and the react i18n lib, with automated translations to fourteen more languages
 
-- LeetCode Stats Page
-
-     A project to show my progress on LeetCode
-
-- Site Stats Page
-
-    Some stats about my webpage
-
-## Roadmap
-
-- New pages:
-
-    - Resume generator
 
 ## Colors used
 
