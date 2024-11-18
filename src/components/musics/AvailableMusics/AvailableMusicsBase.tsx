@@ -23,7 +23,7 @@ export const AvailableMusicsBase = ({ t, lng }: AvailableMusicsBaseProps) => {
 			<ListTitle>{t("list.title")}</ListTitle>
 			<MusicList>
 				{musics.map(([path, name], idx) => (
-					<Link key={path} href={path}>
+					<Link key={path} href={`/${lng}/musics/${path}`}>
 						<MusicButton>
 							<SVGIcon
 								color="currentColor"
