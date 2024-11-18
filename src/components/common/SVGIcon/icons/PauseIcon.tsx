@@ -6,7 +6,7 @@ export const PauseIcon = (props: SVGProps) => {
 	const { alt, size, isToggle, hasTransition, color } = props
 	if (isToggle === true) {
 		return (
-			<ToggleIconWrapper $isLight>
+			<ToggleIconWrapper $isTrue>
 				<Icon
 					$hasTransition={hasTransition}
 					$size={size}

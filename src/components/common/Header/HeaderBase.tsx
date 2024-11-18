@@ -29,7 +29,8 @@ export const HeaderBase = ({
 					icon={iconSettings}
 					state={theme}
 					stateChangeFN={changeTheme}
-					ariaLabel={t("theme.change")}
+					alwaysDark
+					label={t("theme.change")}
 				/>
 			</SettingsWrapper>
 		</MenuWrapper>

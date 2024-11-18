@@ -2,5 +2,9 @@
     "title": "Praesto carmina",
     "list": {
         "title": "Tituli:"
+    },
+    "play": {
+        "lyric": "Ludere lyrics",
+        "music": "Ludere musica"
     }
 }

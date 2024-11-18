@@ -13,7 +13,7 @@ export interface BaseElementProps extends ElementProps {
 	t: TFunction<any, undefined>
 }
 
-interface ToggleIconProps {
+export interface ToggleIconProps {
 	id: toggleIconKey
 	trueValAsStr: string
 	shouldChange: boolean
@@ -26,8 +26,11 @@ interface ToggleIconProps {
 export interface ToggleProps extends ElementProps {
 	state: unknown
 	stateChangeFN: () => void
-	ariaLabel: string
+	label: string
 	icon: ToggleIconProps
+	alwaysDark?: boolean
+	showLabel?: boolean
+	customColor?: string
 }
 
 export interface SVGProps {

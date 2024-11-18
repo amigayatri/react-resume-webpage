@@ -1,4 +1,4 @@
-import { ToggleWrapper } from "./Toggle.styled"
+import { ToggleWrapper, Wrapper, Label } from "./Toggle.styled"
 import { ToggleProps, BaseElementProps } from "../../../types/common/"
 import { SVGIcon } from "../client"
 
@@ -6,31 +6,39 @@ interface ToggleBaseProps extends ToggleProps {}
 interface ToggleBaseProps extends BaseElementProps {}
 
 export const ToggleBase = ({
-	ariaLabel,
+	label,
 	stateChangeFN,
 	state,
 	icon,
+	customColor,
+	alwaysDark,
+	showLabel,
 	lng
 }: ToggleBaseProps) => {
 	return (
-		<ToggleWrapper
+		<Wrapper
 			tabIndex={0}
-			aria-label={ariaLabel}
+			aria-label={label}
 			onClick={stateChangeFN}
 			onKeyDown={(e) => e.key === "enter" && stateChangeFN()}
 		>
-			{icon.shouldChange ? (
-				<SVGIcon
-					lng={lng}
-					local="toggle"
-					size={16}
-					id={
-						state === icon.trueValAsStr ? icon.options.true : icon.options.false
-					}
-				/>
-			) : (
-				<SVGIcon local="toggle" lng={lng} size={16} id={icon.id} />
-			)}
-		</ToggleWrapper>
+			<ToggleWrapper $darkBg={alwaysDark === true} $customColor={customColor}>
+				{icon.shouldChange ? (
+					<SVGIcon
+						lng={lng}
+						local="toggle"
+						size={16}
+						id={
+							state === icon.trueValAsStr
+								? icon.options.true
+								: icon.options.false
+						}
+					/>
+				) : (
+					<SVGIcon local="toggle" lng={lng} size={16} id={icon.id} />
+				)}
+			</ToggleWrapper>
+			{showLabel === true && <Label $customColor={customColor}>{label}</Label>}
+		</Wrapper>
 	)
 }

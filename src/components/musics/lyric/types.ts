@@ -1,12 +1,13 @@
 import { ElementProps, BaseElementProps } from "../../../types/common"
-import { musicName, musicPath } from "../../../types/musics"
+import { musicName, musicPath, musicAccentColor } from "../../../types/musics"
 
-interface MusicElementProps extends ElementProps {
+export interface MusicElementProps extends ElementProps {
+	accentColor: musicAccentColor
+}
+
+export interface MusicBaseElement extends MusicElementProps {}
+export interface MusicBaseElement extends BaseElementProps {}
+export interface MusicMainProps extends ElementProps {
 	name: musicName
 	path: musicPath
 }
-
-export interface LyricProps extends MusicElementProps {}
-export interface LyricBaseProps extends BaseElementProps {}
-export interface LyricBaseProps extends LyricProps {}
-export interface MusicMainProps extends MusicElementProps {}
