@@ -13,7 +13,7 @@ A [web](https://amiragayatri.dev) version of my resume and personal projects
     alt="Styled components"
   />
   <img
-    src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=f92472&labelColor=212117&color=f92472"
+    src="https://img.shields.io/badge/Next-CA4245?style=for-the-badge&logo=nextdotjs&logoColor=f92472&labelColor=212117&color=f92472"
     alt="React router"
   />
   <img
