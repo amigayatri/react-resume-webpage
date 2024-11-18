@@ -25,5 +25,6 @@
             "palette": "Paletas inspiradas en diferentes fuentes, utilizadas en algunos lugares del proyecto, que se muestran aquí con sus íconos personalizados.",
             "shades": "Generador de tonos entre colores de destino, con opción de personalizar la cantidad de tonos intermedios y agregar nuevos colores de destino (por defecto los destinos son blanco y negro)"
         }
-    }
+    },
+    "music": "Letras de canciones"
 }

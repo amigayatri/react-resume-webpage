@@ -27,16 +27,6 @@ export const SettingsWrapper = styled.div`
 	justify-content: flex-end;
 	align-items: center;
 	width: 100%;
-`
-
-export const LanguageSelect = styled.select`
-	font-size: 1.25rem;
-	background-color: ${({ theme }) => theme.almostBlack};
 	color: ${({ theme }) => theme.white};
-	border-color: ${({ theme }) => theme.almostBlack};
-	${media.max.md} {
-		max-width: 200px;
-	}
+	margin-left: 16px;
 `
-
-export const LanguageOption = styled.option``

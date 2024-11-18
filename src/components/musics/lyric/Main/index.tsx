@@ -1,12 +1,14 @@
 import { MainBase } from "../../../common/Main/MainBase.tsx"
-import { Lyric } from "../Lyric/client.tsx"
+import { Music } from "../Music/client.tsx"
 import { MusicMainProps } from "../types"
+import { getMusicInfo } from "../../../../lib/musics/"
 
 export const Main = async (props: MusicMainProps) => {
-	const { lng } = props
+	const { lng, path } = props
+	const info = getMusicInfo(path)
 	return (
 		<MainBase lng={lng}>
-			<Lyric {...props} />
+			<Music accentColor={info[0] !== false ? info[2] : ""} {...props} />
 		</MainBase>
 	)
 }

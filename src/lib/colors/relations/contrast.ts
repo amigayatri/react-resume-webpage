@@ -42,3 +42,9 @@ export class ContrastChecker implements ContrastCheckerClass {
 		return clean
 	}
 }
+
+const minContrast = 1 / 4.5
+type canUseColor = (color: string, bg: string) => boolean
+export const canUseColor: canUseColor = (color, bg) => {
+	return checkContrast(color, bg) <= minContrast
+}

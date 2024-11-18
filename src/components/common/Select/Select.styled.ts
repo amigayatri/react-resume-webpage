@@ -51,6 +51,7 @@ export const SelectWrapper = styled.div<{
 	width: 100%;
 	max-width: ${({ $onHeader }) => ($onHeader ? "320px" : "100%")};
 	margin-left: ${({ $onHeader }) => ($onHeader ? "16px" : "0")};
+	margin-right: ${({ $onHeader }) => ($onHeader ? "16px" : "0")};
 
 	${SelectInputWrapper} {
 		border-color: ${({ theme, $onHeader, $customColors }) =>

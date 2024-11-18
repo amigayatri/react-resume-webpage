@@ -20,7 +20,8 @@
             "lines": [
                 "$chorus"
             ],
-            "icons": []
+            "icons": [],
+            "startTime": "00:11"
         },
         {
             "lines": [
@@ -34,13 +35,15 @@
             "icons": [
                 "fisherman",
                 "high tide"
-            ]
+            ],
+            "startTime": "00:32"
         },
         {
             "lines": [
                 "$chorus"
             ],
-            "icons": []
+            "icons": [],
+            "startTime": "00:44"
         },
         {
             "lines": [
@@ -55,13 +58,15 @@
             "icons": [
                 "moon",
                 "sun"
-            ]
+            ],
+            "startTime": "01:04"
         },
         {
             "lines": [
                 "$chorus"
             ],
-            "icons": []
+            "icons": [],
+            "startTime": "01:17"
         },
         {
             "lines": [
@@ -75,13 +80,15 @@
             "icons": [
                 "snowflake",
                 "windy"
-            ]
+            ],
+            "startTime": "01:39"
         },
         {
             "lines": [
                 "$chorus"
             ],
-            "icons": []
+            "icons": [],
+            "startTime": "01:51"
         },
         {
             "lines": [
@@ -95,13 +102,15 @@
             ],
             "icons": [
                 "star"
-            ]
+            ],
+            "startTime": "02:12"
         },
         {
             "lines": [
                 "$chorus"
             ],
-            "icons": []
+            "icons": [],
+            "startTime": "02:24"
         }
     ]
 }

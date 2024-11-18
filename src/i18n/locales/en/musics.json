@@ -2,5 +2,9 @@
     "title": "Available songs",
     "list": {
         "title": "Titles:"
+    },
+    "play": {
+        "lyric": "Play the lyrics",
+        "music": "Play the music"
     }
 }

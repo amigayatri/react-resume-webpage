@@ -6,7 +6,7 @@ export const SunIcon = (props: SVGProps) => {
 	const { alt, size, isToggle, hasTransition, color } = props
 	if (isToggle === true) {
 		return (
-			<ToggleIconWrapper $isLight={false}>
+			<ToggleIconWrapper>
 				<Icon
 					$hasTransition={hasTransition}
 					$size={size}

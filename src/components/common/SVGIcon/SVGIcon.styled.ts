@@ -8,16 +8,16 @@ export const IconWrapper = styled.div`
 	width: fit-content;
 	display: inline-block;
 `
-export const ToggleIconWrapper = styled.div<{ $isLight: boolean }>`
+export const ToggleIconWrapper = styled.div<{ $isTrue?: boolean }>`
 	width: 24px;
 	height: 24px;
 	margin: 2px;
 	display: inline-block;
 	padding: 4px;
 	border-radius: 50%;
-	background-color: ${({ theme }) => theme.accent};
 	z-index: 5;
-	transform: ${({ $isLight }) => ($isLight ? "translate(12px)" : "none")};
+	transform: ${({ $isTrue }) =>
+		$isTrue === true ? "translate(12px)" : "none"};
 `
 
 export const Icon = styled.svg<{ $size: number; $hasTransition: boolean }>`

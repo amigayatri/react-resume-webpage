@@ -2,5 +2,9 @@
     "title": "Chansons disponibles",
     "list": {
         "title": "Titres :"
+    },
+    "play": {
+        "lyric": "Joue les paroles",
+        "music": "Joue de la musique"
     }
 }

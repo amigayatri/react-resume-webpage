@@ -4,7 +4,7 @@ import { useTranslation } from "../../../../i18n"
 import { ThemeClient } from "../../../../components/common/client"
 import { ErrorMain } from "../../../../components/error/"
 import { PageProps } from "../../../../types/common/"
-import { availableMusicsNames } from "../../../../constants/musics"
+import { getMusicInfo } from "../../../../lib/musics"
 
 interface MusicPageProps extends PageProps {
 	params: Promise<{ lng: string; path: string }>
@@ -13,15 +13,14 @@ interface MusicPageProps extends PageProps {
 export async function generateMetadata({ params }: MusicPageProps) {
 	let { lng, path } = await params
 	const lngNotFound = languages.indexOf(lng) < 0
-	const musicName = availableMusicsNames.get(path)
-	const musicNotFound = musicName === undefined
+	const [musicName] = getMusicInfo(path)
 	if (lngNotFound) lng = fallbackLng
 	const { t } = await useTranslation(lng, "metadata")
 	return {
 		title: {
 			default: t("base-title", {
 				pathTitle:
-					lngNotFound || musicNotFound
+					lngNotFound || musicName === false
 						? t("path.404")
 						: t("path.lyric", { musicName: musicName })
 			})
@@ -32,13 +31,13 @@ export async function generateMetadata({ params }: MusicPageProps) {
 
 export default async function Page({ params }: MusicPageProps) {
 	let { lng, path } = await params
-	const musicName = availableMusicsNames.get(path)
-	const musicNotFound = musicName === undefined
+	const [musicName] = getMusicInfo(path)
 	const lngNotFound = languages.indexOf(lng) < 0
-	if (lngNotFound || musicNotFound) {
+	if (lngNotFound) lng = fallbackLng
+	if (lngNotFound || musicName === false) {
 		return (
-			<ThemeClient onError={true} lng={lngNotFound ? fallbackLng : lng}>
-				<ErrorMain lng={lngNotFound ? fallbackLng : lng} id="404" />
+			<ThemeClient onError={true} lng={lng}>
+				<ErrorMain lng={lng} id="404" />
 			</ThemeClient>
 		)
 	}

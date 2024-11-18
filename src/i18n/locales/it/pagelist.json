@@ -25,5 +25,6 @@
             "palette": "Palette ispirate a diverse fonti, utilizzate in alcuni punti del progetto, qui mostrate con le loro icone personalizzate.",
             "shades": "Generatore di toni tra i colori target, con la possibilità di personalizzare la quantità di toni intermedi e aggiungere nuovi colori target (per impostazione predefinita i target sono bianco e nero)"
         }
-    }
+    },
+    "music": "Testi di canzoni"
 }

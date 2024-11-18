@@ -25,5 +25,6 @@
             "palette": "Palettes inspirées de différentes sources, utilisées à certains endroits du projet, présentées ici avec leurs icônes personnalisées.",
             "shades": "Générateur de tons entre couleurs cibles, avec possibilité de personnaliser la quantité de tons intermédiaires et d'ajouter de nouvelles couleurs cibles (par défaut les cibles sont en noir et blanc)"
         }
-    }
+    },
+    "music": "Paroles de chansons"
 }

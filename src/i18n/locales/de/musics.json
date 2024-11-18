@@ -2,5 +2,9 @@
     "title": "Verfügbare Lieder",
     "list": {
         "title": "Titel:"
+    },
+    "play": {
+        "lyric": "Spielen Sie den Liedtext ab",
+        "music": "Spielen Sie die Musik"
     }
 }

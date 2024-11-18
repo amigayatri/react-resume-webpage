@@ -25,5 +25,6 @@
             "palette": "Von verschiedenen Quellen inspirierte Paletten, die an einigen Stellen im Projekt verwendet werden und hier mit ihren benutzerdefinierten Symbolen angezeigt werden.",
             "shades": "Generator von Tönen zwischen Zielfarben, mit der Möglichkeit, die Menge der Zwischentöne anzupassen und neue Zielfarben hinzuzufügen (standardmäßig sind die Ziele Schwarz und Weiß)."
         }
-    }
+    },
+    "music": "Songtexte"
 }
