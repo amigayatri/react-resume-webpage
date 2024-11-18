@@ -46,7 +46,13 @@ export const colorLinks: LinkProps[] = [
 ]
 
 export const extraPages: LinkProps[] = [
+
 	{
+		path: "musics",
+		key: "music",
+		icon: "music",
+		isExternal: false
+	},{
 		path: "cats",
 		key: "cats",
 		icon: "bastet",
