@@ -1,5 +1,5 @@
 import { SVGBaseProps } from "./"
-import { icons, usedIcons, iconKey } from "./constants"
+import { getIcon } from "../../../icons/"
 
 export const SVGIconBase = ({
 	id,
@@ -9,13 +9,8 @@ export const SVGIconBase = ({
 	color,
 	t
 }: SVGBaseProps) => {
-	const prevLocalSet = usedIcons.get(local)
-	const prevLocalIcons =
-		prevLocalSet === undefined ? new Set<iconKey>() : prevLocalSet
-	prevLocalIcons.add(id)
-	usedIcons.set(local, prevLocalIcons)
 	const alt = t(`alt.${id}`)
-	const IconEl = icons.get(id)
+	const IconEl = getIcon(id, local)
 	if (IconEl === undefined) return
 	return (
 		<IconEl

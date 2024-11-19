@@ -6,7 +6,7 @@ import { MainTitle } from "../Common.styled"
 import { MulticoloredName } from "../../common/client.tsx"
 import { ReactElement, useState } from "react"
 import { StatsBaseProps } from "../types"
-import { iconKey } from "../../common/SVGIcon/constants.ts"
+import { iconKey } from "../../../icons/index.ts"
 import { PaletteInfoProps } from "../../../types/palette/"
 
 interface TabProps {

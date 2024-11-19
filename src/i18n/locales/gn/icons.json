@@ -79,7 +79,6 @@
         "equal": "ojoja",
         "error": "jejavy techaukaha",
         "external": "Símbolo enlace okapegua",
-        "eye": "Tesa abierta icono (ehechauka) .",
         "eyeclose": "Tesa ñemboty icono (oñomi) .",
         "eyeofhorus": "Horus resa icono (mitología egipcia) .",
         "facebook": "facebook icono rehegua",
@@ -227,7 +226,6 @@
         "terminalerror": "Ikóna jejavy rehegua terminal código-pe",
         "testtube": "Tubo de prueba icono rehegua",
         "three": "mbohapy",
-        "threed": "Icono cubo 3D rehegua",
         "tools": "Tembipurukuéra icono",
         "tornado": "Tornado icono rehegua",
         "tortoise": "tortuga icono rehegua",
@@ -255,6 +253,17 @@
         "youtube": "YouTube icono rehegua",
         "zero": "mboyve",
         "zoomin": "Zoom en icono",
-        "zoomout": "Icono de zoom out rehegua"
+        "zoomout": "Icono de zoom out rehegua",
+        "beach": "icono playa rehegua",
+        "eyeopen": "Tesa abierta icono (ehechauka) .",
+        "filter": "filtro ikóna",
+        "fisherman": "pescador icono rehegua",
+        "hightide": "Icono pypuku yvate",
+        "mermaid": "sirena icono rehegua",
+        "music": "purahéi icono",
+        "pandeiro": "pandereta icono rehegua",
+        "pause": "Icono de pausa rehegua",
+        "play": "epoko icono rehe",
+        "samba": "Icono peteĩ tapicha ojeroky samba rehegua"
     }
 }

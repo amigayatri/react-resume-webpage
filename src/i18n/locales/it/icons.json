@@ -79,7 +79,6 @@
         "equal": "pari",
         "error": "icona di errore",
         "external": "Simbolo del collegamento esterno",
-        "eye": "Icona occhio aperto (mostra)",
         "eyeclose": "Icona occhio chiuso (nascondi)",
         "eyeofhorus": "Icona Occhio di Horus (mitologia egizia)",
         "facebook": "icona di facebook",
@@ -227,7 +226,6 @@
         "terminalerror": "Icona di errore nel terminale del codice",
         "testtube": "Icona della provetta",
         "three": "tre",
-        "threed": "Icona del cubo 3D",
         "tools": "Icona degli strumenti",
         "tornado": "Icona del tornado",
         "tortoise": "icona della tartaruga",
@@ -255,6 +253,17 @@
         "youtube": "Icona di YouTube",
         "zero": "zero",
         "zoomin": "Icona Zoom avanti",
-        "zoomout": "Icona rimpicciolisci"
+        "zoomout": "Icona rimpicciolisci",
+        "beach": "icona della spiaggia",
+        "eyeopen": "Icona occhio aperto (mostra)",
+        "filter": "icona del filtro",
+        "fisherman": "icona del pescatore",
+        "hightide": "Icona ad alta profondità",
+        "mermaid": "icona della sirena",
+        "music": "icona della musica",
+        "pandeiro": "icona del tamburello",
+        "pause": "Icona Pausa",
+        "play": "toccare l'icona",
+        "samba": "Icona di una persona che balla la samba"
     }
 }

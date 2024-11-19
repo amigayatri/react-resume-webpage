@@ -79,7 +79,6 @@
         "equal": "igual",
         "error": "icono de error",
         "external": "Símbolo de enlace externo",
-        "eye": "Icono de ojo abierto (mostrar)",
         "eyeclose": "Icono de ojo cerrado (ocultar)",
         "eyeofhorus": "Ícono del Ojo de Horus (mitología egipcia)",
         "facebook": "icono de facebook",
@@ -227,7 +226,6 @@
         "terminalerror": "Icono de error en el terminal de código",
         "testtube": "Icono de tubo de ensayo",
         "three": "tres",
-        "threed": "Icono de cubo 3D",
         "tools": "Icono de herramientas",
         "tornado": "Icono de tornado",
         "tortoise": "icono de tortuga",
@@ -255,6 +253,17 @@
         "youtube": "icono de youtube",
         "zero": "cero",
         "zoomin": "Icono de acercar",
-        "zoomout": "Icono de alejar"
+        "zoomout": "Icono de alejar",
+        "beach": "icono de playa",
+        "eyeopen": "Icono de ojo abierto (mostrar)",
+        "filter": "icono de filtro",
+        "fisherman": "icono de pescador",
+        "hightide": "Icono de alta profundidad",
+        "mermaid": "icono de sirena",
+        "music": "icono de la musica",
+        "pandeiro": "icono de pandereta",
+        "pause": "Icono de pausa",
+        "play": "icono de toque",
+        "samba": "Icono de una persona bailando samba."
     }
 }

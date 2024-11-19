@@ -1,4 +1,4 @@
-import { iconKey } from "../../../../common/SVGIcon/constants"
+import { iconKey } from "../../../../../icons"
 import { Music, MusicVerse } from "../types"
 import { getTimestampAsMs } from "./time"
 

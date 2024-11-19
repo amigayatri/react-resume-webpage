@@ -83,7 +83,7 @@ export const Controls = ({ t, lng, controls, setControls }: ControlsProps) => {
 					$isDisabled={hideEmpty === false}
 					onClick={() => handleHide()}
 				>
-					<SVGIcon lng={lng} local="cats" size={48} id="eye" />
+					<SVGIcon lng={lng} local="cats" size={48} id="eyeopen" />
 				</ControlButton>
 			</Control>
 		</ControlsWrapper>

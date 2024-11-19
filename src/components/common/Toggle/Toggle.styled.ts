@@ -1,7 +1,7 @@
 "use client"
 
 import styled from "styled-components"
-import { ToggleIconWrapper } from "../SVGIcon/SVGIcon.styled"
+import { ToggleIconWrapper } from "../../../icons/Elements/Common.styled"
 
 export const Wrapper = styled.div`
 	display: inline-flex;

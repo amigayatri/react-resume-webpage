@@ -1,0 +1,25 @@
+const natureArr = [
+    "beach",
+    "cactus",
+    "cloud",
+    "dna",
+    "earth",
+    "fire",
+    "leaf",
+    "lightning",
+    "meteor",
+    "planet",
+    "plant",
+    "prism",
+    "rainbow",
+    "rain",
+    "snowflake",
+    "star",
+    "tornado",
+    "windy"
+] as const
+
+type natureKey = (typeof natureArr)[number]
+
+export type { natureKey }
+export { natureArr }
