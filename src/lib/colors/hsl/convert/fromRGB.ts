@@ -1,5 +1,5 @@
+import { round } from "../../utils"
 import { RGB, HSL } from "../types"
-import { round } from "./"
 
 type getHueRegion = (color: RGB) => string
 const getHueRegion: getHueRegion = (color) => {

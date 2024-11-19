@@ -13,7 +13,8 @@ export const Lyric = ({
 	playingState,
 	t,
 	lng,
-	accentColor
+	accentColor,
+	isDark
 }: LyricProps) => {
 	if (lyric.length === 0) {
 		return (
@@ -23,14 +24,15 @@ export const Lyric = ({
 		)
 	}
 	return (
-		<LyricWrapper>
+		<LyricWrapper $accentColor={isDark ? accentColor.dark : accentColor.light}>
 			<LyricContentWrapper
-				$accentColor={accentColor === "" ? undefined : accentColor}
+				$accentColor={isDark ? accentColor.dark : accentColor.light}
 				id={wrapperId}
 			>
 				{playingState === playing && <PlayingOffset />}
 				{lyric.map((verse, idx) => (
 					<Verse
+						isDark={isDark}
 						key={verse.key}
 						accentColor={accentColor}
 						verse={verse}

@@ -1,12 +1,19 @@
-import { ToggleIconProps, iconKey } from "../../../../types/common"
+import {
+	ToggleIconProps,
+	iconKey,
+	ElementProps,
+	BaseElementProps
+} from "../../../../types/common"
 import { musicName, musicPath } from "../../../../types/musics"
-import { MusicElementProps, MusicBaseElement } from "../types"
+import { MusicBaseElement } from "../types"
 
-export interface MusicProps extends MusicElementProps {
+export interface MusicProps extends ElementProps {
 	name: musicName
 	path: musicPath
+	baseAccent?: string
 }
-export interface MusicBaseProps extends MusicBaseElement {}
+
+export interface MusicBaseProps extends BaseElementProps {}
 export interface MusicBaseProps extends MusicProps {}
 
 export interface MusicVerse {

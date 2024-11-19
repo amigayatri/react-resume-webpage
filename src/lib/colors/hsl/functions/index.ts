@@ -1,2 +1,4 @@
 import { getComplementaryHSL } from "./complementary"
-export { getComplementaryHSL }
+import { luminosityChange } from "./luminosity"
+import { getFirstSafe } from "./safe"
+export { getComplementaryHSL, luminosityChange, getFirstSafe }

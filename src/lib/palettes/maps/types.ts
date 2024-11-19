@@ -5,8 +5,28 @@ import { themeKey } from "./themes"
 import { placeKey } from "./places"
 import { schemeKey } from "./schemes"
 import { techKey } from "./tech"
-import { groupKey } from "."
 import { iconKey } from "../../../types/common"
+
+export const groupKeys = [
+	"brands",
+	"famous media",
+	"rainbow",
+	"theme",
+	"places",
+	"schemes",
+	"tech"
+] as const
+
+export type groupKey = (typeof groupKeys)[number]
+
+export type SafePalettePairs =
+	| ["brands", brandKey]
+	| ["famous media", mediaKey]
+	| ["rainbow", rainbowKey]
+	| ["theme", themeKey]
+	| ["places", placeKey]
+	| ["schemes", schemeKey]
+	| ["tech", techKey]
 
 export type paletteKey =
 	| brandKey
@@ -16,4 +36,5 @@ export type paletteKey =
 	| themeKey
 	| schemeKey
 	| techKey
-export type { groupKey, iconKey }
+
+export type { iconKey }

@@ -1,6 +1,6 @@
 import { getRGBfromHSL } from "./toRGB"
-import { round } from "../../utils"
+import { floor } from "../../utils"
 import { getHSLfromRGB } from "./fromRGB"
 import { getHexFromHSL } from "./toHex"
 import { getHSLFromHex } from "./fromHex"
-export { getHSLfromRGB, getRGBfromHSL, getHexFromHSL, round, getHSLFromHex }
+export { getHSLfromRGB, getRGBfromHSL, getHexFromHSL, floor, getHSLFromHex }

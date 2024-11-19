@@ -1,19 +1,4 @@
-const groupKeys = [
-	"theme",
-	"rainbow",
-	"famous media",
-	"brands",
-	"places",
-	"tech",
-	"schemes"
-] as const
-
-export type groupKey = (typeof groupKeys)[number]
-
-type isGroup = (groupName: any | groupKey) => groupName is groupKey
-const isGroup: isGroup = (group): group is groupKey =>
-	groupKeys.includes(group as groupKey)
-
+import { groupKeys, groupKey, SafePalettePairs } from "./types"
 import {
 	get,
 	paletteKey,
@@ -23,6 +8,12 @@ import {
 	getGroups
 } from "./functions"
 import { getGroupIcon } from "./icons"
+import { rainbowMonokai } from "./rainbow"
+
+type isGroup = (groupName: any | groupKey) => groupName is groupKey
+const isGroup: isGroup = (group): group is groupKey =>
+	groupKeys.includes(group as groupKey)
+
 type getSafe = (
 	group: groupKey | string,
 	palette: paletteKey | string
@@ -34,13 +25,10 @@ const getPalette: getSafe = (group, palette) => {
 	}
 }
 
-type getSafePaletteColors = (group: groupKey, palette: paletteKey) => string[]
-import { rainbowMonokai } from "./rainbow"
+type getSafePaletteColors = (...[group, palette]: SafePalettePairs) => string[]
+
 const basic = rainbowMonokai.colors
-const getSafePaletteColors: getSafePaletteColors = (
-	group: groupKey,
-	palette: paletteKey
-) => {
+const getSafePaletteColors: getSafePaletteColors = (group, palette) => {
 	const selected = get(group, palette)
 	if (selected === undefined) return basic
 	return selected.colors
@@ -55,3 +43,4 @@ export {
 	getGroups,
 	getSafePaletteColors
 }
+export type { groupKey }

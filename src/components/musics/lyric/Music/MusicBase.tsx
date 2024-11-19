@@ -9,20 +9,29 @@ import {
 	startTimeout
 } from "./constants"
 import { MusicHeader, Lyric } from "./components"
-import { formatMusic, calculateDelay, handleScroll } from "./functions"
+import {
+	formatMusic,
+	calculateDelay,
+	handleScroll,
+	createSafeAccentPair
+} from "./functions"
+import { useTheme } from "styled-components"
 
 export const MusicBase = ({
 	path,
 	name,
 	lng,
 	t,
-	accentColor
+	baseAccent
 }: MusicBaseProps) => {
 	startMusic.title = name
 	const [music, setMusic] = useState(startMusic)
 	const [playingLyric, setPlayingLyric] = useState(notPlaying)
 	const [timeoutID, setTimeoutID] = useState(startTimeout)
-
+	const [safeAccent] = useState(
+		createSafeAccentPair(baseAccent === undefined ? "" : baseAccent)
+	)
+	const theme = useTheme()
 	useEffect(() => {
 		fetch(`/musics/${path}.json`).then((response) =>
 			response.json().then((body) => {
@@ -68,7 +77,8 @@ export const MusicBase = ({
 	return (
 		<MusicWrapper>
 			<MusicHeader
-				accentColor={accentColor}
+				isDark={theme.background === theme.almostBlack}
+				accentColor={safeAccent}
 				lng={lng}
 				t={t}
 				playingState={playingLyric}
@@ -76,7 +86,8 @@ export const MusicBase = ({
 				music={music}
 			/>
 			<Lyric
-				accentColor={accentColor}
+				isDark={theme.background === theme.almostBlack}
+				accentColor={safeAccent}
 				playingState={playingLyric}
 				t={t}
 				lng={lng}

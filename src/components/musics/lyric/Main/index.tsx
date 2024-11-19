@@ -8,7 +8,7 @@ export const Main = async (props: MusicMainProps) => {
 	const info = getMusicInfo(path)
 	return (
 		<MainBase lng={lng}>
-			<Music accentColor={info[0] !== false ? info[2] : ""} {...props} />
+			<Music baseAccent={info[0] !== false ? info[2] : ""} {...props} />
 		</MainBase>
 	)
 }

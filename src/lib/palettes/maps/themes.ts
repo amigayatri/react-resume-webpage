@@ -8,6 +8,7 @@ import {
 } from "./functions"
 
 const themesKeys = [
+	"backgrounds",
 	"current",
 	"grayscalemonokai",
 	"fullmonokai",
@@ -29,6 +30,13 @@ const namedArr: ThemePalette = {
 	name: "current",
 	icon: "website",
 	colors: ["#212117", "#f92472", "#67d8ef", "#f7f7f7"]
+}
+
+const backgrounds: ThemePalette = {
+	group,
+	name: "backgrounds",
+	icon: "website",
+	colors: ["#212117", "#f7f7f7"]
 }
 
 const accentArr: ThemePalette = {
@@ -89,7 +97,8 @@ const themes: themesMap = new Map([
 	["grayscalemonokai", grayscaleMonokai],
 	["fullmonokai", fullMonokai],
 	["triple", tripleArr],
-	["accent", accentArr]
+	["accent", accentArr],
+	["backgrounds", backgrounds]
 ])
 
 type isTheme = (paletteName: paletteKey | any) => paletteName is themeKey

@@ -31,9 +31,9 @@ export const ToggleWrapper = styled.div<{
 	height: 32px;
 	position: relative;
 	background-color: ${({ theme, $darkBg }) =>
-		$darkBg ? theme.almostBlack : theme.primary};
+		$darkBg ? theme.almostBlack : theme.background};
 	color: ${({ theme, $darkBg }) =>
-		$darkBg ? theme.almostBlack : theme.primary};
+		$darkBg ? theme.almostBlack : theme.background};
 	border: solid 2px
 		${({ theme, $customColor }) =>
 			$customColor === undefined ? theme.accent : $customColor};

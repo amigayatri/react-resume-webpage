@@ -1,4 +1,4 @@
-import { round } from "./"
+import { floor } from "./"
 import { RGB, HSL } from "../types"
 
 type getRGBfromHSL = (color: HSL) => RGB
@@ -17,7 +17,7 @@ const getChroma: getChroma = ({ luminosity, saturation }) => {
 
 type getRemainder = (angle: number) => number
 const getRemainder: getRemainder = (angle) => {
-	const intDivisionRes = Math.round(angle / 2) * angle
+	const intDivisionRes = floor(floor(angle), 0.5) * 2
 	return angle - intDivisionRes
 }
 
@@ -48,7 +48,7 @@ const getLightValue: getLightValue = ({ luminosity }, chroma) => {
 
 type normalizeValue = (colorComp: number, light: number) => number
 const normalizeValue: normalizeValue = (colorComp, light) =>
-	round(colorComp + light, 255)
+	floor(colorComp + light, 255)
 
 export const getRGBfromHSL: getRGBfromHSL = (color) => {
 	const { hue } = color

@@ -2,29 +2,31 @@
 
 import styled from "styled-components"
 
-export const LyricWrapper = styled.div`
+export const LyricWrapper = styled.div<{ $accentColor?: string }>`
 	height: 100%;
 	min-height: 340px;
-	padding: 10px 0;
+	padding: 10px 12px;
 	transition: ${({ theme }) => theme.transition};
 	border-bottom-left-radius: 32px;
 	border-bottom-right-radius: 16px;
-	background-color: ${({ theme }) => theme.almostBlack};
-	padding-right: 16px;
-	border: 2px solid ${({ theme }) => theme.white};
+	background-color: ${({ theme }) => theme.background};
+	border: 2px solid
+		${({ theme, $accentColor }) =>
+			$accentColor === undefined ? theme.accent : $accentColor};
 	border-top: none;
 `
 
 export const LyricContentWrapper = styled.div<{ $accentColor?: string }>`
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 	height: 100%;
 	min-height: 320px;
 
 	${({ theme, $accentColor }) =>
 		theme.getScroll(
-			theme.almostBlack,
+			theme.background,
 			$accentColor === undefined ? theme.accent : $accentColor,
-			theme.white,
+			theme.primary,
 			true
 		)}
 `
