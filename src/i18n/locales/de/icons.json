@@ -79,7 +79,6 @@
         "equal": "gleich",
         "error": "Fehlersymbol",
         "external": "Symbol für externen Link",
-        "eye": "Symbol „Auge öffnen“ (anzeigen)",
         "eyeclose": "Symbol „Geschlossenes Auge“ (ausblenden)",
         "eyeofhorus": "Ikone des Auges des Horus (ägyptische Mythologie)",
         "facebook": "Facebook-Symbol",
@@ -227,7 +226,6 @@
         "terminalerror": "Fehlersymbol im Code-Terminal",
         "testtube": "Reagenzglas-Symbol",
         "three": "drei",
-        "threed": "3D-Würfelsymbol",
         "tools": "Werkzeugsymbol",
         "tornado": "Tornado-Symbol",
         "tortoise": "Schildkröten-Symbol",
@@ -255,6 +253,17 @@
         "youtube": "YouTube-Symbol",
         "zero": "null",
         "zoomin": "Symbol „Vergrößern“.",
-        "zoomout": "Symbol zum Verkleinern"
+        "zoomout": "Symbol zum Verkleinern",
+        "beach": "Strand-Symbol",
+        "eyeopen": "Symbol „Auge öffnen“ (anzeigen)",
+        "filter": "Filtersymbol",
+        "fisherman": "Fischer-Symbol",
+        "hightide": "Symbol für hohe Tiefe",
+        "mermaid": "Meerjungfrau-Symbol",
+        "music": "Musik-Ikone",
+        "pandeiro": "Tamburin-Symbol",
+        "pause": "Pause-Symbol",
+        "play": "Tippen Sie auf das Symbol",
+        "samba": "Ikone einer Person, die Samba tanzt"
     }
 }

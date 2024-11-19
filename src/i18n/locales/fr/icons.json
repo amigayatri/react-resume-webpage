@@ -79,7 +79,6 @@
         "equal": "égal",
         "error": "icône d'erreur",
         "external": "Symbole de lien externe",
-        "eye": "Icône œil ouvert (afficher)",
         "eyeclose": "Icône œil fermé (masquer)",
         "eyeofhorus": "Icône de l'Œil d'Horus (mythologie égyptienne)",
         "facebook": "icône Facebook",
@@ -227,7 +226,6 @@
         "terminalerror": "Icône d'erreur dans le terminal de code",
         "testtube": "Icône de tube à essai",
         "three": "trois",
-        "threed": "Icône de cube 3D",
         "tools": "Icône Outils",
         "tornado": "Icône de tornade",
         "tortoise": "icône de tortue",
@@ -255,6 +253,17 @@
         "youtube": "Icône YouTube",
         "zero": "zéro",
         "zoomin": "Icône de zoom avant",
-        "zoomout": "Icône de zoom arrière"
+        "zoomout": "Icône de zoom arrière",
+        "beach": "icône de plage",
+        "eyeopen": "Icône œil ouvert (afficher)",
+        "filter": "icône de filtre",
+        "fisherman": "icône de pêcheur",
+        "hightide": "Icône haute profondeur",
+        "mermaid": "icône de sirène",
+        "music": "icône de la musique",
+        "pandeiro": "icône de tambourin",
+        "pause": "Icône Pause",
+        "play": "appuyez sur l'icône",
+        "samba": "Icône d'une personne dansant la samba"
     }
 }

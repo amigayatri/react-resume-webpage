@@ -79,7 +79,6 @@
         "equal": "aequalis",
         "error": "error icon",
         "external": "Externe paginae symbolum",
-        "eye": "Oculus apertus icon (ostendi)",
         "eyeclose": "Oculus occlusus icon (hide)",
         "eyeofhorus": "Oculus Hori icon (mythologia Aegyptia)",
         "facebook": "facebook icon",
@@ -227,7 +226,6 @@
         "terminalerror": "Error icon in codice terminatio",
         "testtube": "Tubus test icon",
         "three": "tres",
-        "threed": "3D cubus icon",
         "tools": "Instrumenta icon",
         "tornado": "Turbo icon",
         "tortoise": "turtur icon",
@@ -255,6 +253,17 @@
         "youtube": "YouTube icon",
         "zero": "nulla",
         "zoomin": "Zoom in icon",
-        "zoomout": "Retrahe icon"
+        "zoomout": "Retrahe icon",
+        "beach": "litus icon",
+        "eyeopen": "Oculus apertus icon (ostendi)",
+        "filter": "filter icon",
+        "fisherman": "piscator icon",
+        "hightide": "Alta profunditas icon",
+        "mermaid": "syreni icon",
+        "music": "music icon",
+        "pandeiro": "tympanum icon",
+        "pause": "Pause icon",
+        "play": "ICTUS icon",
+        "samba": "Icon hominem chorum samba"
     }
 }

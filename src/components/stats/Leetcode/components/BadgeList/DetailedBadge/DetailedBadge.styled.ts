@@ -1,7 +1,7 @@
 "use client"
 
 import styled from "styled-components"
-import { IconWrapper } from "../../../../../common/SVGIcon/SVGIcon.styled"
+import { IconWrapper } from "../../../../../../icons/Elements/Common.styled"
 import { media } from "../../../../../../constants/medias"
 
 export const DetailMessage = styled.h3`

@@ -1,9 +1,6 @@
 import { TFunction } from "i18next"
 import { ChangeEvent } from "react"
-import {
-	iconKey,
-	toggleIconKey
-} from "../../components/common/SVGIcon/constants"
+import { iconKey, toggleIconKey } from "../../icons/"
 
 export interface ElementProps {
 	lng: string

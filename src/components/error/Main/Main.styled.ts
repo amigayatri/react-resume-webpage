@@ -1,7 +1,7 @@
 "use client"
 
 import styled from "styled-components"
-import { Icon } from "../../common/SVGIcon/SVGIcon.styled"
+import { Icon } from "../../../icons/Elements/Common.styled"
 import { media } from "../../../constants/medias"
 
 export const MainWrapper = styled.main<{ $isNotFound: boolean }>`

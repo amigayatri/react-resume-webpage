@@ -79,7 +79,6 @@
         "equal": "equal",
         "error": "error icon",
         "external": "External link symbol",
-        "eye": "Open eye icon (show)",
         "eyeclose": "Closed eye icon (hide)",
         "eyeofhorus": "Eye of Horus icon (Egyptian mythology)",
         "facebook": "facebook icon",
@@ -227,7 +226,6 @@
         "terminalerror": "Error icon in code terminal",
         "testtube": "Test tube icon",
         "three": "three",
-        "threed": "3D cube icon",
         "tools": "Tools icon",
         "tornado": "Tornado icon",
         "tortoise": "turtle icon",
@@ -255,6 +253,17 @@
         "youtube": "YouTube icon",
         "zero": "zero",
         "zoomin": "Zoom in icon",
-        "zoomout": "Zoom out icon"
+        "zoomout": "Zoom out icon",
+        "beach": "beach icon",
+        "eyeopen": "Open eye icon (show)",
+        "filter": "filter icon",
+        "fisherman": "fisherman icon",
+        "hightide": "High depth icon",
+        "mermaid": "mermaid icon",
+        "music": "music icon",
+        "pandeiro": "tambourine icon",
+        "pause": "Pause icon",
+        "play": "tap icon",
+        "samba": "Icon of a person dancing samba"
     }
 }

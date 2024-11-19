@@ -1,6 +1,7 @@
-import { icons } from "../components/common/SVGIcon/constants"
+import { getAllIconsIds } from "../icons/"
+import { iconKey } from "../icons/types"
 
-type compareKeys = (a: string, b:string) => number
+type compareKeys = (a: iconKey, b: iconKey) => number
 const compareKeys: compareKeys = (a, b) => a.localeCompare(b)
 
-export const iconsIds = Array.from(icons.keys()).sort(compareKeys)
+export const iconsIds = getAllIconsIds().sort(compareKeys)

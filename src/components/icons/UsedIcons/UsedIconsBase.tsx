@@ -19,15 +19,16 @@ import {
 import { SVGIcon, Progress } from "../../common/client"
 import { useTheme } from "styled-components"
 import { useState } from "react"
-import { numberOfIcons, usedIcons } from "../../common/SVGIcon/constants"
+import { getAllUsed } from "../../../icons/"
 import { rainbowMonokai } from "../../../lib/palettes/maps/rainbow"
 import { UsedIconsBaseProps } from "../types"
 
 export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {
-	usedIcons.delete("onlyhere")
 	let otherPlaces = 0
-	const onlyHere = new Set(Array.from(usedIcons.get("iconlist") || []))
-	for (let [key, set] of usedIcons.entries()) {
+	const allUsedIcons = getAllUsed()
+	const onlyHere = new Set()
+	const numberOfIcons = allUsedIcons.length
+	for (let [key, set] of allUsedIcons) {
 		if (key !== "iconlist") {
 			otherPlaces += set.size
 			for (const id of set) {
@@ -35,10 +36,9 @@ export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {
 			}
 		}
 	}
-	usedIcons.set("onlyhere", onlyHere)
 	const theme = useTheme()
 	const [showStats, setShowStats] = useState(false)
-	const entries = Array.from(usedIcons.entries()).sort(([keyA], [keyB]) =>
+	const entries = allUsedIcons.sort(([keyA], [keyB]) =>
 		keyA.localeCompare(keyB)
 	)
 	return (
@@ -72,7 +72,7 @@ export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {
 						<SVGIcon
 							lng={lng}
 							size={48}
-							id={showStats ? "eyeclose" : "eye"}
+							id={showStats ? "eyeclose" : "eyeopen"}
 							local="iconsstats"
 						/>
 					</ButtonIcon>

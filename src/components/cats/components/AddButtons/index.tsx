@@ -3,7 +3,7 @@ import { Button } from "../Common.styled.ts"
 import { SVGIcon } from "../../../common/client"
 import { animalsIcons, numbers } from "../../../../constants/animals.ts"
 import { AddButtonsProps } from "../types.ts"
-import { iconKey } from "../../../common/SVGIcon/constants.ts"
+import { iconKey } from "../../../../icons/"
 
 export const AddButtons = ({
 	t,

@@ -3,7 +3,7 @@
 import styled from "styled-components"
 import { media } from "../../../constants/medias"
 import { whiteToBlack } from "../../../themes/animations/errors"
-import { Icon } from "../../common/SVGIcon/SVGIcon.styled"
+import { Icon } from "../../../icons/Elements/Common.styled"
 
 export const ErrorMessageWrapper = styled.section`
 	display: flex;

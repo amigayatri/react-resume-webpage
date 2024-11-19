@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 import { media } from "../../../../../../constants/medias"
-import { IconWrapper } from "../../../../../common/SVGIcon/SVGIcon.styled"
+import { IconWrapper } from "../../../../../../icons/Elements/Common.styled"
 
 export const VerseWrapper = styled.ul<{ $accentColor?: string }>`
 	list-style: none;
