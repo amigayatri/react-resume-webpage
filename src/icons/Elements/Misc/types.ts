@@ -1,8 +1,11 @@
 const miscArr = [
     "fisherman",
+    "grenade",
     "hightide",
+    "paperfrog",
     "schrodingerscatalive",
     "schrodingerscatdead",
+    "sexy",
     "toybrick"
 ] as const
 

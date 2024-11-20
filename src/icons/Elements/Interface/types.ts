@@ -22,6 +22,7 @@ const interfaceArr = [
     "pencil",
     "profile",
     "shadow",
+    "songlyric",
     "terminalerror",
     "terminal",
     "tools",

@@ -16,6 +16,8 @@ const natureArr = [
     "snowflake",
     "star",
     "tornado",
+    "waterfall",
+    "wavecrest",
     "windy"
 ] as const
 

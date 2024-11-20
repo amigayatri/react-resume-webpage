@@ -6,9 +6,12 @@ const generalArr = [
     "clapperboard",
     "crown",
     "dice",
+    "doubleheart",
     "film",
     "glasses",
     "graduationcap",
+    "heart",
+    "heartpulse",
     "key",
     "magazine",
     "medal",
@@ -21,6 +24,7 @@ const generalArr = [
     "resttime",
     "sparkling",
     "testtube",
+    "trophy",
     "umbrella"
 ] as const
 
