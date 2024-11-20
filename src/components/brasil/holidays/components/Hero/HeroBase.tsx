@@ -11,7 +11,7 @@ export const HeroBase = ({ t, lng }: HeroBaseProps) => {
 					lng={lng}
 					local="holidays"
 					fontSize={32}
-					iconId="braziliancalendar"
+					iconId="calendariobrasileiro"
 					legible
 					info={{ group: "rainbow", name: "rainbow monokai" }}
 				>

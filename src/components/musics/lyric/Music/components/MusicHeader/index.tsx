@@ -3,12 +3,14 @@ import {
 	Title,
 	Artist,
 	HeaderWrapper,
-	ControlWrapper,
-	Audio
+	ControlWrapper
 } from "./MusicHeader.styled"
 import { Toggle } from "../../../../../common/client"
-import { iconSettings, playing, notPlaying } from "../../constants"
-import { useEffect, useState } from "react"
+import { iconSettings, 
+	//playing, 
+	//notPlaying 
+} from "../../constants"
+// import { useEffect, useState } from "react"
 
 export const MusicHeader = ({
 	lng,

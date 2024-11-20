@@ -1,6 +1,8 @@
 const facesArr = [
     "alien",
     "crying",
+    "fairy",
+    "femalevampire",
     "ghost",
     "happy",
     "person",

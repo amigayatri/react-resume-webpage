@@ -5,9 +5,12 @@ import { CandleIcon } from "./CandleIcon"
 import { ClapperboardIcon } from "./ClapperboardIcon"
 import { CrownIcon } from "./CrownIcon"
 import { DiceIcon } from "./DiceIcon"
+import { DoubleHeartIcon } from "./DoubleHeartIcon"
 import { FilmIcon } from "./FilmIcon"
 import { GlassesIcon } from "./GlassesIcon"
 import { GraduationCapIcon } from "./GraduationCapIcon"
+import { HeartIcon } from "./HeartIcon"
+import { HeartPulseIcon } from "./HeartPulseIcon"
 import { KeyIcon } from "./KeyIcon"
 import { MagazineIcon } from "./MagazineIcon"
 import { MedalIcon } from "./MedalIcon"
@@ -20,6 +23,7 @@ import { PuzzleIcon } from "./PuzzleIcon"
 import { RestTimeIcon } from "./RestTimeIcon"
 import { SparklingIcon } from "./SparklingIcon"
 import { TestTubeIcon } from "./TestTubeIcon"
+import { TrophyIcon } from "./TrophyIcon"
 import { UmbrellaIcon } from "./UmbrellaIcon"
 
 export {
@@ -30,9 +34,12 @@ export {
     ClapperboardIcon,
     CrownIcon,
     DiceIcon,
+    DoubleHeartIcon,
     FilmIcon,
     GlassesIcon,
     GraduationCapIcon,
+    HeartIcon,
+    HeartPulseIcon,
     KeyIcon,
     MagazineIcon,
     MedalIcon,
@@ -45,5 +52,6 @@ export {
     RestTimeIcon,
     SparklingIcon,
     TestTubeIcon,
+    TrophyIcon,
     UmbrellaIcon
 }

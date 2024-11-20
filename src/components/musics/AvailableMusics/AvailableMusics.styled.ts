@@ -24,21 +24,3 @@ export const MusicList = styled.div`
 	justify-content: center;
 	padding: 32px;
 `
-
-export const MusicButton = styled.div`
-	background-color: ${({ theme }) => theme.blue};
-	color: ${({ theme }) => theme.white};
-	border-radius: 16px;
-	padding: 24px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-`
-
-export const Link = styled.a`
-	text-decoration: none;
-	color: ${({ theme }) => theme.almostBlack};
-	font-size: 1.5rem;
-	font-weight: 700;
-`

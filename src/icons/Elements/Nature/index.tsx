@@ -15,6 +15,8 @@ import { RainIcon } from "./RainIcon"
 import { SnowFlakeIcon } from "./SnowFlakeIcon"
 import { StarIcon } from "./StarIcon"
 import { TornadoIcon } from "./TornadoIcon"
+import { WaterfallIcon } from "./WaterfallIcon"
+import { WaveCrestIcon } from "./WaveCrestIcon"
 import { WindyIcon } from "./WindyIcon"
 
 export {
@@ -35,5 +37,7 @@ export {
     SnowFlakeIcon,
     StarIcon,
     TornadoIcon,
+    WaterfallIcon,
+    WaveCrestIcon,
     WindyIcon
 }

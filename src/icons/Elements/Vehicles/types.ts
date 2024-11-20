@@ -2,8 +2,11 @@ const vehiclesArr = [
     "bike",
     "bus",
     "car",
+    "carriertruck",
     "motorbike",
     "plane",
+    "skateboarding1",
+    "skateboarding2",
     "train",
     "truck",
     "walk"

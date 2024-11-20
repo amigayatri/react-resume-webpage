@@ -72,6 +72,8 @@ import { SittingDogIcon } from "./SittingDogIcon"
 import { SlothIcon } from "./SlothIcon"
 import { SnailIcon } from "./SnailIcon"
 import { SnakeIcon } from "./SnakeIcon"
+import { SpiderIcon } from "./SpiderIcon"
+import { SpiderWebIcon } from "./SpiderWebIcon"
 import { SquidIcon } from "./SquidIcon"
 import { SquirrelIcon } from "./SquirrelIcon"
 import { SwanIcon } from "./SwanIcon"
@@ -157,6 +159,8 @@ export {
     SlothIcon,
     SnailIcon,
     SnakeIcon,
+    SpiderIcon,
+    SpiderWebIcon,
     SquidIcon,
     SquirrelIcon,
     SwanIcon,

@@ -21,6 +21,7 @@ import { PaintBucketIcon } from "./PaintBucketIcon"
 import { PencilIcon } from "./PencilIcon"
 import { ProfileIcon } from "./ProfileIcon"
 import { ShadowIcon } from "./ShadowIcon"
+import { SongLyricIcon } from "./SongLyricIcon"
 import { TerminalErrorIcon } from "./TerminalErrorIcon"
 import { TerminalIcon } from "./TerminalIcon"
 import { ToolsIcon } from "./ToolsIcon"
@@ -53,6 +54,7 @@ export {
     PencilIcon,
     ProfileIcon,
     ShadowIcon,
+    SongLyricIcon,
     TerminalErrorIcon,
     TerminalIcon,
     ToolsIcon,

@@ -73,6 +73,8 @@ const animalsArr = [
     "sloth",
     "snail",
     "snake",
+    "spider",
+    "spiderweb",
     "squid",
     "squirrel",
     "swan",

@@ -25,7 +25,7 @@ export const brazilianLinks: LinkProps[] = [
 	{
 		path: "brasil/feriados",
 		key: "holidays",
-		icon: "braziliancalendar",
+		icon: "calendariobrasileiro",
 		isExternal: false
 	}
 ]
