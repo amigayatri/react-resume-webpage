@@ -26,6 +26,8 @@ export const Artist = styled.h2`
 	}
 `
 
+export const Audio = styled.audio``
+
 export const ControlWrapper = styled.div<{
 	$accentColor?: string
 }>`

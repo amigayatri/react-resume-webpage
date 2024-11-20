@@ -18,16 +18,23 @@ import {
 } from "./UsedIcons.styled"
 import { SVGIcon, Progress } from "../../common/client"
 import { useTheme } from "styled-components"
-import { useState } from "react"
-import { getAllUsed } from "../../../icons/"
+import { useEffect, useState } from "react"
+import { getAllUsed, getAllIconsIds, iconKey } from "../../../icons/"
 import { rainbowMonokai } from "../../../lib/palettes/maps/rainbow"
 import { UsedIconsBaseProps } from "../types"
 
+const emptyIcons: iconKey[] = []
+
 export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {
+	const [icons, setIcons] = useState(emptyIcons)
+	useEffect(() => {
+		const allIcons = getAllIconsIds()
+		setIcons(allIcons)
+	}, [])
 	let otherPlaces = 0
 	const allUsedIcons = getAllUsed()
 	const onlyHere = new Set()
-	const numberOfIcons = allUsedIcons.length
+	const numberOfIcons = icons.length
 	for (let [key, set] of allUsedIcons) {
 		if (key !== "iconlist") {
 			otherPlaces += set.size
@@ -64,6 +71,7 @@ export const UsedIconsBase = ({ t, lng }: UsedIconsBaseProps) => {
 						}}
 					/>
 				</ProgressBarsWrapper>
+
 				<Button onClick={() => setShowStats(!showStats)}>
 					<ButtonIcon>
 						<SVGIcon lng={lng} size={48} id="chart" local="iconsstats" />

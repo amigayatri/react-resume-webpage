@@ -10,6 +10,7 @@ import { ProgressBarProps } from "../.."
 
 export const ProgressBar = ({ title, progress, color }: ProgressBarProps) => {
 	const { done, total } = progress
+	if (total === 0) return
 	return (
 		<ProgressWrapper>
 			<TitleWrapper>

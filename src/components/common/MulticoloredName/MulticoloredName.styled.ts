@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 
-export const Letter = styled.span`
+export const Letter = styled.div`
 	background-color: transparent;
 	border-style: solid;
 	border-width: 0;
@@ -33,7 +33,7 @@ export const Letter = styled.span`
 	}
 `
 export const LetterWrapper = styled.span``
-export const Multicolor = styled.span<{ $isLegible: boolean }>`
+export const Multicolor = styled.div<{ $isLegible: boolean }>`
 	width: fit-content;
 	display: inline-flex;
 	text-wrap: ${({ $isLegible }) => ($isLegible ? "nowrap" : "unset")};

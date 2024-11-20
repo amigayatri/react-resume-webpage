@@ -33,7 +33,7 @@ export const MusicBase = ({
 	)
 	const theme = useTheme()
 	useEffect(() => {
-		fetch(`/musics/${path}.json`).then((response) =>
+		fetch(`/lyrics/${path}.json`).then((response) =>
 			response.json().then((body) => {
 				const cleanMusic = formatMusic(body)
 				setMusic(cleanMusic)

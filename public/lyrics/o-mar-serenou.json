@@ -1,0 +1,116 @@
+{
+    "title": "O Mar Serenou",
+    "artist": "Clara Nunes",
+    "chorus": {
+        "lines": [
+            "O mar serenou quando ela pisou na areia",
+            "Quem samba na beira do mar é sereia",
+            "O mar serenou quando ela pisou na areia",
+            "Quem samba na beira do mar é sereia"
+        ],
+        "icons": [
+            "pandeiro",
+            "samba",
+            "beach",
+            "mermaid"
+        ]
+    },
+    "lyric": [
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": [],
+            "startTime": "00:11"
+        },
+        {
+            "lines": [
+                "O pescador não tem medo",
+                "É segredo se volta ou se fica",
+                "No fundo do mar",
+                "Ao ver a morena bonita",
+                "Sambando se explica que não vai pescar",
+                "Deixa o mar serenar"
+            ],
+            "icons": [
+                "fisherman",
+                "high tide"
+            ],
+            "startTime": "00:32"
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": [],
+            "startTime": "00:44"
+        },
+        {
+            "lines": [
+                "A Lua brilhava vaidosa",
+                "De si orgulhosa e prosa",
+                "Com que Deus lhe deu",
+                "Ao ver a morena sambando",
+                "Foi se acabrunhando, ",
+                "então adormeceu",
+                "O sol apareceu"
+            ],
+            "icons": [
+                "moon",
+                "sun"
+            ],
+            "startTime": "01:04"
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": [],
+            "startTime": "01:17"
+        },
+        {
+            "lines": [
+                "Um frio danado",
+                "que vinha do lado gelado",
+                "que o povo até se intimidou",
+                "Morena aceitou o desafio, ",
+                "Sambou e o frio sentiu seu calor",
+                "E o samba se esquentou"
+            ],
+            "icons": [
+                "snowflake",
+                "windy"
+            ],
+            "startTime": "01:39"
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": [],
+            "startTime": "01:51"
+        },
+        {
+            "lines": [
+                "A estrela que estava escondida",
+                "Sentiu-se atraída",
+                "Depois então apareceu, ",
+                "mas ficou tão enternecida",
+                "Ingadou a si mesma",
+                "a estrela afinal",
+                "será ela ou sou eu?"
+            ],
+            "icons": [
+                "star"
+            ],
+            "startTime": "02:12"
+        },
+        {
+            "lines": [
+                "$chorus"
+            ],
+            "icons": [],
+            "startTime": "02:24"
+        }
+    ]
+}

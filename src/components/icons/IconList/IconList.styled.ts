@@ -52,7 +52,7 @@ export const Id = styled.code`
 	text-align: center;
 	margin: 4px 0 8px;
 `
-export const Icon = styled.span`
+export const Icon = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;

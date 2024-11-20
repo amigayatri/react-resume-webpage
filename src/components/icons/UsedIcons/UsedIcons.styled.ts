@@ -16,7 +16,7 @@ export const UsedIconsWrapper = styled.div`
 	${({ theme }) => theme.getScroll(theme.almostBlack, theme.pink, theme.purple)}
 `
 export const SectionTitle = styled.h2``
-export const Subtitle = styled.h3``
+export const Subtitle = styled.span``
 export const GlobalData = styled.div`
 	& ${Subtitle} {
 		color: ${({ theme }) => theme.purple};
@@ -50,7 +50,8 @@ export const ProgressBarsWrapper = styled.div`
 		width: 100%;
 	}
 `
-export const Button = styled.button`
+export const Button = styled.div`
+	cursor: pointer;
 	margin: 16px auto;
 	display: flex;
 	justify-content: flex-start;

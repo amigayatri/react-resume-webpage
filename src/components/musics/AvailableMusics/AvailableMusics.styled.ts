@@ -38,7 +38,7 @@ export const MusicButton = styled.div`
 
 export const Link = styled.a`
 	text-decoration: none;
-	color: ${({ theme }) => theme.white};
+	color: ${({ theme }) => theme.almostBlack};
 	font-size: 1.5rem;
 	font-weight: 700;
 `
