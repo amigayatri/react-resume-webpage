@@ -1,13 +1,8 @@
-/*
-*
-*
-*
-*    Icons from Ancient folder
-*
-*
-*
-*/
-
+/****************************/
+/*                          */
+/*    Icons from Ancient    */
+/*                          */
+/****************************/
 import  {
     AtlasIcon,
     AztecCalendarSunIcon,
@@ -37,16 +32,11 @@ import  {
     VenusOfWillendorfIcon
 } from "./Ancient"
 
-/*
-*
-*
-*
-*    Icons from Animals folder
-*
-*
-*
-*/
-
+/****************************/
+/*                          */
+/*    Icons from Animals    */
+/*                          */
+/****************************/
 import  {
     AlpacaIcon,
     AmmoniteIcon,
@@ -135,16 +125,11 @@ import  {
     WhaleIcon
 } from "./Animals"
 
-/*
-*
-*
-*
-*    Icons from Brasil folder
-*
-*
-*
-*/
-
+/***************************/
+/*                         */
+/*    Icons from Brasil    */
+/*                         */
+/***************************/
 import  {
     ApoteoseIcon,
     ArcosDaLapaIcon,
@@ -182,16 +167,11 @@ import  {
     TeatroAmazonasIcon
 } from "./Brasil"
 
-/*
-*
-*
-*
-*    Icons from Characters folder
-*
-*
-*
-*/
-
+/*******************************/
+/*                             */
+/*    Icons from Characters    */
+/*                             */
+/*******************************/
 import  {
     EightIcon,
     EmptyIcon,
@@ -211,16 +191,11 @@ import  {
     ZeroIcon
 } from "./Characters"
 
-/*
-*
-*
-*
-*    Icons from Faces folder
-*
-*
-*
-*/
-
+/**************************/
+/*                        */
+/*    Icons from Faces    */
+/*                        */
+/**************************/
 import  {
     AlienIcon,
     CryingIcon,
@@ -234,16 +209,11 @@ import  {
     SuperHappyIcon
 } from "./Faces"
 
-/*
-*
-*
-*
-*    Icons from Food folder
-*
-*
-*
-*/
-
+/*************************/
+/*                       */
+/*    Icons from Food    */
+/*                       */
+/*************************/
 import  {
     BeerIcon,
     BowlIcon,
@@ -255,16 +225,11 @@ import  {
     PizzaIcon
 } from "./Food"
 
-/*
-*
-*
-*
-*    Icons from General folder
-*
-*
-*
-*/
-
+/****************************/
+/*                          */
+/*    Icons from General    */
+/*                          */
+/****************************/
 import  {
     AwardIcon,
     BankCardIcon,
@@ -295,16 +260,11 @@ import  {
     UmbrellaIcon
 } from "./General"
 
-/*
-*
-*
-*
-*    Icons from Geography folder
-*
-*
-*
-*/
-
+/******************************/
+/*                            */
+/*    Icons from Geography    */
+/*                            */
+/******************************/
 import  {
     CedarIcon,
     FlagIcon,
@@ -313,16 +273,11 @@ import  {
     MapPinIcon
 } from "./Geography"
 
-/*
-*
-*
-*
-*    Icons from Interface folder
-*
-*
-*
-*/
-
+/******************************/
+/*                            */
+/*    Icons from Interface    */
+/*                            */
+/******************************/
 import  {
     BrokenLinkIcon,
     CalendarIcon,
@@ -357,16 +312,11 @@ import  {
     ZoomOutIcon
 } from "./Interface"
 
-/*
-*
-*
-*
-*    Icons from Logo folder
-*
-*
-*
-*/
-
+/*************************/
+/*                       */
+/*    Icons from Logo    */
+/*                       */
+/*************************/
 import  {
     BaiduIcon,
     BarbieIcon,
@@ -389,16 +339,11 @@ import  {
     YouTubeIcon
 } from "./Logo"
 
-/*
-*
-*
-*
-*    Icons from Map folder
-*
-*
-*
-*/
-
+/************************/
+/*                      */
+/*    Icons from Map    */
+/*                      */
+/************************/
 import  {
     AcreIcon,
     AlagoasIcon,
@@ -432,31 +377,21 @@ import  {
     TocantinsIcon
 } from "./Map"
 
-/*
-*
-*
-*
-*    Icons from Media folder
-*
-*
-*
-*/
-
+/**************************/
+/*                        */
+/*    Icons from Media    */
+/*                        */
+/**************************/
 import  {
     NarutoIcon,
     SonicIcon
 } from "./Media"
 
-/*
-*
-*
-*
-*    Icons from Misc folder
-*
-*
-*
-*/
-
+/*************************/
+/*                       */
+/*    Icons from Misc    */
+/*                       */
+/*************************/
 import  {
     FishermanIcon,
     GrenadeIcon,
@@ -468,16 +403,11 @@ import  {
     ToyBrickIcon
 } from "./Misc"
 
-/*
-*
-*
-*
-*    Icons from MusicInstruments folder
-*
-*
-*
-*/
-
+/*************************************/
+/*                                   */
+/*    Icons from MusicInstruments    */
+/*                                   */
+/*************************************/
 import  {
     AgogoIcon,
     GuitarIcon,
@@ -491,16 +421,11 @@ import  {
     TrianguloIcon
 } from "./MusicInstruments"
 
-/*
-*
-*
-*
-*    Icons from Nature folder
-*
-*
-*
-*/
-
+/***************************/
+/*                         */
+/*    Icons from Nature    */
+/*                         */
+/***************************/
 import  {
     BeachIcon,
     CactusIcon,
@@ -524,16 +449,11 @@ import  {
     WindyIcon
 } from "./Nature"
 
-/*
-*
-*
-*
-*    Icons from Tech folder
-*
-*
-*
-*/
-
+/*************************/
+/*                       */
+/*    Icons from Tech    */
+/*                       */
+/*************************/
 import  {
     CodeIcon,
     ComputerIcon,
@@ -552,16 +472,11 @@ import  {
     WebsiteIcon
 } from "./Tech"
 
-/*
-*
-*
-*
-*    Icons from Toggle folder
-*
-*
-*
-*/
-
+/***************************/
+/*                         */
+/*    Icons from Toggle    */
+/*                         */
+/***************************/
 import  {
     MoonIcon,
     PauseIcon,
@@ -569,16 +484,11 @@ import  {
     SunIcon
 } from "./Toggle"
 
-/*
-*
-*
-*
-*    Icons from Vehicles folder
-*
-*
-*
-*/
-
+/*****************************/
+/*                           */
+/*    Icons from Vehicles    */
+/*                           */
+/*****************************/
 import  {
     BikeIcon,
     BusIcon,

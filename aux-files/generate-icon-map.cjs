@@ -99,8 +99,22 @@ const generateElementsTypeStr = (typeImports) => {
 	return `${typeImportsStr}\ntype toggleIconKey = toggleKey\n\ntype iconKey = ${typeValStr}\n\nexport type { iconKey, toggleIconKey }`
 }
 
-const generateFolderComment = (folderName) =>
-	`/*\n*\n*\n*\n*    Icons from ${folderName} folder\n*\n*\n*\n*/\n\n`
+const generateFolderComment = (folderName) => {
+	const generateRepeat = (size, char) =>
+		Array.from({ length: size }, () => char).join("")
+	const commentContent = `Icons from ${folderName}`
+	const [preffix, suffix] = ["/*", "*/"]
+	const lineLen = commentContent.length + 12
+	const firstLine = `${preffix}${generateRepeat(lineLen - 4, "*")}${suffix}`
+	const middleLine = `${preffix}${generateRepeat(lineLen - 4, " ")}${suffix}`
+	const commentLine = `${preffix}    ${commentContent}${generateRepeat(
+		lineLen - commentContent.length - 8,
+		" "
+	)}${suffix}`
+	return [firstLine, middleLine, commentLine, middleLine, firstLine, ""].join(
+		"\n"
+	)
+}
 
 const generateTypeImport = (folderName, type) =>
 	`import { ${type} } from "./Elements/${folderName}/types.ts"\n`
