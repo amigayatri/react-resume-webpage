@@ -1,19 +1,19 @@
-import { EightIcon } from "./EightIcon"
-import { EmptyIcon } from "./EmptyIcon"
-import { EqualIcon } from "./EqualIcon"
-import { FiveIcon } from "./FiveIcon"
-import { FourIcon } from "./FourIcon"
-import { MinusIcon } from "./MinusIcon"
-import { MinusMinusIcon } from "./MinusMinusIcon"
-import { NineIcon } from "./NineIcon"
-import { OneIcon } from "./OneIcon"
-import { PlusIcon } from "./PlusIcon"
-import { PlusPlusIcon } from "./PlusPlusIcon"
-import { SevenIcon } from "./SevenIcon"
-import { SixIcon } from "./SixIcon"
-import { ThreeIcon } from "./ThreeIcon"
-import { TwoIcon } from "./TwoIcon"
-import { ZeroIcon } from "./ZeroIcon"
+import { EightIcon } from "./Eight.tsx";
+import { EmptyIcon } from "./Empty.tsx";
+import { EqualIcon } from "./Equal.tsx";
+import { FiveIcon } from "./Five.tsx";
+import { FourIcon } from "./Four.tsx";
+import { MinusIcon } from "./Minus.tsx";
+import { MinusMinusIcon } from "./MinusMinus.tsx";
+import { NineIcon } from "./Nine.tsx";
+import { OneIcon } from "./One.tsx";
+import { PlusIcon } from "./Plus.tsx";
+import { PlusPlusIcon } from "./PlusPlus.tsx";
+import { SevenIcon } from "./Seven.tsx";
+import { SixIcon } from "./Six.tsx";
+import { ThreeIcon } from "./Three.tsx";
+import { TwoIcon } from "./Two.tsx";
+import { ZeroIcon } from "./Zero.tsx";
 
 export {
     EightIcon,
@@ -32,4 +32,4 @@ export {
     ThreeIcon,
     TwoIcon,
     ZeroIcon
-}
+};

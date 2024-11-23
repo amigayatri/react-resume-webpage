@@ -3,6 +3,7 @@ const techArr = [
     "computer",
     "disc",
     "gamepad",
+    "index",
     "lightbulb",
     "megaphone",
     "phone",
@@ -12,11 +13,12 @@ const techArr = [
     "smartphone",
     "television",
     "trademark",
+    "types.ts",
     "vhs",
     "website"
-] as const
+] as const;
 
-type techKey = (typeof techArr)[number]
+type techKey = (typeof techArr)[number];
 
-export type { techKey }
-export { techArr }
+export type { techKey };
+export { techArr };

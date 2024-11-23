@@ -1,18 +1,18 @@
-import { CodeIcon } from "./CodeIcon"
-import { ComputerIcon } from "./ComputerIcon"
-import { DiscIcon } from "./DiscIcon"
-import { GamepadIcon } from "./GamepadIcon"
-import { LightbulbIcon } from "./LightbulbIcon"
-import { MegaphoneIcon } from "./MegaphoneIcon"
-import { PhoneIcon } from "./PhoneIcon"
-import { PolaroidIcon } from "./PolaroidIcon"
-import { RobotIcon } from "./RobotIcon"
-import { RocketIcon } from "./RocketIcon"
-import { SmartPhoneIcon } from "./SmartPhoneIcon"
-import { TelevisionIcon } from "./TelevisionIcon"
-import { TrademarkIcon } from "./TrademarkIcon"
-import { VHSIcon } from "./VHSIcon"
-import { WebsiteIcon } from "./WebsiteIcon"
+import { CodeIcon } from "./Code.tsx";
+import { ComputerIcon } from "./Computer.tsx";
+import { DiscIcon } from "./Disc.tsx";
+import { GamepadIcon } from "./Gamepad.tsx";
+import { LightbulbIcon } from "./Lightbulb.tsx";
+import { MegaphoneIcon } from "./Megaphone.tsx";
+import { PhoneIcon } from "./Phone.tsx";
+import { PolaroidIcon } from "./Polaroid.tsx";
+import { RobotIcon } from "./Robot.tsx";
+import { RocketIcon } from "./Rocket.tsx";
+import { SmartPhoneIcon } from "./SmartPhone.tsx";
+import { TelevisionIcon } from "./Television.tsx";
+import { TrademarkIcon } from "./Trademark.tsx";
+import { VHSIcon } from "./VHS.tsx";
+import { WebsiteIcon } from "./Website.tsx";
 
 export {
     CodeIcon,
@@ -30,4 +30,4 @@ export {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon
-}
+};

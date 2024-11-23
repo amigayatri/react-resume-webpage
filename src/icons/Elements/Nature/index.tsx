@@ -1,23 +1,23 @@
-import { BeachIcon } from "./BeachIcon"
-import { CactusIcon } from "./CactusIcon"
-import { CloudIcon } from "./CloudIcon"
-import { DNAIcon } from "./DNAIcon"
-import { EarthIcon } from "./EarthIcon"
-import { FireIcon } from "./FireIcon"
-import { LeafIcon } from "./LeafIcon"
-import { LightningIcon } from "./LightningIcon"
-import { MeteorIcon } from "./MeteorIcon"
-import { PlanetIcon } from "./PlanetIcon"
-import { PlantIcon } from "./PlantIcon"
-import { PrismIcon } from "./PrismIcon"
-import { RainbowIcon } from "./RainbowIcon"
-import { RainIcon } from "./RainIcon"
-import { SnowFlakeIcon } from "./SnowFlakeIcon"
-import { StarIcon } from "./StarIcon"
-import { TornadoIcon } from "./TornadoIcon"
-import { WaterfallIcon } from "./WaterfallIcon"
-import { WaveCrestIcon } from "./WaveCrestIcon"
-import { WindyIcon } from "./WindyIcon"
+import { BeachIcon } from "./Beach.tsx";
+import { CactusIcon } from "./Cactus.tsx";
+import { CloudIcon } from "./Cloud.tsx";
+import { DNAIcon } from "./DNA.tsx";
+import { EarthIcon } from "./Earth.tsx";
+import { FireIcon } from "./Fire.tsx";
+import { LeafIcon } from "./Leaf.tsx";
+import { LightningIcon } from "./Lightning.tsx";
+import { MeteorIcon } from "./Meteor.tsx";
+import { PlanetIcon } from "./Planet.tsx";
+import { PlantIcon } from "./Plant.tsx";
+import { PrismIcon } from "./Prism.tsx";
+import { RainIcon } from "./Rain.tsx";
+import { RainbowIcon } from "./Rainbow.tsx";
+import { SnowFlakeIcon } from "./SnowFlake.tsx";
+import { StarIcon } from "./Star.tsx";
+import { TornadoIcon } from "./Tornado.tsx";
+import { WaterfallIcon } from "./Waterfall.tsx";
+import { WaveCrestIcon } from "./WaveCrest.tsx";
+import { WindyIcon } from "./Windy.tsx";
 
 export {
     BeachIcon,
@@ -32,12 +32,12 @@ export {
     PlanetIcon,
     PlantIcon,
     PrismIcon,
-    RainbowIcon,
     RainIcon,
+    RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
     TornadoIcon,
     WaterfallIcon,
     WaveCrestIcon,
     WindyIcon
-}
+};

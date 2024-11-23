@@ -1,13 +1,13 @@
-import { AlienIcon } from "./AlienIcon"
-import { CryingIcon } from "./CryingIcon"
-import { FairyIcon } from "./FairyIcon"
-import { FemaleVampireIcon } from "./FemaleVampireIcon"
-import { GhostIcon } from "./GhostIcon"
-import { HappyIcon } from "./HappyIcon"
-import { PersonIcon } from "./PersonIcon"
-import { SadIcon } from "./SadIcon"
-import { SpyIcon } from "./SpyIcon"
-import { SuperHappyIcon } from "./SuperHappyIcon"
+import { AlienIcon } from "./Alien.tsx";
+import { CryingIcon } from "./Crying.tsx";
+import { FairyIcon } from "./Fairy.tsx";
+import { FemaleVampireIcon } from "./FemaleVampire.tsx";
+import { GhostIcon } from "./Ghost.tsx";
+import { HappyIcon } from "./Happy.tsx";
+import { PersonIcon } from "./Person.tsx";
+import { SadIcon } from "./Sad.tsx";
+import { SpyIcon } from "./Spy.tsx";
+import { SuperHappyIcon } from "./SuperHappy.tsx";
 
 export {
     AlienIcon,
@@ -20,4 +20,4 @@ export {
     SadIcon,
     SpyIcon,
     SuperHappyIcon
-}
+};

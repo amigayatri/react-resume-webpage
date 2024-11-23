@@ -1,37 +1,37 @@
-import { ApoteoseIcon } from "./ApoteoseIcon"
-import { ArcosDaLapaIcon } from "./ArcosDaLapaIcon"
-import { BaianaIcon } from "./BaianaIcon"
-import { BiquiniIcon } from "./BiquiniIcon"
-import { BondinhoIcon } from "./BondinhoIcon"
-import { BrigadeiroIcon } from "./BrigadeiroIcon"
-import { BronzeandoIcon } from "./BronzeandoIcon"
-import { CaipirinhaIcon } from "./CaipirinhaIcon"
-import { CalendarioBrasileiroIcon } from "./CalendarioBrasileiroIcon"
-import { CatedralDeBrasiliaIcon } from "./CatedralDeBrasiliaIcon"
-import { ChimarraoIcon } from "./ChimarraoIcon"
-import { CopacabanaIcon } from "./CopacabanaIcon"
-import { CorcovadoIcon } from "./CorcovadoIcon"
-import { CristoRedentorIcon } from "./CristoRedentorIcon"
-import { CristoRedentorVistaIcon } from "./CristoRedentorVistaIcon"
-import { DesfileCarnavalIcon } from "./DesfileCarnavalIcon"
-import { ElevadorLacerdaIcon } from "./ElevadorLacerdaIcon"
-import { FestaJuninaIcon } from "./FestaJuninaIcon"
-import { FrevoIcon } from "./FrevoIcon"
-import { GuardaSolIcon } from "./GuardaSolIcon"
-import { HavaianaIcon } from "./HavaianaIcon"
-import { IgrejaDaPampulhaIcon } from "./IgrejaDaPampulhaIcon"
-import { IpanemaIcon } from "./IpanemaIcon"
-import { MalandroIcon } from "./MalandroIcon"
-import { MaracanaIcon } from "./MaracanaIcon"
-import { MaspIcon } from "./MaspIcon"
-import { MemorialJKIcon } from "./MemorialJKIcon"
-import { MuseuArteContemporaneaIcon } from "./MuseuArteContemporaneaIcon"
-import { PlanaltoIcon } from "./PlanaltoIcon"
-import { PracaTresPoderesIcon } from "./PracaTresPoderesIcon"
-import { PraiaDeIpanemaIcon } from "./PraiaDeIpanemaIcon"
-import { SambaIcon } from "./SambaIcon"
-import { SelaronIcon } from "./SelaronIcon"
-import { TeatroAmazonasIcon } from "./TeatroAmazonasIcon"
+import { ApoteoseIcon } from "./Apoteose.tsx";
+import { ArcosDaLapaIcon } from "./ArcosDaLapa.tsx";
+import { BaianaIcon } from "./Baiana.tsx";
+import { BiquiniIcon } from "./Biquini.tsx";
+import { BondinhoIcon } from "./Bondinho.tsx";
+import { BrigadeiroIcon } from "./Brigadeiro.tsx";
+import { BronzeandoIcon } from "./Bronzeando.tsx";
+import { CaipirinhaIcon } from "./Caipirinha.tsx";
+import { CalendarioBrasileiroIcon } from "./CalendarioBrasileiro.tsx";
+import { CatedralDeBrasiliaIcon } from "./CatedralDeBrasilia.tsx";
+import { ChimarraoIcon } from "./Chimarrao.tsx";
+import { CopacabanaIcon } from "./Copacabana.tsx";
+import { CorcovadoIcon } from "./Corcovado.tsx";
+import { CristoRedentorIcon } from "./CristoRedentor.tsx";
+import { CristoRedentorVistaIcon } from "./CristoRedentorVista.tsx";
+import { DesfileCarnavalIcon } from "./DesfileCarnaval.tsx";
+import { ElevadorLacerdaIcon } from "./ElevadorLacerda.tsx";
+import { FestaJuninaIcon } from "./FestaJunina.tsx";
+import { FrevoIcon } from "./Frevo.tsx";
+import { GuardaSolIcon } from "./GuardaSol.tsx";
+import { HavaianaIcon } from "./Havaiana.tsx";
+import { IgrejaDaPampulhaIcon } from "./IgrejaDaPampulha.tsx";
+import { IpanemaIcon } from "./Ipanema.tsx";
+import { MalandroIcon } from "./Malandro.tsx";
+import { MaracanaIcon } from "./Maracana.tsx";
+import { MaspIcon } from "./Masp.tsx";
+import { MemorialJKIcon } from "./MemorialJK.tsx";
+import { MuseuArteContemporaneaIcon } from "./MuseuArteContemporanea.tsx";
+import { PlanaltoIcon } from "./Planalto.tsx";
+import { PracaTresPoderesIcon } from "./PracaTresPoderes.tsx";
+import { PraiaDeIpanemaIcon } from "./PraiaDeIpanema.tsx";
+import { SambaIcon } from "./Samba.tsx";
+import { SelaronIcon } from "./Selaron.tsx";
+import { TeatroAmazonasIcon } from "./TeatroAmazonas.tsx";
 
 export {
     ApoteoseIcon,
@@ -68,4 +68,4 @@ export {
     SambaIcon,
     SelaronIcon,
     TeatroAmazonasIcon
-}
+};

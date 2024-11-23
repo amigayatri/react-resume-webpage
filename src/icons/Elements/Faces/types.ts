@@ -5,13 +5,15 @@ const facesArr = [
     "femalevampire",
     "ghost",
     "happy",
+    "index",
     "person",
     "sad",
     "spy",
-    "superhappy"
-] as const
+    "superhappy",
+    "types.ts"
+] as const;
 
-type facesKey = (typeof facesArr)[number]
+type facesKey = (typeof facesArr)[number];
 
-export type { facesKey }
-export { facesArr }
+export type { facesKey };
+export { facesArr };

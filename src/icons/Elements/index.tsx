@@ -3,7 +3,7 @@
 /*    Icons from Ancient    */
 /*                          */
 /****************************/
-import  {
+import {
     AtlasIcon,
     AztecCalendarSunIcon,
     BastetIcon,
@@ -30,14 +30,14 @@ import  {
     SeaCreatureIcon,
     TrojanHorseIcon,
     VenusOfWillendorfIcon
-} from "./Ancient"
+} from "./Ancient";
 
 /****************************/
 /*                          */
 /*    Icons from Animals    */
 /*                          */
 /****************************/
-import  {
+import {
     AlpacaIcon,
     AmmoniteIcon,
     AnglerFishIcon,
@@ -52,8 +52,8 @@ import  {
     ButterflyIcon,
     CamelIcon,
     CapybaraIcon,
-    CaterpillarIcon,
     CatIcon,
+    CaterpillarIcon,
     ChickenIcon,
     ClownfishIcon,
     CowIcon,
@@ -123,14 +123,14 @@ import  {
     UnicornIcon,
     VelociraptorIcon,
     WhaleIcon
-} from "./Animals"
+} from "./Animals";
 
 /***************************/
 /*                         */
 /*    Icons from Brasil    */
 /*                         */
 /***************************/
-import  {
+import {
     ApoteoseIcon,
     ArcosDaLapaIcon,
     BaianaIcon,
@@ -165,14 +165,14 @@ import  {
     SambaIcon,
     SelaronIcon,
     TeatroAmazonasIcon
-} from "./Brasil"
+} from "./Brasil";
 
 /*******************************/
 /*                             */
 /*    Icons from Characters    */
 /*                             */
 /*******************************/
-import  {
+import {
     EightIcon,
     EmptyIcon,
     EqualIcon,
@@ -189,14 +189,14 @@ import  {
     ThreeIcon,
     TwoIcon,
     ZeroIcon
-} from "./Characters"
+} from "./Characters";
 
 /**************************/
 /*                        */
 /*    Icons from Faces    */
 /*                        */
 /**************************/
-import  {
+import {
     AlienIcon,
     CryingIcon,
     FairyIcon,
@@ -207,14 +207,14 @@ import  {
     SadIcon,
     SpyIcon,
     SuperHappyIcon
-} from "./Faces"
+} from "./Faces";
 
 /*************************/
 /*                       */
 /*    Icons from Food    */
 /*                       */
 /*************************/
-import  {
+import {
     BeerIcon,
     BowlIcon,
     BreadIcon,
@@ -223,14 +223,14 @@ import  {
     DrinkIcon,
     IceCreamIcon,
     PizzaIcon
-} from "./Food"
+} from "./Food";
 
 /****************************/
 /*                          */
 /*    Icons from General    */
 /*                          */
 /****************************/
-import  {
+import {
     AwardIcon,
     BankCardIcon,
     BriefcaseIcon,
@@ -258,27 +258,27 @@ import  {
     TestTubeIcon,
     TrophyIcon,
     UmbrellaIcon
-} from "./General"
+} from "./General";
 
 /******************************/
 /*                            */
 /*    Icons from Geography    */
 /*                            */
 /******************************/
-import  {
+import {
     CedarIcon,
     FlagIcon,
     GlobeIcon,
     MapIcon,
     MapPinIcon
-} from "./Geography"
+} from "./Geography";
 
 /******************************/
 /*                            */
 /*    Icons from Interface    */
 /*                            */
 /******************************/
-import  {
+import {
     BrokenLinkIcon,
     CalendarIcon,
     ChartIcon,
@@ -303,21 +303,21 @@ import  {
     ProfileIcon,
     ShadowIcon,
     SongLyricIcon,
-    TerminalErrorIcon,
     TerminalIcon,
+    TerminalErrorIcon,
     ToolsIcon,
     TranslateIcon,
     VoiceRecognitionIcon,
     ZoomInIcon,
     ZoomOutIcon
-} from "./Interface"
+} from "./Interface";
 
 /*************************/
 /*                       */
 /*    Icons from Logo    */
 /*                       */
 /*************************/
-import  {
+import {
     BaiduIcon,
     BarbieIcon,
     CSSIcon,
@@ -337,31 +337,31 @@ import  {
     WhatsAppIcon,
     WikiPediaIcon,
     YouTubeIcon
-} from "./Logo"
+} from "./Logo";
 
 /************************/
 /*                      */
 /*    Icons from Map    */
 /*                      */
 /************************/
-import  {
+import {
     AcreIcon,
     AlagoasIcon,
     AmapaIcon,
     AmazonasIcon,
     BahiaIcon,
-    BrasilDotIcon,
     BrasilIcon,
+    BrasilDotIcon,
     CearaIcon,
     DistritoFederalIcon,
     EspiritoSantoIcon,
     GoiasIcon,
     MaranhaoIcon,
-    MatoGrossoDoSulIcon,
     MatoGrossoIcon,
+    MatoGrossoDoSulIcon,
     MinasGeraisIcon,
-    ParaibaIcon,
     ParaIcon,
+    ParaibaIcon,
     ParanaIcon,
     PernambucoIcon,
     PiauiIcon,
@@ -375,24 +375,21 @@ import  {
     SergipeIcon,
     SouthAmericaIcon,
     TocantinsIcon
-} from "./Map"
+} from "./Map";
 
 /**************************/
 /*                        */
 /*    Icons from Media    */
 /*                        */
 /**************************/
-import  {
-    NarutoIcon,
-    SonicIcon
-} from "./Media"
+import { NarutoIcon, SonicIcon } from "./Media";
 
 /*************************/
 /*                       */
 /*    Icons from Misc    */
 /*                       */
 /*************************/
-import  {
+import {
     FishermanIcon,
     GrenadeIcon,
     HighTideIcon,
@@ -401,14 +398,14 @@ import  {
     SchrodingersCatDeadIcon,
     SexyIcon,
     ToyBrickIcon
-} from "./Misc"
+} from "./Misc";
 
 /*************************************/
 /*                                   */
 /*    Icons from MusicInstruments    */
 /*                                   */
 /*************************************/
-import  {
+import {
     AgogoIcon,
     GuitarIcon,
     HeadphoneIcon,
@@ -419,14 +416,14 @@ import  {
     SurdoIcon,
     TamborimIcon,
     TrianguloIcon
-} from "./MusicInstruments"
+} from "./MusicInstruments";
 
 /***************************/
 /*                         */
 /*    Icons from Nature    */
 /*                         */
 /***************************/
-import  {
+import {
     BeachIcon,
     CactusIcon,
     CloudIcon,
@@ -439,22 +436,22 @@ import  {
     PlanetIcon,
     PlantIcon,
     PrismIcon,
-    RainbowIcon,
     RainIcon,
+    RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
     TornadoIcon,
     WaterfallIcon,
     WaveCrestIcon,
     WindyIcon
-} from "./Nature"
+} from "./Nature";
 
 /*************************/
 /*                       */
 /*    Icons from Tech    */
 /*                       */
 /*************************/
-import  {
+import {
     CodeIcon,
     ComputerIcon,
     DiscIcon,
@@ -470,26 +467,21 @@ import  {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon
-} from "./Tech"
+} from "./Tech";
 
 /***************************/
 /*                         */
 /*    Icons from Toggle    */
 /*                         */
 /***************************/
-import  {
-    MoonIcon,
-    PauseIcon,
-    PlayIcon,
-    SunIcon
-} from "./Toggle"
+import { MoonIcon, PauseIcon, PlayIcon, SunIcon } from "./Toggle";
 
 /*****************************/
 /*                           */
 /*    Icons from Vehicles    */
 /*                           */
 /*****************************/
-import  {
+import {
     BikeIcon,
     BusIcon,
     CarIcon,
@@ -501,8 +493,7 @@ import  {
     TrainIcon,
     TruckIcon,
     WalkIcon
-} from "./Vehicles"
-
+} from "./Vehicles";
 
 export {
     AtlasIcon,
@@ -545,8 +536,8 @@ export {
     ButterflyIcon,
     CamelIcon,
     CapybaraIcon,
-    CaterpillarIcon,
     CatIcon,
+    CaterpillarIcon,
     ChickenIcon,
     ClownfishIcon,
     CowIcon,
@@ -740,8 +731,8 @@ export {
     ProfileIcon,
     ShadowIcon,
     SongLyricIcon,
-    TerminalErrorIcon,
     TerminalIcon,
+    TerminalErrorIcon,
     ToolsIcon,
     TranslateIcon,
     VoiceRecognitionIcon,
@@ -771,18 +762,18 @@ export {
     AmapaIcon,
     AmazonasIcon,
     BahiaIcon,
-    BrasilDotIcon,
     BrasilIcon,
+    BrasilDotIcon,
     CearaIcon,
     DistritoFederalIcon,
     EspiritoSantoIcon,
     GoiasIcon,
     MaranhaoIcon,
-    MatoGrossoDoSulIcon,
     MatoGrossoIcon,
+    MatoGrossoDoSulIcon,
     MinasGeraisIcon,
-    ParaibaIcon,
     ParaIcon,
+    ParaibaIcon,
     ParanaIcon,
     PernambucoIcon,
     PiauiIcon,
@@ -828,8 +819,8 @@ export {
     PlanetIcon,
     PlantIcon,
     PrismIcon,
-    RainbowIcon,
     RainIcon,
+    RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
     TornadoIcon,
@@ -866,4 +857,4 @@ export {
     TrainIcon,
     TruckIcon,
     WalkIcon
-}
+};

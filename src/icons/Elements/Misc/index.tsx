@@ -1,11 +1,11 @@
-import { FishermanIcon } from "./FishermanIcon"
-import { GrenadeIcon } from "./GrenadeIcon"
-import { HighTideIcon } from "./HighTideIcon"
-import { PaperFrogIcon } from "./PaperFrogIcon"
-import { SchrodingersCatAliveIcon } from "./SchrodingersCatAliveIcon"
-import { SchrodingersCatDeadIcon } from "./SchrodingersCatDeadIcon"
-import { SexyIcon } from "./SexyIcon"
-import { ToyBrickIcon } from "./ToyBrickIcon"
+import { FishermanIcon } from "./Fisherman.tsx";
+import { GrenadeIcon } from "./Grenade.tsx";
+import { HighTideIcon } from "./HighTide.tsx";
+import { PaperFrogIcon } from "./PaperFrog.tsx";
+import { SchrodingersCatAliveIcon } from "./SchrodingersCatAlive.tsx";
+import { SchrodingersCatDeadIcon } from "./SchrodingersCatDead.tsx";
+import { SexyIcon } from "./Sexy.tsx";
+import { ToyBrickIcon } from "./ToyBrick.tsx";
 
 export {
     FishermanIcon,
@@ -16,4 +16,4 @@ export {
     SchrodingersCatDeadIcon,
     SexyIcon,
     ToyBrickIcon
-}
+};

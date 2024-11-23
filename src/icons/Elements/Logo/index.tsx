@@ -1,22 +1,22 @@
-import { BaiduIcon } from "./BaiduIcon"
-import { BarbieIcon } from "./BarbieIcon"
-import { CSSIcon } from "./CSSIcon"
-import { FacebookIcon } from "./FacebookIcon"
-import { FirefoxIcon } from "./FirefoxIcon"
-import { GithubIcon } from "./GithubIcon"
-import { GoogleIcon } from "./GoogleIcon"
-import { HTMLIcon } from "./HTMLIcon"
-import { JavaScriptIcon } from "./JavaScriptIcon"
-import { LeetCodeIcon } from "./LeetCodeIcon"
-import { LinkedinIcon } from "./LinkedinIcon"
-import { McDonaldsIcon } from "./McDonaldsIcon"
-import { MicrosoftIcon } from "./MicrosoftIcon"
-import { ReactIcon } from "./ReactIcon"
-import { SpotifyIcon } from "./SpotifyIcon"
-import { TumblrIcon } from "./TumblrIcon"
-import { WhatsAppIcon } from "./WhatsAppIcon"
-import { WikiPediaIcon } from "./WikiPediaIcon"
-import { YouTubeIcon } from "./YouTubeIcon"
+import { BaiduIcon } from "./Baidu.tsx";
+import { BarbieIcon } from "./Barbie.tsx";
+import { CSSIcon } from "./CSS.tsx";
+import { FacebookIcon } from "./Facebook.tsx";
+import { FirefoxIcon } from "./Firefox.tsx";
+import { GithubIcon } from "./Github.tsx";
+import { GoogleIcon } from "./Google.tsx";
+import { HTMLIcon } from "./HTML.tsx";
+import { JavaScriptIcon } from "./JavaScript.tsx";
+import { LeetCodeIcon } from "./LeetCode.tsx";
+import { LinkedinIcon } from "./Linkedin.tsx";
+import { McDonaldsIcon } from "./McDonalds.tsx";
+import { MicrosoftIcon } from "./Microsoft.tsx";
+import { ReactIcon } from "./React.tsx";
+import { SpotifyIcon } from "./Spotify.tsx";
+import { TumblrIcon } from "./Tumblr.tsx";
+import { WhatsAppIcon } from "./WhatsApp.tsx";
+import { WikiPediaIcon } from "./WikiPedia.tsx";
+import { YouTubeIcon } from "./YouTube.tsx";
 
 export {
     BaiduIcon,
@@ -38,4 +38,4 @@ export {
     WhatsAppIcon,
     WikiPediaIcon,
     YouTubeIcon
-}
+};

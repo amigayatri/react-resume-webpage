@@ -12,6 +12,7 @@ const generalArr = [
     "graduationcap",
     "heart",
     "heartpulse",
+    "index",
     "key",
     "magazine",
     "medal",
@@ -25,10 +26,11 @@ const generalArr = [
     "sparkling",
     "testtube",
     "trophy",
+    "types.ts",
     "umbrella"
-] as const
+] as const;
 
-type generalKey = (typeof generalArr)[number]
+type generalKey = (typeof generalArr)[number];
 
-export type { generalKey }
-export { generalArr }
+export type { generalKey };
+export { generalArr };

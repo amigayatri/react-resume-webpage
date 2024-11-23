@@ -10,12 +10,10 @@
     "comp": "npx generate-react-cli component",
     "component": "npx generate-react-cli component",
     "hook": "npx generate-react-cli component --type=hook",
-    "icon": "npx generate-react-cli component --type=icon --flat",
     "page": "npx generate-react-cli component --type=page",
     "theme": "npx generate-react-cli component --type=theme --flat",
     "type": "npx generate-react-cli component --type=interfaces --flat",
-    "update": "node .\\aux-files\\generate-icon-map.cjs",
-    "newIcons": "node .\\aux-files\\create-new-icons.cjs"
+    "update": "node .\\scripts\\update.cjs"
   },
   "dependencies": {
     "@alexandernanberg/react-pdf-renderer": "^4.0.0-canary-4",
@@ -30,6 +28,7 @@
     "i18next-resources-to-backend": "^1.2.1",
     "next": "^15.0.1",
     "next-svgr": "^0.0.2",
+    "prettier": "^3.3.3",
     "react": "^18.2.0",
     "react-colorful": "^5.6.1",
     "react-cookie": "^7.2.1",

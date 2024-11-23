@@ -5,6 +5,10 @@ import { animalsIcons, numbers } from "../../../../constants/animals.ts"
 import { AddButtonsProps } from "../types.ts"
 import { iconKey } from "../../../../icons/"
 
+//$plusplusStart
+// = ["plus", "equal", "plusplus"]
+//$plusplusEnd
+
 export const AddButtons = ({
 	t,
 	lng,

@@ -1,11 +1,6 @@
-import { MoonIcon } from "./MoonIcon"
-import { PauseIcon } from "./PauseIcon"
-import { PlayIcon } from "./PlayIcon"
-import { SunIcon } from "./SunIcon"
+import { MoonIcon } from "./Moon.tsx";
+import { PauseIcon } from "./Pause.tsx";
+import { PlayIcon } from "./Play.tsx";
+import { SunIcon } from "./Sun.tsx";
 
-export {
-    MoonIcon,
-    PauseIcon,
-    PlayIcon,
-    SunIcon
-}
+export { MoonIcon, PauseIcon, PlayIcon, SunIcon };

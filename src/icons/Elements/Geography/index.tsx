@@ -1,13 +1,7 @@
-import { CedarIcon } from "./CedarIcon"
-import { FlagIcon } from "./FlagIcon"
-import { GlobeIcon } from "./GlobeIcon"
-import { MapIcon } from "./MapIcon"
-import { MapPinIcon } from "./MapPinIcon"
+import { CedarIcon } from "./Cedar.tsx";
+import { FlagIcon } from "./Flag.tsx";
+import { GlobeIcon } from "./Globe.tsx";
+import { MapIcon } from "./Map.tsx";
+import { MapPinIcon } from "./MapPin.tsx";
 
-export {
-    CedarIcon,
-    FlagIcon,
-    GlobeIcon,
-    MapIcon,
-    MapPinIcon
-}
+export { CedarIcon, FlagIcon, GlobeIcon, MapIcon, MapPinIcon };

@@ -1,9 +1,6 @@
-const mediaArr = [
-    "naruto",
-    "sonic"
-] as const
+const mediaArr = ["index", "naruto", "sonic", "types.ts"] as const;
 
-type mediaKey = (typeof mediaArr)[number]
+type mediaKey = (typeof mediaArr)[number];
 
-export type { mediaKey }
-export { mediaArr }
+export type { mediaKey };
+export { mediaArr };

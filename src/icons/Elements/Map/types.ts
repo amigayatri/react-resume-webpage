@@ -4,18 +4,19 @@ const mapArr = [
     "amapa",
     "amazonas",
     "bahia",
-    "brasildot",
     "brasil",
+    "brasildot",
     "ceara",
     "distritofederal",
     "espiritosanto",
     "goias",
+    "index",
     "maranhao",
-    "matogrossodosul",
     "matogrosso",
+    "matogrossodosul",
     "minasgerais",
-    "paraiba",
     "para",
+    "paraiba",
     "parana",
     "pernambuco",
     "piaui",
@@ -28,10 +29,11 @@ const mapArr = [
     "saopaulo",
     "sergipe",
     "southamerica",
-    "tocantins"
-] as const
+    "tocantins",
+    "types.ts"
+] as const;
 
-type mapKey = (typeof mapArr)[number]
+type mapKey = (typeof mapArr)[number];
 
-export type { mapKey }
-export { mapArr }
+export type { mapKey };
+export { mapArr };
