@@ -13,6 +13,7 @@
     "page": "npx generate-react-cli component --type=page",
     "theme": "npx generate-react-cli component --type=theme --flat",
     "type": "npx generate-react-cli component --type=interfaces --flat",
+    "dev-scripts": "node .\\scripts\\update.cjs && next",
     "update": "node .\\scripts\\update.cjs"
   },
   "dependencies": {

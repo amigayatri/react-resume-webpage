@@ -14,25 +14,34 @@ const readFile = (path) => {
 	})
 }
 
-const deleteFile = (path) => {
+const deleteFile = (path, isToPrint = false) => {
 	return fs.unlink(path, (err) => {
 		if (err) throw err
-		console.log("path/file.txt was deleted")
+		isToPrint === true && console.log(`${path} was deleted`)
 	})
 }
 
-const defaultWriteCb = (error) => {
+const defaultWriteCb = (error, path, isToPrint = false) => {
 	if (error) {
 		console.error(error)
 		return
 	}
+	if (isToPrint) console.log(`${path} created`)
 }
 
-const writeFile = async (path, contentStr, needPrettier = true, callbackFn) => {
+const writeFile = async (
+	path,
+	contentStr,
+	needPrettier = true,
+	isToPrint = false,
+	callbackFn
+) => {
 	const safeCb = callbackFn === undefined ? defaultWriteCb : callbackFn
 	if (needPrettier === true) {
 		return prettier.formatFile(contentStr, path).then((safeContent) => {
-			return fs.writeFile(path, safeContent, safeCb)
+			return fs.writeFile(path, safeContent, (error) =>
+				safeCb(error, path, isToPrint)
+			)
 		})
 	} else {
 		return fs.writeFile(path, contentStr, safeCb)
@@ -68,5 +77,6 @@ module.exports = {
 	mapFoldersInside,
 	mapFilesInside,
 	createConditional,
+	hasFolder,
 	writeFile
 }

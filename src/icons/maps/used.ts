@@ -1,16 +1,17 @@
 import { iconKey } from "../types";
 import { removeUsed } from "./never";
 
-const usedIcons: Map<string, Set<string>> = new Map([
-    ["holidays", new Set(["map"])],
-    ["cats", new Set(["minus"])],
-    ["palette", new Set(["listunordered"])],
-    ["subnav", new Set(["more"])],
-    ["error", new Set(["terminalerror"])],
-    ["iconsstats", new Set(["chart"])],
+//$entriesArrStart
+const entriesArr: [string, string[]][] = [
+    ["holidays", ["map"]],
+    ["cats", ["minus"]],
+    ["palette", ["listunordered"]],
+    ["subnav", ["more"]],
+    ["error", ["terminalerror"]],
+    ["iconsstats", ["chart"]],
     [
         "resume",
-        new Set([
+        [
             "download",
             "graduationcap",
             "briefcase",
@@ -21,13 +22,13 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "email",
             "linkedin",
             "website"
-        ])
+        ]
     ],
-    ["stats", new Set(["github", "leetcode"])],
-    ["leetcode", new Set(["terminal", "external"])],
+    ["stats", ["github", "leetcode"]],
+    ["leetcode", ["terminal", "external"]],
     [
         "links",
-        new Set([
+        [
             "home",
             "profile",
             "map",
@@ -42,11 +43,11 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "brasil",
             "linkedin",
             "github"
-        ])
+        ]
     ],
     [
         "palette-group",
-        new Set([
+        [
             "website",
             "rainbow",
             "clapperboard",
@@ -54,11 +55,11 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "mappin",
             "computer",
             "palette"
-        ])
+        ]
     ],
     [
         "palettes-brands",
-        new Set([
+        [
             "burger",
             "megaphone",
             "drink",
@@ -67,11 +68,11 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "bankcard",
             "mcdonalds",
             "magazine"
-        ])
+        ]
     ],
     [
         "palettes-media",
-        new Set([
+        [
             "bee",
             "crying",
             "barbie",
@@ -81,23 +82,16 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "magicwand",
             "magazine",
             "naruto"
-        ])
+        ]
     ],
     [
         "palettes-places",
-        new Set([
-            "cedar",
-            "star",
-            "icecream",
-            "mappin",
-            "brasil",
-            "riodejaneiro"
-        ])
+        ["cedar", "star", "icecream", "mappin", "brasil", "riodejaneiro"]
     ],
-    ["palettes-rainbow", new Set(["terminal", "rainbow"])],
+    ["palettes-rainbow", ["terminal", "rainbow"]],
     [
         "palettes-schemes",
-        new Set([
+        [
             "colorfilter",
             "terminal",
             "website",
@@ -106,11 +100,11 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "pencil",
             "vhs",
             "prism"
-        ])
+        ]
     ],
     [
         "palettes-tech",
-        new Set([
+        [
             "baidu",
             "facebook",
             "firefox",
@@ -121,12 +115,12 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "whatsapp",
             "wikipedia",
             "youtube"
-        ])
+        ]
     ],
-    ["palettes-themes", new Set(["website"])],
+    ["palettes-themes", ["website"]],
     [
         "animals",
-        new Set([
+        [
             "zero",
             "one",
             "two",
@@ -155,13 +149,13 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "plus",
             "equal",
             "plusplus"
-        ])
+        ]
     ],
-    ["404", new Set(["brokenlink"])],
-    ["maintenance", new Set(["bug", "github", "tools"])],
+    ["404", ["brokenlink"]],
+    ["maintenance", ["bug", "github", "tools"]],
     [
         "garotadeipanemalyric",
-        new Set([
+        [
             "samba",
             "beach",
             "mermaid",
@@ -172,11 +166,11 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "moon",
             "snowflake",
             "windy"
-        ])
+        ]
     ],
     [
         "omarserenoulyric",
-        new Set([
+        [
             "pandeiro",
             "samba",
             "beach",
@@ -188,11 +182,29 @@ const usedIcons: Map<string, Set<string>> = new Map([
             "snowflake",
             "windy",
             "star"
-        ])
+        ]
     ],
-    ["holidays", new Set(["sad", "superhappy", "happy"])],
-    ["available-musics", new Set(["mermaid", "bronzeando"])]
-]);
+    ["holidays", ["sad", "superhappy", "happy"]],
+    ["available-musics", ["mermaid", "bronzeando"]]
+];
+//$entriesArrEnd
+
+type mapEntriesFn = ([local, iconsArr]: [string, string[]]) => [
+    string,
+    Set<iconKey>
+];
+
+const mapEntries: mapEntriesFn = ([local, iconsArr]) => {
+    const localSet: Set<iconKey> = new Set();
+    for (const iconId of iconsArr) {
+        localSet.add(iconId as iconKey);
+    }
+    return [local, localSet];
+};
+
+const usedIcons: Map<string, Set<iconKey>> = new Map(
+    Array.from(entriesArr, mapEntries)
+);
 
 type markAsUsed = (id: iconKey, local: string) => void;
 const markAsUsed: markAsUsed = (id, local) => {

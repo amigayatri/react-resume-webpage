@@ -67,27 +67,20 @@ const generateAllIconsMap = (allObj, allEntries) => {
 const generateTypeStr = (typeArrName, idStr, typeVal, typeName) =>
 	`const ${typeArrName} = [\n    ${idStr}\n] as const\n\n${typeVal}\n\nexport type { ${typeName} }\nexport { ${typeArrName} }`
 
-const usedIconsMap = (entriesStr) => {
-	return `import { iconKey } from "../types"
-import { removeUsed } from "./never"
-
-
-const usedIcons: Map<string, Set<string>>  = new Map(${entriesStr})
-
-type markAsUsed = (id: iconKey, local: string) => void
-const markAsUsed: markAsUsed = (id, local) => {
-	const prevUsed = usedIcons.get(local) || new Set()
-	prevUsed.add(id)
-	usedIcons.set(local, prevUsed)
-	removeUsed(id)
-}
-
-const getAllUsed = () => {
-	return Array.from(usedIcons.entries())
-}
-
-export { usedIcons, markAsUsed, getAllUsed }
-`
+const usedIconsMap = (fileContent, entriesStr, keys) => {
+	const [startKey, endKey] = keys
+	const preffixStr = fileContent.substring(0, fileContent.indexOf(startKey))
+	const entriesConstStr = [
+		"",
+		startKey,
+		`const entriesArr: [string, string[]][] = ${entriesStr}`,
+		endKey,
+		""
+	].join("\n")
+	const suffixStr = fileContent.substring(
+		fileContent.indexOf(endKey) + endKey.length
+	)
+	return [preffixStr, entriesConstStr, suffixStr].join("\n")
 }
 
 module.exports = {

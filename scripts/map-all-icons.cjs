@@ -79,13 +79,19 @@ const mapIcons = () => {
 		mapIconsFromFolder(folder)
 	})
 	writeElements(mapImportsByFolder)
-
+	const idToIgnore = new Set([
+		"types.ts",
+		"index",
+		'"index"',
+		'"types.ts"',
+		""
+	])
 	const allObj = mapImportsByFolder.get("all")
 	const getIconPair = (id, idx) => {
 		const cleanId = id.replaceAll('"', "")
-		if (!already.has(cleanId)) newAlts.push(cleanId)
+		if (!already.has(cleanId) && !idToIgnore.has(id)) newAlts.push(cleanId)
 		missing.delete(cleanId)
-		if (id === '"index"' || id === '"types.ts"') return ""
+		if (idToIgnore.has(id)) return ""
 		const idEl = all.icons[idx].replace(".tsx", "Icon")
 		return `\n    [${id}, ${idEl}]`
 	}
