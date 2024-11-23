@@ -5,7 +5,11 @@ const formatFile = async (contentStr, filePath) => {
 		filepath: filePath,
 		experimentalTernaries: true,
 		tabWidth: 4,
-		trailingComma: "none"
+		trailingComma: "none",
+		arrowParens: "always",
+		bracketSpacing: true,
+		proseWrap: "preserve",
+		quoteProps: "as-needed"
 	})
 	return formatted
 }
