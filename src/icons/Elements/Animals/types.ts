@@ -39,7 +39,6 @@ const animalsArr = [
     "hedgehog",
     "horse",
     "hummingbird",
-    "index",
     "jellyfish",
     "kiwibird",
     "koala",
@@ -82,7 +81,6 @@ const animalsArr = [
     "tapir",
     "tortoise",
     "turtle",
-    "types.ts",
     "unicorn",
     "velociraptor",
     "whale"

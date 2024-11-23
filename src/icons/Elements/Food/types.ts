@@ -6,9 +6,7 @@ const foodArr = [
     "cake",
     "drink",
     "icecream",
-    "index",
-    "pizza",
-    "types.ts"
+    "pizza"
 ] as const;
 
 type foodKey = (typeof foodArr)[number];

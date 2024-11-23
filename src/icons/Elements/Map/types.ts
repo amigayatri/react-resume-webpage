@@ -10,7 +10,6 @@ const mapArr = [
     "distritofederal",
     "espiritosanto",
     "goias",
-    "index",
     "maranhao",
     "matogrosso",
     "matogrossodosul",
@@ -29,8 +28,7 @@ const mapArr = [
     "saopaulo",
     "sergipe",
     "southamerica",
-    "tocantins",
-    "types.ts"
+    "tocantins"
 ] as const;
 
 type mapKey = (typeof mapArr)[number];

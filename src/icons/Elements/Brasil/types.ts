@@ -13,7 +13,6 @@ const brasilArr = [
     "copacabana",
     "corcovado",
     "cristoredentor",
-    "cristoredentorvista",
     "desfilecarnaval",
     "elevadorlacerda",
     "festajunina",
@@ -21,7 +20,6 @@ const brasilArr = [
     "guardasol",
     "havaiana",
     "igrejadapampulha",
-    "index",
     "ipanema",
     "malandro",
     "maracana",
@@ -33,8 +31,7 @@ const brasilArr = [
     "praiadeipanema",
     "samba",
     "selaron",
-    "teatroamazonas",
-    "types.ts"
+    "teatroamazonas"
 ] as const;
 
 type brasilKey = (typeof brasilArr)[number];

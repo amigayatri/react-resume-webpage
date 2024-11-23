@@ -3,7 +3,6 @@ const techArr = [
     "computer",
     "disc",
     "gamepad",
-    "index",
     "lightbulb",
     "megaphone",
     "phone",
@@ -13,7 +12,6 @@ const techArr = [
     "smartphone",
     "television",
     "trademark",
-    "types.ts",
     "vhs",
     "website"
 ] as const;

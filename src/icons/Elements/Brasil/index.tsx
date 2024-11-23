@@ -12,7 +12,6 @@ import { ChimarraoIcon } from "./Chimarrao.tsx";
 import { CopacabanaIcon } from "./Copacabana.tsx";
 import { CorcovadoIcon } from "./Corcovado.tsx";
 import { CristoRedentorIcon } from "./CristoRedentor.tsx";
-import { CristoRedentorVistaIcon } from "./CristoRedentorVista.tsx";
 import { DesfileCarnavalIcon } from "./DesfileCarnaval.tsx";
 import { ElevadorLacerdaIcon } from "./ElevadorLacerda.tsx";
 import { FestaJuninaIcon } from "./FestaJunina.tsx";
@@ -48,7 +47,6 @@ export {
     CopacabanaIcon,
     CorcovadoIcon,
     CristoRedentorIcon,
-    CristoRedentorVistaIcon,
     DesfileCarnavalIcon,
     ElevadorLacerdaIcon,
     FestaJuninaIcon,

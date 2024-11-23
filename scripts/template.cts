@@ -1,4 +1,9 @@
-const fillTemplate = (
+type fillTemplate = (
+	iconName: string,
+	viewbox: string,
+	cleanTags: string
+) => string
+const fillTemplate: fillTemplate = (
 	iconName,
 	viewbox,
 	cleanTags
@@ -32,8 +37,8 @@ const generateComment = (content, isFolderName) => {
 		isFolderName === true ? `Icons from ${content}` : content
 	const [preffix, suffix] = ["/*", "*/"]
 	const tab = `    `
-	const format = (str) => `${preffix}${str}${suffix}`
-	const repeat = (isFirst, isMiddle) =>
+	const format = (str: string) => `${preffix}${str}${suffix}`
+	const repeat = (isFirst?: boolean, isMiddle?: boolean) =>
 		isFirst === true
 			? format(generateRepeat(8 + commentContent.length, "*"))
 			: isMiddle === true
@@ -47,27 +52,31 @@ const generateComment = (content, isFolderName) => {
 	)
 }
 
-const getIconPair = (id, idx) => {
-	const cleanId = id.replaceAll('"', "")
-	if (!alreadyTranslated.has(cleanId)) newAlts.push(cleanId)
-	missingIcons.delete(cleanId)
-	const idEl = all.icons[idx]
-	return `\n    [${id}, ${idEl}]`
-}
-
 const mapImp = `import { iconsMap } from "./types"\n\n`
 
-const generateAllIconsMap = (allObj, allEntries) => {
+type generateAllIconsMap = (allObj: string, allEntries: string) => string
+const generateAllIconsMap: generateAllIconsMap = (allObj, allEntries) => {
 	const elImp = `import ${allObj} from "../Elements"\n\n`
 	const iconsMap = `const allIcons : iconsMap = new Map ( [\n${allEntries}\n])\n\n`
 	const mapExp = `export { allIcons }`
 	return [mapImp, elImp, iconsMap, mapExp].join("")
 }
 
-const generateTypeStr = (typeArrName, idStr, typeVal, typeName) =>
+type generateTypeStr = (...args: string[]) => string
+const generateTypeStr: generateTypeStr = (
+	typeArrName,
+	idStr,
+	typeVal,
+	typeName
+) =>
 	`const ${typeArrName} = [\n    ${idStr}\n] as const\n\n${typeVal}\n\nexport type { ${typeName} }\nexport { ${typeArrName} }`
 
-const usedIconsMap = (fileContent, entriesStr, keys) => {
+type usedIconsMap = (
+	fileContent: string,
+	entriesStr: string,
+	keys: [string, string]
+) => string
+const usedIconsMap: usedIconsMap = (fileContent, entriesStr, keys) => {
 	const [startKey, endKey] = keys
 	const preffixStr = fileContent.substring(0, fileContent.indexOf(startKey))
 	const entriesConstStr = [

@@ -5,7 +5,6 @@ const natureArr = [
     "dna",
     "earth",
     "fire",
-    "index",
     "leaf",
     "lightning",
     "meteor",
@@ -17,7 +16,6 @@ const natureArr = [
     "snowflake",
     "star",
     "tornado",
-    "types.ts",
     "waterfall",
     "wavecrest",
     "windy"

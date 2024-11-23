@@ -13,8 +13,8 @@
     "page": "npx generate-react-cli component --type=page",
     "theme": "npx generate-react-cli component --type=theme --flat",
     "type": "npx generate-react-cli component --type=interfaces --flat",
-    "dev-scripts": "node .\\scripts\\update.cjs && next",
-    "update": "node .\\scripts\\update.cjs"
+    "dev-scripts": "npx tsx  .\\scripts\\update.ts && next",
+    "update": "npx tsx  .\\scripts\\update.ts"
   },
   "dependencies": {
     "@alexandernanberg/react-pdf-renderer": "^4.0.0-canary-4",
@@ -51,6 +51,7 @@
     "@types/react-tagcloud": "^2.3.2",
     "@types/rtl-detect": "^1.0.3",
     "rollup-plugin-visualizer": "^5.12.0",
+    "tsx": "^4.19.2",
     "typescript": "^5.6.2"
   }
 }

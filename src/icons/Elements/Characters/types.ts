@@ -4,7 +4,6 @@ const charactersArr = [
     "equal",
     "five",
     "four",
-    "index",
     "minus",
     "minusminus",
     "nine",
@@ -15,7 +14,6 @@ const charactersArr = [
     "six",
     "three",
     "two",
-    "types.ts",
     "zero"
 ] as const;
 

@@ -5,12 +5,10 @@ const facesArr = [
     "femalevampire",
     "ghost",
     "happy",
-    "index",
     "person",
     "sad",
     "spy",
-    "superhappy",
-    "types.ts"
+    "superhappy"
 ] as const;
 
 type facesKey = (typeof facesArr)[number];

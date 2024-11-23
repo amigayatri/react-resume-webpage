@@ -1,6 +1,7 @@
 const prettier = require("prettier")
 
-const formatFile = async (contentStr, filePath) => {
+type formatFile = (contentStr: string, filePath: string) => Promise<string>
+const formatFile: formatFile = async (contentStr, filePath) => {
 	const formatted = await prettier.format(contentStr, {
 		filepath: filePath,
 		experimentalTernaries: true,

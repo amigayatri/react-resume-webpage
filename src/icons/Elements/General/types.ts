@@ -12,7 +12,6 @@ const generalArr = [
     "graduationcap",
     "heart",
     "heartpulse",
-    "index",
     "key",
     "magazine",
     "medal",
@@ -26,7 +25,6 @@ const generalArr = [
     "sparkling",
     "testtube",
     "trophy",
-    "types.ts",
     "umbrella"
 ] as const;
 

@@ -3,14 +3,12 @@ const vehiclesArr = [
     "bus",
     "car",
     "carriertruck",
-    "index",
     "motorbike",
     "plane",
     "skateboarding1",
     "skateboarding2",
     "train",
     "truck",
-    "types.ts",
     "walk"
 ] as const;
 

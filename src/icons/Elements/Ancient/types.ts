@@ -16,7 +16,6 @@ const ancientArr = [
     "greeksphinx",
     "greektemple",
     "icarus",
-    "index",
     "machupicchu",
     "mayanpyramid",
     "mermaid",
@@ -25,7 +24,6 @@ const ancientArr = [
     "saintbasilcathedral",
     "seacreature",
     "trojanhorse",
-    "types.ts",
     "venusofwillendorf"
 ] as const;
 

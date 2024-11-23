@@ -7,7 +7,6 @@ const logoArr = [
     "github",
     "google",
     "html",
-    "index",
     "javascript",
     "leetcode",
     "linkedin",
@@ -16,7 +15,6 @@ const logoArr = [
     "react",
     "spotify",
     "tumblr",
-    "types.ts",
     "whatsapp",
     "wikipedia",
     "youtube"

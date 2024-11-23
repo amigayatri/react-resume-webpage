@@ -1,15 +1,20 @@
-const notEqual = new Map([[`{`, `}`]])
-const utils = require(`./utils.cjs`)
+const notEqual: Map<string, string> = new Map([[`{`, `}`]])
+const utils = require(`./utils.cts`)
 const { camelize, sub, getValIdx } = utils
 
 const tagsToRemove = [`svg`, `defs`]
 const attrsToRemove = new Set([`style`, `class`])
-const fillValsMap = new Map([
+const colorValsMap: Map<string, string> = new Map([
 	[`currentColor`, `currentColor`],
-	[`#000`, `none`]
+	["none", "none"]
 ])
 
-const createAttStr = (attrName, attrVal, needCamelize) =>
+type createAttStr = (
+	attrName: string,
+	attrVal: string | undefined,
+	needCamelize?: boolean
+) => string
+const createAttStr: createAttStr = (attrName, attrVal, needCamelize) =>
 	attrVal !== undefined
 		? needCamelize === true
 			? `${camelize(attrName)}=${attrVal}`
@@ -18,16 +23,38 @@ const createAttStr = (attrName, attrVal, needCamelize) =>
 
 const anyLetterRegex = new RegExp(/\w+/)
 
-const hasLetter = (str) => {
+const hasLetter = (str: string) => {
 	return anyLetterRegex.test(str)
 }
 
-const cleanTag = (tagStr) => {
+const renderableElementsSet: Set<string> = new Set([
+	"a",
+	"circle",
+	"ellipse",
+	"foreignObject",
+	"g",
+	"image",
+	"line",
+	"path",
+	"polygon",
+	"polyline",
+	"rect",
+	"switch",
+	"symbol",
+	"text",
+	"textPath",
+	"tspan",
+	"use"
+])
+const colorAttrs: Set<string> = new Set(["fill", "stroke"])
+
+const cleanTag = (tagStr: string) => {
 	const [tagName] = tagStr.split(` `)
-	if (!hasLetter(tagName)) return ``
-	let prevAttrName = undefined
-	const cleanAttrArr = []
+	if (!hasLetter(tagName) || !renderableElementsSet.has(tagName)) return ``
+	let prevAttrName: string | undefined = undefined
+	const cleanAttrArr: string[] = []
 	const pushAttr = (attrName, attrVal) =>
+		attrName.length > 0 &&
 		cleanAttrArr.push(createAttStr(attrName, attrVal, true))
 	const attrArr = tagStr.split(`=`)
 	for (let i = 0; i < attrArr.length; i++) {
@@ -39,11 +66,11 @@ const cleanTag = (tagStr) => {
 				createAttStr(prevAttrName, subStr),
 				prevAttrName
 			)
-			if (prevAttrVal.length >= 0) {
-				if (prevAttrName !== "fill") {
+			if (typeof prevAttrVal === "string" && prevAttrVal.length >= 0) {
+				if (!colorAttrs.has(prevAttrName)) {
 					pushAttr(prevAttrName, prevAttrVal)
-				} else if (fillValsMap.has(prevAttrVal)) {
-					pushAttr(prevAttrName, fillValsMap.get(prevAttrVal))
+				} else if (colorValsMap.has(prevAttrVal)) {
+					pushAttr(prevAttrName, colorValsMap.get(prevAttrVal))
 				}
 			}
 		}
@@ -55,16 +82,21 @@ const cleanTag = (tagStr) => {
 	)
 }
 
-const getCleanSVGContent = (elStr) => {
+const getCleanSVGContent = (elStr: string) => {
 	let prevCpy = Array.from(elStr).join(``)
 	for (const tag of tagsToRemove) {
 		prevCpy = removeTag(prevCpy, tag, true)
 	}
 	const cleanTagArr = prevCpy.split(`<`).map(cleanTag)
-	return cleanTagArr.filter((attrStr) => hasLetter(attrStr) === true).join(`\n`)
+	const cleanSVGString = cleanTagArr
+		.filter((tag) => tag.length > 0 && hasLetter(tag) === true)
+		.join(`\n`)
+	if (hasLetter(cleanSVGString)) return cleanSVGString
+	return ""
 }
 
-const getAttrVal = (elStr, attrName) => {
+type getAttrVal = (elStr: string, attrName: string) => undefined | true | string
+const getAttrVal: getAttrVal = (elStr, attrName) => {
 	const attrPos = elStr.indexOf(attrName)
 	if (attrPos < 0) return undefined
 	const equalPos = elStr.indexOf(`=`, attrPos)
@@ -72,7 +104,7 @@ const getAttrVal = (elStr, attrName) => {
 	const startIdx = equalPos + 1
 	const delim = elStr[startIdx]
 	if (notEqual.has(delim)) {
-		const endIdx = elStr.indexOf(notEqual.get(delim), startIdx)
+		const endIdx = elStr.indexOf(notEqual.get(delim) || "$", startIdx)
 		return sub(elStr, startIdx, endIdx)
 	} else {
 		const endIdx = elStr.indexOf(delim, startIdx + 1)
@@ -80,26 +112,31 @@ const getAttrVal = (elStr, attrName) => {
 	}
 }
 
-const removeAttr = (elStr, attrName) => {
+type removeAttr = (elStr: string, attrName: string) => string
+const removeAttr: removeAttr = (elStr, attrName) => {
 	const val = getAttrVal(elStr, attrName)
+	if (typeof val !== "string") return ``
 	const attrStr = createAttStr(attrName, val)
 	return elStr.replace(attrStr, ``)
 }
 
-const getViewbox = (elStr) => {
+const getViewbox = (elStr: string) => {
 	const attrName = `viewBox`
 	const attrVal = getAttrVal(elStr, attrName)
+	if (typeof attrVal !== "string") return ""
 	return createAttStr(attrName, attrVal)
 }
 
 const [open, close] = [`<`, `>`]
 
-const createTag = (tagName) => [
+type createTag = (tagName: string) => [string, string]
+const createTag: createTag = (tagName) => [
 	`${open}${tagName}`,
 	`${open}/${tagName}${close}`
 ]
 
-const getTag = (elStr, tagName) => {
+type getTag = (elStr: string, tagName: string) => string[] | string
+const getTag: getTag = (elStr, tagName) => {
 	const [start, end] = createTag(tagName)
 	const startIdx = getValIdx(elStr, start, 0)
 	if (startIdx < 0) return elStr
@@ -110,7 +147,8 @@ const getTag = (elStr, tagName) => {
 	return [startTag, end]
 }
 
-const removeTag = (elStr, tagName, removeAll) => {
+type removeTag = (elStr: string, tagName: string, removeAll?: boolean) => any
+const removeTag: removeTag = (elStr, tagName, removeAll = false) => {
 	let elCpy = Array.from(elStr).join(``)
 	const [start] = createTag(tagName)
 	const startIdx = getValIdx(elStr, start, 0)

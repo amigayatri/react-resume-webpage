@@ -1,29 +1,41 @@
-const constants = require("./constants.cjs")
-const utils = require("./utils.cjs")
-const fileFn = require("./files.cjs")
-const template = require("./template.cjs")
-const translation = require("./translations.cjs")
-const el = require("./generate-element.cjs")
-const elType = require("./element-type.cjs")
-const typeFn = require("./generate-type.cjs")
-const folder = require("./folder.cjs")
+const constants = require("./constants.cts")
+const utils = require("./utils.cts")
+const fileFn = require("./files.cts")
+const template = require("./template.cts")
+const translation = require("./translations.cts")
+const el = require("./generate-element.cts")
+const elType = require("./element-type.cts")
+const typeFn = require("./generate-type.cts")
+const folder = require("./folder.cts")
 
 const { writeFile, getFolderContent } = fileFn
 const mapFolders = fileFn.mapFoldersInside
 const { concat } = utils
 
-const mapImportsByFolder = new Map()
+interface FileImports {
+	icons: string
+	type: string
+	typeArrName: string
+}
+type importsMap = Map<string, FileImports>
+const mapImportsByFolder: importsMap = new Map()
 
-const newAlts = []
-const all = {
+const newAlts: string[] = []
+interface AllInfo {
+	icons: string[]
+	types: string[]
+	ids: string[]
+}
+const all: AllInfo = {
 	icons: [],
 	types: [],
 	ids: []
 }
 
-const writeElements = (mapImportsByFolder) => {
-	const imports = []
-	const typeImports = []
+type writeElements = (mapImportsByFolder: importsMap) => void
+const writeElements: writeElements = (mapImportsByFolder) => {
+	const imports: string[] = []
+	const typeImports: string[] = []
 	const elementsPath = concat(constants.iconElementsPath, "Elements")
 	mapFolders(elementsPath, (folder) => {
 		if (folder.indexOf(".") > -1) return
@@ -31,7 +43,8 @@ const writeElements = (mapImportsByFolder) => {
 		if (mapped === undefined) return
 		const { icons, type } = mapped
 		const importStr =
-			template.generateComment(folder, true) + el.generateImports(folder, icons)
+			template.generateComment(folder, true) +
+			el.generateImports(folder, icons)
 
 		imports.push(importStr)
 		typeImports.push(typeFn.generateImport(folder, type))
@@ -45,21 +58,28 @@ const writeElements = (mapImportsByFolder) => {
 	writeFile(`${constants.iconElementsPath}/types.ts`, typeStr)
 }
 
-const mapIcons = () => {
+type mapIcons = () => void
+type generateType = (folderName: string, files: string[]) => [string, string]
+type mapIconsFromFolder = (folderName: string) => void
+type getIconPair = (id: string, idx: number) => string
+const mapIcons: mapIcons = () => {
 	const translationMaps = translation.getAlreadyTranslated()
 	const { already, missing } = translationMaps
 	const elementsPath = concat(constants.iconElementsPath, "Elements")
 
-	const generateType = (folderName, files) => {
+	const generateType: generateType = (folderName, files) => {
 		const idArr = typeFn.generateIds(files)
 		all.ids.push(...idArr)
-		const [typeName, typeArrName, typeStr] = typeFn.generate(folderName, idArr)
+		const [typeName, typeArrName, typeStr] = typeFn.generate(
+			folderName,
+			idArr
+		)
 		const iconPaths = concat(constants.iconElementsPath, "Elements")
 		writeFile(`${iconPaths}/${folderName}/types.ts`, typeStr)
 		return [typeName, typeArrName]
 	}
 
-	const mapIconsFromFolder = (folderName) => {
+	const mapIconsFromFolder: mapIconsFromFolder = (folderName) => {
 		const filteredIcons = getFolderContent(
 			concat(elementsPath, folderName),
 			false
@@ -71,7 +91,7 @@ const mapIcons = () => {
 		mapImportsByFolder.set(folderName, {
 			icons: fileObj,
 			type: typeName,
-			typeArr: typeArrName
+			typeArrName: typeArrName
 		})
 	}
 
@@ -87,7 +107,7 @@ const mapIcons = () => {
 		""
 	])
 	const allObj = mapImportsByFolder.get("all")
-	const getIconPair = (id, idx) => {
+	const getIconPair: getIconPair = (id, idx) => {
 		const cleanId = id.replaceAll('"', "")
 		if (!already.has(cleanId) && !idToIgnore.has(id)) newAlts.push(cleanId)
 		missing.delete(cleanId)
@@ -105,3 +125,4 @@ const mapIcons = () => {
 module.exports = {
 	run: mapIcons
 }
+export default module.exports
