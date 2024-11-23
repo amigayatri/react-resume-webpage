@@ -16,7 +16,8 @@
         "map": "ব্রাজিল মানচিত্র",
         "shades": "টোন বৈচিত্র",
         "lyric": "{{musicName}} গানের কথা",
-        "musics": "উপলব্ধ গান"
+        "musics": "উপলব্ধ গান",
+        "detailed-icon": "আইকনের বিবরণ {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ব্যক্তিগত ওয়েবসাইট"

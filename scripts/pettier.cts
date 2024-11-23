@@ -6,6 +6,7 @@ const formatFile: formatFile = async (contentStr, filePath) => {
 		filepath: filePath,
 		experimentalTernaries: true,
 		tabWidth: 4,
+		semi: false,
 		trailingComma: "none",
 		arrowParens: "always",
 		bracketSpacing: true,

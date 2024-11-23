@@ -9,6 +9,7 @@
     "extra-languages": "Línguas extras",
     "home": "Página inicial",
     "icons": "Ícones do projeto",
+    "detailed-icon": "Detalhes do Ícone {{iconId}}",
     "leetcode": "LeetCode",
     "maintenance": "Página em Manutenção",
     "palette": "Paletas",

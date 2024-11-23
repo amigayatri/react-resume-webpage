@@ -15,9 +15,9 @@ const charactersArr = [
     "three",
     "two",
     "zero"
-] as const;
+] as const
 
-type charactersKey = (typeof charactersArr)[number];
+type charactersKey = (typeof charactersArr)[number]
 
-export type { charactersKey };
-export { charactersArr };
+export type { charactersKey }
+export { charactersArr }

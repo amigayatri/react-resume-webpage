@@ -16,7 +16,8 @@
         "map": "خريطة البرازيل",
         "shades": "اختلافات النغمات",
         "lyric": "كلمات اغنية {{musicName}}.",
-        "musics": "الأغاني المتوفرة"
+        "musics": "الأغاني المتوفرة",
+        "detailed-icon": "تفاصيل الرمز {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

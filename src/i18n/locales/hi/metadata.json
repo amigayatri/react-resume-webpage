@@ -16,7 +16,8 @@
         "map": "ब्राज़ील का मानचित्र",
         "shades": "स्वर भिन्नता",
         "lyric": "{{musicName}} गीत",
-        "musics": "उपलब्ध गाने"
+        "musics": "उपलब्ध गाने",
+        "detailed-icon": "चिह्न विवरण {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "निजी वेबसाइट"

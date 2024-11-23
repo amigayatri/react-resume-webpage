@@ -10,9 +10,9 @@ const vehiclesArr = [
     "train",
     "truck",
     "walk"
-] as const;
+] as const
 
-type vehiclesKey = (typeof vehiclesArr)[number];
+type vehiclesKey = (typeof vehiclesArr)[number]
 
-export type { vehiclesKey };
-export { vehiclesArr };
+export type { vehiclesKey }
+export { vehiclesArr }

@@ -360,5 +360,8 @@
         "trophy": "Trophäensymbol",
         "waterfall": "Wasserfall-Symbol",
         "wavecrest": "Wellenkamm-Symbol"
+    },
+    "details": {
+        "alt": "Alternativer Text: <1>{{altContent}}</1>"
     }
 }

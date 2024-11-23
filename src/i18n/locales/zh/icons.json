@@ -360,5 +360,8 @@
         "trophy": "奖杯图标",
         "waterfall": "瀑布图标",
         "wavecrest": "波峰图标"
+    },
+    "details": {
+        "alt": "替代文本：<1>{{altContent}}</1>"
     }
 }

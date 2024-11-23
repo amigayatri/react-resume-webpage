@@ -29,17 +29,21 @@ export const List = styled.ul`
 	}
 `
 export const IconItem = styled.li`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: fit-content;
 	border: 2px solid ${({ theme }) => theme.primary};
 	color: ${({ theme }) => theme.primary};
 	padding: 8px 0;
 	border-radius: 8px;
 	width: 100%;
 `
+export const IconLink = styled.a`
+	text-decoration: none;
+	color: currentColor;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+`
+
 export const Id = styled.code`
 	background-color: ${({ theme }) => theme.almostBlack};
 	color: ${({ theme }) => theme.white};

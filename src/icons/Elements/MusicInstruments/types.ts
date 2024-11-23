@@ -9,9 +9,9 @@ const musicinstrumentsArr = [
     "surdo",
     "tamborim",
     "triangulo"
-] as const;
+] as const
 
-type musicinstrumentsKey = (typeof musicinstrumentsArr)[number];
+type musicinstrumentsKey = (typeof musicinstrumentsArr)[number]
 
-export type { musicinstrumentsKey };
-export { musicinstrumentsArr };
+export type { musicinstrumentsKey }
+export { musicinstrumentsArr }

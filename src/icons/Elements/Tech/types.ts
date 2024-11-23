@@ -14,9 +14,9 @@ const techArr = [
     "trademark",
     "vhs",
     "website"
-] as const;
+] as const
 
-type techKey = (typeof techArr)[number];
+type techKey = (typeof techArr)[number]
 
-export type { techKey };
-export { techArr };
+export type { techKey }
+export { techArr }

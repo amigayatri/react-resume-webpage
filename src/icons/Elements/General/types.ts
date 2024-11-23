@@ -26,9 +26,9 @@ const generalArr = [
     "testtube",
     "trophy",
     "umbrella"
-] as const;
+] as const
 
-type generalKey = (typeof generalArr)[number];
+type generalKey = (typeof generalArr)[number]
 
-export type { generalKey };
-export { generalArr };
+export type { generalKey }
+export { generalArr }

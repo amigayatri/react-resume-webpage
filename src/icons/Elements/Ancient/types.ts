@@ -25,9 +25,9 @@ const ancientArr = [
     "seacreature",
     "trojanhorse",
     "venusofwillendorf"
-] as const;
+] as const
 
-type ancientKey = (typeof ancientArr)[number];
+type ancientKey = (typeof ancientArr)[number]
 
-export type { ancientKey };
-export { ancientArr };
+export type { ancientKey }
+export { ancientArr }

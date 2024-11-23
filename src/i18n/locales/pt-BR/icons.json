@@ -360,5 +360,8 @@
         "zero": "zero",
         "zoomin": "Ícone de aumentar zoom",
         "zoomout": "Ícone de diminuir zoom"
+    },
+    "details": {
+        "alt": "Texto alternativo: <1>{{altContent}}</1>"
     }
 }

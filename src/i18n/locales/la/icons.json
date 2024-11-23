@@ -360,5 +360,8 @@
         "trophy": "Trophaeus icon",
         "waterfall": "Cataracta icon",
         "wavecrest": "fluctus super verticem icon"
+    },
+    "details": {
+        "alt": "Alternativus textus: <1>{{altContent}}</1>"
     }
 }

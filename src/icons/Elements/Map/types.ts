@@ -29,9 +29,9 @@ const mapArr = [
     "sergipe",
     "southamerica",
     "tocantins"
-] as const;
+] as const
 
-type mapKey = (typeof mapArr)[number];
+type mapKey = (typeof mapArr)[number]
 
-export type { mapKey };
-export { mapArr };
+export type { mapKey }
+export { mapArr }

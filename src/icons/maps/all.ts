@@ -1,4 +1,4 @@
-import { iconsMap } from "./types";
+import { iconsMap } from "./types"
 
 import {
     AtlasIcon,
@@ -361,7 +361,7 @@ import {
     TrainIcon,
     TruckIcon,
     WalkIcon
-} from "../Elements";
+} from "../Elements"
 
 const allIcons: iconsMap = new Map([
     ["atlas", AtlasIcon],
@@ -724,6 +724,6 @@ const allIcons: iconsMap = new Map([
     ["train", TrainIcon],
     ["truck", TruckIcon],
     ["walk", WalkIcon]
-]);
+])
 
-export { allIcons };
+export { allIcons }

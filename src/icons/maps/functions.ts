@@ -11,7 +11,12 @@ const getIcon: getIconFn = (id, local) => {
 	return allIcons.get(id)
 }
 
+type iconExists = (id: string) => boolean
+const iconExists: iconExists = (id) => {
+	return allIcons.has(id as iconKey)
+}
+
 const getAllIconsIds = () => {
 	return Array.from(allIcons.keys())
 }
-export { getAllIconsIds, getIcon }
+export { getAllIconsIds, getIcon, iconExists }

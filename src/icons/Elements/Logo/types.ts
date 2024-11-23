@@ -18,9 +18,9 @@ const logoArr = [
     "whatsapp",
     "wikipedia",
     "youtube"
-] as const;
+] as const
 
-type logoKey = (typeof logoArr)[number];
+type logoKey = (typeof logoArr)[number]
 
-export type { logoKey };
-export { logoArr };
+export type { logoKey }
+export { logoArr }

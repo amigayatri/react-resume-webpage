@@ -7,9 +7,9 @@ const miscArr = [
     "schrodingerscatdead",
     "sexy",
     "toybrick"
-] as const;
+] as const
 
-type miscKey = (typeof miscArr)[number];
+type miscKey = (typeof miscArr)[number]
 
-export type { miscKey };
-export { miscArr };
+export type { miscKey }
+export { miscArr }

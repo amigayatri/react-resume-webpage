@@ -360,5 +360,8 @@
         "trophy": "トロフィーアイコン",
         "waterfall": "滝のアイコン",
         "wavecrest": "波頭のアイコン"
+    },
+    "details": {
+        "alt": "代替テキスト: <1>{{altContent}}</1>"
     }
 }

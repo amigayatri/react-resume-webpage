@@ -16,7 +16,8 @@
         "map": "Tabula geographica Brasiliae",
         "shades": "Tone Variations",
         "lyric": "{{musicName}} lyrics",
-        "musics": "Praesto carmina"
+        "musics": "Praesto carmina",
+        "detailed-icon": "Icon Details {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

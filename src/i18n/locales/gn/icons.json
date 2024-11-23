@@ -360,5 +360,8 @@
         "trophy": "Trofeo icono",
         "waterfall": "Icono cascada rehegua",
         "wavecrest": "icono cresta de olas rehegua"
+    },
+    "details": {
+        "alt": "Jehaipyre ambuéva: <1>{{altContent}}</1>"
     }
 }

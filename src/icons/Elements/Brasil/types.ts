@@ -32,9 +32,9 @@ const brasilArr = [
     "samba",
     "selaron",
     "teatroamazonas"
-] as const;
+] as const
 
-type brasilKey = (typeof brasilArr)[number];
+type brasilKey = (typeof brasilArr)[number]
 
-export type { brasilKey };
-export { brasilArr };
+export type { brasilKey }
+export { brasilArr }

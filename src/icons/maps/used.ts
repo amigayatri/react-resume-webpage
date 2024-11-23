@@ -1,3 +1,6 @@
+import { iconKey } from "../types"
+import { removeUsed } from "./never"
+
 //$entriesArrStart
 const entriesArr: [string, string[]][] = [
     ["holidays", ["map"]],
@@ -183,5 +186,36 @@ const entriesArr: [string, string[]][] = [
     ],
     ["holidays", ["sad", "superhappy", "happy"]],
     ["available-musics", ["mermaid", "bronzeando"]]
-];
+]
 //$entriesArrEnd
+
+type mapEntriesFn = ([local, iconsArr]: [string, string[]]) => [
+    string,
+    Set<iconKey>
+]
+
+const mapEntries: mapEntriesFn = ([local, iconsArr]) => {
+    const localSet: Set<iconKey> = new Set()
+    for (const iconId of iconsArr) {
+        localSet.add(iconId as iconKey)
+    }
+    return [local, localSet]
+}
+
+const usedIcons: Map<string, Set<iconKey>> = new Map(
+    Array.from(entriesArr, mapEntries)
+)
+
+type markAsUsed = (id: iconKey, local: string) => void
+const markAsUsed: markAsUsed = (id, local) => {
+    const prevUsed = usedIcons.get(local) || new Set()
+    prevUsed.add(id)
+    usedIcons.set(local, prevUsed)
+    removeUsed(id)
+}
+
+const getAllUsed = () => {
+    return Array.from(usedIcons.entries())
+}
+
+export { usedIcons, markAsUsed, getAllUsed }

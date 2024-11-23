@@ -360,5 +360,8 @@
         "trophy": "Trophy icon",
         "waterfall": "Waterfall icon",
         "wavecrest": "wave crest icon"
+    },
+    "details": {
+        "alt": "Alternative text: <1>{{altContent}}</1>"
     }
 }

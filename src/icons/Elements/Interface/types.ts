@@ -30,9 +30,9 @@ const interfaceArr = [
     "voicerecognition",
     "zoomin",
     "zoomout"
-] as const;
+] as const
 
-type interfaceKey = (typeof interfaceArr)[number];
+type interfaceKey = (typeof interfaceArr)[number]
 
-export type { interfaceKey };
-export { interfaceArr };
+export type { interfaceKey }
+export { interfaceArr }

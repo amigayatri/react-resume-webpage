@@ -360,5 +360,8 @@
         "trophy": "Icona del trofeo",
         "waterfall": "Icona della cascata",
         "wavecrest": "icona della cresta dell'onda"
+    },
+    "details": {
+        "alt": "Testo alternativo: <1>{{altContent}}</1>"
     }
 }

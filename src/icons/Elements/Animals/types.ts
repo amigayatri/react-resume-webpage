@@ -84,9 +84,9 @@ const animalsArr = [
     "unicorn",
     "velociraptor",
     "whale"
-] as const;
+] as const
 
-type animalsKey = (typeof animalsArr)[number];
+type animalsKey = (typeof animalsArr)[number]
 
-export type { animalsKey };
-export { animalsArr };
+export type { animalsKey }
+export { animalsArr }

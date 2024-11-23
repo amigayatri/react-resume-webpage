@@ -16,7 +16,8 @@
         "map": "ਬ੍ਰਾਜ਼ੀਲ ਦਾ ਨਕਸ਼ਾ",
         "shades": "ਟੋਨ ਭਿੰਨਤਾਵਾਂ",
         "lyric": "{{musicName}} ਬੋਲ",
-        "musics": "ਉਪਲਬਧ ਗੀਤ"
+        "musics": "ਉਪਲਬਧ ਗੀਤ",
+        "detailed-icon": "ਆਈਕਨ ਵੇਰਵੇ {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ਨਿੱਜੀ ਵੈੱਬਸਾਈਟ"
