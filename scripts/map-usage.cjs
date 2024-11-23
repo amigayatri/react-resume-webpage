@@ -88,7 +88,7 @@ const generateEntriesStr = () => {
 		const setStr = Array.from(localIcons)
 			.map((id) => `"${id}"`)
 			.join(",")
-		entries.push(`["${cleanLocal}", new Set([${setStr}])]`)
+		entries.push(`["${cleanLocal}", [${setStr}]]`)
 	}
 	return `[${entries.join(",")}]`
 }
@@ -97,7 +97,11 @@ const readAllSourceFolders = () => {
 	scanComponents()
 	scanConstants()
 	const mapPath = "src/icons/maps/used.ts"
-	const mapStr = template.usedIconsMap(generateEntriesStr())
+	const mapStr = template.usedIconsMap(
+		fileFn.readFile(mapPath),
+		generateEntriesStr(),
+		createKeys("entriesArr")
+	)
 	fileFn.writeFile(mapPath, mapStr)
 }
 

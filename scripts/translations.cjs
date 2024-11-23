@@ -60,14 +60,17 @@ const noChangeStr = "    Nothing to change! =)    "
 const generateComment = template.generateComment
 
 const generateNewAltsFile = (newAltsArr, updatedMissing) => {
+	const altPath = "./new_alts.json"
 	const needUpdate = newAltsArr.length > 0 || updatedMissing.size > 0
 	const altTexts = !needUpdate
 		? `{\n"alt": "${noChangeStr}"\n}`
 		: altFileText(newAltsArr, updatedMissing)
 	if (!needUpdate) {
-		console.log(generateComment(noChangeStr))
+		fileFn.deleteFile(altPath)
+		console.log(generateComment(noChangeStr).replaceAll("/", ""))
+		return
 	}
-	writeFile("./new_alts.json", altTexts)
+	writeFile(altPath, altTexts)
 }
 
 module.exports = {
