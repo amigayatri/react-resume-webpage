@@ -7,7 +7,6 @@ const logoArr = [
     "github",
     "google",
     "html",
-    "index",
     "javascript",
     "leetcode",
     "linkedin",
@@ -16,13 +15,12 @@ const logoArr = [
     "react",
     "spotify",
     "tumblr",
-    "types.ts",
     "whatsapp",
     "wikipedia",
     "youtube"
-] as const;
+] as const
 
-type logoKey = (typeof logoArr)[number];
+type logoKey = (typeof logoArr)[number]
 
-export type { logoKey };
-export { logoArr };
+export type { logoKey }
+export { logoArr }

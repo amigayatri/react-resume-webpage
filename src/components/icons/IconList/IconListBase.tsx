@@ -1,4 +1,11 @@
-import { IconListWrapper, List, IconItem, Id, Icon } from "./IconList.styled"
+import {
+	IconListWrapper,
+	List,
+	IconItem,
+	Id,
+	Icon,
+	IconLink
+} from "./IconList.styled"
 import { iconsIds } from "../../../constants/icons.ts"
 import { getSafePaletteColors } from "../../../lib/palettes/"
 import { SVGIcon } from "../../common/SVGIcon/client"
@@ -12,14 +19,23 @@ export const IconListBase = ({ lng }: IconListBaseProps) => {
 			<List>
 				{iconsIds.map((id, idx) => (
 					<IconItem key={"icon-with-id-" + id}>
-						id: <Id>{id}</Id>
-						<Icon
-							style={{
-								color: rainbowMonokai[idx % rainbowMonokai.length]
-							}}
-						>
-							<SVGIcon lng={lng} local="iconlist" id={id} size={48} />
-						</Icon>
+						<IconLink href={`/${lng}/icons/${id}`}>
+							id: <Id>{id}</Id>
+							<Icon
+								style={{
+									color: rainbowMonokai[
+										idx % rainbowMonokai.length
+									]
+								}}
+							>
+								<SVGIcon
+									lng={lng}
+									local="iconlist"
+									id={id}
+									size={48}
+								/>
+							</Icon>
+						</IconLink>
 					</IconItem>
 				))}
 			</List>

@@ -291,7 +291,6 @@
         "copacabana": "Icon impressum in deambulatorio Copacabana (Rio de Janeiro)",
         "corcovado": "Corcovado Icon (Rio de Janeiro)",
         "cristoredentor": "Icon Christi Redemptoris (Rio de Janeiro)",
-        "cristoredentorvista": "Icon in conspectum Christi Redemptoris (Rio de Janeiro)",
         "desfilecarnaval": "Icon pompae agunt (Rio de Janeiro)",
         "distritofederal": "Districtus Foederalis (Brasilia) tabula icon",
         "doubleheart": "Duo corda icon",
@@ -361,5 +360,8 @@
         "trophy": "Trophaeus icon",
         "waterfall": "Cataracta icon",
         "wavecrest": "fluctus super verticem icon"
+    },
+    "details": {
+        "alt": "Alternativus textus: <1>{{altContent}}</1>"
     }
 }

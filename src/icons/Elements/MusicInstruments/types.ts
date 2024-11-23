@@ -2,18 +2,16 @@ const musicinstrumentsArr = [
     "agogo",
     "guitar",
     "headphone",
-    "index",
     "lovesong",
     "pandeiro",
     "pianist",
     "sanfona",
     "surdo",
     "tamborim",
-    "triangulo",
-    "types.ts"
-] as const;
+    "triangulo"
+] as const
 
-type musicinstrumentsKey = (typeof musicinstrumentsArr)[number];
+type musicinstrumentsKey = (typeof musicinstrumentsArr)[number]
 
-export type { musicinstrumentsKey };
-export { musicinstrumentsArr };
+export type { musicinstrumentsKey }
+export { musicinstrumentsArr }

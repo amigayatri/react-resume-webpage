@@ -78,7 +78,6 @@
         "cow": "Ícone de vaca",
         "crab": "Ícone de um caranguejo",
         "cristoredentor": "Ícone do Cristo Redentor (Rio de Janeiro)",
-        "cristoredentorvista": "Ícone da vista do Cristo Redentor (Rio de Janeiro)",
         "crown": "Ícone de uma coroa",
         "crying": "Ícone de um rosto chorando",
         "css": "Ícone do CSS",
@@ -361,5 +360,8 @@
         "zero": "zero",
         "zoomin": "Ícone de aumentar zoom",
         "zoomout": "Ícone de diminuir zoom"
+    },
+    "details": {
+        "alt": "Texto alternativo: <1>{{altContent}}</1>"
     }
 }

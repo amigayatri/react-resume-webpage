@@ -16,7 +16,8 @@
         "map": "Карта Бразилии",
         "shades": "Вариации тона",
         "lyric": "{{musicName}} тексты песен",
-        "musics": "Доступные песни"
+        "musics": "Доступные песни",
+        "detailed-icon": "Подробности значка {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Пессоал сайта"

@@ -1,7 +1,7 @@
-const utils = require(`./utils.cjs`)
-const fileFn = require(`./files.cjs`)
-const xml = require(`./xml.cjs`)
-const template = require(`./template.cjs`)
+const utils = require(`./utils.cts`)
+const fileFn = require(`./files.cts`)
+const xml = require(`./xml.cts`)
+const template = require(`./template.cts`)
 
 const getViewbox = xml.getViewbox
 const cleanSVG = xml.getCleanSVGContent
@@ -9,7 +9,8 @@ const { readFile, writeFile } = fileFn
 const { getValIdx, sub, concat } = utils
 const { fillTemplate } = template
 
-const removeComments = (elStr, removeAll) => {
+type removeComments = (elStr: string, removeAll?: boolean) => string
+const removeComments: removeComments = (elStr, removeAll) => {
 	const elCpy = Array.from(elStr).join(``)
 	const startIdx = getValIdx(elCpy, `\n//`, 0)
 	if (startIdx === -1) return elStr
@@ -22,7 +23,8 @@ const removeComments = (elStr, removeAll) => {
 	return clean
 }
 
-const rewriteWithoutComment = (filePath) => {
+type rewriteWithoutComment = (filePath: string) => void
+const rewriteWithoutComment: rewriteWithoutComment = (filePath) => {
 	if (!isIcon(filePath)) return
 	const fileContent = readFile(filePath)
 	const cleanContent = removeComments(fileContent, true)
@@ -31,22 +33,36 @@ const rewriteWithoutComment = (filePath) => {
 	fileFn.deleteFile(filePath)
 }
 
-const isIcon = (filename) => filename.indexOf(`.tsx`) >= 0
+type isIcon = (filename: string) => boolean
+const isIcon: isIcon = (filename) => filename.indexOf(`.tsx`) >= 0
 
-const elFromSVG = (readPreffix, writePreffix, folderName, filename) => {
-	const withFolder = (preffix, nameToUse) =>
+const convertedPath = concat("./new-svgs", "converted")
+
+type elFromSVG = (
+	readPreffix: string,
+	writePreffix: string,
+	folderName: string,
+	filename: string
+) => void
+const elFromSVG: elFromSVG = (
+	readPreffix,
+	writePreffix,
+	folderName,
+	filename
+) => {
+	const withFolder = (preffix: string, nameToUse: string) =>
 		concat(preffix, concat(folderName, nameToUse))
-	const svgContent = readFile(withFolder(readPreffix, filename))
+	const readPath = withFolder(readPreffix, filename)
+	const svgContent = readFile(readPath)
 	const elName = utils.createTitle(filename.replace(`.svg`, ``), `icon`)
 	const viewbox = getViewbox(svgContent)
-	const cleanTags = cleanSVG(svgContent).replaceAll(
-		`                <
- />`,
-		``
-	)
+	const cleanTags = cleanSVG(svgContent)
 	const elStr = fillTemplate(elName, viewbox, cleanTags)
+	if (cleanTags.length === 0) return
 	const writePath = withFolder(writePreffix, elName.replace(`Icon`, `.tsx`))
-	writeFile(writePath, elStr)
+	fileFn.createConditional(convertedPath)
+	writeFile(writePath, elStr, false)
+	fileFn.moveFile(readPath.replace(filename, ""), convertedPath, filename)
 }
 
 module.exports = {

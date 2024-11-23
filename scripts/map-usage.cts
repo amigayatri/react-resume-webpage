@@ -1,22 +1,23 @@
-const fileFn = require("./files.cjs")
-const utils = require("./utils.cjs")
-const xml = require("./xml.cjs")
-const template = require("./template.cjs")
+const fileFn = require("./files.cts")
+const utils = require("./utils.cts")
+const xml = require("./xml.cts")
+const template = require("./template.cts")
 
 const { concat } = utils
 
-const componentsPath = "./src/components"
+const componentsPath: string = "./src/components"
 
-const iconTag = "<SVGIcon"
+const iconTag: string = "<SVGIcon"
 
 const getAttr = xml.getAttrVal
 const getTag = xml.getTag
 
-const componentsWithIcon = new Map()
+const componentsWithIcon: Map<string, string> = new Map()
 
-const dynamicIcons = new Map()
+const dynamicIcons: Map<string, string> = new Map()
 
-const registerIcon = (iconTagStr, filePath) => {
+type registerIcon = (iconTagStr: string, filePath: string) => void
+const registerIcon: registerIcon = (iconTagStr, filePath) => {
 	let id = getAttr(iconTagStr, "id")
 	let local = getAttr(iconTagStr, "local")
 	if (id !== undefined && local !== undefined && id.indexOf("{") < 0)
@@ -42,10 +43,11 @@ const registerIcon = (iconTagStr, filePath) => {
 	}
 }
 
-const indirectTags = ["MulticoloredName", "Select"]
-const hasIndirect = []
+const indirectTags: string[] = ["MulticoloredName", "Select"]
+const hasIndirect: string[] = []
 
-const readFile = (filePath) => {
+type readFileUsage = (filePath: string) => void
+const readFile: readFileUsage = (filePath) => {
 	if (filePath.indexOf(".tsx") >= 0) {
 		const fileContent = fileFn.readFile(filePath)
 		if (fileContent.indexOf(iconTag) >= 0) {
@@ -55,25 +57,29 @@ const readFile = (filePath) => {
 		for (const indirectTag of indirectTags) {
 			if (fileContent.indexOf(indirectTag) >= 0) {
 				const indirectTagStr = getTag(fileContent, indirectTag)
-				if (indirectTagStr.includes("iconId")) hasIndirect.push(filePath)
+				if (indirectTagStr.includes("iconId"))
+					hasIndirect.push(filePath)
 			}
 		}
 	}
 }
 
-const iconUsage = new Map()
+const iconUsage: Map<string, Set<string>> = new Map()
 
-const markAsUsed = (id, local) => {
+type markAsUsed = (id: string, local: string) => void
+const markAsUsed: markAsUsed = (id, local) => {
 	const prevUsedFromLocal = iconUsage.get(local)
 	iconUsage.set(
 		local,
-		(prevUsedFromLocal === undefined ? new Set() : prevUsedFromLocal).add(
-			id.replaceAll('"', "")
-		)
+		(prevUsedFromLocal === undefined
+			? new Set<string>()
+			: prevUsedFromLocal
+		).add(id.replaceAll('"', ""))
 	)
 }
 
-const readOrPrint = (folderName, basePath) => {
+type readOrPrint = (folderName: string, basePath: string) => void
+const readOrPrint: readOrPrint = (folderName, basePath) => {
 	const folderPath = concat(basePath, folderName)
 	const fileList = fileFn.getFolderContent(folderPath, false)
 	const subFolderList = fileFn.getFolderContent(folderPath, true)
@@ -81,8 +87,9 @@ const readOrPrint = (folderName, basePath) => {
 	subFolderList.map((subFolderName) => readOrPrint(subFolderName, folderPath))
 }
 
-const generateEntriesStr = () => {
-	const entries = []
+type generateEntriesStr = () => string
+const generateEntriesStr: generateEntriesStr = () => {
+	const entries: string[] = []
 	for (const [local, localIcons] of iconUsage.entries()) {
 		const cleanLocal = local.replaceAll('"', "")
 		const setStr = Array.from(localIcons)
@@ -117,34 +124,37 @@ const scanComponents = () => {
 	})
 }
 
-const scanConstantFile = (filePath) => {
+type scanConstantFile = (filePath: string) => "definitely" | "don't"
+const scanConstantFile: scanConstantFile = (filePath) => {
 	const fileContent = fileFn.readFile(filePath)
 	if (fileContent.indexOf("icon") >= 0 || fileContent.indexOf("iconKey") >= 0)
 		return "definitely"
 	else return "don't"
 }
 
-const getObjectWithIcons = (fileStr) => {
+type getObjectWithIcons = (fileStr: string) => string[]
+type getId = (startPos: number, fileStr: string) => string
+const getId: getId = (startPos, fileStr) => {
+	const idStartPos = fileStr.indexOf('"', startPos)
+	const idEndPos = fileStr.indexOf('"', idStartPos + 1)
+	const idVal = fileStr.substring(idStartPos + 1, idEndPos)
+	return idVal
+}
+
+const getObjectWithIcons: getObjectWithIcons = (fileStr) => {
 	const iconPositions = [...fileStr.matchAll(new RegExp(/icon: /gm))].map(
 		({ index }) => index
 	)
-	const idArr = []
-	const getId = (startPos) => {
-		const idStartPos = fileStr.indexOf('"', startPos)
-		const idEndPos = fileStr.indexOf('"', idStartPos + 1)
-		const idVal = fileStr.substring(idStartPos + 1, idEndPos)
-		idArr.push(idVal)
-	}
-	iconPositions.map((pos) => getId(pos))
+	const idArr: string[] = iconPositions.map((pos) => getId(pos, fileStr))
 	return idArr
 }
 
 const scanConstants = () => {
-	const definitelyHave = []
-	const dontHave = []
+	const definitelyHave: string[] = []
+	const dontHave: string[] = []
 	const constantsPath = "./src/constants"
 	const files = fileFn.getFolderContent(constantsPath, false)
-	files.map((filename) => {
+	files.map((filename: string) => {
 		const hasIcon = scanConstantFile(concat(constantsPath, filename))
 		if (hasIcon === "definitely") definitelyHave.push(filename)
 		else dontHave.push(filename)
@@ -167,9 +177,14 @@ const getPaletteGroupIcons = () => {
 		.replaceAll("new Map(", "")
 		.replaceAll(")", "")
 	const recover = ([_, iconId]) => markAsUsed(iconId, "palette-group")
-	const content = new Map([["groupIcons", recover]])
-	for (const [key, recoverFn] of content.entries()) {
-		recoverConstantIcons(key, fileContent).map(recoverFn)
+	const content: [string, any][] = [["groupIcons", recover]]
+	for (const [key, recoverFn] of content) {
+		const recovered = recoverConstantIcons(key, fileContent)
+		if (Array.isArray(recovered)) {
+			recovered.forEach(recoverFn)
+		} else {
+			recoverFn(recovered)
+		}
 	}
 }
 
@@ -183,7 +198,9 @@ const getPaletteIcons = () => {
 		"functions.ts",
 		"icons.ts"
 	])
-	const filteredFiles = maps.filter((filename) => !filesToExclude.has(filename))
+	const filteredFiles = maps.filter(
+		(filename: string) => !filesToExclude.has(filename)
+	)
 	for (const filename of filteredFiles) {
 		const fileContent = fileFn.readFile(concat(palettePath, filename))
 		const cleanFileName = filename.replace(".ts", "")
@@ -194,12 +211,22 @@ const getPaletteIcons = () => {
 	}
 }
 
-const createKeys = (key) => {
+type createKeys = (key: string) => [string, string]
+const createKeys: createKeys = (key) => {
 	const keyPreffix = `//\$${key}`
 	return [keyPreffix + "Start", keyPreffix + "End"]
 }
 
-const recoverConstantIcons = (delimiterKey, fileStr, dontParse) => {
+type recoverConstantIcons = (
+	delimiterKey: string,
+	fileStr: string,
+	dontParse?: boolean
+) => string | string[]
+const recoverConstantIcons: recoverConstantIcons = (
+	delimiterKey,
+	fileStr,
+	dontParse = false
+) => {
 	const [startKey, endKey] = createKeys(delimiterKey)
 	const startIdx = fileStr.indexOf(startKey)
 	const endIdx = fileStr.indexOf(endKey)
@@ -215,17 +242,26 @@ const recoverConstantIcons = (delimiterKey, fileStr, dontParse) => {
 }
 
 const getAnimalIcons = () => {
-	const allIds = []
+	const allIds: string[] = []
 	const filePath = "./src/constants/animals.ts"
 	const fileContent = fileFn.readFile(filePath)
-	const recoverNumberIcons = (id) => allIds.push(id)
-	const recoverAnimalsIconsIds = ([_, icons]) => allIds.push(...icons)
-	const content = new Map([
+	const recoverNumberIcons = (id: string) => {
+		allIds.push(id)
+	}
+	const recoverAnimalsIconsIds = ([_, icons]: [any, string[]]) => {
+		allIds.push(...icons)
+	}
+	const content: [string, any][] = [
 		["numberIcons", recoverNumberIcons],
 		["animalsIcons", recoverAnimalsIconsIds]
-	])
-	for (const [key, recoverFn] of content.entries()) {
-		recoverConstantIcons(key, fileContent).map(recoverFn)
+	]
+	for (const [key, recoverFn] of content) {
+		const recovered = recoverConstantIcons(key, fileContent)
+		if (Array.isArray(recovered)) {
+			recovered.forEach(recoverFn)
+		} else {
+			recoverFn(recovered)
+		}
 	}
 	const local = "animals"
 	for (const id of allIds) {
@@ -239,22 +275,33 @@ const getErrorIcons = () => {
 		.readFile(filePath)
 		.replaceAll("id:", '"id":')
 		.replaceAll("icons:", '"icons":')
-	const recoverErrorIcons = ({ id, icons }) => {
+	const recoverErrorIcons = ({
+		id,
+		icons
+	}: {
+		id: string
+		icons: string[]
+	}) => {
 		for (const iconId of icons) {
 			markAsUsed(iconId, id)
 		}
 	}
-	const content = new Map([
+	const content: [string, any][] = [
 		["notFoundIcons", recoverErrorIcons],
 		["maintenanceIcons", recoverErrorIcons]
-	])
-	for (const [key, recoverFn] of content.entries()) {
-		recoverFn(recoverConstantIcons(key, fileContent))
+	]
+	for (const [key, recoverFn] of content) {
+		const recovered = recoverConstantIcons(key, fileContent)
+		if (Array.isArray(recovered)) {
+			recovered.forEach(recoverFn)
+		} else {
+			recoverFn(recovered)
+		}
 	}
 }
 
 const getOtherConstants = () => {
-	const recoverTab = (elStr) => {
+	const recoverTab = (elStr: string) => {
 		const cleanArr = getObjectWithIcons(elStr)
 		for (const iconId of cleanArr) {
 			markAsUsed(iconId, "stats")
@@ -263,27 +310,27 @@ const getOtherConstants = () => {
 	const recoverAvailableMusics = ([_, [__, iconId]]) => {
 		markAsUsed(iconId, "available-musics")
 	}
-	const recoverEmotions = (iconId) => markAsUsed(iconId, "holidays")
-	const recoverAnimals = (iconId) => markAsUsed(iconId, "animals")
-	const pathContentMap = new Map([
+	const recoverEmotions = (iconId: string) => markAsUsed(iconId, "holidays")
+	const recoverAnimals = (iconId: string) => markAsUsed(iconId, "animals")
+	const pathContentMap: Map<string, [string, any][]> = new Map([
 		[
 			"./src/components/brasil/holidays/components/HolidayList/Holiday/index.tsx",
-			new Map([["emotion", recoverEmotions]])
+			[["emotion", recoverEmotions]]
 		],
 		[
 			"./src/components/cats/components/AddButtons/index.tsx",
-			new Map([["plusplus", recoverAnimals]])
+			[["plusplus", recoverAnimals]]
 		],
 		[
 			"./src/components/stats/Stats/StatsBase.tsx",
-			new Map([
+			[
 				["leetcodeTab", recoverTab],
 				["gitTab", recoverTab]
-			])
+			]
 		],
 		[
 			"src/lib/musics/constants.ts",
-			new Map([["availableMusicsIcons", recoverAvailableMusics]])
+			[["availableMusicsIcons", recoverAvailableMusics]]
 		]
 	])
 	const getRaw = new Set(["leetcodeTab", "gitTab"])
@@ -293,7 +340,11 @@ const getOtherConstants = () => {
 			.replaceAll("new Map(", "")
 			.replaceAll(")", "")
 		for (const [key, recoverFn] of content) {
-			const keyStr = recoverConstantIcons(key, fileContent, getRaw.has(key))
+			const keyStr = recoverConstantIcons(
+				key,
+				fileContent,
+				getRaw.has(key)
+			)
 			if (Array.isArray(keyStr)) {
 				keyStr.map(recoverFn)
 			} else {
@@ -337,3 +388,4 @@ const getLyricIcons = () => {
 module.exports = {
 	run: readAllSourceFolders
 }
+export default module.exports

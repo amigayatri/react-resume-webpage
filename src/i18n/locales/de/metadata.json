@@ -16,7 +16,8 @@
         "map": "Karte von Brasilien",
         "shades": "Tonvariationen",
         "lyric": "{{musicName}} Liedtext",
-        "musics": "Verfügbare Lieder"
+        "musics": "Verfügbare Lieder",
+        "detailed-icon": "Symboldetails {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Site-Pessoal"

@@ -6,12 +6,10 @@ const foodArr = [
     "cake",
     "drink",
     "icecream",
-    "index",
-    "pizza",
-    "types.ts"
-] as const;
+    "pizza"
+] as const
 
-type foodKey = (typeof foodArr)[number];
+type foodKey = (typeof foodArr)[number]
 
-export type { foodKey };
-export { foodArr };
+export type { foodKey }
+export { foodArr }

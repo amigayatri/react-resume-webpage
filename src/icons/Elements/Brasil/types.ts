@@ -13,7 +13,6 @@ const brasilArr = [
     "copacabana",
     "corcovado",
     "cristoredentor",
-    "cristoredentorvista",
     "desfilecarnaval",
     "elevadorlacerda",
     "festajunina",
@@ -21,7 +20,6 @@ const brasilArr = [
     "guardasol",
     "havaiana",
     "igrejadapampulha",
-    "index",
     "ipanema",
     "malandro",
     "maracana",
@@ -33,11 +31,10 @@ const brasilArr = [
     "praiadeipanema",
     "samba",
     "selaron",
-    "teatroamazonas",
-    "types.ts"
-] as const;
+    "teatroamazonas"
+] as const
 
-type brasilKey = (typeof brasilArr)[number];
+type brasilKey = (typeof brasilArr)[number]
 
-export type { brasilKey };
-export { brasilArr };
+export type { brasilKey }
+export { brasilArr }

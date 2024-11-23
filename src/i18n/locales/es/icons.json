@@ -291,7 +291,6 @@
         "copacabana": "Icono de impresión en el paseo marítimo de Copacabana (Rio de Janeiro)",
         "corcovado": "Icono del Corcovado (Río de Janeiro)",
         "cristoredentor": "Icono del Cristo Redentor (Río de Janeiro)",
-        "cristoredentorvista": "Icono de la vista del Cristo Redentor (Río de Janeiro)",
         "desfilecarnaval": "Icono de un desfile de carnaval (Rio de Janeiro)",
         "distritofederal": "Icono de mapa del Distrito Federal (Brasil)",
         "doubleheart": "Icono de dos corazones",
@@ -361,5 +360,8 @@
         "trophy": "Icono de trofeo",
         "waterfall": "Icono de cascada",
         "wavecrest": "icono de cresta de onda"
+    },
+    "details": {
+        "alt": "Texto alternativo: <1>{{altContent}}</1>"
     }
 }

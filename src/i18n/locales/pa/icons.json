@@ -291,7 +291,6 @@
         "copacabana": "Copacabana promenade (Rio de Janeiro) 'ਤੇ ਪ੍ਰਿੰਟ ਆਈਕਨ",
         "corcovado": "ਕੋਰਕੋਵਾਡੋ ਆਈਕਨ (ਰੀਓ ਡੀ ਜਨੇਰੀਓ)",
         "cristoredentor": "ਕ੍ਰਾਈਸਟ ਦਿ ਰਿਡੀਮਰ ਦਾ ਪ੍ਰਤੀਕ (ਰੀਓ ਡੀ ਜਨੇਰੀਓ)",
-        "cristoredentorvista": "ਕ੍ਰਾਈਸਟ ਦਿ ਰਿਡੀਮਰ (ਰੀਓ ਡੀ ਜਨੇਰੀਓ) ਦੇ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਦਾ ਪ੍ਰਤੀਕ",
         "desfilecarnaval": "ਇੱਕ ਕਾਰਨੀਵਲ ਪਰੇਡ ਦਾ ਪ੍ਰਤੀਕ (ਰੀਓ ਡੀ ਜਨੇਰੀਓ)",
         "distritofederal": "ਫੈਡਰਲ ਜ਼ਿਲ੍ਹਾ (ਬ੍ਰਾਜ਼ੀਲ) ਨਕਸ਼ਾ ਆਈਕਾਨ",
         "doubleheart": "ਦੋ ਦਿਲਾਂ ਦਾ ਪ੍ਰਤੀਕ",
@@ -361,5 +360,8 @@
         "trophy": "ਟਰਾਫੀ ਪ੍ਰਤੀਕ",
         "waterfall": "ਵਾਟਰਫਾਲ ਪ੍ਰਤੀਕ",
         "wavecrest": "ਵੇਵ ਕਰੈਸਟ ਆਈਕਨ"
+    },
+    "details": {
+        "alt": "ਵਿਕਲਪਿਕ ਟੈਕਸਟ: <1>{{altContent}}</1>"
     }
 }

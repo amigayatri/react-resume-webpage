@@ -30,7 +30,7 @@ import {
     SeaCreatureIcon,
     TrojanHorseIcon,
     VenusOfWillendorfIcon
-} from "./Ancient";
+} from "./Ancient"
 
 /****************************/
 /*                          */
@@ -123,7 +123,7 @@ import {
     UnicornIcon,
     VelociraptorIcon,
     WhaleIcon
-} from "./Animals";
+} from "./Animals"
 
 /***************************/
 /*                         */
@@ -145,7 +145,6 @@ import {
     CopacabanaIcon,
     CorcovadoIcon,
     CristoRedentorIcon,
-    CristoRedentorVistaIcon,
     DesfileCarnavalIcon,
     ElevadorLacerdaIcon,
     FestaJuninaIcon,
@@ -165,7 +164,7 @@ import {
     SambaIcon,
     SelaronIcon,
     TeatroAmazonasIcon
-} from "./Brasil";
+} from "./Brasil"
 
 /*******************************/
 /*                             */
@@ -189,7 +188,7 @@ import {
     ThreeIcon,
     TwoIcon,
     ZeroIcon
-} from "./Characters";
+} from "./Characters"
 
 /**************************/
 /*                        */
@@ -207,7 +206,7 @@ import {
     SadIcon,
     SpyIcon,
     SuperHappyIcon
-} from "./Faces";
+} from "./Faces"
 
 /*************************/
 /*                       */
@@ -223,7 +222,7 @@ import {
     DrinkIcon,
     IceCreamIcon,
     PizzaIcon
-} from "./Food";
+} from "./Food"
 
 /****************************/
 /*                          */
@@ -258,7 +257,7 @@ import {
     TestTubeIcon,
     TrophyIcon,
     UmbrellaIcon
-} from "./General";
+} from "./General"
 
 /******************************/
 /*                            */
@@ -271,7 +270,7 @@ import {
     GlobeIcon,
     MapIcon,
     MapPinIcon
-} from "./Geography";
+} from "./Geography"
 
 /******************************/
 /*                            */
@@ -310,7 +309,7 @@ import {
     VoiceRecognitionIcon,
     ZoomInIcon,
     ZoomOutIcon
-} from "./Interface";
+} from "./Interface"
 
 /*************************/
 /*                       */
@@ -337,7 +336,7 @@ import {
     WhatsAppIcon,
     WikiPediaIcon,
     YouTubeIcon
-} from "./Logo";
+} from "./Logo"
 
 /************************/
 /*                      */
@@ -375,14 +374,14 @@ import {
     SergipeIcon,
     SouthAmericaIcon,
     TocantinsIcon
-} from "./Map";
+} from "./Map"
 
 /**************************/
 /*                        */
 /*    Icons from Media    */
 /*                        */
 /**************************/
-import { NarutoIcon, SonicIcon } from "./Media";
+import { NarutoIcon, SonicIcon } from "./Media"
 
 /*************************/
 /*                       */
@@ -398,7 +397,7 @@ import {
     SchrodingersCatDeadIcon,
     SexyIcon,
     ToyBrickIcon
-} from "./Misc";
+} from "./Misc"
 
 /*************************************/
 /*                                   */
@@ -416,7 +415,7 @@ import {
     SurdoIcon,
     TamborimIcon,
     TrianguloIcon
-} from "./MusicInstruments";
+} from "./MusicInstruments"
 
 /***************************/
 /*                         */
@@ -444,7 +443,7 @@ import {
     WaterfallIcon,
     WaveCrestIcon,
     WindyIcon
-} from "./Nature";
+} from "./Nature"
 
 /*************************/
 /*                       */
@@ -467,14 +466,14 @@ import {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon
-} from "./Tech";
+} from "./Tech"
 
 /***************************/
 /*                         */
 /*    Icons from Toggle    */
 /*                         */
 /***************************/
-import { MoonIcon, PauseIcon, PlayIcon, SunIcon } from "./Toggle";
+import { MoonIcon, PauseIcon, PlayIcon, SunIcon } from "./Toggle"
 
 /*****************************/
 /*                           */
@@ -493,7 +492,7 @@ import {
     TrainIcon,
     TruckIcon,
     WalkIcon
-} from "./Vehicles";
+} from "./Vehicles"
 
 export {
     AtlasIcon,
@@ -621,7 +620,6 @@ export {
     CopacabanaIcon,
     CorcovadoIcon,
     CristoRedentorIcon,
-    CristoRedentorVistaIcon,
     DesfileCarnavalIcon,
     ElevadorLacerdaIcon,
     FestaJuninaIcon,
@@ -857,4 +855,4 @@ export {
     TrainIcon,
     TruckIcon,
     WalkIcon
-};
+}

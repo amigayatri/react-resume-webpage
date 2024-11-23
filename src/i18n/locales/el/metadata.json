@@ -16,7 +16,8 @@
         "map": "Χάρτης της Βραζιλίας",
         "shades": "Παραλλαγές τόνου",
         "lyric": "στίχοι {{musicName}}",
-        "musics": "Διαθέσιμα τραγούδια"
+        "musics": "Διαθέσιμα τραγούδια",
+        "detailed-icon": "Λεπτομέρειες εικονιδίου {{iconId}}"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Προσωπική ιστοσελίδα"

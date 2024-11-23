@@ -291,7 +291,6 @@
         "copacabana": "科帕卡巴纳长廊上的打印图标（里约热内卢）",
         "corcovado": "科尔科瓦多图标（里约热内卢）",
         "cristoredentor": "救世主基督圣像（里约热内卢）",
-        "cristoredentorvista": "救世主基督景观的图标（里约热内卢）",
         "desfilecarnaval": "狂欢节游行的图标（里约热内卢）",
         "distritofederal": "联邦区（巴西）地图图标",
         "doubleheart": "两颗心图标",
@@ -361,5 +360,8 @@
         "trophy": "奖杯图标",
         "waterfall": "瀑布图标",
         "wavecrest": "波峰图标"
+    },
+    "details": {
+        "alt": "替代文本：<1>{{altContent}}</1>"
     }
 }

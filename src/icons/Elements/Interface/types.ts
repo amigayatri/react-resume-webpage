@@ -13,7 +13,6 @@ const interfaceArr = [
     "filter",
     "grid",
     "home",
-    "index",
     "listsortedascending",
     "listsorteddescending",
     "listunordered",
@@ -28,13 +27,12 @@ const interfaceArr = [
     "terminalerror",
     "tools",
     "translate",
-    "types.ts",
     "voicerecognition",
     "zoomin",
     "zoomout"
-] as const;
+] as const
 
-type interfaceKey = (typeof interfaceArr)[number];
+type interfaceKey = (typeof interfaceArr)[number]
 
-export type { interfaceKey };
-export { interfaceArr };
+export type { interfaceKey }
+export { interfaceArr }

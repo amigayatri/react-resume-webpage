@@ -1,14 +1,6 @@
-const geographyArr = [
-    "cedar",
-    "flag",
-    "globe",
-    "index",
-    "map",
-    "mappin",
-    "types.ts"
-] as const;
+const geographyArr = ["cedar", "flag", "globe", "map", "mappin"] as const
 
-type geographyKey = (typeof geographyArr)[number];
+type geographyKey = (typeof geographyArr)[number]
 
-export type { geographyKey };
-export { geographyArr };
+export type { geographyKey }
+export { geographyArr }

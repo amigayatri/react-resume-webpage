@@ -1,6 +1,0 @@
-const newIcons = require("./new-icons.cjs")
-const mapAll = require("./map-all-icons.cjs")
-const mapUsage = require("./map-usage.cjs")
-mapAll.run()
-newIcons.run()
-mapUsage.run()
