@@ -197,7 +197,7 @@ const usedIcons: Map<string, Set<string>> = new Map([
 type markAsUsed = (id: iconKey, local: string) => void;
 const markAsUsed: markAsUsed = (id, local) => {
     const prevUsed = usedIcons.get(local) || new Set();
-    prevUsed.add(id);
+    prevUsed.add(id as string);
     usedIcons.set(local, prevUsed);
     removeUsed(id);
 };
