@@ -14,6 +14,10 @@ import { HolidayElementProps } from "../../../types.ts"
 import { SVGIcon } from "../../../../../common/client"
 import { Trans } from "react-i18next/TransWithoutContext"
 
+//$emotionStart
+// = ["sad", "superhappy", "happy"]
+//$emotionEnd
+
 const Holiday = ({
 	name,
 	type,

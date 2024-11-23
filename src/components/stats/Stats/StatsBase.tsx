@@ -27,11 +27,15 @@ export const StatsBase = ({ lng, t }: StatsBaseProps) => {
 		legible: true,
 		local: "stats"
 	}
+	//$leetcodeTabStart
 	const leetcodeTab: TabProps = {
 		el: <LeetcodeStats lng={lng} />,
 		icon: "leetcode"
 	}
+	//$leetcodeTabEnd
+	//$gitTabStart
 	const gitTab: TabProps = { el: <GitStats lng={lng} />, icon: "github" }
+	//$gitTabEnd
 	const tabs: tabsMap = new Map([
 		["leetcode", leetcodeTab],
 		["git", gitTab]

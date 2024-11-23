@@ -20,7 +20,13 @@ export const InternalLink = ({
 		<ButtonWrapper>
 			<InternalLinkTag href={`/${lng}/${path}`}>
 				<ButtonStyle>
-					<SVGIcon lng={lng} noTransition local={local} size={48} id={icon} />
+					<SVGIcon
+						lng={lng}
+						noTransition
+						local="internal-link"
+						size={48}
+						id={icon}
+					/>
 					<Label> {t(key)}</Label>
 					{hasDetails && <Detail>{t(`details.${local}.${key}`)}</Detail>}
 				</ButtonStyle>

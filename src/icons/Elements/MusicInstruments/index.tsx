@@ -1,13 +1,13 @@
-import { AgogoIcon } from "./AgogoIcon"
-import { GuitarIcon } from "./GuitarIcon"
-import { HeadphoneIcon } from "./HeadphoneIcon"
-import { LoveSongIcon } from "./LoveSongIcon"
-import { PandeiroIcon } from "./PandeiroIcon"
-import { PianistIcon } from "./PianistIcon"
-import { SanfonaIcon } from "./SanfonaIcon"
-import { SurdoIcon } from "./SurdoIcon"
-import { TamborimIcon } from "./TamborimIcon"
-import { TrianguloIcon } from "./TrianguloIcon"
+import { AgogoIcon } from "./Agogo.tsx";
+import { GuitarIcon } from "./Guitar.tsx";
+import { HeadphoneIcon } from "./Headphone.tsx";
+import { LoveSongIcon } from "./LoveSong.tsx";
+import { PandeiroIcon } from "./Pandeiro.tsx";
+import { PianistIcon } from "./Pianist.tsx";
+import { SanfonaIcon } from "./Sanfona.tsx";
+import { SurdoIcon } from "./Surdo.tsx";
+import { TamborimIcon } from "./Tamborim.tsx";
+import { TrianguloIcon } from "./Triangulo.tsx";
 
 export {
     AgogoIcon,
@@ -20,4 +20,4 @@ export {
     SurdoIcon,
     TamborimIcon,
     TrianguloIcon
-}
+};

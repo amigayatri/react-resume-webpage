@@ -35,7 +35,7 @@ export const Controls = ({ t, lng, controls, setControls }: ControlsProps) => {
 						handleCount(false)
 					}}
 				>
-					<SVGIcon lng={lng} local="cats" size={48} id={"minus"} />
+					<SVGIcon lng={lng} local="cats" size={48} id="minus" />
 				</ControlButton>
 				<ControlButton
 					aria-label={t("count.increase")}

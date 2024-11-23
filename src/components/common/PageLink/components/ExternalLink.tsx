@@ -21,7 +21,7 @@ export const ExternalLink = ({ t, lng, to, local }: PageLinkBaseProps) => {
 						<SVGIcon
 							lng={lng}
 							noTransition
-							local={local || "unset"}
+							local="external-link"
 							id="external"
 							size={20}
 						/>

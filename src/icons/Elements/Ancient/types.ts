@@ -16,6 +16,7 @@ const ancientArr = [
     "greeksphinx",
     "greektemple",
     "icarus",
+    "index",
     "machupicchu",
     "mayanpyramid",
     "mermaid",
@@ -24,10 +25,11 @@ const ancientArr = [
     "saintbasilcathedral",
     "seacreature",
     "trojanhorse",
+    "types.ts",
     "venusofwillendorf"
-] as const
+] as const;
 
-type ancientKey = (typeof ancientArr)[number]
+type ancientKey = (typeof ancientArr)[number];
 
-export type { ancientKey }
-export { ancientArr }
+export type { ancientKey };
+export { ancientArr };

@@ -4,6 +4,7 @@ const charactersArr = [
     "equal",
     "five",
     "four",
+    "index",
     "minus",
     "minusminus",
     "nine",
@@ -14,10 +15,11 @@ const charactersArr = [
     "six",
     "three",
     "two",
+    "types.ts",
     "zero"
-] as const
+] as const;
 
-type charactersKey = (typeof charactersArr)[number]
+type charactersKey = (typeof charactersArr)[number];
 
-export type { charactersKey }
-export { charactersArr }
+export type { charactersKey };
+export { charactersArr };

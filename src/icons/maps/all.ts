@@ -1,4 +1,4 @@
-import { iconsMap } from "./types"
+import { iconsMap } from "./types";
 
 import {
     AtlasIcon,
@@ -41,8 +41,8 @@ import {
     ButterflyIcon,
     CamelIcon,
     CapybaraIcon,
-    CaterpillarIcon,
     CatIcon,
+    CaterpillarIcon,
     ChickenIcon,
     ClownfishIcon,
     CowIcon,
@@ -236,8 +236,8 @@ import {
     ProfileIcon,
     ShadowIcon,
     SongLyricIcon,
-    TerminalErrorIcon,
     TerminalIcon,
+    TerminalErrorIcon,
     ToolsIcon,
     TranslateIcon,
     VoiceRecognitionIcon,
@@ -267,18 +267,18 @@ import {
     AmapaIcon,
     AmazonasIcon,
     BahiaIcon,
-    BrasilDotIcon,
     BrasilIcon,
+    BrasilDotIcon,
     CearaIcon,
     DistritoFederalIcon,
     EspiritoSantoIcon,
     GoiasIcon,
     MaranhaoIcon,
-    MatoGrossoDoSulIcon,
     MatoGrossoIcon,
+    MatoGrossoDoSulIcon,
     MinasGeraisIcon,
-    ParaibaIcon,
     ParaIcon,
+    ParaibaIcon,
     ParanaIcon,
     PernambucoIcon,
     PiauiIcon,
@@ -324,8 +324,8 @@ import {
     PlanetIcon,
     PlantIcon,
     PrismIcon,
-    RainbowIcon,
     RainIcon,
+    RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
     TornadoIcon,
@@ -347,6 +347,7 @@ import {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon,
+    FaviconBaseIcon,
     MoonIcon,
     PauseIcon,
     PlayIcon,
@@ -362,10 +363,9 @@ import {
     TrainIcon,
     TruckIcon,
     WalkIcon
-} from "../Elements"
+} from "../Elements";
 
-const allIcons : iconsMap = new Map ( [
-
+const allIcons: iconsMap = new Map([
     ["atlas", AtlasIcon],
     ["azteccalendarsun", AztecCalendarSunIcon],
     ["bastet", BastetIcon],
@@ -406,8 +406,8 @@ const allIcons : iconsMap = new Map ( [
     ["butterfly", ButterflyIcon],
     ["camel", CamelIcon],
     ["capybara", CapybaraIcon],
-    ["caterpillar", CaterpillarIcon],
     ["cat", CatIcon],
+    ["caterpillar", CaterpillarIcon],
     ["chicken", ChickenIcon],
     ["clownfish", ClownfishIcon],
     ["cow", CowIcon],
@@ -601,8 +601,8 @@ const allIcons : iconsMap = new Map ( [
     ["profile", ProfileIcon],
     ["shadow", ShadowIcon],
     ["songlyric", SongLyricIcon],
-    ["terminalerror", TerminalErrorIcon],
     ["terminal", TerminalIcon],
+    ["terminalerror", TerminalErrorIcon],
     ["tools", ToolsIcon],
     ["translate", TranslateIcon],
     ["voicerecognition", VoiceRecognitionIcon],
@@ -632,18 +632,18 @@ const allIcons : iconsMap = new Map ( [
     ["amapa", AmapaIcon],
     ["amazonas", AmazonasIcon],
     ["bahia", BahiaIcon],
-    ["brasildot", BrasilDotIcon],
     ["brasil", BrasilIcon],
+    ["brasildot", BrasilDotIcon],
     ["ceara", CearaIcon],
     ["distritofederal", DistritoFederalIcon],
     ["espiritosanto", EspiritoSantoIcon],
     ["goias", GoiasIcon],
     ["maranhao", MaranhaoIcon],
-    ["matogrossodosul", MatoGrossoDoSulIcon],
     ["matogrosso", MatoGrossoIcon],
+    ["matogrossodosul", MatoGrossoDoSulIcon],
     ["minasgerais", MinasGeraisIcon],
-    ["paraiba", ParaibaIcon],
     ["para", ParaIcon],
+    ["paraiba", ParaibaIcon],
     ["parana", ParanaIcon],
     ["pernambuco", PernambucoIcon],
     ["piaui", PiauiIcon],
@@ -689,8 +689,8 @@ const allIcons : iconsMap = new Map ( [
     ["planet", PlanetIcon],
     ["plant", PlantIcon],
     ["prism", PrismIcon],
-    ["rainbow", RainbowIcon],
     ["rain", RainIcon],
+    ["rainbow", RainbowIcon],
     ["snowflake", SnowFlakeIcon],
     ["star", StarIcon],
     ["tornado", TornadoIcon],
@@ -712,6 +712,7 @@ const allIcons : iconsMap = new Map ( [
     ["trademark", TrademarkIcon],
     ["vhs", VHSIcon],
     ["website", WebsiteIcon],
+    ["faviconbase", FaviconBaseIcon],
     ["moon", MoonIcon],
     ["pause", PauseIcon],
     ["play", PlayIcon],
@@ -727,6 +728,6 @@ const allIcons : iconsMap = new Map ( [
     ["train", TrainIcon],
     ["truck", TruckIcon],
     ["walk", WalkIcon]
-])
+]);
 
-export { allIcons }
+export { allIcons };

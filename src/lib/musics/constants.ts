@@ -1,9 +1,13 @@
 import { MusicInfo, musicPath } from "../../types/musics"
 
 type infoMap = Map<musicPath, MusicInfo>
+
+//$availableMusicsIconsStart
 const musicInfoMap: infoMap = new Map([
-	["o-mar-serenou", ["O Mar Serenou", "mermaid", "#67d8ef"]]
+	["o-mar-serenou", ["O Mar Serenou", "mermaid", "#67d8ef"]],
+	["garota-de-ipanema", ["Garota de Ipanema", "bronzeando", "#FF0000"]]
 ])
+//$availableMusicsIconsEnd
 
 type getMusicInfo = (path: musicPath) => MusicInfo | [false]
 const getMusicInfo: getMusicInfo = (path) => {
