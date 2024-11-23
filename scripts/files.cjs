@@ -77,5 +77,6 @@ module.exports = {
 	mapFoldersInside,
 	mapFilesInside,
 	createConditional,
+	hasFolder,
 	writeFile
 }

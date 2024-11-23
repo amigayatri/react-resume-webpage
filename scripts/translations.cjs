@@ -65,8 +65,9 @@ const generateNewAltsFile = (newAltsArr, updatedMissing) => {
 	const altTexts = !needUpdate
 		? `{\n"alt": "${noChangeStr}"\n}`
 		: altFileText(newAltsArr, updatedMissing)
+	const exist = fileFn.hasFolder
 	if (!needUpdate) {
-		fileFn.deleteFile(altPath)
+		exist(altPath) ? fileFn.deleteFile(altPath) : ""
 		console.log(generateComment(noChangeStr).replaceAll("/", ""))
 		return
 	}
