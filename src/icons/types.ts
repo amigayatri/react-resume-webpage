@@ -14,7 +14,6 @@ import { miscKey } from "./Elements/Misc/types.ts";
 import { musicinstrumentsKey } from "./Elements/MusicInstruments/types.ts";
 import { natureKey } from "./Elements/Nature/types.ts";
 import { techKey } from "./Elements/Tech/types.ts";
-import { testKey } from "./Elements/Test/types.ts";
 import { toggleKey } from "./Elements/Toggle/types.ts";
 import { vehiclesKey } from "./Elements/Vehicles/types.ts";
 
@@ -37,7 +36,6 @@ type iconKey =
     | musicinstrumentsKey
     | natureKey
     | techKey
-    | testKey
     | toggleKey
     | vehiclesKey;
 

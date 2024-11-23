@@ -469,13 +469,6 @@ import {
     WebsiteIcon
 } from "./Tech";
 
-/*************************/
-/*                       */
-/*    Icons from Test    */
-/*                       */
-/*************************/
-import { FaviconBaseIcon } from "./Test";
-
 /***************************/
 /*                         */
 /*    Icons from Toggle    */
@@ -849,7 +842,6 @@ export {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon,
-    FaviconBaseIcon,
     MoonIcon,
     PauseIcon,
     PlayIcon,
