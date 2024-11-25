@@ -1,0 +1,31 @@
+import { generalKey } from "../../Elements/General/types"
+
+export const generalIconsSet: Set<generalKey> = new Set([
+    "award",
+    "bankcard",
+    "briefcase",
+    "candle",
+    "clapperboard",
+    "crown",
+    "dice",
+    "doubleheart",
+    "film",
+    "glasses",
+    "graduationcap",
+    "heart",
+    "heartpulse",
+    "key",
+    "magazine",
+    "medal",
+    "music",
+    "office",
+    "palette",
+    "pantone",
+    "pulse",
+    "puzzle",
+    "resttime",
+    "sparkling",
+    "testtube",
+    "trophy",
+    "umbrella"
+])

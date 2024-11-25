@@ -278,11 +278,16 @@ import {
 /*                            */
 /******************************/
 import {
+    AnticlockwiseIcon,
+    ArrowIcon,
     BrokenLinkIcon,
+    BrushIcon,
     CalendarIcon,
     ChartIcon,
+    ClockwiseIcon,
     ColorFilterIcon,
     CopyIcon,
+    DiagonalArrowIcon,
     DownloadIcon,
     EmailIcon,
     ErrorIcon,
@@ -290,6 +295,7 @@ import {
     EyeCloseIcon,
     EyeOpenIcon,
     FilterIcon,
+    FilterOffIcon,
     GridIcon,
     HomeIcon,
     ListSortedAscendingIcon,
@@ -300,6 +306,7 @@ import {
     PaintBucketIcon,
     PencilIcon,
     ProfileIcon,
+    RulerIcon,
     ShadowIcon,
     SongLyricIcon,
     TerminalIcon,
@@ -318,7 +325,6 @@ import {
 /*************************/
 import {
     BaiduIcon,
-    BarbieIcon,
     CSSIcon,
     FacebookIcon,
     FirefoxIcon,
@@ -381,7 +387,7 @@ import {
 /*    Icons from Media    */
 /*                        */
 /**************************/
-import { NarutoIcon, SonicIcon } from "./Media"
+import { BarbieIcon, NarutoIcon, SonicIcon } from "./Media"
 
 /*************************/
 /*                       */
@@ -705,11 +711,16 @@ export {
     GlobeIcon,
     MapIcon,
     MapPinIcon,
+    AnticlockwiseIcon,
+    ArrowIcon,
     BrokenLinkIcon,
+    BrushIcon,
     CalendarIcon,
     ChartIcon,
+    ClockwiseIcon,
     ColorFilterIcon,
     CopyIcon,
+    DiagonalArrowIcon,
     DownloadIcon,
     EmailIcon,
     ErrorIcon,
@@ -717,6 +728,7 @@ export {
     EyeCloseIcon,
     EyeOpenIcon,
     FilterIcon,
+    FilterOffIcon,
     GridIcon,
     HomeIcon,
     ListSortedAscendingIcon,
@@ -727,6 +739,7 @@ export {
     PaintBucketIcon,
     PencilIcon,
     ProfileIcon,
+    RulerIcon,
     ShadowIcon,
     SongLyricIcon,
     TerminalIcon,
@@ -737,7 +750,6 @@ export {
     ZoomInIcon,
     ZoomOutIcon,
     BaiduIcon,
-    BarbieIcon,
     CSSIcon,
     FacebookIcon,
     FirefoxIcon,
@@ -785,6 +797,7 @@ export {
     SergipeIcon,
     SouthAmericaIcon,
     TocantinsIcon,
+    BarbieIcon,
     NarutoIcon,
     SonicIcon,
     FishermanIcon,

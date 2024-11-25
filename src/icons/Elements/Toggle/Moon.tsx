@@ -1,11 +1,30 @@
 import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
-export const MoonIcon = (props: SVGProps) => {
-	const { alt, size, isToggle, hasTransition, color } = props
+
+export const MoonIcon = (props: SVGProps) => {
+	const {
+		alt,
+		size,
+		isToggle,
+		hasTransition,
+		color,
+		rotationDeg,
+		isResponsive,
+		customStyle
+	} = props
+	const safeWrapperStyle =
+		customStyle !== undefined && customStyle.wrapper !== undefined
+			? customStyle.wrapper
+			: {}
+	const safeIconStyle =
+		customStyle !== undefined && customStyle.icon !== undefined
+			? customStyle.icon
+			: {}
 	if (isToggle === true) {
 		return (
 			<ToggleIconWrapper $isTrue>
 				<Icon
+					$isResponsive={false}
 					$hasTransition={hasTransition}
 					$size={size}
 					role="img"
@@ -20,8 +39,14 @@ import { SVGProps } from "../types"
 		)
 	}
 	return (
-		<IconWrapper>
+		<IconWrapper
+			style={safeWrapperStyle}
+			$isResponsive={isResponsive}
+			$angle={rotationDeg}
+		>
 			<Icon
+				style={safeIconStyle}
+				$isResponsive={isResponsive}
 				$size={size}
 				$hasTransition={hasTransition}
 				role="img"

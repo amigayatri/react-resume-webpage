@@ -1,30 +1,18 @@
-import { SVGIcon } from "../../../common/SVGIcon/client"
-import {
-	DetailedIconWrapper,
-	IconWrapper,
-	Title,
-	Alt,
-	AltText
-} from "./DetailedIcon.styled"
+import { SVGIcon } from "../../../common/client"
+import { DetailedIconWrapper, IconWrapper, Title } from "./DetailedIcon.styled"
 import { DetailedIconBaseProps } from "../types"
 import { capitalize } from "../../../../lib/utils"
-import { Trans } from "react-i18next/TransWithoutContext"
+import { IconAlt, Controls } from "../components"
 
 export const DetailedIconBase = ({ lng, iconId, t }: DetailedIconBaseProps) => {
 	return (
 		<DetailedIconWrapper>
+			<Controls t={t} lng={lng} />
 			<Title>{capitalize(iconId)}</Title>
-			<Alt>
-				<Trans
-					t={t}
-					i18nKey="details.alt"
-					tOptions={{ altContent: t(`alt.${iconId}`) }}
-				>
-					t<AltText>s</AltText>
-				</Trans>
-			</Alt>
+			<IconAlt lng={lng} iconId={iconId} />
 			<IconWrapper>
 				<SVGIcon
+					responsive
 					lng={lng}
 					id={iconId}
 					size={360}

@@ -16,5 +16,8 @@
         },
         "title": "Statistiken zur Symbolnutzung"
     },
-    "title": "Verfügbare Symbole"
+    "title": "Verfügbare Symbole",
+    "all": {
+        "title": "Alle Symbole"
+    }
 }

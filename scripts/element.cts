@@ -28,7 +28,6 @@ const rewriteWithoutComment: rewriteWithoutComment = (filePath) => {
 	if (!isIcon(filePath)) return
 	const fileContent = readFile(filePath)
 	const cleanContent = removeComments(fileContent, true)
-	console.log(cleanContent.length)
 	writeFile(filePath.replace("Icon", ""), cleanContent)
 	fileFn.deleteFile(filePath)
 }
@@ -38,6 +37,7 @@ const isIcon: isIcon = (filename) => filename.indexOf(`.tsx`) >= 0
 
 const convertedPath = concat("./new-svgs", "converted")
 
+let iconTemplate = template.createIconTemplate()
 type elFromSVG = (
 	readPreffix: string,
 	writePreffix: string,
@@ -50,6 +50,7 @@ const elFromSVG: elFromSVG = (
 	folderName,
 	filename
 ) => {
+	if (folderName === "Toggle") return
 	const withFolder = (preffix: string, nameToUse: string) =>
 		concat(preffix, concat(folderName, nameToUse))
 	const readPath = withFolder(readPreffix, filename)
@@ -57,11 +58,11 @@ const elFromSVG: elFromSVG = (
 	const elName = utils.createTitle(filename.replace(`.svg`, ``), `icon`)
 	const viewbox = getViewbox(svgContent)
 	const cleanTags = cleanSVG(svgContent)
-	const elStr = fillTemplate(elName, viewbox, cleanTags)
+	const elStr = fillTemplate(elName, viewbox, cleanTags, iconTemplate)
 	if (cleanTags.length === 0) return
 	const writePath = withFolder(writePreffix, elName.replace(`Icon`, `.tsx`))
 	fileFn.createConditional(convertedPath)
-	writeFile(writePath, elStr, false)
+	writeFile(writePath, elStr)
 	fileFn.moveFile(readPath.replace(filename, ""), convertedPath, filename)
 }
 

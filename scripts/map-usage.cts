@@ -57,10 +57,51 @@ const readFile: readFileUsage = (filePath) => {
 		for (const indirectTag of indirectTags) {
 			if (fileContent.indexOf(indirectTag) >= 0) {
 				const indirectTagStr = getTag(fileContent, indirectTag)
-				if (indirectTagStr.includes("iconId"))
-					hasIndirect.push(filePath)
+				if (
+					(Array.isArray(indirectTagStr) &&
+						indirectTagStr[0].includes("iconId")) ||
+					indirectTagStr.includes("iconId")
+				)
+					hasIndirect.push(fileContent)
 			}
 		}
+	}
+}
+
+const quotePossibilities = ['"', "'", "`"]
+
+const hasQuotes = (str: string) => {
+	for (const quote of quotePossibilities) {
+		if (str.indexOf(quote) >= 0) return true
+	}
+	return false
+}
+
+const indirectSymbols = ["{", "}", ">", "<", "."]
+
+const hasIndirectSymbol = (str: string) => {
+	for (const symbol of indirectSymbols) {
+		if (str.indexOf(symbol) >= 0) return true
+	}
+	return false
+}
+
+const isDirect = (str: string) => {
+	if (hasQuotes(str) && !hasIndirectSymbol(str)) return true
+	return false
+}
+
+const scanTagForIndirects = (tagStr: string) => {
+	const id = xml.getAttrVal(tagStr, "iconId")
+	const local = xml.getAttrVal(tagStr, "local")
+	if (isDirect(id) && isDirect(local)) {
+		markAsUsed(id, local)
+	}
+}
+
+const handleIndirectIcons = () => {
+	for (const tag of hasIndirect) {
+		scanTagForIndirects(tag)
 	}
 }
 
@@ -101,6 +142,7 @@ const generateEntriesStr: generateEntriesStr = () => {
 }
 
 const readAllSourceFolders = () => {
+	console.log("Map icons usage")
 	scanComponents()
 	scanConstants()
 	const mapPath = "src/icons/maps/used.ts"
@@ -168,6 +210,7 @@ const scanConstants = () => {
 		}
 	}
 	getConstantsHardCoded()
+	handleIndirectIcons()
 }
 
 const getPaletteGroupIcons = () => {

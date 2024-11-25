@@ -1,24 +1,48 @@
 import { IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
-export const PandeiroIcon = (props: SVGProps) => {
-	const { alt, size, hasTransition, color } = props
-	return (
-		<IconWrapper>
-			<Icon
-				$size={size}
-				$hasTransition={hasTransition}
-				role="img"
-				fill={color}
-				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 512 512"
-			>
-				<title>{alt}</title>
-				<g
-					transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-					stroke="none"
-				>
-					<path
-						d="M2440 5104 c-177 -38 -326 -159 -410 -332 l-26 -55 -135 -44 c-74
+
+export const PandeiroIcon = (props: SVGProps) => {
+    const {
+        alt,
+        size,
+        hasTransition,
+        color,
+        rotationDeg,
+        isResponsive,
+        customStyle
+    } = props
+    const safeWrapperStyle =
+        customStyle !== undefined && customStyle.wrapper !== undefined ?
+            customStyle.wrapper
+        :   {}
+    const safeIconStyle =
+        customStyle !== undefined && customStyle.icon !== undefined ?
+            customStyle.icon
+        :   {}
+
+    return (
+        <IconWrapper
+            style={safeWrapperStyle}
+            $isResponsive={isResponsive}
+            $angle={rotationDeg}
+        >
+            <Icon
+                style={safeIconStyle}
+                $isResponsive={isResponsive}
+                $size={size}
+                $hasTransition={hasTransition}
+                role="img"
+                fill={color}
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+            >
+                <title>{alt}</title>
+                <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
+                >
+                    <path
+                        d="M2440 5104 c-177 -38 -326 -159 -410 -332 l-26 -55 -135 -44 c-74
 -24 -204 -78 -289 -120 -145 -71 -156 -75 -185 -64 -232 94 -482 45 -648 -127
 -164 -170 -208 -410 -116 -637 11 -29 7 -40 -64 -185 -42 -85 -96 -215 -120
 -289 l-44 -135 -55 -26 c-175 -85 -295 -234 -333 -415 -18 -88 -18 -142 0
@@ -53,9 +77,9 @@ m2848 -12 c64 -16 132 -57 186 -115 59 -62 94 -134 108 -218 9 -62 4 -158 -9
 72 61 72 4 0 9 -21 12 -47z m-1879 -859 c133 -5 233 -3 303 6 57 7 107 10 110
 7 3 -3 -19 -31 -48 -62 -121 -128 -313 -165 -476 -90 -52 23 -145 102 -165
 138 -9 18 -7 19 34 13 23 -3 132 -9 242 -12z"
-					/>
-					<path
-						d="M2410 4450 c-374 -32 -709 -161 -1007 -388 -101 -76 -269 -244 -345
+                    />
+                    <path
+                        d="M2410 4450 c-374 -32 -709 -161 -1007 -388 -101 -76 -269 -244 -345
 -345 -158 -207 -274 -446 -337 -694 -72 -283 -72 -643 0 -926 121 -474 426
 -891 837 -1147 557 -345 1250 -379 1837 -91 133 66 284 162 345 220 47 44 51
 77 17 117 -33 38 -75 36 -135 -6 -247 -177 -472 -279 -732 -331 -151 -31 -427
@@ -65,9 +89,9 @@ m2848 -12 c64 -16 132 -57 186 -115 59 -62 94 -134 108 -218 9 -62 4 -158 -9
 -26 -33 -49 -70 -52 -83 -7 -29 17 -70 51 -86 43 -19 72 -2 139 84 212 267
 344 577 397 933 17 114 14 398 -5 525 -65 412 -244 766 -537 1059 -247 247
 -541 415 -876 500 -176 45 -432 66 -613 51z"
-					/>
-				</g>
-			</Icon>
-		</IconWrapper>
-	)
+                    />
+                </g>
+            </Icon>
+        </IconWrapper>
+    )
 }

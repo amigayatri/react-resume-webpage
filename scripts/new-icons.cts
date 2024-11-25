@@ -9,6 +9,7 @@ const { concat } = utils
 
 const foldersToIgore: Set<string> = new Set(["converted"])
 const createNewIcons = () => {
+	console.log("Creating new icons")
 	const readPath = constants.toAddPath
 	const writePath = concat(constants.iconElementsPath, "Elements")
 	const elFromSVG = elsFn.elFromSVG

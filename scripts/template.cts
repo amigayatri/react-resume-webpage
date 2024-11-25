@@ -1,34 +1,64 @@
+const files = require("./files.cts")
+const utils = require("./utils.cts")
+
+interface IconTemplate {
+	preName: string
+	preViewbox: string
+	preTags: string
+	afterTags: string
+}
+
+const subFromIndexOf = (
+	str: string,
+	start: string | number,
+	end: string | number,
+	includeStart: boolean = false,
+	includeEnd: boolean = false
+) => {
+	let startIdx = typeof start === "number" ? start : str.indexOf(start)
+	let endIdx = typeof end === "number" ? end : str.indexOf(end, startIdx)
+	if (typeof start !== "number" && includeStart === true)
+		startIdx += start.length
+	if (typeof end !== "number" && includeEnd === true) endIdx += end.length
+	return str.substring(startIdx, endIdx)
+}
+
+type createIconTemplate = () => IconTemplate
+const createIconTemplate: createIconTemplate = () => {
+	const iconFolderPath = "./src/icons/Elements/General"
+	const [anyIcon] = files.getFolderContent(iconFolderPath, false)
+	const iconPath = utils.concat(iconFolderPath, anyIcon)
+	const newTemplate: Partial<IconTemplate> = {}
+	const elStr = files.readFile(iconPath)
+	const iconName = utils.createTitle(anyIcon.replace(".tsx", ""), "icon")
+	const titleEndTag = "</title>"
+	const postViewIdx = elStr.indexOf(">", elStr.indexOf("viewBox"))
+	newTemplate.preName = subFromIndexOf(elStr, 0, iconName)
+	newTemplate.preViewbox = subFromIndexOf(elStr, iconName, "viewBox", true)
+	newTemplate.preTags = subFromIndexOf(
+		elStr,
+		postViewIdx,
+		titleEndTag,
+		false,
+		true
+	)
+	newTemplate.afterTags = subFromIndexOf(elStr, "</Icon>", elStr.length)
+	return newTemplate as IconTemplate
+}
+
 type fillTemplate = (
 	iconName: string,
 	viewbox: string,
-	cleanTags: string
+	cleanTags: string,
+	iconTemplate: IconTemplate
 ) => string
 const fillTemplate: fillTemplate = (
 	iconName,
 	viewbox,
-	cleanTags
-) => `import { IconWrapper, Icon } from "../Common.styled"
-import { SVGProps } from "../types"
-
-export const ${iconName} = (props: SVGProps) => {
-	const { alt, size, hasTransition, color } = props
-	return (
-		<IconWrapper>
-		    <Icon
-                $size={size}
-                $hasTransition={hasTransition}
-                role="img"
-                fill={color}
-                xmlns="http://www.w3.org/2000/svg"
-                ${viewbox}
-            >
-                <title>{alt}</title>
-                ${cleanTags}
-            </Icon>
-	    </IconWrapper>
-	)
-}
-`
+	cleanTags,
+	{ preName, preViewbox, preTags, afterTags }
+) =>
+	`${preName}${iconName}${preViewbox}${viewbox}\n${preTags}\n${cleanTags}\n${afterTags}`
 
 const generateComment = (content, isFolderName) => {
 	const generateRepeat = (size, char) =>
@@ -93,6 +123,7 @@ const usedIconsMap: usedIconsMap = (fileContent, entriesStr, keys) => {
 }
 
 module.exports = {
+	createIconTemplate,
 	fillTemplate,
 	generateComment,
 	generateAllIconsMap,

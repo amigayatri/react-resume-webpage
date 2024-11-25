@@ -58,11 +58,29 @@ const writeElements: writeElements = (mapImportsByFolder) => {
 	writeFile(`${constants.iconElementsPath}/types.ts`, typeStr)
 }
 
+type parcialMap = (folderName: string, ids: string[], typeName: string) => void
+const parcialMap: parcialMap = (folderName, ids, typeName) => {
+	console.log(folderName, typeName, ids)
+	const setPath = concat(
+		"./src/icons/maps/groups",
+		folderName.toLowerCase().concat(".ts")
+	)
+	const setName = folderName.toLowerCase().concat("IconsSet")
+	const fileContent = `import { ${typeName} } from "../../Elements/${folderName}/types"\n
+	export const ${setName} : Set<${typeName}> = new Set([${ids.join(",")}])`
+	console.log(fileContent, setPath)
+	writeFile(setPath, fileContent)
+}
+
 type mapIcons = () => void
-type generateType = (folderName: string, files: string[]) => [string, string]
+type generateType = (
+	folderName: string,
+	files: string[]
+) => [string, string, string[]]
 type mapIconsFromFolder = (folderName: string) => void
 type getIconPair = (id: string, idx: number) => string
 const mapIcons: mapIcons = () => {
+	console.log("Map icons (for type and imports)")
 	const translationMaps = translation.getAlreadyTranslated()
 	const { already, missing } = translationMaps
 	const elementsPath = concat(constants.iconElementsPath, "Elements")
@@ -76,18 +94,23 @@ const mapIcons: mapIcons = () => {
 		)
 		const iconPaths = concat(constants.iconElementsPath, "Elements")
 		writeFile(`${iconPaths}/${folderName}/types.ts`, typeStr)
-		return [typeName, typeArrName]
+		return [typeName, typeArrName, idArr]
 	}
 
 	const mapIconsFromFolder: mapIconsFromFolder = (folderName) => {
+		const filesToIgnore = new Set(["index.tsx", "types.ts"])
 		const filteredIcons = getFolderContent(
 			concat(elementsPath, folderName),
 			false
-		)
+		).filter((fileName) => !filesToIgnore.has(fileName))
 		all.icons.push(...filteredIcons)
 		const fileObj = folder.generateIndex(folderName, filteredIcons)
-		const [typeName, typeArrName] = generateType(folderName, filteredIcons)
+		const [typeName, typeArrName, idArr] = generateType(
+			folderName,
+			filteredIcons
+		)
 		all.types.push(typeName)
+		parcialMap(folderName, idArr, typeName)
 		mapImportsByFolder.set(folderName, {
 			icons: fileObj,
 			type: typeName,

@@ -16,5 +16,8 @@
         },
         "title": "Icon usus mutant"
     },
-    "title": "Praesto icones"
+    "title": "Praesto icones",
+    "all": {
+        "title": "Omnes icones"
+    }
 }

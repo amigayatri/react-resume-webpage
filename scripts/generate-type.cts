@@ -11,7 +11,9 @@ const idFromFilename: idFromFilename = (filename) =>
 const idToIgnore: Set<string> = new Set(["types.ts", "index"])
 type generateIds = (files: string[]) => string[]
 const generateIds: generateIds = (files) =>
-	files.map(idFromFilename).filter((id) => !idToIgnore.has(id))
+	files
+		.map(idFromFilename)
+		.filter((id) => !idToIgnore.has(id.replaceAll('"', "")))
 
 type generateType = (typeArrName: string, typeName: string) => string
 const generateType: generateType = (typeArrName, typeName) =>

@@ -10,3 +10,11 @@ export interface DetailedIconProps extends ElementProps {
 
 export interface DetailedIconBaseProps extends BaseElementProps {}
 export interface DetailedIconBaseProps extends DetailedIconProps {}
+
+export interface IconAltProps extends ElementProps {
+	iconId: iconKey
+}
+export interface IconAltBaseProps extends BaseElementProps {}
+export interface IconAltBaseProps extends IconAltProps {}
+
+export interface ControlsProps extends BaseElementProps {}

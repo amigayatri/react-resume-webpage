@@ -1,7 +1,6 @@
 import { ElementProps } from "../../../types/common/"
-import { MainBase } from "../../common/Main/MainBase.tsx"
-import { IconList } from "../IconList/client"
-import { Hero } from "../Hero/client.tsx"
+import { MainBase } from "../../common/Main/MainBase"
+import { IconList, Hero } from "../components/"
 
 export const Main = async ({ lng }: ElementProps) => {
 	return (

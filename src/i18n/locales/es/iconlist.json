@@ -16,5 +16,8 @@
         },
         "title": "Estadísticas de uso de iconos"
     },
-    "title": "Iconos disponibles"
+    "title": "Iconos disponibles",
+    "all": {
+        "title": "Todos los iconos"
+    }
 }

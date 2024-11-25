@@ -52,7 +52,7 @@ export const LanguageSelectBase = ({
 	}
 	return (
 		<Select
-			local={isExtra ? "extra-languages" : "header"}
+			local="language-select"
 			iconId="translate"
 			defaultValue={onError ? `/${fallbackLng}` : pathname || ""}
 			onHeader={!isExtra}

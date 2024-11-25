@@ -1,0 +1,30 @@
+import { ancientKey } from "../../Elements/Ancient/types"
+
+export const ancientIconsSet: Set<ancientKey> = new Set([
+    "atlas",
+    "azteccalendarsun",
+    "bastet",
+    "caveman",
+    "centaur",
+    "coliseum",
+    "colombianstatue",
+    "egyptianbird",
+    "egyptiancat",
+    "egyptianpyramids",
+    "egyptiansphinx",
+    "egyptianwalk",
+    "eyeofhorus",
+    "gargoyle",
+    "greeksphinx",
+    "greektemple",
+    "icarus",
+    "machupicchu",
+    "mayanpyramid",
+    "mermaid",
+    "moai",
+    "mountaincave",
+    "saintbasilcathedral",
+    "seacreature",
+    "trojanhorse",
+    "venusofwillendorf"
+])

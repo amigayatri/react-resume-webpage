@@ -1,5 +1,5 @@
 import { TFunction } from "i18next"
-import { ChangeEvent } from "react"
+import { ChangeEvent, CSSProperties } from "react"
 import { iconKey, toggleIconKey } from "../../icons/"
 
 export interface ElementProps {
@@ -30,12 +30,31 @@ export interface ToggleProps extends ElementProps {
 	customColor?: string
 }
 
+interface IconCustomStyle {
+	wrapper?: CSSProperties
+	icon?: CSSProperties
+}
+
+export interface SVGElProps extends ElementProps {
+	id: iconKey
+	size: number
+	local: string
+	responsive?: boolean
+	rotationDeg?: number
+	noTransition?: boolean
+	color?: string
+	customStyle?: IconCustomStyle
+}
+
 export interface SVGProps {
+	isResponsive: boolean
+	rotationDeg: number
 	alt: string
 	size: number
 	isToggle: boolean
 	hasTransition: boolean
 	color: string
+	customStyle?: IconCustomStyle
 }
 
 export interface SelectStyleProps {

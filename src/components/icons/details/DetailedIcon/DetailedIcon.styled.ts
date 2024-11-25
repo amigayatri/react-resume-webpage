@@ -13,15 +13,6 @@ export const Title = styled.h1`
 	color: ${({ theme }) => theme.accent};
 `
 
-export const Alt = styled.h2`
-	margin: 16px 0;
-	font-size: 1.75rem;
-	color: ${({ theme }) => theme.primary};
-`
-export const AltText = styled.span`
-	color: ${({ theme }) => theme.secondAccent};
-`
-
 export const IconWrapper = styled.div`
 	margin: 16px 0;
 	width: 100%;
@@ -29,10 +20,10 @@ export const IconWrapper = styled.div`
 	border: 4px solid ${({ theme }) => theme.secondAccent};
 	border-radius: 16px;
 
-	${Icon} {
+	/* ${Icon} {
 		width: calc(
 			100vw - var(--color-container) - var(--color-container) - 8px
 		);
 		height: auto;
-	}
+	} */
 `

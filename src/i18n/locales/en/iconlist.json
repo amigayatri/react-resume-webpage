@@ -16,5 +16,8 @@
         },
         "title": "Icon usage statistics"
     },
-    "title": "Available icons"
+    "title": "Available icons",
+    "all": {
+        "title": "All icons"
+    }
 }

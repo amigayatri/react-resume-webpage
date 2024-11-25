@@ -1,6 +1,5 @@
 const logoArr = [
     "baidu",
-    "barbie",
     "css",
     "facebook",
     "firefox",
