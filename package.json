@@ -21,6 +21,7 @@
     "@netlify/plugin-nextjs": "^5.8.1",
     "@octokit/rest": "^21.0.2",
     "@react-pdf/renderer": "^4.0.0",
+    "@uidotdev/usehooks": "^2.4.1",
     "accept-language": "^3.0.20",
     "eslint": "^9.13.0",
     "generate-react-cli": "^8.4.8",

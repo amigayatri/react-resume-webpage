@@ -13,6 +13,7 @@ export const ToggleBase = ({
 	customColor,
 	alwaysDark,
 	showLabel,
+	size,
 	lng
 }: ToggleBaseProps) => {
 	return (
@@ -26,6 +27,7 @@ export const ToggleBase = ({
 			onKeyDown={(e) => e.key === "enter" && stateChangeFN()}
 		>
 			<ToggleWrapper
+				$size={size}
 				$darkBg={alwaysDark === true}
 				$customColor={customColor}
 			>
@@ -33,7 +35,7 @@ export const ToggleBase = ({
 					<SVGIcon
 						lng={lng}
 						local="toggle"
-						size={16}
+						size={size}
 						id={
 							state === icon.trueValAsStr
 								? icon.options.true
@@ -42,7 +44,12 @@ export const ToggleBase = ({
 						isTrue={state === icon.trueValAsStr}
 					/>
 				) : (
-					<SVGIcon local="toggle" lng={lng} size={16} id={icon.id} />
+					<SVGIcon
+						local="toggle"
+						lng={lng}
+						size={size}
+						id={icon.id}
+					/>
 				)}
 			</ToggleWrapper>
 			{showLabel === true && (

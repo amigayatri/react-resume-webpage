@@ -49,6 +49,7 @@ export const MusicHeader = ({
 				$accentColor={isDark ? accentColor.dark : accentColor.light}
 			>
 				<Toggle
+					size={16}
 					lng={lng}
 					icon={iconSettings}
 					state={playingState}

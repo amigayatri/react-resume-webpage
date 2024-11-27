@@ -23,12 +23,13 @@ export const Label = styled.span<{
 export const ToggleWrapper = styled.div<{
 	$customColor?: string
 	$darkBg: boolean
+	$size: number
 }>`
 	cursor: pointer;
 	display: flex;
-	width: 44px;
-	min-width: 44px;
-	height: 32px;
+	width: ${({ $size }) => $size * 2 + 4}px;
+	min-width: ${({ $size }) => $size * 2 + 4}px;
+	height: ${({ $size }) => $size + 16}px;
 	position: relative;
 	background-color: ${({ theme, $darkBg }) =>
 		$darkBg ? theme.almostBlack : theme.background};
@@ -37,10 +38,12 @@ export const ToggleWrapper = styled.div<{
 	border: solid 2px
 		${({ theme, $customColor }) =>
 			$customColor === undefined ? theme.accent : $customColor};
-	border-radius: 16px;
+	border-radius: ${({ $size }) => $size * 0.5 + 8}px;
 
-	& > ${ToggleIconWrapper} {
+	& ${ToggleIconWrapper} {
 		background-color: ${({ theme, $customColor }) =>
 			$customColor === undefined ? theme.accent : $customColor};
+		width: ${({ $size }) => $size + 8}px;
+		height: ${({ $size }) => $size + 8}px;
 	}
 `

@@ -25,6 +25,7 @@ export const HeaderBase = ({
 			<SettingsWrapper>
 				<LanguageSelect onError={onError} isExtra={false} lng={lng} />
 				<Toggle
+					size={24}
 					lng={lng}
 					icon={iconSettings}
 					state={theme}

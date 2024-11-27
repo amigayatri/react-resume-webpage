@@ -9,7 +9,7 @@ export const FilterWrapper = styled(ControlItemWrapper)`
 `
 
 export const SelectWrapper = styled.div<{ $showing: boolean }>`
-	width: ${({ $showing }) => ($showing ? 420 : 0)}px;
+	max-width: ${({ $showing }) => ($showing ? 420 : 0)}px;
 	overflow-x: hidden;
 	transition: ${({ theme }) => theme.transition};
 	margin-left: ${({ $showing }) => ($showing ? 32 : 0)}px;

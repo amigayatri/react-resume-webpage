@@ -7,6 +7,7 @@ import { SectionTitle } from "../Common.styled.ts"
 import { useEffect, useState } from "react"
 import { Controls, Icon } from "../"
 import { getIconsFromGroup, getIconsByFirstLetter } from "../../../../icons/"
+import { useWindowSize } from "@uidotdev/usehooks"
 
 const rainbowMonokai = getSafePaletteColors("rainbow", "rainbow monokai")
 
@@ -33,19 +34,16 @@ export const IconListBase = ({ lng, t }: IconListBaseProps) => {
 	const handleSize = (newSize: number) => {
 		setSize(newSize)
 	}
-
+	const windowSize = useWindowSize()
 	const getNumberOfColumns = () => {
-		const listWidth = document
-			.getElementById("icon-list-wrapper")
-			?.getBoundingClientRect().width
-		if (listWidth === undefined) return 1
-		return Math.floor((listWidth - 96) / (size + 32))
+		if (windowSize.width === null) return 1
+		return Math.floor((windowSize.width - 128) / (size + 48))
 	}
 
 	useEffect(() => {
 		setColumns(getNumberOfColumns())
 		console.log(columns)
-	}, [size])
+	}, [size, windowSize.width])
 
 	useEffect(() => {
 		setColumns(getNumberOfColumns())

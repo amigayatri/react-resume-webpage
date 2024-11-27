@@ -13,16 +13,16 @@ export const IconWrapper = styled.div<{
 	transform: rotate(${({ $angle }) => $angle}deg);
 `
 
-export const ToggleIconWrapper = styled(IconWrapper)<{ $isTrue?: boolean }>`
-	width: 24px;
-	height: 24px;
+export const ToggleIconWrapper = styled(IconWrapper)<{
+	$isTrue?: boolean
+}>`
 	margin: 2px;
 	display: inline-block;
 	padding: 4px;
 	border-radius: 50%;
 	z-index: 5;
 	transform: ${({ $isTrue }) =>
-		$isTrue === true ? "translate(12px)" : "none"};
+		$isTrue === true ? "translate(calc(50% - 4px))" : "none"};
 `
 
 export const Icon = styled.svg<{

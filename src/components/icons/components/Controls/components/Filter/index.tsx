@@ -42,6 +42,7 @@ export const Filter = ({ lng, handleGroups, t }: FilterProps) => {
 	return (
 		<FilterWrapper>
 			<Toggle
+				size={32}
 				lng={lng}
 				icon={filterIconSettings}
 				label={""}

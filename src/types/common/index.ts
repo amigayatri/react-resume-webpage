@@ -28,6 +28,7 @@ export interface ToggleProps extends ElementProps {
 	alwaysDark?: boolean
 	showLabel?: boolean
 	customColor?: string
+	size: number
 }
 
 interface IconCustomStyle {

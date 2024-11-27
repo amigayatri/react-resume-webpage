@@ -36,8 +36,8 @@ export const IconWrapper = styled.div<{ $size: number }>`
 	background-color: ${({ theme }) => theme.almostBlack};
 	color: ${({ theme }) => theme.white};
 	border: 2px solid ${({ theme }) => theme.white};
-	width: ${({ $size }) => $size}px;
-	height: ${({ $size }) => $size}px;
+	width: ${({ $size }) => $size + 8}px;
+	height: ${({ $size }) => $size + 8}px;
 	padding: 4px;
 	border-radius: 16px;
 `
