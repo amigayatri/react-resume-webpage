@@ -1,10 +1,10 @@
 import { MenuWrapper, SettingsWrapper } from "./Header.styled.ts"
 import { Toggle, Navigation, LanguageSelect } from "../client.tsx"
 import { HeaderBaseProps } from "."
-import { toggleIconKey } from "../../../types/common"
+import { iconKey } from "../../../types/common"
 
-const sunId: toggleIconKey = "sun"
-const moonId: toggleIconKey = "moon"
+const sunId: iconKey = "sun"
+const moonId: iconKey = "moon"
 
 export const HeaderBase = ({
 	lng,

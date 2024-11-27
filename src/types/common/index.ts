@@ -1,6 +1,6 @@
 import { TFunction } from "i18next"
-import { ChangeEvent } from "react"
-import { iconKey, toggleIconKey } from "../../icons/"
+import { ChangeEvent, CSSProperties } from "react"
+import { iconKey } from "../../icons/"
 
 export interface ElementProps {
 	lng: string
@@ -11,12 +11,12 @@ export interface BaseElementProps extends ElementProps {
 }
 
 export interface ToggleIconProps {
-	id: toggleIconKey
+	id: iconKey
 	trueValAsStr: string
 	shouldChange: boolean
 	options: {
-		true: toggleIconKey
-		false: toggleIconKey
+		true: iconKey
+		false: iconKey
 	}
 }
 
@@ -30,12 +30,33 @@ export interface ToggleProps extends ElementProps {
 	customColor?: string
 }
 
+interface IconCustomStyle {
+	wrapper?: CSSProperties
+	icon?: CSSProperties
+}
+
+export interface SVGElProps extends ElementProps {
+	id: iconKey
+	size: number
+	local: string
+	isTrue?: boolean
+	responsive?: boolean
+	rotationDeg?: number
+	noTransition?: boolean
+	color?: string
+	customStyle?: IconCustomStyle
+}
+
 export interface SVGProps {
+	isResponsive: boolean
+	rotationDeg: number
 	alt: string
 	size: number
 	isToggle: boolean
+	isTrue: boolean
 	hasTransition: boolean
 	color: string
+	customStyle?: IconCustomStyle
 }
 
 export interface SelectStyleProps {
@@ -80,7 +101,7 @@ export interface LinkProps {
 export interface OptionProps {
 	value: string
 	key: string
-	tOptions?: { groupName: string }
+	tOptions?: { [key: string]: string }
 	extraText?: string
 }
 
@@ -107,4 +128,4 @@ export interface SelectProps extends ElementProps {
 	noTranslation?: boolean
 }
 
-export type { iconKey, toggleIconKey }
+export type { iconKey }

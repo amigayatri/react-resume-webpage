@@ -1,4 +1,4 @@
-const mediaArr = ["naruto", "sonic"] as const
+const mediaArr = ["barbie", "naruto", "sonic"] as const
 
 type mediaKey = (typeof mediaArr)[number]
 

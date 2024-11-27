@@ -2,13 +2,18 @@
 
 import styled from "styled-components"
 
-export const IconWrapper = styled.div`
+export const IconWrapper = styled.div<{
+	$angle: number
+	$isResponsive: boolean
+}>`
 	line-height: 1;
-	height: fit-content;
-	width: fit-content;
+	height: ${({ $isResponsive }) => ($isResponsive ? "100%" : "fit-content")};
+	width: ${({ $isResponsive }) => ($isResponsive ? "100%" : "fit-content")};
 	display: inline-block;
+	transform: rotate(${({ $angle }) => $angle}deg);
 `
-export const ToggleIconWrapper = styled.div<{ $isTrue?: boolean }>`
+
+export const ToggleIconWrapper = styled(IconWrapper)<{ $isTrue?: boolean }>`
 	width: 24px;
 	height: 24px;
 	margin: 2px;
@@ -20,10 +25,16 @@ export const ToggleIconWrapper = styled.div<{ $isTrue?: boolean }>`
 		$isTrue === true ? "translate(12px)" : "none"};
 `
 
-export const Icon = styled.svg<{ $size: number; $hasTransition: boolean }>`
+export const Icon = styled.svg<{
+	$size: number
+	$hasTransition: boolean
+	$isResponsive: boolean
+}>`
 	display: block;
-	width: ${({ $size }) => $size + "px"};
-	height: ${({ $size }) => $size + "px"};
+	width: ${({ $size, $isResponsive }) =>
+		$isResponsive ? "100%" : $size + "px"};
+	height: ${({ $size, $isResponsive }) =>
+		$isResponsive ? "100%" : $size + "px"};
 	transition: ${({ theme, $hasTransition }) =>
 		$hasTransition ? theme.transition : "none"};
 `

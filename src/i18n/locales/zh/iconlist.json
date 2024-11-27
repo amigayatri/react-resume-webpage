@@ -16,5 +16,37 @@
         },
         "title": "图标使用统计"
     },
-    "title": "可用图标"
+    "title": "可用图标",
+    "all": {
+        "title": "所有图标"
+    },
+    "options": {
+        "all": "所有图标",
+        "ancient": "古代图标",
+        "animals": "动物图标",
+        "brasil": "巴西图标",
+        "characters": "人物图标",
+        "faces": "脸图标",
+        "food": "食物图标",
+        "general": "通用图标",
+        "geography": "地理图标",
+        "interface": "界面图标",
+        "letter": "带有字母 {{letterChar}} 的 ID",
+        "logo": "标志图标",
+        "map": "地图图标",
+        "media": "媒体图标",
+        "misc": "图标杂项",
+        "musicinstruments": "乐器图标",
+        "nature": "自然图标",
+        "tech": "技术图标",
+        "vehicles": "车辆图标"
+    },
+    "select": {
+        "label": "选择显示的组",
+        "optgroup": {
+            "all": "全部",
+            "group": "按组别",
+            "letter": "通过身份证件首字母"
+        }
+    }
 }

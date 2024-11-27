@@ -7,7 +7,7 @@ const generateElementsTypeStr: generateElementsTypeStr = (
 	typeImports
 ) => {
 	const typeImportsStr = typeImports.join("")
-	return `${typeImportsStr}\ntype toggleIconKey = toggleKey\n\ntype iconKey = ${typeValStr}\n\nexport type { iconKey, toggleIconKey }`
+	return `${typeImportsStr}\ntype iconKey = ${typeValStr}\n\nexport type { iconKey }`
 }
 
 module.exports = {

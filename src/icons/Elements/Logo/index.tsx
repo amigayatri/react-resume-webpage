@@ -1,5 +1,4 @@
 import { BaiduIcon } from "./Baidu.tsx"
-import { BarbieIcon } from "./Barbie.tsx"
 import { CSSIcon } from "./CSS.tsx"
 import { FacebookIcon } from "./Facebook.tsx"
 import { FirefoxIcon } from "./Firefox.tsx"
@@ -20,7 +19,6 @@ import { YouTubeIcon } from "./YouTube.tsx"
 
 export {
     BaiduIcon,
-    BarbieIcon,
     CSSIcon,
     FacebookIcon,
     FirefoxIcon,

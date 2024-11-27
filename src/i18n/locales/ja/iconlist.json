@@ -16,5 +16,37 @@
         },
         "title": "アイコンの使用統計"
     },
-    "title": "利用可能なアイコン"
+    "title": "利用可能なアイコン",
+    "all": {
+        "title": "すべてのアイコン"
+    },
+    "options": {
+        "all": "すべてのアイコン",
+        "ancient": "古代のアイコン",
+        "animals": "動物のアイコン",
+        "brasil": "ブラジルのアイコン",
+        "characters": "キャラクターアイコン",
+        "faces": "顔アイコン",
+        "food": "食べ物のアイコン",
+        "general": "一般的なアイコン",
+        "geography": "地理アイコン",
+        "interface": "インターフェースアイコン",
+        "letter": "文字 {{letterChar}} を含む ID",
+        "logo": "ロゴアイコン",
+        "map": "地図アイコン",
+        "media": "メディアアイコン",
+        "misc": "アイコンの雑多",
+        "musicinstruments": "楽器のアイコン",
+        "nature": "自然のアイコン",
+        "tech": "テクノロジーのアイコン",
+        "vehicles": "車両のアイコン"
+    },
+    "select": {
+        "label": "表示されているグループを選択してください",
+        "optgroup": {
+            "all": "全て",
+            "group": "グループ別",
+            "letter": "IDの頭文字別"
+        }
+    }
 }

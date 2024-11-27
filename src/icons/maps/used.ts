@@ -3,12 +3,13 @@ import { removeUsed } from "./never"
 
 //$entriesArrStart
 const entriesArr: [string, string[]][] = [
-    ["holidays", ["map"]],
+    ["holidays", ["map", "calendariobrasileiro"]],
     ["cats", ["minus"]],
     ["palette", ["listunordered"]],
     ["subnav", ["more"]],
     ["error", ["terminalerror"]],
     ["iconsstats", ["chart"]],
+    ["detailed", ["arrow"]],
     [
         "resume",
         [
@@ -185,7 +186,8 @@ const entriesArr: [string, string[]][] = [
         ]
     ],
     ["holidays", ["sad", "superhappy", "happy"]],
-    ["available-musics", ["mermaid", "bronzeando"]]
+    ["available-musics", ["mermaid", "bronzeando"]],
+    ["icons", ["egyptianwalk"]]
 ]
 //$entriesArrEnd
 

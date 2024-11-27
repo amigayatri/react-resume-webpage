@@ -63,7 +63,7 @@ const cleanTag = (tagStr: string) => {
 		const splitVal = subStr.split(` `)
 		if (prevAttrName !== undefined && !attrsToRemove.has(prevAttrName)) {
 			const prevAttrVal = getAttrVal(
-				createAttStr(prevAttrName, subStr),
+				createAttStr(prevAttrName, subStr, true),
 				prevAttrName
 			)
 			if (typeof prevAttrVal === "string" && prevAttrVal.length >= 0) {

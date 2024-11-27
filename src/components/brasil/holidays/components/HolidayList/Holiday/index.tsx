@@ -37,12 +37,24 @@ const Holiday = ({
 						lng={lng}
 						local="holidays"
 						size={48}
-						id={isWeekend ? "sad" : isPreWeekend ? "superhappy" : "happy"}
+						id={
+							isWeekend
+								? "sad"
+								: isPreWeekend
+									? "superhappy"
+									: "happy"
+						}
 					/>
-					<Weekday>{date.toLocaleDateString(lng, { weekday: "long" })}</Weekday>
+					<Weekday>
+						{date.toLocaleDateString(lng, { weekday: "long" })}
+					</Weekday>
 				</IconWrapper>
 				<CenterContent>
-					<Trans t={t} i18nKey="days-untill" tOptions={{ daysUntill }}>
+					<Trans
+						t={t}
+						i18nKey="days-untill"
+						tOptions={{ daysUntill }}
+					>
 						t<Days>l</Days>t
 					</Trans>
 				</CenterContent>

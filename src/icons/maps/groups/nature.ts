@@ -1,0 +1,25 @@
+import { groupIconsSet } from "./types"
+export const natureIconsSet: groupIconsSet = new Set([
+    "beach",
+    "cactus",
+    "cloud",
+    "dna",
+    "earth",
+    "fire",
+    "leaf",
+    "lightning",
+    "meteor",
+    "moon",
+    "planet",
+    "plant",
+    "prism",
+    "rain",
+    "rainbow",
+    "snowflake",
+    "star",
+    "sun",
+    "tornado",
+    "waterfall",
+    "wavecrest",
+    "windy"
+])

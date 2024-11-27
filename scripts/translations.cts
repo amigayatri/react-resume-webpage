@@ -1,6 +1,8 @@
 const constants = require(`./constants.cts`)
 const fileFn = require("./files.cts")
 const template = require("./template.cts")
+const utils = require("./utils.cts")
+
 const { readFile, writeFile } = fileFn
 
 type getAlreadyTranslated = () => {
@@ -8,7 +10,8 @@ type getAlreadyTranslated = () => {
 	missing: Map<string, string>
 }
 const getAlreadyTranslated: getAlreadyTranslated = () => {
-	const path = constants.translationPath
+	console.log("Handling previous icons translation")
+	const path = utils.concat(constants.translationPath, "icons.json")
 	const translationFile = readFile(path)
 	const dataObj = JSON.parse(translationFile)
 	const altEntries: [string, string][] = Array.from(

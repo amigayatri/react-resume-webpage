@@ -278,11 +278,16 @@ import {
 /*                            */
 /******************************/
 import {
+    AnticlockwiseIcon,
+    ArrowIcon,
     BrokenLinkIcon,
+    BrushIcon,
     CalendarIcon,
     ChartIcon,
+    ClockwiseIcon,
     ColorFilterIcon,
     CopyIcon,
+    DiagonalArrowIcon,
     DownloadIcon,
     EmailIcon,
     ErrorIcon,
@@ -290,6 +295,7 @@ import {
     EyeCloseIcon,
     EyeOpenIcon,
     FilterIcon,
+    FilterOffIcon,
     GridIcon,
     HomeIcon,
     ListSortedAscendingIcon,
@@ -298,8 +304,11 @@ import {
     MagicWandIcon,
     MoreIcon,
     PaintBucketIcon,
+    PauseIcon,
     PencilIcon,
+    PlayIcon,
     ProfileIcon,
+    RulerIcon,
     ShadowIcon,
     SongLyricIcon,
     TerminalIcon,
@@ -318,7 +327,6 @@ import {
 /*************************/
 import {
     BaiduIcon,
-    BarbieIcon,
     CSSIcon,
     FacebookIcon,
     FirefoxIcon,
@@ -381,7 +389,7 @@ import {
 /*    Icons from Media    */
 /*                        */
 /**************************/
-import { NarutoIcon, SonicIcon } from "./Media"
+import { BarbieIcon, NarutoIcon, SonicIcon } from "./Media"
 
 /*************************/
 /*                       */
@@ -432,6 +440,7 @@ import {
     LeafIcon,
     LightningIcon,
     MeteorIcon,
+    MoonIcon,
     PlanetIcon,
     PlantIcon,
     PrismIcon,
@@ -439,6 +448,7 @@ import {
     RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
+    SunIcon,
     TornadoIcon,
     WaterfallIcon,
     WaveCrestIcon,
@@ -467,13 +477,6 @@ import {
     VHSIcon,
     WebsiteIcon
 } from "./Tech"
-
-/***************************/
-/*                         */
-/*    Icons from Toggle    */
-/*                         */
-/***************************/
-import { MoonIcon, PauseIcon, PlayIcon, SunIcon } from "./Toggle"
 
 /*****************************/
 /*                           */
@@ -705,11 +708,16 @@ export {
     GlobeIcon,
     MapIcon,
     MapPinIcon,
+    AnticlockwiseIcon,
+    ArrowIcon,
     BrokenLinkIcon,
+    BrushIcon,
     CalendarIcon,
     ChartIcon,
+    ClockwiseIcon,
     ColorFilterIcon,
     CopyIcon,
+    DiagonalArrowIcon,
     DownloadIcon,
     EmailIcon,
     ErrorIcon,
@@ -717,6 +725,7 @@ export {
     EyeCloseIcon,
     EyeOpenIcon,
     FilterIcon,
+    FilterOffIcon,
     GridIcon,
     HomeIcon,
     ListSortedAscendingIcon,
@@ -725,8 +734,11 @@ export {
     MagicWandIcon,
     MoreIcon,
     PaintBucketIcon,
+    PauseIcon,
     PencilIcon,
+    PlayIcon,
     ProfileIcon,
+    RulerIcon,
     ShadowIcon,
     SongLyricIcon,
     TerminalIcon,
@@ -737,7 +749,6 @@ export {
     ZoomInIcon,
     ZoomOutIcon,
     BaiduIcon,
-    BarbieIcon,
     CSSIcon,
     FacebookIcon,
     FirefoxIcon,
@@ -785,6 +796,7 @@ export {
     SergipeIcon,
     SouthAmericaIcon,
     TocantinsIcon,
+    BarbieIcon,
     NarutoIcon,
     SonicIcon,
     FishermanIcon,
@@ -814,6 +826,7 @@ export {
     LeafIcon,
     LightningIcon,
     MeteorIcon,
+    MoonIcon,
     PlanetIcon,
     PlantIcon,
     PrismIcon,
@@ -821,6 +834,7 @@ export {
     RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
+    SunIcon,
     TornadoIcon,
     WaterfallIcon,
     WaveCrestIcon,
@@ -840,10 +854,6 @@ export {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon,
-    MoonIcon,
-    PauseIcon,
-    PlayIcon,
-    SunIcon,
     BikeIcon,
     BusIcon,
     CarIcon,

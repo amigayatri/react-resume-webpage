@@ -1,24 +1,52 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
-export const SambaIcon = (props: SVGProps) => {
-	const { alt, size, hasTransition, color } = props
-	return (
-		<IconWrapper>
-			<Icon
-				$size={size}
-				$hasTransition={hasTransition}
-				role="img"
-				fill={color}
-				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 512 512"
-			>
-				<title>{alt}</title>
-				<g
-					transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-					stroke="none"
-				>
-					<path
-						d="M1763 5034 c6 -78 14 -120 43 -221 5 -18 2 -23 -12 -23 -47 -1 -264
+
+export const SambaIcon = (props: SVGProps) => {
+    const {
+        alt,
+        size,
+        isTrue,
+        hasTransition,
+        isToggle,
+        color,
+        rotationDeg,
+        isResponsive,
+        customStyle
+    } = props
+    const safeWrapperStyle =
+        customStyle !== undefined && customStyle.wrapper !== undefined ?
+            customStyle.wrapper
+        :   {}
+    const safeIconStyle =
+        customStyle !== undefined && customStyle.icon !== undefined ?
+            customStyle.icon
+        :   {}
+
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
+    return (
+        <Wrapper
+            style={safeWrapperStyle}
+            $isResponsive={isResponsive}
+            $angle={rotationDeg}
+            $isTrue={isTrue}
+        >
+            <Icon
+                style={safeIconStyle}
+                $isResponsive={isResponsive}
+                $size={size}
+                $hasTransition={hasTransition}
+                role="img"
+                fill={color}
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+            >
+                <title>{alt}</title>
+                <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
+                >
+                    <path
+                        d="M1763 5034 c6 -78 14 -120 43 -221 5 -18 2 -23 -12 -23 -47 -1 -264
 -117 -264 -141 0 -4 20 -34 46 -68 39 -52 119 -126 163 -151 12 -6 5 -21 -32
 -77 -46 -66 -105 -208 -92 -221 17 -17 131 -43 211 -49 171 -11 324 44 451
 161 l69 64 49 -50 c153 -158 408 -151 550 15 l34 40 70 -66 c114 -107 261
@@ -41,9 +69,9 @@ c-39 -144 -171 -273 -327 -318 -23 -7 -24 -6 -17 26 17 87 105 212 183 260 40
 4 0 5 20 35 45 67 l45 57 43 -7 c23 -5 84 -8 136 -7z m1378 -28 c22 -24 46
 -53 52 -65 11 -23 11 -23 -46 -23 -100 1 -207 37 -279 95 l-29 24 80 -5 c44
 -3 100 -1 125 4 25 6 47 10 50 11 3 1 24 -18 47 -41z"
-					/>
-					<path
-						d="M4457 4912 l-67 -68 0 -149 0 -150 -279 -325 -278 -325 -594 49
+                    />
+                    <path
+                        d="M4457 4912 l-67 -68 0 -149 0 -150 -279 -325 -278 -325 -594 49
 c-649 54 -666 54 -766 3 -28 -13 -238 -144 -467 -291 l-417 -266 -347 0 -347
 0 -110 110 -110 110 -92 0 -93 0 0 -75 0 -75 58 0 57 0 110 -110 110 -110 404
 0 404 0 285 183 c157 100 288 183 291 185 6 2 3 -580 -3 -586 -2 -2 -22 6 -43
@@ -83,9 +111,9 @@ c-58 -58 -168 -113 -244 -121 l-58 -6 22 44 c49 96 53 99 138 100 42 0 97 6
 148 l71 70 5 -580 5 -580 43 -274z m-434 732 c2 -10 8 -51 11 -92 6 -60 5 -73
 -6 -69 -8 3 -81 24 -164 48 -82 23 -156 45 -163 49 -10 6 250 72 310 80 4 1 9
 -7 12 -16z"
-					/>
-				</g>
-			</Icon>
-		</IconWrapper>
-	)
+                    />
+                </g>
+            </Icon>
+        </Wrapper>
+    )
 }

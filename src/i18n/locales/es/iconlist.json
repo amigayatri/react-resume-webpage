@@ -16,5 +16,37 @@
         },
         "title": "Estadísticas de uso de iconos"
     },
-    "title": "Iconos disponibles"
+    "title": "Iconos disponibles",
+    "all": {
+        "title": "Todos los iconos"
+    },
+    "options": {
+        "all": "Todos los iconos",
+        "ancient": "Iconos antiguos",
+        "animals": "Iconos de animales",
+        "brasil": "Iconos brasileños",
+        "characters": "Iconos de personajes",
+        "faces": "Iconos de cara",
+        "food": "iconos de comida",
+        "general": "Iconos generales",
+        "geography": "Iconos de geografía",
+        "interface": "Iconos de interfaz",
+        "letter": "ID con la letra {{letterChar}}",
+        "logo": "Iconos del logotipo",
+        "map": "Iconos de mapa",
+        "media": "Iconos de medios",
+        "misc": "Miscelánea de iconos",
+        "musicinstruments": "Iconos de instrumentos musicales",
+        "nature": "Iconos de la naturaleza",
+        "tech": "Iconos de tecnología",
+        "vehicles": "Iconos de vehículos"
+    },
+    "select": {
+        "label": "Elija el grupo mostrado",
+        "optgroup": {
+            "all": "Todo",
+            "group": "Por grupos",
+            "letter": "Por carta inicial de DNI"
+        }
+    }
 }

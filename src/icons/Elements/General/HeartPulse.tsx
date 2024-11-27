@@ -1,11 +1,38 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const HeartPulseIcon = (props: SVGProps) => {
-	const { alt, size, hasTransition, color } = props
-	return (
-		<IconWrapper>
-		    <Icon
+    const {
+        alt,
+        size,
+        isTrue,
+        hasTransition,
+        isToggle,
+        color,
+        rotationDeg,
+        isResponsive,
+        customStyle
+    } = props
+    const safeWrapperStyle =
+        customStyle !== undefined && customStyle.wrapper !== undefined ?
+            customStyle.wrapper
+        :   {}
+    const safeIconStyle =
+        customStyle !== undefined && customStyle.icon !== undefined ?
+            customStyle.icon
+        :   {}
+
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
+    return (
+        <Wrapper
+            style={safeWrapperStyle}
+            $isResponsive={isResponsive}
+            $angle={rotationDeg}
+            $isTrue={isTrue}
+        >
+            <Icon
+                style={safeIconStyle}
+                $isResponsive={isResponsive}
                 $size={size}
                 $hasTransition={hasTransition}
                 role="img"
@@ -16,6 +43,6 @@ export const HeartPulseIcon = (props: SVGProps) => {
                 <title>{alt}</title>
                 <path d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C10.0224 20.3135 4.91625 17.5626 2.8685 13L7.56619 13L8.5 11.4437L11.5 16.4437L13.5662 13H17V11H12.4338L11.5 12.5563L8.5 7.55635L6.43381 11L2.21024 10.9999C2.07418 10.3626 2 9.69615 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3Z"></path>
             </Icon>
-	    </IconWrapper>
-	)
+        </Wrapper>
+    )
 }
