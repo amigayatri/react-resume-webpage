@@ -1,6 +1,7 @@
 import { iconKey } from "../types"
 import { allIcons } from "./all"
 import { markAsUsed } from "./used"
+
 type getIconFn = (
 	id: iconKey,
 	local: string
@@ -19,4 +20,5 @@ const iconExists: iconExists = (id) => {
 const getAllIconsIds = () => {
 	return Array.from(allIcons.keys())
 }
+
 export { getAllIconsIds, getIcon, iconExists }

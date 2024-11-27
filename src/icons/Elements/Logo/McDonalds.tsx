@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const McDonaldsIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const McDonaldsIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -39,6 +43,6 @@ export const McDonaldsIcon = (props: SVGProps) => {
                 <title>{alt}</title>
                 <path d="M17.243 3.006c2.066 0 3.742 8.714 3.742 19.478H24c0-11.588-3.042-20.968-6.766-20.968-2.127 0-4.007 2.81-5.248 7.227-1.241-4.416-3.121-7.227-5.231-7.227C3.031 1.516 0 10.888 0 22.476h3.014c0-10.763 1.658-19.47 3.724-19.47 2.066 0 3.741 8.05 3.741 17.98h2.997c0-9.93 1.684-17.98 3.75-17.98Z" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

@@ -64,20 +64,28 @@ export const SelectBase = ({
 						if (options.length === 0) return
 						return (
 							<Group
-								key={id + "-optgroup-" + groupKey + "-option-" + idx}
+								key={
+									id +
+									"-optgroup-" +
+									groupKey +
+									"-option-" +
+									idx
+								}
 								label={t(groupKey)}
 							>
-								{options.map(({ value, key, tOptions, extraText }) => (
-									<Option key={id + "-option-" + value} value={value}>
-										{t(
-											key,
-											tOptions !== undefined
-												? { groupName: t(tOptions.groupName) }
-												: undefined
-										)}
-										{extraText !== undefined ? extraText : ""}
-									</Option>
-								))}
+								{options.map(
+									({ value, key, tOptions, extraText }) => (
+										<Option
+											key={id + "-option-" + value}
+											value={value}
+										>
+											{t(key, tOptions)}
+											{extraText !== undefined
+												? extraText
+												: ""}
+										</Option>
+									)
+								)}
 							</Group>
 						)
 					})}

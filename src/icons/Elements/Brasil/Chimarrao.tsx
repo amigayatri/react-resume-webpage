@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const ChimarraoIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const ChimarraoIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -47,6 +51,6 @@ export const ChimarraoIcon = (props: SVGProps) => {
                     <circle cx="47.5" cy="64.5" r="1.5" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

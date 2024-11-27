@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const ToyBrickIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const ToyBrickIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -41,6 +45,6 @@ export const ToyBrickIcon = (props: SVGProps) => {
                 <path d="M10 8V5c0-.6-.4-1-1-1H6a1 1 0 0 0-1 1v3" />
                 <path d="M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

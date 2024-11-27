@@ -7,6 +7,7 @@ const el = require("./generate-element.cts")
 const elType = require("./element-type.cts")
 const typeFn = require("./generate-type.cts")
 const folder = require("./folder.cts")
+const groupFn = require("./icon-groups.cts")
 
 const { writeFile, getFolderContent } = fileFn
 const mapFolders = fileFn.mapFoldersInside
@@ -21,6 +22,7 @@ type importsMap = Map<string, FileImports>
 const mapImportsByFolder: importsMap = new Map()
 
 const newAlts: string[] = []
+
 interface AllInfo {
 	icons: string[]
 	types: string[]
@@ -45,7 +47,6 @@ const writeElements: writeElements = (mapImportsByFolder) => {
 		const importStr =
 			template.generateComment(folder, true) +
 			el.generateImports(folder, icons)
-
 		imports.push(importStr)
 		typeImports.push(typeFn.generateImport(folder, type))
 	})
@@ -56,20 +57,6 @@ const writeElements: writeElements = (mapImportsByFolder) => {
 	const typeStr = elType.generate(typeValStr, typeImports)
 	writeFile(`${elementsPath}/index.tsx`, indexStr)
 	writeFile(`${constants.iconElementsPath}/types.ts`, typeStr)
-}
-
-type parcialMap = (folderName: string, ids: string[], typeName: string) => void
-const parcialMap: parcialMap = (folderName, ids, typeName) => {
-	console.log(folderName, typeName, ids)
-	const setPath = concat(
-		"./src/icons/maps/groups",
-		folderName.toLowerCase().concat(".ts")
-	)
-	const setName = folderName.toLowerCase().concat("IconsSet")
-	const fileContent = `import { ${typeName} } from "../../Elements/${folderName}/types"\n
-	export const ${setName} : Set<${typeName}> = new Set([${ids.join(",")}])`
-	console.log(fileContent, setPath)
-	writeFile(setPath, fileContent)
 }
 
 type mapIcons = () => void
@@ -110,7 +97,7 @@ const mapIcons: mapIcons = () => {
 			filteredIcons
 		)
 		all.types.push(typeName)
-		parcialMap(folderName, idArr, typeName)
+		groupFn.generateParcial(folderName, idArr)
 		mapImportsByFolder.set(folderName, {
 			icons: fileObj,
 			type: typeName,
@@ -141,6 +128,7 @@ const mapIcons: mapIcons = () => {
 	const entriesArr = all.ids.map(getIconPair)
 	const allEntries = entriesArr.filter((pair) => pair.length > 0).join(",")
 	const allStr = template.generateAllIconsMap(allObj, allEntries)
+	groupFn.generate()
 	writeFile(`${constants.iconElementsPath}/maps/all.ts`, allStr)
 	translation.generateNewAltsFile(newAlts, missing)
 }

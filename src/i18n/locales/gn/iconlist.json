@@ -19,5 +19,34 @@
     "title": "Umi icono ojeguerekóva",
     "all": {
         "title": "Opaite ikóna"
+    },
+    "options": {
+        "all": "Opaite ikóna",
+        "ancient": "Umi icono yma guare",
+        "animals": "Mymbakuéra iconokuéra",
+        "brasil": "Umi icono brasileño-kuéra",
+        "characters": "Umi ikóna karameg̃ua rehegua",
+        "faces": "Hova rehegua iconokuéra",
+        "food": "tembi’u icono-kuéra",
+        "general": "Umi icono general rehegua",
+        "geography": "Geografía rehegua Iconos",
+        "interface": "Umi icono interfaz rehegua",
+        "letter": "Umi ID oguerekóva tai {{letterChar}}.",
+        "logo": "Iconos de Logotipo rehegua",
+        "map": "Mapa iconokuéra rehegua",
+        "media": "Umi Iconos de Medios de Comunicación rehegua",
+        "misc": "Opáichagua Iconos rehegua",
+        "musicinstruments": "Instrumento Musical rehegua Iconos",
+        "nature": "Iconos de la Naturaleza rehegua",
+        "tech": "Tecnología rehegua Iconos",
+        "vehicles": "Mba’yrumýi Icono-kuéra"
+    },
+    "select": {
+        "label": "Eiporavo pe aty ojehechaukáva",
+        "optgroup": {
+            "all": "Opavave",
+            "group": "Atykuéra rupive",
+            "letter": "Kuatia ñepyrũrã ID rupive"
+        }
     }
 }

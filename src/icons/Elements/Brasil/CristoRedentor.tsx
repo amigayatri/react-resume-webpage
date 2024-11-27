@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const CristoRedentorIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const CristoRedentorIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -80,6 +84,6 @@ export const CristoRedentorIcon = (props: SVGProps) => {
                     <rect x="7" y="55" width="4" height="2" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

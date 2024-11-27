@@ -19,5 +19,34 @@
     "title": "Verfügbare Symbole",
     "all": {
         "title": "Alle Symbole"
+    },
+    "options": {
+        "all": "Alle Symbole",
+        "ancient": "Antike Ikonen",
+        "animals": "Tiersymbole",
+        "brasil": "Brasilianische Ikonen",
+        "characters": "Zeichensymbole",
+        "faces": "Gesichtssymbole",
+        "food": "Essenssymbole",
+        "general": "Allgemeine Symbole",
+        "geography": "Geographie-Symbole",
+        "interface": "Schnittstellensymbole",
+        "letter": "IDs mit dem Buchstaben {{letterChar}}",
+        "logo": "Logo-Symbole",
+        "map": "Kartensymbole",
+        "media": "Mediensymbole",
+        "misc": "Verschiedene Ikonen",
+        "musicinstruments": "Musikinstrumente-Ikonen",
+        "nature": "Natur-Ikonen",
+        "tech": "Technologie-Ikonen",
+        "vehicles": "Fahrzeugsymbole"
+    },
+    "select": {
+        "label": "Wählen Sie die angezeigte Gruppe aus",
+        "optgroup": {
+            "all": "Alle",
+            "group": "Nach Gruppen",
+            "letter": "Per Anfangsbuchstabe des Personalausweises"
+        }
     }
 }

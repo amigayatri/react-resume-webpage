@@ -1,6 +1,5 @@
-import { generalKey } from "../../Elements/General/types"
-
-export const generalIconsSet: Set<generalKey> = new Set([
+import { groupIconsSet } from "./types"
+export const generalIconsSet: groupIconsSet = new Set([
     "award",
     "bankcard",
     "briefcase",

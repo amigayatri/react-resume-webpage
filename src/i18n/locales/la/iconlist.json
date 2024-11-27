@@ -19,5 +19,34 @@
     "title": "Praesto icones",
     "all": {
         "title": "Omnes icones"
+    },
+    "options": {
+        "all": "Omnes icones",
+        "ancient": "Antiquae icones",
+        "animals": "Animalia icones",
+        "brasil": "Icones Brasilianae",
+        "characters": "Icones charactere",
+        "faces": "Faciem iconum",
+        "food": "cibum iconibus",
+        "general": "Icones generales",
+        "geography": "Geographia Icones",
+        "interface": "Interface icones",
+        "letter": "IDs cum litteris {{letterChar}}",
+        "logo": "Logo Icones",
+        "map": "Tabula iconum",
+        "media": "Media Icones",
+        "misc": "Miscellany Iconum",
+        "musicinstruments": "Instrumenta Musica Icones",
+        "nature": "Natura Icones",
+        "tech": "Technologia Icones",
+        "vehicles": "Vehiculum Icones"
+    },
+    "select": {
+        "label": "Elige coetus ostendi",
+        "optgroup": {
+            "all": "All",
+            "group": "per circulos",
+            "letter": "Id per litteras initiales"
+        }
     }
 }

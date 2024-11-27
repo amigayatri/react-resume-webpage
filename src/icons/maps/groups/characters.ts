@@ -1,6 +1,5 @@
-import { charactersKey } from "../../Elements/Characters/types"
-
-export const charactersIconsSet: Set<charactersKey> = new Set([
+import { groupIconsSet } from "./types"
+export const charactersIconsSet: groupIconsSet = new Set([
     "eight",
     "empty",
     "equal",

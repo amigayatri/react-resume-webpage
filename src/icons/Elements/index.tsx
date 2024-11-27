@@ -304,7 +304,9 @@ import {
     MagicWandIcon,
     MoreIcon,
     PaintBucketIcon,
+    PauseIcon,
     PencilIcon,
+    PlayIcon,
     ProfileIcon,
     RulerIcon,
     ShadowIcon,
@@ -438,6 +440,7 @@ import {
     LeafIcon,
     LightningIcon,
     MeteorIcon,
+    MoonIcon,
     PlanetIcon,
     PlantIcon,
     PrismIcon,
@@ -445,6 +448,7 @@ import {
     RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
+    SunIcon,
     TornadoIcon,
     WaterfallIcon,
     WaveCrestIcon,
@@ -473,13 +477,6 @@ import {
     VHSIcon,
     WebsiteIcon
 } from "./Tech"
-
-/***************************/
-/*                         */
-/*    Icons from Toggle    */
-/*                         */
-/***************************/
-import { MoonIcon, PauseIcon, PlayIcon, SunIcon } from "./Toggle"
 
 /*****************************/
 /*                           */
@@ -737,7 +734,9 @@ export {
     MagicWandIcon,
     MoreIcon,
     PaintBucketIcon,
+    PauseIcon,
     PencilIcon,
+    PlayIcon,
     ProfileIcon,
     RulerIcon,
     ShadowIcon,
@@ -827,6 +826,7 @@ export {
     LeafIcon,
     LightningIcon,
     MeteorIcon,
+    MoonIcon,
     PlanetIcon,
     PlantIcon,
     PrismIcon,
@@ -834,6 +834,7 @@ export {
     RainbowIcon,
     SnowFlakeIcon,
     StarIcon,
+    SunIcon,
     TornadoIcon,
     WaterfallIcon,
     WaveCrestIcon,
@@ -853,10 +854,6 @@ export {
     TrademarkIcon,
     VHSIcon,
     WebsiteIcon,
-    MoonIcon,
-    PauseIcon,
-    PlayIcon,
-    SunIcon,
     BikeIcon,
     BusIcon,
     CarIcon,

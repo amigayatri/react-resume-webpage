@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const AgogoIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const AgogoIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -42,6 +46,6 @@ export const AgogoIcon = (props: SVGProps) => {
                     <path d="M94.287,9.812c0.026-0.164,0.7-0.825,0.7-1.747s-0.747-1.398-1.669-1.398s-1.669,0.476-1.669,1.398s0.674,1.584,0.7,1.747  c0.026,0.164-0.357,7.327-0.514,11.104c-0.154,3.685-0.186,70.748-0.186,70.748c0,0.922,0.747,1.669,1.669,1.669  s1.669-0.747,1.669-1.669c0,0-0.032-67.063-0.186-70.748C94.643,17.14,94.261,9.976,94.287,9.812z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

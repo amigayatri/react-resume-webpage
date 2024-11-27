@@ -1,6 +1,5 @@
-import { ancientKey } from "../../Elements/Ancient/types"
-
-export const ancientIconsSet: Set<ancientKey> = new Set([
+import { groupIconsSet } from "./types"
+export const ancientIconsSet: groupIconsSet = new Set([
     "atlas",
     "azteccalendarsun",
     "bastet",

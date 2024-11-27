@@ -19,5 +19,34 @@
     "title": "Icone disponibili",
     "all": {
         "title": "Tutte le icone"
+    },
+    "options": {
+        "all": "Tutte le icone",
+        "ancient": "Icone antiche",
+        "animals": "Icone animali",
+        "brasil": "Icone brasiliane",
+        "characters": "Icone dei personaggi",
+        "faces": "Icone del viso",
+        "food": "icone del cibo",
+        "general": "Icone generali",
+        "geography": "Icone di geografia",
+        "interface": "Icone dell'interfaccia",
+        "letter": "ID con la lettera {{letterChar}}",
+        "logo": "Icone del logo",
+        "map": "Icone della mappa",
+        "media": "Icone multimediali",
+        "misc": "Miscellanea di icone",
+        "musicinstruments": "Icone di strumenti musicali",
+        "nature": "Icone della natura",
+        "tech": "Icone della tecnologia",
+        "vehicles": "Icone del veicolo"
+    },
+    "select": {
+        "label": "Scegli il gruppo visualizzato",
+        "optgroup": {
+            "all": "Tutto",
+            "group": "Per gruppi",
+            "letter": "Con la lettera iniziale dell'ID"
+        }
     }
 }

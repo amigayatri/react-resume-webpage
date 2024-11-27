@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const AlpacaIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const AlpacaIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -45,6 +49,6 @@ export const AlpacaIcon = (props: SVGProps) => {
                     <path d="M230.9742432,250.2703552c6.3899841,15.0628967,18.7768402,17.8093262,32.3878479,19.2849426   c1.224823-10.2414551-15.9973297-12.2645264-12.2817535-24.5396118c1.9506531-6.4441528,6.2280426-10.5316315,2.8689423-17.358017   c-2.6378174-5.3605804-10.4518738-8.4146423-10.7474976-14.8144531c7.8070831-4.3866577,12.1927643-3.6879883,24.4330444,4.0406494   c6.7808228-5.9703522,14.5155945-8.7843933,23.5158386-4.8380737c0.5904541,6.6779327-6.7956543,9.5795746-9.826416,14.5389252   c-3.9797974,6.512207-0.4459534,9.4680939,1.6834717,15.8586273c4.3000793,12.9047241-10.0316772,16.2679291-12.6741028,27.1923981   c14.1812134-1.4282837,26.9649048-4.4839783,33.6856995-19.2561646c7.454895,7.1355286-5.1636047,19.0174255-11.0690308,22.6043396   c-7.5289917,4.5731201-16.6081848,6.5351868-25.3474121,6.6381226   C252.2765961,279.8025818,224.3299408,270.7900085,230.9742432,250.2703552z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

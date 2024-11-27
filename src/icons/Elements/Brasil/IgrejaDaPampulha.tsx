@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const IgrejaDaPampulhaIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const IgrejaDaPampulhaIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -43,6 +47,6 @@ export const IgrejaDaPampulhaIcon = (props: SVGProps) => {
                     <path d="m82.301 60.102c-0.10156-0.30078-0.39844-0.60156-0.69922-0.60156h-2.6992c-0.19922 0-0.39844 0.10156-0.60156 0.30078-0.10156 0.19922-0.19922 0.39844-0.10156 0.60156l0.69922 2.8984c0.10156 0.30078 0.39844 0.60156 0.69922 0.60156h2.8008c0.19922 0 0.5-0.10156 0.60156-0.30078 0.10156-0.19922 0.19922-0.39844 0.10156-0.60156zm-2.1016 2.2969-0.30078-1.3984h1.1016l0.39844 1.3984z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

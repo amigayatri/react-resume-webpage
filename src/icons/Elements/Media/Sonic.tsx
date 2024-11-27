@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const SonicIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const SonicIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -55,6 +59,6 @@ export const SonicIcon = (props: SVGProps) => {
                 <path d="m18.1915,37.2311c8.8085-.6566,14.8085-.8481,22.6011,4.0881" />
                 <path d="m5.9996,16.8811c-1.9783-2.9662-1.7514-8.1196-.9295-8.9236.6959-.6809,5.2704.0851,7.3586,1.9501" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

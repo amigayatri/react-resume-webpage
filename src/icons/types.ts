@@ -14,29 +14,25 @@ import { miscKey } from "./Elements/Misc/types.ts"
 import { musicinstrumentsKey } from "./Elements/MusicInstruments/types.ts"
 import { natureKey } from "./Elements/Nature/types.ts"
 import { techKey } from "./Elements/Tech/types.ts"
-import { toggleKey } from "./Elements/Toggle/types.ts"
 import { vehiclesKey } from "./Elements/Vehicles/types.ts"
 
-type toggleIconKey = toggleKey
-
 type iconKey =
-    | ancientKey
-    | animalsKey
-    | brasilKey
-    | charactersKey
-    | facesKey
-    | foodKey
-    | generalKey
-    | geographyKey
-    | interfaceKey
-    | logoKey
-    | mapKey
-    | mediaKey
-    | miscKey
-    | musicinstrumentsKey
-    | natureKey
-    | techKey
-    | toggleKey
-    | vehiclesKey
+	| ancientKey
+	| animalsKey
+	| brasilKey
+	| charactersKey
+	| facesKey
+	| foodKey
+	| generalKey
+	| geographyKey
+	| interfaceKey
+	| logoKey
+	| mapKey
+	| mediaKey
+	| miscKey
+	| musicinstrumentsKey
+	| natureKey
+	| techKey
+	| vehiclesKey
 
-export type { iconKey, toggleIconKey }
+export type { iconKey }

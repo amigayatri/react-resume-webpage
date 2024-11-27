@@ -15,9 +15,6 @@ export const ToggleBase = ({
 	showLabel,
 	lng
 }: ToggleBaseProps) => {
-	// useEffect(() => {
-	// 	console.log(state)
-	// }, [state])
 	return (
 		<Wrapper
 			tabIndex={0}
@@ -42,6 +39,7 @@ export const ToggleBase = ({
 								? icon.options.true
 								: icon.options.false
 						}
+						isTrue={state === icon.trueValAsStr}
 					/>
 				) : (
 					<SVGIcon local="toggle" lng={lng} size={16} id={icon.id} />

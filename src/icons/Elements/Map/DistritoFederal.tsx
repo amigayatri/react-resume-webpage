@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const DistritoFederalIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const DistritoFederalIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -39,6 +43,6 @@ export const DistritoFederalIcon = (props: SVGProps) => {
                 <title>{alt}</title>
                 <path d="M 104.152 106.391 C 110.756 103.788 115.067 90.737 116.941 75.664 C 117.168 73.847 117.356 72.011 117.51 70.148 C 118.78 54.758 117.604 38.347 113.709 29.177 C 105.259 9.692 18.481 29.177 18.481 29.177 C 18.481 29.177 12.051 73.852 10.03 84.154 C 8.436 92.959 70.322 107.591 95.604 107.482 C 99.371 107.467 102.343 107.129 104.152 106.391 Z" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

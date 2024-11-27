@@ -2,17 +2,18 @@ import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const PauseIcon = (props: SVGProps) => {
-	const {
+    const {
 		alt,
 		size,
-		isToggle,
+		isTrue,
 		hasTransition,
+		isToggle,
 		color,
 		rotationDeg,
 		isResponsive,
 		customStyle
 	} = props
-	const safeWrapperStyle =
+    const safeWrapperStyle =
 		customStyle !== undefined && customStyle.wrapper !== undefined
 			? customStyle.wrapper
 			: {}
@@ -20,29 +21,13 @@ export const PauseIcon = (props: SVGProps) => {
 		customStyle !== undefined && customStyle.icon !== undefined
 			? customStyle.icon
 			: {}
-	if (isToggle === true) {
-		return (
-			<ToggleIconWrapper $isTrue>
-				<Icon
-					$isResponsive={false}
-					$hasTransition={hasTransition}
-					$size={size}
-					role="img"
-					fill={color}
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-				>
-					<title>{alt}</title>
-					<path d="M6 3H8V21H6V3ZM16 3H18V21H16V3Z"></path>
-				</Icon>
-			</ToggleIconWrapper>
-		)
-	}
+	const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
 	return (
-		<IconWrapper
+		<Wrapper
 			style={safeWrapperStyle}
 			$isResponsive={isResponsive}
 			$angle={rotationDeg}
+			$isTrue={isTrue}
 		>
 			<Icon
 				style={safeIconStyle}
@@ -57,6 +42,6 @@ export const PauseIcon = (props: SVGProps) => {
 				<title>{alt}</title>
 				<path d="M6 3H8V21H6V3ZM16 3H18V21H16V3Z"></path>
 			</Icon>
-		</IconWrapper>
+		</Wrapper>
 	)
 }

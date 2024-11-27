@@ -10,12 +10,12 @@ export const SVGIconBase = ({
 	rotationDeg,
 	responsive,
 	customStyle,
+	isTrue,
 	t
 }: SVGElBaseProps) => {
 	const alt = t(`alt.${id}`)
 	const IconEl = getIcon(id, local)
 	if (IconEl === undefined) return
-	console.log(responsive)
 	return (
 		<IconEl
 			hasTransition={noTransition !== true}
@@ -26,6 +26,7 @@ export const SVGIconBase = ({
 			rotationDeg={rotationDeg !== undefined ? rotationDeg : 0}
 			color={color || "currentColor"}
 			customStyle={customStyle}
+			isTrue={isTrue === true}
 		/>
 	)
 }

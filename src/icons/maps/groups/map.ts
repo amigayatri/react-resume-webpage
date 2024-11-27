@@ -1,6 +1,5 @@
-import { mapKey } from "../../Elements/Map/types"
-
-export const mapIconsSet: Set<mapKey> = new Set([
+import { groupIconsSet } from "./types"
+export const mapIconsSet: groupIconsSet = new Set([
     "acre",
     "alagoas",
     "amapa",

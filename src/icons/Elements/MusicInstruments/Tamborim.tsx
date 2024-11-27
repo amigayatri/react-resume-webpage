@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const TamborimIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const TamborimIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -42,6 +46,6 @@ export const TamborimIcon = (props: SVGProps) => {
                     <path d="M93.732,66.596l-29.864,6.882l29.504-8.294c0.401-0.113,0.634-0.529,0.522-0.929c-0.113-0.401-0.528-0.633-0.929-0.522  l-20.752,5.833l19.821-6.371c0.397-0.127,0.614-0.552,0.487-0.948c-0.128-0.397-0.55-0.611-0.948-0.487l-53.43,17.173  c-0.529-0.508-1.293-0.751-2.063-0.579L8.581,84.534c-1.218,0.274-1.983,1.482-1.709,2.701C7.109,88.286,8.041,89,9.075,89  c0.164,0,0.331-0.018,0.498-0.056l27.498-6.179c0.969-0.218,1.642-1.031,1.742-1.967L94.07,68.065  c0.405-0.093,0.658-0.498,0.565-0.903C94.542,66.757,94.137,66.502,93.732,66.596z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

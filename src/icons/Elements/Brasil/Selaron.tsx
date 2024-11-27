@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const SelaronIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const SelaronIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -41,6 +45,6 @@ export const SelaronIcon = (props: SVGProps) => {
                 <path d="M24.66,54.43c0.62,0,1.23-0.29,1.62-0.82l1.11-1.53l1.11,1.53c0.39,0.54,1,0.82,1.62,0.82c0.41,0,0.82-0.12,1.17-0.38  c0.89-0.65,1.09-1.9,0.44-2.79l-1.88-2.58l1.88-2.58c0.65-0.89,0.45-2.14-0.44-2.79c-0.89-0.65-2.14-0.45-2.79,0.44l-1.11,1.53  l-1.11-1.53c-0.65-0.89-1.9-1.09-2.79-0.44c-0.89,0.65-1.09,1.9-0.44,2.79l1.88,2.58l-1.88,2.58c-0.65,0.89-0.45,2.14,0.44,2.79  C23.84,54.3,24.25,54.43,24.66,54.43z" />
                 <path d="M92.83,43.74l-1.11,1.53l-1.11-1.53c-0.65-0.89-1.9-1.09-2.79-0.44c-0.89,0.65-1.09,1.9-0.44,2.79l1.88,2.58l-1.88,2.58  c-0.65,0.89-0.45,2.14,0.44,2.79c0.35,0.26,0.77,0.38,1.17,0.38c0.62,0,1.23-0.29,1.62-0.82l1.11-1.53l1.11,1.53  c0.39,0.54,1,0.82,1.62,0.82c0.41,0,0.82-0.12,1.17-0.38c0.89-0.65,1.09-1.9,0.44-2.79l-1.88-2.58l1.88-2.58  c0.65-0.89,0.45-2.14-0.44-2.79C94.74,42.65,93.48,42.85,92.83,43.74z" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

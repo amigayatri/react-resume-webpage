@@ -1,7 +1,7 @@
 import { Title, HeroWrapper } from "./Hero.styled.ts"
 import { MulticoloredName } from "../../../common/client.tsx"
 import { UsedIcons } from "../UsedIcons/client.tsx"
-import { HeroBaseProps } from "../../types"
+import { HeroBaseProps } from "../types.ts"
 
 export const HeroBase = ({ t, lng }: HeroBaseProps) => {
 	return (

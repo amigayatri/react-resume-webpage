@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const SevenIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const SevenIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -42,6 +46,6 @@ export const SevenIcon = (props: SVGProps) => {
                     d="M 9.335 44 L 6.052 43.021 L 21.66 7.168 L 2.74 7.168 L 2.74 4 L 25.26 4 L 25.26 6.966 L 9.335 44 Z"
                 />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

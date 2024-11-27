@@ -1,6 +1,5 @@
-import { logoKey } from "../../Elements/Logo/types"
-
-export const logoIconsSet: Set<logoKey> = new Set([
+import { groupIconsSet } from "./types"
+export const logoIconsSet: groupIconsSet = new Set([
     "baidu",
     "css",
     "facebook",

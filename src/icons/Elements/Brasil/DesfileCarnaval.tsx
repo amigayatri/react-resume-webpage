@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const DesfileCarnavalIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const DesfileCarnavalIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -46,6 +50,6 @@ export const DesfileCarnavalIcon = (props: SVGProps) => {
                     <polygon points="64,272 80,272 80,256 96,256 96,240 80,240 80,224 64,224 64,240 48,240 48,256 64,256  " />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

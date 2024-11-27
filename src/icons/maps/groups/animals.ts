@@ -1,6 +1,5 @@
-import { animalsKey } from "../../Elements/Animals/types"
-
-export const animalsIconsSet: Set<animalsKey> = new Set([
+import { groupIconsSet } from "./types"
+export const animalsIconsSet: groupIconsSet = new Set([
     "alpaca",
     "ammonite",
     "anglerfish",

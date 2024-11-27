@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const GuardaSolIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const GuardaSolIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -44,6 +48,6 @@ export const GuardaSolIcon = (props: SVGProps) => {
                 <polygon points="143.686,380.924 143.316,399.658 192.721,400.638 193.09,381.912 &#9;" />
                 <polygon points="84.102,308.305 83.732,327.03 133.118,328.01 133.506,309.284 &#9;" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

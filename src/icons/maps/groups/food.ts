@@ -1,6 +1,5 @@
-import { foodKey } from "../../Elements/Food/types"
-
-export const foodIconsSet: Set<foodKey> = new Set([
+import { groupIconsSet } from "./types"
+export const foodIconsSet: groupIconsSet = new Set([
     "beer",
     "bowl",
     "bread",

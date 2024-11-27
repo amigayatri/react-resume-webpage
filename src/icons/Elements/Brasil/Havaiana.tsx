@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const HavaianaIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const HavaianaIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -44,6 +48,6 @@ export const HavaianaIcon = (props: SVGProps) => {
                     <path d="M15.41,2c-2.43-.2-3,5.92-2.1,8,.72,1.6.36,4.32.12,5.47a9.77,9.77,0,0,0-.2,1.41C13.1,19,13.13,23,16.46,23c2.74,0,3.26-2.38,3.28-4.75a27.27,27.27,0,0,1,.53-4.85C22,4.36,19.27,2.32,15.41,2Zm1.27,19.82-2-1.41,2-1.41,2,1.41Zm2.69-8.17a.38.38,0,0,1-.34.22.41.41,0,0,1-.16,0,.37.37,0,0,1-.18-.5c1-2.13,1.2-4,.61-5.48A4.6,4.6,0,0,0,17.89,6l-.29.12c-.19.08-4.61,2-1.75,8.14l.13.29c.25.53-.61.71-.86.18L15,14.4c-3.09-6.63,1.93-8.76,2.14-8.85l.11,0-.3-.15a.38.38,0,0,1,.28-.7A5.48,5.48,0,0,1,20,7.57C20.66,9.28,20.45,11.32,19.37,13.65Z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

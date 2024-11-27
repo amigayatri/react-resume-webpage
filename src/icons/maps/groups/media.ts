@@ -1,6 +1,5 @@
-import { mediaKey } from "../../Elements/Media/types"
-
-export const mediaIconsSet: Set<mediaKey> = new Set([
+import { groupIconsSet } from "./types"
+export const mediaIconsSet: groupIconsSet = new Set([
     "barbie",
     "naruto",
     "sonic"

@@ -2,8 +2,6 @@
 
 import styled from "styled-components"
 
-import { Icon } from "../../../../icons/Elements/Common.styled"
-
 export const DetailedIconWrapper = styled.section`
 	text-align: center;
 `
@@ -19,11 +17,4 @@ export const IconWrapper = styled.div`
 	color: ${({ theme }) => theme.accent};
 	border: 4px solid ${({ theme }) => theme.secondAccent};
 	border-radius: 16px;
-
-	/* ${Icon} {
-		width: calc(
-			100vw - var(--color-container) - var(--color-container) - 8px
-		);
-		height: auto;
-	} */
 `

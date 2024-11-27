@@ -1,6 +1,5 @@
-import { facesKey } from "../../Elements/Faces/types"
-
-export const facesIconsSet: Set<facesKey> = new Set([
+import { groupIconsSet } from "./types"
+export const facesIconsSet: groupIconsSet = new Set([
     "alien",
     "crying",
     "fairy",

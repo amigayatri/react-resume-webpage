@@ -1,5 +1,23 @@
-import { getIcon, getAllIconsIds, markAsUsed, getAllUsed } from "./maps"
-import { iconKey, toggleIconKey } from "./types"
+import {
+	getIcon,
+	getAllIconsIds,
+	markAsUsed,
+	getAllUsed,
+	getAvailableGroups,
+	getIconsFromGroup,
+	getIconsByFirstLetter
+} from "./maps"
 
-export { getAllIconsIds, getIcon, markAsUsed, getAllUsed }
-export type { iconKey, toggleIconKey }
+import { iconKey } from "./types"
+
+export {
+	getAllIconsIds,
+	getIcon,
+	markAsUsed,
+	getAllUsed,
+	getAvailableGroups,
+	getIconsFromGroup,
+	getIconsByFirstLetter
+}
+
+export type { iconKey }

@@ -12,7 +12,8 @@ export const IconWrapper = styled.div<{
 	display: inline-block;
 	transform: rotate(${({ $angle }) => $angle}deg);
 `
-export const ToggleIconWrapper = styled.div<{ $isTrue?: boolean }>`
+
+export const ToggleIconWrapper = styled(IconWrapper)<{ $isTrue?: boolean }>`
 	width: 24px;
 	height: 24px;
 	margin: 2px;

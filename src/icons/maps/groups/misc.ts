@@ -1,6 +1,5 @@
-import { miscKey } from "../../Elements/Misc/types"
-
-export const miscIconsSet: Set<miscKey> = new Set([
+import { groupIconsSet } from "./types"
+export const miscIconsSet: groupIconsSet = new Set([
     "fisherman",
     "grenade",
     "hightide",

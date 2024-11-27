@@ -19,5 +19,34 @@
     "title": "Icônes disponibles",
     "all": {
         "title": "Toutes les icônes"
+    },
+    "options": {
+        "all": "Toutes les icônes",
+        "ancient": "Icônes anciennes",
+        "animals": "Icônes d'animaux",
+        "brasil": "Icônes brésiliennes",
+        "characters": "Icônes de personnages",
+        "faces": "Icônes de visage",
+        "food": "icônes de nourriture",
+        "general": "Icônes générales",
+        "geography": "Icônes de géographie",
+        "interface": "Icônes d'interface",
+        "letter": "ID avec la lettre {{letterChar}}",
+        "logo": "Icônes de logos",
+        "map": "Icônes de carte",
+        "media": "Icônes des médias",
+        "misc": "Diverses icônes",
+        "musicinstruments": "Icônes d’instruments de musique",
+        "nature": "Icônes naturelles",
+        "tech": "Icônes technologiques",
+        "vehicles": "Icônes de véhicules"
+    },
+    "select": {
+        "label": "Choisissez le groupe affiché",
+        "optgroup": {
+            "all": "Tous",
+            "group": "Par groupes",
+            "letter": "Par lettre d'identité initiale"
+        }
     }
 }

@@ -1,6 +1,5 @@
-import { vehiclesKey } from "../../Elements/Vehicles/types"
-
-export const vehiclesIconsSet: Set<vehiclesKey> = new Set([
+import { groupIconsSet } from "./types"
+export const vehiclesIconsSet: groupIconsSet = new Set([
     "bike",
     "bus",
     "car",

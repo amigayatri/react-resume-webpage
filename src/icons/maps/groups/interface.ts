@@ -1,6 +1,5 @@
-import { interfaceKey } from "../../Elements/Interface/types"
-
-export const interfaceIconsSet: Set<interfaceKey> = new Set([
+import { groupIconsSet } from "./types"
+export const interfaceIconsSet: groupIconsSet = new Set([
     "anticlockwise",
     "arrow",
     "brokenlink",
@@ -27,7 +26,9 @@ export const interfaceIconsSet: Set<interfaceKey> = new Set([
     "magicwand",
     "more",
     "paintbucket",
+    "pause",
     "pencil",
+    "play",
     "profile",
     "ruler",
     "shadow",

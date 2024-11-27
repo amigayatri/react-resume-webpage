@@ -21,7 +21,7 @@ import { useTheme } from "styled-components"
 import { useEffect, useState } from "react"
 import { getAllUsed, getAllIconsIds, iconKey } from "../../../../icons/"
 import { rainbowMonokai } from "../../../../lib/palettes/maps/rainbow"
-import { UsedIconsBaseProps } from "../../types"
+import { UsedIconsBaseProps } from "../types"
 
 const emptyIcons: iconKey[] = []
 

@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const TeatroAmazonasIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const TeatroAmazonasIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -70,6 +74,6 @@ export const TeatroAmazonasIcon = (props: SVGProps) => {
                     <path d="M49.924,47.24227A25.96938,25.96938,0,0,0,30.364,55.93776v.88361H69.4831v-.88361A25.96653,25.96653,0,0,0,49.924,47.24227ZM31.14863,56.11238a25.67665,25.67665,0,0,1,37.5498,0Z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

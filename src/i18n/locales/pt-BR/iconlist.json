@@ -19,5 +19,34 @@
     "all": {
         "title": "Todos os ícones"
     },
-    "title": "Ícones disponíveis"
+    "title": "Ícones disponíveis",
+    "select": {
+        "optgroup": {
+            "all": "Todos",
+            "group": "Por grupos",
+            "letter": "Por letra inicial do ID"
+        },
+        "label": "Escolha o grupo exibido"
+    },
+    "options": {
+        "all": "Todos os ícones",
+        "ancient": "Ícones antigos",
+        "animals": "Ícones de animais",
+        "brasil": "Ícones brasileiros",
+        "characters": "Ícones de caracteres",
+        "faces": "Ícones de rostos",
+        "food": "Ícones de comida",
+        "general": "Ícones gerais",
+        "geography": "Ícones de geografia",
+        "interface": "Ícones de interface",
+        "logo": "Ícones de Logotipo",
+        "map": "Ícones de mapas",
+        "media": "Ícones de Mídias",
+        "misc": "Miscelânea de Ícones",
+        "musicinstruments": "Ícones de Instrumentos musicais",
+        "nature": "Ícones de Natureza",
+        "tech": "Ícones de Tecnologia",
+        "vehicles": "Ícones de Veículos",
+        "letter": "IDs com a letra {{letterChar}}"
+    }
 }

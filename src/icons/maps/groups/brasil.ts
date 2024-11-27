@@ -1,6 +1,5 @@
-import { brasilKey } from "../../Elements/Brasil/types"
-
-export const brasilIconsSet: Set<brasilKey> = new Set([
+import { groupIconsSet } from "./types"
+export const brasilIconsSet: groupIconsSet = new Set([
     "apoteose",
     "arcosdalapa",
     "baiana",

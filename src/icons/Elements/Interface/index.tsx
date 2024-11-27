@@ -24,7 +24,9 @@ import { ListUnorderedIcon } from "./ListUnordered.tsx"
 import { MagicWandIcon } from "./MagicWand.tsx"
 import { MoreIcon } from "./More.tsx"
 import { PaintBucketIcon } from "./PaintBucket.tsx"
+import { PauseIcon } from "./Pause.tsx"
 import { PencilIcon } from "./Pencil.tsx"
+import { PlayIcon } from "./Play.tsx"
 import { ProfileIcon } from "./Profile.tsx"
 import { RulerIcon } from "./Ruler.tsx"
 import { ShadowIcon } from "./Shadow.tsx"
@@ -64,7 +66,9 @@ export {
     MagicWandIcon,
     MoreIcon,
     PaintBucketIcon,
+    PauseIcon,
     PencilIcon,
+    PlayIcon,
     ProfileIcon,
     RulerIcon,
     ShadowIcon,

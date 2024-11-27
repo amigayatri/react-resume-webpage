@@ -19,5 +19,34 @@
     "title": "Available icons",
     "all": {
         "title": "All icons"
+    },
+    "options": {
+        "all": "All icons",
+        "ancient": "Ancient icons",
+        "animals": "Animal icons",
+        "brasil": "Brazilian icons",
+        "characters": "Character icons",
+        "faces": "Face icons",
+        "food": "food icons",
+        "general": "General icons",
+        "geography": "Geography Icons",
+        "interface": "Interface icons",
+        "letter": "IDs with the letter {{letterChar}}",
+        "logo": "Logo Icons",
+        "map": "Map icons",
+        "media": "Media Icons",
+        "misc": "Miscellany of Icons",
+        "musicinstruments": "Musical Instruments Icons",
+        "nature": "Nature Icons",
+        "tech": "Technology Icons",
+        "vehicles": "Vehicle Icons"
+    },
+    "select": {
+        "label": "Choose the displayed group",
+        "optgroup": {
+            "all": "All",
+            "group": "By groups",
+            "letter": "By initial letter of ID"
+        }
     }
 }

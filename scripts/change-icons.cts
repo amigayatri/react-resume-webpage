@@ -11,12 +11,12 @@ interface Change {
 const changeElement = (elStr: string, changes: Change[]) => {
 	let newStr = Array.from(elStr).join("")
 	for (const change of changes) {
-		newStr = newStr.replace(change.from, change.to)
+		newStr = newStr.replaceAll(change.from, change.to)
 	}
 	return newStr
 }
 
-const dontChangeSet: Set<string> = new Set(["Toggle", "index.tsx"])
+const dontChangeSet: Set<string> = new Set(["index.tsx", "types.ts"])
 const bulkChangeIcons = () => {
 	console.log("Changing icons")
 	const basePath = concat(constants.iconElementsPath, "Elements")
@@ -26,7 +26,6 @@ const bulkChangeIcons = () => {
 		return
 	}
 	fileFn.mapFoldersInside(basePath, (folderName) => {
-		if (dontChangeSet.has(folderName)) return
 		const folderPath = concat(basePath, folderName)
 		fileFn.mapFilesInside(folderPath, (fileName) => {
 			if (fileName.indexOf(".tsx") === -1 || dontChangeSet.has(fileName))

@@ -1,6 +1,5 @@
-import { musicinstrumentsKey } from "../../Elements/MusicInstruments/types"
-
-export const musicinstrumentsIconsSet: Set<musicinstrumentsKey> = new Set([
+import { groupIconsSet } from "./types"
+export const musicinstrumentsIconsSet: groupIconsSet = new Set([
     "agogo",
     "guitar",
     "headphone",

@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const GuitarIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const GuitarIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -45,6 +49,6 @@ export const GuitarIcon = (props: SVGProps) => {
                     <path d="M41.263,18.9A.75.75,0,0,0,40,19.341l-1.17,8.372c-1.172-1.051-2.742-1.223-3.624-.373a1.942,1.942,0,0,0-.574,1.42,3.216,3.216,0,0,0,1.061,2.249,3.4,3.4,0,0,0,2.293,1.005,2.031,2.031,0,0,0,1.438-.545,1.872,1.872,0,0,0,.54-1.05l.006-.016.861-6.166,1.4,1.342a.75.75,0,0,0,1.04-1.082L41.088,22.4l.2-1.4,1.4,1.342a.75.75,0,0,0,1.039-1.082ZM36.732,29.927a1.751,1.751,0,0,1-.6-1.169.453.453,0,0,1,.115-.338.551.551,0,0,1,.389-.124,1.961,1.961,0,0,1,1.261.586,1.749,1.749,0,0,1,.6,1.17.452.452,0,0,1-.115.337C38.111,30.65,37.332,30.5,36.732,29.927Z" />
                 </g>
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

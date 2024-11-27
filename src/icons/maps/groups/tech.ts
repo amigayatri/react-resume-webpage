@@ -1,6 +1,5 @@
-import { techKey } from "../../Elements/Tech/types"
-
-export const techIconsSet: Set<techKey> = new Set([
+import { groupIconsSet } from "./types"
+export const techIconsSet: groupIconsSet = new Set([
     "code",
     "computer",
     "disc",

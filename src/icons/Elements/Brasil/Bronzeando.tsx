@@ -1,11 +1,13 @@
-import { IconWrapper, Icon } from "../Common.styled"
+import { ToggleIconWrapper, IconWrapper, Icon } from "../Common.styled"
 import { SVGProps } from "../types"
 
 export const BronzeandoIcon = (props: SVGProps) => {
     const {
         alt,
         size,
+        isTrue,
         hasTransition,
+        isToggle,
         color,
         rotationDeg,
         isResponsive,
@@ -20,11 +22,13 @@ export const BronzeandoIcon = (props: SVGProps) => {
             customStyle.icon
         :   {}
 
+    const Wrapper = isToggle === true ? ToggleIconWrapper : IconWrapper
     return (
-        <IconWrapper
+        <Wrapper
             style={safeWrapperStyle}
             $isResponsive={isResponsive}
             $angle={rotationDeg}
+            $isTrue={isTrue}
         >
             <Icon
                 style={safeIconStyle}
@@ -44,6 +48,6 @@ export const BronzeandoIcon = (props: SVGProps) => {
                 </g>
                 <path d="M285.79,216.612a4.542,4.542,0,0,0,.37.691,4.214,4.214,0,0,0,.5.61,3.584,3.584,0,0,0,.61.489,3.146,3.146,0,0,0,.69.37,3.887,3.887,0,0,0,.74.231,4.226,4.226,0,0,0,.79.08,4.129,4.129,0,0,0,.78-.08,4.22,4.22,0,0,0,.75-.231,3.707,3.707,0,0,0,.69-.37,3.511,3.511,0,0,0,.6-.489,3.645,3.645,0,0,0,.5-.61,3.8,3.8,0,0,0,.37-.691,3.859,3.859,0,0,0,.23-.75,3.838,3.838,0,0,0,0-1.559,4.047,4.047,0,0,0-.6-1.441,3.6,3.6,0,0,0-.5-.609,4.06,4.06,0,0,0-.6-.5,4.436,4.436,0,0,0-.69-.36,4.3,4.3,0,0,0-.75-.23,3.776,3.776,0,0,0-1.57,0,3.956,3.956,0,0,0-.74.23,3.659,3.659,0,0,0-.69.36,4.013,4.013,0,0,0-1.11,1.109,4.638,4.638,0,0,0-.37.691,4.56,4.56,0,0,0-.23.75,4.375,4.375,0,0,0,0,1.559A4.5,4.5,0,0,0,285.79,216.612Z" />
             </Icon>
-        </IconWrapper>
+        </Wrapper>
     )
 }

@@ -1,6 +1,5 @@
-import { geographyKey } from "../../Elements/Geography/types"
-
-export const geographyIconsSet: Set<geographyKey> = new Set([
+import { groupIconsSet } from "./types"
+export const geographyIconsSet: groupIconsSet = new Set([
     "cedar",
     "flag",
     "globe",

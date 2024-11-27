@@ -1,6 +1,5 @@
-import { natureKey } from "../../Elements/Nature/types"
-
-export const natureIconsSet: Set<natureKey> = new Set([
+import { groupIconsSet } from "./types"
+export const natureIconsSet: groupIconsSet = new Set([
     "beach",
     "cactus",
     "cloud",
@@ -10,6 +9,7 @@ export const natureIconsSet: Set<natureKey> = new Set([
     "leaf",
     "lightning",
     "meteor",
+    "moon",
     "planet",
     "plant",
     "prism",
@@ -17,6 +17,7 @@ export const natureIconsSet: Set<natureKey> = new Set([
     "rainbow",
     "snowflake",
     "star",
+    "sun",
     "tornado",
     "waterfall",
     "wavecrest",
