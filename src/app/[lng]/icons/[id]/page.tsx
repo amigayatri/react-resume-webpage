@@ -1,17 +1,17 @@
-import { languages, fallbackLng } from "../../../../../i18n/settings"
-import { Main } from "../../../../../components/icons/details"
-import { useTranslation } from "../../../../../i18n"
-import { ThemeClient } from "../../../../../components/common/client"
-import { ErrorMain } from "../../../../../components/error/"
-import { PageProps } from "../../../../../types/common/"
-import { iconExists } from "../../../../../icons/maps/functions"
-import { capitalize } from "../../../../../lib/utils"
+import { languages, fallbackLng } from "../../../../i18n/settings"
+import { Main } from "../../../../components/icons/details"
+import { useTranslation } from "../../../../i18n"
+import { ThemeClient } from "../../../../components/common/client"
+import { ErrorMain } from "../../../../components/error/"
+import { PageProps } from "../../../../types/common/"
+import { iconExists } from "../../../../icons/maps/functions"
+import { capitalize } from "../../../../lib/utils"
 
-interface MusicPageProps extends PageProps {
+interface IconDetailPageProps extends PageProps {
 	params: Promise<{ lng: string; id: string }>
 }
 
-export async function generateMetadata({ params }: MusicPageProps) {
+export async function generateMetadata({ params }: IconDetailPageProps) {
 	let { lng, id } = await params
 	const lngNotFound = languages.indexOf(lng) < 0
 	const iconNotFound = !iconExists(id)
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: MusicPageProps) {
 	}
 }
 
-export default async function Page({ params }: MusicPageProps) {
+export default async function Page({ params }: IconDetailPageProps) {
 	let { lng, id } = await params
 	const iconNotFound = !iconExists(id)
 	const lngNotFound = languages.indexOf(lng) < 0

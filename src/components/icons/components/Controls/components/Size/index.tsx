@@ -15,13 +15,20 @@ export const Size = ({ size, handleSize, lng }: SizeProps) => {
 	return (
 		<SizeWrapper>
 			<SizeButton
+				tabIndex={0}
+				role="button"
 				className="minus"
 				onClick={() => handleSizeChange(false)}
 			>
 				<SVGIcon lng={lng} local="icon-control" id="minus" size={24} />
 			</SizeButton>
 			<SizeLabel>{size}px</SizeLabel>
-			<SizeButton className="plus" onClick={() => handleSizeChange(true)}>
+			<SizeButton
+				tabIndex={0}
+				role="button"
+				className="plus"
+				onClick={() => handleSizeChange(true)}
+			>
 				<SVGIcon lng={lng} local="icon-control" id="plus" size={24} />
 			</SizeButton>
 		</SizeWrapper>
