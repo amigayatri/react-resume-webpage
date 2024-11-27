@@ -32,7 +32,7 @@ const Holiday = ({
 		<HolidayWrapper $isPreweekend={isPreWeekend} $isWeekend={isWeekend}>
 			<Name>{name}</Name>
 			<ContentWrapper>
-				<IconWrapper $angle={rotationDeg}>
+				<IconWrapper>
 					<SVGIcon
 						lng={lng}
 						local="holidays"
