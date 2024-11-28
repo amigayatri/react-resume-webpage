@@ -2,6 +2,7 @@
 
 import styled from "styled-components"
 import { ControlItemWrapper } from "../Common.styled"
+import { media } from "../../../../../../constants/medias"
 
 export const SizeWrapper = styled(ControlItemWrapper)`
 	display: inline-flex;
@@ -10,7 +11,13 @@ export const SizeWrapper = styled(ControlItemWrapper)`
 	border: 2px solid ${({ theme }) => theme.accent};
 	padding: 0;
 	border-radius: 16px;
+	margin: 0;
 	margin-left: 24px;
+	box-sizing: content-box;
+
+	${media.max.sm} {
+		margin-left: 0;
+	}
 `
 
 export const SizeLabel = styled.span`

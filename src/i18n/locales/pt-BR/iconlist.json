@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Dados globais",
-            "local": "Por local: ícones com o local '{{localKey}}'"
+            "local": "Ícones com o local '{{localKey}}'"
         },
-        "title": "Estátisticas de uso dos ícones"
+        "title": "Estátisticas de uso dos ícones atuais",
+        "select": {
+            "optgroup": {
+                "local": "Id do local de uso"
+            },
+            "options": {
+                "local": "Id {{localKey}}"
+            },
+            "label": "Escolha o local"
+        }
     },
     "all": {
         "title": "Todos os ícones"
@@ -24,9 +33,26 @@
         "optgroup": {
             "all": "Todos",
             "group": "Por grupos",
-            "letter": "Por letra inicial do ID"
+            "letter": "Por letra inicial do ID",
+            "local": "Por local de uso"
         },
-        "label": "Escolha o grupo exibido"
+        "label": "Escolha os ícones exibidos"
+    },
+    "filter": {
+        "select": {
+            "options": {
+                "all": "Todos os filtros",
+                "first-letter": "Primeira letra do ID",
+                "groups": "Grupo",
+                "usage-local": "Local de uso"
+            },
+            "optgroup": {
+                "filterby": "Filtre por"
+            },
+            "label": "Escolha o tipo de filtro"
+        },
+        "button": "Mostrar todos",
+        "toggle": "Abrir filtro"
     },
     "options": {
         "all": "Todos os ícones",
@@ -47,6 +73,7 @@
         "nature": "Ícones de Natureza",
         "tech": "Ícones de Tecnologia",
         "vehicles": "Ícones de Veículos",
-        "letter": "IDs com a letra {{letterChar}}"
+        "letter": "IDs com a letra {{letterChar}}",
+        "local": "Id {{localKey}}"
     }
 }

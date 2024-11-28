@@ -40,8 +40,8 @@ export const SelectBase = ({
 							customStyle !== undefined
 								? customStyle.select.border
 								: onHeader
-								? theme.blue
-								: theme.secondAccent
+									? theme.blue
+									: theme.secondAccent
 						}
 						size={fontSize * 16}
 						id={iconId}
@@ -53,7 +53,7 @@ export const SelectBase = ({
 					$hasButton={Button !== undefined}
 					onChange={onSelectChange}
 					id={id}
-					defaultValue={defaultValue}
+					value={defaultValue}
 				>
 					{defaultValue === "_" && (
 						<Option key={id + "-option-" + "_"} value={"_"}>

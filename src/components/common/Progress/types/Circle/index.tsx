@@ -15,20 +15,23 @@ import { ProgressBarProps } from "../.."
 export const ProgressCircle = ({
 	title,
 	progress,
-	color
+	color,
+	size
 }: ProgressBarProps) => {
 	const { done, total } = progress
 	return (
-		<ProgressWrapper>
+		<ProgressWrapper $isCircle>
 			<Circle
 				tabIndex={0}
-				$size={256}
+				$size={size === undefined ? 256 : size}
 				$color={color}
 				$percentage={(done / total) * 100}
 			>
 				<ProgressDefault max={total} value={done}></ProgressDefault>
 				<CircleInfo>
-					<CircleDoneLabel $color={color.done}>{done}</CircleDoneLabel>
+					<CircleDoneLabel $color={color.done}>
+						{done}
+					</CircleDoneLabel>
 					<CircleTotalLabel>{total}</CircleTotalLabel>
 				</CircleInfo>
 			</Circle>

@@ -2,7 +2,8 @@ import { IconItem, Id, IconWrapper, IconLink } from "./Icon.styled"
 import { IconProps } from "../types"
 import { SVGIcon } from "../../../common/client"
 
-export const Icon = ({ id, lng, color, size }: IconProps) => {
+export const Icon = ({ lng, info }: IconProps) => {
+	const { id, color, size } = info
 	return (
 		<IconItem>
 			<IconLink href={`/${lng}/icons/${id}`}>

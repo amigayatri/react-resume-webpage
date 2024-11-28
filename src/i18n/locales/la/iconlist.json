@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Global data",
-            "local": "Per locum: icones cum locatione '{{localKey}}'"
+            "local": "Icones cum locatione '{{localKey}}'"
         },
-        "title": "Icon usus mutant"
+        "title": "Current icon usus mutant",
+        "select": {
+            "label": "Elige locum",
+            "optgroup": {
+                "local": "Usus locus id"
+            },
+            "options": {
+                "local": "Id {{localKey}}"
+            }
+        }
     },
     "title": "Praesto icones",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "Instrumenta Musica Icones",
         "nature": "Natura Icones",
         "tech": "Technologia Icones",
-        "vehicles": "Vehiculum Icones"
+        "vehicles": "Vehiculum Icones",
+        "local": "Id {{localKey}}"
     },
     "select": {
-        "label": "Elige coetus ostendi",
+        "label": "Elige icones ostendi",
         "optgroup": {
             "all": "All",
             "group": "per circulos",
-            "letter": "Id per litteras initiales"
+            "letter": "Id per litteras initiales",
+            "local": "Per locum usus"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "Elige genus filter",
+            "optgroup": {
+                "filterby": "eliquare"
+            },
+            "options": {
+                "all": "Omnes Filtra",
+                "first-letter": "Prima littera est ID",
+                "groups": "Group",
+                "usage-local": "Locus usus"
+            }
+        },
+        "toggle": "Apertum filter",
+        "button": "Ostende omnia"
     }
 }

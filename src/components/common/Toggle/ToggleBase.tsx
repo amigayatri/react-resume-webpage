@@ -21,7 +21,6 @@ export const ToggleBase = ({
 			tabIndex={0}
 			aria-label={label}
 			onClick={() => {
-				console.log(state)
 				stateChangeFN()
 			}}
 			onKeyDown={(e) => e.key === "enter" && stateChangeFN()}
@@ -31,26 +30,20 @@ export const ToggleBase = ({
 				$darkBg={alwaysDark === true}
 				$customColor={customColor}
 			>
-				{icon.shouldChange ? (
-					<SVGIcon
-						lng={lng}
-						local="toggle"
-						size={size}
-						id={
-							state === icon.trueValAsStr
+				<SVGIcon
+					lng={lng}
+					local="toggle"
+					size={size}
+					id={
+						icon.shouldChange
+							? state === icon.trueValAsStr
 								? icon.options.true
 								: icon.options.false
-						}
-						isTrue={state === icon.trueValAsStr}
-					/>
-				) : (
-					<SVGIcon
-						local="toggle"
-						lng={lng}
-						size={size}
-						id={icon.id}
-					/>
-				)}
+							: icon.id
+					}
+					isTrue={state === icon.trueValAsStr}
+				/>
+				)
 			</ToggleWrapper>
 			{showLabel === true && (
 				<Label $customColor={customColor}>{label}</Label>

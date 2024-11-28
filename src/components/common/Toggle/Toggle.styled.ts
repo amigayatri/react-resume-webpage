@@ -5,7 +5,7 @@ import { ToggleIconWrapper } from "../../../icons/Elements/Common.styled"
 
 export const Wrapper = styled.div`
 	display: inline-flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 `
 export const Label = styled.span<{

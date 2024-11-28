@@ -1,11 +1,13 @@
 import {
-	getIcon,
 	getAllIconsIds,
-	markAsUsed,
+	getIcon,
 	getAllUsed,
 	getAvailableGroups,
 	getIconsFromGroup,
-	getIconsByFirstLetter
+	getIconsByFirstLetter,
+	getLocalSize,
+	getUsedByLocal,
+	getLocals
 } from "./maps"
 
 import { iconKey } from "./types"
@@ -13,11 +15,13 @@ import { iconKey } from "./types"
 export {
 	getAllIconsIds,
 	getIcon,
-	markAsUsed,
 	getAllUsed,
 	getAvailableGroups,
 	getIconsFromGroup,
-	getIconsByFirstLetter
+	getIconsByFirstLetter,
+	getLocalSize,
+	getUsedByLocal,
+	getLocals
 }
 
 export type { iconKey }

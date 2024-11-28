@@ -3,7 +3,6 @@ import { Music } from "../types"
 type getAsMS = (timeStr: string, isMinute?: boolean) => number
 const getAsMS: getAsMS = (timeStr, isMinute) => {
 	const time = Number.parseInt(timeStr)
-	console.log(time)
 	if (isMinute === true) {
 		return time * 60 * 1000
 	}

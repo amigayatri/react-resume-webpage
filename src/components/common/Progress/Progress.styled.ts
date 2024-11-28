@@ -52,9 +52,11 @@ export const Bar = styled.div<{
 	border-radius: ${({ $full }) => ($full ? "4px" : "4px 0 0 4px")};
 `
 
-export const ProgressWrapper = styled.div`
+export const ProgressWrapper = styled.div<{ $isCircle?: boolean }>`
 	position: relative;
-
+	width: ${({ $isCircle }) => ($isCircle === true ? "fit-content" : "100%")};
+	display: ${({ $isCircle }) =>
+		$isCircle === true ? "inline-block" : "block"};
 	&:hover
 		> ${TitleWrapper}
 		> ${ProgressTitle},
