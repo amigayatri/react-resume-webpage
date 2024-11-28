@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "グローバルデータ",
-            "local": "場所別: 場所「{{localKey}}」のアイコン"
+            "local": "場所「{{localKey}}」のアイコン"
         },
-        "title": "アイコンの使用統計"
+        "title": "現在のアイコン使用統計",
+        "select": {
+            "label": "場所を選択してください",
+            "optgroup": {
+                "local": "ロケーションIDを使用する"
+            },
+            "options": {
+                "local": "ID {{localKey}}"
+            }
+        }
     },
     "title": "利用可能なアイコン",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "楽器のアイコン",
         "nature": "自然のアイコン",
         "tech": "テクノロジーのアイコン",
-        "vehicles": "車両のアイコン"
+        "vehicles": "車両のアイコン",
+        "local": "ID {{localKey}}"
     },
     "select": {
-        "label": "表示されているグループを選択してください",
+        "label": "表示されるアイコンを選択します",
         "optgroup": {
             "all": "全て",
             "group": "グループ別",
-            "letter": "IDの頭文字別"
+            "letter": "IDの頭文字別",
+            "local": "使用場所別"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "フィルターの種類を選択してください",
+            "optgroup": {
+                "filterby": "フィルター条件"
+            },
+            "options": {
+                "all": "すべてのフィルター",
+                "first-letter": "IDの最初の文字",
+                "groups": "グループ",
+                "usage-local": "使用場所"
+            }
+        },
+        "toggle": "フィルターを開く",
+        "button": "すべて表示"
     }
 }

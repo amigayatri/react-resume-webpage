@@ -10,6 +10,7 @@ interface ProgressProps {
 export interface ProgressBarProps extends ElementProps {
 	title: string
 	progress: ProgressProps
+	size?: number
 	color: {
 		done: string
 		total: string

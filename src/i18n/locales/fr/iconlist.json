@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Données mondiales",
-            "local": "Par emplacement : icônes avec l'emplacement '{{localKey}}'"
+            "local": "Icônes avec l'emplacement '{{localKey}}'"
         },
-        "title": "Statistiques d'utilisation des icônes"
+        "title": "Statistiques actuelles d'utilisation des icônes",
+        "select": {
+            "label": "Choisissez l'emplacement",
+            "optgroup": {
+                "local": "Utiliser l'identifiant de localisation"
+            },
+            "options": {
+                "local": "Identifiant {{localKey}}"
+            }
+        }
     },
     "title": "Icônes disponibles",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "Icônes d’instruments de musique",
         "nature": "Icônes naturelles",
         "tech": "Icônes technologiques",
-        "vehicles": "Icônes de véhicules"
+        "vehicles": "Icônes de véhicules",
+        "local": "Identifiant {{localKey}}"
     },
     "select": {
-        "label": "Choisissez le groupe affiché",
+        "label": "Choisissez les icônes affichées",
         "optgroup": {
             "all": "Tous",
             "group": "Par groupes",
-            "letter": "Par lettre d'identité initiale"
+            "letter": "Par lettre d'identité initiale",
+            "local": "Par lieu d'utilisation"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "Choisissez le type de filtre",
+            "optgroup": {
+                "filterby": "Filtrer par"
+            },
+            "options": {
+                "all": "Tous les filtres",
+                "first-letter": "Première lettre d'identité",
+                "groups": "Groupe",
+                "usage-local": "Lieu d'utilisation"
+            }
+        },
+        "toggle": "Ouvrir le filtre",
+        "button": "Afficher tout"
     }
 }

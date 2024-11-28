@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Global data",
-            "local": "By location: icons with location '{{localKey}}'"
+            "local": "Icons with location '{{localKey}}'"
         },
-        "title": "Icon usage statistics"
+        "title": "Current icon usage statistics",
+        "select": {
+            "label": "Choose the location",
+            "optgroup": {
+                "local": "Use location id"
+            },
+            "options": {
+                "local": "Id {{localKey}}"
+            }
+        }
     },
     "title": "Available icons",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "Musical Instruments Icons",
         "nature": "Nature Icons",
         "tech": "Technology Icons",
-        "vehicles": "Vehicle Icons"
+        "vehicles": "Vehicle Icons",
+        "local": "Id {{localKey}}"
     },
     "select": {
-        "label": "Choose the displayed group",
+        "label": "Choose the icons displayed",
         "optgroup": {
             "all": "All",
             "group": "By groups",
-            "letter": "By initial letter of ID"
+            "letter": "By initial letter of ID",
+            "local": "By place of use"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "Choose filter type",
+            "optgroup": {
+                "filterby": "Filter by"
+            },
+            "options": {
+                "all": "All filters",
+                "first-letter": "First letter of ID",
+                "groups": "Group",
+                "usage-local": "Place of use"
+            }
+        },
+        "toggle": "Open filter",
+        "button": "Show all"
     }
 }

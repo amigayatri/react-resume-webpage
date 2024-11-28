@@ -1,14 +1,9 @@
 import { iconKey } from "../types"
 import { allIcons } from "./all"
-import { markAsUsed } from "./used"
 
-type getIconFn = (
-	id: iconKey,
-	local: string
-) => ((props: any) => JSX.Element) | undefined
+type getIconFn = (id: iconKey) => ((props: any) => JSX.Element) | undefined
 
-const getIcon: getIconFn = (id, local) => {
-	markAsUsed(id, local)
+const getIcon: getIconFn = (id) => {
 	return allIcons.get(id)
 }
 

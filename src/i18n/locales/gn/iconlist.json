@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Dato global rehegua",
-            "local": "Mohendaha rupive: techaukaha oguerekóva tenda '{{localKey}}'."
+            "local": "Umi techaukaha oguerekóva tenda '{{localKey}}'."
         },
-        "title": "Icono jeporu rehegua estadística"
+        "title": "Estadísticas icono jeporu rehegua ko’áĝagua",
+        "select": {
+            "label": "Eiporavo moõpa oĩ",
+            "optgroup": {
+                "local": "Eipuru id tenda rehegua"
+            },
+            "options": {
+                "local": "Id {{Tecla local}} Ñe'ẽpoty ha ñe'ẽpoty ñemohenda."
+            }
+        }
     },
     "title": "Umi icono ojeguerekóva",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "Instrumento Musical rehegua Iconos",
         "nature": "Iconos de la Naturaleza rehegua",
         "tech": "Tecnología rehegua Iconos",
-        "vehicles": "Mba’yrumýi Icono-kuéra"
+        "vehicles": "Mba’yrumýi Icono-kuéra",
+        "local": "Id {{Tecla local}} Ñe'ẽpoty ha ñe'ẽpoty ñemohenda."
     },
     "select": {
-        "label": "Eiporavo pe aty ojehechaukáva",
+        "label": "Eiporavo umi icono ojehechaukáva",
         "optgroup": {
             "all": "Opavave",
             "group": "Atykuéra rupive",
-            "letter": "Kuatia ñepyrũrã ID rupive"
+            "letter": "Kuatia ñepyrũrã ID rupive",
+            "local": "Pe tenda ojeporúva rupive"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "Eiporavo tipo filtro rehegua",
+            "optgroup": {
+                "filterby": "Ojefiltra por"
+            },
+            "options": {
+                "all": "Opaite filtro rehegua",
+                "first-letter": "Peteĩha kuatiañe’ẽ ID rehegua",
+                "groups": "Aty",
+                "usage-local": "Tenda ojeporúva"
+            }
+        },
+        "toggle": "Ojepe’a filtro",
+        "button": "Ehechauka opa mba’e"
     }
 }

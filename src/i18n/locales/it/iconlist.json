@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Dati globali",
-            "local": "Per posizione: icone con posizione '{{localKey}}'"
+            "local": "Icone con posizione '{{localKey}}'"
         },
-        "title": "Statistiche sull'utilizzo delle icone"
+        "title": "Statistiche attuali sull'utilizzo delle icone",
+        "select": {
+            "label": "Scegli la posizione",
+            "optgroup": {
+                "local": "Utilizza l'ID della posizione"
+            },
+            "options": {
+                "local": "ID {{localKey}}"
+            }
+        }
     },
     "title": "Icone disponibili",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "Icone di strumenti musicali",
         "nature": "Icone della natura",
         "tech": "Icone della tecnologia",
-        "vehicles": "Icone del veicolo"
+        "vehicles": "Icone del veicolo",
+        "local": "ID {{localKey}}"
     },
     "select": {
-        "label": "Scegli il gruppo visualizzato",
+        "label": "Scegli le icone visualizzate",
         "optgroup": {
             "all": "Tutto",
             "group": "Per gruppi",
-            "letter": "Con la lettera iniziale dell'ID"
+            "letter": "Con la lettera iniziale dell'ID",
+            "local": "Per luogo di utilizzo"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "Scegli il tipo di filtro",
+            "optgroup": {
+                "filterby": "Filtra per"
+            },
+            "options": {
+                "all": "Tutti i filtri",
+                "first-letter": "Prima lettera dell'ID",
+                "groups": "Gruppo",
+                "usage-local": "Luogo di utilizzo"
+            }
+        },
+        "toggle": "Apri filtro",
+        "button": "Mostra tutto"
     }
 }

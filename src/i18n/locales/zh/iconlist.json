@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "全球数据",
-            "local": "按位置：位置为 {{localKey}} 的图标"
+            "local": "位置为“{{localKey}}”的图标"
         },
-        "title": "图标使用统计"
+        "title": "当前图标使用统计",
+        "select": {
+            "label": "选择地点",
+            "optgroup": {
+                "local": "使用位置 ID"
+            },
+            "options": {
+                "local": "ID {{localKey}}"
+            }
+        }
     },
     "title": "可用图标",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "乐器图标",
         "nature": "自然图标",
         "tech": "技术图标",
-        "vehicles": "车辆图标"
+        "vehicles": "车辆图标",
+        "local": "ID {{localKey}}"
     },
     "select": {
-        "label": "选择显示的组",
+        "label": "选择显示的图标",
         "optgroup": {
             "all": "全部",
             "group": "按组别",
-            "letter": "通过身份证件首字母"
+            "letter": "通过身份证件首字母",
+            "local": "按使用地点"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "选择过滤器类型",
+            "optgroup": {
+                "filterby": "过滤依据"
+            },
+            "options": {
+                "all": "所有过滤器",
+                "first-letter": "身份证件的第一个字母",
+                "groups": "团体",
+                "usage-local": "使用地点"
+            }
+        },
+        "toggle": "打开过滤器",
+        "button": "显示全部"
     }
 }

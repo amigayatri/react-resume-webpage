@@ -12,9 +12,18 @@
         },
         "sections": {
             "global": "Globale Daten",
-            "local": "Nach Standort: Symbole mit Standort '{{localKey}}'"
+            "local": "Symbole mit Standort „{{localKey}}“"
         },
-        "title": "Statistiken zur Symbolnutzung"
+        "title": "Aktuelle Statistik zur Symbolnutzung",
+        "select": {
+            "label": "Wählen Sie den Standort",
+            "optgroup": {
+                "local": "Standort-ID verwenden"
+            },
+            "options": {
+                "local": "ID {{localKey}}"
+            }
+        }
     },
     "title": "Verfügbare Symbole",
     "all": {
@@ -39,14 +48,32 @@
         "musicinstruments": "Musikinstrumente-Ikonen",
         "nature": "Natur-Ikonen",
         "tech": "Technologie-Ikonen",
-        "vehicles": "Fahrzeugsymbole"
+        "vehicles": "Fahrzeugsymbole",
+        "local": "ID {{localKey}}"
     },
     "select": {
-        "label": "Wählen Sie die angezeigte Gruppe aus",
+        "label": "Wählen Sie die angezeigten Symbole aus",
         "optgroup": {
             "all": "Alle",
             "group": "Nach Gruppen",
-            "letter": "Per Anfangsbuchstabe des Personalausweises"
+            "letter": "Per Anfangsbuchstabe des Personalausweises",
+            "local": "Nach Einsatzort"
         }
+    },
+    "filter": {
+        "select": {
+            "label": "Wählen Sie den Filtertyp",
+            "optgroup": {
+                "filterby": "Filtern nach"
+            },
+            "options": {
+                "all": "Alle Filter",
+                "first-letter": "Erster Buchstabe des Personalausweises",
+                "groups": "Gruppe",
+                "usage-local": "Einsatzort"
+            }
+        },
+        "toggle": "Filter öffnen",
+        "button": "Alle anzeigen"
     }
 }

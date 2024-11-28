@@ -14,7 +14,7 @@ export const SVGIconBase = ({
 	t
 }: SVGElBaseProps) => {
 	const alt = t(`alt.${id}`)
-	const IconEl = getIcon(id, local)
+	const IconEl = getIcon(id)
 	if (IconEl === undefined) return
 	return (
 		<IconEl

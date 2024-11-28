@@ -1,14 +1,21 @@
-import { SelectWrapper, FilterWrapper } from "./Filter.styled"
-import { generateGroupOptions } from "./options"
-import { Select, Toggle } from "../../../../../common/client"
-import { ToggleIconProps, GroupProps } from "../../../../../../types/common"
+import {
+	SelectsWrapper,
+	FilterWrapper,
+	ToggleContainer,
+	AllButton,
+	ButtonContent,
+	ButtonLabel
+} from "./Filter.styled"
+import { generateFilterOptions, getOptions } from "./options"
+import { Select, SVGIcon, Toggle } from "../../../../../common/client"
+import { ToggleIconProps } from "../../../../../../types/common"
 import { useEffect, useState } from "react"
 import { FilterProps } from "../types"
 
 const filterIconSettings: ToggleIconProps = {
 	id: "filter",
 	trueValAsStr: "showing",
-	shouldChange: true,
+	shouldChange: false,
 	options: {
 		true: "filter",
 		false: "filteroff"
@@ -18,12 +25,12 @@ const filterIconSettings: ToggleIconProps = {
 const notShowing = "not-showing"
 const showing = "showing"
 
-const emptyOptions: GroupProps[] = []
-
 export const Filter = ({ lng, handleGroups, t }: FilterProps) => {
-	const [options, setOptions] = useState(emptyOptions)
 	const [showingFilter, setShowingFilter] = useState("not-showing")
 	const [selectedGroup, setSelectedGroup] = useState("all")
+	const [filterOptions] = useState(generateFilterOptions())
+	const [selectedFilter, setSelectedFilter] = useState("groups")
+	const [options, setOptions] = useState(getOptions("all"))
 
 	const handleShowFilter = () => {
 		if (showingFilter == showing) setShowingFilter(notShowing)
@@ -31,25 +38,56 @@ export const Filter = ({ lng, handleGroups, t }: FilterProps) => {
 	}
 
 	useEffect(() => {
-		const options = generateGroupOptions()
-		setOptions(options)
-	}, [])
-
-	useEffect(() => {
 		handleGroups(selectedGroup)
-	}, [selectedGroup])
+		setOptions(getOptions(selectedFilter))
+	}, [selectedGroup, selectedFilter])
 
 	return (
-		<FilterWrapper>
-			<Toggle
-				size={32}
-				lng={lng}
-				icon={filterIconSettings}
-				label={""}
-				stateChangeFN={handleShowFilter}
-				state={showingFilter}
-			/>
-			<SelectWrapper $showing={showing === showingFilter}>
+		<FilterWrapper $showing={showing == showingFilter}>
+			<ToggleContainer>
+				<Toggle
+					size={24}
+					lng={lng}
+					icon={filterIconSettings}
+					label={t("filter.toggle")}
+					showLabel
+					stateChangeFN={handleShowFilter}
+					state={showingFilter}
+				/>
+				<AllButton
+					$showing={
+						selectedGroup !== "all" && showingFilter == showing
+					}
+					onClick={() => {
+						setSelectedGroup("all")
+					}}
+				>
+					<ButtonContent>
+						<SVGIcon
+							size={24}
+							lng={lng}
+							local="icon-filter"
+							id="filteroff"
+						/>
+						<ButtonLabel>{t("filter.button")}</ButtonLabel>
+					</ButtonContent>
+				</AllButton>
+			</ToggleContainer>
+			<SelectsWrapper>
+				<Select
+					defaultValue={selectedFilter}
+					label={t("filter.select.label")}
+					options={filterOptions}
+					id="filter-options"
+					fontSize={1.125}
+					lng={lng}
+					onHeader={false}
+					local="iconlist"
+					namespace="iconlist"
+					onSelectChange={({ target }) => {
+						setSelectedFilter(target.value)
+					}}
+				/>
 				<Select
 					defaultValue={selectedGroup}
 					label={t("select.label")}
@@ -62,10 +100,9 @@ export const Filter = ({ lng, handleGroups, t }: FilterProps) => {
 					namespace="iconlist"
 					onSelectChange={({ target }) => {
 						setSelectedGroup(target.value)
-						setShowingFilter(notShowing)
 					}}
 				/>
-			</SelectWrapper>
+			</SelectsWrapper>
 		</FilterWrapper>
 	)
 }

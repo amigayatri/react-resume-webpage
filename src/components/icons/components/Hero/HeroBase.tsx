@@ -3,7 +3,7 @@ import { MulticoloredName } from "../../../common/client.tsx"
 import { UsedIcons } from "../UsedIcons/client.tsx"
 import { HeroBaseProps } from "../types.ts"
 
-export const HeroBase = ({ t, lng }: HeroBaseProps) => {
+export const HeroBase = ({ t, lng, currIcons }: HeroBaseProps) => {
 	return (
 		<HeroWrapper>
 			<Title>
@@ -18,7 +18,7 @@ export const HeroBase = ({ t, lng }: HeroBaseProps) => {
 					{t("title")}
 				</MulticoloredName>
 			</Title>
-			<UsedIcons lng={lng} />
+			<UsedIcons lng={lng} currIcons={currIcons} />
 		</HeroWrapper>
 	)
 }
