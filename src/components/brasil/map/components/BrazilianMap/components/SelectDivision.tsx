@@ -17,6 +17,7 @@ export const SelectDivision = ({
 			fontSize={1.5}
 			onHeader={false}
 			lng={lng}
+			iconId="brasil"
 			onSelectChange={({ target }) => changeDivision(target.value)}
 			id="select-division"
 			namespace="map"

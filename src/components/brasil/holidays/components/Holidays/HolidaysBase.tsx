@@ -30,10 +30,8 @@ export const HolidaysBase = ({ t, lng }: HolidaysBaseProps) => {
 			<CitySelector
 				t={t}
 				lng={lng}
-				thisYear={thisYear}
-				nextYear={nextYear}
-				setThisYear={setThisYear}
-				setNextYear={setNextYear}
+				thisYearState={[thisYear, setThisYear]}
+				nextYearState={[nextYear, setNextYear]}
 			/>
 			<List>
 				<Tab tabIndex="0">{t("tabs.this")}</Tab>

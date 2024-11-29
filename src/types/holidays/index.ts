@@ -1,3 +1,5 @@
+import { iconKey } from "../common"
+
 export interface HolidayProps {
 	type: string
 	date: Date
@@ -6,6 +8,7 @@ export interface HolidayProps {
 export interface StateProps {
 	name: string
 	twoLetters: string
+	icon: iconKey
 }
 export interface RawHoliday {
 	type: string

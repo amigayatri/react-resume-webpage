@@ -2,7 +2,9 @@
 
 import styled from "styled-components"
 
-export const HolidayListWrapper = styled.section``
+export const HolidayListWrapper = styled.section`
+	min-height: var(--fullpage);
+`
 export const List = styled.ul`
 	list-style: none;
 	padding: 0;

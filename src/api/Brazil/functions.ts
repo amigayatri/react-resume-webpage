@@ -1,3 +1,5 @@
+import { iconKey } from "../../icons"
+import { iconExists } from "../../icons/maps/functions"
 import { RawMunicipal, HolidayProps, RawHoliday } from "../../types/holidays"
 
 type readJsonState = (state: string) => Promise<RawMunicipal[]>
@@ -65,7 +67,9 @@ export const hasPassed: hasPassed = (now, holiday) => {
 
 type getNextYearDate = (date: string, currYear: number) => Date
 const getNextYearDate: getNextYearDate = (date, currYear) => {
-	return new Date(date.replace(currYear.toString(), (currYear + 1).toString()))
+	return new Date(
+		date.replace(currYear.toString(), (currYear + 1).toString())
+	)
 }
 type formatHoliday = (
 	raw: RawHoliday | RawMunicipal,
@@ -99,4 +103,17 @@ export const formatHoliday: formatHoliday = (
 			date: holiday
 		}
 	}
+}
+
+type getStateIcon = (state: string) => iconKey
+export const getStateIcon: getStateIcon = (state) => {
+	let asArr = state.split("")
+	const withoutSpace = cleanName(
+		asArr
+			.filter((char) => char !== " ")
+			.join("")
+			.toLowerCase()
+	)
+	if (iconExists(withoutSpace)) return withoutSpace as iconKey
+	return "brasil"
 }

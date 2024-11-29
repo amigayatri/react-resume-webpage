@@ -2,11 +2,11 @@ import { Dispatch, SetStateAction } from "react"
 import { BaseElementProps, ElementProps } from "../../../types/common"
 import { HolidayProps, StateProps } from "../../../types/holidays"
 
+type holidayState = [HolidayProps[], Dispatch<SetStateAction<HolidayProps[]>>]
+
 export interface CitySelectorProps extends BaseElementProps {
-	thisYear: HolidayProps[]
-	nextYear: HolidayProps[]
-	setThisYear: Dispatch<SetStateAction<HolidayProps[]>>
-	setNextYear: Dispatch<SetStateAction<HolidayProps[]>>
+	thisYearState: holidayState
+	nextYearState: holidayState
 }
 export type emptyStates = StateProps[]
 export type emptyHolidays = HolidayProps[]

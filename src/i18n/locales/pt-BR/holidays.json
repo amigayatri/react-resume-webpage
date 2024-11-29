@@ -1,8 +1,14 @@
 {
     "addMunicipal": "Adicionar feriados de {{cityName}}, {{stateName}}",
-    "labels": {
-        "state": "Estado",
-        "city": "Cidade"
+    "select": {
+        "optgroup": {
+            "states": "Unidades federativas",
+            "cities": "Cidades {{possessivePronoum}} {{stateName}}"
+        },
+        "labels": {
+            "state": "Estado",
+            "city": "Cidade"
+        }
     },
     "description": {
         "extended": "Fim de semana prolongado",

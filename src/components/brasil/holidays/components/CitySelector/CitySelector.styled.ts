@@ -25,6 +25,7 @@ export const Button = styled.button`
 	background-color: ${({ theme }) => theme.almostBlack};
 	color: ${({ theme }) => theme.white};
 	border: 2px solid currentColor;
+	flex: 1;
 `
 export const OpenText = styled.span`
 	text-transform: capitalize;
@@ -55,6 +56,7 @@ export const Selectors = styled.div`
 	display: flex;
 	padding-right: 32px;
 	flex-direction: column;
+	flex: 2;
 `
 export const CitiesWrapper = styled.div<{ $isOpen: boolean }>`
 	overflow: hidden;
