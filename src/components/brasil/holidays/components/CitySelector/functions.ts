@@ -57,12 +57,10 @@ const generateCityOptions: generateCityOptions = async (state) => {
 		for (const city of cities) {
 			options.push({ value: city, key: city })
 		}
-		console.log(state, getPronouns(state), state)
 		return {
-			groupKey: `${optgroupPreffix}.cities`,
+			groupKey: `${optgroupPreffix}.cities.${getPronouns(state)}`,
 			tOptionsGroup: {
-				stateName: getStateName(state),
-				possessivePronoum: getPronouns(state)
+				stateName: getStateName(state)
 			},
 			options
 		}

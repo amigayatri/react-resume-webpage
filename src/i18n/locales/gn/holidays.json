@@ -1,9 +1,6 @@
 {
     "addMunicipal": "Emoĩve arete {{cityName}}, {{stateName}} guive.",
-    "labels": {
-        "state": "Teko",
-        "city": "Táva"
-    },
+    "labels": {},
     "description": {
         "extended": "Fin de semana pukukue",
         "midweek": "Arapokõindy aja",
@@ -31,5 +28,19 @@
         "municipal": "Municipal rehegua",
         "national": "Tetãygua"
     },
-    "days-untill": "<1>{{áraPeteĩ}}</1> ára peve"
+    "days-untill": "<1>{{áraPeteĩ}}</1> ára peve",
+    "select": {
+        "labels": {
+            "city": "Táva",
+            "state": "Teko"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Táva oĩva {{stateName}}-pe.",
+                "masculine": "Táva oĩva {{stateName}}-pe.",
+                "neutral": "Táva oĩva {{stateName}}-pe."
+            },
+            "states": "Unidades federales rehegua"
+        }
+    }
 }

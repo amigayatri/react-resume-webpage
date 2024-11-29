@@ -1,9 +1,6 @@
 {
     "addMunicipal": "{{cityName}}、{{stateName}}の祝日を追加",
-    "labels": {
-        "state": "州",
-        "city": "市"
-    },
+    "labels": {},
     "description": {
         "extended": "長い週末",
         "midweek": "平日",
@@ -31,5 +28,19 @@
         "municipal": "市営",
         "national": "全国"
     },
-    "days-untill": "<1>{{daysUntill}}</1> 日まで"
+    "days-untill": "<1>{{daysUntill}}</1> 日まで",
+    "select": {
+        "labels": {
+            "city": "市",
+            "state": "州"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "{{stateName}}の都市",
+                "masculine": "{{stateName}}の都市",
+                "neutral": "{{stateName}}の都市"
+            },
+            "states": "連邦単位"
+        }
+    }
 }

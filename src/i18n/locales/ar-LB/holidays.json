@@ -1,35 +1,46 @@
 {
-  "addMunicipal": "أضف أيام العطل من {{cityName}}، {{stateName}}",
-  "description": {
-    "extended": "عطلة نهاية أسبوع طويلة",
-    "midweek": "خلال الاسبوع",
-    "weekends": "في عطلة نهاية الأسبوع"
-  },
-  "element": {
-    "onWeekend": {
-      "false": "خلال الاسبوع",
-      "true": "في عطلة نهاية الأسبوع"
+    "addMunicipal": "أضف أيام العطل من {{cityName}}، {{stateName}}",
+    "description": {
+        "extended": "عطلة نهاية أسبوع طويلة",
+        "midweek": "خلال الاسبوع",
+        "weekends": "في عطلة نهاية الأسبوع"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "خلال الاسبوع",
+            "true": "في عطلة نهاية الأسبوع"
+        }
+    },
+    "labels": {},
+    "list": {
+        "year": "{{yearNumber}} عطلات"
+    },
+    "open": {
+        "false": "اختر مدينة",
+        "true": "إغلاق محدد المدينة"
+    },
+    "tabs": {
+        "next": "العام القادم",
+        "this": "هذا العام"
+    },
+    "title": "العطلات البرازيلية",
+    "types": {
+        "municipal": "البلدية",
+        "national": "وطني"
+    },
+    "days-untill": "Faltam <1>{{daysUntill}}</1> dias",
+    "select": {
+        "labels": {
+            "city": "مدينة",
+            "state": "ولاية"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "مدن في {{stateName}}",
+                "masculine": "مدن في {{stateName}}",
+                "neutral": "مدن في {{stateName}}"
+            },
+            "states": "الوحدات الفيدرالية"
+        }
     }
-  },
-  "labels": {
-    "city": "مدينة",
-    "state": "ولاية"
-  },
-  "list": {
-    "year": "{{yearNumber}} عطلات"
-  },
-  "open": {
-    "false": "اختر مدينة",
-    "true": "إغلاق محدد المدينة"
-  },
-  "tabs": {
-    "next": "العام القادم",
-    "this": "هذا العام"
-  },
-  "title": "العطلات البرازيلية",
-  "types": {
-    "municipal": "البلدية",
-    "national": "وطني"
-  },
-  "days-untill": "Faltam <1>{{daysUntill}}</1> dias"
 }

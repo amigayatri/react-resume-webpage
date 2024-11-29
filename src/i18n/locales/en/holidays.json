@@ -11,10 +11,7 @@
             "true": "On the weekend"
         }
     },
-    "labels": {
-        "city": "City",
-        "state": "State"
-    },
+    "labels": {},
     "list": {
         "year": "{{yearNumber}} Holidays"
     },
@@ -31,5 +28,19 @@
         "municipal": "Municipal",
         "national": "National"
     },
-    "days-untill": "<1>{{daysUntill}}</1> days untill"
+    "days-untill": "<1>{{daysUntill}}</1> days untill",
+    "select": {
+        "labels": {
+            "city": "City",
+            "state": "State"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Cities in {{stateName}}",
+                "masculine": "Cities in {{stateName}}",
+                "neutral": "Cities in {{stateName}}"
+            },
+            "states": "Federative units"
+        }
+    }
 }

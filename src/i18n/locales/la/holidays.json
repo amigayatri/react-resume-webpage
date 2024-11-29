@@ -1,9 +1,6 @@
 {
     "addMunicipal": "Adde ferias a {{Name}}, {{stateName}}",
-    "labels": {
-        "state": "publicae",
-        "city": "urbs"
-    },
+    "labels": {},
     "description": {
         "extended": "Donec volutpat vestibulum",
         "midweek": "Per septimana",
@@ -31,5 +28,19 @@
         "municipal": "Municipal",
         "national": "National"
     },
-    "days-untill": "<1>{{dies usque ad}}</1> dies usque ad"
+    "days-untill": "<1>{{dies usque ad}}</1> dies usque ad",
+    "select": {
+        "labels": {
+            "city": "urbs",
+            "state": "publicae"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Urbes in {{stateName}}",
+                "masculine": "Urbes in {{stateName}}",
+                "neutral": "Urbes in {{stateName}}"
+            },
+            "states": "Foederati unitates"
+        }
+    }
 }

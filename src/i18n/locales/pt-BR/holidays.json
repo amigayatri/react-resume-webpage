@@ -3,7 +3,11 @@
     "select": {
         "optgroup": {
             "states": "Unidades federativas",
-            "cities": "Cidades {{possessivePronoum}} {{stateName}}"
+            "cities": {
+                "feminine": "Cidades da {{stateName}}",
+                "masculine": "Cidades do {{stateName}}",
+                "neutral": "Cidades de {{stateName}}"
+            }
         },
         "labels": {
             "state": "Estado",

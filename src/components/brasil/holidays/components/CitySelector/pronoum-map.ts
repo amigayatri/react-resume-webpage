@@ -1,4 +1,4 @@
-type statePossessivePronouns = "de" | "da" | "do" | ""
+type statePossessivePronouns = "neutral" | "feminine" | "masculine" | ""
 
 type pronoumSet = Set<string>
 const masculine: pronoumSet = new Set([
@@ -36,9 +36,9 @@ type getPronouns = (state: string) => statePossessivePronouns
 
 const getPronouns: getPronouns = (state) => {
 	const lowercase = Array.from(state).join("").toLowerCase()
-	if (masculine.has(lowercase)) return "do"
-	if (neutral.has(lowercase)) return "de"
-	if (feminine.has(lowercase)) return "da"
+	if (masculine.has(lowercase)) return "masculine"
+	if (neutral.has(lowercase)) return "neutral"
+	if (feminine.has(lowercase)) return "feminine"
 	return ""
 }
 

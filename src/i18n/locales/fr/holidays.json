@@ -1,9 +1,6 @@
 {
     "addMunicipal": "Ajouter des jours fériés de {{cityName}}, {{stateName}}",
-    "labels": {
-        "state": "État",
-        "city": "Ville"
-    },
+    "labels": {},
     "description": {
         "extended": "Long week-end",
         "midweek": "Pendant la semaine",
@@ -31,5 +28,19 @@
         "municipal": "Municipal",
         "national": "National"
     },
-    "days-untill": "<1>{{daysUntill}}</1> jours jusqu'à"
+    "days-untill": "<1>{{daysUntill}}</1> jours jusqu'à",
+    "select": {
+        "labels": {
+            "city": "Ville",
+            "state": "État"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Villes de {{stateName}}",
+                "masculine": "Villes de {{stateName}}",
+                "neutral": "Villes de {{stateName}}"
+            },
+            "states": "Unités fédératives"
+        }
+    }
 }

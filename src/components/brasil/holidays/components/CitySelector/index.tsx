@@ -38,11 +38,8 @@ export const CitySelector = ({
 	const handleAdd = () => {
 		present.set(selectedCity + "-" + selectedState, [])
 		getNewHolidays(selectedState, selectedCity).then((newHolidays) => {
-			console.log(newHolidays)
-			const currListThisYear = Array.from(thisYear)
-			const currListNextYear = Array.from(nextYear)
-			currListThisYear.push(...newHolidays.thisYear)
-			currListNextYear.push(...newHolidays.nextYear)
+			const currListThisYear = [...thisYear, ...newHolidays.thisYear]
+			const currListNextYear = [...nextYear, ...newHolidays.nextYear]
 			setThisYear(currListThisYear)
 			setNextYear(currListNextYear)
 		})
