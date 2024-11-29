@@ -17,22 +17,22 @@ import { techKey } from "./Elements/Tech/types.ts"
 import { vehiclesKey } from "./Elements/Vehicles/types.ts"
 
 type iconKey =
-	| ancientKey
-	| animalsKey
-	| brasilKey
-	| charactersKey
-	| facesKey
-	| foodKey
-	| generalKey
-	| geographyKey
-	| interfaceKey
-	| logoKey
-	| mapKey
-	| mediaKey
-	| miscKey
-	| musicinstrumentsKey
-	| natureKey
-	| techKey
-	| vehiclesKey
+    | ancientKey
+    | animalsKey
+    | brasilKey
+    | charactersKey
+    | facesKey
+    | foodKey
+    | generalKey
+    | geographyKey
+    | interfaceKey
+    | logoKey
+    | mapKey
+    | mediaKey
+    | miscKey
+    | musicinstrumentsKey
+    | natureKey
+    | techKey
+    | vehiclesKey
 
 export type { iconKey }

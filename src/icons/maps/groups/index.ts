@@ -16,26 +16,24 @@ import { musicinstrumentsIconsSet } from "./musicinstruments"
 import { natureIconsSet } from "./nature"
 import { techIconsSet } from "./tech"
 import { vehiclesIconsSet } from "./vehicles"
-
 const entries: groupsSetsEntries = [
-	["ancient", ancientIconsSet],
-	["animals", animalsIconsSet],
-	["brasil", brasilIconsSet],
-	["characters", charactersIconsSet],
-	["faces", facesIconsSet],
-	["food", foodIconsSet],
-	["general", generalIconsSet],
-	["geography", geographyIconsSet],
-	["interface", interfaceIconsSet],
-	["logo", logoIconsSet],
-	["map", mapIconsSet],
-	["media", mediaIconsSet],
-	["misc", miscIconsSet],
-	["musicinstruments", musicinstrumentsIconsSet],
-	["nature", natureIconsSet],
-	["tech", techIconsSet],
-	["vehicles", vehiclesIconsSet]
+    ["ancient", ancientIconsSet],
+    ["animals", animalsIconsSet],
+    ["brasil", brasilIconsSet],
+    ["characters", charactersIconsSet],
+    ["faces", facesIconsSet],
+    ["food", foodIconsSet],
+    ["general", generalIconsSet],
+    ["geography", geographyIconsSet],
+    ["interface", interfaceIconsSet],
+    ["logo", logoIconsSet],
+    ["map", mapIconsSet],
+    ["media", mediaIconsSet],
+    ["misc", miscIconsSet],
+    ["musicinstruments", musicinstrumentsIconsSet],
+    ["nature", natureIconsSet],
+    ["tech", techIconsSet],
+    ["vehicles", vehiclesIconsSet]
 ]
-
 export const groupsSets: groupsSetsMap = new Map(entries)
 export const availableGroups: string[] = Array.from(groupsSets.keys())

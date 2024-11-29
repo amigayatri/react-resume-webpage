@@ -6,28 +6,19 @@
             "label": "{{actionVerb}} estatísticas detalhadas",
             "show": "mostre"
         },
-        "progress": {
-            "unused": "Não utilizados",
-            "used": "Utilizados"
-        },
+        "progress": { "unused": "Não utilizados", "used": "Utilizados" },
         "sections": {
             "global": "Dados globais",
             "local": "Ícones com o local '{{localKey}}'"
         },
         "title": "Estátisticas de uso dos ícones atuais",
         "select": {
-            "optgroup": {
-                "local": "Id do local de uso"
-            },
-            "options": {
-                "local": "Id {{localKey}}"
-            },
+            "optgroup": { "local": "Id do local de uso" },
+            "options": { "local": "Id {{localKey}}" },
             "label": "Escolha o local"
         }
     },
-    "all": {
-        "title": "Todos os ícones"
-    },
+    "all": { "title": "Todos os ícones" },
     "title": "Ícones disponíveis",
     "select": {
         "optgroup": {
@@ -46,9 +37,7 @@
                 "groups": "Grupo",
                 "usage-local": "Local de uso"
             },
-            "optgroup": {
-                "filterby": "Filtre por"
-            },
+            "optgroup": { "filterby": "Filtre por" },
             "label": "Escolha o tipo de filtro"
         },
         "button": "Mostrar todos",

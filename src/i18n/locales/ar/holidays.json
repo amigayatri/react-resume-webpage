@@ -1,9 +1,6 @@
 {
     "addMunicipal": "أضف أيام العطل من {{cityName}}، {{stateName}}",
-    "labels": {
-        "state": "ولاية",
-        "city": "مدينة"
-    },
+    "labels": {},
     "description": {
         "extended": "عطلة نهاية أسبوع طويلة",
         "midweek": "خلال الاسبوع",
@@ -31,5 +28,19 @@
         "municipal": "البلدية",
         "national": "وطني"
     },
-    "days-untill": "<1>{{daysUntil}}</1> يوم حتى"
+    "days-untill": "<1>{{daysUntil}}</1> يوم حتى",
+    "select": {
+        "labels": {
+            "city": "مدينة",
+            "state": "ولاية"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "مدن في {{stateName}}",
+                "masculine": "مدن في {{stateName}}",
+                "neutral": "مدن في {{stateName}}"
+            },
+            "states": "الوحدات الفيدرالية"
+        }
+    }
 }

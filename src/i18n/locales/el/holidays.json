@@ -1,9 +1,6 @@
 {
     "addMunicipal": "Προσθήκη διακοπών από {{cityName}}, {{stateName}}",
-    "labels": {
-        "state": "Κατάσταση",
-        "city": "Πόλη"
-    },
+    "labels": {},
     "description": {
         "extended": "Μακρύ Σαββατοκύριακο",
         "midweek": "Κατά τη διάρκεια της εβδομάδας",
@@ -31,5 +28,19 @@
         "municipal": "Δημοτικός",
         "national": "Εθνικός"
     },
-    "days-untill": "<1>{{daysUntill}}</1> ημέρες μέχρι"
+    "days-untill": "<1>{{daysUntill}}</1> ημέρες μέχρι",
+    "select": {
+        "labels": {
+            "city": "Πόλη",
+            "state": "Κατάσταση"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Πόλεις σε {{stateName}}",
+                "masculine": "Πόλεις σε {{stateName}}",
+                "neutral": "Πόλεις σε {{stateName}}"
+            },
+            "states": "Ομοσπονδιακές μονάδες"
+        }
+    }
 }

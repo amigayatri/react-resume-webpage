@@ -1,9 +1,6 @@
 {
     "addMunicipal": "Aggiungi festività da {{cityName}}, {{stateName}}",
-    "labels": {
-        "state": "Stato",
-        "city": "Città"
-    },
+    "labels": {},
     "description": {
         "extended": "Fine settimana lungo",
         "midweek": "Durante la settimana",
@@ -31,5 +28,19 @@
         "municipal": "Comunale",
         "national": "Nazionale"
     },
-    "days-untill": "Mancano <1>{{daysUntill}}</1> giorni"
+    "days-untill": "Mancano <1>{{daysUntill}}</1> giorni",
+    "select": {
+        "labels": {
+            "city": "Città",
+            "state": "Stato"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Città in {{stateName}}",
+                "masculine": "Città in {{stateName}}",
+                "neutral": "Città in {{stateName}}"
+            },
+            "states": "Unità federative"
+        }
+    }
 }

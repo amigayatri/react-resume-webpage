@@ -1,9 +1,6 @@
 {
     "addMunicipal": "{{cityName}}, {{stateName}} ਦੀਆਂ ਛੁੱਟੀਆਂ ਸ਼ਾਮਲ ਕਰੋ",
-    "labels": {
-        "state": "ਰਾਜ",
-        "city": "ਸ਼ਹਿਰ"
-    },
+    "labels": {},
     "description": {
         "extended": "ਲੰਬਾ ਵੀਕਐਂਡ",
         "midweek": "ਹਫ਼ਤੇ ਦੌਰਾਨ",
@@ -31,5 +28,19 @@
         "municipal": "ਨਗਰ",
         "national": "ਰਾਸ਼ਟਰੀ"
     },
-    "days-untill": "<1>{{daysUntill}}</1> ਦਿਨ ਤੱਕ"
+    "days-untill": "<1>{{daysUntill}}</1> ਦਿਨ ਤੱਕ",
+    "select": {
+        "labels": {
+            "city": "ਸ਼ਹਿਰ",
+            "state": "ਰਾਜ"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "{{stateName}} ਵਿੱਚ ਸ਼ਹਿਰ",
+                "masculine": "{{stateName}} ਵਿੱਚ ਸ਼ਹਿਰ",
+                "neutral": "{{stateName}} ਵਿੱਚ ਸ਼ਹਿਰ"
+            },
+            "states": "ਸੰਘੀ ਇਕਾਈਆਂ"
+        }
+    }
 }

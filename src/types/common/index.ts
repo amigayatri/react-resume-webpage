@@ -108,6 +108,7 @@ export interface OptionProps {
 
 export interface GroupProps {
 	groupKey: string
+	tOptionsGroup?: { [key: string]: string }
 	options: OptionProps[]
 }
 

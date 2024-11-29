@@ -1,9 +1,6 @@
 {
     "addMunicipal": "{{cityName}}, {{stateName}} से छुट्टियाँ जोड़ें",
-    "labels": {
-        "state": "राज्य",
-        "city": "शहर"
-    },
+    "labels": {},
     "description": {
         "extended": "लंबा सप्ताहांत",
         "midweek": "सप्ताह के दौरान",
@@ -31,5 +28,19 @@
         "municipal": "म्युनिसिपल",
         "national": "राष्ट्रीय"
     },
-    "days-untill": "<1>{{daysUntill}}</1> दिन तक"
+    "days-untill": "<1>{{daysUntill}}</1> दिन तक",
+    "select": {
+        "labels": {
+            "city": "शहर",
+            "state": "राज्य"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "{{stateName}} में शहर",
+                "masculine": "{{stateName}} में शहर",
+                "neutral": "{{stateName}} में शहर"
+            },
+            "states": "संघीय इकाइयाँ"
+        }
+    }
 }

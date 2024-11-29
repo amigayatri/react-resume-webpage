@@ -10,9 +10,9 @@ export const ListWrapper = styled(Tabs)`
 	padding: 16px;
 	border-radius: 16px 16px 0 0;
 	margin: 0 auto;
-	margin-bottom: -64px;
 	width: 100%;
 	max-width: 512px;
+	min-height: calc(var(--fullpage) - 144px);
 `
 
 export const List = styled(TabList)`

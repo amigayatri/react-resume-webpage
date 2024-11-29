@@ -1,35 +1,46 @@
 {
-  "addMunicipal": "Feiertage aus {{cityName}}, {{stateName}} hinzufügen",
-  "description": {
-    "extended": "Langes Wochenende",
-    "midweek": "Unter der Woche",
-    "weekends": "Am Wochenende"
-  },
-  "element": {
-    "onWeekend": {
-      "false": "Unter der Woche",
-      "true": "Am Wochenende"
+    "addMunicipal": "Feiertage aus {{cityName}}, {{stateName}} hinzufügen",
+    "description": {
+        "extended": "Langes Wochenende",
+        "midweek": "Unter der Woche",
+        "weekends": "Am Wochenende"
+    },
+    "element": {
+        "onWeekend": {
+            "false": "Unter der Woche",
+            "true": "Am Wochenende"
+        }
+    },
+    "labels": {},
+    "list": {
+        "year": "{{yearNumber}} Feiertage"
+    },
+    "open": {
+        "false": "Wählen Sie eine Stadt",
+        "true": "Stadtauswahl schließen"
+    },
+    "tabs": {
+        "next": "Nächstes Jahr",
+        "this": "Dieses Jahr"
+    },
+    "title": "Brasilianische Feiertage",
+    "types": {
+        "municipal": "Kommunal",
+        "national": "National"
+    },
+    "days-untill": "Faltam <1>{{daysUntill}}</1> dias",
+    "select": {
+        "labels": {
+            "city": "Stadt",
+            "state": "Zustand"
+        },
+        "optgroup": {
+            "cities": {
+                "feminine": "Städte in {{stateName}}",
+                "masculine": "Städte in {{stateName}}",
+                "neutral": "Städte in {{stateName}}"
+            },
+            "states": "Föderative Einheiten"
+        }
     }
-  },
-  "labels": {
-    "city": "Stadt",
-    "state": "Zustand"
-  },
-  "list": {
-    "year": "{{yearNumber}} Feiertage"
-  },
-  "open": {
-    "false": "Wählen Sie eine Stadt",
-    "true": "Stadtauswahl schließen"
-  },
-  "tabs": {
-    "next": "Nächstes Jahr",
-    "this": "Dieses Jahr"
-  },
-  "title": "Brasilianische Feiertage",
-  "types": {
-    "municipal": "Kommunal",
-    "national": "National"
-  },
-  "days-untill": "Faltam <1>{{daysUntill}}</1> dias"
 }

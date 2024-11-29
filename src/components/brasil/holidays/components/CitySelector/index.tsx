@@ -1,73 +1,73 @@
-import { CitySelectorProps, emptyStates } from "../../types.ts"
+import { CitySelectorProps } from "../../types.ts"
 import { useEffect, useState } from "react"
 import {
 	Button,
 	OpenText,
-	Selector,
-	Option,
 	CitySelectorWrapper,
 	CitiesWrapper,
-	SelectorWrapper,
-	Selectors,
-	Label
+	Selectors
 } from "./CitySelector.styled.ts"
 import { SVGIcon } from "../../../../common/client"
-import BrazilianAPI from "../../../../../api/Brazil/"
+import { Select } from "../../../../common/client"
+import {
+	getStateOptions,
+	emptyOptions,
+	getCityOptions,
+	getCurrIcon,
+	brasilIconID,
+	getNewHolidays
+} from "./functions.ts"
 
 export const CitySelector = ({
 	t,
 	lng,
-	thisYear,
-	nextYear,
-	setNextYear,
-	setThisYear
+	thisYearState,
+	nextYearState
 }: CitySelectorProps) => {
-	const emptyStates: emptyStates = []
-	const [states, setStates] = useState(emptyStates)
-	const emptyCities: string[] = []
-	const [cities, setCities] = useState(emptyCities)
-	const [selectedState, setSelectedState] = useState("")
-	const [selectedCity, setSelectedCity] = useState("")
-	const [present, _] = useState(new Map())
-	const api = new BrazilianAPI()
+	const [selectedState, setSelectedState] = useState("_")
+	const [selectedCity, setSelectedCity] = useState("_")
+	const [currIcon, setCurrIcon] = useState(brasilIconID)
+	const [present] = useState(new Map())
+
 	const [open, setOpen] = useState(false)
+	const [thisYear, setThisYear] = thisYearState
+	const [nextYear, setNextYear] = nextYearState
+	const [stateOptions, setStateOptions] = useState(emptyOptions)
+	const [citiesOptions, setCitiesOptions] = useState(emptyOptions)
+
 	const handleAdd = () => {
 		present.set(selectedCity + "-" + selectedState, [])
-		api
-			.getMunicipalHolidays(selectedState, selectedCity)
-			.then((cityHolidays) => {
-				if (cityHolidays !== undefined) {
-					const currYear = new Date().getFullYear()
-					const currListThisYear = Array.from(thisYear)
-					const currListNextYear = Array.from(nextYear)
-					for (const holiday of cityHolidays) {
-						if (holiday.date.getFullYear() === currYear) {
-							currListThisYear.push(holiday)
-						} else {
-							currListNextYear.push(holiday)
-						}
-					}
-					setThisYear(currListThisYear)
-					setNextYear(currListNextYear)
-				}
-			})
+		getNewHolidays(selectedState, selectedCity).then((newHolidays) => {
+			const currListThisYear = [...thisYear, ...newHolidays.thisYear]
+			const currListNextYear = [...nextYear, ...newHolidays.nextYear]
+			setThisYear(currListThisYear)
+			setNextYear(currListNextYear)
+		})
 		setOpen(false)
 	}
+
 	useEffect(() => {
-		api.getStates().then((states) => {
-			states.sort((a, b) => a.name.localeCompare(b.name))
-			setStates(states)
-		})
+		const stateOp = getStateOptions()
+		setStateOptions(stateOp)
 	}, [])
+
 	useEffect(() => {
-		api.getCities(selectedState).then((cities) => {
-			if (cities !== undefined) {
-				cities.sort((a, b) => a.localeCompare(b))
-				setCities(cities)
-			}
+		setCitiesOptions(emptyOptions)
+		getCityOptions(selectedState).then((newOptions) => {
+			setCitiesOptions(newOptions)
+			setCurrIcon(getCurrIcon(selectedState))
 		})
 	}, [selectedState])
-	const stateOptions = new Set()
+
+	const selectCommonProps = {
+		local: "holidays",
+		namespace: "holidays",
+		noTranslation: true,
+		onHeader: false,
+		lng,
+		fontSize: 1.25
+	}
+
 	return (
 		<CitySelectorWrapper>
 			<Button onClick={() => setOpen(!open)}>
@@ -76,45 +76,38 @@ export const CitySelector = ({
 			</Button>
 			<CitiesWrapper $isOpen={open}>
 				<Selectors>
-					<SelectorWrapper>
-						<Label>{t("labels.state")}</Label>
-						<Selector
-							defaultValue={selectedState}
-							onChange={({ target }) => {
-								setSelectedState(target.value)
-								setSelectedCity("")
-							}}
-						>
-							<Option value={""}></Option>
-							{states.map(({ name, twoLetters }) => {
-								if (stateOptions.has(twoLetters)) return
-								stateOptions.add(twoLetters)
-								return (
-									<Option key={twoLetters + "-option"} value={twoLetters}>
-										{name}
-									</Option>
-								)
-							})}
-						</Selector>
-					</SelectorWrapper>
-					<SelectorWrapper>
-						<Label>{t("labels.city")}</Label>
-						<Selector
-							defaultValue={selectedCity}
-							onChange={({ target }) => setSelectedCity(target.value)}
-						>
-							<Option value={""}></Option>
-							{cities.map((name) => (
-								<Option value={name} key={name}>
-									{name}
-								</Option>
-							))}
-						</Selector>
-					</SelectorWrapper>
+					<Select
+						options={stateOptions}
+						id="holidays-state"
+						label={t("select.labels.state")}
+						defaultValue={selectedState}
+						onSelectChange={({ target }) => {
+							setSelectedState(target.value)
+							setSelectedCity("_")
+						}}
+						iconId="brasil"
+						{...selectCommonProps}
+					/>
+					<Select
+						options={citiesOptions}
+						id="holidays-city"
+						label={t("select.labels.city")}
+						defaultValue={selectedCity}
+						onSelectChange={({ target }) => {
+							setSelectedCity(target.value)
+						}}
+						iconId={currIcon}
+						{...selectCommonProps}
+					/>
 				</Selectors>
-				{selectedCity !== "" && (
+				{selectedCity !== "_" && (
 					<Button onClick={() => handleAdd()}>
-						<SVGIcon lng={lng} local="holidays" size={32} id="calendar" />
+						<SVGIcon
+							lng={lng}
+							local="holidays"
+							size={32}
+							id="calendar"
+						/>
 						<OpenText>
 							{t("addMunicipal", {
 								stateName: selectedState,

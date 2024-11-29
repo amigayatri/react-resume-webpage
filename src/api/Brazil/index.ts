@@ -15,7 +15,8 @@ import {
 	cleanName,
 	readJsonState,
 	hasPassed,
-	formatHoliday
+	formatHoliday,
+	getStateIcon
 } from "./functions"
 
 const citiesByState: citiesByStateMap = new Map()
@@ -60,7 +61,11 @@ class BrazilianAPI implements BrazilianAPIProps {
 			const response = await fetch(this.link + route)
 			const list = await response.json()
 			for (const { nome, sigla } of list) {
-				this.states.push({ name: nome, twoLetters: sigla })
+				this.states.push({
+					name: nome,
+					twoLetters: sigla,
+					icon: getStateIcon(nome)
+				})
 			}
 			return this.states
 		} else {
@@ -103,7 +108,11 @@ class BrazilianAPI implements BrazilianAPIProps {
 	generateStateMap = generateStateMap
 
 	setMunicipalHolidays: setHolidays = (cityHolidays, state, city) => {
-		if (state === undefined || city === undefined || cityHolidays === undefined)
+		if (
+			state === undefined ||
+			city === undefined ||
+			cityHolidays === undefined
+		)
 			return []
 		const formatted = []
 		const currYear = this.now.getFullYear()
@@ -132,7 +141,11 @@ class BrazilianAPI implements BrazilianAPIProps {
 		const getFormatted = () => {
 			const clean = cleanName(city)
 			const cityHolidays = municipalHolidays.get(state)?.get(clean)
-			const formatted = this.setMunicipalHolidays(cityHolidays, state, city)
+			const formatted = this.setMunicipalHolidays(
+				cityHolidays,
+				state,
+				city
+			)
 			return formatted
 		}
 		if (!municipalHolidays.has(state)) {

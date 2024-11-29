@@ -38,7 +38,7 @@ export const SelectBase = ({
 					<SVGIcon
 						color={
 							customStyle !== undefined
-								? customStyle.select.border
+								? customStyle.select.text
 								: onHeader
 									? theme.blue
 									: theme.secondAccent
@@ -60,35 +60,42 @@ export const SelectBase = ({
 							{" "}
 						</Option>
 					)}
-					{options.map(({ groupKey, options }, idx) => {
-						if (options.length === 0) return
-						return (
-							<Group
-								key={
-									id +
-									"-optgroup-" +
-									groupKey +
-									"-option-" +
-									idx
-								}
-								label={t(groupKey)}
-							>
-								{options.map(
-									({ value, key, tOptions, extraText }) => (
-										<Option
-											key={id + "-option-" + value}
-											value={value}
-										>
-											{t(key, tOptions)}
-											{extraText !== undefined
-												? extraText
-												: ""}
-										</Option>
-									)
-								)}
-							</Group>
-						)
-					})}
+					{options.map(
+						({ groupKey, options, tOptionsGroup }, idx) => {
+							if (options.length === 0) return
+							return (
+								<Group
+									key={
+										id +
+										"-optgroup-" +
+										groupKey +
+										"-option-" +
+										idx
+									}
+									label={t(groupKey, tOptionsGroup)}
+								>
+									{options.map(
+										({
+											value,
+											key,
+											tOptions,
+											extraText
+										}) => (
+											<Option
+												key={id + "-option-" + value}
+												value={value}
+											>
+												{t(key, tOptions)}
+												{extraText !== undefined
+													? extraText
+													: ""}
+											</Option>
+										)
+									)}
+								</Group>
+							)
+						}
+					)}
 				</SelectInput>
 				{Button !== undefined && Button}
 			</SelectInputWrapper>
