@@ -1,8 +1,13 @@
-import BrazilianAPI from "../../../../../api/Brazil"
-import { GroupProps, iconKey, OptionProps } from "../../../../../types/common"
-import { HolidayProps, StateProps } from "../../../../../types/holidays"
-import { getPronouns } from "./components/ChooseCity/pronoum-map"
-import { unsetValue } from "./components/constants"
+import BrazilianAPI from "../../../../../../api/Brazil"
+import {
+	GroupProps,
+	iconKey,
+	OptionProps
+} from "../../../../../../types/common"
+import { HolidayProps, StateProps } from "../../../../../../types/holidays"
+import { getPronouns } from "./ChooseCity/pronoum-map"
+import { unsetValue } from "./ChooseCity/constants"
+import { statePresentMap } from "../functions"
 
 type statesMap = Map<string, StateProps>
 
@@ -95,8 +100,6 @@ interface MunicipalQuantity {
 	nextYear: number
 }
 
-type statePresentMap = Map<string, MunicipalQuantity>
-
 interface NewHolidays {
 	thisYear: HolidayProps[]
 	nextYear: HolidayProps[]
@@ -114,6 +117,36 @@ const initializeNewHolidays: initializeNewHolidays = () => {
 			nextYear: 0
 		}
 	}
+}
+
+const present: Map<string, statePresentMap> = new Map()
+
+type setPresent = (
+	twoLetters: string,
+	city: string,
+	qtty: MunicipalQuantity
+) => void
+const setPresent: setPresent = (twoLetters, city, qtty) => {
+	const stateName = getStateName(twoLetters)
+	const recoveredPresent = present.get(stateName)
+	const statePresent: statePresentMap =
+		recoveredPresent === undefined ? new Map() : recoveredPresent
+	statePresent.set(city, qtty)
+}
+
+type presentCityEntry = [string, MunicipalQuantity]
+const emptyPresentCitties: presentCityEntry[] = []
+
+type getPresentStates = () => string[]
+const getPresentStates: getPresentStates = () => {
+	return Array.from(present.keys())
+}
+
+type getPresentCities = (state: string) => presentCityEntry[]
+const getPresentCities: getPresentCities = (state) => {
+	const statePresent = present.get(state)
+	if (statePresent === undefined) return emptyPresentCitties
+	return Array.from(statePresent.entries())
 }
 
 const getNewHolidays: getNewHolidays = async (state, city) => {
@@ -138,6 +171,8 @@ const getNewHolidays: getNewHolidays = async (state, city) => {
 			}
 			return newHolidays
 		})
+	const { qtty } = newHolidays
+	setPresent(state, city, qtty)
 	return newHolidays
 }
 
@@ -147,6 +182,9 @@ export {
 	emptyOptions,
 	getCityOptions,
 	getNewHolidays,
+	getStateName,
+	getPresentStates,
+	getPresentCities,
 	brasilIconID
 }
-export type { statePresentMap, NewHolidays }
+export type { MunicipalQuantity }
