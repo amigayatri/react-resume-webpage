@@ -21,6 +21,10 @@
         },
         "experience": {
             "items": {
+"google": {
+                    "subitem": "Utilizando Kotlin, C++ e outras linguagens de programação",
+                    "text": "Engenheira de software"
+                },
                 "atip": {
                     "subitem": "Utilizando React, Next.js, StyledComponents e TypeScript nos projetos, trabalhando com o time mexicano da Pepsico.",
                     "text": "Desenvolvedora Front-end na Atip (Parceira Pepsico)."
