@@ -27,4 +27,4 @@ const citySelectProps = {
 }
 const unsetValue = "_"
 
-export { selectCommonProps, unsetValue }
+export { selectCommonProps, unsetValue, citySelectProps }
