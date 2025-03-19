@@ -44,9 +44,10 @@ export const resume: Resume = {
 			{
 				icon: "briefcase",
 				name: "experience",
-				items: ["atip", "techviz", "encora", "raccoon", "partenero", "liven"],
+				items: ["google", "atip", "techviz", "encora", "raccoon", "partenero", "liven"],
 				dates: [
-					{ start: new Date("2024/03/01"), end: "now" },
+				{ start: new Date("2024/12/09"), end: "now" },
+					{ start: new Date("2024/03/01"), end: new Date("2024/11/30") },
 					{ start: new Date("2023/07/01"), end: new Date("2024/02/01") },
 					{ start: new Date("2022/02/01"), end: new Date("2022/11/01") },
 					{ start: new Date("2020/08/01"), end: new Date("2022/02/01") },
