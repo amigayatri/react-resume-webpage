@@ -17,7 +17,8 @@
     "site-stats": "Estatísticas",
     "shades": "Variações de Tons",
     "lyric": "Letra de {{musicName}}",
-    "musics": "Músicas disponíveis"
+    "musics": "Músicas disponíveis",
+    "phonebook": "Agenda telefônica"
   },
   "base-title": "{{pathTitle}} | Amira Gayatri",
   "content": "Site pessoal"

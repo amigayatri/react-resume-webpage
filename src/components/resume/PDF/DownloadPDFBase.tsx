@@ -9,7 +9,7 @@ import {
 	Font,
 	Link,
 	PDFDownloadLink
-} from "@alexandernanberg/react-pdf-renderer"
+} from "@react-pdf/renderer"
 import {
 	PDFDownload,
 	PDFDownloadText,

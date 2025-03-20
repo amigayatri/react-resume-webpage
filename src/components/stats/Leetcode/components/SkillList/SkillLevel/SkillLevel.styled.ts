@@ -1,11 +1,11 @@
 "use client"
 
 import { TagCloud } from "react-tagcloud"
-import styled from "styled-components"
+import styled, { WebTarget } from "styled-components"
 
-export const CloudTag = styled(TagCloud)`
-	overflow-x: visible;
-	overflow-y: visible;
+export const CloudTag = styled(TagCloud as WebTarget)`
+    overflow-x: visible;
+    overflow-y: visible;
 `
 
 export const SkillLevelWrapper = styled.div`
