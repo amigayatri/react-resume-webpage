@@ -27,9 +27,5 @@ const citySelectProps = {
 }
 const unsetValue = "_"
 
-<<<<<<< HEAD
 export { citySelectProps, selectCommonProps, unsetValue }
 
-=======
-export { selectCommonProps, unsetValue, citySelectProps }
->>>>>>> 1ddbba537b54cd70dfcd2b77c2523da6fe4be7a8
