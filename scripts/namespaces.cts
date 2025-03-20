@@ -35,7 +35,7 @@ const createNewFiles = (langName: string, namespacesMap: namespacesMap) => {
     for (const [namespace, model] of namespacesMap.entries()) {
         if (!langNamespaces.has(namespace)) {
             const namespacePath = concat(langPath, namespace)
-            fileFn.writeFile(namespacePath, model, true, true)
+            fileFn.writeFile(namespacePath, model, true)
         }
     }
 }
@@ -44,7 +44,7 @@ const deleteOldNamespaces = (langName: string) => {
     const langPath = concat(localesPath, langName)
     for (const toDelete of namespacesToDelete) {
         const toDeletePath = concat(langPath, toDelete)
-        fileFn.deleteFile(toDeletePath, true)
+        fileFn.deleteFile(toDeletePath)
     }
 }
 

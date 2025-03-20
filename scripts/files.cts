@@ -12,17 +12,19 @@ const getFolderContent: getFolderContent = (path, wantFolders) => {
 
 type readFile = (path: string) => string
 const readFile: readFile = (path) => {
-	return fs.readFileSync(path, {
-		encoding: "utf8"
-	})
+    if (!fs.existsSync(path)) return ""
+    return fs.readFileSync(path, {
+        encoding: "utf8"
+    })
 }
 
 type deleteFile = (path: string, isToPrint?: boolean) => void
 const deleteFile: deleteFile = (path, isToPrint = false) => {
-	fs.unlink(path, (err: ErrorEvent) => {
-		if (err) throw err
-		isToPrint === true && console.log(`${path} was deleted`)
-	})
+    if (!fs.existsSync(path)) return
+    fs.unlink(path, (err: ErrorEvent) => {
+        if (err) throw err
+        isToPrint === true && console.log(`${path} was deleted`)
+    })
 }
 
 type defaultWriteCb = (
