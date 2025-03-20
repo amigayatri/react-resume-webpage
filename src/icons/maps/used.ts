@@ -189,7 +189,7 @@ const entriesArr: [string, string[]][] = [
     ["holidays", ["sad", "superhappy", "happy"]],
     ["available-musics", ["mermaid", "bronzeando"]],
     ["brasil", ["brasil"]],
-    ["icons", ["egyptianwalk"]]
+    ["icons", ["egyptianwalk", "phone"]]
 ]
 //$entriesArrEnd
 

@@ -25,27 +25,44 @@ const createModelFromNamespace = (fileStr) => {
 const path = constants.translationPath
 const localesPath = path.replace("/pt-BR", "")
 
+const namespacesToDelete = ["phonebook.json"]
+
+type namespacesMap = Map<string, string>
+
+const createNewFiles = (langName: string, namespacesMap: namespacesMap) => {
+    const langPath = concat(localesPath, langName)
+    const langNamespaces = new Set(fileFn.getFolderContent(langPath, false))
+    for (const [namespace, model] of namespacesMap.entries()) {
+        if (!langNamespaces.has(namespace)) {
+            const namespacePath = concat(langPath, namespace)
+            fileFn.writeFile(namespacePath, model, true, true)
+        }
+    }
+}
+
+const deleteOldNamespaces = (langName: string) => {
+    const langPath = concat(localesPath, langName)
+    for (const toDelete of namespacesToDelete) {
+        const toDeletePath = concat(langPath, toDelete)
+        fileFn.deleteFile(toDeletePath, true)
+    }
+}
+
 const updateNamespaces = () => {
-	console.log("Update translation namespaces if needed")
-	const namespacesMap: Map<string, string> = new Map()
-	fileFn.mapFilesInside(path, (namespace) => {
-		const filePath = concat(path, namespace)
-		const namespaceFile = fileFn.readFile(filePath)
-		const model = createModelFromNamespace(namespaceFile)
-		namespacesMap.set(namespace, JSON.stringify(model))
-	})
-	fileFn.mapFoldersInside(localesPath, (langName) => {
-		if (langName === "pt-BR") return
-		const langPath = concat(localesPath, langName)
-		const langNamespaces = new Set(fileFn.getFolderContent(langPath, false))
-		for (const [namespace, model] of namespacesMap.entries()) {
-			if (!langNamespaces.has(namespace)) {
-				const namespacePath = concat(langPath, namespace)
-				fileFn.writeFile(namespacePath, model, true, true)
-			}
-		}
-	})
-	updateKeyOnAllLocales()
+    console.log("Update translation namespaces if needed")
+    const namespacesMap: namespacesMap = new Map()
+    fileFn.mapFilesInside(path, (namespace: string) => {
+        const filePath = concat(path, namespace)
+        const namespaceFile = fileFn.readFile(filePath)
+        const model = createModelFromNamespace(namespaceFile)
+        namespacesMap.set(namespace, JSON.stringify(model))
+    })
+    fileFn.mapFoldersInside(localesPath, (langName: string) => {
+        if (langName === "pt-BR") return
+        createNewFiles(langName, namespacesMap)
+        deleteOldNamespaces(langName)
+    })
+    updateKeyOnAllLocales()
 }
 
 interface KeyToUpdate {
