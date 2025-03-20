@@ -114,7 +114,8 @@
     "select": {
         "label": "Tavolozze",
         "group": "Gruppi di tavolozze",
-        "palette": "Tavolozze di colori"
+        "palette": "Tavolozze di colori",
+        "addAll": "Aggiungi tutto il gruppo"
     },
     "title": "Tavolozze"
 }

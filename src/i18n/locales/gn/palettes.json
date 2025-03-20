@@ -114,7 +114,8 @@
     "select": {
         "label": "Paletas rehegua",
         "group": "Umi aty paleta rehegua",
-        "palette": "Umi paleta sa’y rehegua"
+        "palette": "Umi paleta sa’y rehegua",
+        "addAll": "Oñembojoapy opaite pe aty ."
     },
     "title": "Paletas rehegua"
 }

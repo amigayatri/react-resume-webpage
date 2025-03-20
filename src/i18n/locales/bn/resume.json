@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "প্রজেক্টে React, Next.js, Svelte, Styled Components এবং TypeScript ব্যবহার করা।",
                     "text": "টেকভিজে টেক লিড।"
+                },
+                "google": {
+                    "subitem": "কোটলিন, সি এবং অন্যান্য প্রোগ্রামিং ভাষা ব্যবহার করে",
+                    "text": "গুগলে সফটওয়্যার ইঞ্জিনিয়ার"
                 }
             },
             "title": "পেশাগত অভিজ্ঞতা"

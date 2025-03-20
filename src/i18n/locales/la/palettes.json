@@ -114,7 +114,8 @@
     "select": {
         "label": "Palettes",
         "group": "Palette coetus",
-        "palette": "Color palettes"
+        "palette": "Color palettes",
+        "addAll": "Addere omnes coetus"
     },
     "title": "Palettes"
 }

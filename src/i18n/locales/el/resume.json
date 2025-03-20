@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "Χρήση React, Next.js, Svelte, StyledComponents και TypeScript σε έργα.",
                     "text": "Τεχνικός Υπεύθυνος στο TechViz."
+                },
+                "google": {
+                    "subitem": "Χρήση Kotlin, C και άλλες γλώσσες προγραμματισμού",
+                    "text": "Μηχανικός λογισμικού στο Google"
                 }
             },
             "title": "Επαγγελματική Εμπειρία"

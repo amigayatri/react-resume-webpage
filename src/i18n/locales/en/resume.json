@@ -21,9 +21,9 @@
         },
         "experience": {
             "items": {
-"google": {
+                "google": {
                     "subitem": "Using Kotlin, C++ and other programming languages",
-                    "text": "Software Engineer"
+                    "text": "Software Engineer at Google"
                 },
                 "atip": {
                     "subitem": "Using React, Next.js, StyledComponents and TypeScript in projects, working with the mexican Pepsico team.",

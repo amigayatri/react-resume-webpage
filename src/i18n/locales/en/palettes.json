@@ -114,7 +114,8 @@
     "select": {
         "label": "Palettes",
         "group": "Palette groups",
-        "palette": "Color palettes"
+        "palette": "Color palettes",
+        "addAll": "Add all of the group"
     },
     "title": "Palettes"
 }

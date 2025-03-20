@@ -114,7 +114,8 @@
     "select": {
         "label": "Paletten",
         "group": "Palettengruppen",
-        "palette": "Farbpaletten"
+        "palette": "Farbpaletten",
+        "addAll": "Fügen Sie die gesamte Gruppe hinzu"
     },
     "title": "Paletten"
 }

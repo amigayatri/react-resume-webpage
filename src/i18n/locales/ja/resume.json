@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "プロジェクトでの React、Next.js、Svelte、StyledComponents、TypeScript の使用。",
                     "text": "TechViz の技術責任者。"
+                },
+                "google": {
+                    "subitem": "Kotlin、Cおよびその他のプログラミング言語を使用します",
+                    "text": "Googleのソフトウェアエンジニア"
                 }
             },
             "title": "専門的な経験"

@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "Использование React, Next.js, Svelte, StyledComponents и TypeScript в проектах.",
                     "text": "Технический руководитель TechViz."
+                },
+                "google": {
+                    "subitem": "Использование котлина, C и других языков программирования",
+                    "text": "Инженер -программист в Google"
                 }
             },
             "title": "Профессиональный опыт"

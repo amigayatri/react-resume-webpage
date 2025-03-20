@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "在项目中使用 React、Next.js、Svelte、StyledComponents 和 TypeScript。",
                     "text": "TechViz 的技术主管。"
+                },
+                "google": {
+                    "subitem": "使用Kotlin，C和其他编程语言",
+                    "text": "Google的软件工程师"
                 }
             },
             "title": "专业经验"

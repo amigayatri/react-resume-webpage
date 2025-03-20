@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "Utilizzo di React, Next.js, Svelte, StyledComponents e TypeScript nei progetti.",
                     "text": "Responsabile tecnico presso TechViz."
+                },
+                "google": {
+                    "subitem": "Usando Kotlin, C e altri linguaggi di programmazione",
+                    "text": "Ingegnere del software su Google"
                 }
             },
             "title": "Esperienza professionale"

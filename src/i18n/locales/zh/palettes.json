@@ -114,7 +114,8 @@
     "select": {
         "label": "调色板",
         "group": "调色板组",
-        "palette": "调色板"
+        "palette": "调色板",
+        "addAll": "添加所有小组"
     },
     "title": "调色板"
 }

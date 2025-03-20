@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "Using React, Next.js, Svelte, StyledComponents et TypeScript in inceptis.",
                     "text": "Tech Duc ad TechViz."
+                },
+                "google": {
+                    "subitem": "Using Kotlin, C et alia Programming Linguae",
+                    "text": "Software ipsum Google"
                 }
             },
             "title": "Experientia professionales"

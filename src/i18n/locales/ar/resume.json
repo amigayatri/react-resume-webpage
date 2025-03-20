@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "استخدام React وNext.js وSvelte وStyledComponents وTypeScript في المشاريع.",
                     "text": "قائد التكنولوجيا في TechViz."
+                },
+                "google": {
+                    "subitem": "باستخدام Kotlin و C ولغات البرمجة الأخرى",
+                    "text": "مهندس البرمجيات في Google"
                 }
             },
             "title": "الخبرة المهنية"

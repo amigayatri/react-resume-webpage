@@ -44,6 +44,10 @@
                 "techviz": {
                     "subitem": "ਪ੍ਰੋਜੈਕਟਾਂ ਵਿੱਚ React, Next.js, Svelte, Styled Components ਅਤੇ TypeScript ਦੀ ਵਰਤੋਂ ਕਰਨਾ।",
                     "text": "TechViz 'ਤੇ ਤਕਨੀਕੀ ਲੀਡ."
+                },
+                "google": {
+                    "subitem": "ਕੋਟਲਿਨ, ਸੀ ਅਤੇ ਹੋਰ ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨਾ",
+                    "text": "ਗੂਗਲ 'ਤੇ ਸਾੱਫਟਵੇਅਰ ਇੰਜੀਨੀਅਰ"
                 }
             },
             "title": "ਪੇਸ਼ੇਵਰ ਅਨੁਭਵ"
