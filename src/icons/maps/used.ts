@@ -4,7 +4,6 @@ import { iconKey } from "../types"
 const entriesArr: [string, string[]][] = [
     ["holidays", ["calendar", "map", "calendariobrasileiro"]],
     ["cats", ["minus"]],
-    ["palette", ["listunordered"]],
     ["subnav", ["more"]],
     ["error", ["terminalerror"]],
     ["icon-filter", ["filteroff"]],
@@ -189,7 +188,8 @@ const entriesArr: [string, string[]][] = [
     ["holidays", ["sad", "superhappy", "happy"]],
     ["available-musics", ["mermaid", "bronzeando"]],
     ["brasil", ["brasil"]],
-    ["icons", ["egyptianwalk", "phone"]]
+    ["palette", ["copy"]],
+    ["icons", ["egyptianwalk"]]
 ]
 //$entriesArrEnd
 

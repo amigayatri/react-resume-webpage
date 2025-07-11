@@ -37,6 +37,7 @@ export const interfaceIconsSet: groupIconsSet = new Set([
     "terminalerror",
     "tools",
     "translate",
+    "trash",
     "voicerecognition",
     "zoomin",
     "zoomout"

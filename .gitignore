@@ -29,3 +29,5 @@ dist-ssr
 next-env.d.ts
 dist
 tsconfig.tsbuildinfo
+
+new-svgs/
