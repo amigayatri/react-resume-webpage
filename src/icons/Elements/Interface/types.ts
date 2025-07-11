@@ -36,6 +36,7 @@ const interfaceArr = [
     "terminalerror",
     "tools",
     "translate",
+    "trash",
     "voicerecognition",
     "zoomin",
     "zoomout"

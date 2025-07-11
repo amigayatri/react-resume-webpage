@@ -315,6 +315,7 @@ import {
     TerminalErrorIcon,
     ToolsIcon,
     TranslateIcon,
+    TrashIcon,
     VoiceRecognitionIcon,
     ZoomInIcon,
     ZoomOutIcon
@@ -745,6 +746,7 @@ export {
     TerminalErrorIcon,
     ToolsIcon,
     TranslateIcon,
+    TrashIcon,
     VoiceRecognitionIcon,
     ZoomInIcon,
     ZoomOutIcon,

@@ -25,7 +25,7 @@ const createModelFromNamespace = (fileStr) => {
 const path = constants.translationPath
 const localesPath = path.replace("/pt-BR", "")
 
-const namespacesToDelete = ["phonebook.json"]
+const namespacesToDelete = []
 
 type namespacesMap = Map<string, string>
 

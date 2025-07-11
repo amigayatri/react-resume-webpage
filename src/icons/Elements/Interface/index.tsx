@@ -35,6 +35,7 @@ import { TerminalIcon } from "./Terminal.tsx"
 import { TerminalErrorIcon } from "./TerminalError.tsx"
 import { ToolsIcon } from "./Tools.tsx"
 import { TranslateIcon } from "./Translate.tsx"
+import { TrashIcon } from "./Trash.tsx"
 import { VoiceRecognitionIcon } from "./VoiceRecognition.tsx"
 import { ZoomInIcon } from "./ZoomIn.tsx"
 import { ZoomOutIcon } from "./ZoomOut.tsx"
@@ -77,6 +78,7 @@ export {
     TerminalErrorIcon,
     ToolsIcon,
     TranslateIcon,
+    TrashIcon,
     VoiceRecognitionIcon,
     ZoomInIcon,
     ZoomOutIcon
