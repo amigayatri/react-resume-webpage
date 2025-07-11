@@ -6,7 +6,6 @@ import { Summary } from "../Common.styled"
 import { Control } from "../Control"
 import { PaletteElementProps } from "../types"
 import {
-    ButtonWrapper,
     ColorCode,
     Description,
     NormalText,
@@ -62,17 +61,15 @@ export const Palette = ({ palette, info, t, lng, remove }: PaletteElementProps) 
             </PaletteName>
             <Description>
                 <Summary>{t("info.summary")}</Summary>
-                <ButtonWrapper>
-                    <Control
-                        t={t}
-                        lng={lng}
-                        sortedState={[showSorted, setShowSorted]}
-                        ascendingState={[ascending, setAscending]}
-                        allCodes={allCodes}
-                        info={info}
-                        remove={remove}
-                    />
-                </ButtonWrapper>
+                <Control
+                    t={t}
+                    lng={lng}
+                    sortedState={[showSorted, setShowSorted]}
+                    ascendingState={[ascending, setAscending]}
+                    allCodes={allCodes}
+                    info={info}
+                    remove={remove}
+                />
             </Description>
             <SubTitle>{t(`info.order.${showSorted ? "sorted" : "original"}`)}</SubTitle>
             <PaletteWrapper>
