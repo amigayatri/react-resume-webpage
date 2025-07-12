@@ -1,6 +1,6 @@
-import { Select } from "../../../../../common/client.tsx"
+import { Select } from "../../../../common/client.tsx"
+import { generateDivisionOptions } from "../lib"
 import { SelectDivisionProps } from "../types.ts"
-import { generateDivisionOptions } from "../functions.ts"
 
 export const SelectDivision = ({
 	defaultVal,

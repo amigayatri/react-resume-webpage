@@ -1,6 +1,6 @@
-import { Select, PaletteSelect } from "../../../../../common/client.tsx"
+import { PaletteSelect, Select } from "../../../../common/client.tsx"
+import { generateFilterOptions } from "../lib"
 import { SelectThemeProps } from "../types.ts"
-import { generateFilterOptions } from "../functions.ts"
 
 export const SelectTheme = ({
 	handleTheme,
@@ -8,12 +8,15 @@ export const SelectTheme = ({
 	selectStyle,
 	t,
 	selected,
+	controls,
+	contrast,
 	lng
 }: SelectThemeProps) => {
+	console.log("selected", selected, controls.palette)
 	return (
 		<>
 			<PaletteSelect
-				defaultValue={{ group: selected.group, palette: selected.name }}
+				defaultValue={{ group: controls.palette.group, palette: controls.palette.name }}
 				customStyle={selectStyle}
 				label={{ palette: t("select.palette"), group: t("select.group") }}
 				type="by-group"
@@ -26,7 +29,7 @@ export const SelectTheme = ({
 			/>
 			<Select
 				local="brasil"
-				defaultValue="1"
+				defaultValue={contrast.value.toString()}
 				fontSize={1.5}
 				customStyle={selectStyle}
 				onHeader={false}
