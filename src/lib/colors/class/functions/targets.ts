@@ -16,19 +16,36 @@ const addTarget: addTarget = (newTarget) => {
 	targets.set(code, inverse)
 }
 
+type addList = (newTargets: target[]) => void
+const addList: addList = (newTargets) => {
+    for (const toAdd of newTargets) {
+        addTarget(toAdd)
+    }
+}
+
 type removeTarget = (key: target) => void
 const removeTarget: removeTarget = (key) => {
-	targets.delete(key.toUpperCase())
+    targets.delete(key.toUpperCase())
+}
+
+type getParams = () => string
+const getParams = () => {
+    const cleanArr = Array.from(targets.entries(), ([from]) => from.replace("#", ""))
+    return cleanArr.join(",")
 }
 
 export interface TargetControllerClass {
-	add: addTarget
-	remove: removeTarget
-	get: getTargets
+    add: addTarget
+    addList: addList
+    remove: removeTarget
+    get: getTargets
+    getParams: getParams
 }
 
 export class TargetController implements TargetControllerClass {
-	add = addTarget
-	remove = removeTarget
-	get = getTargets
+    add = addTarget
+    addList = addList
+    remove = removeTarget
+    get = getTargets
+    getParams = getParams
 }
