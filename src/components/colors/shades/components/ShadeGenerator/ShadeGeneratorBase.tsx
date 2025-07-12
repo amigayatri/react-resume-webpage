@@ -1,7 +1,7 @@
-import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react"
 import { useTheme } from "styled-components"
 import { AddColor, ColorList, ShadeList, TargetList } from "../"
+import { useMyRouter } from "../../../../../hooks/"
 import { Controller, createColor } from "../../../../../lib/colors/"
 import { getPalette } from "../../../../../lib/palettes/"
 import { ShadeGeneratorBaseProps, colorsMap } from "../types"
@@ -16,10 +16,7 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
     const [updatedList, setUpdatedList] = useState(true)
     const [controller, setController] = useState(new Controller())
     const [targets, setTargets] = useState(controller.targets.get())
-
-    const searchParams = useSearchParams()
-    const pathname = usePathname()
-    const router = useRouter()
+    const myRouter = useMyRouter()
 
     useEffect(() => {
         const newController = new Controller()
@@ -36,12 +33,10 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
     }
 
     const updateParams = () => {
-        const currParams = new URLSearchParams(searchParams)
-        currParams.set("targets", controller.targets.getParams())
-        currParams.set("steps", controller.steps.getParams())
-        currParams.set("colors", buildColorParams())
-        console.log(currParams.toString())
-        router.push(`${pathname}?${currParams.toString()}`)
+        myRouter.params.set("targets", controller.targets.getParams())
+        myRouter.params.set("steps", controller.steps.getParams())
+        myRouter.params.set("colors", buildColorParams())
+        myRouter.update()
     }
 
     const getCleanParamArr: cleanParamArr = (paramStr) => {
@@ -52,11 +47,10 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
     }
 
     const getParams = () => {
-        const currParams = new URLSearchParams(searchParams)
         return {
-            steps: currParams.has("steps") ? Number(currParams.get("steps")) : 4,
-            targets: getCleanParamArr(currParams.get("targets")),
-            colors: getCleanParamArr(currParams.get("colors"))
+            steps: myRouter.params.has("steps") ? Number(myRouter.params.get("steps")) : 4,
+            targets: getCleanParamArr(myRouter.params.get("targets")),
+            colors: getCleanParamArr(myRouter.params.get("colors"))
         }
     }
 
@@ -65,7 +59,6 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
         controller.steps.set(paramInfo.steps)
         controller.targets.addList(paramInfo.targets)
         paramInfo.colors.forEach(addColor)
-        console.log(paramInfo)
     }
 
     const addColor = (code: string) => {
@@ -86,6 +79,7 @@ export const ShadeGeneratorBase = ({ lng, t }: ShadeGeneratorBaseProps) => {
         if (selectedPalette === undefined) return empty
         return selectedPalette.colors
     }
+
     const addPalette = (group: string, palette: string) => {
         for (const color of getPaletteColors(group, palette)) {
             addColor(color)
