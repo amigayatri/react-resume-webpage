@@ -1,32 +1,33 @@
 "use client"
 
+import { HexColorInput, HexColorPicker } from "react-colorful"
 import styled from "styled-components"
 import { media } from "../../../../../../../constants/medias"
-import { HexColorInput, HexColorPicker } from "react-colorful"
 import { ButtonTag } from "../Button/ColorButton.styled"
 
 export const TargetWrapper = styled.div`
-	display: flex;
-	align-items: center;
-	${media.max.sm} {
-		flex-direction: column;
-		align-items: flex-start;
-	}
+    display: flex;
+    align-items: center;
+    ${media.max.sm} {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 `
 
 export const ColorInputWrapper = styled.div`
-	margin-right: 8px;
+    margin-right: 8px;
 `
 
 export const SelectedButton = styled(ButtonTag)`
-	height: fit-content;
+    height: fit-content;
 `
 export const HexInput = styled(HexColorInput)`
-	background-color: transparent;
-	border: 2px solid ${({ theme }) => theme.primary};
-	padding: 2px 4px;
-	border-radius: 4px;
-	margin-bottom: 8px;
+    background-color: transparent;
+    border: 2px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary};
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-bottom: 8px;
 `
 
 export const ColorPicker = styled(HexColorPicker)`
