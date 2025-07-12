@@ -1,2 +1,4 @@
 import { BrazilianMap } from "./BrazilianMap/client"
-export { BrazilianMap }
+import { Controls } from "./Controls"
+export { BrazilianMap, Controls }
+
