@@ -1,3 +1,6 @@
-import { useGetFlagCountry } from "./useGetFlagCountry"
 import { useGetCurrentHost } from "./useGetCurrentHost"
-export { useGetCurrentHost, useGetFlagCountry }
+import { useGetFlagCountry } from "./useGetFlagCountry"
+import { useGetParams } from "./useGetParams"
+import { useMyRouter } from "./useMyRouter"
+
+export { useGetCurrentHost, useGetFlagCountry, useGetParams, useMyRouter }
