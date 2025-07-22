@@ -1,24 +1,25 @@
 {
-  "path": {
-    "404": "Não Encontrado",
-    "brasil": "Brasil",
-    "map": "Mapa do Brasil",
-    "holidays": "Feriados Brasileiros",
-    "cats": "=^.^=",
-    "colors": "Cores",
-    "extra-languages": "Línguas extras",
-    "home": "Página inicial",
-    "icons": "Ícones do projeto",
-    "detailed-icon": "Detalhes do Ícone {{iconId}}",
-    "leetcode": "LeetCode",
-    "maintenance": "Página em Manutenção",
-    "palette": "Paletas",
-    "resume": "Currículo",
-    "site-stats": "Estatísticas",
-    "shades": "Variações de Tons",
-    "lyric": "Letra de {{musicName}}",
-    "musics": "Músicas disponíveis"
-  },
-  "base-title": "{{pathTitle}} | Amira Gayatri",
-  "content": "Site pessoal"
+    "path": {
+        "404": "Não Encontrado",
+        "brasil": "Brasil",
+        "map": "Mapa do Brasil",
+        "holidays": "Feriados Brasileiros",
+        "cats": "=^.^=",
+        "colors": "Cores",
+        "extra-languages": "Línguas extras",
+        "home": "Página inicial",
+        "icons": "Ícones do projeto",
+        "detailed-icon": "Detalhes do Ícone {{iconId}}",
+        "leetcode": "LeetCode",
+        "maintenance": "Página em Manutenção",
+        "palette": "Paletas",
+        "resume": "Currículo",
+        "site-stats": "Estatísticas",
+        "shades": "Variações de Tons",
+        "shows": "Próximos shows",
+        "lyric": "Letra de {{musicName}}",
+        "musics": "Músicas disponíveis"
+    },
+    "base-title": "{{pathTitle}} | Amira Gayatri",
+    "content": "Site pessoal"
 }

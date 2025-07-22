@@ -17,7 +17,8 @@
         "shades": "Παραλλαγές τόνου",
         "lyric": "στίχοι {{musicName}}",
         "musics": "Διαθέσιμα τραγούδια",
-        "detailed-icon": "Λεπτομέρειες εικονιδίου {{iconId}}"
+        "detailed-icon": "Λεπτομέρειες εικονιδίου {{iconId}}",
+        "shows": "Επόμενες εμφανίσεις"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Προσωπική ιστοσελίδα"

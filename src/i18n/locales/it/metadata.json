@@ -17,7 +17,8 @@
         "shades": "Variazioni di tono",
         "lyric": "Testi di {{musicName}}",
         "musics": "Canzoni disponibili",
-        "detailed-icon": "Dettagli icona {{iconId}}"
+        "detailed-icon": "Dettagli icona {{iconId}}",
+        "shows": "Prossimi spettacoli"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Sito personale"

@@ -17,7 +17,8 @@
         "shades": "स्वर भिन्नता",
         "lyric": "{{musicName}} गीत",
         "musics": "उपलब्ध गाने",
-        "detailed-icon": "चिह्न विवरण {{iconId}}"
+        "detailed-icon": "चिह्न विवरण {{iconId}}",
+        "shows": "अगला शो"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "निजी वेबसाइट"

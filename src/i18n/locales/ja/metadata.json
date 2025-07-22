@@ -17,7 +17,8 @@
         "shades": "音色バリエーション",
         "lyric": "{{musicName}}の歌詞",
         "musics": "利用可能な曲",
-        "detailed-icon": "アイコンの詳細 {{iconId}}"
+        "detailed-icon": "アイコンの詳細 {{iconId}}",
+        "shows": "次のショー"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "個人ウェブサイト"

@@ -17,7 +17,8 @@
         "shades": "اختلافات النغمات",
         "lyric": "كلمات اغنية {{musicName}}.",
         "musics": "الأغاني المتوفرة",
-        "detailed-icon": "تفاصيل الرمز {{iconId}}"
+        "detailed-icon": "تفاصيل الرمز {{iconId}}",
+        "shows": "العروض التالية"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "موقع شخصي"

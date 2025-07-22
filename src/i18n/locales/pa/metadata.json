@@ -17,7 +17,8 @@
         "shades": "ਟੋਨ ਭਿੰਨਤਾਵਾਂ",
         "lyric": "{{musicName}} ਬੋਲ",
         "musics": "ਉਪਲਬਧ ਗੀਤ",
-        "detailed-icon": "ਆਈਕਨ ਵੇਰਵੇ {{iconId}}"
+        "detailed-icon": "ਆਈਕਨ ਵੇਰਵੇ {{iconId}}",
+        "shows": "ਅਗਲਾ ਸ਼ੋਅ"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ਨਿੱਜੀ ਵੈੱਬਸਾਈਟ"
