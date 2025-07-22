@@ -17,7 +17,8 @@
         "shades": "Tone Variations",
         "lyric": "{{musicName}} lyrics",
         "musics": "Praesto carmina",
-        "detailed-icon": "Icon Details {{iconId}}"
+        "detailed-icon": "Icon Details {{iconId}}",
+        "shows": "Deinde ostendit"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

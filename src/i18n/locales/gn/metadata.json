@@ -17,7 +17,8 @@
         "shades": "Umi Variación de Tono rehegua",
         "lyric": "{{musicName}} ñe'ẽpoty",
         "musics": "Purahéi ojeguerekóva",
-        "detailed-icon": "Icono rehegua Detalles {{iconId}}"
+        "detailed-icon": "Icono rehegua Detalles {{iconId}}",
+        "shows": "Upe rire ohechauka ."
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Página web personal"

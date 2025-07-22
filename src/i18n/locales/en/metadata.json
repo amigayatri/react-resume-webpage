@@ -17,7 +17,8 @@
         "shades": "Tone Variations",
         "lyric": "{{musicName}} lyrics",
         "musics": "Available songs",
-        "detailed-icon": "Icon Details {{iconId}}"
+        "detailed-icon": "Icon Details {{iconId}}",
+        "shows": "Next shows"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "Personal website"

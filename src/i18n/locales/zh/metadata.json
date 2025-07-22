@@ -17,7 +17,8 @@
         "shades": "音调变化",
         "lyric": "{{musicName}} 歌词",
         "musics": "可用歌曲",
-        "detailed-icon": "图标详细信息 {{iconId}}"
+        "detailed-icon": "图标详细信息 {{iconId}}",
+        "shows": "下一个节目"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "网站佩索阿尔"

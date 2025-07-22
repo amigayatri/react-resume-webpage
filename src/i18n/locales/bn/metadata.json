@@ -17,7 +17,8 @@
         "shades": "টোন বৈচিত্র",
         "lyric": "{{musicName}} গানের কথা",
         "musics": "উপলব্ধ গান",
-        "detailed-icon": "আইকনের বিবরণ {{iconId}}"
+        "detailed-icon": "আইকনের বিবরণ {{iconId}}",
+        "shows": "পরবর্তী শো"
     },
     "base-title": "{{pathTitle}} | Amira Gayatri",
     "content": "ব্যক্তিগত ওয়েবসাইট"
