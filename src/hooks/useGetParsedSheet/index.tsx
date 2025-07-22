@@ -98,13 +98,13 @@ const parseEntry: parseEntry = (rawLine) => {
 }
 
 export const useGetParsedSheet = async () => {
-	const response = await fetch(showURL)
-	const csvText = await response.text()
-	const csvLines = csvText.split("\n")
-	const tableHeader = csvLines.shift()
-	const tableEntries = csvLines.map(parseEntry).filter((val) => val !== undefined)
-	console.log(tableHeader)
-	const resultArr = []
-	console.log(tableEntries, tableEntries.length)
-	return showURL
+    const response = await fetch(showURL)
+    const csvText = await response.text()
+    const csvLines = csvText.split("\n")
+    const tableHeader = csvLines.shift()
+    const tableEntries = csvLines.map(parseEntry).filter((val) => val !== undefined)
+    console.log(tableHeader)
+    // const resultArr = []
+    console.log(tableEntries, tableEntries.length)
+    return showURL
 }
