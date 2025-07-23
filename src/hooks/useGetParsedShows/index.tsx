@@ -103,6 +103,6 @@ export const useGetParsedShows = async () => {
     const tsvText = await useGetSheet(showURL)
     const tsvLines = tsvText.split("\n")
     const tableHeader = tsvLines.shift()
-    // console.log("tableHeader", tableHeader)
+    console.log("tableHeader", tableHeader)
     return tsvLines
 }
