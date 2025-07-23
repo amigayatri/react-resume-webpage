@@ -5,12 +5,14 @@ import styled from "styled-components"
 export const ShowListWrapper = styled.section``
 
 export const SectionTitle = styled.h2<{ $loveMode: boolean }>`
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 16px 0;
     overflow-x: auto;
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    color: ${({ theme }) => theme.pink};
 
     &::after,
     &::before {
@@ -26,4 +28,15 @@ export const SectionTitle = styled.h2<{ $loveMode: boolean }>`
         border-radius: 24px;
         margin: 0 16px;
     }
+`
+export const ShowListItem = styled.div`
+    border: 2px solid ${({ theme }) => theme.graphite};
+    background-color: ${({ theme }) => theme.pink};
+    padding: 16px;
+    margin: 8px 4px;
+    border-radius: 16px;
+    color: ${({ theme }) => theme.almostBlack};
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 `
