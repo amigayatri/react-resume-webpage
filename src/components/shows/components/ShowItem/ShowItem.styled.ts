@@ -3,12 +3,12 @@
 import styled from "styled-components"
 
 export const ShowItemWrapper = styled.div`
-    border: 2px solid ${({ theme }) => theme.graphite};
-    background-color: ${({ theme }) => theme.pink};
+    border: 2px solid ${({ theme }) => theme.pink};
+    background-color: ${({ theme }) => theme.almostBlack};
     padding: 16px;
     margin: 8px 4px;
     border-radius: 16px;
-    color: ${({ theme }) => theme.almostBlack};
+    color: ${({ theme }) => theme.pink};
     font-weight: bold;
     text-align: left;
 `
@@ -41,7 +41,7 @@ export const Line = styled.div`
     width: calc(100% + 32px);
     height: 4px;
     margin: 8px -16px;
-    background-color: ${({ theme }) => theme.almostBlack};
+    background-color: ${({ theme }) => theme.pink};
 `
 
 export const Alert = styled.span`

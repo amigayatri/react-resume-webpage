@@ -14,69 +14,69 @@ const TicketInfo = ({ticket}: {ticket: { purchased: boolean, type: string }}) =>
 }
 
 const PlaceInfo = ({
-	place,
-	openState
+    place,
+    openState
 }: {
-	place: string
-	openState: [boolean, React.Dispatch<React.SetStateAction<boolean>>]
+    place: string
+    openState: [boolean, React.Dispatch<React.SetStateAction<boolean>>]
 }) => {
-	const iframeUrl = `https://maps.google.com/maps?q=${place}&output=embed`
-	return (
-		<InfoWrapper>
-			<Line />
-			<Place>Local: {place}</Place>
-			<Accordion customColor="#212117" customBgColor="#f92472" openState={openState} lng="" label="Ver no mapa">
-				<Iframe src={iframeUrl}></Iframe>
-			</Accordion>
-		</InfoWrapper>
-	)
+    const iframeUrl = `https://maps.google.com/maps?q=${place}&output=embed`
+    return (
+        <InfoWrapper>
+            <Line />
+            <Place>Local: {place}</Place>
+            <Accordion customColor="#f92472" customBgColor="#212117" openState={openState} lng="" label="Ver no mapa">
+                <Iframe src={iframeUrl}></Iframe>
+            </Accordion>
+        </InfoWrapper>
+    )
 }
 
-const MainInfo = ({artist, date, city}: {artist: string, date: string, city: string}) => {
-	return (
-		<>
-			<ArtistName>{artist}</ArtistName>
-			<Line />
-			<DateAndCity>
-				<Date>{date}</Date>
-				<City>{city}</City>
-			</DateAndCity>
-		</>
-	)
+const MainInfo = ({ artist, date, city }: { artist: string; date: string; city: string }) => {
+    return (
+        <>
+            <ArtistName>{artist}</ArtistName>
+            <Line />
+            <DateAndCity>
+                <Date>{date}</Date>
+                <City>{city}</City>
+            </DateAndCity>
+        </>
+    )
 }
 
 const AccommodationInfo = ({
-	accommodation,
-	openState
+    accommodation,
+    openState
 }: {
-	accommodation?: { start: string; end: string; name: string; address: string }
-	openState: [boolean, React.Dispatch<React.SetStateAction<boolean>>]
+    accommodation?: { start: string; end: string; name: string; address: string }
+    openState: [boolean, React.Dispatch<React.SetStateAction<boolean>>]
 }) => {
-	if (accommodation === undefined) {
-		return <></>
-	}
-	const { start, end, name } = accommodation
-	const iframeUrl = `https://maps.google.com/maps?q="${name.replace("&", "%26")}"&output=embed`
-	if (start === "" || end === "" || name === "") {
-		return (
-			<InfoWrapper>
-				<Line />
-				<Alert>Precisa reservar hospedagem!</Alert>
-			</InfoWrapper>
-		)
-	}
-	return (
-		<InfoWrapper>
-			<Line />
-			<Accordion customColor="#212117" customBgColor="#f92472" openState={openState} lng="" label="Hospedagem">
-				<ItemInfo>Nome: {name}</ItemInfo>
-				<ItemInfo>
-					Período: {start} - {end}
-				</ItemInfo>
-				<Iframe src={iframeUrl}></Iframe>
-			</Accordion>
-		</InfoWrapper>
-	)
+    if (accommodation === undefined) {
+        return <></>
+    }
+    const { start, end, name } = accommodation
+    const iframeUrl = `https://maps.google.com/maps?q="${name.replace("&", "%26")}"&output=embed`
+    if (start === "" || end === "" || name === "") {
+        return (
+            <InfoWrapper>
+                <Line />
+                <Alert>Precisa reservar hospedagem!</Alert>
+            </InfoWrapper>
+        )
+    }
+    return (
+        <InfoWrapper>
+            <Line />
+            <Accordion customColor="#f92472" customBgColor="#212117" openState={openState} lng="" label="Hospedagem">
+                <ItemInfo>Nome: {name}</ItemInfo>
+                <ItemInfo>
+                    Período: {start} - {end}
+                </ItemInfo>
+                <Iframe src={iframeUrl}></Iframe>
+            </Accordion>
+        </InfoWrapper>
+    )
 }
 
 const TravelWay = ({ date, way }: { date: string; way: string }) => {
