@@ -1,3 +1,4 @@
+import { Accordion } from "./Accordion/"
 import { Loading } from "./Loading"
 import { Main } from "./Main"
 import { PageLink } from "./PageLink"
@@ -6,4 +7,4 @@ import { Progress } from "./Progress"
 import { SVGIcon } from "./SVGIcon"
 import { Toggle } from "./Toggle"
 
-export { Loading, Main, PageLink, PageList, Progress, SVGIcon, Toggle }
+export { Accordion, Loading, Main, PageLink, PageList, Progress, SVGIcon, Toggle }
