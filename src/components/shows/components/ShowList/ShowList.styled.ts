@@ -29,14 +29,3 @@ export const SectionTitle = styled.h2<{ $loveMode: boolean }>`
         margin: 0 16px;
     }
 `
-export const ShowListItem = styled.div`
-    border: 2px solid ${({ theme }) => theme.graphite};
-    background-color: ${({ theme }) => theme.pink};
-    padding: 16px;
-    margin: 8px 4px;
-    border-radius: 16px;
-    color: ${({ theme }) => theme.almostBlack};
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-`

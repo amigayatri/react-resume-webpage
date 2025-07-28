@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react"
 import { useGetParsedShows } from "../../../../hooks/"
-import { ShowListBaseProps } from "../types"
-import { SectionTitle, ShowListItem, ShowListWrapper } from "./ShowList.styled"
+import { ShowItem } from "../ShowItem"
+import { ShowListBaseProps, ShowObject } from "../types"
+import { SectionTitle, ShowListWrapper } from "./ShowList.styled"
 
-export const ShowListBase = ({ title, loveMode }: ShowListBaseProps) => {
-    const [sheetLines, setSheetLines] = useState<string[]>([])
+export const ShowListBase = ({ title, loveMode, t, lng }: ShowListBaseProps) => {
+    const [sheetLines, setSheetLines] = useState<ShowObject[]>([])
 
     useEffect(() => {
         useGetParsedShows().then((lines) => {
@@ -19,7 +20,8 @@ export const ShowListBase = ({ title, loveMode }: ShowListBaseProps) => {
     return (
         <ShowListWrapper>
             <SectionTitle $loveMode={loveMode}>{title}</SectionTitle>
-            {sheetLines.length > 0 && sheetLines.map((line, index) => <ShowListItem key={index}>{line}</ShowListItem>)}
+            {sheetLines.length > 0 &&
+                sheetLines.map((line, index) => <ShowItem showObject={line} key={index} t={t} lng={lng} />)}
         </ShowListWrapper>
     )
 }
