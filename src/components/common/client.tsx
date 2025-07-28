@@ -11,25 +11,26 @@ import { PageList } from "./PageList/client"
 import { PaletteSelect } from "./PaletteSelect/client"
 import { Progress } from "./Progress/client"
 import { Select } from "./Select/client"
-import { SVGIcon } from "./SVGIcon/client"
-import { Toggle } from "./Toggle/client"
 import { SimpleHero } from "./SimpleHero/client"
+import { SVGIcon } from "./SVGIcon/client"
 import ThemeClient from "./ThemeClient"
+import { Toggle } from "./Toggle/client"
 
 export {
-	Footer,
-	Header,
-	LanguageSelect,
-	Main,
-	MulticoloredName,
-	Navigation,
-	PageLink,
-	PageList,
-	PaletteSelect,
-	Progress,
-	Select,
-	SVGIcon,
-	Toggle,
-	ThemeClient,
-	SimpleHero
+    Footer,
+    Header,
+    LanguageSelect,
+    Main,
+    MulticoloredName,
+    Navigation,
+    PageLink,
+    PageList,
+    PaletteSelect,
+    Progress,
+    Select,
+    SimpleHero,
+    SVGIcon,
+    ThemeClient,
+    Toggle
 }
+
