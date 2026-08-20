@@ -107,7 +107,8 @@
             "fullmonokai": "Μονοκάι",
             "grayscalemonokai": "Monokai Grayscale",
             "accent": "χρώματα έμφασης",
-            "triple": "Μπλε, μωβ και ροζ"
+            "triple": "Μπλε, μωβ και ροζ",
+            "backgrounds": "Χρώματα φόντου"
         }
     },
     "option": "παλέτα {{optionName}}",

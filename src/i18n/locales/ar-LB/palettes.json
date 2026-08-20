@@ -107,7 +107,8 @@
             "fullmonokai": "مونوكاي",
             "grayscalemonokai": "مونوكاي الرمادي",
             "accent": "ألوان لهجة",
-            "triple": "الأزرق والأرجواني والوردي"
+            "triple": "الأزرق والأرجواني والوردي",
+            "backgrounds": "ألوان الخلفية"
         }
     },
     "option": "لوحة {{optionName}}",

@@ -107,7 +107,8 @@
             "fullmonokai": "Monokai",
             "grayscalemonokai": "Monokai Grayscale",
             "accent": "accent colors",
-            "triple": "Blue, purple and pink"
+            "triple": "Blue, purple and pink",
+            "backgrounds": "Background colors"
         }
     },
     "option": "{{optionName}} palette",

@@ -107,7 +107,8 @@
             "fullmonokai": "Monokai",
             "grayscalemonokai": "Monokai in scala di grigi",
             "accent": "colori d'accento",
-            "triple": "Blu, viola e rosa"
+            "triple": "Blu, viola e rosa",
+            "backgrounds": "Colori di sfondo"
         }
     },
     "option": "tavolozza {{optionName}}",

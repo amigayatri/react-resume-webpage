@@ -107,7 +107,8 @@
             "fullmonokai": "モノカイ",
             "grayscalemonokai": "モノカイグレースケール",
             "accent": "アクセントカラー",
-            "triple": "青、紫、ピンク"
+            "triple": "青、紫、ピンク",
+            "backgrounds": "背景色"
         }
     },
     "option": "{{optionName}} パレット",

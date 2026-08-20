@@ -4,5 +4,11 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "https://books.amiragayatri.dev/"
+  to = "https://script.google.com/macros/s/AKfycbzkFLGOyvQunSZPmkr8WqcPRgWbEzedvkRnGxVlogh_TSbVelsnJd1DegHFVHgf5yZ_/exec"
+  status = 200
+  force = true
+
   [[plugins]]
   package = "@netlify/plugin-nextjs"

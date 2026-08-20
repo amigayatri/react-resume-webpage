@@ -107,7 +107,8 @@
             "fullmonokai": "monokai",
             "grayscalemonokai": "Escala de grises Monokai",
             "accent": "colores de acento",
-            "triple": "Azul, morado y rosa"
+            "triple": "Azul, morado y rosa",
+            "backgrounds": "Colores de fondo"
         }
     },
     "option": "paleta {{optionName}}",

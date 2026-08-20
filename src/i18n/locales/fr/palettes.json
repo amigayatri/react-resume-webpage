@@ -107,7 +107,8 @@
             "fullmonokai": "Monokaï",
             "grayscalemonokai": "Niveaux de gris Monokai",
             "accent": "couleurs d'accent",
-            "triple": "Bleu, violet et rose"
+            "triple": "Bleu, violet et rose",
+            "backgrounds": "Couleurs d'arrière-plan"
         }
     },
     "option": "Palette {{optionName}}",
