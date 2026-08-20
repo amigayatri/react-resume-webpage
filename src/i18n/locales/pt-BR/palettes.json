@@ -105,6 +105,7 @@
         "theme": {
             "current": "atual",
             "accent": "cores de destaque",
+            "backgrounds": "Cores de fundo",
             "triple": "Azul, roxo e rosa",
             "fullmonokai": "Monokai",
             "grayscalemonokai": "Escala de cinza monokai"

@@ -107,7 +107,8 @@
             "fullmonokai": "物会",
             "grayscalemonokai": "Monokai 灰度",
             "accent": "强调色",
-            "triple": "蓝色、紫色和粉色"
+            "triple": "蓝色、紫色和粉色",
+            "backgrounds": "背景颜色"
         }
     },
     "option": "{{optionName}} 调色板",

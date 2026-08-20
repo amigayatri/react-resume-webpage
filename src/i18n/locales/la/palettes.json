@@ -107,7 +107,8 @@
             "fullmonokai": "Monokai",
             "grayscalemonokai": "Monokai Grayscale",
             "accent": "accentus colorum",
-            "triple": "Hyacintho, purpura et roseo"
+            "triple": "Hyacintho, purpura et roseo",
+            "backgrounds": "Colorum background"
         }
     },
     "option": "{{optionName}} palette",

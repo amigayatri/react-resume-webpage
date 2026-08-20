@@ -107,7 +107,8 @@
             "fullmonokai": "ਮੋਨੋਕਾਈ",
             "grayscalemonokai": "ਮੋਨੋਕਾਈ ਗ੍ਰੇਸਕੇਲ",
             "accent": "ਲਹਿਜ਼ੇ ਦੇ ਰੰਗ",
-            "triple": "ਨੀਲਾ, ਜਾਮਨੀ ਅਤੇ ਗੁਲਾਬੀ"
+            "triple": "ਨੀਲਾ, ਜਾਮਨੀ ਅਤੇ ਗੁਲਾਬੀ",
+            "backgrounds": "ਬੈਕਗ੍ਰਾਊਂਡ ਰੰਗ"
         }
     },
     "option": "{{optionName}} ਪੈਲੇਟ",

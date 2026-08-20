@@ -107,7 +107,8 @@
             "fullmonokai": "Monokai",
             "grayscalemonokai": "Monokai-Graustufen",
             "accent": "Akzentfarben",
-            "triple": "Blau, Lila und Rosa"
+            "triple": "Blau, Lila und Rosa",
+            "backgrounds": "Hintergrundfarben"
         }
     },
     "option": "{{optionName}}-Palette",

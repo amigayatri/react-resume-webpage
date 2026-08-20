@@ -107,7 +107,8 @@
             "fullmonokai": "Monokai rehegua",
             "grayscalemonokai": "Monokai Escala de Grises rehegua",
             "accent": "umi sa’y acento rehegua",
-            "triple": "Hovy, morotĩ ha rósa"
+            "triple": "Hovy, morotĩ ha rósa",
+            "backgrounds": "Umi sa’y fondo rehegua"
         }
     },
     "option": "{{opciónName}} paleta rehegua",

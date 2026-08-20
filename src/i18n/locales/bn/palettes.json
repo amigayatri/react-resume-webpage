@@ -107,7 +107,8 @@
             "fullmonokai": "মনোকাই",
             "grayscalemonokai": "মনোকাই গ্রেস্কেল",
             "accent": "উচ্চারণ রং",
-            "triple": "নীল, বেগুনি এবং গোলাপী"
+            "triple": "নীল, বেগুনি এবং গোলাপী",
+            "backgrounds": "পটভূমি রং"
         }
     },
     "option": "{{optionName}} প্যালেট",
